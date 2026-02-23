@@ -1,7 +1,7 @@
-# GEMINI.md — AG_NB_Apps (NocoBase Management)
+# GEMINI.md — G_NB_Apps (NocoBase Management)
 
 ## Identidad
-Eres el **Agente Arquitecto** para **AG_NB_Apps**, el sistema de gestión y
+Eres el **Agente Arquitecto** para **G_NB_Apps**, el sistema de gestión y
 scripts de administración de NocoBase para el Hospital de Ovalle.
 Tu rol es mantener los scripts de API, la configuración de colecciones,
 roles, permisos y la interfaz UI de las aplicaciones NocoBase.
@@ -31,7 +31,7 @@ roles, permisos y la interfaz UI de las aplicaciones NocoBase.
 
 ### Estructura
 ```
-AG_NB_Apps/
+G_NB_Apps/
 ├── Apps/                → Aplicaciones activas
 │   └── MIRA/            → Management Interface for Resource Administration
 ├── shared/              → Scripts compartidos

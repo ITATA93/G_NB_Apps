@@ -1,0 +1,341 @@
+{
+  "name": "ugco-especialidad-piel",
+  "title": "Piel y Partes Blandas - Casos Oncológicos",
+  "description": "Vista de casos oncológicos filtrados por especialidad",
+  "version": "1.0.0",
+  "variables": {
+    "ESPECIALIDAD_ID": "piel",
+    "ESPECIALIDAD_NOMBRE": "Piel y Partes Blandas",
+    "ESPECIALIDAD_CODIGO": "PIEL_Y_PARTES_BLANDAS",
+    "ESPECIALIDAD_COLOR": "#FFC107",
+    "ESPECIALIDAD_ICONO": "💛"
+  },
+  "layout": {
+    "type": "page",
+    "title": "💛 Piel y Partes Blandas - Casos Oncológicos",
+    "properties": {
+      "header": {
+        "type": "void",
+        "x-component": "PageHeader",
+        "x-component-props": {
+          "title": "Piel y Partes Blandas",
+          "subtitle": "Gestión de casos oncológicos",
+          "color": "#FFC107",
+          "actions": [
+            {
+              "type": "button",
+              "label": "+ Nuevo Caso",
+              "variant": "primary",
+              "action": "create",
+              "collection": "ugco_casooncologico",
+              "defaults": {
+                "especialidad_principal_id": "piel"
+              }
+            }
+          ]
+        }
+      },
+      "kpis": {
+        "type": "void",
+        "x-component": "Grid",
+        "x-component-props": {
+          "cols": 4,
+          "gap": 16
+        },
+        "properties": {
+          "kpi-total": {
+            "type": "void",
+            "x-component": "Statistic",
+            "x-component-props": {
+              "title": "Casos Total",
+              "color": "#FFC107",
+              "dataSource": {
+                "collection": "ugco_casooncologico",
+                "filter": {
+                  "especialidad_principal.codigo": "PIEL_Y_PARTES_BLANDAS",
+                  "estado_seguimiento": {
+                    "$ne": "CERRADO"
+                  }
+                },
+                "aggregate": "count"
+              }
+            }
+          },
+          "kpi-tratamiento": {
+            "type": "void",
+            "x-component": "Statistic",
+            "x-component-props": {
+              "title": "En Tratamiento",
+              "color": "#2196F3",
+              "dataSource": {
+                "collection": "ugco_casooncologico",
+                "filter": {
+                  "especialidad_principal.codigo": "PIEL_Y_PARTES_BLANDAS",
+                  "estado_adm": "TRATAMIENTO"
+                },
+                "aggregate": "count"
+              }
+            }
+          },
+          "kpi-pendientes": {
+            "type": "void",
+            "x-component": "Statistic",
+            "x-component-props": {
+              "title": "Pendientes",
+              "color": "#FFAB00",
+              "dataSource": {
+                "collection": "ugco_tarea",
+                "filter": {
+                  "caso.especialidad_principal.codigo": "PIEL_Y_PARTES_BLANDAS",
+                  "estado": "PENDIENTE"
+                },
+                "aggregate": "count"
+              }
+            }
+          },
+          "kpi-comite": {
+            "type": "void",
+            "x-component": "Statistic",
+            "x-component-props": {
+              "title": "Próx. Comité",
+              "color": "#9C27B0",
+              "dataSource": {
+                "collection": "ugco_comitecaso",
+                "filter": {
+                  "comite.especialidad.codigo": "PIEL_Y_PARTES_BLANDAS",
+                  "comite.fecha_sesion": {
+                    "$gte": "{{now}}"
+                  }
+                },
+                "aggregate": "count"
+              }
+            }
+          }
+        }
+      },
+      "filtros": {
+        "type": "void",
+        "x-component": "Filter",
+        "x-component-props": {
+          "collection": "ugco_casooncologico",
+          "fields": [
+            {
+              "field": "estado_adm",
+              "label": "Estado",
+              "type": "select",
+              "options": "ref_oncoestadoadm"
+            },
+            {
+              "field": "medico_tratante",
+              "label": "Médico",
+              "type": "select",
+              "options": "users"
+            },
+            {
+              "field": "paciente.nombre_completo",
+              "label": "Buscar paciente",
+              "type": "search"
+            }
+          ]
+        }
+      },
+      "tabs": {
+        "type": "void",
+        "x-component": "Tabs",
+        "x-component-props": {
+          "defaultActiveKey": "lista"
+        },
+        "properties": {
+          "tab-lista": {
+            "type": "void",
+            "x-component": "Tabs.TabPane",
+            "x-component-props": {
+              "key": "lista",
+              "tab": "📋 Lista de Casos"
+            },
+            "properties": {
+              "table": {
+                "type": "void",
+                "x-component": "Table",
+                "x-component-props": {
+                  "collection": "ugco_casooncologico",
+                  "filter": {
+                    "especialidad_principal.codigo": "PIEL_Y_PARTES_BLANDAS"
+                  },
+                  "sort": [
+                    {
+                      "field": "updated_at",
+                      "order": "desc"
+                    }
+                  ],
+                  "pageSize": 20,
+                  "rowSelection": true,
+                  "columns": [
+                    {
+                      "field": "semaforo",
+                      "title": "",
+                      "width": 40,
+                      "render": "semaforo",
+                      "component": "SemaforoEstado"
+                    },
+                    {
+                      "field": "UGCO_COD01",
+                      "title": "Código",
+                      "width": 100
+                    },
+                    {
+                      "field": "paciente.nombre_completo",
+                      "title": "Paciente",
+                      "width": 200
+                    },
+                    {
+                      "field": "diagnostico_cie10",
+                      "title": "Diagnóstico",
+                      "width": 150,
+                      "render": "{{cie10_glosa}}"
+                    },
+                    {
+                      "field": "tnm_display",
+                      "title": "TNM",
+                      "width": 100,
+                      "render": "T{{tnm_t}}N{{tnm_n}}M{{tnm_m}}"
+                    },
+                    {
+                      "field": "estado_adm",
+                      "title": "Estado",
+                      "width": 120,
+                      "component": "Tag",
+                      "colorMap": {
+                        "PROCESO_DIAGNOSTICO": "orange",
+                        "ETAPIFICACION": "purple",
+                        "TRATAMIENTO": "blue",
+                        "SEGUIMIENTO": "green",
+                        "CERRADO": "gray"
+                      }
+                    },
+                    {
+                      "field": "fecha_proximo_control",
+                      "title": "Próx. Control",
+                      "width": 110,
+                      "format": "date"
+                    },
+                    {
+                      "field": "tareas_pendientes_count",
+                      "title": "Pend.",
+                      "width": 60,
+                      "aggregate": "count",
+                      "relation": "tareas",
+                      "filter": {
+                        "estado": "PENDIENTE"
+                      }
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": "view",
+                      "label": "📋 Ver",
+                      "drawer": "ficha-caso"
+                    },
+                    {
+                      "type": "edit",
+                      "label": "📝 Editar"
+                    },
+                    {
+                      "type": "custom",
+                      "label": "📅 Agendar Comité",
+                      "action": "agendar-comite"
+                    }
+                  ],
+                  "bulkActions": [
+                    {
+                      "type": "custom",
+                      "label": "Agregar a Comité",
+                      "action": "bulk-agendar-comite"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "tab-kanban": {
+            "type": "void",
+            "x-component": "Tabs.TabPane",
+            "x-component-props": {
+              "key": "kanban",
+              "tab": "📊 Kanban"
+            },
+            "properties": {
+              "kanban": {
+                "type": "void",
+                "x-component": "Kanban",
+                "x-component-props": {
+                  "collection": "ugco_casooncologico",
+                  "filter": {
+                    "especialidad_principal.codigo": "PIEL_Y_PARTES_BLANDAS",
+                    "estado_seguimiento": {
+                      "$ne": "CERRADO"
+                    }
+                  },
+                  "groupField": "estado_adm",
+                  "columns": [
+                    {
+                      "key": "PROCESO_DIAGNOSTICO",
+                      "title": "Diagnóstico",
+                      "color": "#FF8B00"
+                    },
+                    {
+                      "key": "ETAPIFICACION",
+                      "title": "Etapificación",
+                      "color": "#9C27B0"
+                    },
+                    {
+                      "key": "TRATAMIENTO",
+                      "title": "Tratamiento",
+                      "color": "#2196F3"
+                    },
+                    {
+                      "key": "SEGUIMIENTO",
+                      "title": "Seguimiento",
+                      "color": "#4CAF50"
+                    },
+                    {
+                      "key": "CERRADO",
+                      "title": "Cerrado",
+                      "color": "#607D8B"
+                    }
+                  ],
+                  "cardTemplate": {
+                    "title": "{{paciente.apellido_paterno}}, {{paciente.nombres}}",
+                    "subtitle": "{{UGCO_COD01}}",
+                    "description": "{{cie10_glosa}}",
+                    "badge": {
+                      "field": "semaforo",
+                      "colorMap": {
+                        "critico": "red",
+                        "atencion": "yellow",
+                        "ok": "green"
+                      }
+                    },
+                    "footer": "{{tratamiento_actual}}"
+                  },
+                  "draggable": true,
+                  "onDragEnd": {
+                    "action": "update",
+                    "field": "estado_adm"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "drawers": {
+    "ficha-caso": {
+      "title": "Ficha del Caso",
+      "width": 900,
+      "schema": "$ref:ficha-caso-schema.json"
+    }
+  }
+}

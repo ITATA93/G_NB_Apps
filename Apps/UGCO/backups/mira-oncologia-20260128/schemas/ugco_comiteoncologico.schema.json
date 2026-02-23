@@ -1,0 +1,53 @@
+{
+  "collection": {
+    "name": "ugco_comiteoncologico",
+    "title": "Comité Oncológico",
+    "description": null,
+    "inherit": false,
+    "hidden": false,
+    "sortable": true
+  },
+  "fields": [
+    {
+      "key": "m5qikveugca",
+      "name": "resolucion",
+      "type": "text",
+      "interface": "textarea",
+      "description": null,
+      "collectionName": "ugco_comiteoncologico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Resolución"
+      }
+    },
+    {
+      "key": "w5m7stgfso9",
+      "name": "tipo_comite",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ugco_comiteoncologico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Tipo Comité"
+      }
+    },
+    {
+      "key": "z4dazqldl9j",
+      "name": "fecha_comite",
+      "type": "date",
+      "interface": "datetime",
+      "description": null,
+      "collectionName": "ugco_comiteoncologico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha Comité"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.958Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

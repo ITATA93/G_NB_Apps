@@ -1,0 +1,2727 @@
+[
+  {
+    "capturedAt": "2026-02-18T20:34:06.586Z",
+    "route": {
+      "id": 48,
+      "title": "Buscar Paciente",
+      "type": "page",
+      "schemaUid": "esyj7702o22",
+      "parentId": 47
+    },
+    "schema": {
+      "type": "void",
+      "x-component": "Page",
+      "name": "di7mnda9one",
+      "x-uid": "esyj7702o22",
+      "x-async": false
+    },
+    "blockTypes": [],
+    "collections": [],
+    "componentTree": [
+      "Page (esyj7702o22)"
+    ]
+  },
+  {
+    "capturedAt": "2026-02-18T20:34:06.604Z",
+    "route": {
+      "id": 349011282034689,
+      "title": "Funcionarios",
+      "type": "page",
+      "schemaUid": "vw3oe3ii47k",
+      "parentId": 349011282034688
+    },
+    "schema": {
+      "type": "void",
+      "x-component": "Page",
+      "properties": {
+        "grid": {
+          "type": "void",
+          "x-component": "Grid",
+          "x-initializer": "page:addBlock",
+          "properties": {
+            "95hlgp7sjw5": {
+              "type": "void",
+              "x-component": "Grid.Row",
+              "properties": {
+                "col1": {
+                  "type": "void",
+                  "x-component": "Grid.Col",
+                  "properties": {
+                    "block1": {
+                      "type": "void",
+                      "x-component": "CardItem",
+                      "x-decorator": "TableBlockProvider",
+                      "x-filter-targets": [],
+                      "x-component-props": {
+                        "title": "Funcionarios"
+                      },
+                      "x-decorator-props": {
+                        "action": "list",
+                        "params": {
+                          "pageSize": 20
+                        },
+                        "collection": "ag_funcionarios",
+                        "dataSource": "main"
+                      },
+                      "properties": {
+                        "actions": {
+                          "type": "void",
+                          "x-index": 1,
+                          "x-component": "ActionBar",
+                          "x-component-props": {
+                            "style": {
+                              "marginBottom": 16
+                            }
+                          },
+                          "properties": {
+                            "filter": {
+                              "type": "void",
+                              "title": "Filtrar",
+                              "x-index": 1,
+                              "x-action": "filter",
+                              "x-component": "Filter.Action",
+                              "x-component-props": {
+                                "icon": "FilterOutlined"
+                              },
+                              "x-uid": "hc7grr3ca80",
+                              "x-async": false
+                            },
+                            "refresh": {
+                              "type": "void",
+                              "title": "Actualizar",
+                              "x-index": 2,
+                              "x-action": "refresh",
+                              "x-component": "Action",
+                              "x-component-props": {
+                                "icon": "ReloadOutlined"
+                              },
+                              "x-uid": "n6f9n87692r",
+                              "x-async": false
+                            },
+                            "create": {
+                              "type": "void",
+                              "title": "Nuevo",
+                              "x-index": 3,
+                              "x-action": "create",
+                              "x-component": "Action",
+                              "x-decorator": "ACLActionProvider",
+                              "x-component-props": {
+                                "icon": "PlusOutlined",
+                                "type": "primary",
+                                "openMode": "drawer"
+                              },
+                              "x-uid": "oirnorwu0mg",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "xzt53a4k2v1",
+                          "x-async": false
+                        },
+                        "table": {
+                          "type": "array",
+                          "x-index": 2,
+                          "x-component": "TableV2",
+                          "x-component-props": {
+                            "rowKey": "id",
+                            "rowSelection": {
+                              "type": "checkbox"
+                            }
+                          },
+                          "x-use-component-props": "useTableBlockProps",
+                          "properties": {
+                            "nombre_completo": {
+                              "type": "void",
+                              "x-index": 1,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "nombre_completo": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_funcionarios.nombre_completo",
+                                  "x-uid": "8j9b8n8w3o1",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "5qmg017eyzj",
+                              "x-async": false
+                            },
+                            "rut": {
+                              "type": "void",
+                              "x-index": 2,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "rut": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_funcionarios.rut",
+                                  "x-uid": "ojdco73l2la",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "z2kzjg4pv1e",
+                              "x-async": false
+                            },
+                            "codigo_alma": {
+                              "type": "void",
+                              "x-index": 3,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "codigo_alma": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_funcionarios.codigo_alma",
+                                  "x-uid": "jjmsumxfs46",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "yk66i2j6mkc",
+                              "x-async": false
+                            },
+                            "especialidad": {
+                              "type": "void",
+                              "x-index": 4,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "especialidad": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_funcionarios.especialidad",
+                                  "x-uid": "56sl5tr41qv",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "7g8v2xjxw94",
+                              "x-async": false
+                            },
+                            "cargo": {
+                              "type": "void",
+                              "x-index": 5,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "cargo": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_funcionarios.cargo",
+                                  "x-uid": "xbnmcbyovry",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "vw6wx1fljil",
+                              "x-async": false
+                            },
+                            "email": {
+                              "type": "void",
+                              "x-index": 6,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "email": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_funcionarios.email",
+                                  "x-uid": "6ulxev0ngab",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "0p1c1vifkh4",
+                              "x-async": false
+                            },
+                            "jornada_horas": {
+                              "type": "void",
+                              "x-index": 7,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "jornada_horas": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_funcionarios.jornada_horas",
+                                  "x-uid": "50qvsnh1cg5",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "uxl936pzbz4",
+                              "x-async": false
+                            },
+                            "activo": {
+                              "type": "void",
+                              "x-index": 8,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "activo": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_funcionarios.activo",
+                                  "x-uid": "x2uyartgofh",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "5dfwzmj1a1u",
+                              "x-async": false
+                            },
+                            "__actions__": {
+                              "type": "void",
+                              "title": "Acciones",
+                              "x-index": 9,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.ActionBar",
+                              "x-component-props": {
+                                "width": 150
+                              },
+                              "properties": {
+                                "actions": {
+                                  "type": "void",
+                                  "x-component": "Space",
+                                  "x-component-props": {
+                                    "split": "|"
+                                  },
+                                  "properties": {
+                                    "view": {
+                                      "type": "void",
+                                      "title": "Ver",
+                                      "x-index": 1,
+                                      "x-action": "view",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "za15gg0lf49",
+                                      "x-async": false
+                                    },
+                                    "update": {
+                                      "type": "void",
+                                      "title": "Editar",
+                                      "x-index": 2,
+                                      "x-action": "update",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "mcijru94nbf",
+                                      "x-async": false
+                                    },
+                                    "delete": {
+                                      "type": "void",
+                                      "title": "Eliminar",
+                                      "x-index": 3,
+                                      "x-action": "delete",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "439mfn6bno2",
+                                      "x-async": false
+                                    }
+                                  },
+                                  "x-uid": "d5716hstmge",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "new4rxicuvo",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "nue9otbohe6",
+                          "x-async": false
+                        }
+                      },
+                      "x-uid": "036lruk59pq",
+                      "x-async": false,
+                      "x-index": 1
+                    }
+                  },
+                  "x-uid": "zet1f58yz1b",
+                  "x-async": false,
+                  "x-index": 1
+                }
+              },
+              "x-uid": "dib19kvypf1",
+              "x-async": false,
+              "x-index": 1
+            }
+          },
+          "x-uid": "dwcnh7wnbla",
+          "x-async": false,
+          "x-index": 1
+        }
+      },
+      "name": "ikszijt3oli",
+      "x-uid": "vw3oe3ii47k",
+      "x-async": true
+    },
+    "blockTypes": [
+      "table"
+    ],
+    "collections": [
+      "ag_funcionarios"
+    ],
+    "componentTree": [
+      "Page (vw3oe3ii47k)",
+      "  Grid (dwcnh7wnbla)",
+      "    Grid.Row (dib19kvypf1)",
+      "      Grid.Col (zet1f58yz1b)",
+      "        CardItem [TableBlockProvider] (036lruk59pq)",
+      "          ActionBar (xzt53a4k2v1)",
+      "            Filter.Action (hc7grr3ca80)",
+      "            Action (n6f9n87692r)",
+      "            Action [ACLActionProvider] (oirnorwu0mg)",
+      "          TableV2 (nue9otbohe6)",
+      "            TableV2.Column [TableV2.Column.Decorator] (5qmg017eyzj)",
+      "              CollectionField [FormItem] (8j9b8n8w3o1)",
+      "            TableV2.Column [TableV2.Column.Decorator] (z2kzjg4pv1e)",
+      "              CollectionField [FormItem] (ojdco73l2la)",
+      "            TableV2.Column [TableV2.Column.Decorator] (yk66i2j6mkc)",
+      "              CollectionField [FormItem] (jjmsumxfs46)",
+      "            TableV2.Column [TableV2.Column.Decorator] (7g8v2xjxw94)",
+      "              CollectionField [FormItem] (56sl5tr41qv)",
+      "            TableV2.Column [TableV2.Column.Decorator] (vw6wx1fljil)",
+      "              CollectionField [FormItem] (xbnmcbyovry)",
+      "            TableV2.Column [TableV2.Column.Decorator] (0p1c1vifkh4)",
+      "              CollectionField [FormItem] (6ulxev0ngab)",
+      "            TableV2.Column [TableV2.Column.Decorator] (uxl936pzbz4)",
+      "              CollectionField [FormItem] (50qvsnh1cg5)",
+      "            TableV2.Column [TableV2.Column.Decorator] (5dfwzmj1a1u)",
+      "              CollectionField [FormItem] (x2uyartgofh)",
+      "            TableV2.Column [TableV2.Column.ActionBar] (new4rxicuvo)",
+      "              Space (d5716hstmge)",
+      "                Action.Link [ACLActionProvider] (za15gg0lf49)",
+      "                Action.Link [ACLActionProvider] (mcijru94nbf)",
+      "                Action.Link [ACLActionProvider] (439mfn6bno2)"
+    ]
+  },
+  {
+    "capturedAt": "2026-02-18T20:34:06.622Z",
+    "route": {
+      "id": 349011284131841,
+      "title": "Bloques de Agenda",
+      "type": "page",
+      "schemaUid": "laph4v2w43s",
+      "parentId": 349011282034688
+    },
+    "schema": {
+      "type": "void",
+      "x-component": "Page",
+      "properties": {
+        "grid": {
+          "type": "void",
+          "x-component": "Grid",
+          "x-initializer": "page:addBlock",
+          "properties": {
+            "7i2kidhfpz4": {
+              "type": "void",
+              "x-component": "Grid.Row",
+              "properties": {
+                "col1": {
+                  "type": "void",
+                  "x-component": "Grid.Col",
+                  "properties": {
+                    "block1": {
+                      "type": "void",
+                      "x-component": "CardItem",
+                      "x-decorator": "TableBlockProvider",
+                      "x-filter-targets": [],
+                      "x-component-props": {
+                        "title": "Bloques de Agenda"
+                      },
+                      "x-decorator-props": {
+                        "action": "list",
+                        "params": {
+                          "pageSize": 20
+                        },
+                        "collection": "ag_bloques_agenda",
+                        "dataSource": "main"
+                      },
+                      "properties": {
+                        "actions": {
+                          "type": "void",
+                          "x-index": 1,
+                          "x-component": "ActionBar",
+                          "x-component-props": {
+                            "style": {
+                              "marginBottom": 16
+                            }
+                          },
+                          "properties": {
+                            "filter": {
+                              "type": "void",
+                              "title": "Filtrar",
+                              "x-index": 1,
+                              "x-action": "filter",
+                              "x-component": "Filter.Action",
+                              "x-component-props": {
+                                "icon": "FilterOutlined"
+                              },
+                              "x-uid": "s4vv9kyeazc",
+                              "x-async": false
+                            },
+                            "refresh": {
+                              "type": "void",
+                              "title": "Actualizar",
+                              "x-index": 2,
+                              "x-action": "refresh",
+                              "x-component": "Action",
+                              "x-component-props": {
+                                "icon": "ReloadOutlined"
+                              },
+                              "x-uid": "piboqdkgnnf",
+                              "x-async": false
+                            },
+                            "create": {
+                              "type": "void",
+                              "title": "Nuevo",
+                              "x-index": 3,
+                              "x-action": "create",
+                              "x-component": "Action",
+                              "x-decorator": "ACLActionProvider",
+                              "x-component-props": {
+                                "icon": "PlusOutlined",
+                                "type": "primary",
+                                "openMode": "drawer"
+                              },
+                              "x-uid": "fu34ba8z2ty",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "bbgiyjsqevy",
+                          "x-async": false
+                        },
+                        "table": {
+                          "type": "array",
+                          "x-index": 2,
+                          "x-component": "TableV2",
+                          "x-component-props": {
+                            "rowKey": "id",
+                            "rowSelection": {
+                              "type": "checkbox"
+                            }
+                          },
+                          "x-use-component-props": "useTableBlockProps",
+                          "properties": {
+                            "fecha": {
+                              "type": "void",
+                              "x-index": 1,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "fecha": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_bloques_agenda.fecha",
+                                  "x-uid": "lwv4tkluqzm",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "wbmqia8gid2",
+                              "x-async": false
+                            },
+                            "hora_inicio": {
+                              "type": "void",
+                              "x-index": 2,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "hora_inicio": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_bloques_agenda.hora_inicio",
+                                  "x-uid": "4jfysnhwjjr",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "zl691mo75lc",
+                              "x-async": false
+                            },
+                            "hora_fin": {
+                              "type": "void",
+                              "x-index": 3,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "hora_fin": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_bloques_agenda.hora_fin",
+                                  "x-uid": "675ph5oq7n8",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "vdrnj46r8ml",
+                              "x-async": false
+                            },
+                            "duracion_min": {
+                              "type": "void",
+                              "x-index": 4,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "duracion_min": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_bloques_agenda.duracion_min",
+                                  "x-uid": "0ca4hpyafcy",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "i1nwckoh2mp",
+                              "x-async": false
+                            },
+                            "subcategoria": {
+                              "type": "void",
+                              "x-index": 5,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "subcategoria": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_bloques_agenda.subcategoria",
+                                  "x-uid": "90p3m7geijf",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "282meq8krzr",
+                              "x-async": false
+                            },
+                            "periodo": {
+                              "type": "void",
+                              "x-index": 6,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "periodo": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_bloques_agenda.periodo",
+                                  "x-uid": "ovqd6e3wug7",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "meic79wvzos",
+                              "x-async": false
+                            },
+                            "observaciones": {
+                              "type": "void",
+                              "x-index": 7,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "observaciones": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_bloques_agenda.observaciones",
+                                  "x-uid": "hsq5d1jr7i3",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "h7wc1bitup9",
+                              "x-async": false
+                            },
+                            "__actions__": {
+                              "type": "void",
+                              "title": "Acciones",
+                              "x-index": 8,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.ActionBar",
+                              "x-component-props": {
+                                "width": 150
+                              },
+                              "properties": {
+                                "actions": {
+                                  "type": "void",
+                                  "x-component": "Space",
+                                  "x-component-props": {
+                                    "split": "|"
+                                  },
+                                  "properties": {
+                                    "view": {
+                                      "type": "void",
+                                      "title": "Ver",
+                                      "x-index": 1,
+                                      "x-action": "view",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "p2irkw8mn0e",
+                                      "x-async": false
+                                    },
+                                    "update": {
+                                      "type": "void",
+                                      "title": "Editar",
+                                      "x-index": 2,
+                                      "x-action": "update",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "tto4cv99vpw",
+                                      "x-async": false
+                                    },
+                                    "delete": {
+                                      "type": "void",
+                                      "title": "Eliminar",
+                                      "x-index": 3,
+                                      "x-action": "delete",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "tsklt3664sg",
+                                      "x-async": false
+                                    }
+                                  },
+                                  "x-uid": "1zpxey9rs3b",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "avw6b2nq7uy",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "m38tonbgjev",
+                          "x-async": false
+                        }
+                      },
+                      "x-uid": "x28mo2hzri4",
+                      "x-async": false,
+                      "x-index": 1
+                    }
+                  },
+                  "x-uid": "buiyi630ipn",
+                  "x-async": false,
+                  "x-index": 1
+                }
+              },
+              "x-uid": "6y3svqe1pcu",
+              "x-async": false,
+              "x-index": 1
+            }
+          },
+          "x-uid": "1ce3ejv4121",
+          "x-async": false,
+          "x-index": 1
+        }
+      },
+      "name": "9ewdejf2hrx",
+      "x-uid": "laph4v2w43s",
+      "x-async": true
+    },
+    "blockTypes": [
+      "table"
+    ],
+    "collections": [
+      "ag_bloques_agenda"
+    ],
+    "componentTree": [
+      "Page (laph4v2w43s)",
+      "  Grid (1ce3ejv4121)",
+      "    Grid.Row (6y3svqe1pcu)",
+      "      Grid.Col (buiyi630ipn)",
+      "        CardItem [TableBlockProvider] (x28mo2hzri4)",
+      "          ActionBar (bbgiyjsqevy)",
+      "            Filter.Action (s4vv9kyeazc)",
+      "            Action (piboqdkgnnf)",
+      "            Action [ACLActionProvider] (fu34ba8z2ty)",
+      "          TableV2 (m38tonbgjev)",
+      "            TableV2.Column [TableV2.Column.Decorator] (wbmqia8gid2)",
+      "              CollectionField [FormItem] (lwv4tkluqzm)",
+      "            TableV2.Column [TableV2.Column.Decorator] (zl691mo75lc)",
+      "              CollectionField [FormItem] (4jfysnhwjjr)",
+      "            TableV2.Column [TableV2.Column.Decorator] (vdrnj46r8ml)",
+      "              CollectionField [FormItem] (675ph5oq7n8)",
+      "            TableV2.Column [TableV2.Column.Decorator] (i1nwckoh2mp)",
+      "              CollectionField [FormItem] (0ca4hpyafcy)",
+      "            TableV2.Column [TableV2.Column.Decorator] (282meq8krzr)",
+      "              CollectionField [FormItem] (90p3m7geijf)",
+      "            TableV2.Column [TableV2.Column.Decorator] (meic79wvzos)",
+      "              CollectionField [FormItem] (ovqd6e3wug7)",
+      "            TableV2.Column [TableV2.Column.Decorator] (h7wc1bitup9)",
+      "              CollectionField [FormItem] (hsq5d1jr7i3)",
+      "            TableV2.Column [TableV2.Column.ActionBar] (avw6b2nq7uy)",
+      "              Space (1zpxey9rs3b)",
+      "                Action.Link [ACLActionProvider] (p2irkw8mn0e)",
+      "                Action.Link [ACLActionProvider] (tto4cv99vpw)",
+      "                Action.Link [ACLActionProvider] (tsklt3664sg)"
+    ]
+  },
+  {
+    "capturedAt": "2026-02-18T20:34:06.641Z",
+    "route": {
+      "id": 349011284131843,
+      "title": "Inasistencias",
+      "type": "page",
+      "schemaUid": "dwsys5kgmon",
+      "parentId": 349011282034688
+    },
+    "schema": {
+      "type": "void",
+      "x-component": "Page",
+      "properties": {
+        "grid": {
+          "type": "void",
+          "x-component": "Grid",
+          "x-initializer": "page:addBlock",
+          "properties": {
+            "zm8v42z0wn2": {
+              "type": "void",
+              "x-component": "Grid.Row",
+              "properties": {
+                "col1": {
+                  "type": "void",
+                  "x-component": "Grid.Col",
+                  "properties": {
+                    "block1": {
+                      "type": "void",
+                      "x-component": "CardItem",
+                      "x-decorator": "TableBlockProvider",
+                      "x-filter-targets": [],
+                      "x-component-props": {
+                        "title": "Inasistencias"
+                      },
+                      "x-decorator-props": {
+                        "action": "list",
+                        "params": {
+                          "pageSize": 20
+                        },
+                        "collection": "ag_inasistencias",
+                        "dataSource": "main"
+                      },
+                      "properties": {
+                        "actions": {
+                          "type": "void",
+                          "x-index": 1,
+                          "x-component": "ActionBar",
+                          "x-component-props": {
+                            "style": {
+                              "marginBottom": 16
+                            }
+                          },
+                          "properties": {
+                            "filter": {
+                              "type": "void",
+                              "title": "Filtrar",
+                              "x-index": 1,
+                              "x-action": "filter",
+                              "x-component": "Filter.Action",
+                              "x-component-props": {
+                                "icon": "FilterOutlined"
+                              },
+                              "x-uid": "epr3jyx9i9l",
+                              "x-async": false
+                            },
+                            "refresh": {
+                              "type": "void",
+                              "title": "Actualizar",
+                              "x-index": 2,
+                              "x-action": "refresh",
+                              "x-component": "Action",
+                              "x-component-props": {
+                                "icon": "ReloadOutlined"
+                              },
+                              "x-uid": "kg9yxnjmymt",
+                              "x-async": false
+                            },
+                            "create": {
+                              "type": "void",
+                              "title": "Nuevo",
+                              "x-index": 3,
+                              "x-action": "create",
+                              "x-component": "Action",
+                              "x-decorator": "ACLActionProvider",
+                              "x-component-props": {
+                                "icon": "PlusOutlined",
+                                "type": "primary",
+                                "openMode": "drawer"
+                              },
+                              "x-uid": "byp340plyis",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "4tpqih1wx4u",
+                          "x-async": false
+                        },
+                        "table": {
+                          "type": "array",
+                          "x-index": 2,
+                          "x-component": "TableV2",
+                          "x-component-props": {
+                            "rowKey": "id",
+                            "rowSelection": {
+                              "type": "checkbox"
+                            }
+                          },
+                          "x-use-component-props": "useTableBlockProps",
+                          "properties": {
+                            "fecha": {
+                              "type": "void",
+                              "x-index": 1,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "fecha": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_inasistencias.fecha",
+                                  "x-uid": "jg1xhrb1wn9",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "v4ufhunneqe",
+                              "x-async": false
+                            },
+                            "periodo": {
+                              "type": "void",
+                              "x-index": 2,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "periodo": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_inasistencias.periodo",
+                                  "x-uid": "vnt0aqovbka",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "z4oh3t3vixy",
+                              "x-async": false
+                            },
+                            "notas": {
+                              "type": "void",
+                              "x-index": 3,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "notas": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_inasistencias.notas",
+                                  "x-uid": "36uzzqf61fz",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "zsrglkamzj2",
+                              "x-async": false
+                            },
+                            "__actions__": {
+                              "type": "void",
+                              "title": "Acciones",
+                              "x-index": 4,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.ActionBar",
+                              "x-component-props": {
+                                "width": 150
+                              },
+                              "properties": {
+                                "actions": {
+                                  "type": "void",
+                                  "x-component": "Space",
+                                  "x-component-props": {
+                                    "split": "|"
+                                  },
+                                  "properties": {
+                                    "view": {
+                                      "type": "void",
+                                      "title": "Ver",
+                                      "x-index": 1,
+                                      "x-action": "view",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "16ftvx8vid9",
+                                      "x-async": false
+                                    },
+                                    "update": {
+                                      "type": "void",
+                                      "title": "Editar",
+                                      "x-index": 2,
+                                      "x-action": "update",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "zgi8a6q15v4",
+                                      "x-async": false
+                                    }
+                                  },
+                                  "x-uid": "41iuyv3rdhn",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "gzfrelrc25v",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "emhs978tlcd",
+                          "x-async": false
+                        }
+                      },
+                      "x-uid": "wfhl392ys32",
+                      "x-async": false,
+                      "x-index": 1
+                    }
+                  },
+                  "x-uid": "gq837uckvq5",
+                  "x-async": false,
+                  "x-index": 1
+                }
+              },
+              "x-uid": "i9rmwtnusxr",
+              "x-async": false,
+              "x-index": 1
+            }
+          },
+          "x-uid": "6sld3qtwm36",
+          "x-async": false,
+          "x-index": 1
+        }
+      },
+      "name": "h6t57aunzvm",
+      "x-uid": "dwsys5kgmon",
+      "x-async": true
+    },
+    "blockTypes": [
+      "table"
+    ],
+    "collections": [
+      "ag_inasistencias"
+    ],
+    "componentTree": [
+      "Page (dwsys5kgmon)",
+      "  Grid (6sld3qtwm36)",
+      "    Grid.Row (i9rmwtnusxr)",
+      "      Grid.Col (gq837uckvq5)",
+      "        CardItem [TableBlockProvider] (wfhl392ys32)",
+      "          ActionBar (4tpqih1wx4u)",
+      "            Filter.Action (epr3jyx9i9l)",
+      "            Action (kg9yxnjmymt)",
+      "            Action [ACLActionProvider] (byp340plyis)",
+      "          TableV2 (emhs978tlcd)",
+      "            TableV2.Column [TableV2.Column.Decorator] (v4ufhunneqe)",
+      "              CollectionField [FormItem] (jg1xhrb1wn9)",
+      "            TableV2.Column [TableV2.Column.Decorator] (z4oh3t3vixy)",
+      "              CollectionField [FormItem] (vnt0aqovbka)",
+      "            TableV2.Column [TableV2.Column.Decorator] (zsrglkamzj2)",
+      "              CollectionField [FormItem] (36uzzqf61fz)",
+      "            TableV2.Column [TableV2.Column.ActionBar] (gzfrelrc25v)",
+      "              Space (41iuyv3rdhn)",
+      "                Action.Link [ACLActionProvider] (16ftvx8vid9)",
+      "                Action.Link [ACLActionProvider] (zgi8a6q15v4)"
+    ]
+  },
+  {
+    "capturedAt": "2026-02-18T20:34:06.668Z",
+    "route": {
+      "id": 349011284131845,
+      "title": "Resumen Diario",
+      "type": "page",
+      "schemaUid": "2deila30jg0",
+      "parentId": 349011282034688
+    },
+    "schema": {
+      "type": "void",
+      "x-component": "Page",
+      "properties": {
+        "grid": {
+          "type": "void",
+          "x-component": "Grid",
+          "x-initializer": "page:addBlock",
+          "properties": {
+            "tbqos3z450d": {
+              "type": "void",
+              "x-component": "Grid.Row",
+              "properties": {
+                "col1": {
+                  "type": "void",
+                  "x-component": "Grid.Col",
+                  "properties": {
+                    "block1": {
+                      "type": "void",
+                      "x-component": "CardItem",
+                      "x-decorator": "TableBlockProvider",
+                      "x-filter-targets": [],
+                      "x-component-props": {
+                        "title": "Resumen Diario"
+                      },
+                      "x-decorator-props": {
+                        "action": "list",
+                        "params": {
+                          "pageSize": 20
+                        },
+                        "collection": "ag_resumen_diario",
+                        "dataSource": "main"
+                      },
+                      "properties": {
+                        "actions": {
+                          "type": "void",
+                          "x-index": 1,
+                          "x-component": "ActionBar",
+                          "x-component-props": {
+                            "style": {
+                              "marginBottom": 16
+                            }
+                          },
+                          "properties": {
+                            "filter": {
+                              "type": "void",
+                              "title": "Filtrar",
+                              "x-index": 1,
+                              "x-action": "filter",
+                              "x-component": "Filter.Action",
+                              "x-component-props": {
+                                "icon": "FilterOutlined"
+                              },
+                              "x-uid": "cfkj19pppvd",
+                              "x-async": false
+                            },
+                            "refresh": {
+                              "type": "void",
+                              "title": "Actualizar",
+                              "x-index": 2,
+                              "x-action": "refresh",
+                              "x-component": "Action",
+                              "x-component-props": {
+                                "icon": "ReloadOutlined"
+                              },
+                              "x-uid": "a25mm0abfie",
+                              "x-async": false
+                            },
+                            "export": {
+                              "type": "void",
+                              "title": "Exportar",
+                              "x-index": 3,
+                              "x-action": "export",
+                              "x-component": "Action",
+                              "x-component-props": {
+                                "icon": "DownloadOutlined"
+                              },
+                              "x-uid": "zb4z6g49xr6",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "08js1i7e5ts",
+                          "x-async": false
+                        },
+                        "table": {
+                          "type": "array",
+                          "x-index": 2,
+                          "x-component": "TableV2",
+                          "x-component-props": {
+                            "rowKey": "id",
+                            "rowSelection": {
+                              "type": "checkbox"
+                            }
+                          },
+                          "x-use-component-props": "useTableBlockProps",
+                          "properties": {
+                            "fecha": {
+                              "type": "void",
+                              "x-index": 1,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "fecha": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_resumen_diario.fecha",
+                                  "x-uid": "jzuhdhaajur",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "wmtule2jkke",
+                              "x-async": false
+                            },
+                            "total_horas": {
+                              "type": "void",
+                              "x-index": 2,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "total_horas": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_resumen_diario.total_horas",
+                                  "x-uid": "ix07jtg679j",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "8nyx766mi6v",
+                              "x-async": false
+                            },
+                            "hora_salida": {
+                              "type": "void",
+                              "x-index": 3,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "hora_salida": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_resumen_diario.hora_salida",
+                                  "x-uid": "a1c61hqmxrk",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "5j6r2fwsx52",
+                              "x-async": false
+                            },
+                            "sala_count": {
+                              "type": "void",
+                              "x-index": 4,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "sala_count": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_resumen_diario.sala_count",
+                                  "x-uid": "70g5ppnghf3",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "btfqz891njb",
+                              "x-async": false
+                            },
+                            "pab_am": {
+                              "type": "void",
+                              "x-index": 5,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "pab_am": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_resumen_diario.pab_am",
+                                  "x-uid": "rxt0bzwy1cs",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "lf16lgzr3q8",
+                              "x-async": false
+                            },
+                            "pab_pm": {
+                              "type": "void",
+                              "x-index": 6,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "pab_pm": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_resumen_diario.pab_pm",
+                                  "x-uid": "qt7pdygdeey",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "csbz73zyuw1",
+                              "x-async": false
+                            },
+                            "poli_am": {
+                              "type": "void",
+                              "x-index": 7,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "poli_am": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_resumen_diario.poli_am",
+                                  "x-uid": "l8gklp7p9u1",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "zp9mk2tdrs5",
+                              "x-async": false
+                            },
+                            "poli_pm": {
+                              "type": "void",
+                              "x-index": 8,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "poli_pm": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_resumen_diario.poli_pm",
+                                  "x-uid": "jrtbt0kcqyi",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "5u9hqqq9nse",
+                              "x-async": false
+                            },
+                            "inasistencias": {
+                              "type": "void",
+                              "x-index": 9,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "inasistencias": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_resumen_diario.inasistencias",
+                                  "x-uid": "rtg2qlnikqn",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "215geoqpkfw",
+                              "x-async": false
+                            },
+                            "__actions__": {
+                              "type": "void",
+                              "title": "Acciones",
+                              "x-index": 10,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.ActionBar",
+                              "x-component-props": {
+                                "width": 150
+                              },
+                              "properties": {
+                                "actions": {
+                                  "type": "void",
+                                  "x-component": "Space",
+                                  "x-component-props": {
+                                    "split": "|"
+                                  },
+                                  "properties": {
+                                    "view": {
+                                      "type": "void",
+                                      "title": "Ver",
+                                      "x-index": 1,
+                                      "x-action": "view",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "90kq6l7489y",
+                                      "x-async": false
+                                    }
+                                  },
+                                  "x-uid": "q8u8twt2nfd",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "69qna48emu3",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "gqq1tk4shvs",
+                          "x-async": false
+                        }
+                      },
+                      "x-uid": "mu84dttzwen",
+                      "x-async": false,
+                      "x-index": 1
+                    }
+                  },
+                  "x-uid": "rywa33wixox",
+                  "x-async": false,
+                  "x-index": 1
+                }
+              },
+              "x-uid": "5g48z15x89s",
+              "x-async": false,
+              "x-index": 1
+            }
+          },
+          "x-uid": "2o7m162ygyo",
+          "x-async": false,
+          "x-index": 1
+        }
+      },
+      "name": "nw04e9inofk",
+      "x-uid": "2deila30jg0",
+      "x-async": true
+    },
+    "blockTypes": [
+      "table"
+    ],
+    "collections": [
+      "ag_resumen_diario"
+    ],
+    "componentTree": [
+      "Page (2deila30jg0)",
+      "  Grid (2o7m162ygyo)",
+      "    Grid.Row (5g48z15x89s)",
+      "      Grid.Col (rywa33wixox)",
+      "        CardItem [TableBlockProvider] (mu84dttzwen)",
+      "          ActionBar (08js1i7e5ts)",
+      "            Filter.Action (cfkj19pppvd)",
+      "            Action (a25mm0abfie)",
+      "            Action (zb4z6g49xr6)",
+      "          TableV2 (gqq1tk4shvs)",
+      "            TableV2.Column [TableV2.Column.Decorator] (wmtule2jkke)",
+      "              CollectionField [FormItem] (jzuhdhaajur)",
+      "            TableV2.Column [TableV2.Column.Decorator] (8nyx766mi6v)",
+      "              CollectionField [FormItem] (ix07jtg679j)",
+      "            TableV2.Column [TableV2.Column.Decorator] (5j6r2fwsx52)",
+      "              CollectionField [FormItem] (a1c61hqmxrk)",
+      "            TableV2.Column [TableV2.Column.Decorator] (btfqz891njb)",
+      "              CollectionField [FormItem] (70g5ppnghf3)",
+      "            TableV2.Column [TableV2.Column.Decorator] (lf16lgzr3q8)",
+      "              CollectionField [FormItem] (rxt0bzwy1cs)",
+      "            TableV2.Column [TableV2.Column.Decorator] (csbz73zyuw1)",
+      "              CollectionField [FormItem] (qt7pdygdeey)",
+      "            TableV2.Column [TableV2.Column.Decorator] (zp9mk2tdrs5)",
+      "              CollectionField [FormItem] (l8gklp7p9u1)",
+      "            TableV2.Column [TableV2.Column.Decorator] (5u9hqqq9nse)",
+      "              CollectionField [FormItem] (jrtbt0kcqyi)",
+      "            TableV2.Column [TableV2.Column.Decorator] (215geoqpkfw)",
+      "              CollectionField [FormItem] (rtg2qlnikqn)",
+      "            TableV2.Column [TableV2.Column.ActionBar] (69qna48emu3)",
+      "              Space (q8u8twt2nfd)",
+      "                Action.Link [ACLActionProvider] (90kq6l7489y)"
+    ]
+  },
+  {
+    "capturedAt": "2026-02-18T20:34:06.685Z",
+    "route": {
+      "id": 349011286228992,
+      "title": "Resumen Semanal",
+      "type": "page",
+      "schemaUid": "7t9ripolptp",
+      "parentId": 349011282034688
+    },
+    "schema": {
+      "type": "void",
+      "x-component": "Page",
+      "properties": {
+        "grid": {
+          "type": "void",
+          "x-component": "Grid",
+          "x-initializer": "page:addBlock",
+          "properties": {
+            "5ggx7j17yq5": {
+              "type": "void",
+              "x-component": "Grid.Row",
+              "properties": {
+                "col1": {
+                  "type": "void",
+                  "x-component": "Grid.Col",
+                  "properties": {
+                    "block1": {
+                      "type": "void",
+                      "x-component": "CardItem",
+                      "x-decorator": "TableBlockProvider",
+                      "x-filter-targets": [],
+                      "x-component-props": {
+                        "title": "Resumen Semanal"
+                      },
+                      "x-decorator-props": {
+                        "action": "list",
+                        "params": {
+                          "pageSize": 20
+                        },
+                        "collection": "ag_resumen_semanal",
+                        "dataSource": "main"
+                      },
+                      "properties": {
+                        "actions": {
+                          "type": "void",
+                          "x-index": 1,
+                          "x-component": "ActionBar",
+                          "x-component-props": {
+                            "style": {
+                              "marginBottom": 16
+                            }
+                          },
+                          "properties": {
+                            "filter": {
+                              "type": "void",
+                              "title": "Filtrar",
+                              "x-index": 1,
+                              "x-action": "filter",
+                              "x-component": "Filter.Action",
+                              "x-component-props": {
+                                "icon": "FilterOutlined"
+                              },
+                              "x-uid": "0toz9gmz3wq",
+                              "x-async": false
+                            },
+                            "refresh": {
+                              "type": "void",
+                              "title": "Actualizar",
+                              "x-index": 2,
+                              "x-action": "refresh",
+                              "x-component": "Action",
+                              "x-component-props": {
+                                "icon": "ReloadOutlined"
+                              },
+                              "x-uid": "c4dkcynqeeq",
+                              "x-async": false
+                            },
+                            "export": {
+                              "type": "void",
+                              "title": "Exportar",
+                              "x-index": 3,
+                              "x-action": "export",
+                              "x-component": "Action",
+                              "x-component-props": {
+                                "icon": "DownloadOutlined"
+                              },
+                              "x-uid": "po7mq4pa4h6",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "ckeojdaskl0",
+                          "x-async": false
+                        },
+                        "table": {
+                          "type": "array",
+                          "x-index": 2,
+                          "x-component": "TableV2",
+                          "x-component-props": {
+                            "rowKey": "id",
+                            "rowSelection": {
+                              "type": "checkbox"
+                            }
+                          },
+                          "x-use-component-props": "useTableBlockProps",
+                          "properties": {
+                            "semana_inicio": {
+                              "type": "void",
+                              "x-index": 1,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "semana_inicio": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_resumen_semanal.semana_inicio",
+                                  "x-uid": "xz3ypuk72tl",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "wvk3bzf96cc",
+                              "x-async": false
+                            },
+                            "semana_fin": {
+                              "type": "void",
+                              "x-index": 2,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "semana_fin": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_resumen_semanal.semana_fin",
+                                  "x-uid": "vl6ake1uq32",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "ky9vwhuedel",
+                              "x-async": false
+                            },
+                            "total_horas": {
+                              "type": "void",
+                              "x-index": 3,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "total_horas": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_resumen_semanal.total_horas",
+                                  "x-uid": "af9cuejbto6",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "ulue589dh9r",
+                              "x-async": false
+                            },
+                            "generado_at": {
+                              "type": "void",
+                              "x-index": 4,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "generado_at": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_resumen_semanal.generado_at",
+                                  "x-uid": "ioajprpg01k",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "u7us8lex79e",
+                              "x-async": false
+                            },
+                            "__actions__": {
+                              "type": "void",
+                              "title": "Acciones",
+                              "x-index": 5,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.ActionBar",
+                              "x-component-props": {
+                                "width": 150
+                              },
+                              "properties": {
+                                "actions": {
+                                  "type": "void",
+                                  "x-component": "Space",
+                                  "x-component-props": {
+                                    "split": "|"
+                                  },
+                                  "properties": {
+                                    "view": {
+                                      "type": "void",
+                                      "title": "Ver",
+                                      "x-index": 1,
+                                      "x-action": "view",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "pn216phoeq9",
+                                      "x-async": false
+                                    }
+                                  },
+                                  "x-uid": "yfmpk1sqs0p",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "ddubnu0k6u8",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "onmq4pp3d9t",
+                          "x-async": false
+                        }
+                      },
+                      "x-uid": "1wveixyk4hj",
+                      "x-async": false,
+                      "x-index": 1
+                    }
+                  },
+                  "x-uid": "u9z6663qmch",
+                  "x-async": false,
+                  "x-index": 1
+                }
+              },
+              "x-uid": "8x0dsmxb1bw",
+              "x-async": false,
+              "x-index": 1
+            }
+          },
+          "x-uid": "fipb588cv22",
+          "x-async": false,
+          "x-index": 1
+        }
+      },
+      "name": "rg3qdyh1mn6",
+      "x-uid": "7t9ripolptp",
+      "x-async": true
+    },
+    "blockTypes": [
+      "table"
+    ],
+    "collections": [
+      "ag_resumen_semanal"
+    ],
+    "componentTree": [
+      "Page (7t9ripolptp)",
+      "  Grid (fipb588cv22)",
+      "    Grid.Row (8x0dsmxb1bw)",
+      "      Grid.Col (u9z6663qmch)",
+      "        CardItem [TableBlockProvider] (1wveixyk4hj)",
+      "          ActionBar (ckeojdaskl0)",
+      "            Filter.Action (0toz9gmz3wq)",
+      "            Action (c4dkcynqeeq)",
+      "            Action (po7mq4pa4h6)",
+      "          TableV2 (onmq4pp3d9t)",
+      "            TableV2.Column [TableV2.Column.Decorator] (wvk3bzf96cc)",
+      "              CollectionField [FormItem] (xz3ypuk72tl)",
+      "            TableV2.Column [TableV2.Column.Decorator] (ky9vwhuedel)",
+      "              CollectionField [FormItem] (vl6ake1uq32)",
+      "            TableV2.Column [TableV2.Column.Decorator] (ulue589dh9r)",
+      "              CollectionField [FormItem] (af9cuejbto6)",
+      "            TableV2.Column [TableV2.Column.Decorator] (u7us8lex79e)",
+      "              CollectionField [FormItem] (ioajprpg01k)",
+      "            TableV2.Column [TableV2.Column.ActionBar] (ddubnu0k6u8)",
+      "              Space (yfmpk1sqs0p)",
+      "                Action.Link [ACLActionProvider] (pn216phoeq9)"
+    ]
+  },
+  {
+    "capturedAt": "2026-02-18T20:34:06.700Z",
+    "route": {
+      "id": 349011286228994,
+      "title": "Categorías de Actividad",
+      "type": "page",
+      "schemaUid": "py2uyssehzn",
+      "parentId": 349011282034688
+    },
+    "schema": {
+      "type": "void",
+      "x-component": "Page",
+      "properties": {
+        "grid": {
+          "type": "void",
+          "x-component": "Grid",
+          "x-initializer": "page:addBlock",
+          "properties": {
+            "70cz99x7tnu": {
+              "type": "void",
+              "x-component": "Grid.Row",
+              "properties": {
+                "col1": {
+                  "type": "void",
+                  "x-component": "Grid.Col",
+                  "properties": {
+                    "block1": {
+                      "type": "void",
+                      "x-component": "CardItem",
+                      "x-decorator": "TableBlockProvider",
+                      "x-filter-targets": [],
+                      "x-component-props": {
+                        "title": "Categorías de Actividad"
+                      },
+                      "x-decorator-props": {
+                        "action": "list",
+                        "params": {
+                          "pageSize": 20
+                        },
+                        "collection": "ag_categorias_actividad",
+                        "dataSource": "main"
+                      },
+                      "properties": {
+                        "actions": {
+                          "type": "void",
+                          "x-index": 1,
+                          "x-component": "ActionBar",
+                          "x-component-props": {
+                            "style": {
+                              "marginBottom": 16
+                            }
+                          },
+                          "properties": {
+                            "refresh": {
+                              "type": "void",
+                              "title": "Actualizar",
+                              "x-index": 1,
+                              "x-action": "refresh",
+                              "x-component": "Action",
+                              "x-component-props": {
+                                "icon": "ReloadOutlined"
+                              },
+                              "x-uid": "gycyr5nhcmd",
+                              "x-async": false
+                            },
+                            "create": {
+                              "type": "void",
+                              "title": "Nuevo",
+                              "x-index": 2,
+                              "x-action": "create",
+                              "x-component": "Action",
+                              "x-decorator": "ACLActionProvider",
+                              "x-component-props": {
+                                "icon": "PlusOutlined",
+                                "type": "primary",
+                                "openMode": "drawer"
+                              },
+                              "x-uid": "92sd3w7nea4",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "qa24vzawx1k",
+                          "x-async": false
+                        },
+                        "table": {
+                          "type": "array",
+                          "x-index": 2,
+                          "x-component": "TableV2",
+                          "x-component-props": {
+                            "rowKey": "id",
+                            "rowSelection": {
+                              "type": "checkbox"
+                            }
+                          },
+                          "x-use-component-props": "useTableBlockProps",
+                          "properties": {
+                            "nombre": {
+                              "type": "void",
+                              "x-index": 1,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "nombre": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_categorias_actividad.nombre",
+                                  "x-uid": "kjapw8p4y78",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "h44utjfu2v8",
+                              "x-async": false
+                            },
+                            "codigo": {
+                              "type": "void",
+                              "x-index": 2,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "codigo": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_categorias_actividad.codigo",
+                                  "x-uid": "irnem3is6s9",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "j5n2iignwq3",
+                              "x-async": false
+                            },
+                            "grupo": {
+                              "type": "void",
+                              "x-index": 3,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "grupo": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_categorias_actividad.grupo",
+                                  "x-uid": "svayeqlp2m0",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "kvr21jutgty",
+                              "x-async": false
+                            },
+                            "orden": {
+                              "type": "void",
+                              "x-index": 4,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "orden": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_categorias_actividad.orden",
+                                  "x-uid": "zctp1rjknhd",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "16hf2mtuitd",
+                              "x-async": false
+                            },
+                            "color": {
+                              "type": "void",
+                              "x-index": 5,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "color": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_categorias_actividad.color",
+                                  "x-uid": "q30xyukxgys",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "8qn3if3un4u",
+                              "x-async": false
+                            },
+                            "activa": {
+                              "type": "void",
+                              "x-index": 6,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "activa": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_categorias_actividad.activa",
+                                  "x-uid": "9ahoewymyil",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "so2mbhhhre6",
+                              "x-async": false
+                            },
+                            "__actions__": {
+                              "type": "void",
+                              "title": "Acciones",
+                              "x-index": 7,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.ActionBar",
+                              "x-component-props": {
+                                "width": 150
+                              },
+                              "properties": {
+                                "actions": {
+                                  "type": "void",
+                                  "x-component": "Space",
+                                  "x-component-props": {
+                                    "split": "|"
+                                  },
+                                  "properties": {
+                                    "view": {
+                                      "type": "void",
+                                      "title": "Ver",
+                                      "x-index": 1,
+                                      "x-action": "view",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "h5p28ihsz8j",
+                                      "x-async": false
+                                    },
+                                    "update": {
+                                      "type": "void",
+                                      "title": "Editar",
+                                      "x-index": 2,
+                                      "x-action": "update",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "a7rn7kjsvik",
+                                      "x-async": false
+                                    }
+                                  },
+                                  "x-uid": "kskc4ou814x",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "qmm4bi4v16h",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "5vlsx1ftvl8",
+                          "x-async": false
+                        }
+                      },
+                      "x-uid": "0axqfr9n0dw",
+                      "x-async": false,
+                      "x-index": 1
+                    }
+                  },
+                  "x-uid": "ulns13gjqgx",
+                  "x-async": false,
+                  "x-index": 1
+                }
+              },
+              "x-uid": "55kymher614",
+              "x-async": false,
+              "x-index": 1
+            }
+          },
+          "x-uid": "d1i0v4szfnj",
+          "x-async": false,
+          "x-index": 1
+        }
+      },
+      "name": "n4loyn0ii4d",
+      "x-uid": "py2uyssehzn",
+      "x-async": true
+    },
+    "blockTypes": [
+      "table"
+    ],
+    "collections": [
+      "ag_categorias_actividad"
+    ],
+    "componentTree": [
+      "Page (py2uyssehzn)",
+      "  Grid (d1i0v4szfnj)",
+      "    Grid.Row (55kymher614)",
+      "      Grid.Col (ulns13gjqgx)",
+      "        CardItem [TableBlockProvider] (0axqfr9n0dw)",
+      "          ActionBar (qa24vzawx1k)",
+      "            Action (gycyr5nhcmd)",
+      "            Action [ACLActionProvider] (92sd3w7nea4)",
+      "          TableV2 (5vlsx1ftvl8)",
+      "            TableV2.Column [TableV2.Column.Decorator] (h44utjfu2v8)",
+      "              CollectionField [FormItem] (kjapw8p4y78)",
+      "            TableV2.Column [TableV2.Column.Decorator] (j5n2iignwq3)",
+      "              CollectionField [FormItem] (irnem3is6s9)",
+      "            TableV2.Column [TableV2.Column.Decorator] (kvr21jutgty)",
+      "              CollectionField [FormItem] (svayeqlp2m0)",
+      "            TableV2.Column [TableV2.Column.Decorator] (16hf2mtuitd)",
+      "              CollectionField [FormItem] (zctp1rjknhd)",
+      "            TableV2.Column [TableV2.Column.Decorator] (8qn3if3un4u)",
+      "              CollectionField [FormItem] (q30xyukxgys)",
+      "            TableV2.Column [TableV2.Column.Decorator] (so2mbhhhre6)",
+      "              CollectionField [FormItem] (9ahoewymyil)",
+      "            TableV2.Column [TableV2.Column.ActionBar] (qmm4bi4v16h)",
+      "              Space (kskc4ou814x)",
+      "                Action.Link [ACLActionProvider] (h5p28ihsz8j)",
+      "                Action.Link [ACLActionProvider] (a7rn7kjsvik)"
+    ]
+  },
+  {
+    "capturedAt": "2026-02-18T20:34:06.729Z",
+    "route": {
+      "id": 349011286228996,
+      "title": "Tipos de Inasistencia",
+      "type": "page",
+      "schemaUid": "7wt5eo8spq3",
+      "parentId": 349011282034688
+    },
+    "schema": {
+      "type": "void",
+      "x-component": "Page",
+      "properties": {
+        "grid": {
+          "type": "void",
+          "x-component": "Grid",
+          "x-initializer": "page:addBlock",
+          "properties": {
+            "4w4bvvj7se5": {
+              "type": "void",
+              "x-component": "Grid.Row",
+              "properties": {
+                "col1": {
+                  "type": "void",
+                  "x-component": "Grid.Col",
+                  "properties": {
+                    "block1": {
+                      "type": "void",
+                      "x-component": "CardItem",
+                      "x-decorator": "TableBlockProvider",
+                      "x-filter-targets": [],
+                      "x-component-props": {
+                        "title": "Tipos de Inasistencia"
+                      },
+                      "x-decorator-props": {
+                        "action": "list",
+                        "params": {
+                          "pageSize": 20
+                        },
+                        "collection": "ag_tipos_inasistencia",
+                        "dataSource": "main"
+                      },
+                      "properties": {
+                        "actions": {
+                          "type": "void",
+                          "x-index": 1,
+                          "x-component": "ActionBar",
+                          "x-component-props": {
+                            "style": {
+                              "marginBottom": 16
+                            }
+                          },
+                          "properties": {
+                            "refresh": {
+                              "type": "void",
+                              "title": "Actualizar",
+                              "x-index": 1,
+                              "x-action": "refresh",
+                              "x-component": "Action",
+                              "x-component-props": {
+                                "icon": "ReloadOutlined"
+                              },
+                              "x-uid": "dgmvu4ge77i",
+                              "x-async": false
+                            },
+                            "create": {
+                              "type": "void",
+                              "title": "Nuevo",
+                              "x-index": 2,
+                              "x-action": "create",
+                              "x-component": "Action",
+                              "x-decorator": "ACLActionProvider",
+                              "x-component-props": {
+                                "icon": "PlusOutlined",
+                                "type": "primary",
+                                "openMode": "drawer"
+                              },
+                              "x-uid": "6s9fgd0vi75",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "tjahlgptt3v",
+                          "x-async": false
+                        },
+                        "table": {
+                          "type": "array",
+                          "x-index": 2,
+                          "x-component": "TableV2",
+                          "x-component-props": {
+                            "rowKey": "id",
+                            "rowSelection": {
+                              "type": "checkbox"
+                            }
+                          },
+                          "x-use-component-props": "useTableBlockProps",
+                          "properties": {
+                            "nombre": {
+                              "type": "void",
+                              "x-index": 1,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "nombre": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_tipos_inasistencia.nombre",
+                                  "x-uid": "7cl2qrjc9z4",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "ylagr7jj8ed",
+                              "x-async": false
+                            },
+                            "codigo": {
+                              "type": "void",
+                              "x-index": 2,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "codigo": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_tipos_inasistencia.codigo",
+                                  "x-uid": "yz6tr1689zh",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "dx5t1gjlabo",
+                              "x-async": false
+                            },
+                            "descripcion": {
+                              "type": "void",
+                              "x-index": 3,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "descripcion": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_tipos_inasistencia.descripcion",
+                                  "x-uid": "rhltxklcwc0",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "853n6ayx7p5",
+                              "x-async": false
+                            },
+                            "activo": {
+                              "type": "void",
+                              "x-index": 4,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "activo": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_tipos_inasistencia.activo",
+                                  "x-uid": "8nm3hgz14n9",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "8wjfx6ze4q4",
+                              "x-async": false
+                            },
+                            "__actions__": {
+                              "type": "void",
+                              "title": "Acciones",
+                              "x-index": 5,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.ActionBar",
+                              "x-component-props": {
+                                "width": 150
+                              },
+                              "properties": {
+                                "actions": {
+                                  "type": "void",
+                                  "x-component": "Space",
+                                  "x-component-props": {
+                                    "split": "|"
+                                  },
+                                  "properties": {
+                                    "view": {
+                                      "type": "void",
+                                      "title": "Ver",
+                                      "x-index": 1,
+                                      "x-action": "view",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "1ga9xgqa2g8",
+                                      "x-async": false
+                                    },
+                                    "update": {
+                                      "type": "void",
+                                      "title": "Editar",
+                                      "x-index": 2,
+                                      "x-action": "update",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "6gz6yd0sbe9",
+                                      "x-async": false
+                                    }
+                                  },
+                                  "x-uid": "fyj0daezjb2",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "nu0lvoql537",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "admxfcleu6s",
+                          "x-async": false
+                        }
+                      },
+                      "x-uid": "vjrwt7t3v5y",
+                      "x-async": false,
+                      "x-index": 1
+                    }
+                  },
+                  "x-uid": "ydu9xfmgpzq",
+                  "x-async": false,
+                  "x-index": 1
+                }
+              },
+              "x-uid": "oqlyezjjb2x",
+              "x-async": false,
+              "x-index": 1
+            }
+          },
+          "x-uid": "0bwnqarygbz",
+          "x-async": false,
+          "x-index": 1
+        }
+      },
+      "name": "1mrvjfkgf46",
+      "x-uid": "7wt5eo8spq3",
+      "x-async": true
+    },
+    "blockTypes": [
+      "table"
+    ],
+    "collections": [
+      "ag_tipos_inasistencia"
+    ],
+    "componentTree": [
+      "Page (7wt5eo8spq3)",
+      "  Grid (0bwnqarygbz)",
+      "    Grid.Row (oqlyezjjb2x)",
+      "      Grid.Col (ydu9xfmgpzq)",
+      "        CardItem [TableBlockProvider] (vjrwt7t3v5y)",
+      "          ActionBar (tjahlgptt3v)",
+      "            Action (dgmvu4ge77i)",
+      "            Action [ACLActionProvider] (6s9fgd0vi75)",
+      "          TableV2 (admxfcleu6s)",
+      "            TableV2.Column [TableV2.Column.Decorator] (ylagr7jj8ed)",
+      "              CollectionField [FormItem] (7cl2qrjc9z4)",
+      "            TableV2.Column [TableV2.Column.Decorator] (dx5t1gjlabo)",
+      "              CollectionField [FormItem] (yz6tr1689zh)",
+      "            TableV2.Column [TableV2.Column.Decorator] (853n6ayx7p5)",
+      "              CollectionField [FormItem] (rhltxklcwc0)",
+      "            TableV2.Column [TableV2.Column.Decorator] (8wjfx6ze4q4)",
+      "              CollectionField [FormItem] (8nm3hgz14n9)",
+      "            TableV2.Column [TableV2.Column.ActionBar] (nu0lvoql537)",
+      "              Space (fyj0daezjb2)",
+      "                Action.Link [ACLActionProvider] (1ga9xgqa2g8)",
+      "                Action.Link [ACLActionProvider] (6gz6yd0sbe9)"
+    ]
+  },
+  {
+    "capturedAt": "2026-02-18T20:34:06.752Z",
+    "route": {
+      "id": 349011286228998,
+      "title": "Servicios",
+      "type": "page",
+      "schemaUid": "0xtuqe946a1",
+      "parentId": 349011282034688
+    },
+    "schema": {
+      "type": "void",
+      "x-component": "Page",
+      "properties": {
+        "grid": {
+          "type": "void",
+          "x-component": "Grid",
+          "x-initializer": "page:addBlock",
+          "properties": {
+            "lrsmebk87tq": {
+              "type": "void",
+              "x-component": "Grid.Row",
+              "properties": {
+                "col1": {
+                  "type": "void",
+                  "x-component": "Grid.Col",
+                  "properties": {
+                    "block1": {
+                      "type": "void",
+                      "x-component": "CardItem",
+                      "x-decorator": "TableBlockProvider",
+                      "x-filter-targets": [],
+                      "x-component-props": {
+                        "title": "Servicios"
+                      },
+                      "x-decorator-props": {
+                        "action": "list",
+                        "params": {
+                          "pageSize": 20
+                        },
+                        "collection": "ag_servicios",
+                        "dataSource": "main"
+                      },
+                      "properties": {
+                        "actions": {
+                          "type": "void",
+                          "x-index": 1,
+                          "x-component": "ActionBar",
+                          "x-component-props": {
+                            "style": {
+                              "marginBottom": 16
+                            }
+                          },
+                          "properties": {
+                            "refresh": {
+                              "type": "void",
+                              "title": "Actualizar",
+                              "x-index": 1,
+                              "x-action": "refresh",
+                              "x-component": "Action",
+                              "x-component-props": {
+                                "icon": "ReloadOutlined"
+                              },
+                              "x-uid": "hiz2b6ncen2",
+                              "x-async": false
+                            },
+                            "create": {
+                              "type": "void",
+                              "title": "Nuevo",
+                              "x-index": 2,
+                              "x-action": "create",
+                              "x-component": "Action",
+                              "x-decorator": "ACLActionProvider",
+                              "x-component-props": {
+                                "icon": "PlusOutlined",
+                                "type": "primary",
+                                "openMode": "drawer"
+                              },
+                              "x-uid": "yfi19u5zjd1",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "pkc6iwd1cci",
+                          "x-async": false
+                        },
+                        "table": {
+                          "type": "array",
+                          "x-index": 2,
+                          "x-component": "TableV2",
+                          "x-component-props": {
+                            "rowKey": "id",
+                            "rowSelection": {
+                              "type": "checkbox"
+                            }
+                          },
+                          "x-use-component-props": "useTableBlockProps",
+                          "properties": {
+                            "nombre": {
+                              "type": "void",
+                              "x-index": 1,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "nombre": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_servicios.nombre",
+                                  "x-uid": "i8jcw79u54o",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "j9mpufevk5q",
+                              "x-async": false
+                            },
+                            "codigo": {
+                              "type": "void",
+                              "x-index": 2,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "codigo": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_servicios.codigo",
+                                  "x-uid": "5u2vkg2j37y",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "55ovfl4yth2",
+                              "x-async": false
+                            },
+                            "activo": {
+                              "type": "void",
+                              "x-index": 3,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.Decorator",
+                              "x-component-props": {
+                                "width": 200
+                              },
+                              "properties": {
+                                "activo": {
+                                  "type": "string",
+                                  "x-component": "CollectionField",
+                                  "x-decorator": "FormItem",
+                                  "x-read-pretty": true,
+                                  "x-collection-field": "ag_servicios.activo",
+                                  "x-uid": "kf7xud99mtw",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "vfw3qe6o81h",
+                              "x-async": false
+                            },
+                            "__actions__": {
+                              "type": "void",
+                              "title": "Acciones",
+                              "x-index": 4,
+                              "x-component": "TableV2.Column",
+                              "x-decorator": "TableV2.Column.ActionBar",
+                              "x-component-props": {
+                                "width": 150
+                              },
+                              "properties": {
+                                "actions": {
+                                  "type": "void",
+                                  "x-component": "Space",
+                                  "x-component-props": {
+                                    "split": "|"
+                                  },
+                                  "properties": {
+                                    "view": {
+                                      "type": "void",
+                                      "title": "Ver",
+                                      "x-index": 1,
+                                      "x-action": "view",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "lojeltpbjh2",
+                                      "x-async": false
+                                    },
+                                    "update": {
+                                      "type": "void",
+                                      "title": "Editar",
+                                      "x-index": 2,
+                                      "x-action": "update",
+                                      "x-component": "Action.Link",
+                                      "x-decorator": "ACLActionProvider",
+                                      "x-uid": "j6rx2ad4jmo",
+                                      "x-async": false
+                                    }
+                                  },
+                                  "x-uid": "bcna7b4mjz3",
+                                  "x-async": false,
+                                  "x-index": 1
+                                }
+                              },
+                              "x-uid": "3fh121vtz4o",
+                              "x-async": false
+                            }
+                          },
+                          "x-uid": "4hsdmqvnsec",
+                          "x-async": false
+                        }
+                      },
+                      "x-uid": "susyk7ordud",
+                      "x-async": false,
+                      "x-index": 1
+                    }
+                  },
+                  "x-uid": "maulcmow2z1",
+                  "x-async": false,
+                  "x-index": 1
+                }
+              },
+              "x-uid": "rwi2pz30g5g",
+              "x-async": false,
+              "x-index": 1
+            }
+          },
+          "x-uid": "9onmnbq9caj",
+          "x-async": false,
+          "x-index": 1
+        }
+      },
+      "name": "t4c2h84tku2",
+      "x-uid": "0xtuqe946a1",
+      "x-async": true
+    },
+    "blockTypes": [
+      "table"
+    ],
+    "collections": [
+      "ag_servicios"
+    ],
+    "componentTree": [
+      "Page (0xtuqe946a1)",
+      "  Grid (9onmnbq9caj)",
+      "    Grid.Row (rwi2pz30g5g)",
+      "      Grid.Col (maulcmow2z1)",
+      "        CardItem [TableBlockProvider] (susyk7ordud)",
+      "          ActionBar (pkc6iwd1cci)",
+      "            Action (hiz2b6ncen2)",
+      "            Action [ACLActionProvider] (yfi19u5zjd1)",
+      "          TableV2 (4hsdmqvnsec)",
+      "            TableV2.Column [TableV2.Column.Decorator] (j9mpufevk5q)",
+      "              CollectionField [FormItem] (i8jcw79u54o)",
+      "            TableV2.Column [TableV2.Column.Decorator] (55ovfl4yth2)",
+      "              CollectionField [FormItem] (5u2vkg2j37y)",
+      "            TableV2.Column [TableV2.Column.Decorator] (vfw3qe6o81h)",
+      "              CollectionField [FormItem] (kf7xud99mtw)",
+      "            TableV2.Column [TableV2.Column.ActionBar] (3fh121vtz4o)",
+      "              Space (bcna7b4mjz3)",
+      "                Action.Link [ACLActionProvider] (lojeltpbjh2)",
+      "                Action.Link [ACLActionProvider] (j6rx2ad4jmo)"
+    ]
+  }
+]

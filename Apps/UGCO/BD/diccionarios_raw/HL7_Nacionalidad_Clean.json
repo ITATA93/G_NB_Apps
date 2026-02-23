@@ -1,0 +1,3737 @@
+[
+  {
+    "codigo_oficial": "AD",
+    "descripcion": "Andorra",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AE",
+    "descripcion": "United Arab Emirates",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AF",
+    "descripcion": "Afghanistan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AG",
+    "descripcion": "Antigua and Barbuda",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AI",
+    "descripcion": "Anguilla",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AL",
+    "descripcion": "Albania",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AM",
+    "descripcion": "Armenia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AO",
+    "descripcion": "Angola",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AQ",
+    "descripcion": "Antarctica",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AR",
+    "descripcion": "Argentina",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AS",
+    "descripcion": "American Samoa",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AT",
+    "descripcion": "Austria",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AU",
+    "descripcion": "Australia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AW",
+    "descripcion": "Aruba",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AX",
+    "descripcion": "Eland Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AZ",
+    "descripcion": "Azerbaijan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BA",
+    "descripcion": "Bosnia and Herzegovina",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BB",
+    "descripcion": "Barbados",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BD",
+    "descripcion": "Bangladesh",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BE",
+    "descripcion": "Belgium",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BF",
+    "descripcion": "Burkina Faso",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BG",
+    "descripcion": "Bulgaria",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BH",
+    "descripcion": "Bahrain",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BI",
+    "descripcion": "Burundi",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BJ",
+    "descripcion": "Benin",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BL",
+    "descripcion": "Saint Barthilemy",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BM",
+    "descripcion": "Bermuda",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BN",
+    "descripcion": "Brunei Darussalam",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BO",
+    "descripcion": "Bolivia, Plurinational State of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BQ",
+    "descripcion": "Bonaire, Sint Eustatius and Saba",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BR",
+    "descripcion": "Brazil",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BS",
+    "descripcion": "Bahamas",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BT",
+    "descripcion": "Bhutan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BV",
+    "descripcion": "Bouvet Island",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BW",
+    "descripcion": "Botswana",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BY",
+    "descripcion": "Belarus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BZ",
+    "descripcion": "Belize",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CA",
+    "descripcion": "Canada",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CC",
+    "descripcion": "Cocos (Keeling) Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CD",
+    "descripcion": "Congo, the Democratic Republic of the",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CF",
+    "descripcion": "Central African Republic",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CG",
+    "descripcion": "Congo",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CH",
+    "descripcion": "Switzerland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CI",
+    "descripcion": "Ctte d'Ivoire",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CK",
+    "descripcion": "Cook Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CL",
+    "descripcion": "Chile",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CM",
+    "descripcion": "Cameroon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CN",
+    "descripcion": "China",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CO",
+    "descripcion": "Colombia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CR",
+    "descripcion": "Costa Rica",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CU",
+    "descripcion": "Cuba",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CV",
+    "descripcion": "Cabo Verde",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CW",
+    "descripcion": "Curagao",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CX",
+    "descripcion": "Christmas Island",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CY",
+    "descripcion": "Cyprus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CZ",
+    "descripcion": "Czechia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "DE",
+    "descripcion": "Germany",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "DJ",
+    "descripcion": "Djibouti",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "DK",
+    "descripcion": "Denmark",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "DM",
+    "descripcion": "Dominica",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "DO",
+    "descripcion": "Dominican Republic",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "DZ",
+    "descripcion": "Algeria",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "EC",
+    "descripcion": "Ecuador",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "EE",
+    "descripcion": "Estonia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "EG",
+    "descripcion": "Egypt",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "EH",
+    "descripcion": "Western Sahara",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ER",
+    "descripcion": "Eritrea",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ES",
+    "descripcion": "Spain",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ET",
+    "descripcion": "Ethiopia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "FI",
+    "descripcion": "Finland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "FJ",
+    "descripcion": "Fiji",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "FK",
+    "descripcion": "Falkland Islands (Malvinas)",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "FM",
+    "descripcion": "Micronesia, Federated States of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "FO",
+    "descripcion": "Faroe Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "FR",
+    "descripcion": "France",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GA",
+    "descripcion": "Gabon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GB",
+    "descripcion": "United Kingdom of Great Britain and Northern Ireland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GD",
+    "descripcion": "Grenada",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GE",
+    "descripcion": "Georgia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GF",
+    "descripcion": "French Guiana",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GG",
+    "descripcion": "Guernsey",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GH",
+    "descripcion": "Ghana",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GI",
+    "descripcion": "Gibraltar",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GL",
+    "descripcion": "Greenland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GM",
+    "descripcion": "Gambia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GN",
+    "descripcion": "Guinea",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GP",
+    "descripcion": "Guadeloupe",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GQ",
+    "descripcion": "Equatorial Guinea",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GR",
+    "descripcion": "Greece",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GS",
+    "descripcion": "South Georgia and the South Sandwich Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GT",
+    "descripcion": "Guatemala",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GU",
+    "descripcion": "Guam",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GW",
+    "descripcion": "Guinea-Bissau",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GY",
+    "descripcion": "Guyana",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "HK",
+    "descripcion": "Hong Kong",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "HM",
+    "descripcion": "Heard Island and McDonald Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "HN",
+    "descripcion": "Honduras",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "HR",
+    "descripcion": "Croatia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "HT",
+    "descripcion": "Haiti",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "HU",
+    "descripcion": "Hungary",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ID",
+    "descripcion": "Indonesia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IE",
+    "descripcion": "Ireland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IL",
+    "descripcion": "Israel",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IM",
+    "descripcion": "Isle of Man",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IN",
+    "descripcion": "India",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IO",
+    "descripcion": "British Indian Ocean Territory",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IQ",
+    "descripcion": "Iraq",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IR",
+    "descripcion": "Iran, Islamic Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IS",
+    "descripcion": "Iceland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IT",
+    "descripcion": "Italy",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "JE",
+    "descripcion": "Jersey",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "JM",
+    "descripcion": "Jamaica",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "JO",
+    "descripcion": "Jordan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "JP",
+    "descripcion": "Japan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KE",
+    "descripcion": "Kenya",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KG",
+    "descripcion": "Kyrgyzstan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KH",
+    "descripcion": "Cambodia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KI",
+    "descripcion": "Kiribati",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KM",
+    "descripcion": "Comoros",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KN",
+    "descripcion": "Saint Kitts and Nevis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KP",
+    "descripcion": "Korea, Democratic People's Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KR",
+    "descripcion": "Korea, Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KW",
+    "descripcion": "Kuwait",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KY",
+    "descripcion": "Cayman Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KZ",
+    "descripcion": "Kazakhstan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LA",
+    "descripcion": "Lao People's Democratic Republic",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LB",
+    "descripcion": "Lebanon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LC",
+    "descripcion": "Saint Lucia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LI",
+    "descripcion": "Liechtenstein",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LK",
+    "descripcion": "Sri Lanka",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LR",
+    "descripcion": "Liberia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LS",
+    "descripcion": "Lesotho",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LT",
+    "descripcion": "Lithuania",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LU",
+    "descripcion": "Luxembourg",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LV",
+    "descripcion": "Latvia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LY",
+    "descripcion": "Libya",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MA",
+    "descripcion": "Morocco",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MC",
+    "descripcion": "Monaco",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MD",
+    "descripcion": "Moldova, Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ME",
+    "descripcion": "Montenegro",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MF",
+    "descripcion": "Saint Martin (French part)",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MG",
+    "descripcion": "Madagascar",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MH",
+    "descripcion": "Marshall Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MK",
+    "descripcion": "Macedonia, the former Yugoslav Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ML",
+    "descripcion": "Mali",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MM",
+    "descripcion": "Myanmar",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MN",
+    "descripcion": "Mongolia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MO",
+    "descripcion": "Macao",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MP",
+    "descripcion": "Northern Mariana Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MQ",
+    "descripcion": "Martinique",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MR",
+    "descripcion": "Mauritania",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MS",
+    "descripcion": "Montserrat",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MT",
+    "descripcion": "Malta",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MU",
+    "descripcion": "Mauritius",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MV",
+    "descripcion": "Maldives",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MW",
+    "descripcion": "Malawi",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MX",
+    "descripcion": "Mexico",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MY",
+    "descripcion": "Malaysia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MZ",
+    "descripcion": "Mozambique",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NA",
+    "descripcion": "Namibia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NC",
+    "descripcion": "New Caledonia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NE",
+    "descripcion": "Niger",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NF",
+    "descripcion": "Norfolk Island",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NG",
+    "descripcion": "Nigeria",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NI",
+    "descripcion": "Nicaragua",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NL",
+    "descripcion": "Netherlands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NO",
+    "descripcion": "Norway",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NP",
+    "descripcion": "Nepal",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NR",
+    "descripcion": "Nauru",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NU",
+    "descripcion": "Niue",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NZ",
+    "descripcion": "New Zealand",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "OM",
+    "descripcion": "Oman",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PA",
+    "descripcion": "Panama",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PE",
+    "descripcion": "Peru",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PF",
+    "descripcion": "French Polynesia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PG",
+    "descripcion": "Papua New Guinea",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PH",
+    "descripcion": "Philippines",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PK",
+    "descripcion": "Pakistan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PL",
+    "descripcion": "Poland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PM",
+    "descripcion": "Saint Pierre and Miquelon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PN",
+    "descripcion": "Pitcairn",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PR",
+    "descripcion": "Puerto Rico",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PS",
+    "descripcion": "Palestine, State of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PT",
+    "descripcion": "Portugal",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PW",
+    "descripcion": "Palau",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PY",
+    "descripcion": "Paraguay",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "QA",
+    "descripcion": "Qatar",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "RE",
+    "descripcion": "Riunion",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "RO",
+    "descripcion": "Romania",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "RS",
+    "descripcion": "Serbia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "RU",
+    "descripcion": "Russian Federation",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "RW",
+    "descripcion": "Rwanda",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SA",
+    "descripcion": "Saudi Arabia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SB",
+    "descripcion": "Solomon Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SC",
+    "descripcion": "Seychelles",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SD",
+    "descripcion": "Sudan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SE",
+    "descripcion": "Sweden",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SG",
+    "descripcion": "Singapore",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SH",
+    "descripcion": "Saint Helena, Ascension and Tristan da Cunha",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SI",
+    "descripcion": "Slovenia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SJ",
+    "descripcion": "Svalbard and Jan Mayen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SK",
+    "descripcion": "Slovakia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SL",
+    "descripcion": "Sierra Leone",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SM",
+    "descripcion": "San Marino",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SN",
+    "descripcion": "Senegal",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SO",
+    "descripcion": "Somalia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SR",
+    "descripcion": "Suriname",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SS",
+    "descripcion": "South Sudan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ST",
+    "descripcion": "Sao Tome and Principe",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SV",
+    "descripcion": "El Salvador",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SX",
+    "descripcion": "Sint Maarten (Dutch part)",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SY",
+    "descripcion": "Syrian Arab Republic",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SZ",
+    "descripcion": "Swaziland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TC",
+    "descripcion": "Turks and Caicos Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TD",
+    "descripcion": "Chad",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TF",
+    "descripcion": "French Southern Territories",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TG",
+    "descripcion": "Togo",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TH",
+    "descripcion": "Thailand",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TJ",
+    "descripcion": "Tajikistan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TK",
+    "descripcion": "Tokelau",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TL",
+    "descripcion": "Timor-Leste",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TM",
+    "descripcion": "Turkmenistan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TN",
+    "descripcion": "Tunisia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TO",
+    "descripcion": "Tonga",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TR",
+    "descripcion": "Turkey",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TT",
+    "descripcion": "Trinidad and Tobago",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TV",
+    "descripcion": "Tuvalu",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TW",
+    "descripcion": "Taiwan, Province of China",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TZ",
+    "descripcion": "Tanzania, United Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "UA",
+    "descripcion": "Ukraine",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "UG",
+    "descripcion": "Uganda",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "UM",
+    "descripcion": "United States Minor Outlying Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "US",
+    "descripcion": "United States of America",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "UY",
+    "descripcion": "Uruguay",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "UZ",
+    "descripcion": "Uzbekistan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "VA",
+    "descripcion": "Holy See",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "VC",
+    "descripcion": "Saint Vincent and the Grenadines",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "VE",
+    "descripcion": "Venezuela, Bolivarian Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "VG",
+    "descripcion": "Virgin Islands, British",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "VI",
+    "descripcion": "Virgin Islands,",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "VN",
+    "descripcion": "Viet Nam",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "VU",
+    "descripcion": "Vanuatu",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "WF",
+    "descripcion": "Wallis and Futuna",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "WS",
+    "descripcion": "Samoa",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "YE",
+    "descripcion": "Yemen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "YT",
+    "descripcion": "Mayotte",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ZA",
+    "descripcion": "South Africa",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ZM",
+    "descripcion": "Zambia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ZW",
+    "descripcion": "Zimbabwe",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ABW",
+    "descripcion": "Aruba",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AFG",
+    "descripcion": "Afghanistan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AGO",
+    "descripcion": "Angola",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AIA",
+    "descripcion": "Anguilla",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ALA",
+    "descripcion": "Eland Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ALB",
+    "descripcion": "Albania",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AND",
+    "descripcion": "Andorra",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ARE",
+    "descripcion": "United Arab Emirates",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ARG",
+    "descripcion": "Argentina",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ARM",
+    "descripcion": "Armenia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ASM",
+    "descripcion": "American Samoa",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ATA",
+    "descripcion": "Antarctica",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ATF",
+    "descripcion": "French Southern Territories",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ATG",
+    "descripcion": "Antigua and Barbuda",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AUS",
+    "descripcion": "Australia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AUT",
+    "descripcion": "Austria",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "AZE",
+    "descripcion": "Azerbaijan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BDI",
+    "descripcion": "Burundi",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BEL",
+    "descripcion": "Belgium",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BEN",
+    "descripcion": "Benin",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BES",
+    "descripcion": "Bonaire, Sint Eustatius and Saba",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BFA",
+    "descripcion": "Burkina Faso",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BGD",
+    "descripcion": "Bangladesh",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BGR",
+    "descripcion": "Bulgaria",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BHR",
+    "descripcion": "Bahrain",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BHS",
+    "descripcion": "Bahamas",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BIH",
+    "descripcion": "Bosnia and Herzegovina",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BLM",
+    "descripcion": "Saint Barthilemy",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BLR",
+    "descripcion": "Belarus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BLZ",
+    "descripcion": "Belize",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BMU",
+    "descripcion": "Bermuda",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BOL",
+    "descripcion": "Bolivia, Plurinational State of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BRA",
+    "descripcion": "Brazil",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BRB",
+    "descripcion": "Barbados",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BRN",
+    "descripcion": "Brunei Darussalam",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BTN",
+    "descripcion": "Bhutan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BVT",
+    "descripcion": "Bouvet Island",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "BWA",
+    "descripcion": "Botswana",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CAF",
+    "descripcion": "Central African Republic",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CAN",
+    "descripcion": "Canada",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CCK",
+    "descripcion": "Cocos (Keeling) Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CHE",
+    "descripcion": "Switzerland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CHL",
+    "descripcion": "Chile",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CHN",
+    "descripcion": "China",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CIV",
+    "descripcion": "Ctte d'Ivoire",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CMR",
+    "descripcion": "Cameroon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "COD",
+    "descripcion": "Congo, the Democratic Republic of the",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "COG",
+    "descripcion": "Congo",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "COK",
+    "descripcion": "Cook Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "COL",
+    "descripcion": "Colombia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "COM",
+    "descripcion": "Comoros",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CPV",
+    "descripcion": "Cabo Verde",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CRI",
+    "descripcion": "Costa Rica",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CUB",
+    "descripcion": "Cuba",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CUW",
+    "descripcion": "Curagao",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CXR",
+    "descripcion": "Christmas Island",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CYM",
+    "descripcion": "Cayman Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CYP",
+    "descripcion": "Cyprus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "CZE",
+    "descripcion": "Czechia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "DEU",
+    "descripcion": "Germany",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "DJI",
+    "descripcion": "Djibouti",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "DMA",
+    "descripcion": "Dominica",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "DNK",
+    "descripcion": "Denmark",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "DOM",
+    "descripcion": "Dominican Republic",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "DZA",
+    "descripcion": "Algeria",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ECU",
+    "descripcion": "Ecuador",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "EGY",
+    "descripcion": "Egypt",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ERI",
+    "descripcion": "Eritrea",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ESH",
+    "descripcion": "Western Sahara",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ESP",
+    "descripcion": "Spain",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "EST",
+    "descripcion": "Estonia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ETH",
+    "descripcion": "Ethiopia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "FIN",
+    "descripcion": "Finland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "FJI",
+    "descripcion": "Fiji",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "FLK",
+    "descripcion": "Falkland Islands (Malvinas)",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "FRA",
+    "descripcion": "France",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "FRO",
+    "descripcion": "Faroe Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "FSM",
+    "descripcion": "Micronesia, Federated States of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GAB",
+    "descripcion": "Gabon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GBR",
+    "descripcion": "United Kingdom",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GEO",
+    "descripcion": "Georgia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GGY",
+    "descripcion": "Guernsey",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GHA",
+    "descripcion": "Ghana",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GIB",
+    "descripcion": "Gibraltar",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GIN",
+    "descripcion": "Guinea",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GLP",
+    "descripcion": "Guadeloupe",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GMB",
+    "descripcion": "Gambia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GNB",
+    "descripcion": "Guinea-Bissau",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GNQ",
+    "descripcion": "Equatorial Guinea",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GRC",
+    "descripcion": "Greece",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GRD",
+    "descripcion": "Grenada",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GRL",
+    "descripcion": "Greenland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GTM",
+    "descripcion": "Guatemala",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GUF",
+    "descripcion": "French Guiana",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GUM",
+    "descripcion": "Guam",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "GUY",
+    "descripcion": "Guyana",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "HKG",
+    "descripcion": "Hong Kong",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "HMD",
+    "descripcion": "Heard Island and McDonald Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "HND",
+    "descripcion": "Honduras",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "HRV",
+    "descripcion": "Croatia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "HTI",
+    "descripcion": "Haiti",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "HUN",
+    "descripcion": "Hungary",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IDN",
+    "descripcion": "Indonesia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IMN",
+    "descripcion": "Isle of Man",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IND",
+    "descripcion": "India",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IOT",
+    "descripcion": "British Indian Ocean Territory",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IRL",
+    "descripcion": "Ireland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IRN",
+    "descripcion": "Iran, Islamic Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "IRQ",
+    "descripcion": "Iraq",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ISL",
+    "descripcion": "Iceland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ISR",
+    "descripcion": "Israel",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ITA",
+    "descripcion": "Italy",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "JAM",
+    "descripcion": "Jamaica",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "JEY",
+    "descripcion": "Jersey",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "JOR",
+    "descripcion": "Jordan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "JPN",
+    "descripcion": "Japan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KAZ",
+    "descripcion": "Kazakhstan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KEN",
+    "descripcion": "Kenya",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KGZ",
+    "descripcion": "Kyrgyzstan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KHM",
+    "descripcion": "Cambodia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KIR",
+    "descripcion": "Kiribati",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KNA",
+    "descripcion": "Saint Kitts and Nevis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KOR",
+    "descripcion": "Korea, Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "KWT",
+    "descripcion": "Kuwait",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LAO",
+    "descripcion": "Lao People's Democratic Republic",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LBN",
+    "descripcion": "Lebanon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LBR",
+    "descripcion": "Liberia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LBY",
+    "descripcion": "Libya",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LCA",
+    "descripcion": "Saint Lucia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LIE",
+    "descripcion": "Liechtenstein",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LKA",
+    "descripcion": "Sri Lanka",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LSO",
+    "descripcion": "Lesotho",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LTU",
+    "descripcion": "Lithuania",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LUX",
+    "descripcion": "Luxembourg",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "LVA",
+    "descripcion": "Latvia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MAC",
+    "descripcion": "Macao",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MAF",
+    "descripcion": "Saint Martin (French part)",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MAR",
+    "descripcion": "Morocco",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MCO",
+    "descripcion": "Monaco",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MDA",
+    "descripcion": "Moldova, Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MDG",
+    "descripcion": "Madagascar",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MDV",
+    "descripcion": "Maldives",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MEX",
+    "descripcion": "Mexico",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MHL",
+    "descripcion": "Marshall Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MKD",
+    "descripcion": "Macedonia, the former Yugoslav Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MLI",
+    "descripcion": "Mali",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MLT",
+    "descripcion": "Malta",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MMR",
+    "descripcion": "Myanmar",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MNE",
+    "descripcion": "Montenegro",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MNG",
+    "descripcion": "Mongolia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MNP",
+    "descripcion": "Northern Mariana Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MOZ",
+    "descripcion": "Mozambique",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MRT",
+    "descripcion": "Mauritania",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MSR",
+    "descripcion": "Montserrat",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MTQ",
+    "descripcion": "Martinique",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MUS",
+    "descripcion": "Mauritius",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MWI",
+    "descripcion": "Malawi",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MYS",
+    "descripcion": "Malaysia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "MYT",
+    "descripcion": "Mayotte",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NAM",
+    "descripcion": "Namibia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NCL",
+    "descripcion": "New Caledonia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NER",
+    "descripcion": "Niger",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NFK",
+    "descripcion": "Norfolk Island",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NGA",
+    "descripcion": "Nigeria",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NIC",
+    "descripcion": "Nicaragua",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NIU",
+    "descripcion": "Niue",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NLD",
+    "descripcion": "Netherlands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NOR",
+    "descripcion": "Norway",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NPL",
+    "descripcion": "Nepal",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NRU",
+    "descripcion": "Nauru",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "NZL",
+    "descripcion": "New Zealand",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "OMN",
+    "descripcion": "Oman",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PAK",
+    "descripcion": "Pakistan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PAN",
+    "descripcion": "Panama",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PCN",
+    "descripcion": "Pitcairn",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PER",
+    "descripcion": "Peru",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PHL",
+    "descripcion": "Philippines",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PLW",
+    "descripcion": "Palau",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PNG",
+    "descripcion": "Papua New Guinea",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "POL",
+    "descripcion": "Poland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PRI",
+    "descripcion": "Puerto Rico",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PRK",
+    "descripcion": "Korea, Democratic People's Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PRT",
+    "descripcion": "Portugal",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PRY",
+    "descripcion": "Paraguay",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PSE",
+    "descripcion": "Palestine, State of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "PYF",
+    "descripcion": "French Polynesia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "QAT",
+    "descripcion": "Qatar",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "REU",
+    "descripcion": "Riunion",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ROU",
+    "descripcion": "Romania",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "RUS",
+    "descripcion": "Russian Federation",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "RWA",
+    "descripcion": "Rwanda",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SAU",
+    "descripcion": "Saudi Arabia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SDN",
+    "descripcion": "Sudan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SEN",
+    "descripcion": "Senegal",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SGP",
+    "descripcion": "Singapore",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SGS",
+    "descripcion": "South Georgia and the South Sandwich Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SHN",
+    "descripcion": "Saint Helena, Ascension and Tristan da Cunha",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SJM",
+    "descripcion": "Svalbard and Jan Mayen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SLB",
+    "descripcion": "Solomon Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SLE",
+    "descripcion": "Sierra Leone",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SLV",
+    "descripcion": "El Salvador",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SMR",
+    "descripcion": "San Marino",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SOM",
+    "descripcion": "Somalia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SPM",
+    "descripcion": "Saint Pierre and Miquelon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SRB",
+    "descripcion": "Serbia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SSD",
+    "descripcion": "South Sudan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "STP",
+    "descripcion": "Sao Tome and Principe",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SUR",
+    "descripcion": "Suriname",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SVK",
+    "descripcion": "Slovakia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SVN",
+    "descripcion": "Slovenia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SWE",
+    "descripcion": "Sweden",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SWZ",
+    "descripcion": "Swaziland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SXM",
+    "descripcion": "Sint Maarten (Dutch part)",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SYC",
+    "descripcion": "Seychelles",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "SYR",
+    "descripcion": "Syrian Arab Republic",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TCA",
+    "descripcion": "Turks and Caicos Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TCD",
+    "descripcion": "Chad",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TGO",
+    "descripcion": "Togo",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "THA",
+    "descripcion": "Thailand",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TJK",
+    "descripcion": "Tajikistan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TKL",
+    "descripcion": "Tokelau",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TKM",
+    "descripcion": "Turkmenistan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TLS",
+    "descripcion": "Timor-Leste",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TON",
+    "descripcion": "Tonga",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TTO",
+    "descripcion": "Trinidad and Tobago",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TUN",
+    "descripcion": "Tunisia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TUR",
+    "descripcion": "Turkey",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TUV",
+    "descripcion": "Tuvalu",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TWN",
+    "descripcion": "Taiwan, Province of China",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "TZA",
+    "descripcion": "Tanzania, United Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "UGA",
+    "descripcion": "Uganda",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "UKR",
+    "descripcion": "Ukraine",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "UMI",
+    "descripcion": "United States Minor Outlying Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "URY",
+    "descripcion": "Uruguay",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "USA",
+    "descripcion": "United States of America",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "UZB",
+    "descripcion": "Uzbekistan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "VAT",
+    "descripcion": "Holy See",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "VCT",
+    "descripcion": "Saint Vincent and the Grenadines",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "VEN",
+    "descripcion": "Venezuela, Bolivarian Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "VGB",
+    "descripcion": "Virgin Islands, British",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "VIR",
+    "descripcion": "Virgin Islands, U.S.",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "VNM",
+    "descripcion": "Viet Nam",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "VUT",
+    "descripcion": "Vanuatu",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "WLF",
+    "descripcion": "Wallis and Futuna",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "WSM",
+    "descripcion": "Samoa",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "YEM",
+    "descripcion": "Yemen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ZAF",
+    "descripcion": "South Africa",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ZMB",
+    "descripcion": "Zambia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "ZWE",
+    "descripcion": "Zimbabwe",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "004",
+    "descripcion": "Afghanistan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "008",
+    "descripcion": "Albania",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "010",
+    "descripcion": "Antarctica",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "012",
+    "descripcion": "Algeria",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "016",
+    "descripcion": "American Samoa",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "020",
+    "descripcion": "Andorra",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "024",
+    "descripcion": "Angola",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "028",
+    "descripcion": "Antigua and Barbuda",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "031",
+    "descripcion": "Azerbaijan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "032",
+    "descripcion": "Argentina",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "036",
+    "descripcion": "Australia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "040",
+    "descripcion": "Austria",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "044",
+    "descripcion": "Bahamas",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "048",
+    "descripcion": "Bahrain",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "050",
+    "descripcion": "Bangladesh",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "051",
+    "descripcion": "Armenia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "052",
+    "descripcion": "Barbados",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "056",
+    "descripcion": "Belgium",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "060",
+    "descripcion": "Bermuda",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "064",
+    "descripcion": "Bhutan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "068",
+    "descripcion": "Bolivia, Plurinational State of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "070",
+    "descripcion": "Bosnia and Herzegovina",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "072",
+    "descripcion": "Botswana",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "074",
+    "descripcion": "Bouvet Island",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "076",
+    "descripcion": "Brazil",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "084",
+    "descripcion": "Belize",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "086",
+    "descripcion": "British Indian Ocean Territory",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "090",
+    "descripcion": "Solomon Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "092",
+    "descripcion": "Virgin Islands, British",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "096",
+    "descripcion": "Brunei Darussalam",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "100",
+    "descripcion": "Bulgaria",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "104",
+    "descripcion": "Myanmar",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "108",
+    "descripcion": "Burundi",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "112",
+    "descripcion": "Belarus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "116",
+    "descripcion": "Cambodia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "120",
+    "descripcion": "Cameroon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "124",
+    "descripcion": "Canada",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "132",
+    "descripcion": "Cabo Verde",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "136",
+    "descripcion": "Cayman Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "140",
+    "descripcion": "Central African Republic",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "144",
+    "descripcion": "Sri Lanka",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "148",
+    "descripcion": "Chad",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "152",
+    "descripcion": "Chile",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "156",
+    "descripcion": "China",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "158",
+    "descripcion": "Taiwan, Province of China",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "162",
+    "descripcion": "Christmas Island",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "166",
+    "descripcion": "Cocos (Keeling) Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "170",
+    "descripcion": "Colombia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "174",
+    "descripcion": "Comoros",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "175",
+    "descripcion": "Mayotte",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "178",
+    "descripcion": "Congo",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "180",
+    "descripcion": "Congo, the Democratic Republic of the",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "184",
+    "descripcion": "Cook Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "188",
+    "descripcion": "Costa Rica",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "191",
+    "descripcion": "Croatia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "192",
+    "descripcion": "Cuba",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "196",
+    "descripcion": "Cyprus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "203",
+    "descripcion": "Czechia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "204",
+    "descripcion": "Benin",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "208",
+    "descripcion": "Denmark",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "212",
+    "descripcion": "Dominica",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "214",
+    "descripcion": "Dominican Republic",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "218",
+    "descripcion": "Ecuador",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "222",
+    "descripcion": "El Salvador",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "226",
+    "descripcion": "Equatorial Guinea",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "231",
+    "descripcion": "Ethiopia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "232",
+    "descripcion": "Eritrea",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "233",
+    "descripcion": "Estonia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "234",
+    "descripcion": "Faroe Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "238",
+    "descripcion": "Falkland Islands (Malvinas)",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "239",
+    "descripcion": "South Georgia and the South Sandwich Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "242",
+    "descripcion": "Fiji",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "246",
+    "descripcion": "Finland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "248",
+    "descripcion": "Eland Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "250",
+    "descripcion": "France",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "254",
+    "descripcion": "French Guiana",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "258",
+    "descripcion": "French Polynesia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "260",
+    "descripcion": "French Southern Territories",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "262",
+    "descripcion": "Djibouti",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "266",
+    "descripcion": "Gabon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "268",
+    "descripcion": "Georgia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "270",
+    "descripcion": "Gambia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "275",
+    "descripcion": "Palestine, State of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "276",
+    "descripcion": "Germany",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "288",
+    "descripcion": "Ghana",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "292",
+    "descripcion": "Gibraltar",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "296",
+    "descripcion": "Kiribati",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "300",
+    "descripcion": "Greece",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "304",
+    "descripcion": "Greenland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "308",
+    "descripcion": "Grenada",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "312",
+    "descripcion": "Guadeloupe",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "316",
+    "descripcion": "Guam",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "320",
+    "descripcion": "Guatemala",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "324",
+    "descripcion": "Guinea",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "328",
+    "descripcion": "Guyana",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "332",
+    "descripcion": "Haiti",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "334",
+    "descripcion": "Heard Island and McDonald Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "336",
+    "descripcion": "Holy See",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "340",
+    "descripcion": "Honduras",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "344",
+    "descripcion": "Hong Kong",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "348",
+    "descripcion": "Hungary",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "352",
+    "descripcion": "Iceland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "356",
+    "descripcion": "India",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "360",
+    "descripcion": "Indonesia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "364",
+    "descripcion": "Iran, Islamic Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "368",
+    "descripcion": "Iraq",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "372",
+    "descripcion": "Ireland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "376",
+    "descripcion": "Israel",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "380",
+    "descripcion": "Italy",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "384",
+    "descripcion": "Ctte d'Ivoire",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "388",
+    "descripcion": "Jamaica",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "392",
+    "descripcion": "Japan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "398",
+    "descripcion": "Kazakhstan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "400",
+    "descripcion": "Jordan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "404",
+    "descripcion": "Kenya",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "408",
+    "descripcion": "Korea, Democratic People's Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "410",
+    "descripcion": "Korea, Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "414",
+    "descripcion": "Kuwait",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "417",
+    "descripcion": "Kyrgyzstan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "418",
+    "descripcion": "Lao People's Democratic Republic",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "422",
+    "descripcion": "Lebanon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "426",
+    "descripcion": "Lesotho",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "428",
+    "descripcion": "Latvia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "430",
+    "descripcion": "Liberia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "434",
+    "descripcion": "Libya",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "438",
+    "descripcion": "Liechtenstein",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "440",
+    "descripcion": "Lithuania",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "442",
+    "descripcion": "Luxembourg",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "446",
+    "descripcion": "Macao",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "450",
+    "descripcion": "Madagascar",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "454",
+    "descripcion": "Malawi",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "458",
+    "descripcion": "Malaysia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "462",
+    "descripcion": "Maldives",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "466",
+    "descripcion": "Mali",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "470",
+    "descripcion": "Malta",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "474",
+    "descripcion": "Martinique",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "478",
+    "descripcion": "Mauritania",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "480",
+    "descripcion": "Mauritius",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "484",
+    "descripcion": "Mexico",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "492",
+    "descripcion": "Monaco",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "496",
+    "descripcion": "Mongolia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "498",
+    "descripcion": "Moldova, Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "499",
+    "descripcion": "Montenegro",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "500",
+    "descripcion": "Montserrat",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "504",
+    "descripcion": "Morocco",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "508",
+    "descripcion": "Mozambique",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "512",
+    "descripcion": "Oman",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "516",
+    "descripcion": "Namibia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "520",
+    "descripcion": "Nauru",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "524",
+    "descripcion": "Nepal",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "528",
+    "descripcion": "Netherlands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "531",
+    "descripcion": "Curagao",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "533",
+    "descripcion": "Aruba",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "534",
+    "descripcion": "Sint Maarten (Dutch part)",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "535",
+    "descripcion": "Bonaire, Sint Eustatius and Saba",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "540",
+    "descripcion": "New Caledonia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "548",
+    "descripcion": "Vanuatu",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "554",
+    "descripcion": "New Zealand",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "558",
+    "descripcion": "Nicaragua",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "562",
+    "descripcion": "Niger",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "566",
+    "descripcion": "Nigeria",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "570",
+    "descripcion": "Niue",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "574",
+    "descripcion": "Norfolk Island",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "578",
+    "descripcion": "Norway",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "580",
+    "descripcion": "Northern Mariana Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "581",
+    "descripcion": "United States Minor Outlying Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "583",
+    "descripcion": "Micronesia, Federated States of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "584",
+    "descripcion": "Marshall Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "585",
+    "descripcion": "Palau",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "586",
+    "descripcion": "Pakistan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "591",
+    "descripcion": "Panama",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "598",
+    "descripcion": "Papua New Guinea",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "600",
+    "descripcion": "Paraguay",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "604",
+    "descripcion": "Peru",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "608",
+    "descripcion": "Philippines",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "612",
+    "descripcion": "Pitcairn",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "616",
+    "descripcion": "Poland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "620",
+    "descripcion": "Portugal",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "624",
+    "descripcion": "Guinea-Bissau",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "626",
+    "descripcion": "Timor-Leste",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "630",
+    "descripcion": "Puerto Rico",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "634",
+    "descripcion": "Qatar",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "638",
+    "descripcion": "Riunion",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "642",
+    "descripcion": "Romania",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "643",
+    "descripcion": "Russian Federation",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "646",
+    "descripcion": "Rwanda",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "652",
+    "descripcion": "Saint Barthilemy",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "654",
+    "descripcion": "Saint Helena, Ascension and Tristan da Cunha",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "659",
+    "descripcion": "Saint Kitts and Nevis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "660",
+    "descripcion": "Anguilla",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "662",
+    "descripcion": "Saint Lucia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "663",
+    "descripcion": "Saint Martin (French part)",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "666",
+    "descripcion": "Saint Pierre and Miquelon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "670",
+    "descripcion": "Saint Vincent and the Grenadines",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "674",
+    "descripcion": "San Marino",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "678",
+    "descripcion": "Sao Tome and Principe",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "682",
+    "descripcion": "Saudi Arabia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "686",
+    "descripcion": "Senegal",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "688",
+    "descripcion": "Serbia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "690",
+    "descripcion": "Seychelles",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "694",
+    "descripcion": "Sierra Leone",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "702",
+    "descripcion": "Singapore",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "703",
+    "descripcion": "Slovakia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "704",
+    "descripcion": "Viet Nam",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "705",
+    "descripcion": "Slovenia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "706",
+    "descripcion": "Somalia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "710",
+    "descripcion": "South Africa",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "716",
+    "descripcion": "Zimbabwe",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "724",
+    "descripcion": "Spain",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "728",
+    "descripcion": "South Sudan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "729",
+    "descripcion": "Sudan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "732",
+    "descripcion": "Western Sahara",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "740",
+    "descripcion": "Suriname",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "744",
+    "descripcion": "Svalbard and Jan Mayen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "748",
+    "descripcion": "Swaziland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "752",
+    "descripcion": "Sweden",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "756",
+    "descripcion": "Switzerland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "760",
+    "descripcion": "Syrian Arab Republic",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "762",
+    "descripcion": "Tajikistan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "764",
+    "descripcion": "Thailand",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "768",
+    "descripcion": "Togo",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "772",
+    "descripcion": "Tokelau",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "776",
+    "descripcion": "Tonga",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "780",
+    "descripcion": "Trinidad and Tobago",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "784",
+    "descripcion": "United Arab Emirates",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "788",
+    "descripcion": "Tunisia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "792",
+    "descripcion": "Turkey",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "795",
+    "descripcion": "Turkmenistan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "796",
+    "descripcion": "Turks and Caicos Islands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "798",
+    "descripcion": "Tuvalu",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "800",
+    "descripcion": "Uganda",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "804",
+    "descripcion": "Ukraine",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "807",
+    "descripcion": "Macedonia, the former Yugoslav Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "818",
+    "descripcion": "Egypt",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "826",
+    "descripcion": "United Kingdom",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "831",
+    "descripcion": "Guernsey",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "832",
+    "descripcion": "Jersey",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "833",
+    "descripcion": "Isle of Man",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "834",
+    "descripcion": "Tanzania, United Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "840",
+    "descripcion": "United States of America",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "850",
+    "descripcion": "Virgin Islands, U.S.",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "854",
+    "descripcion": "Burkina Faso",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "858",
+    "descripcion": "Uruguay",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "860",
+    "descripcion": "Uzbekistan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "862",
+    "descripcion": "Venezuela, Bolivarian Republic of",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "876",
+    "descripcion": "Wallis and Futuna",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "882",
+    "descripcion": "Samoa",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "887",
+    "descripcion": "Yemen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "894",
+    "descripcion": "Zambia",
+    "activo": true
+  }
+]

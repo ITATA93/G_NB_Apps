@@ -1,0 +1,23 @@
+{
+  "collection": "ugco_comiteoncologico",
+  "count": 2,
+  "exportedAt": "2026-01-28T21:31:08.982Z",
+  "records": [
+    {
+      "fecha_comite": "2023-11-01T00:00:00.000Z",
+      "id": 1,
+      "createdById": 4,
+      "updatedById": 4,
+      "resolucion": "Quimioterapia neoadyuvante",
+      "tipo_comite": "Mama"
+    },
+    {
+      "fecha_comite": "2023-11-15T00:00:00.000Z",
+      "id": 2,
+      "createdById": 4,
+      "updatedById": 4,
+      "resolucion": "Cirugía programada",
+      "tipo_comite": "Digestivo"
+    }
+  ]
+}

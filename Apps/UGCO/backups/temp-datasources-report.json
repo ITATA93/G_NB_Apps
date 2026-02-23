@@ -1,0 +1,2147 @@
+{
+  "timestamp": "2026-01-26T10:39:04.064Z",
+  "dataSources": [
+    {
+      "createdAt": "2025-10-16T15:05:37.000Z",
+      "updatedAt": "2025-10-16T15:05:37.000Z",
+      "key": "main",
+      "displayName": "{{t(\"Main\")}}",
+      "type": "main",
+      "options": {},
+      "enabled": true,
+      "fixed": true,
+      "collections": [],
+      "status": "loaded"
+    },
+    {
+      "createdAt": "2025-11-11T12:34:50.000Z",
+      "updatedAt": "2025-11-27T12:39:11.000Z",
+      "key": "d_llw3u3ya2ej",
+      "displayName": "SIDRA",
+      "type": "mssql",
+      "options": {
+        "host": "10.67.119.135",
+        "port": 1433,
+        "database": "DB_SIDRA_TEST",
+        "password": "***REDACTED***",
+        "username": "sidra",
+        "tablePrefix": "",
+        "addAllCollections": true
+      },
+      "enabled": true,
+      "fixed": false,
+      "collections": [
+        {
+          "key": "0spd54g6wea",
+          "name": "H_AdmisionUrgencia",
+          "dataSourceKey": "d_llw3u3ya2ej",
+          "titleField": "Nombre",
+          "filterTargetKey": [
+            "N_Episodio"
+          ]
+        },
+        {
+          "key": "11grjaobx2n",
+          "name": "PacientesData_",
+          "dataSourceKey": "d_llw3u3ya2ej",
+          "filterTargetKey": [
+            "PAPMI_No"
+          ]
+        },
+        {
+          "key": "3dvc91e92rr",
+          "name": "H_user",
+          "dataSourceKey": "d_llw3u3ya2ej",
+          "filterTargetKey": [
+            "Rut"
+          ]
+        },
+        {
+          "key": "4hxt5mm9f8e",
+          "name": "MAESTRA$",
+          "dataSourceKey": "d_llw3u3ya2ej",
+          "filterTargetKey": [
+            "CODIGO"
+          ]
+        },
+        {
+          "key": "61qg9fg91ut",
+          "name": "PacientesData_full",
+          "dataSourceKey": "d_llw3u3ya2ej",
+          "title": "PacientesData_full",
+          "fields": [
+            {
+              "name": "PAPMI_RowId1",
+              "type": "integer",
+              "field": "PAPMI_RowId1",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_RowId1",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_No",
+              "type": "string",
+              "field": "PAPMI_No",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_No",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_ID",
+              "type": "string",
+              "field": "PAPMI_ID",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_ID",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_Name",
+              "type": "string",
+              "field": "PAPMI_Name",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Name",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_Name2",
+              "type": "string",
+              "field": "PAPMI_Name2",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Name2",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_Alias",
+              "type": "string",
+              "field": "PAPMI_Alias",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Alias",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_ForeignPhoneNo",
+              "type": "string",
+              "field": "PAPMI_ForeignPhoneNo",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_ForeignPhoneNo",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_IPNo",
+              "type": "string",
+              "field": "PAPMI_IPNo",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_IPNo",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_OPNo",
+              "type": "string",
+              "field": "PAPMI_OPNo",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_OPNo",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_EstAgeMonth",
+              "type": "float",
+              "field": "PAPMI_EstAgeMonth",
+              "unique": false,
+              "rawType": "FLOAT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_EstAgeMonth",
+                "x-component": "InputNumber",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "number",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false
+            },
+            {
+              "name": "PAPMI_Sex_DR",
+              "type": "integer",
+              "field": "PAPMI_Sex_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_Sex_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_Soundex",
+              "type": "string",
+              "field": "PAPMI_Soundex",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Soundex",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_LangPrim_DR",
+              "type": "integer",
+              "field": "PAPMI_LangPrim_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_LangPrim_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_Remark",
+              "type": "string",
+              "field": "PAPMI_Remark",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Remark",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_LangSecondDR",
+              "type": "integer",
+              "field": "PAPMI_LangSecondDR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_LangSecondDR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_Deceased",
+              "type": "string",
+              "field": "PAPMI_Deceased",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Deceased",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_Deceased_Date",
+              "type": "datetimeNoTz",
+              "field": "PAPMI_Deceased_Date",
+              "unique": false,
+              "rawType": "DATETIME",
+              "uiSchema": {
+                "type": "string",
+                "title": "PAPMI_Deceased_Date",
+                "x-component": "DatePicker",
+                "x-component-props": {
+                  "utc": false,
+                  "showTime": false
+                }
+              },
+              "allowNull": true,
+              "interface": "datetimeNoTz",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false
+            },
+            {
+              "name": "PAPMI_LookupDisplay",
+              "type": "string",
+              "field": "PAPMI_LookupDisplay",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_LookupDisplay",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_SurName",
+              "type": "string",
+              "field": "PAPMI_SurName",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_SurName",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_IndexMark",
+              "type": "string",
+              "field": "PAPMI_IndexMark",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_IndexMark",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_PAPER_DR",
+              "type": "integer",
+              "field": "PAPMI_PAPER_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_PAPER_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_BlackList",
+              "type": "string",
+              "field": "PAPMI_BlackList",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_BlackList",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_Mother_DR",
+              "type": "integer",
+              "field": "PAPMI_Mother_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_Mother_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_RefDoc_DR",
+              "type": "integer",
+              "field": "PAPMI_RefDoc_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_RefDoc_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_Medicare",
+              "type": "string",
+              "field": "PAPMI_Medicare",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Medicare",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_Name3",
+              "type": "string",
+              "field": "PAPMI_Name3",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Name3",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_Refund",
+              "type": "string",
+              "field": "PAPMI_Refund",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Refund",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_MedicareString",
+              "type": "string",
+              "field": "PAPMI_MedicareString",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_MedicareString",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_UserUpdate",
+              "type": "integer",
+              "field": "PAPMI_UserUpdate",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_UserUpdate",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_TraceStatus_DR",
+              "type": "integer",
+              "field": "PAPMI_TraceStatus_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_TraceStatus_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_MedicareSuffix_DR",
+              "type": "integer",
+              "field": "PAPMI_MedicareSuffix_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_MedicareSuffix_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_MedicareCode",
+              "type": "string",
+              "field": "PAPMI_MedicareCode",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_MedicareCode",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_Allergy",
+              "type": "string",
+              "field": "PAPMI_Allergy",
+              "unique": false,
+              "rawType": "VARCHAR(4096)",
+              "uiSchema": {
+                "title": "PAPMI_Allergy",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_EPRDescription",
+              "type": "string",
+              "field": "PAPMI_EPRDescription",
+              "unique": false,
+              "rawType": "VARCHAR(300)",
+              "uiSchema": {
+                "title": "PAPMI_EPRDescription",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_ConcessionCardNo",
+              "type": "string",
+              "field": "PAPMI_ConcessionCardNo",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_ConcessionCardNo",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_ConcessionCardExpDate",
+              "type": "datetimeNoTz",
+              "field": "PAPMI_ConcessionCardExpDate",
+              "unique": false,
+              "rawType": "DATETIME",
+              "uiSchema": {
+                "type": "string",
+                "title": "PAPMI_ConcessionCardExpDate",
+                "x-component": "DatePicker",
+                "x-component-props": {
+                  "utc": false,
+                  "showTime": false
+                }
+              },
+              "allowNull": true,
+              "interface": "datetimeNoTz",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false
+            },
+            {
+              "name": "PAPMI_SafetyNetCardNo",
+              "type": "string",
+              "field": "PAPMI_SafetyNetCardNo",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_SafetyNetCardNo",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_SafetyNetCardExpDate",
+              "type": "datetimeNoTz",
+              "field": "PAPMI_SafetyNetCardExpDate",
+              "unique": false,
+              "rawType": "DATETIME",
+              "uiSchema": {
+                "type": "string",
+                "title": "PAPMI_SafetyNetCardExpDate",
+                "x-component": "DatePicker",
+                "x-component-props": {
+                  "utc": false,
+                  "showTime": false
+                }
+              },
+              "allowNull": true,
+              "interface": "datetimeNoTz",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false
+            },
+            {
+              "name": "PAPMI_DVAnumber",
+              "type": "string",
+              "field": "PAPMI_DVAnumber",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_DVAnumber",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_CardType_DR",
+              "type": "integer",
+              "field": "PAPMI_CardType_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_CardType_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_MedicareExpDate",
+              "type": "datetimeNoTz",
+              "field": "PAPMI_MedicareExpDate",
+              "unique": false,
+              "rawType": "DATETIME",
+              "uiSchema": {
+                "type": "string",
+                "title": "PAPMI_MedicareExpDate",
+                "x-component": "DatePicker",
+                "x-component-props": {
+                  "utc": false,
+                  "showTime": false
+                }
+              },
+              "allowNull": true,
+              "interface": "datetimeNoTz",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false
+            },
+            {
+              "name": "PAPMI_CHCPatient",
+              "type": "string",
+              "field": "PAPMI_CHCPatient",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_CHCPatient",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_EstimatedDeathDate",
+              "type": "string",
+              "field": "PAPMI_EstimatedDeathDate",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_EstimatedDeathDate",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_Batallion",
+              "type": "string",
+              "field": "PAPMI_Batallion",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Batallion",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_HealthFundNo",
+              "type": "string",
+              "field": "PAPMI_HealthFundNo",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_HealthFundNo",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_CountryOfBirth_DR",
+              "type": "integer",
+              "field": "PAPMI_CountryOfBirth_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_CountryOfBirth_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_Title_DR",
+              "type": "integer",
+              "field": "PAPMI_Title_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_Title_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_PrefLanguage_DR",
+              "type": "integer",
+              "field": "PAPMI_PrefLanguage_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_PrefLanguage_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_CT_Region_DR",
+              "type": "integer",
+              "field": "PAPMI_CT_Region_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_CT_Region_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_CT_Province_DR",
+              "type": "integer",
+              "field": "PAPMI_CT_Province_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_CT_Province_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_GovernCardNo",
+              "type": "string",
+              "field": "PAPMI_GovernCardNo",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_GovernCardNo",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_InsuranceCardHolder",
+              "type": "string",
+              "field": "PAPMI_InsuranceCardHolder",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_InsuranceCardHolder",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_CityArea_DR",
+              "type": "integer",
+              "field": "PAPMI_CityArea_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_CityArea_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_ResponsibleForPayment",
+              "type": "integer",
+              "field": "PAPMI_ResponsibleForPayment",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_ResponsibleForPayment",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_SecondPhone",
+              "type": "string",
+              "field": "PAPMI_SecondPhone",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_SecondPhone",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_Email",
+              "type": "string",
+              "field": "PAPMI_Email",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Email",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_MobPhone",
+              "type": "string",
+              "field": "PAPMI_MobPhone",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_MobPhone",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_AuxInsType_DR",
+              "type": "integer",
+              "field": "PAPMI_AuxInsType_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_AuxInsType_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_IndigStat_DR",
+              "type": "integer",
+              "field": "PAPMI_IndigStat_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_IndigStat_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_GPText",
+              "type": "string",
+              "field": "PAPMI_GPText",
+              "unique": false,
+              "rawType": "VARCHAR(4096)",
+              "uiSchema": {
+                "title": "PAPMI_GPText",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_Dentist_DR",
+              "type": "integer",
+              "field": "PAPMI_Dentist_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_Dentist_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_DentistClinic_DR",
+              "type": "string",
+              "field": "PAPMI_DentistClinic_DR",
+              "unique": false,
+              "rawType": "VARCHAR(254)",
+              "uiSchema": {
+                "title": "PAPMI_DentistClinic_DR",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_VIPFlag",
+              "type": "string",
+              "field": "PAPMI_VIPFlag",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_VIPFlag",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_GPOrgAddress",
+              "type": "string",
+              "field": "PAPMI_GPOrgAddress",
+              "unique": false,
+              "rawType": "VARCHAR(4096)",
+              "uiSchema": {
+                "title": "PAPMI_GPOrgAddress",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_CityBirth_DR",
+              "type": "integer",
+              "field": "PAPMI_CityBirth_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_CityBirth_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_CT_HCA_DR",
+              "type": "integer",
+              "field": "PAPMI_CT_HCA_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_CT_HCA_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_RequireAssistanceMeal",
+              "type": "string",
+              "field": "PAPMI_RequireAssistanceMeal",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_RequireAssistanceMeal",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_RequireAssistanceMenu",
+              "type": "string",
+              "field": "PAPMI_RequireAssistanceMenu",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_RequireAssistanceMenu",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_PensionType_DR",
+              "type": "integer",
+              "field": "PAPMI_PensionType_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_PensionType_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_Mother1_DR",
+              "type": "integer",
+              "field": "PAPMI_Mother1_DR",
+              "unique": false,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_Mother1_DR",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": true,
+              "interface": "integer",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            },
+            {
+              "name": "PAPMI_HealthCardExpiryDate",
+              "type": "datetimeNoTz",
+              "field": "PAPMI_HealthCardExpiryDate",
+              "unique": false,
+              "rawType": "DATETIME",
+              "uiSchema": {
+                "type": "string",
+                "title": "PAPMI_HealthCardExpiryDate",
+                "x-component": "DatePicker",
+                "x-component-props": {
+                  "utc": false,
+                  "showTime": false
+                }
+              },
+              "allowNull": true,
+              "interface": "datetimeNoTz",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false
+            },
+            {
+              "name": "PAPMI_Name4",
+              "type": "string",
+              "field": "PAPMI_Name4",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Name4",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_Name5",
+              "type": "string",
+              "field": "PAPMI_Name5",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Name5",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_Name6",
+              "type": "string",
+              "field": "PAPMI_Name6",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Name6",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_Name7",
+              "type": "string",
+              "field": "PAPMI_Name7",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Name7",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_Name8",
+              "type": "string",
+              "field": "PAPMI_Name8",
+              "unique": false,
+              "rawType": "VARCHAR(220)",
+              "uiSchema": {
+                "title": "PAPMI_Name8",
+                "x-component": "Input",
+                "x-component-props": {
+                  "style": {
+                    "width": "100%"
+                  }
+                }
+              },
+              "allowNull": true,
+              "interface": "input",
+              "primaryKey": false,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "string",
+                "uuid",
+                "nanoid"
+              ]
+            },
+            {
+              "name": "PAPMI_RowId",
+              "type": "integer",
+              "field": "PAPMI_RowId",
+              "unique": true,
+              "rawType": "INT",
+              "uiSchema": {
+                "type": "number",
+                "title": "PAPMI_RowId",
+                "x-component": "InputNumber",
+                "x-validator": "integer",
+                "x-component-props": {
+                  "step": "1",
+                  "stringMode": true
+                }
+              },
+              "allowNull": false,
+              "interface": "integer",
+              "primaryKey": true,
+              "description": null,
+              "autoIncrement": false,
+              "possibleTypes": [
+                "integer",
+                "unixTimestamp",
+                "sort"
+              ]
+            }
+          ],
+          "autoGenId": false,
+          "tableName": "PacientesData_full",
+          "timestamps": false,
+          "introspected": true,
+          "simplePaginate": true,
+          "filterTargetKey": "PAPMI_RowId"
+        },
+        {
+          "key": "7dw45fm4jvg",
+          "name": "CAMBIOS$",
+          "dataSourceKey": "d_llw3u3ya2ej",
+          "filterTargetKey": [
+            "CODIGO"
+          ]
+        },
+        {
+          "key": "9jdgu16maw0",
+          "name": "H_CodigoMAI",
+          "dataSourceKey": "d_llw3u3ya2ej",
+          "filterTargetKey": [
+            "Codigo_MAI"
+          ]
+        },
+        {
+          "key": "du86jrglc6t",
+          "name": "Pacientes_HDATL",
+          "dataSourceKey": "d_llw3u3ya2ej",
+          "filterTargetKey": [
+            "Nregistro"
+          ]
+        },
+        {
+          "key": "kc13itb3pr2",
+          "name": "Admision_Ubicacion",
+          "dataSourceKey": "d_llw3u3ya2ej",
+          "filterTargetKey": [
+            "N_Episodio"
+          ]
+        },
+        {
+          "key": "og79hk902yl",
+          "name": "Admision_Pacientes",
+          "dataSourceKey": "d_llw3u3ya2ej",
+          "titleField": "Nombres",
+          "filterTargetKey": [
+            "N_Episodio"
+          ]
+        }
+      ],
+      "status": "loaded"
+    },
+    {
+      "createdAt": "2025-11-27T11:43:48.000Z",
+      "updatedAt": "2025-11-27T11:43:48.000Z",
+      "key": "recauda",
+      "displayName": "data_recauda",
+      "type": "mssql",
+      "options": {
+        "host": "10.67.119.135",
+        "port": 1433,
+        "encrypt": false,
+        "database": "DB_SIDRA_TEST",
+        "password": "***REDACTED***",
+        "username": "sidra",
+        "addAllCollections": true
+      },
+      "enabled": true,
+      "fixed": false,
+      "collections": [],
+      "status": "loaded"
+    }
+  ],
+  "databases": null,
+  "connections": null,
+  "errors": []
+}

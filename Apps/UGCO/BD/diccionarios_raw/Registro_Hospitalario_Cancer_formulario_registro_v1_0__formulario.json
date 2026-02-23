@@ -1,0 +1,404 @@
+{
+  "source_file": "Registro_Hospitalario_Cancer_formulario_registro_v1_0.xlsm",
+  "sheet_name": "formulario",
+  "entry_count": 100,
+  "entries": [
+    {
+      "HOSPITAL DR. ANTONIO TIRADO LANAS DE OVALLE": "HOSPITAL DR. HUMBERTO ELORZA CORTÉS (ILLAPEL)"
+    },
+    {
+      "__EMPTY_2": "FORMULARIO DE REGISTRO",
+      "HOSPITAL DR. ANTONIO TIRADO LANAS DE OVALLE": "HOSPITAL SAN JUAN DE DIOS (LA SERENA)"
+    },
+    {
+      "HOSPITAL DR. ANTONIO TIRADO LANAS DE OVALLE": "CLÍNICA REGIONAL ELQUI"
+    },
+    {
+      "__EMPTY_2": "Establecimiento:",
+      "__EMPTY_3": "HOSPITAL DR. ANTONIO TIRADO LANAS DE OVALLE",
+      "HOSPITAL DR. ANTONIO TIRADO LANAS DE OVALLE": "HOSPITAL DR. JOSÉ ARRAÑO (ANDACOLLO)"
+    },
+    {
+      "__EMPTY_2": "Registrador:",
+      "__EMPTY_3": "Rodrigo Godoy Órdenes",
+      "HOSPITAL DR. ANTONIO TIRADO LANAS DE OVALLE": "HOSPITAL SAN JUAN DE DIOS (COMBARBALÁ)"
+    },
+    {
+      "HOSPITAL DR. ANTONIO TIRADO LANAS DE OVALLE": "HOSPITAL SAN PEDRO (LOS VILOS)"
+    },
+    {
+      "HOSPITAL DR. ANTONIO TIRADO LANAS DE OVALLE": "HOSPITAL DE SALAMANCA"
+    },
+    {
+      "HOSPITAL DR. ANTONIO TIRADO LANAS DE OVALLE": "HOSPITAL SAN JUAN DE DIOS (VICUÑA)"
+    },
+    {
+      "__EMPTY_1": "N°",
+      "__EMPTY_2": "DATOS DEL ESTABLECIMIENTO"
+    },
+    {
+      "__EMPTY_1": 1,
+      "__EMPTY_2": "NOMBRE ESTABLECIMIENTO"
+    },
+    {
+      "__EMPTY_1": 2,
+      "__EMPTY_2": "CÓDIGO ESTABLECIMIENTO"
+    },
+    {
+      "__EMPTY_1": 3,
+      "__EMPTY_2": "COMUNA ESTABLECIMIENTO"
+    },
+    {
+      "__EMPTY_1": 4,
+      "__EMPTY_2": "DEPENDENCIA JERÁRQUICA"
+    },
+    {
+      "__EMPTY_1": 5,
+      "__EMPTY_2": "CÓDIGO DEPENDENCIA JERÁRQUICA"
+    },
+    {
+      "__EMPTY_1": 6,
+      "__EMPTY_2": "TIPO DE ESTABLECIMIENTO"
+    },
+    {
+      "__EMPTY_1": "N°",
+      "__EMPTY_2": "DATOS DEMOGRÁFICOS"
+    },
+    {
+      "__EMPTY_1": 7,
+      "__EMPTY_2": "Nº CORRELATIVO"
+    },
+    {
+      "__EMPTY_1": 8,
+      "__EMPTY_2": "FECHA DE INGRESO"
+    },
+    {
+      "__EMPTY_1": 9,
+      "__EMPTY_2": "TIPO DE DOCUMENTO"
+    },
+    {
+      "__EMPTY_1": 10,
+      "__EMPTY_2": "RUN PACIENTE"
+    },
+    {
+      "__EMPTY_1": 11,
+      "__EMPTY_2": "DÍGITO VERIFICADOR"
+    },
+    {
+      "__EMPTY_1": 12,
+      "__EMPTY_2": "PASAPORTE/N° DOCUMENTO"
+    },
+    {
+      "__EMPTY_1": 13,
+      "__EMPTY_2": "NOMBRE"
+    },
+    {
+      "__EMPTY_1": 14,
+      "__EMPTY_2": "APELLIDO PATERNO"
+    },
+    {
+      "__EMPTY_1": 15,
+      "__EMPTY_2": "APELLIDO MATERNO"
+    },
+    {
+      "__EMPTY_1": 16,
+      "__EMPTY_2": "SEXO BIOLÓGICO"
+    },
+    {
+      "__EMPTY_1": 17,
+      "__EMPTY_2": "IDENTIDAD DE GÉNERO"
+    },
+    {
+      "__EMPTY_1": 18,
+      "__EMPTY_2": "FECHA DE NACIMIENTO"
+    },
+    {
+      "__EMPTY_1": 19,
+      "__EMPTY_2": "EDAD"
+    },
+    {
+      "__EMPTY_1": 20,
+      "__EMPTY_2": "NACIONALIDAD"
+    },
+    {
+      "__EMPTY_1": 21,
+      "__EMPTY_2": "PAÍS DE ORIGEN"
+    },
+    {
+      "__EMPTY_1": 22,
+      "__EMPTY_2": "PUEBLO ORIGINARIO"
+    },
+    {
+      "__EMPTY_1": 27,
+      "__EMPTY_2": "COMUNA"
+    },
+    {
+      "__EMPTY_1": 28,
+      "__EMPTY_2": "CÓDIGO COMUNA"
+    },
+    {
+      "__EMPTY_1": 25,
+      "__EMPTY_2": "PROVINCIA"
+    },
+    {
+      "__EMPTY_1": 26,
+      "__EMPTY_2": "CÓDIGO PROVINCIA"
+    },
+    {
+      "__EMPTY_1": 23,
+      "__EMPTY_2": "REGION"
+    },
+    {
+      "__EMPTY_1": 24,
+      "__EMPTY_2": "CÓDIGO REGION"
+    },
+    {
+      "__EMPTY_1": 29,
+      "__EMPTY_2": "DIRECCION"
+    },
+    {
+      "__EMPTY_1": 30,
+      "__EMPTY_2": "PREVISION"
+    },
+    {
+      "__EMPTY_1": 31,
+      "__EMPTY_2": "RAMA ACTIVIDAD (SECCIÓN)"
+    },
+    {
+      "__EMPTY_1": 32,
+      "__EMPTY_2": "RAMA ACTIVIDAD (DIVISIÓN)"
+    },
+    {
+      "__EMPTY_1": 33,
+      "__EMPTY_2": "RAMA ACTIVIDAD (CLASE)"
+    },
+    {
+      "__EMPTY_1": "N°",
+      "__EMPTY_2": "CARACTERÍSTICAS DEL TUMOR"
+    },
+    {
+      "__EMPTY_1": 34,
+      "__EMPTY_2": "FECHA INGRESO CENTRO"
+    },
+    {
+      "__EMPTY_1": 35,
+      "__EMPTY_2": "BASE DIAGNOSTICO"
+    },
+    {
+      "__EMPTY_1": 36,
+      "__EMPTY_2": "FECHA TOMA MUESTRA"
+    },
+    {
+      "__EMPTY_1": 37,
+      "__EMPTY_2": "FECHA DIAGNOSTICO"
+    },
+    {
+      "__EMPTY_1": 38,
+      "__EMPTY_2": "S.S. QUE CONFIRMA DG"
+    },
+    {
+      "__EMPTY_1": 39,
+      "__EMPTY_2": "ESTABLEC.CONFIRMA DG"
+    },
+    {
+      "__EMPTY_1": 40,
+      "__EMPTY_2": "EDAD AL DIAGNOSTICO"
+    },
+    {
+      "__EMPTY_1": 41,
+      "__EMPTY_2": "TIPO TUMOR"
+    },
+    {
+      "__EMPTY_1": 42,
+      "__EMPTY_2": "TOPOGRAFIA"
+    },
+    {
+      "__EMPTY_1": 43,
+      "__EMPTY_2": "CODIGO_TOPOGRAFIA"
+    },
+    {
+      "__EMPTY_1": 44,
+      "__EMPTY_2": "ÓRGANO"
+    },
+    {
+      "__EMPTY_1": 45,
+      "__EMPTY_2": "CODIGO ÓRGANO"
+    },
+    {
+      "__EMPTY_1": 46,
+      "__EMPTY_2": "MORFOLOGIA"
+    },
+    {
+      "__EMPTY_1": 47,
+      "__EMPTY_2": "CÓDIGO MORFOLOGÍA"
+    },
+    {
+      "__EMPTY_1": 48,
+      "__EMPTY_2": "COMPORTAMIENTO"
+    },
+    {
+      "__EMPTY_1": 49,
+      "__EMPTY_2": "GRADO DIFERENCIACION"
+    },
+    {
+      "__EMPTY_1": 50,
+      "__EMPTY_2": "EXTENSION"
+    },
+    {
+      "__EMPTY_1": 51,
+      "__EMPTY_2": "LATERALIDAD"
+    },
+    {
+      "__EMPTY_1": 52,
+      "__EMPTY_2": "DIAGNÓSTICO HISTOLOGICO"
+    },
+    {
+      "__EMPTY_1": 53,
+      "__EMPTY_2": "FUENTE DIAGNOSTICO"
+    },
+    {
+      "__EMPTY_1": 54,
+      "__EMPTY_2": "Nº DOCUMENTO DIAGNOSTICO"
+    },
+    {
+      "__EMPTY_1": 55,
+      "__EMPTY_2": "ESTADIO NÚMERO"
+    },
+    {
+      "__EMPTY_1": 56,
+      "__EMPTY_2": "ESTADIO LETRA"
+    },
+    {
+      "__EMPTY_1": 57,
+      "__EMPTY_2": "FIGO"
+    },
+    {
+      "__EMPTY_1": 58,
+      "__EMPTY_2": "HER2"
+    },
+    {
+      "__EMPTY_1": 59,
+      "__EMPTY_2": "FISH"
+    },
+    {
+      "__EMPTY_1": 60,
+      "__EMPTY_2": "Tipo TNM"
+    },
+    {
+      "__EMPTY_1": 61,
+      "__EMPTY_2": "T_NÚMERO"
+    },
+    {
+      "__EMPTY_1": 62,
+      "__EMPTY_2": "T_LETRA"
+    },
+    {
+      "__EMPTY_1": 63,
+      "__EMPTY_2": "N_NÚMERO"
+    },
+    {
+      "__EMPTY_1": 64,
+      "__EMPTY_2": "N_LETRA"
+    },
+    {
+      "__EMPTY_1": 65,
+      "__EMPTY_2": "M_NÚMERO"
+    },
+    {
+      "__EMPTY_1": 66,
+      "__EMPTY_2": "M_LETRA"
+    },
+    {
+      "__EMPTY_1": "N°",
+      "__EMPTY_2": "TRATAMIENTOS"
+    },
+    {
+      "__EMPTY_1": 67,
+      "__EMPTY_2": "CLASE CASO "
+    },
+    {
+      "__EMPTY_1": 68,
+      "__EMPTY_2": "CIRUGIA"
+    },
+    {
+      "__EMPTY_1": 69,
+      "__EMPTY_2": "QUIMIOTERAPIA"
+    },
+    {
+      "__EMPTY_1": 70,
+      "__EMPTY_2": "RADIOTERAPIA"
+    },
+    {
+      "__EMPTY_1": 71,
+      "__EMPTY_2": "HORMONOTERAPIA"
+    },
+    {
+      "__EMPTY_1": 72,
+      "__EMPTY_2": "INMUNOTERAPIA"
+    },
+    {
+      "__EMPTY_1": 73,
+      "__EMPTY_2": "BRAQUITERAPIA"
+    },
+    {
+      "__EMPTY_1": 74,
+      "__EMPTY_2": "CUIDADOS PALIATIVOS"
+    },
+    {
+      "__EMPTY_1": 75,
+      "__EMPTY_2": "TERAPIA BLANCO"
+    },
+    {
+      "__EMPTY_1": 76,
+      "__EMPTY_2": "YODOTERAPIA"
+    },
+    {
+      "__EMPTY_1": 77,
+      "__EMPTY_2": "TRANSPLANTE DE M. Ó."
+    },
+    {
+      "__EMPTY_1": 78,
+      "__EMPTY_2": "OTRO, ESPECIFIQUE"
+    },
+    {
+      "__EMPTY_1": 79,
+      "__EMPTY_2": "PRESENTACIÓN A COMITÉ"
+    },
+    {
+      "__EMPTY_1": 80,
+      "__EMPTY_2": "FECHA 1ER COMITÉ"
+    },
+    {
+      "__EMPTY_1": 81,
+      "__EMPTY_2": "TIPO 1ER COMITE"
+    },
+    {
+      "__EMPTY_1": "N°",
+      "__EMPTY_2": "SEGUIMIENTO DEL CASO"
+    },
+    {
+      "__EMPTY_1": 82,
+      "__EMPTY_2": "ESTADO DEL PACIENTE"
+    },
+    {
+      "__EMPTY_1": 83,
+      "__EMPTY_2": "FECHA ESTADO DEL PACIENTE"
+    },
+    {
+      "__EMPTY_1": 84,
+      "__EMPTY_2": "FECHA INICIO SEGUIMIENTO"
+    },
+    {
+      "__EMPTY_1": 85,
+      "__EMPTY_2": "FECHA ULTIMO CONTROL"
+    },
+    {
+      "__EMPTY_1": 86,
+      "__EMPTY_2": "CAUSA DEFUNCION"
+    },
+    {
+      "__EMPTY_1": 87,
+      "__EMPTY_2": "FECHA DEFUNCION"
+    }
+  ]
+}

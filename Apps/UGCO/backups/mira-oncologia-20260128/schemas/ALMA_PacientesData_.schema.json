@@ -1,0 +1,1217 @@
+{
+  "collection": {
+    "name": "ALMA_PacientesData_",
+    "title": "ALMA PacientesData_",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "050x6j3viu4",
+      "name": "PAPMI_Refund",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Refund",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "058e1qven2p",
+      "name": "PAPMI_CityBirth_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_CityBirth_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "0bef0i29tga",
+      "name": "PAPMI_SafetyNetCardExpDate",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_SafetyNetCardExpDate",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "0uiexudhkj1",
+      "name": "PAPMI_Name3",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Name3",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "0up2sm65i1v",
+      "name": "PAPMI_RequireAssistanceMenu",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_RequireAssistanceMenu",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "1zou9k7elhs",
+      "name": "PAPMI_PensionType_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_PensionType_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "25d92vuvz63",
+      "name": "PAPMI_MedicareExpDate",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_MedicareExpDate",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "26itxhfpvbw",
+      "name": "PAPMI_PAPER_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_PAPER_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2bw60qrj8t9",
+      "name": "PAPMI_EPRDescription",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_EPRDescription",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "39rhgr9m2au",
+      "name": "PAPMI_Name7",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Name7",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "44kzztrag2l",
+      "name": "PAPMI_HealthCardExpiryDate",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_HealthCardExpiryDate",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "46ibcpyadv2",
+      "name": "PAPMI_ID",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_ID",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "5s1rq15thux",
+      "name": "PAPMI_SafetyNetCardNo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_SafetyNetCardNo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "64tyazgobrn",
+      "name": "PAPMI_PatCategory_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_PatCategory_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "6wrd1p4ieog",
+      "name": "PAPMI_LookupDisplay",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_LookupDisplay",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "71xjyakukbc",
+      "name": "PAPMI_HomeClinicNo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_HomeClinicNo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "72n84m6shen",
+      "name": "PAPMI_InsuranceCardHolder",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_InsuranceCardHolder",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "7mar26q3rxq",
+      "name": "PAPMI_CT_HCA_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_CT_HCA_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "7mur0xixwbo",
+      "name": "PAPMI_Name2",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Name2",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "7sqh809skgb",
+      "name": "PAPMI_No",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_No",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "8fjeaw8kd2t",
+      "name": "PAPMI_Name5",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Name5",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "8sxrjyek04v",
+      "name": "PAPMI_LangSecondDR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_LangSecondDR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "9ka099rg577",
+      "name": "PAPMI_MedicareSuffix_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_MedicareSuffix_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "a3psrhle6sl",
+      "name": "PAPMI_EstAgeTmStmp",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_EstAgeTmStmp",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "a619b4y5bzx",
+      "name": "PAPMI_DeceasedTime",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_DeceasedTime",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "a8kxlw6lq69",
+      "name": "PAPMI_RefDoc_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_RefDoc_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "a9js9z6furw",
+      "name": "PAPMI_SurName",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_SurName",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "an2ka7ef2sv",
+      "name": "PAPMI_ConcessionCardNo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_ConcessionCardNo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "b3olywzf7e1",
+      "name": "PAPMI_Active",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Active",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "b4cgm3ljjlo",
+      "name": "PAPMI_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "bx9puworguy",
+      "name": "PAPMI_MobPhone",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_MobPhone",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "c6j1gfdcd2j",
+      "name": "PAPMI_Name6",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Name6",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "d9oua2eu25f",
+      "name": "PAPMI_CardType_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_CardType_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "dqq5y5bxhbl",
+      "name": "PAPMI_Deceased_Date",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Deceased_Date",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "dzdtcuum2sl",
+      "name": "PAPMI_GovernCardNo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_GovernCardNo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "fdy571gnt7q",
+      "name": "PAPMI_Deceased",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Deceased",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "fh0ul0yv3ys",
+      "name": "PAPMI_VIPFlag",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_VIPFlag",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "g6okrwgv9bb",
+      "name": "PAPMI_Sex_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Sex_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "gs7b7db1e4t",
+      "name": "PAPMI_Allergy",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Allergy",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "h37vr0jp0du",
+      "name": "PAPMI_Name",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Name",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "i669v2z5203",
+      "name": "PAPMI_ForeignPhoneNo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_ForeignPhoneNo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "i8ahnvn8nrv",
+      "name": "PAPMI_Mother_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Mother_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "jaa0co0m164",
+      "name": "PAPMI_Soundex",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Soundex",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "jf85jdvk982",
+      "name": "PAPMI_GPOrgAddress",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_GPOrgAddress",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "jip1uym8oc2",
+      "name": "PAPMI_EstimatedDeathDate",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_EstimatedDeathDate",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "k3mj7n7dl3v",
+      "name": "PAPMI_Mother1_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Mother1_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "k438y0qus00",
+      "name": "PAPMI_AuxInsType_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_AuxInsType_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "k4m6bt3pqg5",
+      "name": "PAPMI_DVAnumber",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_DVAnumber",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "kbi9yrnulb9",
+      "name": "PAPMI_CT_Province_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_CT_Province_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "kjf3vkehxvv",
+      "name": "PAPMI_CHCPatient",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_CHCPatient",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "kkcrap3dkzy",
+      "name": "PAPMI_DOB",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_DOB",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "kkqfx3a0nd1",
+      "name": "PAPMI_CityArea_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_CityArea_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "latykjpip9e",
+      "name": "PAPMI_Dentist_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Dentist_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "lozsim6w7uz",
+      "name": "PAPMI_EstAgeYear",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_EstAgeYear",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "lpp3dw6d76t",
+      "name": "PAPMI_Title_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Title_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "me2hccf0e4d",
+      "name": "PAPMI_ConcessionCardExpDate",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_ConcessionCardExpDate",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "mhjzdo9biz6",
+      "name": "PAPMI_Medicare",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Medicare",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "o880rgilfcb",
+      "name": "PAPMI_IndigStat_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_IndigStat_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ondnvlxb3gl",
+      "name": "PAPMI_Batallion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Batallion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "oygyera8msu",
+      "name": "PAPMI_IPNo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_IPNo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "oyur1jymfej",
+      "name": "PAPMI_ResponsibleForPayment",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_ResponsibleForPayment",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "p4krj712tog",
+      "name": "PAPMI_DentistClinic_DR",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_DentistClinic_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "p88raame4in",
+      "name": "PAPMI_MedicareString",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_MedicareString",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "pvonrcamvof",
+      "name": "PAPMI_Remark",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Remark",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qa90rumcpwa",
+      "name": "PAPMI_UserUpdate",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_UserUpdate",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ra7eyp5q940",
+      "name": "PAPMI_OPNo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_OPNo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "rgvmp94ifjy",
+      "name": "PAPMI_IndexMark",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_IndexMark",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "s60y5hm6s7w",
+      "name": "PAPMI_CT_Region_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_CT_Region_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "sllbhu9ro8m",
+      "name": "PAPMI_LangPrim_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_LangPrim_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "t1e3muicejj",
+      "name": "PAPMI_CountryOfBirth_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_CountryOfBirth_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "t9rbi3vezla",
+      "name": "PAPMI_HealthFundNo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_HealthFundNo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "tuaq3x38k2v",
+      "name": "PAPMI_Name8",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Name8",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "tvhju56bazh",
+      "name": "PAPMI_Email",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Email",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ua6u6ivlgmx",
+      "name": "PAPMI_Name4",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Name4",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "uehfisesluc",
+      "name": "PAPMI_RequireAssistanceMeal",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_RequireAssistanceMeal",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "var0vn8b9o9",
+      "name": "PAPMI_Alias",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_Alias",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "w2x0yta7w8r",
+      "name": "PAPMI_TraceStatus_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_TraceStatus_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "wrogrw22dkf",
+      "name": "PAPMI_BlackList",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_BlackList",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "xvebnpe9ywk",
+      "name": "PAPMI_SecondPhone",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_SecondPhone",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "y7vawg9ak6w",
+      "name": "PAPMI_LangPrintDR",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_LangPrintDR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "y8sbonrc7j7",
+      "name": "PAPMI_PrefLanguage_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_PrefLanguage_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ymjjz95mptt",
+      "name": "PAPMI_MedicareCode",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_MedicareCode",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ymuxoi0sivt",
+      "name": "PAPMI_EstAgeMonth",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_EstAgeMonth",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "yqwzz190jjy",
+      "name": "PAPMI_GPText",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_GPText",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "yr378iixgm5",
+      "name": "PAPMI_NxtOPAdmNo",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_NxtOPAdmNo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "zmqnalipdun",
+      "name": "PAPMI_RowId1",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_PacientesData_",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_RowId1",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.547Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

@@ -1,0 +1,2110 @@
+{
+  "source_file": "DEIS_Esquema_Registros_2025_Corregido.xlsx",
+  "sheet_name": "Anexo 2",
+  "entry_count": 352,
+  "entries": [
+    {
+      "Anexo 2": "Comunas"
+    },
+    {
+      "__EMPTY_3": "< < Volver"
+    },
+    {
+      "Anexo 2": "Código Comuna",
+      "__EMPTY": "Nombre Comuna",
+      "__EMPTY_1": "Código Región",
+      "__EMPTY_2": "Nombre Región"
+    },
+    {
+      "Anexo 2": "15101",
+      "__EMPTY": "ARICA",
+      "__EMPTY_1": "15",
+      "__EMPTY_2": "de Arica y Parinacota"
+    },
+    {
+      "Anexo 2": "15102",
+      "__EMPTY": "CAMARONES",
+      "__EMPTY_1": "15",
+      "__EMPTY_2": "de Arica y Parinacota"
+    },
+    {
+      "Anexo 2": "15201",
+      "__EMPTY": "PUTRE",
+      "__EMPTY_1": "15",
+      "__EMPTY_2": "de Arica y Parinacota"
+    },
+    {
+      "Anexo 2": "15202",
+      "__EMPTY": "GENERAL LAGOS",
+      "__EMPTY_1": "15",
+      "__EMPTY_2": "de Arica y Parinacota"
+    },
+    {
+      "Anexo 2": "01101",
+      "__EMPTY": "IQUIQUE",
+      "__EMPTY_1": "1",
+      "__EMPTY_2": "de Tarapacá"
+    },
+    {
+      "Anexo 2": "01107",
+      "__EMPTY": "ALTO HOSPICIO",
+      "__EMPTY_1": "1",
+      "__EMPTY_2": "de Tarapacá"
+    },
+    {
+      "Anexo 2": "01401",
+      "__EMPTY": "POZO ALMONTE",
+      "__EMPTY_1": "1",
+      "__EMPTY_2": "de Tarapacá"
+    },
+    {
+      "Anexo 2": "01402",
+      "__EMPTY": "CAMIÑA",
+      "__EMPTY_1": "1",
+      "__EMPTY_2": "de Tarapacá"
+    },
+    {
+      "Anexo 2": "01403",
+      "__EMPTY": "COLCHANE",
+      "__EMPTY_1": "1",
+      "__EMPTY_2": "de Tarapacá"
+    },
+    {
+      "Anexo 2": "01404",
+      "__EMPTY": "HUARA",
+      "__EMPTY_1": "1",
+      "__EMPTY_2": "de Tarapacá"
+    },
+    {
+      "Anexo 2": "01405",
+      "__EMPTY": "PICA",
+      "__EMPTY_1": "1",
+      "__EMPTY_2": "de Tarapacá"
+    },
+    {
+      "Anexo 2": "02101",
+      "__EMPTY": "ANTOFAGASTA",
+      "__EMPTY_1": "2",
+      "__EMPTY_2": "de Antofagasta"
+    },
+    {
+      "Anexo 2": "02102",
+      "__EMPTY": "MEJILLONES",
+      "__EMPTY_1": "2",
+      "__EMPTY_2": "de Antofagasta"
+    },
+    {
+      "Anexo 2": "02103",
+      "__EMPTY": "SIERRA GORDA",
+      "__EMPTY_1": "2",
+      "__EMPTY_2": "de Antofagasta"
+    },
+    {
+      "Anexo 2": "02104",
+      "__EMPTY": "TALTAL",
+      "__EMPTY_1": "2",
+      "__EMPTY_2": "de Antofagasta"
+    },
+    {
+      "Anexo 2": "02201",
+      "__EMPTY": "CALAMA",
+      "__EMPTY_1": "2",
+      "__EMPTY_2": "de Antofagasta"
+    },
+    {
+      "Anexo 2": "02202",
+      "__EMPTY": "OLLAGÜE",
+      "__EMPTY_1": "2",
+      "__EMPTY_2": "de Antofagasta"
+    },
+    {
+      "Anexo 2": "02203",
+      "__EMPTY": "SAN PEDRO DE ATACAMA",
+      "__EMPTY_1": "2",
+      "__EMPTY_2": "de Antofagasta"
+    },
+    {
+      "Anexo 2": "02301",
+      "__EMPTY": "TOCOPILLA",
+      "__EMPTY_1": "2",
+      "__EMPTY_2": "de Antofagasta"
+    },
+    {
+      "Anexo 2": "02302",
+      "__EMPTY": "MARIA ELENA",
+      "__EMPTY_1": "2",
+      "__EMPTY_2": "de Antofagasta"
+    },
+    {
+      "Anexo 2": "03101",
+      "__EMPTY": "COPIAPO",
+      "__EMPTY_1": "3",
+      "__EMPTY_2": "de Atacama"
+    },
+    {
+      "Anexo 2": "03102",
+      "__EMPTY": "CALDERA",
+      "__EMPTY_1": "3",
+      "__EMPTY_2": "de Atacama"
+    },
+    {
+      "Anexo 2": "03103",
+      "__EMPTY": "TIERRA AMARILLA",
+      "__EMPTY_1": "3",
+      "__EMPTY_2": "de Atacama"
+    },
+    {
+      "Anexo 2": "03201",
+      "__EMPTY": "CHAÑARAL",
+      "__EMPTY_1": "3",
+      "__EMPTY_2": "de Atacama"
+    },
+    {
+      "Anexo 2": "03202",
+      "__EMPTY": "DIEGO DE ALMAGRO",
+      "__EMPTY_1": "3",
+      "__EMPTY_2": "de Atacama"
+    },
+    {
+      "Anexo 2": "03301",
+      "__EMPTY": "VALLENAR",
+      "__EMPTY_1": "3",
+      "__EMPTY_2": "de Atacama"
+    },
+    {
+      "Anexo 2": "03302",
+      "__EMPTY": "ALTO DEL CARMEN",
+      "__EMPTY_1": "3",
+      "__EMPTY_2": "de Atacama"
+    },
+    {
+      "Anexo 2": "03303",
+      "__EMPTY": "FREIRINA",
+      "__EMPTY_1": "3",
+      "__EMPTY_2": "de Atacama"
+    },
+    {
+      "Anexo 2": "03304",
+      "__EMPTY": "HUASCO",
+      "__EMPTY_1": "3",
+      "__EMPTY_2": "de Atacama"
+    },
+    {
+      "Anexo 2": "04101",
+      "__EMPTY": "LA SERENA",
+      "__EMPTY_1": "4",
+      "__EMPTY_2": "de Coquimbo"
+    },
+    {
+      "Anexo 2": "04102",
+      "__EMPTY": "COQUIMBO",
+      "__EMPTY_1": "4",
+      "__EMPTY_2": "de Coquimbo"
+    },
+    {
+      "Anexo 2": "04103",
+      "__EMPTY": "ANDACOLLO",
+      "__EMPTY_1": "4",
+      "__EMPTY_2": "de Coquimbo"
+    },
+    {
+      "Anexo 2": "04104",
+      "__EMPTY": "LA HIGUERA",
+      "__EMPTY_1": "4",
+      "__EMPTY_2": "de Coquimbo"
+    },
+    {
+      "Anexo 2": "04105",
+      "__EMPTY": "PAIGUANO",
+      "__EMPTY_1": "4",
+      "__EMPTY_2": "de Coquimbo"
+    },
+    {
+      "Anexo 2": "04106",
+      "__EMPTY": "VICUÑA",
+      "__EMPTY_1": "4",
+      "__EMPTY_2": "de Coquimbo"
+    },
+    {
+      "Anexo 2": "04201",
+      "__EMPTY": "ILLAPEL",
+      "__EMPTY_1": "4",
+      "__EMPTY_2": "de Coquimbo"
+    },
+    {
+      "Anexo 2": "04202",
+      "__EMPTY": "CANELA",
+      "__EMPTY_1": "4",
+      "__EMPTY_2": "de Coquimbo"
+    },
+    {
+      "Anexo 2": "04203",
+      "__EMPTY": "LOS VILOS",
+      "__EMPTY_1": "4",
+      "__EMPTY_2": "de Coquimbo"
+    },
+    {
+      "Anexo 2": "04204",
+      "__EMPTY": "SALAMANCA",
+      "__EMPTY_1": "4",
+      "__EMPTY_2": "de Coquimbo"
+    },
+    {
+      "Anexo 2": "04301",
+      "__EMPTY": "OVALLE",
+      "__EMPTY_1": "4",
+      "__EMPTY_2": "de Coquimbo"
+    },
+    {
+      "Anexo 2": "04302",
+      "__EMPTY": "COMBARBALÁ",
+      "__EMPTY_1": "4",
+      "__EMPTY_2": "de Coquimbo"
+    },
+    {
+      "Anexo 2": "04303",
+      "__EMPTY": "MONTE PATRIA",
+      "__EMPTY_1": "4",
+      "__EMPTY_2": "de Coquimbo"
+    },
+    {
+      "Anexo 2": "04304",
+      "__EMPTY": "PUNITAQUI",
+      "__EMPTY_1": "4",
+      "__EMPTY_2": "de Coquimbo"
+    },
+    {
+      "Anexo 2": "04305",
+      "__EMPTY": "RÍO HURTADO",
+      "__EMPTY_1": "4",
+      "__EMPTY_2": "de Coquimbo"
+    },
+    {
+      "Anexo 2": "05101",
+      "__EMPTY": "VALPARAISO",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05102",
+      "__EMPTY": "CASABLANCA",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05103",
+      "__EMPTY": "CON CON",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05104",
+      "__EMPTY": "JUAN FERNÁNDEZ",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05105",
+      "__EMPTY": "PUCHUNCAVÍ",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05107",
+      "__EMPTY": "QUINTERO",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05109",
+      "__EMPTY": "VIÑA DEL MAR",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05201",
+      "__EMPTY": "ISLA DE PASCUA",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05301",
+      "__EMPTY": "LOS ANDES",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05302",
+      "__EMPTY": "CALLE LARGA",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05303",
+      "__EMPTY": "RINCONADA",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05304",
+      "__EMPTY": "SAN ESTEBAN",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05401",
+      "__EMPTY": "LA LIGUA",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05402",
+      "__EMPTY": "CABILDO",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05403",
+      "__EMPTY": "PAPUDO",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05404",
+      "__EMPTY": "PETORCA",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05405",
+      "__EMPTY": "ZAPALLAR",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05501",
+      "__EMPTY": "QUILLOTA",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05502",
+      "__EMPTY": "CALERA",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05503",
+      "__EMPTY": "HIJUELAS",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05504",
+      "__EMPTY": "LA CRUZ",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05506",
+      "__EMPTY": "NOGALES",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05601",
+      "__EMPTY": "SAN ANTONIO",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05602",
+      "__EMPTY": "ALGARROBO",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05603",
+      "__EMPTY": "CARTAGENA",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05604",
+      "__EMPTY": "EL QUISCO",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05605",
+      "__EMPTY": "EL TABO",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05606",
+      "__EMPTY": "SANTO DOMINGO",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05701",
+      "__EMPTY": "SAN FELIPE",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05702",
+      "__EMPTY": "CATEMU",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05703",
+      "__EMPTY": "LLAILLAY",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05704",
+      "__EMPTY": "PANQUEHUE",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05705",
+      "__EMPTY": "PUTAENDO",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05706",
+      "__EMPTY": "SANTA MARIA",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05801",
+      "__EMPTY": "QUILPUE",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05802",
+      "__EMPTY": "LIMACHE",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05803",
+      "__EMPTY": "OLMUÉ",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "05804",
+      "__EMPTY": "VILLA ALEMANA",
+      "__EMPTY_1": "5",
+      "__EMPTY_2": "de Valparaíso"
+    },
+    {
+      "Anexo 2": "13101",
+      "__EMPTY": "SANTIAGO",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13102",
+      "__EMPTY": "CERRILLOS",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13103",
+      "__EMPTY": "CERRO NAVIA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13104",
+      "__EMPTY": "CONCHALÍ",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13105",
+      "__EMPTY": "EL BOSQUE",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13106",
+      "__EMPTY": "ESTACIÓN CENTRAL",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13107",
+      "__EMPTY": "HUECHURABA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13108",
+      "__EMPTY": "INDEPENDENCIA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13109",
+      "__EMPTY": "LA CISTERNA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13110",
+      "__EMPTY": "LA FLORIDA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13111",
+      "__EMPTY": "LA GRANJA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13112",
+      "__EMPTY": "LA PINTANA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13113",
+      "__EMPTY": "LA REINA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13114",
+      "__EMPTY": "LAS CONDES",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13115",
+      "__EMPTY": "LO BARNECHEA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13116",
+      "__EMPTY": "LO ESPEJO",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13117",
+      "__EMPTY": "LO PRADO",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13118",
+      "__EMPTY": "MACUL",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13119",
+      "__EMPTY": "MAIPU",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13120",
+      "__EMPTY": "ÑUÑOA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13121",
+      "__EMPTY": "PEDRO AGUIRRE CERDA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13122",
+      "__EMPTY": "PEÑALOLÉN",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13123",
+      "__EMPTY": "PROVIDENCIA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13124",
+      "__EMPTY": "PUDAHUEL",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13125",
+      "__EMPTY": "QUILICURA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13126",
+      "__EMPTY": "QUINTA NORMAL",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13127",
+      "__EMPTY": "RECOLETA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13128",
+      "__EMPTY": "RENCA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13129",
+      "__EMPTY": "SAN JOAQUÍN",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13130",
+      "__EMPTY": "SAN MIGUEL",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13131",
+      "__EMPTY": "SAN RAMÓN",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13132",
+      "__EMPTY": "VITACURA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13201",
+      "__EMPTY": "PUENTE ALTO",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13202",
+      "__EMPTY": "PIRQUE",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13203",
+      "__EMPTY": "SAN JOSÉ DE MAIPO",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13301",
+      "__EMPTY": "COLINA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13302",
+      "__EMPTY": "LAMPA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13303",
+      "__EMPTY": "TILTIL",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13401",
+      "__EMPTY": "SAN BERNARDO",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13402",
+      "__EMPTY": "BUIN",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13403",
+      "__EMPTY": "CALERA DE TANGO",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13404",
+      "__EMPTY": "PAINE",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13501",
+      "__EMPTY": "MELIPILLA",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13502",
+      "__EMPTY": "ALHUÉ",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13503",
+      "__EMPTY": "CURACAVÍ",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13504",
+      "__EMPTY": "MARIA PINTO",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13505",
+      "__EMPTY": "SAN PEDRO",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13601",
+      "__EMPTY": "TALAGANTE",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13602",
+      "__EMPTY": "EL MONTE",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13603",
+      "__EMPTY": "ISLA DE MAIPO",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13604",
+      "__EMPTY": "PADRE HURTADO",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "13605",
+      "__EMPTY": "PEÑAFLOR",
+      "__EMPTY_1": "13",
+      "__EMPTY_2": "Metropolitana de Santiago"
+    },
+    {
+      "Anexo 2": "06101",
+      "__EMPTY": "RANCAGUA",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06102",
+      "__EMPTY": "CODEGUA",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06103",
+      "__EMPTY": "COINCO",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06104",
+      "__EMPTY": "COLTAUCO",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06105",
+      "__EMPTY": "DOÑIHUE",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06106",
+      "__EMPTY": "GRANEROS",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06107",
+      "__EMPTY": "LAS CABRAS",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06108",
+      "__EMPTY": "MACHALÍ",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06109",
+      "__EMPTY": "MALLOA",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06110",
+      "__EMPTY": "MOSTAZAL",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06111",
+      "__EMPTY": "OLIVAR",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06112",
+      "__EMPTY": "PEUMO",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06113",
+      "__EMPTY": "PICHIDEGUA",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06114",
+      "__EMPTY": "QUINTA DE TILCOCO",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06115",
+      "__EMPTY": "RENGO",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06116",
+      "__EMPTY": "REQUÍNOA",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06117",
+      "__EMPTY": "SAN VICENTE",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06201",
+      "__EMPTY": "PICHILEMU",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06202",
+      "__EMPTY": "LA ESTRELLA",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06203",
+      "__EMPTY": "LITUECHE",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06204",
+      "__EMPTY": "MARCHIHUE",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06205",
+      "__EMPTY": "NAVIDAD",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06206",
+      "__EMPTY": "PAREDONES",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06301",
+      "__EMPTY": "SAN FERNANDO",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06302",
+      "__EMPTY": "CHEPICA",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06303",
+      "__EMPTY": "CHIMBARONGO",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06304",
+      "__EMPTY": "LOLOL",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06305",
+      "__EMPTY": "NANCAGUA",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06306",
+      "__EMPTY": "PALMILLA",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06307",
+      "__EMPTY": "PERALILLO",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06308",
+      "__EMPTY": "PLACILLA",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06309",
+      "__EMPTY": "PUMANQUE",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "06310",
+      "__EMPTY": "SANTA CRUZ",
+      "__EMPTY_1": "6",
+      "__EMPTY_2": "del Libertador B. O'Higgins"
+    },
+    {
+      "Anexo 2": "07101",
+      "__EMPTY": "TALCA",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07102",
+      "__EMPTY": "CONSTITUCIÓN",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07103",
+      "__EMPTY": "CUREPTO",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07104",
+      "__EMPTY": "EMPEDRADO",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07105",
+      "__EMPTY": "MAULE",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07106",
+      "__EMPTY": "PELARCO",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07107",
+      "__EMPTY": "PENCAHUE",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07108",
+      "__EMPTY": "RÍO CLARO",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07109",
+      "__EMPTY": "SAN CLEMENTE",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07110",
+      "__EMPTY": "SAN RAFAEL",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07201",
+      "__EMPTY": "CAUQUENES",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07202",
+      "__EMPTY": "CHANCO",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07203",
+      "__EMPTY": "PELLUHUE",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07301",
+      "__EMPTY": "CURICO",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07302",
+      "__EMPTY": "HUALAÑÉ",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07303",
+      "__EMPTY": "LICANTÉN",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07304",
+      "__EMPTY": "MOLINA",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07305",
+      "__EMPTY": "RAUCO",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07306",
+      "__EMPTY": "ROMERAL",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07307",
+      "__EMPTY": "SAGRADA FAMILIA",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07308",
+      "__EMPTY": "TENO",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07309",
+      "__EMPTY": "VICHUQUÉN",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07401",
+      "__EMPTY": "LINARES",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07402",
+      "__EMPTY": "COLBÚN",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07403",
+      "__EMPTY": "LONGAVÍ",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07404",
+      "__EMPTY": "PARRAL",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07405",
+      "__EMPTY": "RETIRO",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07406",
+      "__EMPTY": "SAN JAVIER",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07407",
+      "__EMPTY": "VILLA ALEGRE",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "07408",
+      "__EMPTY": "YERBAS BUENAS",
+      "__EMPTY_1": "7",
+      "__EMPTY_2": "del Maule"
+    },
+    {
+      "Anexo 2": "08101",
+      "__EMPTY": "CONCEPCIÓN",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08102",
+      "__EMPTY": "CORONEL",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08103",
+      "__EMPTY": "CHIGUAYANTE",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08104",
+      "__EMPTY": "FLORIDA",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08105",
+      "__EMPTY": "HUALQUI",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08106",
+      "__EMPTY": "LOTA",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08107",
+      "__EMPTY": "PENCO",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08108",
+      "__EMPTY": "SAN PEDRO DE LA PAZ",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08109",
+      "__EMPTY": "SANTA JUANA",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08110",
+      "__EMPTY": "TALCAHUANO",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08111",
+      "__EMPTY": "TOME",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08112",
+      "__EMPTY": "HUALPÉN",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08201",
+      "__EMPTY": "LEBU",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08202",
+      "__EMPTY": "ARAUCO",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08203",
+      "__EMPTY": "CAÑETE",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08204",
+      "__EMPTY": "CONTULMO",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08205",
+      "__EMPTY": "CURANILAHUE",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08206",
+      "__EMPTY": "LOS ÁLAMOS",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08207",
+      "__EMPTY": "TIRÚA",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08301",
+      "__EMPTY": "LOS ÁNGELES",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08302",
+      "__EMPTY": "ANTUCO",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08303",
+      "__EMPTY": "CABRERO",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08304",
+      "__EMPTY": "LAJA",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08305",
+      "__EMPTY": "MULCHÉN",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08306",
+      "__EMPTY": "NACIMIENTO",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08307",
+      "__EMPTY": "NEGRETE",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08308",
+      "__EMPTY": "QUILACO",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08309",
+      "__EMPTY": "QUILLECO",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08310",
+      "__EMPTY": "SAN ROSENDO",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08311",
+      "__EMPTY": "SANTA BÁRBARA",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08312",
+      "__EMPTY": "TUCAPEL",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08313",
+      "__EMPTY": "YUMBEL",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "08314",
+      "__EMPTY": "ALTO BIOBÍO",
+      "__EMPTY_1": "8",
+      "__EMPTY_2": "del Biobío"
+    },
+    {
+      "Anexo 2": "16101",
+      "__EMPTY": "CHILLAN",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16102",
+      "__EMPTY": "BULNES",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16202",
+      "__EMPTY": "COBQUECURA",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16203",
+      "__EMPTY": "COELEMU",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16302",
+      "__EMPTY": "COIHUECO",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16103",
+      "__EMPTY": "CHILLAN VIEJO",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16104",
+      "__EMPTY": "EL CARMEN",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16204",
+      "__EMPTY": "NINHUE",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16303",
+      "__EMPTY": "ÑIQUÉN",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16105",
+      "__EMPTY": "PEMUCO",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16106",
+      "__EMPTY": "PINTO",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16205",
+      "__EMPTY": "PORTEZUELO",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16107",
+      "__EMPTY": "QUILLÓN",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16201",
+      "__EMPTY": "QUIRIHUE",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16206",
+      "__EMPTY": "RÁNQUIL",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16301",
+      "__EMPTY": "SAN CARLOS",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16304",
+      "__EMPTY": "SAN FABIÁN",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16108",
+      "__EMPTY": "SAN IGNACIO",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16305",
+      "__EMPTY": "SAN NICOLÁS",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16207",
+      "__EMPTY": "TREGUACO",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "16109",
+      "__EMPTY": "YUNGAY",
+      "__EMPTY_1": "16",
+      "__EMPTY_2": "de Ñuble"
+    },
+    {
+      "Anexo 2": "09101",
+      "__EMPTY": "TEMUCO",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09102",
+      "__EMPTY": "CARAHUE",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09103",
+      "__EMPTY": "CUNCO",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09104",
+      "__EMPTY": "CURARREHUE",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09105",
+      "__EMPTY": "FREIRE",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09106",
+      "__EMPTY": "GALVARINO",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09107",
+      "__EMPTY": "GORBEA",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09108",
+      "__EMPTY": "LAUTARO",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09109",
+      "__EMPTY": "LONCOCHE",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09110",
+      "__EMPTY": "MELIPEUCO",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09111",
+      "__EMPTY": "NUEVA IMPERIAL",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09112",
+      "__EMPTY": "PADRE LAS CASAS",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09113",
+      "__EMPTY": "PERQUENCO",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09114",
+      "__EMPTY": "PITRUFQUÉN",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09115",
+      "__EMPTY": "PUCÓN",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09116",
+      "__EMPTY": "SAAVEDRA",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09117",
+      "__EMPTY": "TEODORO SCHMIDT",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09118",
+      "__EMPTY": "TOLTÉN",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09119",
+      "__EMPTY": "VILCÚN",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09120",
+      "__EMPTY": "VILLARRICA",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09121",
+      "__EMPTY": "CHOLCHOL",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09201",
+      "__EMPTY": "ANGOL",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09202",
+      "__EMPTY": "COLLIPULLI",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09203",
+      "__EMPTY": "CURACAUTÍN",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09204",
+      "__EMPTY": "ERCILLA",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09205",
+      "__EMPTY": "LONQUIMAY",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09206",
+      "__EMPTY": "LOS SAUCES",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09207",
+      "__EMPTY": "LUMACO",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09208",
+      "__EMPTY": "PURÉN",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09209",
+      "__EMPTY": "RENAICO",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09210",
+      "__EMPTY": "TRAIGUÉN",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "09211",
+      "__EMPTY": "VICTORIA",
+      "__EMPTY_1": "9",
+      "__EMPTY_2": "de La Araucanía"
+    },
+    {
+      "Anexo 2": "14101",
+      "__EMPTY": "VALDIVIA",
+      "__EMPTY_1": "14",
+      "__EMPTY_2": "de Los Rios"
+    },
+    {
+      "Anexo 2": "14102",
+      "__EMPTY": "CORRAL",
+      "__EMPTY_1": "14",
+      "__EMPTY_2": "de Los Rios"
+    },
+    {
+      "Anexo 2": "14103",
+      "__EMPTY": "LANCO",
+      "__EMPTY_1": "14",
+      "__EMPTY_2": "de Los Rios"
+    },
+    {
+      "Anexo 2": "14104",
+      "__EMPTY": "LOS LAGOS",
+      "__EMPTY_1": "14",
+      "__EMPTY_2": "de Los Rios"
+    },
+    {
+      "Anexo 2": "14105",
+      "__EMPTY": "MÁFIL",
+      "__EMPTY_1": "14",
+      "__EMPTY_2": "de Los Rios"
+    },
+    {
+      "Anexo 2": "14106",
+      "__EMPTY": "MARIQUINA",
+      "__EMPTY_1": "14",
+      "__EMPTY_2": "de Los Rios"
+    },
+    {
+      "Anexo 2": "14107",
+      "__EMPTY": "PAILLACO",
+      "__EMPTY_1": "14",
+      "__EMPTY_2": "de Los Rios"
+    },
+    {
+      "Anexo 2": "14108",
+      "__EMPTY": "PANGUIPULLI",
+      "__EMPTY_1": "14",
+      "__EMPTY_2": "de Los Rios"
+    },
+    {
+      "Anexo 2": "14201",
+      "__EMPTY": "LA UNIÓN",
+      "__EMPTY_1": "14",
+      "__EMPTY_2": "de Los Rios"
+    },
+    {
+      "Anexo 2": "14202",
+      "__EMPTY": "FUTRONO",
+      "__EMPTY_1": "14",
+      "__EMPTY_2": "de Los Rios"
+    },
+    {
+      "Anexo 2": "14203",
+      "__EMPTY": "LAGO RANCO",
+      "__EMPTY_1": "14",
+      "__EMPTY_2": "de Los Rios"
+    },
+    {
+      "Anexo 2": "14204",
+      "__EMPTY": "RÍO BUENO",
+      "__EMPTY_1": "14",
+      "__EMPTY_2": "de Los Rios"
+    },
+    {
+      "Anexo 2": "10101",
+      "__EMPTY": "PUERTO MONTT",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10102",
+      "__EMPTY": "CALBUCO",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10103",
+      "__EMPTY": "COCHAMÓ",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10104",
+      "__EMPTY": "FRESIA",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10105",
+      "__EMPTY": "FRUTILLAR",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10106",
+      "__EMPTY": "LOS MUERMOS",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10107",
+      "__EMPTY": "LLANQUIHUE",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10108",
+      "__EMPTY": "MAULLÍN",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10109",
+      "__EMPTY": "PUERTO VARAS",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10201",
+      "__EMPTY": "CASTRO",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10202",
+      "__EMPTY": "ANCUD",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10203",
+      "__EMPTY": "CHONCHI",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10204",
+      "__EMPTY": "CURACO DE VÉLEZ",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10205",
+      "__EMPTY": "DALCAHUE",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10206",
+      "__EMPTY": "PUQUELDÓN",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10207",
+      "__EMPTY": "QUEILÉN",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10208",
+      "__EMPTY": "QUELLÓN",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10209",
+      "__EMPTY": "QUEMCHI",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10210",
+      "__EMPTY": "QUINCHAO",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10301",
+      "__EMPTY": "OSORNO",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10302",
+      "__EMPTY": "PUERTO OCTAY",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10303",
+      "__EMPTY": "PURRANQUE",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10304",
+      "__EMPTY": "PUYEHUE",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10305",
+      "__EMPTY": "RÍO NEGRO",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10306",
+      "__EMPTY": "SAN JUAN DE LA COSTA",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10307",
+      "__EMPTY": "SAN PABLO",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10401",
+      "__EMPTY": "CHAITÉN",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10402",
+      "__EMPTY": "FUTALEUFÚ",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10403",
+      "__EMPTY": "HUALAIHUÉ",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "10404",
+      "__EMPTY": "PALENA",
+      "__EMPTY_1": "10",
+      "__EMPTY_2": "de Los Lagos"
+    },
+    {
+      "Anexo 2": "11101",
+      "__EMPTY": "COIHAIQUE",
+      "__EMPTY_1": "11",
+      "__EMPTY_2": "de Aisén del Gral. C. Ibáñez del Campo"
+    },
+    {
+      "Anexo 2": "11102",
+      "__EMPTY": "LAGO VERDE",
+      "__EMPTY_1": "11",
+      "__EMPTY_2": "de Aisén del Gral. C. Ibáñez del Campo"
+    },
+    {
+      "Anexo 2": "11201",
+      "__EMPTY": "AISÉN",
+      "__EMPTY_1": "11",
+      "__EMPTY_2": "de Aisén del Gral. C. Ibáñez del Campo"
+    },
+    {
+      "Anexo 2": "11202",
+      "__EMPTY": "CISNES",
+      "__EMPTY_1": "11",
+      "__EMPTY_2": "de Aisén del Gral. C. Ibáñez del Campo"
+    },
+    {
+      "Anexo 2": "11203",
+      "__EMPTY": "GUAITECAS",
+      "__EMPTY_1": "11",
+      "__EMPTY_2": "de Aisén del Gral. C. Ibáñez del Campo"
+    },
+    {
+      "Anexo 2": "11301",
+      "__EMPTY": "COCHRANE",
+      "__EMPTY_1": "11",
+      "__EMPTY_2": "de Aisén del Gral. C. Ibáñez del Campo"
+    },
+    {
+      "Anexo 2": "11302",
+      "__EMPTY": "O'HIGGINS",
+      "__EMPTY_1": "11",
+      "__EMPTY_2": "de Aisén del Gral. C. Ibáñez del Campo"
+    },
+    {
+      "Anexo 2": "11303",
+      "__EMPTY": "TORTEL",
+      "__EMPTY_1": "11",
+      "__EMPTY_2": "de Aisén del Gral. C. Ibáñez del Campo"
+    },
+    {
+      "Anexo 2": "11401",
+      "__EMPTY": "CHILE CHICO",
+      "__EMPTY_1": "11",
+      "__EMPTY_2": "de Aisén del Gral. C. Ibáñez del Campo"
+    },
+    {
+      "Anexo 2": "11402",
+      "__EMPTY": "RÍO IBÁÑEZ",
+      "__EMPTY_1": "11",
+      "__EMPTY_2": "de Aisén del Gral. C. Ibáñez del Campo"
+    },
+    {
+      "Anexo 2": "12101",
+      "__EMPTY": "PUNTA ARENAS",
+      "__EMPTY_1": "12",
+      "__EMPTY_2": "de Magallanes y de la Antártica Chilena"
+    },
+    {
+      "Anexo 2": "12102",
+      "__EMPTY": "LAGUNA BLANCA",
+      "__EMPTY_1": "12",
+      "__EMPTY_2": "de Magallanes y de la Antártica Chilena"
+    },
+    {
+      "Anexo 2": "12103",
+      "__EMPTY": "RÍO VERDE",
+      "__EMPTY_1": "12",
+      "__EMPTY_2": "de Magallanes y de la Antártica Chilena"
+    },
+    {
+      "Anexo 2": "12104",
+      "__EMPTY": "SAN GREGORIO",
+      "__EMPTY_1": "12",
+      "__EMPTY_2": "de Magallanes y de la Antártica Chilena"
+    },
+    {
+      "Anexo 2": "12201",
+      "__EMPTY": "CABO DE HORNOS",
+      "__EMPTY_1": "12",
+      "__EMPTY_2": "de Magallanes y de la Antártica Chilena"
+    },
+    {
+      "Anexo 2": "12202",
+      "__EMPTY": "ANTÁRTICA",
+      "__EMPTY_1": "12",
+      "__EMPTY_2": "de Magallanes y de la Antártica Chilena"
+    },
+    {
+      "Anexo 2": "12301",
+      "__EMPTY": "PORVENIR",
+      "__EMPTY_1": "12",
+      "__EMPTY_2": "de Magallanes y de la Antártica Chilena"
+    },
+    {
+      "Anexo 2": "12302",
+      "__EMPTY": "PRIMAVERA",
+      "__EMPTY_1": "12",
+      "__EMPTY_2": "de Magallanes y de la Antártica Chilena"
+    },
+    {
+      "Anexo 2": "12303",
+      "__EMPTY": "TIMAUKEL",
+      "__EMPTY_1": "12",
+      "__EMPTY_2": "de Magallanes y de la Antártica Chilena"
+    },
+    {
+      "Anexo 2": "12401",
+      "__EMPTY": "NATALES",
+      "__EMPTY_1": "12",
+      "__EMPTY_2": "de Magallanes y de la Antártica Chilena"
+    },
+    {
+      "Anexo 2": "12402",
+      "__EMPTY": "TORRES DEL PAINE",
+      "__EMPTY_1": "12",
+      "__EMPTY_2": "de Magallanes y de la Antártica Chilena"
+    },
+    {
+      "Anexo 2": "88888",
+      "__EMPTY": "Extranjero",
+      "__EMPTY_1": "88",
+      "__EMPTY_2": "Extranjero"
+    },
+    {
+      "Anexo 2": "99999",
+      "__EMPTY": "Ignorada",
+      "__EMPTY_1": "99",
+      "__EMPTY_2": "Ignorada"
+    },
+    {
+      "__EMPTY_3": "< < Volver"
+    }
+  ]
+}

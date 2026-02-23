@@ -1,0 +1,83 @@
+{
+  "collection": {
+    "name": "ALMA_Region",
+    "title": "ALMA Region",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "4axlq1xfwtx",
+      "name": "CTRG_Country_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Region",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CTRG_Country_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "idu1l5q8atc",
+      "name": "CTRG_RcFlag",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Region",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CTRG_RcFlag",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ignpf91d98f",
+      "name": "CodigoRegion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Region",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoRegion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ijaj3kt95t8",
+      "name": "CTRG_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Region",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CTRG_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "j0p61dtgjh5",
+      "name": "Region",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Region",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Region",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.647Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

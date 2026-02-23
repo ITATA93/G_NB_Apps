@@ -1,0 +1,1171 @@
+# App Blueprint (source of truth)
+# Hospital de Ovalle - Sistema de Gestión Clínica
+
+app:
+  name: 'Hospital de Ovalle - Gestión Clínica'
+  description: 'Sistema integrado de gestión quirúrgica (SGQ), oncológica (UGCO) y entrega de turno (ENTREGA)'
+  version: '1.1.0'
+  locale: 'es-ES'
+
+nocobase:
+  base_url_env: 'NOCOBASE_BASE_URL'
+  api_key_env: 'NOCOBASE_API_KEY'
+  role_env: 'NOCOBASE_ROLE'
+  execution_mode: 'hybrid'
+  data_source: 'main'
+
+plugins:
+  required:
+    - 'Auth: API keys'
+    - 'Workflow'
+    - 'API documentation'
+    - 'Users'
+    - 'File Manager'
+
+data_model:
+  collections:
+    # ========================================
+    # MÓDULO: RECURSOS HUMANOS (Compartido)
+    # ========================================
+    - name: 'staff'
+      title: 'Personal'
+      fields:
+        - name: 'name'
+          type: 'string'
+          required: true
+          uiSchema:
+            title: 'Nombre Completo'
+        - name: 'rut'
+          type: 'string'
+          unique: true
+          required: true
+          uiSchema:
+            title: 'RUT'
+        - name: 'email'
+          type: 'string'
+          uiSchema:
+            title: 'Email'
+        - name: 'specialty'
+          type: 'string'
+          uiSchema:
+            title: 'Especialidad'
+        - name: 'is_active'
+          type: 'boolean'
+          default: true
+          uiSchema:
+            title: 'Activo'
+        - name: 'department_id'
+          type: 'belongsTo'
+          target: 'departments'
+          foreignKey: 'department_id'
+          uiSchema:
+            title: 'Departamento'
+
+    - name: 'departments'
+      title: 'Unidades/Departamentos'
+      fields:
+        - name: 'name'
+          type: 'string'
+          required: true
+          uiSchema:
+            title: 'Nombre'
+        - name: 'code'
+          type: 'string'
+          uiSchema:
+            title: 'Código'
+
+    # ========================================
+    # MÓDULO: SGQ (Gestión Quirúrgica)
+    # ========================================
+    - name: 'activity_types'
+      title: 'Tipos de Actividad'
+      fields:
+        - name: 'name'
+          type: 'string'
+          required: true
+          uiSchema:
+            title: 'Nombre'
+        - name: 'code'
+          type: 'string'
+          uiSchema:
+            title: 'Código'
+        - name: 'default_duration'
+          type: 'integer'
+          uiSchema:
+            title: 'Duración por Defecto (min)'
+        - name: 'color'
+          type: 'string'
+          uiSchema:
+            title: 'Color (Hex)'
+        - name: 'category'
+          type: 'string'
+          uiSchema:
+            title: 'Categoría'
+
+    - name: 'schedule_blocks'
+      title: 'Bloques de Agenda'
+      fields:
+        - name: 'start_time'
+          type: 'datetime'
+          required: true
+          uiSchema:
+            title: 'Hora Inicio'
+        - name: 'end_time'
+          type: 'datetime'
+          required: true
+          uiSchema:
+            title: 'Hora Fin'
+        - name: 'status'
+          type: 'string'
+          uiSchema:
+            title: 'Estado'
+        - name: 'notes'
+          type: 'text'
+          uiSchema:
+            title: 'Notas'
+        - name: 'responsible_staff_id'
+          type: 'belongsTo'
+          target: 'staff'
+          foreignKey: 'responsible_staff_id'
+          uiSchema:
+            title: 'Responsable'
+        - name: 'department_id'
+          type: 'belongsTo'
+          target: 'departments'
+          foreignKey: 'department_id'
+          uiSchema:
+            title: 'Departamento'
+        - name: 'activity_type_id'
+          type: 'belongsTo'
+          target: 'activity_types'
+          foreignKey: 'activity_type_id'
+          uiSchema:
+            title: 'Tipo de Actividad'
+
+    - name: 'activity_blocks'
+      title: 'Bloques de Actividad (Templates)'
+      fields:
+        - name: 'name'
+          type: 'string'
+          required: true
+          uiSchema:
+            title: 'Nombre'
+        - name: 'code'
+          type: 'string'
+          uiSchema:
+            title: 'Código'
+        - name: 'default_duration'
+          type: 'integer'
+          uiSchema:
+            title: 'Duración (min)'
+
+    # ========================================
+    # MÓDULO: UGCO (Oncología)
+    # ========================================
+    - name: 'onco_casos'
+      title: 'Casos Oncológicos'
+      fields:
+        - name: 'paciente_rut'
+          type: 'string'
+          required: true
+          uiSchema:
+            title: 'RUT Paciente'
+        - name: 'fecha_ingreso'
+          type: 'date'
+          uiSchema:
+            title: 'Fecha Ingreso'
+        - name: 'diagnostico_principal'
+          type: 'text'
+          uiSchema:
+            title: 'Diagnóstico Principal'
+        - name: 'estado'
+          type: 'string'
+          uiSchema:
+            title: 'Estado del Caso'
+        - name: 'observaciones'
+          type: 'text'
+          uiSchema:
+            title: 'Observaciones'
+        - name: 'responsible_doctor_id'
+          type: 'belongsTo'
+          target: 'staff'
+          foreignKey: 'responsible_doctor_id'
+          uiSchema:
+            title: 'Médico Responsable'
+
+    - name: 'onco_episodios'
+      title: 'Episodios Oncológicos'
+      fields:
+        - name: 'fecha'
+          type: 'date'
+          required: true
+          uiSchema:
+            title: 'Fecha'
+        - name: 'tipo_episodio'
+          type: 'string'
+          uiSchema:
+            title: 'Tipo de Episodio'
+        - name: 'descripcion'
+          type: 'text'
+          uiSchema:
+            title: 'Descripción'
+        - name: 'caso_id'
+          type: 'belongsTo'
+          target: 'onco_casos'
+          foreignKey: 'caso_id'
+          uiSchema:
+            title: 'Caso Oncológico'
+
+    - name: 'onco_comite_sesiones'
+      title: 'Sesiones de Comité Oncológico'
+      fields:
+        - name: 'fecha'
+          type: 'date'
+          required: true
+          uiSchema:
+            title: 'Fecha de Sesión'
+        - name: 'numero_sesion'
+          type: 'string'
+          uiSchema:
+            title: 'Número de Sesión'
+        - name: 'acta'
+          type: 'text'
+          uiSchema:
+            title: 'Acta'
+
+    - name: 'onco_comite_casos'
+      title: 'Casos Presentados en Comité'
+      fields:
+        - name: 'decision'
+          type: 'text'
+          uiSchema:
+            title: 'Decisión del Comité'
+        - name: 'fecha_presentacion'
+          type: 'date'
+          uiSchema:
+            title: 'Fecha de Presentación'
+        - name: 'caso_id'
+          type: 'belongsTo'
+          target: 'onco_casos'
+          foreignKey: 'caso_id'
+          uiSchema:
+            title: 'Caso Oncológico'
+        - name: 'sesion_id'
+          type: 'belongsTo'
+          target: 'onco_comite_sesiones'
+          foreignKey: 'sesion_id'
+          uiSchema:
+            title: 'Sesión del Comité'
+
+    # ========================================
+    # REFERENCIAS (Catálogos)
+    # ========================================
+    - name: 'ref_comuna'
+      title: 'Comunas'
+      fields:
+        - name: 'nombre'
+          type: 'string'
+          required: true
+        - name: 'codigo'
+          type: 'string'
+
+    - name: 'ref_nacionalidad'
+      title: 'Nacionalidades (HL7)'
+      fields:
+        - name: 'nombre'
+          type: 'string'
+          required: true
+        - name: 'codigo_hl7'
+          type: 'string'
+
+roles:
+  - name: 'Administrador Clínico'
+    permissions:
+      collections:
+        staff:
+          actions: ['list', 'create', 'update', 'view']
+        onco_casos:
+          actions: ['list', 'create', 'update', 'view']
+        schedule_blocks:
+          actions: ['list', 'create', 'update', 'view', 'destroy']
+
+  - name: 'Médico Oncólogo'
+    permissions:
+      collections:
+        onco_casos:
+          actions: ['list', 'view', 'update']
+        onco_episodios:
+          actions: ['list', 'create', 'view']
+        onco_comite_sesiones:
+          actions: ['list', 'view']
+
+  - name: 'Coordinador Pabellón'
+    permissions:
+      collections:
+        schedule_blocks:
+          actions: ['list', 'create', 'update', 'view']
+        activity_blocks:
+          actions: ['list', 'view']
+        staff:
+          actions: ['list', 'view']
+
+ui:
+  menus:
+    - title: 'Oncología (UGCO)'
+      icon: 'HeartPulse'
+      children:
+        - title: 'Casos'
+          page_key: 'ugco_casos_list'
+        - title: 'Comité'
+          page_key: 'ugco_comite_list'
+
+    - title: 'Pabellón (SGQ)'
+      icon: 'Calendar'
+      children:
+        - title: 'Agenda'
+          page_key: 'sgq_agenda'
+        - title: 'Actividades'
+          page_key: 'sgq_activities'
+
+    - title: 'Administración'
+      icon: 'Settings'
+      children:
+        - title: 'Personal'
+          page_key: 'admin_staff'
+        - title: 'Departamentos'
+          page_key: 'admin_departments'
+
+  pages:
+    # UGCO Pages
+    - key: 'ugco_casos_list'
+      type: 'table'
+      collection: 'onco_casos'
+      columns: ['paciente_rut', 'fecha_ingreso', 'diagnostico_principal', 'estado']
+      actions: ['create', 'update', 'view']
+
+    - key: 'ugco_comite_list'
+      type: 'table'
+      collection: 'onco_comite_sesiones'
+      columns: ['fecha', 'numero_sesion']
+      actions: ['create', 'view']
+
+    # SGQ Pages
+    - key: 'sgq_agenda'
+      type: 'calendar'
+      collection: 'schedule_blocks'
+      dateField: 'start_time'
+      actions: ['create', 'update', 'destroy']
+
+    - key: 'sgq_activities'
+      type: 'table'
+      collection: 'activity_types'
+      columns: ['name', 'code', 'category', 'default_duration']
+      actions: ['create', 'update']
+
+    # Admin Pages
+    - key: 'admin_staff'
+      type: 'table'
+      collection: 'staff'
+      columns: ['name', 'rut', 'email', 'specialty', 'is_active']
+      actions: ['create', 'update', 'view']
+
+    - key: 'admin_departments'
+      type: 'table'
+      collection: 'departments'
+      columns: ['name', 'code']
+      actions: ['create', 'update']
+
+workflows: []
+
+seed:
+  activity_types:
+    - name: 'Cirugía Mayor'
+      code: 'CIR_MAY'
+      default_duration: 180
+      color: '#FF5733'
+      category: 'Quirúrgico'
+    - name: 'Consulta Oncológica'
+      code: 'CONS_ONC'
+      default_duration: 30
+      color: '#33C3FF'
+      category: 'Clínico'
+
+  departments:
+    - name: 'Oncología'
+      code: 'ONCO'
+    - name: 'Pabellón'
+      code: 'PAB'
+
+# =============================================
+# MÓDULO: ENTREGA DE TURNO (Shift Handover)
+# =============================================
+# Reemplaza el Excel de 32 hojas con datos en vivo desde ALMA/IRIS.
+# Entrega médica = por especialidad clínica
+# Entrega enfermería = por servicio físico
+
+entrega:
+  collections:
+    - name: 'et_especialidades'
+      title: 'Especialidades Médicas'
+      fields:
+        - {
+            name: 'nombre',
+            type: 'string',
+            unique: true,
+            required: true,
+            uiSchema: { title: 'Nombre' },
+          }
+        - { name: 'codigo', type: 'string', unique: true, uiSchema: { title: 'Código' } }
+        - { name: 'activa', type: 'boolean', default: true, uiSchema: { title: 'Activa' } }
+
+    - name: 'et_servicios'
+      title: 'Servicios Hospitalarios'
+      fields:
+        - {
+            name: 'codigo',
+            type: 'string',
+            unique: true,
+            required: true,
+            uiSchema: { title: 'Código ALMA' },
+          }
+        - { name: 'nombre', type: 'string', uiSchema: { title: 'Nombre' } }
+        - { name: 'codigo_padre', type: 'string', uiSchema: { title: 'Servicio Padre' } }
+        - {
+            name: 'especialidad_id',
+            type: 'belongsTo',
+            target: 'et_especialidades',
+            uiSchema: { title: 'Especialidad' },
+          }
+        - { name: 'capacidad_camas', type: 'integer', uiSchema: { title: 'Capacidad Camas' } }
+        - { name: 'activo', type: 'boolean', default: true, uiSchema: { title: 'Activo' } }
+
+    - name: 'et_usuarios'
+      title: 'Usuarios Entrega'
+      fields:
+        - { name: 'nombre', type: 'string', required: true, uiSchema: { title: 'Nombre Completo' } }
+        - { name: 'rut', type: 'string', unique: true, uiSchema: { title: 'RUT' } }
+        - { name: 'codigo_alma', type: 'string', uiSchema: { title: 'Código ALMA' } }
+        - {
+            name: 'cargo',
+            type: 'string',
+            enum: ['Médico', 'Enfermero/a', 'Interno', 'Becado'],
+            uiSchema: { title: 'Cargo' },
+          }
+        - { name: 'especialidad', type: 'string', uiSchema: { title: 'Especialidad' } }
+        - { name: 'email', type: 'string', uiSchema: { title: 'Email' } }
+        - { name: 'activo', type: 'boolean', default: true, uiSchema: { title: 'Activo' } }
+
+    - name: 'et_pacientes_censo'
+      title: 'Censo Hospitalizados (Sync ALMA)'
+      description: 'Tabla read-only sincronizada desde Q1 ALMA'
+      fields:
+        - {
+            name: 'id_episodio',
+            type: 'string',
+            unique: true,
+            required: true,
+            uiSchema: { title: 'ID Episodio' },
+          }
+        - { name: 'rut', type: 'string', uiSchema: { title: 'RUT' } }
+        - { name: 'nro_ficha', type: 'string', uiSchema: { title: 'Nro Ficha' } }
+        - { name: 'nombre', type: 'string', uiSchema: { title: 'Nombre' } }
+        - { name: 'edad', type: 'integer', uiSchema: { title: 'Edad' } }
+        - { name: 'sexo', type: 'string', uiSchema: { title: 'Sexo' } }
+        - {
+            name: 'servicio_id',
+            type: 'belongsTo',
+            target: 'et_servicios',
+            uiSchema: { title: 'Servicio' },
+          }
+        - { name: 'sala', type: 'string', uiSchema: { title: 'Sala' } }
+        - { name: 'cama', type: 'string', uiSchema: { title: 'Cama' } }
+        - { name: 'medico_tratante_alma', type: 'string', uiSchema: { title: 'Médico Tratante' } }
+        - { name: 'cod_medico', type: 'string', uiSchema: { title: 'Código Médico' } }
+        - {
+            name: 'especialidad_clinica',
+            type: 'string',
+            uiSchema: { title: 'Especialidad Clínica' },
+          }
+        - { name: 'f_ingreso', type: 'datetime', uiSchema: { title: 'Fecha Ingreso' } }
+        - { name: 'dias_hospitalizacion', type: 'integer', uiSchema: { title: 'Días Hosp.' } }
+        - { name: 'dx_principal', type: 'text', uiSchema: { title: 'Dx Principal' } }
+        - { name: 'f_probable_alta', type: 'date', uiSchema: { title: 'Fecha Prob. Alta' } }
+        - { name: 'alta_confirmada', type: 'boolean', uiSchema: { title: 'Alta Confirmada' } }
+        - { name: 'f_alta_medica', type: 'date', uiSchema: { title: 'Fecha Alta Médica' } }
+        - { name: 'alergias', type: 'text', uiSchema: { title: 'Alergias' } }
+        - { name: 'vip', type: 'boolean', uiSchema: { title: 'VIP' } }
+        - { name: 'telefono', type: 'string', uiSchema: { title: 'Teléfono' } }
+        - { name: 'servicio_padre', type: 'string', uiSchema: { title: 'Servicio Padre' } }
+        - {
+            name: 'caso_social',
+            type: 'boolean',
+            default: false,
+            uiSchema: { title: 'Caso Social' },
+          }
+        - { name: 'motivo_caso_social', type: 'text', uiSchema: { title: 'Motivo Caso Social' } }
+        - { name: 'ultima_sync', type: 'datetime', uiSchema: { title: 'Última Sync' } }
+
+    - name: 'et_diagnosticos'
+      title: 'Diagnósticos por Paciente (Sync Q2)'
+      fields:
+        - {
+            name: 'paciente_censo_id',
+            type: 'belongsTo',
+            target: 'et_pacientes_censo',
+            uiSchema: { title: 'Paciente' },
+          }
+        - { name: 'tipo_dx', type: 'string', uiSchema: { title: 'Tipo Dx' } }
+        - { name: 'diagnostico', type: 'text', uiSchema: { title: 'Diagnóstico' } }
+        - { name: 'cod_cie', type: 'string', uiSchema: { title: 'CIE-10' } }
+        - { name: 'fecha_dx', type: 'date', uiSchema: { title: 'Fecha Dx' } }
+        - { name: 'activo', type: 'boolean', default: true, uiSchema: { title: 'Activo' } }
+
+    - name: 'et_cotratancia'
+      title: 'Cotratancia / Seguimiento'
+      fields:
+        - {
+            name: 'paciente_censo_id',
+            type: 'belongsTo',
+            target: 'et_pacientes_censo',
+            uiSchema: { title: 'Paciente' },
+          }
+        - {
+            name: 'especialidad_origen',
+            type: 'string',
+            uiSchema: { title: 'Especialidad Origen' },
+          }
+        - {
+            name: 'especialidad_destino',
+            type: 'string',
+            uiSchema: { title: 'Especialidad Destino' },
+          }
+        - {
+            name: 'tipo',
+            type: 'string',
+            enum: ['cotratancia', 'seguimiento'],
+            uiSchema: { title: 'Tipo' },
+          }
+        - { name: 'motivo', type: 'text', uiSchema: { title: 'Motivo' } }
+        - {
+            name: 'solicitado_por_id',
+            type: 'belongsTo',
+            target: 'et_usuarios',
+            uiSchema: { title: 'Solicitado Por' },
+          }
+        - { name: 'fecha_inicio', type: 'date', uiSchema: { title: 'Fecha Inicio' } }
+        - { name: 'fecha_fin', type: 'date', uiSchema: { title: 'Fecha Fin' } }
+        - { name: 'activa', type: 'boolean', default: true, uiSchema: { title: 'Activa' } }
+        - { name: 'notas', type: 'text', uiSchema: { title: 'Notas' } }
+
+    - name: 'et_turnos'
+      title: 'Entregas de Turno'
+      fields:
+        - { name: 'fecha', type: 'date', required: true, uiSchema: { title: 'Fecha' } }
+        - {
+            name: 'turno',
+            type: 'string',
+            enum: ['Mañana', 'Tarde', 'Noche'],
+            uiSchema: { title: 'Turno' },
+          }
+        - {
+            name: 'especialidad',
+            type: 'string',
+            required: true,
+            uiSchema: { title: 'Especialidad' },
+          }
+        - {
+            name: 'responsable_saliente_id',
+            type: 'belongsTo',
+            target: 'et_usuarios',
+            uiSchema: { title: 'Responsable Saliente' },
+          }
+        - {
+            name: 'responsable_entrante_id',
+            type: 'belongsTo',
+            target: 'et_usuarios',
+            uiSchema: { title: 'Responsable Entrante' },
+          }
+        - {
+            name: 'estado',
+            type: 'string',
+            enum: ['borrador', 'en_curso', 'completada', 'firmada'],
+            uiSchema: { title: 'Estado' },
+          }
+        - {
+            name: 'observaciones_generales',
+            type: 'text',
+            uiSchema: { title: 'Observaciones Generales' },
+          }
+        - {
+            name: 'firma_saliente',
+            type: 'boolean',
+            default: false,
+            uiSchema: { title: 'Firma Saliente' },
+          }
+        - {
+            name: 'firma_entrante',
+            type: 'boolean',
+            default: false,
+            uiSchema: { title: 'Firma Entrante' },
+          }
+
+    - name: 'et_entrega_paciente'
+      title: 'Detalle Entrega por Paciente'
+      description: 'Registro editable por paciente dentro de cada entrega de turno'
+      fields:
+        - { name: 'turno_id', type: 'belongsTo', target: 'et_turnos', uiSchema: { title: 'Turno' } }
+        - {
+            name: 'paciente_censo_id',
+            type: 'belongsTo',
+            target: 'et_pacientes_censo',
+            uiSchema: { title: 'Paciente' },
+          }
+        - {
+            name: 'es_cotratancia',
+            type: 'boolean',
+            default: false,
+            uiSchema: { title: 'Es Cotratancia' },
+          }
+        - {
+            name: 'tipo_inclusion',
+            type: 'string',
+            enum: ['propio', 'cotratancia', 'seguimiento'],
+            uiSchema: { title: 'Tipo Inclusión' },
+          }
+        - { name: 'resumen_historia', type: 'text', uiSchema: { title: 'Resumen Historia' } }
+        - { name: 'plan_tratamiento', type: 'text', uiSchema: { title: 'Plan Tratamiento' } }
+        - { name: 'pendientes', type: 'text', uiSchema: { title: 'Pendientes' } }
+        - {
+            name: 'medico_tratante_id',
+            type: 'belongsTo',
+            target: 'et_usuarios',
+            uiSchema: { title: 'Médico Tratante' },
+          }
+        - {
+            name: 'estado_paciente',
+            type: 'string',
+            enum: ['estable', 'inestable', 'grave', 'crítico', 'alta_programada'],
+            uiSchema: { title: 'Estado Paciente' },
+          }
+        - { name: 'eventos_turno', type: 'text', uiSchema: { title: 'Eventos del Turno' } }
+        - {
+            name: 'fue_operado',
+            type: 'boolean',
+            default: false,
+            uiSchema: { title: 'Fue Operado' },
+          }
+        - { name: 'procedimiento', type: 'text', uiSchema: { title: 'Procedimiento' } }
+        - { name: 'interconsulta', type: 'text', uiSchema: { title: 'Interconsultas' } }
+        - {
+            name: 'modificado_por_id',
+            type: 'belongsTo',
+            target: 'et_usuarios',
+            uiSchema: { title: 'Modificado Por' },
+          }
+
+    - name: 'et_eventos_turno'
+      title: 'Eventos Relevantes del Turno'
+      fields:
+        - { name: 'turno_id', type: 'belongsTo', target: 'et_turnos', uiSchema: { title: 'Turno' } }
+        - {
+            name: 'tipo_evento',
+            type: 'string',
+            enum: ['ingreso', 'alta', 'fallecimiento', 'cirugia', 'interconsulta'],
+            uiSchema: { title: 'Tipo Evento' },
+          }
+        - {
+            name: 'paciente_censo_id',
+            type: 'belongsTo',
+            target: 'et_pacientes_censo',
+            uiSchema: { title: 'Paciente' },
+          }
+        - { name: 'descripcion', type: 'text', uiSchema: { title: 'Descripción' } }
+        - { name: 'fecha_hora', type: 'datetime', uiSchema: { title: 'Fecha/Hora' } }
+        - {
+            name: 'servicio_id',
+            type: 'belongsTo',
+            target: 'et_servicios',
+            uiSchema: { title: 'Servicio' },
+          }
+        - {
+            name: 'source_alma',
+            type: 'boolean',
+            default: false,
+            uiSchema: { title: 'Desde ALMA' },
+          }
+
+    - name: 'et_entrega_enfermeria'
+      title: 'Entrega de Enfermería (por Servicio)'
+      description: 'Organizada por servicio físico (MQ1, UCI, PED). Campos ZEN sincronizados desde ALMA.'
+      fields:
+        # --- Cabecera (por turno/servicio) ---
+        - { name: 'fecha', type: 'date', required: true, uiSchema: { title: 'Fecha' } }
+        - { name: 'turno', type: 'string', enum: ['Mañana', 'Tarde', 'Noche'], uiSchema: { title: 'Turno' } }
+        - { name: 'servicio_id', type: 'belongsTo', target: 'et_servicios', uiSchema: { title: 'Servicio' } }
+        - { name: 'enfermera_saliente_id', type: 'belongsTo', target: 'et_usuarios', uiSchema: { title: 'Enfermera Saliente' } }
+        - { name: 'enfermera_entrante_id', type: 'belongsTo', target: 'et_usuarios', uiSchema: { title: 'Enfermera Entrante' } }
+        - { name: 'firma_saliente', type: 'boolean', default: false, uiSchema: { title: 'Firma Saliente' } }
+        - { name: 'firma_entrante', type: 'boolean', default: false, uiSchema: { title: 'Firma Entrante' } }
+        # --- Campos por paciente ---
+        - { name: 'paciente_censo_id', type: 'belongsTo', target: 'et_pacientes_censo', uiSchema: { title: 'Paciente' } }
+        - { name: 'enfermera_cargo_id', type: 'belongsTo', target: 'et_usuarios', uiSchema: { title: 'Enfermera a Cargo' } }
+        # --- Diagnósticos y Cirugía (ZEN cols 9-15) ---
+        - { name: 'dx_confirmados', type: 'text', uiSchema: { title: 'Dx Confirmados' } }
+        - { name: 'dx_preoperatorio', type: 'text', uiSchema: { title: 'Dx Preoperatorio' } }
+        - { name: 'cirugia_procedimiento', type: 'text', uiSchema: { title: 'Cirugía/Procedimiento' } }
+        - { name: 'fecha_agendada', type: 'date', uiSchema: { title: 'Fecha Agendada Cirugía' } }
+        - { name: 'hora_agendada', type: 'string', uiSchema: { title: 'Hora Agendada' } }
+        - { name: 'quirofano', type: 'string', uiSchema: { title: 'Quirófano' } }
+        - { name: 'estado_cirugia', type: 'string', uiSchema: { title: 'Estado Cirugía' } }
+        # --- Dispositivos Invasivos (ZEN cols 16-20) ---
+        - { name: 'dispositivo_invasivo', type: 'text', uiSchema: { title: 'Dispositivo Invasivo' } }
+        - { name: 'fecha_instalacion', type: 'date', uiSchema: { title: 'Fecha Instalación' } }
+        - { name: 'ubicacion_lateralidad', type: 'string', uiSchema: { title: 'Ubicación/Lateralidad' } }
+        - { name: 'dias_instalado', type: 'integer', uiSchema: { title: 'Días Instalado' } }
+        - { name: 'comentarios_instalacion', type: 'text', uiSchema: { title: 'Comentarios Instalación' } }
+        # --- Egresos/Drenajes (ZEN cols 21, 41-44) ---
+        - { name: 'egreso_diuresis', type: 'double', uiSchema: { title: 'Egreso Diuresis (ml)' } }
+        - { name: 'egreso_drenaje', type: 'double', uiSchema: { title: 'Egreso Drenaje (ml)' } }
+        - { name: 'egreso_drenaje_3', type: 'double', uiSchema: { title: 'Egreso Drenaje 3' } }
+        - { name: 'egreso_drenaje_4', type: 'double', uiSchema: { title: 'Egreso Drenaje 4' } }
+        - { name: 'egreso_drenaje_5', type: 'double', uiSchema: { title: 'Egreso Drenaje 5' } }
+        # --- Laboratorio e Imagenología (ZEN cols 22-23) ---
+        - { name: 'lab_pendientes', type: 'text', uiSchema: { title: 'Laboratorio Pendiente' } }
+        - { name: 'img_pendientes', type: 'text', uiSchema: { title: 'Imagenología Pendiente' } }
+        # --- Signos Vitales (ZEN cols 24-31) ---
+        - { name: 'fc', type: 'double', uiSchema: { title: 'FC (lpm)' } }
+        - { name: 'pa_sistolica', type: 'double', uiSchema: { title: 'PA Sistólica' } }
+        - { name: 'pa_diastolica', type: 'double', uiSchema: { title: 'PA Diastólica' } }
+        - { name: 'fr', type: 'double', uiSchema: { title: 'FR (rpm)' } }
+        - { name: 'sat_o2', type: 'double', uiSchema: { title: 'SatO2 (%)' } }
+        - { name: 'temperatura', type: 'double', uiSchema: { title: 'Temperatura (°C)' } }
+        - { name: 'hgt', type: 'double', uiSchema: { title: 'HGT' } }
+        - { name: 'eva_dolor', type: 'double', uiSchema: { title: 'EVA Dolor' } }
+        # --- Insulina (ZEN cols 32-37) ---
+        - { name: 'hgt_insulina', type: 'double', uiSchema: { title: 'HGT Insulina' } }
+        - { name: 'clasificacion_insulina', type: 'string', uiSchema: { title: 'Clasificación Insulina' } }
+        - { name: 'tipo_insulina', type: 'string', uiSchema: { title: 'Tipo Insulina' } }
+        - { name: 'dosis_insulina', type: 'double', uiSchema: { title: 'Dosis Insulina' } }
+        - { name: 'sitio_puncion_insulina', type: 'string', uiSchema: { title: 'Sitio Punción' } }
+        - { name: 'comentarios_insulina', type: 'text', uiSchema: { title: 'Comentarios Insulina' } }
+        # --- Otros Clínicos (ZEN cols 38-47) ---
+        - { name: 'ic_internas_pendientes', type: 'text', uiSchema: { title: 'IC Internas Pendientes' } }
+        - { name: 'medicamentos', type: 'text', uiSchema: { title: 'Medicamentos' } }
+        - { name: 'alergias', type: 'text', uiSchema: { title: 'Alergias' } }
+        - { name: 'escala_caidas', type: 'string', uiSchema: { title: 'Escala Caídas (Downton)' } }
+        - { name: 'riesgo_dependencia', type: 'string', uiSchema: { title: 'Riesgo Dependencia' } }
+        - { name: 'regimen', type: 'text', uiSchema: { title: 'Régimen Alimentario' } }
+        # --- Campos manuales enfermería ---
+        - { name: 'observaciones', type: 'text', uiSchema: { title: 'Observaciones' } }
+        - { name: 'cuidados_especiales', type: 'text', uiSchema: { title: 'Cuidados Especiales' } }
+        - { name: 'incidentes', type: 'text', uiSchema: { title: 'Incidentes' } }
+
+  roles:
+    - name: 'medico_medicina'
+      title: 'Médico Medicina Interna'
+      permissions:
+        collections:
+          et_entrega_paciente: { actions: ['list', 'create', 'update', 'view'] }
+          et_pacientes_censo: { actions: ['list', 'view'] }
+          et_turnos: { actions: ['list', 'create', 'view'] }
+          et_cotratancia: { actions: ['list', 'view'] }
+
+    - name: 'medico_cirugia'
+      title: 'Médico Cirugía General'
+      permissions:
+        collections:
+          et_entrega_paciente: { actions: ['list', 'create', 'update', 'view'] }
+          et_pacientes_censo: { actions: ['list', 'view'] }
+          et_turnos: { actions: ['list', 'create', 'view'] }
+          et_cotratancia: { actions: ['list', 'view'] }
+
+    - name: 'enfermeria_servicio'
+      title: 'Enfermería por Servicio'
+      permissions:
+        collections:
+          et_entrega_enfermeria: { actions: ['list', 'create', 'update', 'view'] }
+          et_pacientes_censo: { actions: ['list', 'view'] }
+
+    - name: 'jefe_servicio'
+      title: 'Jefe de Servicio'
+      permissions:
+        collections:
+          et_entrega_paciente: { actions: ['list', 'create', 'update', 'view'] }
+          et_pacientes_censo: { actions: ['list', 'view', 'update'] }
+          et_turnos: { actions: ['list', 'create', 'update', 'view'] }
+          et_cotratancia: { actions: ['list', 'create', 'update', 'view'] }
+          et_eventos_turno: { actions: ['list', 'view'] }
+
+  ui:
+    menus:
+      - title: 'Entrega de Turno'
+        icon: 'Stethoscope'
+        children:
+          - { title: 'Dashboard', page_key: 'et_dashboard' }
+          - { title: 'Vista Global', page_key: 'et_vista_global' }
+          - { title: 'Medicina Interna', page_key: 'et_medicina' }
+          - { title: 'Cirugía General', page_key: 'et_cirugia' }
+          - { title: 'Pediatría', page_key: 'et_pediatria' }
+          - { title: 'Obst/Ginecología', page_key: 'et_obst_gin' }
+          - { title: 'Neonatología', page_key: 'et_neonatologia' }
+          - { title: 'Traumatología', page_key: 'et_traumatologia' }
+          - { title: 'UCI / UTI', page_key: 'et_uci_uti' }
+          - { title: 'Historial', page_key: 'et_historial' }
+
+      - title: 'Enfermería'
+        icon: 'HeartHandshake'
+        children:
+          - { title: 'Enf. MQ1', page_key: 'et_enf_mq1' }
+          - { title: 'Enf. MQ2', page_key: 'et_enf_mq2' }
+          - { title: 'Enf. MQ3', page_key: 'et_enf_mq3' }
+          - { title: 'Enf. UCI', page_key: 'et_enf_uci' }
+          - { title: 'Enf. UTI', page_key: 'et_enf_uti' }
+          - { title: 'Enf. PED', page_key: 'et_enf_ped' }
+          - { title: 'Enf. OBST', page_key: 'et_enf_obst' }
+
+    pages:
+      - key: 'et_dashboard'
+        type: 'dashboard'
+        collection: 'et_pacientes_censo'
+
+      - key: 'et_vista_global'
+        type: 'table'
+        collection: 'et_pacientes_censo'
+        columns:
+          [
+            'cama',
+            'nombre',
+            'especialidad_clinica',
+            'dx_principal',
+            'medico_tratante_alma',
+            'dias_hospitalizacion',
+            'caso_social',
+          ]
+        actions: ['view', 'update']
+
+      - key: 'et_medicina'
+        type: 'table'
+        collection: 'et_entrega_paciente'
+        dataScope: { 'especialidad_clinica': 'Medicina Interna' }
+        columns:
+          ['cama', 'nombre', 'dx_principal', 'plan_tratamiento', 'pendientes', 'estado_paciente']
+        actions: ['create', 'update', 'view']
+
+      - key: 'et_historial'
+        type: 'table'
+        collection: 'et_turnos'
+        columns: ['fecha', 'turno', 'especialidad', 'estado']
+        actions: ['view']
+
+  seed:
+    et_especialidades:
+      - { nombre: 'Medicina Interna', codigo: 'MI' }
+      - { nombre: 'Cirugía General', codigo: 'CG' }
+      - { nombre: 'Medicina Intensiva', codigo: 'MINT' }
+      - { nombre: 'Pediatría', codigo: 'PED' }
+      - { nombre: 'Obstetricia/Ginecología', codigo: 'OBG' }
+      - { nombre: 'Traumatología', codigo: 'TRAU' }
+      - { nombre: 'Neonatología', codigo: 'NEO' }
+      - { nombre: 'Cirugía Infantil', codigo: 'CI' }
+      - { nombre: 'Multidisciplinario', codigo: 'MULTI' }
+
+    et_servicios:
+      - { codigo: 'MQ1', nombre: 'Medicina Quirúrgica 1' }
+      - { codigo: 'MQ2', nombre: 'Medicina Quirúrgica 2' }
+      - { codigo: 'MQ3', nombre: 'Medicina Quirúrgica 3' }
+      - { codigo: 'PCER', nombre: 'Pensionado Cerrado' }
+      - { codigo: 'UCI', nombre: 'Unidad Cuidados Intensivos' }
+      - { codigo: 'UTI', nombre: 'Unidad Tratamiento Intermedio' }
+      - { codigo: 'CIBU', nombre: 'Cirugía Infantil' }
+      - { codigo: 'PED', nombre: 'Pediatría' }
+      - { codigo: 'OBST', nombre: 'Obstetricia' }
+      - { codigo: 'GIN', nombre: 'Ginecología' }
+      - { codigo: 'NEO', nombre: 'Neonatología' }
+      - { codigo: 'TRAU', nombre: 'Traumatología' }
+
+  workflows:
+    - name: 'sync_censo_alma'
+      trigger: 'cron_30min'
+      description: 'Sync Q1 ALMA → et_pacientes_censo (upsert by id_episodio)'
+
+    - name: 'crear_entrega_turno'
+      trigger: 'user_action'
+      description: 'Crear snapshot de pacientes para nueva entrega de turno'
+
+    - name: 'firmar_cerrar_entrega'
+      trigger: 'both_signatures'
+      description: 'Bloquear edición y generar snapshot de auditoría'
+
+# =============================================
+# MÓDULO: AGENDA MÉDICA
+# =============================================
+# Reemplaza sistema Google Sheets + Apps Script de agendas médicas.
+# Fase 1: Médicos. Fase 2: Otros funcionarios.
+
+agenda:
+  collections:
+    # Catálogos
+    - name: 'ag_categorias_actividad'
+      title: 'Categorías de Actividad Médica'
+      fields:
+        - { name: 'nombre', type: 'string', required: true, uiSchema: { title: 'Nombre' } }
+        - { name: 'codigo', type: 'string', required: true, unique: true, uiSchema: { title: 'Código' } }
+        - { name: 'grupo', type: 'string', enum: ['Clínica', 'Quirúrgica', 'Policlínico', 'Oncología', 'Administrativa', 'Otro'], uiSchema: { title: 'Grupo' } }
+        - { name: 'orden', type: 'integer', uiSchema: { title: 'Orden' } }
+        - { name: 'color', type: 'string', uiSchema: { title: 'Color Hex' } }
+        - { name: 'activa', type: 'boolean', default: true, uiSchema: { title: 'Activa' } }
+
+    - name: 'ag_tipos_inasistencia'
+      title: 'Tipos de Inasistencia'
+      fields:
+        - { name: 'nombre', type: 'string', required: true, uiSchema: { title: 'Nombre' } }
+        - { name: 'codigo', type: 'string', required: true, unique: true, uiSchema: { title: 'Código' } }
+        - { name: 'descripcion', type: 'text', uiSchema: { title: 'Descripción' } }
+        - { name: 'activo', type: 'boolean', default: true, uiSchema: { title: 'Activo' } }
+
+    - name: 'ag_servicios'
+      title: 'Servicios Hospitalarios (Agenda)'
+      fields:
+        - { name: 'nombre', type: 'string', required: true, uiSchema: { title: 'Nombre' } }
+        - { name: 'codigo', type: 'string', required: true, unique: true, uiSchema: { title: 'Código' } }
+        - { name: 'activo', type: 'boolean', default: true, uiSchema: { title: 'Activo' } }
+
+    # Maestros
+    - name: 'ag_funcionarios'
+      title: 'Funcionarios Médicos'
+      fields:
+        - { name: 'nombre_completo', type: 'string', required: true, uiSchema: { title: 'Nombre Completo' } }
+        - { name: 'rut', type: 'string', required: true, unique: true, uiSchema: { title: 'RUT' } }
+        - { name: 'codigo_alma', type: 'string', uiSchema: { title: 'Código ALMA' } }
+        - { name: 'especialidad', type: 'string', uiSchema: { title: 'Especialidad' } }
+        - { name: 'servicio_id', type: 'belongsTo', target: 'ag_servicios', uiSchema: { title: 'Servicio' } }
+        - { name: 'cargo', type: 'string', enum: ['Médico Cirujano', 'Médico Internista', 'Médico Especialista'], uiSchema: { title: 'Cargo' } }
+        - { name: 'email', type: 'string', uiSchema: { title: 'Email' } }
+        - { name: 'jornada_horas', type: 'integer', uiSchema: { title: 'Jornada Semanal (hrs)' } }
+        - { name: 'activo', type: 'boolean', default: true, uiSchema: { title: 'Activo' } }
+
+    # Transaccionales
+    - name: 'ag_bloques_agenda'
+      title: 'Bloques de Agenda'
+      description: 'Tabla central: 1 fila = 1 bloque de actividad médica'
+      fields:
+        - { name: 'fecha', type: 'date', required: true, uiSchema: { title: 'Fecha' } }
+        - { name: 'funcionario_id', type: 'belongsTo', target: 'ag_funcionarios', required: true, uiSchema: { title: 'Funcionario' } }
+        - { name: 'categoria_id', type: 'belongsTo', target: 'ag_categorias_actividad', required: true, uiSchema: { title: 'Categoría' } }
+        - { name: 'subcategoria', type: 'string', uiSchema: { title: 'Subcategoría' } }
+        - { name: 'hora_inicio', type: 'time', required: true, uiSchema: { title: 'Hora Inicio' } }
+        - { name: 'hora_fin', type: 'time', required: true, uiSchema: { title: 'Hora Fin' } }
+        - { name: 'duracion_min', type: 'integer', uiSchema: { title: 'Duración (min)' } }
+        - { name: 'periodo', type: 'string', enum: ['AM', 'PM'], uiSchema: { title: 'Período' } }
+        - { name: 'servicio_id', type: 'belongsTo', target: 'ag_servicios', uiSchema: { title: 'Servicio' } }
+        - { name: 'observaciones', type: 'text', uiSchema: { title: 'Observaciones' } }
+
+    - name: 'ag_inasistencias'
+      title: 'Inasistencias'
+      fields:
+        - { name: 'fecha', type: 'date', required: true, uiSchema: { title: 'Fecha' } }
+        - { name: 'funcionario_id', type: 'belongsTo', target: 'ag_funcionarios', required: true, uiSchema: { title: 'Funcionario' } }
+        - { name: 'tipo_inasistencia_id', type: 'belongsTo', target: 'ag_tipos_inasistencia', required: true, uiSchema: { title: 'Tipo' } }
+        - { name: 'periodo', type: 'string', enum: ['Completo', 'AM', 'PM'], uiSchema: { title: 'Período' } }
+        - { name: 'notas', type: 'text', uiSchema: { title: 'Notas' } }
+
+    # Generados (resúmenes)
+    - name: 'ag_resumen_diario'
+      title: 'Resumen Diario'
+      description: 'Agregación diaria por funcionario (auto-generado)'
+      fields:
+        - { name: 'fecha', type: 'date', required: true, uiSchema: { title: 'Fecha' } }
+        - { name: 'funcionario_id', type: 'belongsTo', target: 'ag_funcionarios', required: true, uiSchema: { title: 'Funcionario' } }
+        - { name: 'total_horas', type: 'double', uiSchema: { title: 'Total Horas' } }
+        - { name: 'hora_salida', type: 'time', uiSchema: { title: 'Hora Salida' } }
+        - { name: 'sala_count', type: 'integer', uiSchema: { title: 'N° Sala' } }
+        - { name: 'pab_am', type: 'integer', uiSchema: { title: 'N° Pabellón AM' } }
+        - { name: 'pab_pm', type: 'integer', uiSchema: { title: 'N° Pabellón PM' } }
+        - { name: 'poli_am', type: 'integer', uiSchema: { title: 'N° Policlínico AM' } }
+        - { name: 'poli_pm', type: 'integer', uiSchema: { title: 'N° Policlínico PM' } }
+        - { name: 'inasistencias', type: 'integer', uiSchema: { title: 'N° Inasistencias' } }
+        - { name: 'detalle_json', type: 'json', uiSchema: { title: 'Detalle por Categoría' } }
+
+    - name: 'ag_resumen_semanal'
+      title: 'Resumen Semanal'
+      description: 'Agregación semanal por funcionario (auto-generado)'
+      fields:
+        - { name: 'semana_inicio', type: 'date', required: true, uiSchema: { title: 'Semana Inicio (Lunes)' } }
+        - { name: 'semana_fin', type: 'date', required: true, uiSchema: { title: 'Semana Fin (Domingo)' } }
+        - { name: 'funcionario_id', type: 'belongsTo', target: 'ag_funcionarios', required: true, uiSchema: { title: 'Funcionario' } }
+        - { name: 'total_horas', type: 'double', uiSchema: { title: 'Total Horas' } }
+        - { name: 'detalle_json', type: 'json', uiSchema: { title: 'Detalle por Categoría' } }
+        - { name: 'generado_at', type: 'datetime', uiSchema: { title: 'Generado' } }
+
+  roles:
+    - name: 'admin_agenda'
+      title: 'Administrador Agenda'
+      permissions:
+        collections:
+          ag_categorias_actividad: { actions: ['list', 'view', 'create', 'update', 'delete'] }
+          ag_tipos_inasistencia: { actions: ['list', 'view', 'create', 'update', 'delete'] }
+          ag_servicios: { actions: ['list', 'view', 'create', 'update', 'delete'] }
+          ag_funcionarios: { actions: ['list', 'view', 'create', 'update', 'delete'] }
+          ag_bloques_agenda: { actions: ['list', 'view', 'create', 'update', 'delete'] }
+          ag_inasistencias: { actions: ['list', 'view', 'create', 'update', 'delete'] }
+          ag_resumen_diario: { actions: ['list', 'view', 'create', 'update', 'delete'] }
+          ag_resumen_semanal: { actions: ['list', 'view', 'create', 'update', 'delete'] }
+
+    - name: 'jefe_servicio_agenda'
+      title: 'Jefe de Servicio (Agenda)'
+      permissions:
+        collections:
+          ag_categorias_actividad: { actions: ['list', 'view'] }
+          ag_tipos_inasistencia: { actions: ['list', 'view'] }
+          ag_funcionarios: { actions: ['list', 'view'], scope: 'servicio_propio' }
+          ag_bloques_agenda: { actions: ['list', 'view', 'create', 'update'], scope: 'servicio_propio' }
+          ag_inasistencias: { actions: ['list', 'view', 'create', 'update'], scope: 'servicio_propio' }
+          ag_resumen_diario: { actions: ['list', 'view'], scope: 'servicio_propio' }
+          ag_resumen_semanal: { actions: ['list', 'view'], scope: 'servicio_propio' }
+
+    - name: 'medico_agenda'
+      title: 'Médico (Agenda)'
+      permissions:
+        collections:
+          ag_categorias_actividad: { actions: ['list', 'view'] }
+          ag_bloques_agenda: { actions: ['list', 'view', 'create', 'update'], scope: 'propio' }
+          ag_inasistencias: { actions: ['list', 'view'], scope: 'propio' }
+          ag_resumen_diario: { actions: ['list', 'view'], scope: 'propio' }
+          ag_resumen_semanal: { actions: ['list', 'view'], scope: 'propio' }
+
+  ui:
+    menus:
+      - title: 'Agenda Médica'
+        icon: 'CalendarDays'
+        children:
+          - { title: 'Dashboard', page_key: 'ag_dashboard' }
+          - { title: 'Agenda Semanal', page_key: 'ag_calendario' }
+          - { title: 'Actividades', page_key: 'ag_bloques' }
+          - { title: 'Inasistencias', page_key: 'ag_inasistencias' }
+          - { title: 'Resumen Diario', page_key: 'ag_resumen_diario' }
+          - { title: 'Resumen Semanal', page_key: 'ag_resumen_semanal' }
+          - { title: 'Funcionarios', page_key: 'ag_funcionarios' }
+          - { title: 'Categorías', page_key: 'ag_categorias' }
+
+      - title: 'Admin Agenda'
+        icon: 'Settings2'
+        children:
+          - { title: 'Tipos Inasistencia', page_key: 'ag_tipos_inasistencia' }
+          - { title: 'Servicios', page_key: 'ag_servicios' }
+          - { title: 'Reportes', page_key: 'ag_reportes' }
+
+    pages:
+      - key: 'ag_dashboard'
+        type: 'dashboard'
+        description: 'Charts de horas por categoría, top médicos, inasistencias'
+
+      - key: 'ag_calendario'
+        type: 'calendar'
+        collection: 'ag_bloques_agenda'
+        dateField: 'fecha'
+        actions: ['create', 'update', 'view']
+
+      - key: 'ag_bloques'
+        type: 'table'
+        collection: 'ag_bloques_agenda'
+        columns: ['fecha', 'funcionario_id', 'categoria_id', 'hora_inicio', 'hora_fin', 'duracion_min', 'periodo']
+        actions: ['create', 'update', 'view']
+
+      - key: 'ag_inasistencias'
+        type: 'table'
+        collection: 'ag_inasistencias'
+        columns: ['fecha', 'funcionario_id', 'tipo_inasistencia_id', 'periodo', 'notas']
+        actions: ['create', 'update', 'view']
+
+      - key: 'ag_resumen_diario'
+        type: 'table'
+        collection: 'ag_resumen_diario'
+        columns: ['fecha', 'funcionario_id', 'total_horas', 'hora_salida', 'sala_count', 'pab_am', 'pab_pm']
+        actions: ['view']
+
+      - key: 'ag_resumen_semanal'
+        type: 'table'
+        collection: 'ag_resumen_semanal'
+        columns: ['semana_inicio', 'semana_fin', 'funcionario_id', 'total_horas']
+        actions: ['view']
+
+      - key: 'ag_funcionarios'
+        type: 'table'
+        collection: 'ag_funcionarios'
+        columns: ['nombre_completo', 'rut', 'especialidad', 'cargo', 'servicio_id', 'activo']
+        actions: ['create', 'update', 'view']
+
+      - key: 'ag_categorias'
+        type: 'table'
+        collection: 'ag_categorias_actividad'
+        columns: ['nombre', 'codigo', 'grupo', 'orden', 'color', 'activa']
+        actions: ['create', 'update']
+
+      - key: 'ag_tipos_inasistencia'
+        type: 'table'
+        collection: 'ag_tipos_inasistencia'
+        columns: ['nombre', 'codigo', 'descripcion', 'activo']
+        actions: ['create', 'update']
+
+      - key: 'ag_servicios'
+        type: 'table'
+        collection: 'ag_servicios'
+        columns: ['nombre', 'codigo', 'activo']
+        actions: ['create', 'update']
+
+      - key: 'ag_reportes'
+        type: 'dashboard'
+        description: 'Charts comparativos por servicio, cumplimiento'
+
+  seed:
+    ag_categorias_actividad:
+      - { nombre: 'Visita', codigo: 'VIS', grupo: 'Clínica', orden: 1, color: '#3B82F6' }
+      - { nombre: 'Sala', codigo: 'SALA', grupo: 'Clínica', orden: 2, color: '#10B981' }
+      - { nombre: 'ENT', codigo: 'ENT', grupo: 'Clínica', orden: 3, color: '#8B5CF6' }
+      - { nombre: 'Pabellón', codigo: 'PAB', grupo: 'Quirúrgica', orden: 4, color: '#EF4444' }
+      - { nombre: 'Cirugía Menor', codigo: 'CX.MEN', grupo: 'Quirúrgica', orden: 5, color: '#F97316' }
+      - { nombre: 'Poli General', codigo: 'POLI', grupo: 'Policlínico', orden: 6, color: '#06B6D4' }
+      - { nombre: 'Poli Vascular', codigo: 'P.VAS', grupo: 'Policlínico', orden: 7, color: '#0891B2' }
+      - { nombre: 'Poli Hidatidosis', codigo: 'POLI.HID', grupo: 'Policlínico', orden: 8, color: '#0E7490' }
+      - { nombre: 'Poli Oncológico', codigo: 'P.ONC', grupo: 'Oncología', orden: 9, color: '#DB2777' }
+      - { nombre: 'Comité Oncológico', codigo: 'C.ONC', grupo: 'Oncología', orden: 10, color: '#BE185D' }
+      - { nombre: 'Informe Oncológico', codigo: 'INF.ONC', grupo: 'Oncología', orden: 11, color: '#9D174D' }
+      - { nombre: 'Gestión Interconsulta', codigo: 'G.INTER', grupo: 'Clínica', orden: 12, color: '#059669' }
+      - { nombre: 'Reuniones', codigo: 'R', grupo: 'Administrativa', orden: 13, color: '#D97706' }
+      - { nombre: 'Jefatura', codigo: 'JEF', grupo: 'Administrativa', orden: 14, color: '#92400E' }
+      - { nombre: 'Endoscopía', codigo: 'ENDO', grupo: 'Quirúrgica', orden: 15, color: '#7C3AED' }
+      - { nombre: 'Teletrabajo', codigo: 'T.TRAB', grupo: 'Otro', orden: 16, color: '#6366F1' }
+
+    ag_tipos_inasistencia:
+      - { nombre: 'Permiso Administrativo', codigo: 'PA' }
+      - { nombre: 'Licencia Médica', codigo: 'LM' }
+      - { nombre: 'Comisión de Servicio', codigo: 'CS' }
+      - { nombre: 'Capacitación', codigo: 'CAP' }
+      - { nombre: 'Feriado Legal', codigo: 'FL' }
+      - { nombre: 'Día Compensatorio', codigo: 'DC' }
+
+    ag_servicios:
+      - { nombre: 'Cirugía General', codigo: 'CG' }
+      - { nombre: 'Medicina Interna', codigo: 'MI' }
+      - { nombre: 'Traumatología', codigo: 'TRAU' }
+      - { nombre: 'Pediatría', codigo: 'PED' }
+      - { nombre: 'Ginecología', codigo: 'GIN' }
+      - { nombre: 'UCI', codigo: 'UCI' }
+      - { nombre: 'UTI', codigo: 'UTI' }
+      - { nombre: 'Urgencias', codigo: 'URG' }
+      - { nombre: 'Oncología', codigo: 'ONC' }
+      - { nombre: 'Neonatología', codigo: 'NEO' }
+
+  workflows:
+    - name: 'calcular_duracion'
+      trigger: 'on_create_update'
+      collection: 'ag_bloques_agenda'
+      description: 'Calcular duracion_min y periodo automáticamente'
+
+    - name: 'generar_resumen_diario'
+      trigger: 'cron_23h'
+      description: 'Agrupar bloques del día por funcionario → ag_resumen_diario'
+
+    - name: 'generar_resumen_semanal'
+      trigger: 'cron_lunes_06h'
+      description: 'Agregar resúmenes de la semana anterior → ag_resumen_semanal'

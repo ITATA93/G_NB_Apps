@@ -1,0 +1,97 @@
+{
+  "collection": {
+    "name": "ALMA_Ciudad",
+    "title": "ALMA Ciudad",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "jmsevj1prhc",
+      "name": "CTCIT_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Ciudad",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CTCIT_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "kc1u18ninys",
+      "name": "CTCIT_NationalCode",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Ciudad",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CTCIT_NationalCode",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "r6o9v5bo1sh",
+      "name": "Comuna",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Ciudad",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Comuna",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "s636djxavdm",
+      "name": "FkPROV_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Ciudad",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FkPROV_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "seh7vxq9sep",
+      "name": "Codigo_Comuna",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Ciudad",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Comuna",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ssbc6auu53m",
+      "name": "Fecha_Reg",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Ciudad",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Reg",
+        "x-component": "DatePicker"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.664Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

@@ -1,0 +1,398 @@
+# App Blueprint (source of truth)
+# Hospital de Ovalle - Sistema de Gestión Clínica
+
+app:
+  name: "Hospital de Ovalle - Gestión Clínica"
+  description: "Sistema integrado de gestión quirúrgica (SGQ) y oncológica (UGCO)"
+  version: "1.0.0"
+  locale: "es-ES"
+
+nocobase:
+  base_url_env: "NOCOBASE_BASE_URL"
+  api_key_env: "NOCOBASE_API_KEY"
+  role_env: "NOCOBASE_ROLE"
+  execution_mode: "hybrid"
+  data_source: "main"
+
+plugins:
+  required:
+    - "Auth: API keys"
+    - "Workflow"
+    - "API documentation"
+    - "Users"
+    - "File Manager"
+
+data_model:
+  collections:
+    # ========================================
+    # MÓDULO: RECURSOS HUMANOS (Compartido)
+    # ========================================
+    - name: "staff"
+      title: "Personal"
+      fields:
+        - name: "name"
+          type: "string"
+          required: true
+          uiSchema:
+            title: "Nombre Completo"
+        - name: "rut"
+          type: "string"
+          unique: true
+          required: true
+          uiSchema:
+            title: "RUT"
+        - name: "email"
+          type: "string"
+          uiSchema:
+            title: "Email"
+        - name: "specialty"
+          type: "string"
+          uiSchema:
+            title: "Especialidad"
+        - name: "is_active"
+          type: "boolean"
+          default: true
+          uiSchema:
+            title: "Activo"
+        - name: "department_id"
+          type: "belongsTo"
+          target: "departments"
+          foreignKey: "department_id"
+          uiSchema:
+            title: "Departamento"
+
+    - name: "departments"
+      title: "Unidades/Departamentos"
+      fields:
+        - name: "name"
+          type: "string"
+          required: true
+          uiSchema:
+            title: "Nombre"
+        - name: "code"
+          type: "string"
+          uiSchema:
+            title: "Código"
+
+    # ========================================
+    # MÓDULO: SGQ (Gestión Quirúrgica)
+    # ========================================
+    - name: "activity_types"
+      title: "Tipos de Actividad"
+      fields:
+        - name: "name"
+          type: "string"
+          required: true
+          uiSchema:
+            title: "Nombre"
+        - name: "code"
+          type: "string"
+          uiSchema:
+            title: "Código"
+        - name: "default_duration"
+          type: "integer"
+          uiSchema:
+            title: "Duración por Defecto (min)"
+        - name: "color"
+          type: "string"
+          uiSchema:
+            title: "Color (Hex)"
+        - name: "category"
+          type: "string"
+          uiSchema:
+            title: "Categoría"
+
+    - name: "schedule_blocks"
+      title: "Bloques de Agenda"
+      fields:
+        - name: "start_time"
+          type: "datetime"
+          required: true
+          uiSchema:
+            title: "Hora Inicio"
+        - name: "end_time"
+          type: "datetime"
+          required: true
+          uiSchema:
+            title: "Hora Fin"
+        - name: "status"
+          type: "string"
+          uiSchema:
+            title: "Estado"
+        - name: "notes"
+          type: "text"
+          uiSchema:
+            title: "Notas"
+        - name: "responsible_staff_id"
+          type: "belongsTo"
+          target: "staff"
+          foreignKey: "responsible_staff_id"
+          uiSchema:
+            title: "Responsable"
+        - name: "department_id"
+          type: "belongsTo"
+          target: "departments"
+          foreignKey: "department_id"
+          uiSchema:
+            title: "Departamento"
+        - name: "activity_type_id"
+          type: "belongsTo"
+          target: "activity_types"
+          foreignKey: "activity_type_id"
+          uiSchema:
+            title: "Tipo de Actividad"
+
+    - name: "activity_blocks"
+      title: "Bloques de Actividad (Templates)"
+      fields:
+        - name: "name"
+          type: "string"
+          required: true
+          uiSchema:
+            title: "Nombre"
+        - name: "code"
+          type: "string"
+          uiSchema:
+            title: "Código"
+        - name: "default_duration"
+          type: "integer"
+          uiSchema:
+            title: "Duración (min)"
+
+    # ========================================
+    # MÓDULO: UGCO (Oncología)
+    # ========================================
+    - name: "onco_casos"
+      title: "Casos Oncológicos"
+      fields:
+        - name: "paciente_rut"
+          type: "string"
+          required: true
+          uiSchema:
+            title: "RUT Paciente"
+        - name: "fecha_ingreso"
+          type: "date"
+          uiSchema:
+            title: "Fecha Ingreso"
+        - name: "diagnostico_principal"
+          type: "text"
+          uiSchema:
+            title: "Diagnóstico Principal"
+        - name: "estado"
+          type: "string"
+          uiSchema:
+            title: "Estado del Caso"
+        - name: "observaciones"
+          type: "text"
+          uiSchema:
+            title: "Observaciones"
+        - name: "responsible_doctor_id"
+          type: "belongsTo"
+          target: "staff"
+          foreignKey: "responsible_doctor_id"
+          uiSchema:
+            title: "Médico Responsable"
+
+    - name: "onco_episodios"
+      title: "Episodios Oncológicos"
+      fields:
+        - name: "fecha"
+          type: "date"
+          required: true
+          uiSchema:
+            title: "Fecha"
+        - name: "tipo_episodio"
+          type: "string"
+          uiSchema:
+            title: "Tipo de Episodio"
+        - name: "descripcion"
+          type: "text"
+          uiSchema:
+            title: "Descripción"
+        - name: "caso_id"
+          type: "belongsTo"
+          target: "onco_casos"
+          foreignKey: "caso_id"
+          uiSchema:
+            title: "Caso Oncológico"
+
+    - name: "onco_comite_sesiones"
+      title: "Sesiones de Comité Oncológico"
+      fields:
+        - name: "fecha"
+          type: "date"
+          required: true
+          uiSchema:
+            title: "Fecha de Sesión"
+        - name: "numero_sesion"
+          type: "string"
+          uiSchema:
+            title: "Número de Sesión"
+        - name: "acta"
+          type: "text"
+          uiSchema:
+            title: "Acta"
+
+    - name: "onco_comite_casos"
+      title: "Casos Presentados en Comité"
+      fields:
+        - name: "decision"
+          type: "text"
+          uiSchema:
+            title: "Decisión del Comité"
+        - name: "fecha_presentacion"
+          type: "date"
+          uiSchema:
+            title: "Fecha de Presentación"
+        - name: "caso_id"
+          type: "belongsTo"
+          target: "onco_casos"
+          foreignKey: "caso_id"
+          uiSchema:
+            title: "Caso Oncológico"
+        - name: "sesion_id"
+          type: "belongsTo"
+          target: "onco_comite_sesiones"
+          foreignKey: "sesion_id"
+          uiSchema:
+            title: "Sesión del Comité"
+
+    # ========================================
+    # REFERENCIAS (Catálogos)
+    # ========================================
+    - name: "ref_comuna"
+      title: "Comunas"
+      fields:
+        - name: "nombre"
+          type: "string"
+          required: true
+        - name: "codigo"
+          type: "string"
+
+    - name: "ref_nacionalidad"
+      title: "Nacionalidades (HL7)"
+      fields:
+        - name: "nombre"
+          type: "string"
+          required: true
+        - name: "codigo_hl7"
+          type: "string"
+
+roles:
+  - name: "Administrador Clínico"
+    permissions:
+      collections:
+        staff:
+          actions: ["list", "create", "update", "view"]
+        onco_casos:
+          actions: ["list", "create", "update", "view"]
+        schedule_blocks:
+          actions: ["list", "create", "update", "view", "destroy"]
+
+  - name: "Médico Oncólogo"
+    permissions:
+      collections:
+        onco_casos:
+          actions: ["list", "view", "update"]
+        onco_episodios:
+          actions: ["list", "create", "view"]
+        onco_comite_sesiones:
+          actions: ["list", "view"]
+
+  - name: "Coordinador Pabellón"
+    permissions:
+      collections:
+        schedule_blocks:
+          actions: ["list", "create", "update", "view"]
+        activity_blocks:
+          actions: ["list", "view"]
+        staff:
+          actions: ["list", "view"]
+
+ui:
+  menus:
+    - title: "Oncología (UGCO)"
+      icon: "HeartPulse"
+      children:
+        - title: "Casos"
+          page_key: "ugco_casos_list"
+        - title: "Comité"
+          page_key: "ugco_comite_list"
+
+    - title: "Pabellón (SGQ)"
+      icon: "Calendar"
+      children:
+        - title: "Agenda"
+          page_key: "sgq_agenda"
+        - title: "Actividades"
+          page_key: "sgq_activities"
+
+    - title: "Administración"
+      icon: "Settings"
+      children:
+        - title: "Personal"
+          page_key: "admin_staff"
+        - title: "Departamentos"
+          page_key: "admin_departments"
+
+  pages:
+    # UGCO Pages
+    - key: "ugco_casos_list"
+      type: "table"
+      collection: "onco_casos"
+      columns:
+        ["paciente_rut", "fecha_ingreso", "diagnostico_principal", "estado"]
+      actions: ["create", "update", "view"]
+
+    - key: "ugco_comite_list"
+      type: "table"
+      collection: "onco_comite_sesiones"
+      columns: ["fecha", "numero_sesion"]
+      actions: ["create", "view"]
+
+    # SGQ Pages
+    - key: "sgq_agenda"
+      type: "calendar"
+      collection: "schedule_blocks"
+      dateField: "start_time"
+      actions: ["create", "update", "destroy"]
+
+    - key: "sgq_activities"
+      type: "table"
+      collection: "activity_types"
+      columns: ["name", "code", "category", "default_duration"]
+      actions: ["create", "update"]
+
+    # Admin Pages
+    - key: "admin_staff"
+      type: "table"
+      collection: "staff"
+      columns: ["name", "rut", "email", "specialty", "is_active"]
+      actions: ["create", "update", "view"]
+
+    - key: "admin_departments"
+      type: "table"
+      collection: "departments"
+      columns: ["name", "code"]
+      actions: ["create", "update"]
+
+workflows: []
+
+seed:
+  activity_types:
+    - name: "Cirugía Mayor"
+      code: "CIR_MAY"
+      default_duration: 180
+      color: "#FF5733"
+      category: "Quirúrgico"
+    - name: "Consulta Oncológica"
+      code: "CONS_ONC"
+      default_duration: 30
+      color: "#33C3FF"
+      category: "Clínico"
+
+  departments:
+    - name: "Oncología"
+      code: "ONCO"
+    - name: "Pabellón"
+      code: "PAB"

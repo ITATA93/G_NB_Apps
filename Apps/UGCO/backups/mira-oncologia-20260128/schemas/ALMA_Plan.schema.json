@@ -1,0 +1,153 @@
+{
+  "collection": {
+    "name": "ALMA_Plan",
+    "title": "ALMA Plan",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "0sxfgpyi2u7",
+      "name": "AUXIT_InsType_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Plan",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "AUXIT_InsType_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "0v0d3u4km8z",
+      "name": "Plan",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Plan",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Plan",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2lex6i3hoen",
+      "name": "Codigo_Plan",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Plan",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Plan",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "4akd0c6qrq3",
+      "name": "Fecha_Plan",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Plan",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Plan",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "90dxdqgpiq6",
+      "name": "AUXIT_QualificationStatusDR",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Plan",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "AUXIT_QualificationStatusDR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "acueh7u0tze",
+      "name": "AUXIT_GenSeparateBatch",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Plan",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "AUXIT_GenSeparateBatch",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "k7im1g9xqsj",
+      "name": "AUXIT_DateTo",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Plan",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "AUXIT_DateTo",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "r1t2f7tqjt6",
+      "name": "AUXIT_Category",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Plan",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "AUXIT_Category",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "rpz71ko02gp",
+      "name": "AUXIT_Code2",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Plan",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "AUXIT_Code2",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "y267as54hsb",
+      "name": "AUXIT_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Plan",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "AUXIT_RowId",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:10.534Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

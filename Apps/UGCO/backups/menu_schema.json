@@ -1,0 +1,17 @@
+{
+  "data": {
+    "type": "void",
+    "x-designer": "Menu.Designer",
+    "x-component": "Menu",
+    "x-initializer": "MenuItemInitializers",
+    "x-component-props": {
+      "mode": "mix",
+      "theme": "dark",
+      "onSelect": "{{ onSelect }}",
+      "sideMenuRefScopeKey": "sideMenuRef"
+    },
+    "name": "72u0j9ja2ol",
+    "x-uid": "nocobase-admin-menu",
+    "x-async": false
+  }
+}

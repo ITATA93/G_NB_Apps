@@ -1,0 +1,6 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "https://interoperabilidad.minsal.cl/fhir/ig/mpi/CodeSystem/CSPueblosOriginarios",
+  "status": "placeholder",
+  "message": "Could not auto-fetch JSON definition. Manual download required."
+}

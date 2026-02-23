@@ -1,0 +1,349 @@
+{
+  "collection": {
+    "name": "ALMA_Establecimiento",
+    "title": "ALMA Establecimiento",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "1ujup986vya",
+      "name": "HOSP_UseSameCounter",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_UseSameCounter",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2gpqtqma00r",
+      "name": "HOSP_ApplyVCFees",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_ApplyVCFees",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2i7huskgj4c",
+      "name": "Codigo_Ciudad",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Ciudad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2l1ozpxkiy5",
+      "name": "HOSP_NewWays",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_NewWays",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "34loao5dtrm",
+      "name": "Direccion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Direccion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "3cllahn4ghu",
+      "name": "HOSP_DateTo",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_DateTo",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "3tm3c0otwjw",
+      "name": "Mail",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Mail",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "6j0jlxrmgg7",
+      "name": "HOSP_Island",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_Island",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "9dkq3v4viqs",
+      "name": "HOSP_State",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_State",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "gli40ibnuni",
+      "name": "HOSP_Trust_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_Trust_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "h343aq4crky",
+      "name": "HOSP_Province_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_Province_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "hkla8s32blg",
+      "name": "HOSP_BillAddress",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_BillAddress",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "hzk4ga9lvyx",
+      "name": "Hospital",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Hospital",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "jy50nr46i8r",
+      "name": "Telefono",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Telefono",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "mluqnqoxjn1",
+      "name": "HOSP_DateFrom",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_DateFrom",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "nl3dba764p1",
+      "name": "HOSP_MandatoryRefHospital",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_MandatoryRefHospital",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "oi3yqepdvz5",
+      "name": "HOSP_Email1",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_Email1",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qs3gveu7mfh",
+      "name": "HOSP_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qy3ohh5qixf",
+      "name": "Codigo_Servicio",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Servicio",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ronw17qlwo3",
+      "name": "Codigo_Nacional",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Nacional",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "s1hw28xz61p",
+      "name": "HOSP_BillNo_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_BillNo_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "tvn7nr15bb4",
+      "name": "HOSP_SHowAppWTimeViolation",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_SHowAppWTimeViolation",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "uwriklpqr9l",
+      "name": "HOSP_ZipDR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_ZipDR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "wtuk0vqszor",
+      "name": "HOSP_FacilityType_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Establecimiento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HOSP_FacilityType_DR",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.217Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

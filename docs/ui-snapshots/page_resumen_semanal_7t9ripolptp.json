@@ -1,0 +1,292 @@
+{
+  "capturedAt": "2026-02-18T20:34:06.685Z",
+  "route": {
+    "id": 349011286228992,
+    "title": "Resumen Semanal",
+    "type": "page",
+    "schemaUid": "7t9ripolptp",
+    "parentId": 349011282034688
+  },
+  "schema": {
+    "type": "void",
+    "x-component": "Page",
+    "properties": {
+      "grid": {
+        "type": "void",
+        "x-component": "Grid",
+        "x-initializer": "page:addBlock",
+        "properties": {
+          "5ggx7j17yq5": {
+            "type": "void",
+            "x-component": "Grid.Row",
+            "properties": {
+              "col1": {
+                "type": "void",
+                "x-component": "Grid.Col",
+                "properties": {
+                  "block1": {
+                    "type": "void",
+                    "x-component": "CardItem",
+                    "x-decorator": "TableBlockProvider",
+                    "x-filter-targets": [],
+                    "x-component-props": {
+                      "title": "Resumen Semanal"
+                    },
+                    "x-decorator-props": {
+                      "action": "list",
+                      "params": {
+                        "pageSize": 20
+                      },
+                      "collection": "ag_resumen_semanal",
+                      "dataSource": "main"
+                    },
+                    "properties": {
+                      "actions": {
+                        "type": "void",
+                        "x-index": 1,
+                        "x-component": "ActionBar",
+                        "x-component-props": {
+                          "style": {
+                            "marginBottom": 16
+                          }
+                        },
+                        "properties": {
+                          "filter": {
+                            "type": "void",
+                            "title": "Filtrar",
+                            "x-index": 1,
+                            "x-action": "filter",
+                            "x-component": "Filter.Action",
+                            "x-component-props": {
+                              "icon": "FilterOutlined"
+                            },
+                            "x-uid": "0toz9gmz3wq",
+                            "x-async": false
+                          },
+                          "refresh": {
+                            "type": "void",
+                            "title": "Actualizar",
+                            "x-index": 2,
+                            "x-action": "refresh",
+                            "x-component": "Action",
+                            "x-component-props": {
+                              "icon": "ReloadOutlined"
+                            },
+                            "x-uid": "c4dkcynqeeq",
+                            "x-async": false
+                          },
+                          "export": {
+                            "type": "void",
+                            "title": "Exportar",
+                            "x-index": 3,
+                            "x-action": "export",
+                            "x-component": "Action",
+                            "x-component-props": {
+                              "icon": "DownloadOutlined"
+                            },
+                            "x-uid": "po7mq4pa4h6",
+                            "x-async": false
+                          }
+                        },
+                        "x-uid": "ckeojdaskl0",
+                        "x-async": false
+                      },
+                      "table": {
+                        "type": "array",
+                        "x-index": 2,
+                        "x-component": "TableV2",
+                        "x-component-props": {
+                          "rowKey": "id",
+                          "rowSelection": {
+                            "type": "checkbox"
+                          }
+                        },
+                        "x-use-component-props": "useTableBlockProps",
+                        "properties": {
+                          "semana_inicio": {
+                            "type": "void",
+                            "x-index": 1,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.Decorator",
+                            "x-component-props": {
+                              "width": 200
+                            },
+                            "properties": {
+                              "semana_inicio": {
+                                "type": "string",
+                                "x-component": "CollectionField",
+                                "x-decorator": "FormItem",
+                                "x-read-pretty": true,
+                                "x-collection-field": "ag_resumen_semanal.semana_inicio",
+                                "x-uid": "xz3ypuk72tl",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "wvk3bzf96cc",
+                            "x-async": false
+                          },
+                          "semana_fin": {
+                            "type": "void",
+                            "x-index": 2,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.Decorator",
+                            "x-component-props": {
+                              "width": 200
+                            },
+                            "properties": {
+                              "semana_fin": {
+                                "type": "string",
+                                "x-component": "CollectionField",
+                                "x-decorator": "FormItem",
+                                "x-read-pretty": true,
+                                "x-collection-field": "ag_resumen_semanal.semana_fin",
+                                "x-uid": "vl6ake1uq32",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "ky9vwhuedel",
+                            "x-async": false
+                          },
+                          "total_horas": {
+                            "type": "void",
+                            "x-index": 3,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.Decorator",
+                            "x-component-props": {
+                              "width": 200
+                            },
+                            "properties": {
+                              "total_horas": {
+                                "type": "string",
+                                "x-component": "CollectionField",
+                                "x-decorator": "FormItem",
+                                "x-read-pretty": true,
+                                "x-collection-field": "ag_resumen_semanal.total_horas",
+                                "x-uid": "af9cuejbto6",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "ulue589dh9r",
+                            "x-async": false
+                          },
+                          "generado_at": {
+                            "type": "void",
+                            "x-index": 4,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.Decorator",
+                            "x-component-props": {
+                              "width": 200
+                            },
+                            "properties": {
+                              "generado_at": {
+                                "type": "string",
+                                "x-component": "CollectionField",
+                                "x-decorator": "FormItem",
+                                "x-read-pretty": true,
+                                "x-collection-field": "ag_resumen_semanal.generado_at",
+                                "x-uid": "ioajprpg01k",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "u7us8lex79e",
+                            "x-async": false
+                          },
+                          "__actions__": {
+                            "type": "void",
+                            "title": "Acciones",
+                            "x-index": 5,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.ActionBar",
+                            "x-component-props": {
+                              "width": 150
+                            },
+                            "properties": {
+                              "actions": {
+                                "type": "void",
+                                "x-component": "Space",
+                                "x-component-props": {
+                                  "split": "|"
+                                },
+                                "properties": {
+                                  "view": {
+                                    "type": "void",
+                                    "title": "Ver",
+                                    "x-index": 1,
+                                    "x-action": "view",
+                                    "x-component": "Action.Link",
+                                    "x-decorator": "ACLActionProvider",
+                                    "x-uid": "pn216phoeq9",
+                                    "x-async": false
+                                  }
+                                },
+                                "x-uid": "yfmpk1sqs0p",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "ddubnu0k6u8",
+                            "x-async": false
+                          }
+                        },
+                        "x-uid": "onmq4pp3d9t",
+                        "x-async": false
+                      }
+                    },
+                    "x-uid": "1wveixyk4hj",
+                    "x-async": false,
+                    "x-index": 1
+                  }
+                },
+                "x-uid": "u9z6663qmch",
+                "x-async": false,
+                "x-index": 1
+              }
+            },
+            "x-uid": "8x0dsmxb1bw",
+            "x-async": false,
+            "x-index": 1
+          }
+        },
+        "x-uid": "fipb588cv22",
+        "x-async": false,
+        "x-index": 1
+      }
+    },
+    "name": "rg3qdyh1mn6",
+    "x-uid": "7t9ripolptp",
+    "x-async": true
+  },
+  "blockTypes": [
+    "table"
+  ],
+  "collections": [
+    "ag_resumen_semanal"
+  ],
+  "componentTree": [
+    "Page (7t9ripolptp)",
+    "  Grid (fipb588cv22)",
+    "    Grid.Row (8x0dsmxb1bw)",
+    "      Grid.Col (u9z6663qmch)",
+    "        CardItem [TableBlockProvider] (1wveixyk4hj)",
+    "          ActionBar (ckeojdaskl0)",
+    "            Filter.Action (0toz9gmz3wq)",
+    "            Action (c4dkcynqeeq)",
+    "            Action (po7mq4pa4h6)",
+    "          TableV2 (onmq4pp3d9t)",
+    "            TableV2.Column [TableV2.Column.Decorator] (wvk3bzf96cc)",
+    "              CollectionField [FormItem] (xz3ypuk72tl)",
+    "            TableV2.Column [TableV2.Column.Decorator] (ky9vwhuedel)",
+    "              CollectionField [FormItem] (vl6ake1uq32)",
+    "            TableV2.Column [TableV2.Column.Decorator] (ulue589dh9r)",
+    "              CollectionField [FormItem] (af9cuejbto6)",
+    "            TableV2.Column [TableV2.Column.Decorator] (u7us8lex79e)",
+    "              CollectionField [FormItem] (ioajprpg01k)",
+    "            TableV2.Column [TableV2.Column.ActionBar] (ddubnu0k6u8)",
+    "              Space (yfmpk1sqs0p)",
+    "                Action.Link [ACLActionProvider] (pn216phoeq9)"
+  ]
+}

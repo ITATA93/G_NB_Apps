@@ -1,0 +1,1 @@
+Gracias. Investigaré cómo crear páginas visuales en NocoBase usando su API, especialmente enfocándome en ejemplos en TypeScript y JavaScript, partiendo del hecho de que ya puedes autenticarte y crear tablas. Te avisaré cuando tenga una guía clara paso a paso o ejemplos funcionales.

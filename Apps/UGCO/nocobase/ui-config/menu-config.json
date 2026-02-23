@@ -1,0 +1,228 @@
+{
+  "name": "UGCO Oncología",
+  "description": "Menú de navegación para gestión oncológica por especialidad",
+  "version": "1.0.0",
+  "generatedAt": "2026-01-28T23:04:39.120Z",
+  "menu": [
+    {
+      "uid": "ugco-dashboard",
+      "title": "📊 Dashboard",
+      "type": "page",
+      "schemaUid": "ugco-page-dashboard"
+    },
+    {
+      "uid": "ugco-especialidades",
+      "title": "📁 ESPECIALIDADES",
+      "type": "group",
+      "children": [
+        {
+          "uid": "ugco-esp-digestivo_alto",
+          "title": "🔶 Digestivo Alto",
+          "type": "page",
+          "schemaUid": "ugco-page-digestivo_alto",
+          "options": {
+            "params": {
+              "especialidad": "DIGESTIVO_ALTO"
+            }
+          }
+        },
+        {
+          "uid": "ugco-esp-digestivo_bajo",
+          "title": "🟤 Digestivo Bajo",
+          "type": "page",
+          "schemaUid": "ugco-page-digestivo_bajo",
+          "options": {
+            "params": {
+              "especialidad": "DIGESTIVO_BAJO"
+            }
+          }
+        },
+        {
+          "uid": "ugco-esp-mama",
+          "title": "🩷 Mama",
+          "type": "page",
+          "schemaUid": "ugco-page-mama",
+          "options": {
+            "params": {
+              "especialidad": "P._MAMARIA"
+            }
+          }
+        },
+        {
+          "uid": "ugco-esp-ginecologia",
+          "title": "💜 Ginecología",
+          "type": "page",
+          "schemaUid": "ugco-page-ginecologia",
+          "options": {
+            "params": {
+              "especialidad": "P._CERVICAL"
+            }
+          }
+        },
+        {
+          "uid": "ugco-esp-urologia",
+          "title": "💙 Urología",
+          "type": "page",
+          "schemaUid": "ugco-page-urologia",
+          "options": {
+            "params": {
+              "especialidad": "UROLOGIA"
+            }
+          }
+        },
+        {
+          "uid": "ugco-esp-torax",
+          "title": "🫁 Tórax",
+          "type": "page",
+          "schemaUid": "ugco-page-torax",
+          "options": {
+            "params": {
+              "especialidad": "TORAX"
+            }
+          }
+        },
+        {
+          "uid": "ugco-esp-piel",
+          "title": "💛 Piel y Partes Blandas",
+          "type": "page",
+          "schemaUid": "ugco-page-piel",
+          "options": {
+            "params": {
+              "especialidad": "PIEL_Y_PARTES_BLANDAS"
+            }
+          }
+        },
+        {
+          "uid": "ugco-esp-endocrinologia",
+          "title": "💚 Endocrinología",
+          "type": "page",
+          "schemaUid": "ugco-page-endocrinologia",
+          "options": {
+            "params": {
+              "especialidad": "ENDOCRINOLOGIA"
+            }
+          }
+        },
+        {
+          "uid": "ugco-esp-hematologia",
+          "title": "❤️ Hematología",
+          "type": "page",
+          "schemaUid": "ugco-page-hematologia",
+          "options": {
+            "params": {
+              "especialidad": "HEMATOLOGÍA"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "uid": "ugco-comites",
+      "title": "📅 Comités Oncológicos",
+      "type": "page",
+      "schemaUid": "ugco-page-comites"
+    },
+    {
+      "uid": "ugco-tareas",
+      "title": "✅ Tareas Pendientes",
+      "type": "page",
+      "schemaUid": "ugco-page-tareas"
+    },
+    {
+      "uid": "ugco-reportes",
+      "title": "📄 Reportes",
+      "type": "page",
+      "schemaUid": "ugco-page-reportes"
+    },
+    {
+      "uid": "ugco-config",
+      "title": "⚙️ Configuración",
+      "type": "group",
+      "children": [
+        {
+          "uid": "ugco-config-especialidades",
+          "title": "Especialidades",
+          "type": "page",
+          "schemaUid": "ugco-page-config-especialidades"
+        },
+        {
+          "uid": "ugco-config-equipos",
+          "title": "Equipos de Seguimiento",
+          "type": "page",
+          "schemaUid": "ugco-page-config-equipos"
+        },
+        {
+          "uid": "ugco-config-catalogos",
+          "title": "Catálogos",
+          "type": "page",
+          "schemaUid": "ugco-page-config-catalogos"
+        }
+      ]
+    }
+  ],
+  "especialidades": [
+    {
+      "id": "digestivo_alto",
+      "nombre": "Digestivo Alto",
+      "codigo": "DIGESTIVO_ALTO",
+      "color": "#FF8B00",
+      "icono": "🔶"
+    },
+    {
+      "id": "digestivo_bajo",
+      "nombre": "Digestivo Bajo",
+      "codigo": "DIGESTIVO_BAJO",
+      "color": "#8B4513",
+      "icono": "🟤"
+    },
+    {
+      "id": "mama",
+      "nombre": "Mama",
+      "codigo": "P._MAMARIA",
+      "color": "#E91E63",
+      "icono": "🩷"
+    },
+    {
+      "id": "ginecologia",
+      "nombre": "Ginecología",
+      "codigo": "P._CERVICAL",
+      "color": "#9C27B0",
+      "icono": "💜"
+    },
+    {
+      "id": "urologia",
+      "nombre": "Urología",
+      "codigo": "UROLOGIA",
+      "color": "#2196F3",
+      "icono": "💙"
+    },
+    {
+      "id": "torax",
+      "nombre": "Tórax",
+      "codigo": "TORAX",
+      "color": "#607D8B",
+      "icono": "🫁"
+    },
+    {
+      "id": "piel",
+      "nombre": "Piel y Partes Blandas",
+      "codigo": "PIEL_Y_PARTES_BLANDAS",
+      "color": "#FFC107",
+      "icono": "💛"
+    },
+    {
+      "id": "endocrinologia",
+      "nombre": "Endocrinología",
+      "codigo": "ENDOCRINOLOGIA",
+      "color": "#4CAF50",
+      "icono": "💚"
+    },
+    {
+      "id": "hematologia",
+      "nombre": "Hematología",
+      "codigo": "HEMATOLOGÍA",
+      "color": "#F44336",
+      "icono": "❤️"
+    }
+  ]
+}

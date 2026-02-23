@@ -1,0 +1,148 @@
+{
+  "project": {
+    "name": "NB_Apps - MIRA",
+    "type": "NocoBase Platform",
+    "organization": "Hospital de Ovalle",
+    "purpose": "Gestión clínica (Oncología UGCO, Pacientes BUHO)"
+  },
+
+  "architecture": {
+    "platform": "NocoBase",
+    "databases": {
+      "mira": {
+        "type": "PostgreSQL/MySQL",
+        "mode": "read_write",
+        "purpose": "Colecciones propias UGCO/BUHO"
+      },
+      "sidra": {
+        "type": "SQL Server",
+        "mode": "read_only",
+        "purpose": "Datos ALMA (TrakCare)",
+        "connection": "SQL datasource plugin"
+      }
+    },
+    "integration": {
+      "alma": "Read-only via SIDRA SQL Server",
+      "trakcare": "Source of truth for patient data"
+    }
+  },
+
+  "applications": {
+    "ugco": {
+      "name": "Unidad de Gestión de Casos Oncológicos",
+      "status": "Fase 1 - Fundación EN CURSO",
+      "collections": 10,
+      "phase": "1 de 8",
+      "priority": "high"
+    },
+    "buho": {
+      "name": "Gestión de Pacientes",
+      "status": "En desarrollo",
+      "focus": "Gestión de camas, flujo de pacientes",
+      "priority": "medium"
+    }
+  },
+
+  "key_files": {
+    "blueprint": "app-spec/app.yaml",
+    "api_client_modern": "shared/scripts/ApiClient.ts",
+    "api_client_legacy": "shared/scripts/_base-api-client.js",
+    "main_readme": "README.md",
+    "apps_readme": "Apps/README.md",
+    "ugco_readme": "Apps/UGCO/README.md",
+    "buho_readme": "Apps/BUHO/README.md",
+    "app_template": "Apps/_APP_TEMPLATE/README.md"
+  },
+
+  "conventions": {
+    "commits": "Conventional Commits",
+    "branching": "feature/, fix/, docs/, refactor/",
+    "language_preferred": "TypeScript",
+    "language_legacy": "JavaScript",
+    "no_versioned_files": "Use git tags, not _v2, _v3 suffixes"
+  },
+
+  "common_commands": {
+    "test_connection_ugco": "npm run ugco:test",
+    "list_collections_ugco": "npm run ugco:list",
+    "inspect_datasources_ugco": "npm run ugco:inspect",
+    "seed_references_ugco": "npm run ugco:seed",
+    "create_schema_ugco": "npm run ugco:create-schema",
+    "run_any_ts_script": "tsx <path/to/script.ts>"
+  },
+
+  "known_issues": {
+    "legacy_scripts_bug": {
+      "description": "Scripts antiguos devuelven 0 colecciones",
+      "cause": "No incluyen url.search en peticiones HTTP",
+      "solution": "Usar scripts actualizados o ApiClient.ts",
+      "reference": "docs/TROUBLESHOOTING.md#error-1"
+    },
+    "npm_vulnerability": {
+      "description": "1 high severity vulnerability detectada",
+      "status": "Pendiente revisión",
+      "impact": "No relacionado con auditoría"
+    }
+  },
+
+  "recent_changes": {
+    "2026-01-26": {
+      "type": "typescript_configuration",
+      "description": "Configuración de scripts TypeScript con ESM modules",
+      "changes": [
+        "Configurado tsx para ejecutar TypeScript",
+        "Actualizado tsconfig.json para ESM",
+        "Corregidos imports __dirname en todos los scripts TS",
+        "Añadidos scripts npm para UGCO"
+      ]
+    },
+    "2026-01-25_reorganization": {
+      "type": "project_restructure",
+      "description": "Reorganización completa de estructura del proyecto",
+      "changes": [
+        "Creada carpeta Apps/ centralizada",
+        "Movido MIRA/UGCO → Apps/UGCO",
+        "Movido MIRA/BUHO → Apps/BUHO",
+        "Movido MIRA/shared → shared/ (raíz)",
+        "Creado template Apps/_APP_TEMPLATE/",
+        "Actualizadas 103+ referencias en código"
+      ],
+      "files_moved": 1085,
+      "details": "Commit 265e29e"
+    },
+    "2026-01-25_audit": {
+      "type": "audit_cleanup",
+      "description": "Auditoría completa y limpieza de código",
+      "files_deleted": 20,
+      "files_created": 8,
+      "files_modified": 4,
+      "score_improvement": "6.8 -> 8.5",
+      "details": "AUDITORIA-2026-01-25.md"
+    }
+  },
+
+  "coordination_with_gemini": {
+    "gemini_role": "Antigravity automation agent",
+    "gemini_config": ".agent/ directory",
+    "gemini_workflows": [
+      "nocobase_intake",
+      "nocobase_generate_spec",
+      "nocobase_configure_ui",
+      "nocobase_configure_api",
+      "nocobase_audit",
+      "nocobase_seed_data"
+    ],
+    "claude_role": "Code development, documentation, troubleshooting",
+    "handoff_strategy": "Context-based - Gemini for automation, Claude for development"
+  },
+
+  "preferences": {
+    "execution_mode": "hybrid",
+    "api_first": true,
+    "fallback_browser": true,
+    "verify_changes": true,
+    "auto_documentation": true
+  },
+
+  "last_updated": "2026-01-26"
+}

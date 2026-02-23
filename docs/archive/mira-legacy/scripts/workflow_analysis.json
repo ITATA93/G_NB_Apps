@@ -1,0 +1,67 @@
+[
+  {
+    "id": 334762235461634,
+    "title": "Query SIDRA",
+    "type": "query",
+    "upstreamId": null,
+    "downstreamId": 334762235461635,
+    "config": {
+      "collection": "d_llw3u3ya2ej:H_user",
+      "params": {
+        "appends": [],
+        "pageSize": 20
+      }
+    }
+  },
+  {
+    "id": 334762235461635,
+    "title": "Loop Users",
+    "type": "loop",
+    "upstreamId": 334762235461634,
+    "downstreamId": null,
+    "config": {
+      "target": "{{ $jobsMapByNodeId['334762235461634'] }}"
+    }
+  },
+  {
+    "id": 334762235461636,
+    "title": "Actualizar registro",
+    "type": "update",
+    "upstreamId": 334762235461635,
+    "downstreamId": null,
+    "config": {
+      "collection": "ALMA_Usuarios",
+      "params": {
+        "filter": {
+          "$and": [
+            {
+              "rut": {
+                "$eq": "{{$jobsMapByNodeKey.2jqc9m229us.Rut}}"
+              }
+            }
+          ]
+        },
+        "values": {
+          "rut": "{{$jobsMapByNodeKey.2jqc9m229us.Rut}}",
+          "activo": "{{$jobsMapByNodeKey.2jqc9m229us.Activo}}",
+          "nombre": "{{$jobsMapByNodeKey.2jqc9m229us.Nombre}}",
+          "Apellido": "{{$jobsMapByNodeKey.2jqc9m229us.Apellidos}}",
+          "apellidos": "{{$jobsMapByNodeKey.2jqc9m229us.Apellidos}}",
+          "SSUSR_RowId": "{{$jobsMapByNodeKey.2jqc9m229us.SSUSR_Group}}",
+          "hora_creacion": "{{$jobsMapByNodeKey.2jqc9m229us.Hora_Creacion}}",
+          "GrupoSeguridad": "{{$jobsMapByNodeKey.2jqc9m229us.GrupoSeguridad}}",
+          "fecha_creacion": "{{$jobsMapByNodeKey.2jqc9m229us.Fecha_Creacion}}",
+          "grupo_seguridad": "{{$jobsMapByNodeKey.2jqc9m229us.GrupoSeguridad}}",
+          "ProfesionalSalud": "{{$jobsMapByNodeKey.2jqc9m229us.Nombre_Profesional}}",
+          "cod_establecimiento": "{{$jobsMapByNodeKey.2jqc9m229us.Cod_Establecimiento}}",
+          "LocalAccesoPrincipal": "{{$jobsMapByNodeKey.2jqc9m229us.LocalAccesoPrincipal}}",
+          "TipoProfesionalSalud": null,
+          "fecha_ultimo_ingreso": "{{$jobsMapByNodeKey.2jqc9m229us.Hora_Creacion}}",
+          "EstablecimientoPrincipal": "{{$jobsMapByNodeKey.2jqc9m229us.EstablecimientoPrincipal}}",
+          "establecimiento_principal": "{{$jobsMapByNodeKey.2jqc9m229us.EstablecimientoPrincipal}}"
+        },
+        "individualHooks": false
+      }
+    }
+  }
+]

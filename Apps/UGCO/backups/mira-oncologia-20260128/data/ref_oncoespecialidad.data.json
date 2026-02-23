@@ -1,0 +1,61 @@
+{
+  "collection": "ref_oncoespecialidad",
+  "count": 9,
+  "exportedAt": "2026-01-28T21:31:09.162Z",
+  "records": [
+    {
+      "id": 1,
+      "codigo_oficial": "DIGESTIVO_ALTO",
+      "codigo_map_legacy": "Digestivo alto",
+      "descripcion": "Digestivo alto"
+    },
+    {
+      "id": 2,
+      "codigo_oficial": "DIGESTIVO_BAJO",
+      "codigo_map_legacy": "Digestivo bajo",
+      "descripcion": "Digestivo bajo"
+    },
+    {
+      "id": 3,
+      "codigo_oficial": "ENDOCRINOLOGIA",
+      "codigo_map_legacy": "Endocrinologia",
+      "descripcion": "Endocrinologia"
+    },
+    {
+      "id": 4,
+      "codigo_oficial": "P._MAMARIA",
+      "codigo_map_legacy": "P. mamaria",
+      "descripcion": "P. mamaria"
+    },
+    {
+      "id": 5,
+      "codigo_oficial": "P._CERVICAL",
+      "codigo_map_legacy": "P. cervical",
+      "descripcion": "P. cervical"
+    },
+    {
+      "id": 6,
+      "codigo_oficial": "UROLOGIA",
+      "codigo_map_legacy": "Urologia",
+      "descripcion": "Urologia"
+    },
+    {
+      "id": 7,
+      "codigo_oficial": "TORAX",
+      "codigo_map_legacy": "Torax",
+      "descripcion": "Torax"
+    },
+    {
+      "id": 8,
+      "codigo_oficial": "PIEL_Y_PARTES_BLANDAS",
+      "codigo_map_legacy": "Piel y partes blandas",
+      "descripcion": "Piel y partes blandas"
+    },
+    {
+      "id": 9,
+      "codigo_oficial": "HEMATOLOGÍA",
+      "codigo_map_legacy": "hematología",
+      "descripcion": "hematología"
+    }
+  ]
+}

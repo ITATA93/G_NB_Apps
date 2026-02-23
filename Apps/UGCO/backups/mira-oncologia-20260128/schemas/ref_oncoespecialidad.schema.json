@@ -1,0 +1,43 @@
+{
+  "collection": {
+    "name": "ref_oncoespecialidad",
+    "title": "Especialidades Oncológicas",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "9dg0b630e4p",
+      "name": "codigo_oficial",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ref_oncoespecialidad",
+      "parentKey": null,
+      "reverseKey": null
+    },
+    {
+      "key": "r9cp3aeb93n",
+      "name": "codigo_map_legacy",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ref_oncoespecialidad",
+      "parentKey": null,
+      "reverseKey": null
+    },
+    {
+      "key": "vybjodvc6cv",
+      "name": "descripcion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ref_oncoespecialidad",
+      "parentKey": null,
+      "reverseKey": null
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.141Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

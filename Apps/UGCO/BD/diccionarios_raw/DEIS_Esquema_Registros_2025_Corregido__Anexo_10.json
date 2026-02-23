@@ -1,0 +1,284 @@
+{
+  "source_file": "DEIS_Esquema_Registros_2025_Corregido.xlsx",
+  "sheet_name": "Anexo 10",
+  "entry_count": 70,
+  "entries": [
+    {
+      "Anexo 10": "Listado de Especialidades y Subespecialidades Médicas"
+    },
+    {
+      "__EMPTY_1": "< < Volver"
+    },
+    {
+      "Anexo 10": "Código",
+      "__EMPTY": "Glosa"
+    },
+    {
+      "Anexo 10": 0,
+      "__EMPTY": "Médico General"
+    },
+    {
+      "Anexo 10": 1,
+      "__EMPTY": "Anatomía Patológica"
+    },
+    {
+      "Anexo 10": 2,
+      "__EMPTY": "Anestesiología"
+    },
+    {
+      "Anexo 10": 3,
+      "__EMPTY": "Cardiología"
+    },
+    {
+      "Anexo 10": 4,
+      "__EMPTY": "Cirugía General"
+    },
+    {
+      "Anexo 10": 5,
+      "__EMPTY": "Cirugía de Cabeza, Cuello Y Maxilofacial"
+    },
+    {
+      "Anexo 10": 6,
+      "__EMPTY": "Cirugía Cardiovascular"
+    },
+    {
+      "Anexo 10": 7,
+      "__EMPTY": "Cirugía de Tórax"
+    },
+    {
+      "Anexo 10": 8,
+      "__EMPTY": "Cirugía Plástica y Reparadora"
+    },
+    {
+      "Anexo 10": 9,
+      "__EMPTY": "Cirugía Pediátrica"
+    },
+    {
+      "Anexo 10": 10,
+      "__EMPTY": "Cirugía Vascular Periférica"
+    },
+    {
+      "Anexo 10": 11,
+      "__EMPTY": "Coloproctología"
+    },
+    {
+      "Anexo 10": 12,
+      "__EMPTY": "Dermatología"
+    },
+    {
+      "Anexo 10": 13,
+      "__EMPTY": "Diabetología"
+    },
+    {
+      "Anexo 10": 14,
+      "__EMPTY": "Endocrinología Adulto"
+    },
+    {
+      "Anexo 10": 15,
+      "__EMPTY": "Endocrinología Pediátrica"
+    },
+    {
+      "Anexo 10": 16,
+      "__EMPTY": "Enfermedades Respiratorias del Adulto (Broncopulmonar)"
+    },
+    {
+      "Anexo 10": 17,
+      "__EMPTY": "Enfermedades Respiratorias Pediátricas (Broncopulmonar )"
+    },
+    {
+      "Anexo 10": 18,
+      "__EMPTY": "Gastroenterología Adulto"
+    },
+    {
+      "Anexo 10": 19,
+      "__EMPTY": "Gastroenterología Pediátrica"
+    },
+    {
+      "Anexo 10": 20,
+      "__EMPTY": "Genética Clínica"
+    },
+    {
+      "Anexo 10": 21,
+      "__EMPTY": "Geriatría"
+    },
+    {
+      "Anexo 10": 22,
+      "__EMPTY": "Ginecología Pediátrica y de la Adolescencia"
+    },
+    {
+      "Anexo 10": 23,
+      "__EMPTY": "Hematología"
+    },
+    {
+      "Anexo 10": 24,
+      "__EMPTY": "Imagenología"
+    },
+    {
+      "Anexo 10": 25,
+      "__EMPTY": "Infectología"
+    },
+    {
+      "Anexo 10": 26,
+      "__EMPTY": "Inmunología"
+    },
+    {
+      "Anexo 10": 27,
+      "__EMPTY": "Laboratorio Clínico"
+    },
+    {
+      "Anexo 10": 28,
+      "__EMPTY": "Medicina Familiar"
+    },
+    {
+      "Anexo 10": 29,
+      "__EMPTY": "Medicina Física y Rehabilitación"
+    },
+    {
+      "Anexo 10": 30,
+      "__EMPTY": "Medicina Interna"
+    },
+    {
+      "Anexo 10": 31,
+      "__EMPTY": "Medicina Intensiva Adulto"
+    },
+    {
+      "Anexo 10": 32,
+      "__EMPTY": "Medicina Intensiva Pediátrica"
+    },
+    {
+      "Anexo 10": 33,
+      "__EMPTY": "Medicina Legal"
+    },
+    {
+      "Anexo 10": 34,
+      "__EMPTY": "Medicina Materno Infantil"
+    },
+    {
+      "Anexo 10": 35,
+      "__EMPTY": "Medicina Nuclear"
+    },
+    {
+      "Anexo 10": 36,
+      "__EMPTY": "Medicina de Urgencia"
+    },
+    {
+      "Anexo 10": 37,
+      "__EMPTY": "Nefrología Adulto"
+    },
+    {
+      "Anexo 10": 38,
+      "__EMPTY": "Nefrología Pediátrico"
+    },
+    {
+      "Anexo 10": 39,
+      "__EMPTY": "Neonatología"
+    },
+    {
+      "Anexo 10": 40,
+      "__EMPTY": "Neurocirugía"
+    },
+    {
+      "Anexo 10": 41,
+      "__EMPTY": "Neurología Adulto"
+    },
+    {
+      "Anexo 10": 42,
+      "__EMPTY": "Neurología Pediátrica"
+    },
+    {
+      "Anexo 10": 43,
+      "__EMPTY": "Obstetricia y Ginecología"
+    },
+    {
+      "Anexo 10": 44,
+      "__EMPTY": "Oftalmología"
+    },
+    {
+      "Anexo 10": 45,
+      "__EMPTY": "Oncología Médica"
+    },
+    {
+      "Anexo 10": 46,
+      "__EMPTY": "Otorrinolaringología"
+    },
+    {
+      "Anexo 10": 47,
+      "__EMPTY": "Pediatría"
+    },
+    {
+      "Anexo 10": 48,
+      "__EMPTY": "Psiquiatría Adulto"
+    },
+    {
+      "Anexo 10": 49,
+      "__EMPTY": "Psiquiatría Pediátrica y de la Adolescencia"
+    },
+    {
+      "Anexo 10": 50,
+      "__EMPTY": "Radioterapia Oncológica"
+    },
+    {
+      "Anexo 10": 51,
+      "__EMPTY": "Reumatología"
+    },
+    {
+      "Anexo 10": 52,
+      "__EMPTY": "Salud Pública"
+    },
+    {
+      "Anexo 10": 53,
+      "__EMPTY": "Traumatología y Ortopedia"
+    },
+    {
+      "Anexo 10": 54,
+      "__EMPTY": "Urología"
+    },
+    {
+      "Anexo 10": 56,
+      "__EMPTY": "Cirugía Digestiva"
+    },
+    {
+      "Anexo 10": 63,
+      "__EMPTY": "Nutrición Clínica"
+    },
+    {
+      "Anexo 10": 69,
+      "__EMPTY": "Ginecología Oncológica."
+    },
+    {
+      "Anexo 10": 70,
+      "__EMPTY": "Mastología (Cirugía de Mamas)"
+    },
+    {
+      "Anexo 10": 71,
+      "__EMPTY": "Medicina Paliativa y de Manejo del Dolor"
+    },
+    {
+      "Anexo 10": 72,
+      "__EMPTY": " Medicina Reproductiva e Infertilidad"
+    },
+    {
+      "Anexo 10": 73,
+      "__EMPTY": " Medicina del Adolescente"
+    },
+    {
+      "Anexo 10": 74,
+      "__EMPTY": "Medicina del Deporte"
+    },
+    {
+      "Anexo 10": 75,
+      "__EMPTY": "Microbiología"
+    },
+    {
+      "Anexo 10": 76,
+      "__EMPTY": "Neurorradiología"
+    },
+    {
+      "Anexo 10": 99,
+      "__EMPTY": "Matronas(es)"
+    },
+    {
+      "__EMPTY_1": "< < Volver"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "codigo_oficial": "01",
+    "descripcion": "FONASA",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "02",
+    "descripcion": "Isapre",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "03",
+    "descripcion": "Capredena",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "04",
+    "descripcion": "Otro",
+    "activo": true
+  }
+]

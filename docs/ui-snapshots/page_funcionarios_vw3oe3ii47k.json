@@ -1,0 +1,417 @@
+{
+  "capturedAt": "2026-02-18T20:34:06.604Z",
+  "route": {
+    "id": 349011282034689,
+    "title": "Funcionarios",
+    "type": "page",
+    "schemaUid": "vw3oe3ii47k",
+    "parentId": 349011282034688
+  },
+  "schema": {
+    "type": "void",
+    "x-component": "Page",
+    "properties": {
+      "grid": {
+        "type": "void",
+        "x-component": "Grid",
+        "x-initializer": "page:addBlock",
+        "properties": {
+          "95hlgp7sjw5": {
+            "type": "void",
+            "x-component": "Grid.Row",
+            "properties": {
+              "col1": {
+                "type": "void",
+                "x-component": "Grid.Col",
+                "properties": {
+                  "block1": {
+                    "type": "void",
+                    "x-component": "CardItem",
+                    "x-decorator": "TableBlockProvider",
+                    "x-filter-targets": [],
+                    "x-component-props": {
+                      "title": "Funcionarios"
+                    },
+                    "x-decorator-props": {
+                      "action": "list",
+                      "params": {
+                        "pageSize": 20
+                      },
+                      "collection": "ag_funcionarios",
+                      "dataSource": "main"
+                    },
+                    "properties": {
+                      "actions": {
+                        "type": "void",
+                        "x-index": 1,
+                        "x-component": "ActionBar",
+                        "x-component-props": {
+                          "style": {
+                            "marginBottom": 16
+                          }
+                        },
+                        "properties": {
+                          "filter": {
+                            "type": "void",
+                            "title": "Filtrar",
+                            "x-index": 1,
+                            "x-action": "filter",
+                            "x-component": "Filter.Action",
+                            "x-component-props": {
+                              "icon": "FilterOutlined"
+                            },
+                            "x-uid": "hc7grr3ca80",
+                            "x-async": false
+                          },
+                          "refresh": {
+                            "type": "void",
+                            "title": "Actualizar",
+                            "x-index": 2,
+                            "x-action": "refresh",
+                            "x-component": "Action",
+                            "x-component-props": {
+                              "icon": "ReloadOutlined"
+                            },
+                            "x-uid": "n6f9n87692r",
+                            "x-async": false
+                          },
+                          "create": {
+                            "type": "void",
+                            "title": "Nuevo",
+                            "x-index": 3,
+                            "x-action": "create",
+                            "x-component": "Action",
+                            "x-decorator": "ACLActionProvider",
+                            "x-component-props": {
+                              "icon": "PlusOutlined",
+                              "type": "primary",
+                              "openMode": "drawer"
+                            },
+                            "x-uid": "oirnorwu0mg",
+                            "x-async": false
+                          }
+                        },
+                        "x-uid": "xzt53a4k2v1",
+                        "x-async": false
+                      },
+                      "table": {
+                        "type": "array",
+                        "x-index": 2,
+                        "x-component": "TableV2",
+                        "x-component-props": {
+                          "rowKey": "id",
+                          "rowSelection": {
+                            "type": "checkbox"
+                          }
+                        },
+                        "x-use-component-props": "useTableBlockProps",
+                        "properties": {
+                          "nombre_completo": {
+                            "type": "void",
+                            "x-index": 1,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.Decorator",
+                            "x-component-props": {
+                              "width": 200
+                            },
+                            "properties": {
+                              "nombre_completo": {
+                                "type": "string",
+                                "x-component": "CollectionField",
+                                "x-decorator": "FormItem",
+                                "x-read-pretty": true,
+                                "x-collection-field": "ag_funcionarios.nombre_completo",
+                                "x-uid": "8j9b8n8w3o1",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "5qmg017eyzj",
+                            "x-async": false
+                          },
+                          "rut": {
+                            "type": "void",
+                            "x-index": 2,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.Decorator",
+                            "x-component-props": {
+                              "width": 200
+                            },
+                            "properties": {
+                              "rut": {
+                                "type": "string",
+                                "x-component": "CollectionField",
+                                "x-decorator": "FormItem",
+                                "x-read-pretty": true,
+                                "x-collection-field": "ag_funcionarios.rut",
+                                "x-uid": "ojdco73l2la",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "z2kzjg4pv1e",
+                            "x-async": false
+                          },
+                          "codigo_alma": {
+                            "type": "void",
+                            "x-index": 3,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.Decorator",
+                            "x-component-props": {
+                              "width": 200
+                            },
+                            "properties": {
+                              "codigo_alma": {
+                                "type": "string",
+                                "x-component": "CollectionField",
+                                "x-decorator": "FormItem",
+                                "x-read-pretty": true,
+                                "x-collection-field": "ag_funcionarios.codigo_alma",
+                                "x-uid": "jjmsumxfs46",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "yk66i2j6mkc",
+                            "x-async": false
+                          },
+                          "especialidad": {
+                            "type": "void",
+                            "x-index": 4,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.Decorator",
+                            "x-component-props": {
+                              "width": 200
+                            },
+                            "properties": {
+                              "especialidad": {
+                                "type": "string",
+                                "x-component": "CollectionField",
+                                "x-decorator": "FormItem",
+                                "x-read-pretty": true,
+                                "x-collection-field": "ag_funcionarios.especialidad",
+                                "x-uid": "56sl5tr41qv",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "7g8v2xjxw94",
+                            "x-async": false
+                          },
+                          "cargo": {
+                            "type": "void",
+                            "x-index": 5,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.Decorator",
+                            "x-component-props": {
+                              "width": 200
+                            },
+                            "properties": {
+                              "cargo": {
+                                "type": "string",
+                                "x-component": "CollectionField",
+                                "x-decorator": "FormItem",
+                                "x-read-pretty": true,
+                                "x-collection-field": "ag_funcionarios.cargo",
+                                "x-uid": "xbnmcbyovry",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "vw6wx1fljil",
+                            "x-async": false
+                          },
+                          "email": {
+                            "type": "void",
+                            "x-index": 6,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.Decorator",
+                            "x-component-props": {
+                              "width": 200
+                            },
+                            "properties": {
+                              "email": {
+                                "type": "string",
+                                "x-component": "CollectionField",
+                                "x-decorator": "FormItem",
+                                "x-read-pretty": true,
+                                "x-collection-field": "ag_funcionarios.email",
+                                "x-uid": "6ulxev0ngab",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "0p1c1vifkh4",
+                            "x-async": false
+                          },
+                          "jornada_horas": {
+                            "type": "void",
+                            "x-index": 7,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.Decorator",
+                            "x-component-props": {
+                              "width": 200
+                            },
+                            "properties": {
+                              "jornada_horas": {
+                                "type": "string",
+                                "x-component": "CollectionField",
+                                "x-decorator": "FormItem",
+                                "x-read-pretty": true,
+                                "x-collection-field": "ag_funcionarios.jornada_horas",
+                                "x-uid": "50qvsnh1cg5",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "uxl936pzbz4",
+                            "x-async": false
+                          },
+                          "activo": {
+                            "type": "void",
+                            "x-index": 8,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.Decorator",
+                            "x-component-props": {
+                              "width": 200
+                            },
+                            "properties": {
+                              "activo": {
+                                "type": "string",
+                                "x-component": "CollectionField",
+                                "x-decorator": "FormItem",
+                                "x-read-pretty": true,
+                                "x-collection-field": "ag_funcionarios.activo",
+                                "x-uid": "x2uyartgofh",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "5dfwzmj1a1u",
+                            "x-async": false
+                          },
+                          "__actions__": {
+                            "type": "void",
+                            "title": "Acciones",
+                            "x-index": 9,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.ActionBar",
+                            "x-component-props": {
+                              "width": 150
+                            },
+                            "properties": {
+                              "actions": {
+                                "type": "void",
+                                "x-component": "Space",
+                                "x-component-props": {
+                                  "split": "|"
+                                },
+                                "properties": {
+                                  "view": {
+                                    "type": "void",
+                                    "title": "Ver",
+                                    "x-index": 1,
+                                    "x-action": "view",
+                                    "x-component": "Action.Link",
+                                    "x-decorator": "ACLActionProvider",
+                                    "x-uid": "za15gg0lf49",
+                                    "x-async": false
+                                  },
+                                  "update": {
+                                    "type": "void",
+                                    "title": "Editar",
+                                    "x-index": 2,
+                                    "x-action": "update",
+                                    "x-component": "Action.Link",
+                                    "x-decorator": "ACLActionProvider",
+                                    "x-uid": "mcijru94nbf",
+                                    "x-async": false
+                                  },
+                                  "delete": {
+                                    "type": "void",
+                                    "title": "Eliminar",
+                                    "x-index": 3,
+                                    "x-action": "delete",
+                                    "x-component": "Action.Link",
+                                    "x-decorator": "ACLActionProvider",
+                                    "x-uid": "439mfn6bno2",
+                                    "x-async": false
+                                  }
+                                },
+                                "x-uid": "d5716hstmge",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "new4rxicuvo",
+                            "x-async": false
+                          }
+                        },
+                        "x-uid": "nue9otbohe6",
+                        "x-async": false
+                      }
+                    },
+                    "x-uid": "036lruk59pq",
+                    "x-async": false,
+                    "x-index": 1
+                  }
+                },
+                "x-uid": "zet1f58yz1b",
+                "x-async": false,
+                "x-index": 1
+              }
+            },
+            "x-uid": "dib19kvypf1",
+            "x-async": false,
+            "x-index": 1
+          }
+        },
+        "x-uid": "dwcnh7wnbla",
+        "x-async": false,
+        "x-index": 1
+      }
+    },
+    "name": "ikszijt3oli",
+    "x-uid": "vw3oe3ii47k",
+    "x-async": true
+  },
+  "blockTypes": [
+    "table"
+  ],
+  "collections": [
+    "ag_funcionarios"
+  ],
+  "componentTree": [
+    "Page (vw3oe3ii47k)",
+    "  Grid (dwcnh7wnbla)",
+    "    Grid.Row (dib19kvypf1)",
+    "      Grid.Col (zet1f58yz1b)",
+    "        CardItem [TableBlockProvider] (036lruk59pq)",
+    "          ActionBar (xzt53a4k2v1)",
+    "            Filter.Action (hc7grr3ca80)",
+    "            Action (n6f9n87692r)",
+    "            Action [ACLActionProvider] (oirnorwu0mg)",
+    "          TableV2 (nue9otbohe6)",
+    "            TableV2.Column [TableV2.Column.Decorator] (5qmg017eyzj)",
+    "              CollectionField [FormItem] (8j9b8n8w3o1)",
+    "            TableV2.Column [TableV2.Column.Decorator] (z2kzjg4pv1e)",
+    "              CollectionField [FormItem] (ojdco73l2la)",
+    "            TableV2.Column [TableV2.Column.Decorator] (yk66i2j6mkc)",
+    "              CollectionField [FormItem] (jjmsumxfs46)",
+    "            TableV2.Column [TableV2.Column.Decorator] (7g8v2xjxw94)",
+    "              CollectionField [FormItem] (56sl5tr41qv)",
+    "            TableV2.Column [TableV2.Column.Decorator] (vw6wx1fljil)",
+    "              CollectionField [FormItem] (xbnmcbyovry)",
+    "            TableV2.Column [TableV2.Column.Decorator] (0p1c1vifkh4)",
+    "              CollectionField [FormItem] (6ulxev0ngab)",
+    "            TableV2.Column [TableV2.Column.Decorator] (uxl936pzbz4)",
+    "              CollectionField [FormItem] (50qvsnh1cg5)",
+    "            TableV2.Column [TableV2.Column.Decorator] (5dfwzmj1a1u)",
+    "              CollectionField [FormItem] (x2uyartgofh)",
+    "            TableV2.Column [TableV2.Column.ActionBar] (new4rxicuvo)",
+    "              Space (d5716hstmge)",
+    "                Action.Link [ACLActionProvider] (za15gg0lf49)",
+    "                Action.Link [ACLActionProvider] (mcijru94nbf)",
+    "                Action.Link [ACLActionProvider] (439mfn6bno2)"
+  ]
+}

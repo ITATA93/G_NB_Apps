@@ -1,0 +1,69 @@
+{
+  "collection": {
+    "name": "ALMA_H_Forma_Droga",
+    "title": "ALMA H_Forma_Droga",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "dczqoyph5of",
+      "name": "CTUOM_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Forma_Droga",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CTUOM_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "dv9jnysfjm0",
+      "name": "Codigo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Forma_Droga",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "rszf1z1o7yt",
+      "name": "Permite_Decimal",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Forma_Droga",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Permite_Decimal",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "t1djeea7bq9",
+      "name": "Descripcion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Forma_Droga",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Descripcion",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.583Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

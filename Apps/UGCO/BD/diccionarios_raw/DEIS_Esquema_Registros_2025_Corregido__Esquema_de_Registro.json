@@ -1,0 +1,1439 @@
+{
+  "source_file": "DEIS_Esquema_Registros_2025_Corregido.xlsx",
+  "sheet_name": "Esquema de Registro",
+  "entry_count": 206,
+  "entries": [
+    {
+      "__EMPTY_1": "Anexo 1",
+      "__EMPTY_2": "Anexo 2",
+      "__EMPTY_3": "Anexo 3",
+      "__EMPTY_4": " Anexo 4"
+    },
+    {
+      "__EMPTY_1": "Anexo 5",
+      "__EMPTY_2": "Anexo 6",
+      "__EMPTY_3": "Anexo 7",
+      "__EMPTY_4": "Anexo 8",
+      "__EMPTY_5": "Anexo 18"
+    },
+    {
+      "__EMPTY_1": "Anexo 9",
+      "__EMPTY_2": "Anexo 10",
+      "__EMPTY_3": "Anexo 11",
+      "__EMPTY_4": "Anexo 12"
+    },
+    {
+      "__EMPTY_2": "Anexo 14",
+      "__EMPTY_3": "Anexo 15",
+      "__EMPTY_4": "Anexo 16"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "Nombre del Campo",
+      "__EMPTY_1": "Tipo de Dato",
+      "__EMPTY_2": "Nro. de caracteres",
+      "__EMPTY_3": "Detalle",
+      "__EMPTY_4": "Variable Obligatoria",
+      "__EMPTY_5": "Condición"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "NUM_ADM",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 10,
+      "__EMPTY_3": "Es el número que se le asigna al formulario de egreso hospitalario al ingreso del paciente al establecimiento",
+      "__EMPTY_4": "NO"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "NUM_EGR",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 7,
+      "__EMPTY_3": "Es un número interno correlativo asignado mensualmente durante el año (de enero a diciembre) al momento de egresar el paciente del establecimiento de salud",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ESTAB",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 6,
+      "__EMPTY_3": "Código de Establecimiento",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "SER_SALUD_SEREMI",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Código Servicio de Salud o de la SEREMI",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "FICHA",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 11,
+      "__EMPTY_3": "Número de Historia Clínica",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "PRIMER_APELLIDO",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 30,
+      "__EMPTY_3": "Primer Apellido ",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "SEGUNDO_APELLIDO",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 30,
+      "__EMPTY_3": "Segundo Apellido ",
+      "__EMPTY_4": "NO"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "NOMBRE_LEGAL",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 50,
+      "__EMPTY_3": "Nombres de acuerdo con el documento de identidad de el o la paciente",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "NOM_SOCIAL",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 120,
+      "__EMPTY_3": "Nombre Social, es el nombre con que se identifica socialmente el o la paciente",
+      "__EMPTY_4": "NO"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "TIPO_ID",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Tipo de Identificación: (1=RUN; 2=RUN Materno/progenitor(a); 3=Número de folio del comprobante de parto; 4=Número de Pasaporte; 5=Número de documento identificador país de origen; 6=Número de identificador FONASA  ) \r\n\r\n\r\n  \r\n       \r\n           \r\n   ",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "RUT",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 8,
+      "__EMPTY_3": "RUN",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando el tipo de identificación en el formulario es 1 o 2, este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DV",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Dígito Verificador",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando el tipo de identificación en el formulario es 1 o 2, este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "OTRO_DOCUMENTO",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 100,
+      "__EMPTY_3": "Número de otro documento de identificación",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando el tipo de identificación en el formulario es distinto de 1 o 2, este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "SEXO_REGISTRAL",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Sexo registral  (F= Femenino, M= Masculino, X= X, I=Indeterminado, D= Desconocido)\r\n\r\n\r\n  \r\n                      ",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "SEXO_BIOLOGICO",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Sexo biológico (1=Hombre; 2=Mujer; 3=Intersexual;  99= Desconocido )\r\n                      ",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ID_GENERO",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Identidad de género:\r\n",
+      "__EMPTY_4": "NO"
+    },
+    {
+      "__EMPTY_3": "(1= Masculino  "
+    },
+    {
+      "__EMPTY_3": "2= Femenina"
+    },
+    {
+      "__EMPTY_3": "4= Transgénero Masculino  "
+    },
+    {
+      "__EMPTY_3": "5= Transgénero Femenina"
+    },
+    {
+      "__EMPTY_3": "6= No binarie"
+    },
+    {
+      "__EMPTY_3": "7= Otra"
+    },
+    {
+      "__EMPTY_3": "8= No Revelado)"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "D_NAC",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Día Nacimiento",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "M_NAC",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Mes Nacimiento",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "A_NAC",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Año Nacimiento",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "EDAD_CANT",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 3,
+      "__EMPTY_3": "Edad en cantidad",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "TIPO_EDAD",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Tipo de Edad (1=años, 2=meses, 3=días, 4=horas)",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "PUEBLO_AFROCHILENO",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Pueblo Afrodescendiente Chileno (1=Sí, 2=No)",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ETNIA_SI_NO",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Pueblo Índigena (1=Sí, 2=No)",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ETNIA",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Pueblo Índigena (Anexo 1)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en el formulario el pueblo índigena es 1, este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "T_ETNIA",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 50,
+      "__EMPTY_3": "Especificar Pueblo Indígena",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en el formulario el código de pueblo indígena es 10, se debe especificar cual corresponde"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "NACIONALIDAD",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 3,
+      "__EMPTY_3": "Código Nacionalidad (Anexo 18)",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "P_ORIGEN",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 3,
+      "__EMPTY_3": "Código País de origen (Anexo 3)",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "INSTRUCC",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Nivel de Instrucción (Anexo 12)",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "TIPO_OCUPACION",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Tipo Categoría ocupacional (Anexo 11)",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "GLO_OCUPACION",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Glosa Categoría Ocupacional (Anexo 11)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en el formulario la categoria ocupacional es 2, este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "TELEFONO",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 10,
+      "__EMPTY_3": "Número Teléfono",
+      "__EMPTY_4": "NO"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "MOVIL",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 10,
+      "__EMPTY_3": "Número Teléfono Móvil Paciente",
+      "__EMPTY_4": "NO"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DOMICILIO",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 50,
+      "__EMPTY_3": "Domicilio",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "NUMERO_VIA",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 10,
+      "__EMPTY_3": "Numero Vía",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "VIA",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Vía (1=Calle, 2 =Avenida, 3=Pasaje, 4=Camino, 5=Carretera, 6=Callejón, 7=Paseo, 8=Escalera, 9=Otro, 10=Rotonda)",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "COMUNA",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 5,
+      "__EMPTY_3": "Código Comuna (Anexo 2)",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "PREVI",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Previsión:",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "__EMPTY_3": "(1=FONASA"
+    },
+    {
+      "__EMPTY_3": "2= ISAPRE"
+    },
+    {
+      "__EMPTY_3": "3= CAPREDENA"
+    },
+    {
+      "__EMPTY_3": "4= DIPRECA"
+    },
+    {
+      "__EMPTY_3": "5= SISA"
+    },
+    {
+      "__EMPTY_3": "96= NINGUNA"
+    },
+    {
+      "__EMPTY_3": "99= DESCONOCIDO)"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "BENEF",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Clase Beneficiario FONASA (TRAMO A, TRAMO B, TRAMO C, TRAMO D)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en el formulario la previsión es 1, este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "MOD",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Modalidad de Atención FONASA (1= MAI Modalidad de atención\r\n institucional , 2= MLE Modalidad de atención\r\n libre elección )",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "LEY_PREV",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Leyes previsionales:",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "__EMPTY_3": "(1= Ley 18.490: Accidente de transporte"
+    },
+    {
+      "__EMPTY_3": "2 = Ley 16.744: Accidente Trabajo y Enfermedades Profesionales"
+    },
+    {
+      "__EMPTY_3": "3 = Ley 16.744: Accidente Escolar"
+    },
+    {
+      "__EMPTY_3": "4 = Ley 19.650/99 de Urgencia"
+    },
+    {
+      "__EMPTY_3": "5 = Ley 19.992 PRAIS"
+    },
+    {
+      "__EMPTY_3": "6= Ley N° 19.966: Régimen General de Garantias en salud GES"
+    },
+    {
+      "__EMPTY_3": "7= Ley N° 20.850: Ricarte Soto"
+    },
+    {
+      "__EMPTY_3": "8= Ley N° 21.030 de Despenalización de la interrupción Voluntaria del Embarazo en tres Causales"
+    },
+    {
+      "__EMPTY_3": "96= Ninguna"
+    },
+    {
+      "__EMPTY_3": "97= No recuerda)"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "PROCEDENCI",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Procedencia del paciente:",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "__EMPTY_3": "(1 = Unidad de Emergencia (mismo establecimiento),"
+    },
+    {
+      "__EMPTY_3": "3 = Atención Especialidades( mismo establecimiento),"
+    },
+    {
+      "__EMPTY_3": "4 = Otro Establecimiento,"
+    },
+    {
+      "__EMPTY_3": "5 = Otra Procedencia)"
+    },
+    {
+      "__EMPTY_3": "6 = Área de Cirugía Mayor Ambulatoria (mismo establecimiento)"
+    },
+    {
+      "__EMPTY_3": "7 = Hospital comunitario o de baja complejidad"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "NOM_HOPI_P",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 100,
+      "__EMPTY_3": "Nombre establecimiento de procedencia (Anexo 4)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en el formulario la procedencia del paciente es 4 o 7, este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "COD_HOSP_P",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 6,
+      "__EMPTY_3": "Código establecimiento de procedencia (Anexo 4)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en el formulario la procedencia del paciente es 4 o 7, este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "HORA_ING",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Hora Ingreso",
+      "__EMPTY_4": "NO"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "MIN_ING",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Minuto Ingreso",
+      "__EMPTY_4": "NO"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_ING",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Día Ingreso",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "MES_ING",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Mes Ingreso",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANO_ING",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Año de Ingreso",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "AREA_FUNC_I",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 3,
+      "__EMPTY_3": "Nivel de Cuidado de Ingreso (Anexo 5)",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_1_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Día primer traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "MES_1_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Mes primer traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANO_1_TRAS",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Año primer traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "AREAF_1_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 3,
+      "__EMPTY_3": "Nivel de Cuidado primer traslado (Anexo 5)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_2_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Día segundo traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "MES_2_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Mes segundo traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANO_2_TRAS",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Año segundo traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "AREAF_2_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 3,
+      "__EMPTY_3": "Nivel de Cuidado segundo traslado (Anexo 5)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_3_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Día tercer traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "MES_3_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Mes tercer traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANO_3_TRAS",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Año tercer traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "AREAF_3_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 3,
+      "__EMPTY_3": "Nivel de Cuidado tercer traslado (Anexo 5)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_4_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Día cuarto traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "MES_4_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Mes cuarto traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANO_4_TRAS",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Año cuarto traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "AREAF_4_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 3,
+      "__EMPTY_3": "Nivel de Cuidado cuarto traslado (Anexo 5)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_5_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Día quinto traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "MES_5_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Mes quinto traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANO_5_TRAS",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Año quinto traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "AREAF_5_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 3,
+      "__EMPTY_3": "Nivel de Cuidado quinto traslado (Anexo 5)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_6_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Día sexto traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "MES_6_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Mes sexto traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANO_6_TRAS",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Año sexto traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "AREAF_6_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 3,
+      "__EMPTY_3": "Nivel de Cuidado sexto traslado (Anexo 5)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_7_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Día séptimo traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "MES_7_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Mes séptimo traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANO_7_TRAS",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Año séptimo traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "AREAF_7_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 3,
+      "__EMPTY_3": "Nivel de Cuidado séptimo traslado (Anexo 5)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_8_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Día octavo traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "MES_8_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Mes octavo traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANO_8_TRAS",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Año octavo traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "AREAF_8_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 3,
+      "__EMPTY_3": "Nivel de Cuidado octavo traslado (Anexo 5)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_9_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Día noveno traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "MES_9_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Mes noveno traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANO_9_TRAS",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Año noveno traslado",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "AREAF_9_TRAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 3,
+      "__EMPTY_3": "Nivel de Cuidado noveno traslado (Anexo 5)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista traslado este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "HORA_EGR",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Hora Egreso",
+      "__EMPTY_4": "NO"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "MIN_EGR",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Minuto Egreso",
+      "__EMPTY_4": "NO"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_EGR",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Día Egreso",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "MES_EGR",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Mes Egreso",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANO_EGR",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Año Egreso",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "AREAF_EGR",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 3,
+      "__EMPTY_3": "Nivel de Cuidado de Egreso (Anexo 5)",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIAS_ESTAD",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Días estada total",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "COND_EGR",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Condición al egreso (1=Vivo 2=Fallecido) ",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DES_ALTA",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Destino al Alta (Anexo 15)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Si la condición del paciente es 1 este campo se debe completar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "T_DIAG1",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 255,
+      "__EMPTY_3": "Texto Libre Diagnostico Principal",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Transcribir el diagnóstico descrito por el médico como la afección principal"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIAG1",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Diagnóstico Principal (Anexo 6)",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "T_DIAG2",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 255,
+      "__EMPTY_3": "Texto Libre Causa Externa",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista causa externa transcriba la(s) causa(s) descrita(s) por el médico como causante de la(s) lesión(es)"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIAG2",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Causa externa (Anexo 7)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando el diagnóstico principal está entre S y T, se debe ingresar la causa externa"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "T_DIAG3",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 255,
+      "__EMPTY_3": "Texto Libre Diagnóstico Secundario (DIAG 3)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista otra afección presente en la hospitalización, transcriba el diagnóstico descrito por el médico"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIAG3",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Diagnóstico Secundario (DIAG 3) (Anexo 8)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando existan más diagnósticos se deben ingresar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "T_DIAG4",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 255,
+      "__EMPTY_3": "Texto Libre Diagnóstico Secundario (DIAG 4)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista otra afección presente en la hospitalización, transcriba el diagnóstico descrito por el médico"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIAG4",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Diagnóstico Secundario (DIAG 4) (Anexo 8)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando existan más diagnósticos se deben ingresar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "T_DIAG5",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 255,
+      "__EMPTY_3": "Texto Libre Diagnóstico Secundario (DIAG 5)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista otra afección presente en la hospitalización, transcriba el diagnóstico descrito por el médico"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIAG5",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Diagnóstico Secundario (DIAG 5) (Anexo 8)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando existan más diagnósticos se deben ingresar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "T_DIAG6",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 255,
+      "__EMPTY_3": "Texto Libre Diagnóstico Secundario (DIAG 6)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista otra afección presente en la hospitalización, transcriba el diagnóstico descrito por el médico"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIAG6",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Diagnóstico Secundario (DIAG 6) (Anexo 8)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando existan más diagnósticos se deben ingresar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "T_DIAG7",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 255,
+      "__EMPTY_3": "Texto Libre Diagnóstico Secundario (DIAG 7)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista otra afección presente en la hospitalización, transcriba el diagnóstico descrito por el médico"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIAG7",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Diagnóstico Secundario (DIAG 7) (Anexo 8)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando existan más diagnósticos se deben ingresar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "T_DIAG8",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 255,
+      "__EMPTY_3": "Texto Libre Diagnóstico Secundario (DIAG 8)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista otra afección presente en la hospitalización, transcriba el diagnóstico descrito por el médico"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIAG8",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Diagnóstico Secundario (DIAG 8) (Anexo 8)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando existan más diagnósticos se deben ingresar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "T_DIAG9",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 255,
+      "__EMPTY_3": "Texto Libre Diagnóstico Secundario (DIAG 9)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista otra afección presente en la hospitalización, transcriba el diagnóstico descrito por el médico"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIAG9",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Diagnóstico Secundario (DIAG 9) (Anexo 8)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando existan más diagnósticos se deben ingresar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "T_DIAG10",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 255,
+      "__EMPTY_3": "Texto Libre Diagnóstico Secundario (DIAG 10)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista otra afección presente en la hospitalización, transcriba el diagnóstico descrito por el médico"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIAG10",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Diagnóstico Secundario (DIAG 10) (Anexo 8)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando existan más diagnósticos se deben ingresar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "T_DIAG11",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 255,
+      "__EMPTY_3": "Texto Libre Diagnóstico Secundario (DIAG 11)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista otra afección presente en la hospitalización, transcriba el diagnóstico descrito por el médico"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIAG11",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Diagnóstico Secundario (DIAG 11) (Anexo 8)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando existan más diagnósticos se deben ingresar"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "INTERV_Q",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Intervención Quirúrgica (1 = Sí, 2 = No) ",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "INTERV_Q_PPAL",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 7,
+      "__EMPTY_3": "Código FONASA Intervención Quirúrgica  Principal (Anexo 9)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en el formulario la I quirurgica es 1, se debe registrar el código FONASA"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "INTERV_Q_2",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 7,
+      "__EMPTY_3": "Código FONASA Intervención Quirúrgica 2 (Anexo 9)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando existan más I Quirúrgicas, se debe registrar el código FONASA"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "INTERV_Q_3",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 7,
+      "__EMPTY_3": "Código FONASA Intervención Quirúrgica 3 (Anexo 9)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando existan más I Quirúrgicas, se debe registrar el código FONASA"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "PROCED",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Procedimiento (1 = Sí, 2 = No) ",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "PROCED_PPAL",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 7,
+      "__EMPTY_3": "Código FONASA Procedimiento Principal (Anexo 14)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en el formulario el procedimiento es 1, se debe registrar el código FONASA"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "PROCED_2",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 7,
+      "__EMPTY_3": "Código FONASA Procedimiento 2 (Anexo 14)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando existan más procedimientos, se debe registrar el código FONASA"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "PROCED_3",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 7,
+      "__EMPTY_3": "Código FONASA Procedimiento 3 (Anexo 14)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando existan más procedimientos, se debe registrar el código FONASA"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_1",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Días estada 1",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Corresponde a la diferencia entre el día de egreso o del primer traslado, menos el dia de ingreso. En el caso que el egreso o primer traslado sea el mismo día de ingreso debe registrar 1."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_2",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Días estada 2",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista un primer traslado se calcula restando el día del segundo traslado o día del egreso menos el primer día"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_3",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Días estada 3",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista un segundo traslado se calcula restando el día del tercer traslado o día del egreso menos el segundo día "
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_4",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Días estada 4",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista un tercer traslado se calcula restando el día del cuarto traslado o día del egreso menos el tercer día"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_5",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Días estada 5",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista un cuarto traslado se calcula restando el día del quinto traslado  o día del egreso menos el cuarto día"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_6",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Días estada 6",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista un quinto traslado se calcula restando el día del sexto traslado  o día del egreso menos el quinto día"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_7",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Días estada 7",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista un sexto traslado se calcula restando el día del septimo traslado o día del egreso menos el sexto día"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_8",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Días estada 8",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista un septimo traslado se calcula restando el día del octavo traslado  o día del egreso menos el septimo día"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_9",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Días estada 9",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista un octavo traslado se calcula restando el día del noveno traslado  o día del egreso menos el octavo día"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DIA_10",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 4,
+      "__EMPTY_3": "Días estada 10",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando exista un noveno traslado se calcula restando el día de egreso menos el noveno día"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "APE_P1_PROF",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 30,
+      "__EMPTY_3": "Primer Apellido Profesional",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "APE_P2_PROF",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 30,
+      "__EMPTY_3": "Segundo Apellido Profesional",
+      "__EMPTY_4": "NO"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "NOM_PROF",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 50,
+      "__EMPTY_3": "Nombre Profesional",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "RUT_PROF",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 8,
+      "__EMPTY_3": "Run Profesional",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "DV_PROF",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Digito verificador Rut Profesional",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ESPEC_PROF_MEDICAS",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Especialidades y Subespecialidades Médicas (Anexo 10)",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ESPEC_PROF_ODONTO",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Especialidades y Subespecialidades Odontológicas (Anexo 16)",
+      "__EMPTY_4": "SI"
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "CONDNAC1",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Condición al nacer del primer nacimiento (1 = Vivo, 2 = Fallecido) ",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "SEXONAC1",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Sexo biológico del primer nacimiento (1=Hombre; 2= Mujer; 3= Intersexual; 99= Desconocido)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "PESONAC1",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 5,
+      "__EMPTY_3": "Peso del primer nacimiento en gramos",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "APGRNAC1",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "APGAR 5 Minutos del primer nacimiento",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANCONG1",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Anomalía Congénita primer nacimiento (1=Sí, 2=No)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "CONDNAC2",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Condición al nacer del segundo nacimiento (1 = Vivo, 2 = Fallecido) ",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "SEXONAC2",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Sexo biológico del segundo nacimiento (1=Hombre; 2= Mujer; 3= Intersexual; 99= Desconocido)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "PESONAC2",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 5,
+      "__EMPTY_3": "Peso del segundo nacimiento en gramos",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "APGRNAC2",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "APGAR 5 Minutos del segundo nacimiento",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANCONG2",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Anomalía Congénita segundo nacimiento (1=Sí, 2=No)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "CONDNAC3",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Condición al nacer del tercer nacimiento (1 = Vivo, 2 = Fallecido) ",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "SEXONAC3",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Sexo biológico del tercer nacimiento (1=Hombre; 2= Mujer; 3= Intersexual; 99= Desconocido)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "PESONAC3",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 5,
+      "__EMPTY_3": "Peso del tercer nacimiento en gramos",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "APGRNAC3",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "APGAR 5 Minutos del tercer nacimiento",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANCONG3",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Anomalía Congénita tercer nacimiento (1=Sí, 2=No)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "CONDNAC4",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Condición al nacer del cuarto nacimiento (1 = Vivo, 2 = Fallecido) ",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "SEXONAC4",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Sexo biológico del cuarto nacimiento (1=Hombre; 2= Mujer; 3= Intersexual; 99= Desconocido)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "PESONAC4",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 5,
+      "__EMPTY_3": "Peso del cuarto nacimiento en gramos",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "APGRNAC4",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "APGAR 5 Minutos del cuarto nacimiento",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANCONG4",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Anomalía Congénita cuarto nacimiento (1=Sí, 2=No)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "CONDNAC5",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Condición al nacer del quinto nacimiento (1 = Vivo, 2 = Fallecido) ",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "SEXONAC5",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Sexo biológico del quinto nacimiento (1=Hombre; 2= Mujer; 3= Intersexual;  99= Desconocido)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "PESONAC5",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 5,
+      "__EMPTY_3": "Peso del quinto nacimiento en gramos",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "APGRNAC5",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "APGAR 5 Minutos del quinto nacimiento",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANCONG5",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Anomalía Congénita quinto nacimiento: (1=Sí, 2=No)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "CONDNAC6",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Condición al nacer del sexto nacimiento (1 = Vivo, 2 = Fallecido) ",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "SEXONAC6",
+      "__EMPTY_1": "Texto",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "Sexo biológico del sexto nacimiento (1=Hombre; 2= Mujer; 3= Intersexual; 99= Desconocido)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "PESONAC6",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 5,
+      "__EMPTY_3": "Peso del sexto nacimiento en gramos",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "APGRNAC6",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 2,
+      "__EMPTY_3": "APGAR 5 Minutos del sexto nacimiento",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    },
+    {
+      "Esquema de Registro Base de Datos 2025": "ANCONG6",
+      "__EMPTY_1": "Numérico",
+      "__EMPTY_2": 1,
+      "__EMPTY_3": "Anomalía Congénita sexto nacimiento (1=Sí, 2=No)",
+      "__EMPTY_4": "SI",
+      "__EMPTY_5": "Cuando en esta hospitalización hay parto, debe ingresar los datos de(l)o los recién nacidos."
+    }
+  ]
+}

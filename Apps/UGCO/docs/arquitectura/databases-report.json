@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-11-21T20:47:39.996Z",
+  "apiUrl": "https://nocobase.hospitaldeovalle.cl/api",
+  "dataSources": [],
+  "collections": [],
+  "errors": [],
+  "classification": {
+    "main": [],
+    "alma": [],
+    "onco": [],
+    "system": [],
+    "other": []
+  }
+}

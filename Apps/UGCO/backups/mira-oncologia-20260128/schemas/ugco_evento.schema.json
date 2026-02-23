@@ -1,0 +1,144 @@
+{
+  "collection": {
+    "name": "ugco_evento",
+    "title": "UGCO Eventos y Solicitudes",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "0qk9nv1n17o",
+      "name": "descripcion",
+      "type": "string",
+      "interface": "textarea",
+      "description": null,
+      "collectionName": "ugco_evento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Descripción"
+      }
+    },
+    {
+      "key": "a0c43oe1y4o",
+      "name": "fecha_realizacion",
+      "type": "date",
+      "interface": "datetime",
+      "description": null,
+      "collectionName": "ugco_evento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha Realización"
+      }
+    },
+    {
+      "key": "dmxmc9ywr0l",
+      "name": "estado",
+      "type": "string",
+      "interface": "select",
+      "description": null,
+      "collectionName": "ugco_evento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "enum": [
+          {
+            "label": "Solicitado",
+            "value": "solicitado"
+          },
+          {
+            "label": "Agendado",
+            "value": "agendado"
+          },
+          {
+            "label": "Realizado/Informado",
+            "value": "realizado"
+          },
+          {
+            "label": "Cancelado",
+            "value": "cancelado"
+          }
+        ],
+        "title": "Estado"
+      },
+      "defaultValue": "solicitado"
+    },
+    {
+      "key": "e5lbpzstkhi",
+      "name": "fecha_solicitud",
+      "type": "date",
+      "interface": "datetime",
+      "description": null,
+      "collectionName": "ugco_evento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha Solicitud"
+      },
+      "defaultValue": "{{now()}}"
+    },
+    {
+      "key": "ukcjj5ie6tc",
+      "name": "tipo_evento",
+      "type": "string",
+      "interface": "select",
+      "description": null,
+      "collectionName": "ugco_evento",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "enum": [
+          {
+            "label": "Control Médico",
+            "value": "control"
+          },
+          {
+            "label": "Laboratorio",
+            "value": "laboratorio"
+          },
+          {
+            "label": "Imagenología",
+            "value": "imagen"
+          },
+          {
+            "label": "Endoscopía",
+            "value": "endoscopia"
+          },
+          {
+            "label": "Biopsia",
+            "value": "biopsia"
+          },
+          {
+            "label": "Interconsulta",
+            "value": "interconsulta"
+          },
+          {
+            "label": "Comité",
+            "value": "comite"
+          }
+        ],
+        "title": "Tipo Evento"
+      }
+    },
+    {
+      "key": "xcgbkkq7ejf",
+      "name": "caso",
+      "type": "belongsTo",
+      "interface": "m2o",
+      "description": null,
+      "collectionName": "ugco_evento",
+      "parentKey": null,
+      "reverseKey": null,
+      "target": "ugco_casooncologico",
+      "uiSchema": {
+        "title": "Caso Oncológico"
+      },
+      "targetKey": "id",
+      "foreignKey": "f_ca6ue890tno"
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:10.497Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

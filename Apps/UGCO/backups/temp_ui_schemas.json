@@ -1,0 +1,1106 @@
+{
+  "data": [
+    {
+      "x-uid": "02mii3u8qzw",
+      "name": "phone",
+      "type": "void",
+      "x-component": "Grid.Row"
+    },
+    {
+      "x-uid": "03k09phoyqk",
+      "name": "email",
+      "type": "string",
+      "required": false,
+      "x-toolbar": "FormItemSchemaToolbar",
+      "x-settings": "fieldSettings:FormItem",
+      "x-component": "CollectionField",
+      "x-decorator": "FormItem",
+      "x-component-props": {},
+      "x-collection-field": "users.email"
+    },
+    {
+      "x-uid": "0d2rflppqwo",
+      "name": "nickname",
+      "type": "void",
+      "x-component": "Grid.Row"
+    },
+    {
+      "x-uid": "0fg6650yqir",
+      "name": "d6hje9qa3qz",
+      "type": "void",
+      "x-component": "Page"
+    },
+    {
+      "x-uid": "0hzhvrxhf1r",
+      "name": "nickname",
+      "type": "string",
+      "x-toolbar": "FormItemSchemaToolbar",
+      "x-settings": "fieldSettings:FormItem",
+      "x-component": "CollectionField",
+      "x-decorator": "FormItem",
+      "x-component-props": {},
+      "x-collection-field": "users.nickname"
+    },
+    {
+      "x-uid": "0o6sv38xmwi",
+      "name": "2izd5l5xhf5",
+      "type": "void",
+      "version": "2.0",
+      "x-toolbar": "TableColumnSchemaToolbar",
+      "x-settings": "fieldSettings:TableColumn",
+      "x-component": "TableV2.Column",
+      "x-decorator": "TableV2.Column.Decorator",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "0qg2igntl7g",
+      "name": "username",
+      "type": "void",
+      "x-component": "Grid.Row"
+    },
+    {
+      "x-uid": "0t8gzxqk6y9",
+      "name": "col",
+      "type": "void",
+      "x-component": "Grid.Col"
+    },
+    {
+      "x-uid": "1523o44cdvb",
+      "name": "ydb9wizhdty",
+      "type": "void",
+      "version": "2.0",
+      "x-component": "Grid.Row",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "18j6jx8afej",
+      "name": "PAPMI_ID",
+      "version": "2.0",
+      "x-component": "CollectionField",
+      "x-decorator": null,
+      "x-app-version": "1.8.30",
+      "x-read-pretty": true,
+      "x-component-props": {
+        "ellipsis": true
+      },
+      "x-decorator-props": {
+        "labelStyle": {
+          "display": "none"
+        }
+      },
+      "x-collection-field": "PacientesData_full.PAPMI_ID",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "1ixac005oaz",
+      "name": "grid",
+      "type": "void",
+      "x-component": "Grid",
+      "x-initializer": "form:configureFields"
+    },
+    {
+      "x-uid": "1o5y8dftms0",
+      "name": "fgmloi2s8f1",
+      "type": "void",
+      "title": "INICIO",
+      "x-component": "Page",
+      "x-component-props": {
+        "enablePageTabs": true
+      }
+    },
+    {
+      "x-uid": "24980brhklo",
+      "name": "actions",
+      "type": "void",
+      "title": "{{ t(\"Actions\") }}",
+      "version": "2.0",
+      "x-toolbar": "TableColumnSchemaToolbar",
+      "x-settings": "fieldSettings:TableColumn",
+      "x-component": "TableV2.Column",
+      "x-decorator": "TableV2.Column.ActionBar",
+      "x-app-version": "1.8.30",
+      "x-initializer": "table:configureItemActions",
+      "x-action-column": "actions",
+      "x-toolbar-props": {
+        "initializer": "table:configureItemActions"
+      },
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "283ffw33cug",
+      "name": "56a6ttyo0m2",
+      "type": "void",
+      "version": "2.0",
+      "x-toolbar": "TableColumnSchemaToolbar",
+      "x-settings": "fieldSettings:TableColumn",
+      "x-component": "TableV2.Column",
+      "x-decorator": "TableV2.Column.Decorator",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "2ezyn92wp50",
+      "name": "username",
+      "type": "string",
+      "required": true,
+      "x-toolbar": "FormItemSchemaToolbar",
+      "x-settings": "fieldSettings:FormItem",
+      "x-component": "CollectionField",
+      "x-decorator": "FormItem",
+      "x-component-props": {},
+      "x-collection-field": "users.username"
+    },
+    {
+      "x-uid": "2pm1hs7lsea",
+      "name": "username",
+      "type": "void",
+      "x-component": "Grid.Row"
+    },
+    {
+      "x-uid": "2tqieuogkin",
+      "name": "il3cnbzbo6e",
+      "type": "void",
+      "version": "2.0",
+      "x-toolbar": "BlockSchemaToolbar",
+      "x-settings": "blockSettings:table",
+      "x-component": "CardItem",
+      "x-decorator": "TableBlockProvider",
+      "x-acl-action": "Admision_Ubicacion:list",
+      "x-app-version": "1.8.30",
+      "x-filter-targets": [],
+      "x-decorator-props": {
+        "action": "list",
+        "params": {
+          "pageSize": 20
+        },
+        "dragSort": false,
+        "showIndex": true,
+        "collection": "Admision_Ubicacion",
+        "dataSource": "d_llw3u3ya2ej"
+      },
+      "_isJSONSchemaObject": true,
+      "x-use-decorator-props": "useTableBlockDecoratorProps"
+    },
+    {
+      "x-uid": "32hnmiu6rb2",
+      "name": "Servicio",
+      "version": "2.0",
+      "x-component": "CollectionField",
+      "x-decorator": null,
+      "x-app-version": "1.8.30",
+      "x-read-pretty": true,
+      "x-component-props": {
+        "ellipsis": true
+      },
+      "x-decorator-props": {
+        "labelStyle": {
+          "display": "none"
+        }
+      },
+      "x-collection-field": "Admision_Ubicacion.Servicio",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "368kl30axt3",
+      "name": "username",
+      "type": "string",
+      "required": true,
+      "x-toolbar": "FormItemSchemaToolbar",
+      "x-settings": "fieldSettings:FormItem",
+      "x-component": "CollectionField",
+      "x-decorator": "FormItem",
+      "x-component-props": {},
+      "x-collection-field": "users.username"
+    },
+    {
+      "x-uid": "3q7sj79ivah",
+      "name": "8vuga0u6t4x",
+      "type": "void",
+      "x-component": "Page"
+    },
+    {
+      "x-uid": "4s6fyv6e528",
+      "name": "z81jyo8v57k",
+      "type": "void",
+      "version": "2.0",
+      "x-toolbar": "TableColumnSchemaToolbar",
+      "x-settings": "fieldSettings:TableColumn",
+      "x-component": "TableV2.Column",
+      "x-decorator": "TableV2.Column.Decorator",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "4te4a3lan33",
+      "name": "v48dzt0bnwt",
+      "type": "array",
+      "version": "2.0",
+      "x-component": "TableV2",
+      "x-app-version": "1.8.30",
+      "x-initializer": "table:configureColumns",
+      "x-component-props": {
+        "rowKey": "id",
+        "rowSelection": {
+          "type": "checkbox"
+        }
+      },
+      "_isJSONSchemaObject": true,
+      "x-use-component-props": "useTableBlockProps"
+    },
+    {
+      "x-uid": "5bfp0yqqftr",
+      "name": "h0y5ff1sbxz",
+      "type": "void",
+      "version": "2.0",
+      "x-component": "Space",
+      "x-decorator": "DndContext",
+      "x-app-version": "1.8.30",
+      "x-component-props": {
+        "split": "|"
+      },
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "5mv9i8pzdju",
+      "name": "grid",
+      "type": "void",
+      "x-component": "Grid",
+      "x-initializer": "form:configureFields"
+    },
+    {
+      "x-uid": "6evkwnqd6ha",
+      "name": "username",
+      "type": "void",
+      "x-component": "Grid.Row"
+    },
+    {
+      "x-uid": "6f9kp2c88es",
+      "name": "Nombre",
+      "version": "2.0",
+      "x-component": "CollectionField",
+      "x-decorator": null,
+      "x-app-version": "1.8.30",
+      "x-read-pretty": true,
+      "x-component-props": {
+        "ellipsis": true
+      },
+      "x-decorator-props": {
+        "labelStyle": {
+          "display": "none"
+        }
+      },
+      "x-collection-field": "Admision_Ubicacion.Nombre",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "6qtbzfp9ybi",
+      "name": "password",
+      "type": "string",
+      "required": true,
+      "x-toolbar": "FormItemSchemaToolbar",
+      "x-settings": "fieldSettings:FormItem",
+      "x-component": "CollectionField",
+      "x-decorator": "FormItem",
+      "x-component-props": {},
+      "x-collection-field": "users.password"
+    },
+    {
+      "x-uid": "6wpo5q1a81n",
+      "name": "form",
+      "type": "void",
+      "x-decorator": "FormBlockProvider",
+      "x-decorator-props": {
+        "action": "get",
+        "collection": "users",
+        "dataSource": "main"
+      },
+      "x-use-decorator-props": "useEditFormBlockDecoratorProps"
+    },
+    {
+      "x-uid": "77iio5w3wsv",
+      "name": "pageTabs",
+      "type": "void",
+      "x-component": "MobilePageTabs"
+    },
+    {
+      "x-uid": "7gg6cxb19ow",
+      "name": "3mgpqbj0w13",
+      "type": "void",
+      "version": "2.0",
+      "x-component": "Grid.Row",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "7qabzsl26fr",
+      "name": "nickname",
+      "type": "string",
+      "x-toolbar": "FormItemSchemaToolbar",
+      "x-settings": "fieldSettings:FormItem",
+      "x-component": "CollectionField",
+      "x-decorator": "FormItem",
+      "x-component-props": {},
+      "x-collection-field": "users.nickname"
+    },
+    {
+      "x-uid": "8cebwz6gzpl",
+      "name": "Especialidad",
+      "version": "2.0",
+      "x-component": "CollectionField",
+      "x-decorator": null,
+      "x-app-version": "1.8.30",
+      "x-read-pretty": true,
+      "x-component-props": {
+        "ellipsis": true
+      },
+      "x-decorator-props": {
+        "labelStyle": {
+          "display": "none"
+        }
+      },
+      "x-collection-field": "Admision_Ubicacion.Especialidad",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "8psft2hdg40",
+      "name": "cancel",
+      "title": "{{ t(\"Cancel\") }}",
+      "x-component": "Action",
+      "x-use-component-props": "useCancelActionProps"
+    },
+    {
+      "x-uid": "8z0garm5tnb",
+      "name": "username",
+      "type": "string",
+      "required": true,
+      "x-toolbar": "FormItemSchemaToolbar",
+      "x-settings": "fieldSettings:FormItem",
+      "x-component": "CollectionField",
+      "x-decorator": "FormItem",
+      "x-component-props": {},
+      "x-collection-field": "users.username"
+    },
+    {
+      "x-uid": "8zm9eqynsxu",
+      "name": "Profesional_Salud",
+      "version": "2.0",
+      "x-component": "CollectionField",
+      "x-decorator": null,
+      "x-app-version": "1.8.30",
+      "x-read-pretty": true,
+      "x-component-props": {
+        "ellipsis": true
+      },
+      "x-decorator-props": {
+        "labelStyle": {
+          "display": "none"
+        }
+      },
+      "x-collection-field": "Admision_Ubicacion.Profesional_Salud",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "90eu6k1ekbd",
+      "name": "8x0p6udh9kg",
+      "type": "void",
+      "version": "2.0",
+      "x-component": "Space",
+      "x-decorator": "DndContext",
+      "x-app-version": "1.8.30",
+      "x-component-props": {
+        "split": "|"
+      },
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "9teqlhuhzlp",
+      "name": "col",
+      "type": "void",
+      "x-component": "Grid.Col"
+    },
+    {
+      "x-uid": "arioa9cn0jg",
+      "name": "name",
+      "type": "string",
+      "version": "2.0",
+      "x-toolbar": "FormItemSchemaToolbar",
+      "x-settings": "fieldSettings:FormItem",
+      "x-component": "CollectionField",
+      "x-decorator": "FormItem",
+      "x-app-version": "1.8.30",
+      "x-component-props": {},
+      "x-collection-field": "roles.name",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "bb8ckevka3p",
+      "name": "0rszihjr9yd",
+      "type": "void",
+      "version": "2.0",
+      "x-component": "Grid.Row",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "bevjhxott2q",
+      "name": "cancel",
+      "title": "{{ t(\"Cancel\") }}",
+      "x-component": "Action",
+      "x-use-component-props": "useCancelActionProps"
+    },
+    {
+      "x-uid": "bgr66klprib",
+      "name": "col",
+      "type": "void",
+      "x-component": "Grid.Col"
+    },
+    {
+      "x-uid": "bhmlpzswz52",
+      "name": "col",
+      "type": "void",
+      "x-component": "Grid.Col"
+    },
+    {
+      "x-uid": "bo3chxkagm1",
+      "name": "roles",
+      "type": "string",
+      "required": false,
+      "x-toolbar": "FormItemSchemaToolbar",
+      "x-settings": "fieldSettings:FormItem",
+      "x-component": "CollectionField",
+      "x-decorator": "FormItem",
+      "x-component-props": {},
+      "x-collection-field": "users.roles"
+    },
+    {
+      "x-uid": "bp0atcah5xs",
+      "name": "PAPMI_Sex_DR",
+      "version": "2.0",
+      "x-component": "CollectionField",
+      "x-decorator": null,
+      "x-app-version": "1.8.30",
+      "x-read-pretty": true,
+      "x-component-props": {},
+      "x-decorator-props": {
+        "labelStyle": {
+          "display": "none"
+        }
+      },
+      "x-collection-field": "PacientesData_full.PAPMI_Sex_DR",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "bxuqqfc1tl0",
+      "name": "qjpd31q32lf",
+      "type": "void",
+      "version": "2.0",
+      "x-component": "ActionBar",
+      "x-app-version": "1.8.30",
+      "x-initializer": "details:configureActions",
+      "x-component-props": {
+        "style": {
+          "marginBottom": 24
+        }
+      },
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "d1axdi65b58",
+      "name": "PAPMI_IPNo",
+      "version": "2.0",
+      "x-component": "CollectionField",
+      "x-decorator": null,
+      "x-app-version": "1.8.30",
+      "x-read-pretty": true,
+      "x-component-props": {
+        "ellipsis": true
+      },
+      "x-decorator-props": {
+        "labelStyle": {
+          "display": "none"
+        }
+      },
+      "x-collection-field": "PacientesData_full.PAPMI_IPNo",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "d1y1b2eizbf",
+      "name": "pj8gzfmev22",
+      "type": "void",
+      "version": "2.0",
+      "x-component": "Grid.Col",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "dhu5zxmzhsk",
+      "name": "email",
+      "type": "string",
+      "required": false,
+      "x-toolbar": "FormItemSchemaToolbar",
+      "x-settings": "fieldSettings:FormItem",
+      "x-component": "CollectionField",
+      "x-decorator": "FormItem",
+      "x-component-props": {},
+      "x-collection-field": "users.email"
+    },
+    {
+      "x-uid": "dlerkafqiss",
+      "name": "phone",
+      "type": "string",
+      "required": false,
+      "x-toolbar": "FormItemSchemaToolbar",
+      "x-settings": "fieldSettings:FormItem",
+      "x-component": "CollectionField",
+      "x-decorator": "FormItem",
+      "x-component-props": {},
+      "x-collection-field": "users.phone"
+    },
+    {
+      "x-uid": "e7aosjb2iuw",
+      "name": "qwe7yui3ujf",
+      "type": "void",
+      "version": "2.0",
+      "x-toolbar": "BlockSchemaToolbar",
+      "x-settings": "blockSettings:table",
+      "x-component": "CardItem",
+      "x-decorator": "TableBlockProvider",
+      "x-acl-action": "users:list",
+      "x-app-version": "1.8.30",
+      "x-filter-targets": [],
+      "x-decorator-props": {
+        "action": "list",
+        "params": {
+          "pageSize": 20
+        },
+        "dragSort": false,
+        "showIndex": true,
+        "collection": "users",
+        "dataSource": "main"
+      },
+      "_isJSONSchemaObject": true,
+      "x-use-decorator-props": "useTableBlockDecoratorProps"
+    },
+    {
+      "x-uid": "eho8uvt2kc8",
+      "name": "udokfisjw5k",
+      "type": "void",
+      "version": "2.0",
+      "x-toolbar": "TableColumnSchemaToolbar",
+      "x-settings": "fieldSettings:TableColumn",
+      "x-component": "TableV2.Column",
+      "x-decorator": "TableV2.Column.Decorator",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "evwqyv9o575",
+      "name": "col",
+      "type": "void",
+      "x-component": "Grid.Col"
+    },
+    {
+      "x-uid": "f4yy6m5ammj",
+      "name": "col",
+      "type": "void",
+      "x-component": "Grid.Col"
+    },
+    {
+      "x-uid": "fbetxfdptpq",
+      "name": "bjd2gw9emzt",
+      "type": "void",
+      "x-component": "Page"
+    },
+    {
+      "x-uid": "fc1ket4erhp",
+      "name": "7xvslby37qi",
+      "type": "void",
+      "version": "2.0",
+      "x-toolbar": "TableColumnSchemaToolbar",
+      "x-settings": "fieldSettings:TableColumn",
+      "x-component": "TableV2.Column",
+      "x-decorator": "TableV2.Column.Decorator",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "fcioy97t3vv",
+      "name": "email",
+      "type": "void",
+      "x-component": "Grid.Row"
+    },
+    {
+      "x-uid": "fl62q4u26tt",
+      "name": "iriepuonyka",
+      "type": "void",
+      "x-component": "Page"
+    },
+    {
+      "x-uid": "fnqn26n4vz0",
+      "name": "ld43599r7hj",
+      "type": "void",
+      "x-component": "Grid",
+      "x-initializer": "page:addBlock"
+    },
+    {
+      "x-uid": "gju2o46pgq0",
+      "name": "email",
+      "type": "string",
+      "required": false,
+      "x-toolbar": "FormItemSchemaToolbar",
+      "x-settings": "fieldSettings:FormItem",
+      "x-component": "CollectionField",
+      "x-decorator": "FormItem",
+      "x-component-props": {},
+      "x-collection-field": "users.email"
+    },
+    {
+      "x-uid": "gqw7rg2y8d7",
+      "name": "actions",
+      "type": "void",
+      "title": "{{ t(\"Actions\") }}",
+      "version": "2.0",
+      "x-toolbar": "TableColumnSchemaToolbar",
+      "x-settings": "fieldSettings:TableColumn",
+      "x-component": "TableV2.Column",
+      "x-decorator": "TableV2.Column.ActionBar",
+      "x-app-version": "1.8.30",
+      "x-initializer": "table:configureItemActions",
+      "x-action-column": "actions",
+      "x-toolbar-props": {
+        "initializer": "table:configureItemActions"
+      },
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "gv2785mpkho",
+      "name": "col",
+      "type": "void",
+      "x-component": "Grid.Col"
+    },
+    {
+      "x-uid": "h9tpf9ui2ps",
+      "name": "zq9uwhb3xgk",
+      "type": "void",
+      "version": "2.0",
+      "x-toolbar": "TableColumnSchemaToolbar",
+      "x-settings": "fieldSettings:TableColumn",
+      "x-component": "TableV2.Column",
+      "x-decorator": "TableV2.Column.Decorator",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "hajfygx1m3k",
+      "name": "footer",
+      "type": "void",
+      "x-component": "Action.Drawer.FootBar"
+    },
+    {
+      "x-uid": "hb49sx407mp",
+      "name": "col",
+      "type": "void",
+      "x-component": "Grid.Col"
+    },
+    {
+      "x-uid": "hidc7k8p4b7",
+      "name": "ic80nr7w5d2",
+      "type": "void",
+      "version": "2.0",
+      "x-component": "Grid.Row",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "ho578vl1kjv",
+      "name": "PAPMI_No",
+      "version": "2.0",
+      "x-component": "CollectionField",
+      "x-decorator": null,
+      "x-app-version": "1.8.30",
+      "x-read-pretty": true,
+      "x-component-props": {
+        "ellipsis": true
+      },
+      "x-decorator-props": {
+        "labelStyle": {
+          "display": "none"
+        }
+      },
+      "x-collection-field": "PacientesData_full.PAPMI_No",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "i5jlmuqwqfx",
+      "name": "mxjjn9jzs2y",
+      "type": "void",
+      "version": "2.0",
+      "x-component": "Details",
+      "x-app-version": "1.8.30",
+      "x-read-pretty": true,
+      "_isJSONSchemaObject": true,
+      "x-use-component-props": "useDetailsWithPaginationProps"
+    },
+    {
+      "x-uid": "i5v9pylz913",
+      "name": "pageNavigationBar",
+      "type": "void",
+      "x-component": "MobilePageNavigationBar"
+    },
+    {
+      "x-uid": "ig45c9ra1af",
+      "name": "Apellido Materno",
+      "version": "2.0",
+      "x-component": "CollectionField",
+      "x-decorator": null,
+      "x-app-version": "1.8.30",
+      "x-read-pretty": true,
+      "x-component-props": {
+        "ellipsis": true
+      },
+      "x-decorator-props": {
+        "labelStyle": {
+          "display": "none"
+        }
+      },
+      "x-collection-field": "Admision_Ubicacion.Apellido Materno",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "iqloa39f3ie",
+      "name": "form",
+      "type": "void",
+      "x-decorator": "FormBlockProvider",
+      "x-decorator-props": {
+        "collection": "users",
+        "dataSource": "main"
+      },
+      "x-use-decorator-props": "useCreateFormBlockDecoratorProps"
+    },
+    {
+      "x-uid": "j0dd133ueb9",
+      "name": "email",
+      "type": "void",
+      "x-component": "Grid.Row"
+    },
+    {
+      "x-uid": "j4j9okzutks",
+      "name": "j4j9okzutks",
+      "type": "void",
+      "x-component": "Grid",
+      "x-initializer": "mobile:addBlock",
+      "x-component-props": {
+        "showDivider": false
+      }
+    },
+    {
+      "x-uid": "jwqje4k40qb",
+      "name": "gi79uflw0lv",
+      "type": "void",
+      "version": "2.0",
+      "x-component": "Grid.Col",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "jx7bfd5crsj",
+      "name": "roles",
+      "type": "void",
+      "x-component": "Grid.Row"
+    },
+    {
+      "x-uid": "jxwf31gazrr",
+      "name": "PAPMI_Name2",
+      "version": "2.0",
+      "x-component": "CollectionField",
+      "x-decorator": null,
+      "x-app-version": "1.8.30",
+      "x-read-pretty": true,
+      "x-component-props": {
+        "ellipsis": true
+      },
+      "x-decorator-props": {
+        "labelStyle": {
+          "display": "none"
+        }
+      },
+      "x-collection-field": "PacientesData_full.PAPMI_Name2",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "jz8ejn3wlfx",
+      "name": "col",
+      "type": "void",
+      "x-component": "Grid.Col"
+    },
+    {
+      "x-uid": "k76hrl9topx",
+      "name": "form",
+      "type": "void",
+      "x-decorator": "FormBlockProvider",
+      "x-decorator-props": {
+        "action": "get",
+        "collection": "users",
+        "dataSource": "main"
+      },
+      "x-use-decorator-props": "useEditFormBlockDecoratorProps"
+    },
+    {
+      "x-uid": "kc1n8yec6z2",
+      "name": "a3jni2glcpf",
+      "type": "void",
+      "version": "2.0",
+      "x-toolbar": "TableColumnSchemaToolbar",
+      "x-settings": "fieldSettings:TableColumn",
+      "x-component": "TableV2.Column",
+      "x-decorator": "TableV2.Column.Decorator",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "ke9k8bxkefd",
+      "name": "Fecha_Atencion",
+      "version": "2.0",
+      "x-component": "CollectionField",
+      "x-decorator": null,
+      "x-app-version": "1.8.30",
+      "x-read-pretty": true,
+      "x-component-props": {},
+      "x-decorator-props": {
+        "labelStyle": {
+          "display": "none"
+        }
+      },
+      "x-collection-field": "Admision_Ubicacion.Fecha_Atencion",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "kg3qjq0iw9r",
+      "name": "q0ofacihugp",
+      "type": "void",
+      "version": "2.0",
+      "x-component": "Grid.Row",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "kyr0ueo2u55",
+      "name": "8s3sskax2rp",
+      "type": "void",
+      "x-component": "Grid",
+      "x-initializer": "page:addBlock"
+    },
+    {
+      "x-uid": "l6ebe4a0k3f",
+      "name": "jki2rijf4hm",
+      "type": "void",
+      "version": "2.0",
+      "x-toolbar": "BlockSchemaToolbar",
+      "x-settings": "blockSettings:table",
+      "x-component": "CardItem",
+      "x-decorator": "TableBlockProvider",
+      "x-acl-action": "PacientesData_full:list",
+      "x-app-version": "1.8.30",
+      "x-filter-targets": [],
+      "x-decorator-props": {
+        "action": "list",
+        "params": {
+          "pageSize": 20
+        },
+        "dragSort": false,
+        "showIndex": true,
+        "collection": "PacientesData_full",
+        "dataSource": "d_llw3u3ya2ej"
+      },
+      "_isJSONSchemaObject": true,
+      "x-use-decorator-props": "useTableBlockDecoratorProps"
+    },
+    {
+      "x-uid": "l9ng4jcdke1",
+      "name": "submit",
+      "title": "{{ t(\"Submit\") }}",
+      "x-component": "Action",
+      "x-component-props": {
+        "type": "primary",
+        "htmlType": "submit"
+      },
+      "x-use-component-props": "useUpdateProfileActionProps"
+    },
+    {
+      "x-uid": "ley877tgp08",
+      "name": "ym993bal3c6",
+      "type": "void",
+      "version": "2.0",
+      "x-toolbar": "TableColumnSchemaToolbar",
+      "x-settings": "fieldSettings:TableColumn",
+      "x-component": "TableV2.Column",
+      "x-decorator": "TableV2.Column.Decorator",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "lwzbxboerku",
+      "name": "s3qnjvo2xte",
+      "type": "void",
+      "version": "2.0",
+      "x-toolbar": "TableColumnSchemaToolbar",
+      "x-settings": "fieldSettings:TableColumn",
+      "x-component": "TableV2.Column",
+      "x-decorator": "TableV2.Column.Decorator",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "lyi5rcgy5s7",
+      "name": "k86xhm85i5m",
+      "type": "void",
+      "x-component": "Grid",
+      "x-initializer": "page:addBlock"
+    },
+    {
+      "x-uid": "m163v5ce6yv",
+      "name": "Rut_Paciente",
+      "version": "2.0",
+      "x-component": "CollectionField",
+      "x-decorator": null,
+      "x-app-version": "1.8.30",
+      "x-read-pretty": true,
+      "x-component-props": {
+        "ellipsis": true
+      },
+      "x-decorator-props": {
+        "labelStyle": {
+          "display": "none"
+        }
+      },
+      "x-collection-field": "Admision_Ubicacion.Rut_Paciente",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "m7yj82mu5q4",
+      "name": "220iiqxmojs",
+      "type": "void",
+      "version": "2.0",
+      "x-component": "Grid.Row",
+      "x-app-version": "1.8.30",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "n8ay0x5v4xy",
+      "name": "ib9uuxbvi3o",
+      "type": "void",
+      "title": "{{ t(\"Print\") }}",
+      "version": "2.0",
+      "x-action": "print",
+      "x-toolbar": "ActionSchemaToolbar",
+      "x-settings": "actionSettings:print",
+      "x-component": "Action",
+      "x-app-version": "1.8.30",
+      "x-component-props": {
+        "icon": "PrinterOutlined"
+      },
+      "_isJSONSchemaObject": true,
+      "x-use-component-props": "useDetailPrintActionProps"
+    },
+    {
+      "x-uid": "ndmxh1x9wa5",
+      "name": "xdrtfv26bav",
+      "type": "void",
+      "x-component": "Grid",
+      "x-initializer": "page:addBlock"
+    },
+    {
+      "x-uid": "nocobase-admin-menu",
+      "name": "72u0j9ja2ol",
+      "type": "void",
+      "x-designer": "Menu.Designer",
+      "x-component": "Menu",
+      "x-initializer": "MenuItemInitializers",
+      "x-component-props": {
+        "mode": "mix",
+        "theme": "dark",
+        "onSelect": "{{ onSelect }}",
+        "sideMenuRefScopeKey": "sideMenuRef"
+      }
+    },
+    {
+      "x-uid": "nocobase-admin-profile-create-form",
+      "name": "et07amgzzgd",
+      "type": "void"
+    },
+    {
+      "x-uid": "nocobase-admin-profile-edit-form",
+      "name": "mhcfv6jqzsa",
+      "type": "void"
+    },
+    {
+      "x-uid": "nocobase-user-profile-edit-form",
+      "name": "lqkevcblvlx",
+      "type": "void"
+    },
+    {
+      "x-uid": "npm40g4vpog",
+      "name": "0t401krw6ho",
+      "type": "void",
+      "x-component": "Grid",
+      "x-initializer": "page:addBlock"
+    },
+    {
+      "x-uid": "ntv3s3le3hw",
+      "name": "actions",
+      "type": "void",
+      "version": "2.0",
+      "x-component": "ActionBar",
+      "x-app-version": "1.8.30",
+      "x-initializer": "table:configureActions",
+      "x-component-props": {
+        "style": {
+          "marginBottom": "var(--nb-spacing)"
+        }
+      },
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "o5rr572gw7f",
+      "name": "title",
+      "type": "string",
+      "version": "2.0",
+      "x-toolbar": "FormItemSchemaToolbar",
+      "x-settings": "fieldSettings:FormItem",
+      "x-component": "CollectionField",
+      "x-decorator": "FormItem",
+      "x-app-version": "1.8.30",
+      "x-component-props": {},
+      "x-collection-field": "roles.title",
+      "_isJSONSchemaObject": true
+    },
+    {
+      "x-uid": "o9v9ksxf4u0",
+      "name": "edit",
+      "type": "void",
+      "x-component": "FormV2",
+      "x-use-component-props": "useEditFormBlockProps"
+    },
+    {
+      "x-uid": "ocz2zlk9hzl",
+      "name": "bdis39l3mfo",
+      "type": "void",
+      "x-component": "Grid",
+      "x-initializer": "page:addBlock"
+    },
+    {
+      "x-uid": "odq4h8pg4i5",
+      "name": "footer",
+      "type": "void",
+      "x-component": "Action.Drawer.FootBar"
+    }
+  ],
+  "meta": {
+    "count": 161,
+    "page": 1,
+    "pageSize": 100,
+    "totalPage": 2
+  }
+}

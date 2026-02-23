@@ -1,0 +1,93 @@
+{
+  "name": "ugco-pages-index",
+  "version": "1.0.0",
+  "generatedAt": "2026-01-28T23:09:43.987Z",
+  "description": "Índice de todas las páginas UI de UGCO",
+  "pages": {
+    "dashboard": {
+      "file": "dashboard.json",
+      "title": "Dashboard UGCO",
+      "type": "page"
+    },
+    "fichaСaso": {
+      "file": "ficha-caso.json",
+      "title": "Ficha del Caso",
+      "type": "drawer"
+    },
+    "especialidades": [
+      {
+        "id": "digestivo_alto",
+        "file": "especialidad-digestivo_alto.json",
+        "title": "Digestivo Alto - Casos Oncológicos",
+        "color": "#FF8B00",
+        "icono": "🔶",
+        "codigo": "DIGESTIVO_ALTO"
+      },
+      {
+        "id": "digestivo_bajo",
+        "file": "especialidad-digestivo_bajo.json",
+        "title": "Digestivo Bajo - Casos Oncológicos",
+        "color": "#8B4513",
+        "icono": "🟤",
+        "codigo": "DIGESTIVO_BAJO"
+      },
+      {
+        "id": "mama",
+        "file": "especialidad-mama.json",
+        "title": "Mama - Casos Oncológicos",
+        "color": "#E91E63",
+        "icono": "🩷",
+        "codigo": "P._MAMARIA"
+      },
+      {
+        "id": "ginecologia",
+        "file": "especialidad-ginecologia.json",
+        "title": "Ginecología - Casos Oncológicos",
+        "color": "#9C27B0",
+        "icono": "💜",
+        "codigo": "P._CERVICAL"
+      },
+      {
+        "id": "urologia",
+        "file": "especialidad-urologia.json",
+        "title": "Urología - Casos Oncológicos",
+        "color": "#2196F3",
+        "icono": "💙",
+        "codigo": "UROLOGIA"
+      },
+      {
+        "id": "torax",
+        "file": "especialidad-torax.json",
+        "title": "Tórax - Casos Oncológicos",
+        "color": "#607D8B",
+        "icono": "🫁",
+        "codigo": "TORAX"
+      },
+      {
+        "id": "piel",
+        "file": "especialidad-piel.json",
+        "title": "Piel y Partes Blandas - Casos Oncológicos",
+        "color": "#FFC107",
+        "icono": "💛",
+        "codigo": "PIEL_Y_PARTES_BLANDAS"
+      },
+      {
+        "id": "endocrinologia",
+        "file": "especialidad-endocrinologia.json",
+        "title": "Endocrinología - Casos Oncológicos",
+        "color": "#4CAF50",
+        "icono": "💚",
+        "codigo": "ENDOCRINOLOGIA"
+      },
+      {
+        "id": "hematologia",
+        "file": "especialidad-hematologia.json",
+        "title": "Hematología - Casos Oncológicos",
+        "color": "#F44336",
+        "icono": "❤️",
+        "codigo": "HEMATOLOGÍA"
+      }
+    ]
+  },
+  "totalPages": 11
+}

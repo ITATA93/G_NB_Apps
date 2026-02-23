@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "title": "Agenda",
+      "icon": "ScheduleOutlined",
+      "pages": [
+        { "title": "Funcionarios", "icon": "TeamOutlined", "collection": "ag_funcionarios" },
+        { "title": "Bloques de Agenda", "icon": "CalendarOutlined", "collection": "ag_bloques_agenda" },
+        { "title": "Inasistencias", "icon": "ClockCircleOutlined", "collection": "ag_inasistencias" },
+        { "title": "Resumen Diario", "icon": "BarChartOutlined", "collection": "ag_resumen_diario" },
+        { "title": "Resumen Semanal", "icon": "LineChartOutlined", "collection": "ag_resumen_semanal" },
+        { "title": "Categorías de Actividad", "icon": "TagsOutlined", "collection": "ag_categorias_actividad" },
+        { "title": "Tipos de Inasistencia", "icon": "StopOutlined", "collection": "ag_tipos_inasistencia" },
+        { "title": "Servicios", "icon": "BankOutlined", "collection": "ag_servicios" }
+      ]
+    }
+  ]
+}

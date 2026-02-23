@@ -1,0 +1,41 @@
+{
+  "collection": {
+    "name": "ALMA_H_CodigoMAI",
+    "title": "ALMA H_CodigoMAI",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "ek605e8yosk",
+      "name": "Codigo_MAI",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_CodigoMAI",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_MAI",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "fxd0rxsby15",
+      "name": "Prestacion_trakcare",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_CodigoMAI",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Prestacion_trakcare",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.337Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

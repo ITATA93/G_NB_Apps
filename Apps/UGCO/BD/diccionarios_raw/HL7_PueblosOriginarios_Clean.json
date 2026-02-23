@@ -1,0 +1,57 @@
+[
+  {
+    "codigo_oficial": "01",
+    "descripcion": "Mapuche",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "02",
+    "descripcion": "Aymara",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "03",
+    "descripcion": "Rapa Nui o pascuense",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "04",
+    "descripcion": "Lickanatay",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "05",
+    "descripcion": "Quechua",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "06",
+    "descripcion": "Colla",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "07",
+    "descripcion": "Diaguita",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "08",
+    "descripcion": "Kaweskar",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "09",
+    "descripcion": "Yagan",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "10",
+    "descripcion": "Chango",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "96",
+    "descripcion": "Otro (Especificar)",
+    "activo": true
+  }
+]

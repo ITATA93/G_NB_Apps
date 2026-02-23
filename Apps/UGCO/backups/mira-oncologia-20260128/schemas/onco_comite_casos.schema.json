@@ -1,0 +1,39 @@
+{
+  "collection": {
+    "name": "onco_comite_casos",
+    "title": "Casos en Comité",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "1g8sbnztmvo",
+      "name": "fecha_presentacion",
+      "type": "date",
+      "interface": "date",
+      "description": null,
+      "collectionName": "onco_comite_casos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha de Presentación"
+      }
+    },
+    {
+      "key": "x8f9v4oz4hj",
+      "name": "decision",
+      "type": "text",
+      "interface": "textarea",
+      "description": null,
+      "collectionName": "onco_comite_casos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Decisión del Comité"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.492Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

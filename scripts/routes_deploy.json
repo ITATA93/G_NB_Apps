@@ -1,0 +1,33 @@
+{
+  "name": "Hospital Gestión Clínica",
+  "icon": "MedicineBoxOutlined",
+  "routes": [
+    {
+      "title": "Oncología (UGCO)",
+      "type": "group",
+      "icon": "HeartOutlined",
+      "children": [
+        { "title": "Casos", "type": "page", "icon": "FileTextOutlined" },
+        { "title": "Comité", "type": "page", "icon": "TeamOutlined" }
+      ]
+    },
+    {
+      "title": "Pabellón (SGQ)",
+      "type": "group",
+      "icon": "CalendarOutlined",
+      "children": [
+        { "title": "Agenda", "type": "page", "icon": "ScheduleOutlined" },
+        { "title": "Actividades", "type": "page", "icon": "UnorderedListOutlined" }
+      ]
+    },
+    {
+      "title": "Administración",
+      "type": "group",
+      "icon": "SettingOutlined",
+      "children": [
+        { "title": "Personal", "type": "page", "icon": "UserOutlined" },
+        { "title": "Departamentos", "type": "page", "icon": "ApartmentOutlined" }
+      ]
+    }
+  ]
+}

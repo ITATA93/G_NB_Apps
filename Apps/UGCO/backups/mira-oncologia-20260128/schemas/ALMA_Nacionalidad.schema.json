@@ -1,0 +1,55 @@
+{
+  "collection": {
+    "name": "ALMA_Nacionalidad",
+    "title": "ALMA Nacionalidad",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "3lb7o7stw9o",
+      "name": "CTNAT_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Nacionalidad",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CTNAT_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "g420oeycpqd",
+      "name": "Codigo_Nacionalidad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Nacionalidad",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Nacionalidad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "lm5g2cprcth",
+      "name": "Nacionalidad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Nacionalidad",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nacionalidad",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.038Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

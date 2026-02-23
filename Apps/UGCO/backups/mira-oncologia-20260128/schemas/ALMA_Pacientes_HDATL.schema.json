@@ -1,0 +1,125 @@
+{
+  "collection": {
+    "name": "ALMA_Pacientes_HDATL",
+    "title": "ALMA Pacientes_HDATL",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "1yphu27jsvy",
+      "name": "FichaClinica",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes_HDATL",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FichaClinica",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "4yay2vza933",
+      "name": "FechaNacimiento",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes_HDATL",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FechaNacimiento",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "69uvkmss6sr",
+      "name": "ApellidoPaterno",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes_HDATL",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ApellidoPaterno",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "m070sf5zcsm",
+      "name": "Nregistro",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes_HDATL",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nregistro",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "rnhf7b4k3f6",
+      "name": "Pasaporte",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes_HDATL",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Pasaporte",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "rwudoktby90",
+      "name": "RutPaciente",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes_HDATL",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "RutPaciente",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "t59ehbctv5i",
+      "name": "NombresPaciente",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes_HDATL",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "NombresPaciente",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "zl89k41dl1e",
+      "name": "ApellidoMaterno",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes_HDATL",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ApellidoMaterno",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.754Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

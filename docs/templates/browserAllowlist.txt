@@ -1,0 +1,12 @@
+# Browser URL Allowlist (template)
+# Ubicacion (segun codelab): ~/.gemini/antigravity/browserAllowlist.txt
+
+antigravity.google
+codelabs.developers.google.com
+ai.google.dev
+developers.google.com
+cloud.google.com
+github.com
+www.nocobase.com
+docs.nocobase.com
+v2.docs.nocobase.com

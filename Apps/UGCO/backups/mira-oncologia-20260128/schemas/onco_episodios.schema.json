@@ -1,0 +1,53 @@
+{
+  "collection": {
+    "name": "onco_episodios",
+    "title": "Episodios Oncológicos",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "6ii941r9m8s",
+      "name": "tipo_episodio",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "onco_episodios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Tipo de Episodio"
+      }
+    },
+    {
+      "key": "d5qk6yvl7ir",
+      "name": "descripcion",
+      "type": "text",
+      "interface": "textarea",
+      "description": null,
+      "collectionName": "onco_episodios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Descripción"
+      }
+    },
+    {
+      "key": "ngj5hd0rjo4",
+      "name": "fecha",
+      "type": "date",
+      "interface": "date",
+      "description": null,
+      "collectionName": "onco_episodios",
+      "parentKey": null,
+      "reverseKey": null,
+      "required": true,
+      "uiSchema": {
+        "title": "Fecha"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.744Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

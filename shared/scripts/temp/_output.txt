@@ -1,0 +1,91 @@
+﻿[dotenv@17.2.3] injecting env (5) from .env -- tip: ÔÜÖ´©Å  write to custom object with { processEnv: myObject }
+
+ÔòöÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòù
+Ôòæ  DEPLOY ONCOLOG├ìA UI                                 Ôòæ
+ÔòÜÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòÉÔòØ
+
+ÔöÇÔöÇ Step 1: Create menu group "Oncolog├¡a (UGCO)" ÔöÇÔöÇ
+
+  Ô£à Group route ID: 349160760737793
+
+node.exe : ÔØî API Error: 400 - 
+{"errors":[{"message":"PRIMARY already exists"}]}
+En línea: 1 Carácter: 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ÔØî API  
+   Error: ...eady exists"}]}:String) [], RemoteExcep  
+  tion
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+  Ô£à Roles bound to group
+
+ÔöÇÔöÇ Step 2: Create pages ÔöÇÔöÇ
+
+  ­ƒôä Casos Oncol├│gicos (onco_casos)
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+    Ô£à Route: 349160762834945, Tabs: 349160762834947, Grid: kkcolmf4bc7
+  ­ƒôä Episodios (onco_episodios)
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+    Ô£à Route: 349160767029248, Tabs: 349160767029250, Grid: roks71uff2s
+  ­ƒôä Sesiones de Comit├® (onco_comite_sesiones)
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+    Ô£à Route: 349160769126401, Tabs: 349160769126403, Grid: agcxxqd5if0
+  ­ƒôä Casos en Comit├® (onco_comite_casos)
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+ÔØî API Error: 400 - {"errors":[{"message":"PRIMARY 
+already exists"}]}
+    Ô£à Route: 349160769126405, Tabs: 349160771223553, Grid: abryj1xvn0c
+
+ÔòÉÔòÉÔòÉ RESULTS ÔòÉÔòÉÔòÉ
+  Ô£à Success: 4/4
+  Group: Oncolog├¡a (UGCO) ÔÇö Route ID: 349160760737793
+

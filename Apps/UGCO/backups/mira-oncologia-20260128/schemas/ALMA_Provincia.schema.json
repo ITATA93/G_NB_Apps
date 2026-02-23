@@ -1,0 +1,111 @@
+{
+  "collection": {
+    "name": "ALMA_Provincia",
+    "title": "ALMA Provincia",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "291i92zpdk3",
+      "name": "Fecha_Reg",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Provincia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Reg",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "9m38i38lv7u",
+      "name": "Provincia",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Provincia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Provincia",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "b6c5ptwyv33",
+      "name": "PROV_DateTo",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Provincia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PROV_DateTo",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "ie6i6l43dia",
+      "name": "FkPROV_Region_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Provincia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FkPROV_Region_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "j7pcjjgg2ln",
+      "name": "PROV_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Provincia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PROV_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "wyh91raaxnm",
+      "name": "Codigo_Provincia",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Provincia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Provincia",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ybcof84srgd",
+      "name": "PROV_NationalCode",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Provincia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PROV_NationalCode",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.915Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

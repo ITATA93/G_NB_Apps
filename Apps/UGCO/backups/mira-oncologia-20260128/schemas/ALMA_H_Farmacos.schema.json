@@ -1,0 +1,2281 @@
+{
+  "collection": {
+    "name": "ALMA_H_Farmacos",
+    "title": "ALMA H_Farmacos",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "00un7sn4mqa",
+      "name": "ARCIM_DefPriority_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_DefPriority_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "07nlaxso8ys",
+      "name": "ARCIM_AuthorisingClinician",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_AuthorisingClinician",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "16973fmoqrz",
+      "name": "ARCIM_NoOfCumDays",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_NoOfCumDays",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "1h3pr41bjw0",
+      "name": "ARCIM_P2ChgFact",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_P2ChgFact",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "1km0unxtd4o",
+      "name": "ARCIM_ServiceCharge_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ServiceCharge_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "1w2tn000xlj",
+      "name": "ARCIM_ChgOrderPerHour",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ChgOrderPerHour",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "1yayrcxro9z",
+      "name": "ARCIM_ServCat_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ServCat_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "24jdirtpfwr",
+      "name": "ARCIM_TimeDepFlg",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_TimeDepFlg",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "27scawv4t9b",
+      "name": "ARCIM_PreRecoveryTimeMin",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_PreRecoveryTimeMin",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2mfar4uafkk",
+      "name": "ARCIM_DeceasedPatientsOnly",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_DeceasedPatientsOnly",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2nfya5qw2f2",
+      "name": "ARCIM_P4StdAddAmt",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_P4StdAddAmt",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2tt6l185qvb",
+      "name": "ARCIM_AddToDiagnosticStage",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_AddToDiagnosticStage",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2vk4nvlel9n",
+      "name": "ARCIM_UseODBCforWord",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_UseODBCforWord",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2xwo6e3pa4i",
+      "name": "ARCIM_ModifiersRequired",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ModifiersRequired",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2z35a7jrjze",
+      "name": "ARCIM_SnackFlag",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_SnackFlag",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "329adi7chki",
+      "name": "ARCIM_AdminQuestionn_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_AdminQuestionn_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "389op3z5pwl",
+      "name": "ARCIM_Row_Calc",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Row_Calc",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "3plbffen40r",
+      "name": "ARCIM_GenericDesc",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_GenericDesc",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "3sruh78k5fe",
+      "name": "ARCIM_P2TypAAddAmt",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_P2TypAAddAmt",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "3zrrzbianvt",
+      "name": "ARCIM_Type_Calc",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Type_Calc",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "41ysy2ousrz",
+      "name": "ARCIM_DoseType",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_DoseType",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "4ehedaehv9k",
+      "name": "ARCIM_Subscript",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Subscript",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "4h3o8rw2osi",
+      "name": "ARCIM_MaxPrice",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_MaxPrice",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "517h0zj3hzp",
+      "name": "ARCIM_UpdateUser",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_UpdateUser",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "51fa950scse",
+      "name": "ARCIM_P1TypBAddAmt",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_P1TypBAddAmt",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "57ag9gwm3i3",
+      "name": "ARCIM_InsSubCat_DR",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_InsSubCat_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "5ff8qtcya4r",
+      "name": "ARCIM_CAPD",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_CAPD",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "5h9mh9j4b15",
+      "name": "ARCIM_ServTax_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ServTax_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "5l9o3vy9037",
+      "name": "ARCIM_GLPostToOrderDept",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_GLPostToOrderDept",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "5n1jo5go0b7",
+      "name": "ARCIM_Text3",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Text3",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "5sq2jgoe9n7",
+      "name": "ARCIM_BillDescription",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_BillDescription",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "5tkciggnetn",
+      "name": "ARCIM_ExcludeFromGrpWarn",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ExcludeFromGrpWarn",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "609e6srrfmt",
+      "name": "ARCIM_VisibleInOrderList",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_VisibleInOrderList",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "63kbpct7lxq",
+      "name": "ARCIM_MinTime",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_MinTime",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "67xhmdd6atk",
+      "name": "ARCIM_ServMaterial",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ServMaterial",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "6fjb5ci9laz",
+      "name": "ARCIM_FileNotes",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_FileNotes",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "6hjnqs0gr0d",
+      "name": "ARCIM_Days",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Days",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "6khkm48eesj",
+      "name": "ARCIM_PreRecoveryTimeType",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_PreRecoveryTimeType",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "6m7eztbu7p2",
+      "name": "ARCIM_Ointment",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Ointment",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "6tymxj47hdh",
+      "name": "ARCIM_RestrictHP",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RestrictHP",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "6yn24t3fk24",
+      "name": "ARCIM_RestrictIP",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RestrictIP",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "77bahzpirys",
+      "name": "ARCIM_DerFeeRules_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_DerFeeRules_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "8c1ony8eyke",
+      "name": "ARCIM_Version",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Version",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "8ccc3npb4t1",
+      "name": "ARCIM_KidneyTransp",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_KidneyTransp",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "8jsyi0hyaha",
+      "name": "ARCIM_UpdateDate",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_UpdateDate",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "8vqc270mpdz",
+      "name": "ARCIM_PhoneOrderReviewTime",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_PhoneOrderReviewTime",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "91z5r1y4511",
+      "name": "ARCIM_InsCoDesc",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_InsCoDesc",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "99tvitqrmf4",
+      "name": "ARCIM_PatientOrderFile2",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_PatientOrderFile2",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "9fpmofnyh6n",
+      "name": "ARCIM_AllowOrderWOStockCheck",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_AllowOrderWOStockCheck",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "aiaktwf3yzq",
+      "name": "ARCIM_MaxQty",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_MaxQty",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ajhiw22d5kv",
+      "name": "ARCIM_DisplayCumulative",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_DisplayCumulative",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "aqn0mv68g5d",
+      "name": "ARCIM_MaxQtyPerDay",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_MaxQtyPerDay",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "awu08da6c8t",
+      "name": "ARCIC_Desc",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIC_Desc",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "b38661lil4v",
+      "name": "ARCIM_DerivedFeeItem",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_DerivedFeeItem",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "bhsh2p9pktp",
+      "name": "ARCIM_Sensitive",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Sensitive",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "brycjxeusnp",
+      "name": "ARCIM_OtherG",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_OtherG",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "c1lrjbkobxs",
+      "name": "ARCIM_RvpUnitStat",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RvpUnitStat",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ccxzmpngk2g",
+      "name": "ARCIM_CurVers_DR",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_CurVers_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "cfbnorhu292",
+      "name": "ARCIM_ProcessingNotes",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ProcessingNotes",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "cgzcs0icdbp",
+      "name": "ARCIM_LoanItem",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_LoanItem",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "cwh69w2b2v3",
+      "name": "ARCIM_P4TypBAddAmt",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_P4TypBAddAmt",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "d1nukw37rom",
+      "name": "ARCIM_Text4",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Text4",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "dewli9vgz6r",
+      "name": "Codigo_Farmaco",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Farmaco",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "dpfkx9xvvf0",
+      "name": "Farmaco",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Farmaco",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "dsndiga1pys",
+      "name": "ARCIM_P4ChgFact",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_P4ChgFact",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "dtwpcuyp2ff",
+      "name": "ARCIM_ObservationGroup_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ObservationGroup_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "e5ncdj93rcf",
+      "name": "ARCIM_Surcharge_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Surcharge_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "e8vsb2t6fhs",
+      "name": "ARCIM_RiceType_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RiceType_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "eswern3jh3f",
+      "name": "ARCIM_P3TypAAddAmt",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_P3TypAAddAmt",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ez3197uu47n",
+      "name": "ARCIM_RestrictEM",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RestrictEM",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "fljylarwwjz",
+      "name": "ARCIM_DoseCalcFormula",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_DoseCalcFormula",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "g9s8rc511jv",
+      "name": "ARCIM_ChgCost",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ChgCost",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "gjoomrumoli",
+      "name": "ARCIM_ChgDispFlg",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ChgDispFlg",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "go5dsbv2gel",
+      "name": "ARCIM_BillBodyP_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_BillBodyP_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "gsqtld2i49o",
+      "name": "ARCIM_ChgPostFlg",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ChgPostFlg",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "gt7twvio3d6",
+      "name": "ARCIM_Minutes",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Minutes",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "gymavu16xtr",
+      "name": "ARCIM_UserDefWindow_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_UserDefWindow_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "h46lcchbic9",
+      "name": "ARCIM_BillingUOM_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_BillingUOM_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "hb54x3u0d0z",
+      "name": "ARCIM_MealType_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_MealType_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "he913t2s3jf",
+      "name": "ARCIM_MaxCumDose",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_MaxCumDose",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "hh7s85kre7e",
+      "name": "ARCIM_P4TypAAddAmt",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_P4TypAAddAmt",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "hhrurlsgrta",
+      "name": "ARCIM_RangeFrom",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RangeFrom",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "hiupzkiwtni",
+      "name": "ARCIM_RMFrequency_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RMFrequency_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "hjavcpbcqlb",
+      "name": "ARCIM_ExternalServiceID",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ExternalServiceID",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "hreqdpwrela",
+      "name": "ARCIM_MinAmt",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_MinAmt",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "hwerfce56nx",
+      "name": "ARCIM_ProteinG",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ProteinG",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "i069wdfbvyc",
+      "name": "ARCIM_RvpAnes",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RvpAnes",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "i6i3hhlkj30",
+      "name": "ARCIM_EnergyKj",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_EnergyKj",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ik5uguduh0p",
+      "name": "ARCIM_RestrictOP",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RestrictOP",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ircy19285mx",
+      "name": "ARCIM_SensitiveOrder",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_SensitiveOrder",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "iwghpe1ll1u",
+      "name": "ARCIM_TestItemSequnce",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_TestItemSequnce",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "j1b9cot9cqt",
+      "name": "ARCIM_SequenceOrder",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_SequenceOrder",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "jl8hl7u0n91",
+      "name": "ARCIM_EffDate",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_EffDate",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "jlajcdviurn",
+      "name": "ARCIM_ReviewRequired",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ReviewRequired",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "jsp463gqmnh",
+      "name": "ARCIM_RvpFud",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RvpFud",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "jz95u41qjyk",
+      "name": "ARCIM_Text2",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Text2",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "k8x6jtctnkf",
+      "name": "ARCIM_Abbrev",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Abbrev",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "khdkzr8e9vs",
+      "name": "ARCIM_OrderOnItsOwn",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_OrderOnItsOwn",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "kzgzx21bx3v",
+      "name": "ARCIM_BillOnAdmnstrEmerg",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_BillOnAdmnstrEmerg",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "l2eiimrrub3",
+      "name": "ARCIM_P3ChgFact",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_P3ChgFact",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "l65ideolc36",
+      "name": "ARCIM_OutPBillingLogic",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_OutPBillingLogic",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "laz7rjpt49d",
+      "name": "ARCIM_ChargePartial",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ChargePartial",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "lda5uhc0ka8",
+      "name": "ARCIM_ResultDisplayGroupDR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ResultDisplayGroupDR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "lfb3g3iif92",
+      "name": "ARCIM_P2TypBAddAmt",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_P2TypBAddAmt",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "lns3x1s8kim",
+      "name": "ARCIM_ResultGroup",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ResultGroup",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "lsw5nesz0zh",
+      "name": "ARCIM_BillingLogic",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_BillingLogic",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "m7f6v7vltnb",
+      "name": "ARCIM_ConsultDept",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ConsultDept",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "mb9lm2ggb8r",
+      "name": "ARCIM_DietryFibreG",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_DietryFibreG",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "mgh3eb38m0c",
+      "name": "ARCIM_EffDateTo",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_EffDateTo",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "ne66qsk8l46",
+      "name": "ARCIM_ChgUnitFact",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ChgUnitFact",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "nea8yk9ktzs",
+      "name": "ARCIM_ProfileFlg",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ProfileFlg",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "nh1ie79a1x7",
+      "name": "ARCIM_DaysCheckDuplicate",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_DaysCheckDuplicate",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "niek9nnsnzv",
+      "name": "ARCIM_ServiceGroup_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ServiceGroup_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "nlbadnnwa0k",
+      "name": "ARCIM_MaxAmt",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_MaxAmt",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "nn4fxodrzao",
+      "name": "ARCIM_PatientOrderFile1",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_PatientOrderFile1",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "nwgl9o77p77",
+      "name": "ARCIM_BillOnAdmnstrOutpat",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_BillOnAdmnstrOutpat",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "oie4yjpsmuc",
+      "name": "ARCIM_DiagnosticWaitTime",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_DiagnosticWaitTime",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "orth302dhto",
+      "name": "ARCIM_EnergyCal",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_EnergyCal",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "p5odn0mwic2",
+      "name": "ARCIM_RangeTo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RangeTo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "p7u2eoicm13",
+      "name": "ARCIM_ServicePriority_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ServicePriority_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "pa50hwopvvs",
+      "name": "ARCIM_Generic_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Generic_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "pfa55ph84yo",
+      "name": "ARCIM_EffTime",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_EffTime",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "q8s2093829q",
+      "name": "ARCIM_RMDuration_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RMDuration_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qctor36ldxg",
+      "name": "ARCIM_OEMessage",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_OEMessage",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qe9tqwpbclw",
+      "name": "ARCIM_TypeBAmt",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_TypeBAmt",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qtevkd2hh7p",
+      "name": "ARCIM_RvpUpd",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RvpUpd",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "r4du88jwhzn",
+      "name": "ARCIM_Text1",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Text1",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "r5poehav7kk",
+      "name": "ARCIM_HL7ResultType",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_HL7ResultType",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "r97fovqm52d",
+      "name": "ARCIM_SingleFee",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_SingleFee",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "rhry1mwjval",
+      "name": "ARCIM_BillOnAdmnstrInpat",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_BillOnAdmnstrInpat",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "rkffasyi3i0",
+      "name": "ARCIM_RvpInterimYear",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RvpInterimYear",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "rnyyis6fkdd",
+      "name": "ARCIM_QuesMandatory",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_QuesMandatory",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ry8hpb23y0v",
+      "name": "ARCIM_ShortDesc",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ShortDesc",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "s6krcy1dv0r",
+      "name": "ARCIM_EffDateTime",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_EffDateTime",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "soaqvmagpg2",
+      "name": "ARCIM_P2StdAddAmt",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_P2StdAddAmt",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "sy7xj73qnnw",
+      "name": "ARCIM_P3TypBAddAmt",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_P3TypBAddAmt",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "t515hyy4j50",
+      "name": "ARCIM_UOM_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_UOM_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "tw95mbaxiaj",
+      "name": "ARCIM_SugarsG",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_SugarsG",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "tz0fa4jo6ou",
+      "name": "ARCIM_MinPrice",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_MinPrice",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ux7dnnavpb2",
+      "name": "ARCIM_Text5",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Text5",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "v0y9vpt28np",
+      "name": "ARCIM_UpdateTime",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_UpdateTime",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "vtfvwtm183i",
+      "name": "ARCIM_Haemodal",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Haemodal",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "vx1i56pa03b",
+      "name": "ARCIM_CarbohydratesG",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_CarbohydratesG",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "w5mjv6sqzbz",
+      "name": "ARCIM_SaturatedFatsG",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_SaturatedFatsG",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "w64fa0znsoy",
+      "name": "ARCIM_SubMasFlg",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_SubMasFlg",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "wempjs8ruja",
+      "name": "ARCIM_DentalState_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_DentalState_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "wke7blg2n7h",
+      "name": "ARCIM_PHCDF_DR",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_PHCDF_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "wpz72mlz46o",
+      "name": "ARCIM_PriceCostOnOrdering",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_PriceCostOnOrdering",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "wyequy1vukh",
+      "name": "ARCIM_RowId",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "x6ozfcgchds",
+      "name": "ARCIM_PayorICDGroup_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_PayorICDGroup_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "xcavtbwxrdx",
+      "name": "ARCIM_RBNotes",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_RBNotes",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "xciqzgntwbc",
+      "name": "ARCIM_SodiumMg",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_SodiumMg",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "xl02vtqilbq",
+      "name": "ARCIM_P3StdAddAmt",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_P3StdAddAmt",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "xnkuldbsq60",
+      "name": "ARCIM_Questionnaire_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Questionnaire_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "xuvy7y4esb7",
+      "name": "ARCIM_Manufactured",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_Manufactured",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "yammqy1b8uy",
+      "name": "ARCIM_TotalFatG",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_TotalFatG",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ygs6pdztr90",
+      "name": "ARCIM_BillSub_DR",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_BillSub_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ysosq27y76l",
+      "name": "ARCIM_PatientOrderFile3",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_PatientOrderFile3",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "z2qfi093vwp",
+      "name": "ARCIM_WordTemplate",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_WordTemplate",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "z9r0clt94hl",
+      "name": "ARCIM_ReqApproval",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_ReqApproval",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "zjmy3j53lse",
+      "name": "ARCIM_CurVerFlg",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_CurVerFlg",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ztzljcsixs8",
+      "name": "ARCIM_IncSource_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Farmacos",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIM_IncSource_DR",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:07.979Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

@@ -1,0 +1,119 @@
+{
+  "collection": {
+    "name": "alma_paciente",
+    "title": "Pacientes (MPI)",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "016i2ytubfr",
+      "name": "nivel_educacional",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "alma_paciente",
+      "parentKey": null,
+      "reverseKey": null
+    },
+    {
+      "key": "3tc0rqn88ks",
+      "name": "run",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "alma_paciente",
+      "parentKey": null,
+      "reverseKey": null,
+      "unique": true,
+      "uiSchema": {
+        "title": "RUN"
+      }
+    },
+    {
+      "key": "8thyj28ch7k",
+      "name": "ocupacion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "alma_paciente",
+      "parentKey": null,
+      "reverseKey": null
+    },
+    {
+      "key": "9na9uia7iqy",
+      "name": "prais",
+      "type": "boolean",
+      "interface": null,
+      "description": null,
+      "collectionName": "alma_paciente",
+      "parentKey": null,
+      "reverseKey": null
+    },
+    {
+      "key": "a6w46c3awoi",
+      "name": "fecha_nacimiento",
+      "type": "date",
+      "interface": null,
+      "description": null,
+      "collectionName": "alma_paciente",
+      "parentKey": null,
+      "reverseKey": null
+    },
+    {
+      "key": "mgzu789ek9q",
+      "name": "nombres",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "alma_paciente",
+      "parentKey": null,
+      "reverseKey": null
+    },
+    {
+      "key": "mtr6a6myck5",
+      "name": "apellidos",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "alma_paciente",
+      "parentKey": null,
+      "reverseKey": null
+    },
+    {
+      "key": "ov0uti0pyug",
+      "name": "sexo_biologico",
+      "type": "string",
+      "interface": "select",
+      "description": null,
+      "collectionName": "alma_paciente",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "enum": [
+          {
+            "label": "Hombre",
+            "value": "male"
+          },
+          {
+            "label": "Mujer",
+            "value": "female"
+          }
+        ]
+      }
+    },
+    {
+      "key": "qeml2kkr8am",
+      "name": "pueblo_originario",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "alma_paciente",
+      "parentKey": null,
+      "reverseKey": null
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.367Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

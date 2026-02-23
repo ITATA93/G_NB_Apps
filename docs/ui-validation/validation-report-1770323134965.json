@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-02-05T20:25:27.879Z",
+  "url": "https://mira.hospitaldeovalle.cl",
+  "errors": [
+    "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+    "O",
+    "Error calling global variable function for key: $env TypeError: Cannot read properties of undefined (reading 'data')\n    at $ (https://mira.hospitaldeovalle.cl/static/plugins/@nocobase/plugin-environment-variables/dist/client/index.js?version=1.9.14&t=1764180046000:10:15747)\n    at f (https://mira.hospitaldeovalle.cl/p__index.dc570262.async.js:9:24042)\n    at W (https://mira.hospitaldeovalle.cl/p__index.dc570262.async.js:1815:35797)\n    at b (https://mira.hospitaldeovalle.cl/p__index.dc570262.async.js:1815:29339)\n    at Di (https://mira.hospitaldeovalle.cl/umi.43d125b9.js:54:20361)\n    at wc (https://mira.hospitaldeovalle.cl/umi.43d125b9.js:56:44653)\n    at Rc (https://mira.hospitaldeovalle.cl/umi.43d125b9.js:56:40310)\n    at tf (https://mira.hospitaldeovalle.cl/umi.43d125b9.js:56:40282)\n    at Cc (https://mira.hospitaldeovalle.cl/umi.43d125b9.js:56:35197)\n    at N (https://mira.hospitaldeovalle.cl/umi.43d125b9.js:56:90665)",
+    "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+    "O",
+    "Error calling global variable function for key: $env TypeError: Cannot read properties of undefined (reading 'data')\n    at $ (https://mira.hospitaldeovalle.cl/static/plugins/@nocobase/plugin-environment-variables/dist/client/index.js?version=1.9.14&t=1764180046000:10:15747)\n    at f (https://mira.hospitaldeovalle.cl/p__index.dc570262.async.js:9:24042)\n    at W (https://mira.hospitaldeovalle.cl/p__index.dc570262.async.js:1815:35797)\n    at b (https://mira.hospitaldeovalle.cl/p__index.dc570262.async.js:1815:29339)\n    at Di (https://mira.hospitaldeovalle.cl/umi.43d125b9.js:54:20361)\n    at nl (https://mira.hospitaldeovalle.cl/umi.43d125b9.js:56:3138)\n    at wc (https://mira.hospitaldeovalle.cl/umi.43d125b9.js:56:45427)\n    at Rc (https://mira.hospitaldeovalle.cl/umi.43d125b9.js:56:40310)\n    at ef (https://mira.hospitaldeovalle.cl/umi.43d125b9.js:56:40238)\n    at Hu (https://mira.hospitaldeovalle.cl/umi.43d125b9.js:56:40092)"
+  ],
+  "warnings": [
+    "[NocoBase] @nocobase/plugin-mobile is deprecated and may be removed in future versions. Please migrate to the new mobile solution.",
+    "⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.",
+    "⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath."
+  ],
+  "networkErrors": [
+    {
+      "url": "https://mira.hospitaldeovalle.cl/api/auth:check",
+      "status": 401,
+      "statusText": "Unauthorized"
+    },
+    {
+      "url": "https://mira.hospitaldeovalle.cl/api/roles:check",
+      "status": 401,
+      "statusText": "Unauthorized"
+    }
+  ],
+  "menuItems": [],
+  "collectionsFound": [],
+  "rolesFound": [],
+  "screenshots": [
+    "docs\\ui-validation\\screenshots\\01-initial-load.png",
+    "docs\\ui-validation\\screenshots\\02-login-form.png"
+  ],
+  "summary": {
+    "totalErrors": 6,
+    "totalWarnings": 3,
+    "totalNetworkFailures": 2,
+    "uiLoaded": true,
+    "functionalityWorking": false
+  }
+}

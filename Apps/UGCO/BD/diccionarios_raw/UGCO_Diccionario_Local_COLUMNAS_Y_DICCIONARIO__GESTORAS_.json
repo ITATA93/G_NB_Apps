@@ -1,0 +1,97 @@
+{
+  "source_file": "UGCO_Diccionario_Local_COLUMNAS Y DICCIONARIO.xlsx",
+  "sheet_name": "GESTORAS ",
+  "entry_count": 18,
+  "entries": [
+    {
+      "Fecha Nacimiento": 35107,
+      "Edad": 29
+    },
+    {
+      "GES/NO GES": "Ps. GES",
+      "ESPECIALIDAD ": "ESPECIALIDAD ",
+      "Etapa Clinica": "Etapa clinica ",
+      "Indicación de Comité": "Indicacion de comité ",
+      "Centro de Derivación": "Centro de derivación ",
+      "ESTADO DE CASO ": "ESTADO DE CASO "
+    },
+    {
+      "GES/NO GES": "Cáncer de mama en personas de 15 años y más.",
+      "ESPECIALIDAD ": "Digestivo alto",
+      "Etapa Clinica": "Sospecha ",
+      "Indicación de Comité": "cirugia",
+      "Centro de Derivación": "Hospital Carlos Van Buren ",
+      "ESTADO DE CASO ": "En curso "
+    },
+    {
+      "GES/NO GES": "Cáncer cérvico‑uterino en personas de 15 años.",
+      "ESPECIALIDAD ": "Digestivo bajo",
+      "Etapa Clinica": "Caso confrimado ",
+      "Indicación de Comité": "quimioterapia",
+      "Centro de Derivación": "Hospital de la serena ",
+      "ESTADO DE CASO ": "Detenido "
+    },
+    {
+      "GES/NO GES": "Cáncer de testículo en personas de 15 años y más.",
+      "ESPECIALIDAD ": "Endocrinologia ",
+      "Etapa Clinica": "Etapificación ",
+      "Indicación de Comité": "Radioyodo",
+      "Centro de Derivación": "Hopital de Copiapo"
+    },
+    {
+      "GES/NO GES": "Linfomas en personas de 15 años y más.",
+      "ESPECIALIDAD ": "P. mamaria ",
+      "Etapa Clinica": "Tratamiento ",
+      "Indicación de Comité": "Fototerapia",
+      "Centro de Derivación": "Hospital de Coquimbo "
+    },
+    {
+      "GES/NO GES": "Leucemia en personas de 15 años y más.",
+      "ESPECIALIDAD ": "P. cervical",
+      "Etapa Clinica": "Seguimiento",
+      "Indicación de Comité": "radioterapia"
+    },
+    {
+      "GES/NO GES": "Cáncer de próstata en personas de 15 años y más.",
+      "ESPECIALIDAD ": "Urologia ",
+      "Indicación de Comité": "terapia dirigida (TKI)"
+    },
+    {
+      "GES/NO GES": "Cáncer gástrico.",
+      "ESPECIALIDAD ": "Torax",
+      "Indicación de Comité": "Inmunoterapia "
+    },
+    {
+      "GES/NO GES": "Cáncer colorrectal en personas de 15 años y más.",
+      "ESPECIALIDAD ": "Piel y partes blandas ",
+      "Indicación de Comité": "terapia hormonal"
+    },
+    {
+      "GES/NO GES": "Cáncer de ovario epitelial.",
+      "ESPECIALIDAD ": "hematología",
+      "Indicación de Comité": "derivacion a cuidados paliativos "
+    },
+    {
+      "GES/NO GES": "Cáncer vesical.",
+      "Indicación de Comité": "sin indicacion de tratamiento "
+    },
+    {
+      "GES/NO GES": "Cáncer de pulmón en personas de 15 años y más"
+    },
+    {
+      "GES/NO GES": "Cáncer de tiroides (diferenciado y medular) en personas de 15 años y más."
+    },
+    {
+      "GES/NO GES": "Cáncer renal en personas de 15 años y más "
+    },
+    {
+      "GES/NO GES": "Mieloma múltiple en personas de 15 años y más "
+    },
+    {
+      "GES/NO GES": "Alivio del dolor y cuidados paliativos por cáncer avanzado"
+    },
+    {
+      "GES/NO GES": "Alivio del dolor y cuidados paliativos por cáncer avanzado"
+    }
+  ]
+}

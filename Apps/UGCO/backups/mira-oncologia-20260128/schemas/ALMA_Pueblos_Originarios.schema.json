@@ -1,0 +1,69 @@
+{
+  "collection": {
+    "name": "ALMA_Pueblos_Originarios",
+    "title": "ALMA Pueblos_Originarios",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "5nsxucgyaqu",
+      "name": "Codigo_Pueblo_Or",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pueblos_Originarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Pueblo_Or",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "he6cgo3ch33",
+      "name": "INDST_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pueblos_Originarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "INDST_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ldiczyva9ly",
+      "name": "Fecha_PuebloOR",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pueblos_Originarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_PuebloOR",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "widobegmczn",
+      "name": "Pueblo_Originario",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pueblos_Originarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Pueblo_Originario",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.166Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

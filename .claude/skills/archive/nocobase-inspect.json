@@ -1,0 +1,87 @@
+{
+  "name": "nocobase-inspect",
+  "version": "1.0.0",
+  "description": "Inspeccionar estado actual de NocoBase (colecciones, datasources, UI)",
+  "trigger": "/nocobase-inspect",
+  "aliases": ["/nb-inspect", "/inspect"],
+
+  "capabilities": [
+    "list_collections",
+    "inspect_collection_details",
+    "list_datasources",
+    "inspect_ui_schemas",
+    "check_sync_status",
+    "export_configuration"
+  ],
+
+  "workflow": {
+    "steps": [
+      {
+        "id": "determine_scope",
+        "description": "Determinar qué inspeccionar (todo, colección específica, datasource, etc.)",
+        "tools": ["AskUserQuestion"],
+        "output": "inspection_scope"
+      },
+      {
+        "id": "gather_information",
+        "description": "Ejecutar scripts de inspección relevantes",
+        "parallel": true,
+        "commands": [
+          {
+            "name": "collections",
+            "command": "npm run ugco:list",
+            "condition": "scope.includes('collections')"
+          },
+          {
+            "name": "datasources",
+            "command": "npm run ugco:inspect",
+            "condition": "scope.includes('datasources')"
+          },
+          {
+            "name": "sql_sync",
+            "command": "node Apps/UGCO/scripts/check-sql-sync-simple.js",
+            "condition": "scope.includes('sync')"
+          }
+        ],
+        "output": "inspection_results"
+      },
+      {
+        "id": "analyze_results",
+        "description": "Analizar resultados y generar resumen",
+        "logic": "summarize",
+        "output": "summary"
+      },
+      {
+        "id": "present_findings",
+        "description": "Presentar hallazgos al usuario de forma clara",
+        "format": "markdown_table",
+        "output": "formatted_report"
+      },
+      {
+        "id": "save_report",
+        "description": "Guardar reporte en memoria y logs",
+        "optional": true,
+        "output": "saved_report"
+      }
+    ]
+  },
+
+  "output_formats": {
+    "default": "markdown_table",
+    "available": ["markdown_table", "json", "csv", "terminal"]
+  },
+
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "include": ["commands_executed", "results_summary"]
+  },
+
+  "context_requirements": {
+    "scripts": [
+      "Apps/UGCO/scripts/list-collections.ts",
+      "Apps/UGCO/scripts/inspect-datasources.js",
+      "Apps/UGCO/scripts/check-sql-sync-simple.js"
+    ]
+  }
+}

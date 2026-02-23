@@ -1,0 +1,17 @@
+﻿
+> ag-nb-apps@1.0.0 nb:fields
+> tsx shared/scripts/manage-fields.ts list onco_casos
+
+[dotenv@17.2.3] injecting env (5) from .env -- tip: Ô£à audit secrets and track compliance: https://dotenvx.com/ops
+­ƒôï Campos de coleccion "onco_casos"...
+
+Total: 6 campo(s)
+
+  NOMBRE                 TIPO    INTERFAZ          TITULO
+  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ  ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+  paciente_id            string                    ID Paciente
+  paciente_rut           string                    RUT Paciente *
+  fecha_ingreso          date    date              Fecha Ingreso
+  diagnostico_principal  text    textarea          Diagn├│stico Principal
+  estado                 string                    Estado del Caso
+  observaciones          text    textarea          Observaciones

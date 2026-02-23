@@ -1,0 +1,27 @@
+[
+  {
+    "codigo_oficial": "1",
+    "descripcion": "Hombre",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "2",
+    "descripcion": "Mujer",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "3",
+    "descripcion": "Intersexual",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "93",
+    "descripcion": "No Informado",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "99",
+    "descripcion": "Desconocido",
+    "activo": true
+  }
+]

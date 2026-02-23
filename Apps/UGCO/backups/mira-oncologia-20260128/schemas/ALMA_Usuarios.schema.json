@@ -1,0 +1,403 @@
+{
+  "collection": {
+    "name": "ALMA_Usuarios",
+    "title": "ALMA Usuarios",
+    "description": null,
+    "inherit": false,
+    "hidden": false,
+    "sortable": true
+  },
+  "fields": [
+    {
+      "key": "03frhrtkqxo",
+      "name": "fecha_creacion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha Creacion (ALMA)",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "22iehb9kbd9",
+      "name": "rut",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "RUT"
+      }
+    },
+    {
+      "key": "3qxkv4h062s",
+      "name": "LocalAccesoPrincipal",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "LocalAccesoPrincipal",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "4dbxbq7sk8j",
+      "name": "nombre_profesional",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nombre Profesional",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "4duwn3p7aax",
+      "name": "grupo_seguridad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Grupo Seguridad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "5fl9ie0tx31",
+      "name": "HoraUltimaActualizacion",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HoraUltimaActualizacion",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "661op7871tk",
+      "name": "f_r1tlt4v3tq6",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "type": "string",
+        "title": "Actualizado Por Usuario",
+        "x-component": "Input"
+      },
+      "defaultValue": null
+    },
+    {
+      "key": "6bxz1n9debx",
+      "name": "hora_creacion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Hora Creacion (ALMA)",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "6tsr7uur51c",
+      "name": "cod_establecimiento",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Cod Establecimiento",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "6vaq5mifee0",
+      "name": "FechaUltimoLogeo",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FechaUltimoLogeo",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "7etrozz8o5s",
+      "name": "FechaLoginHasta",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FechaLoginHasta",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "ap7uh1mh2md",
+      "name": "GrupoSeguridad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "GrupoSeguridad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "f6nc3qx004m",
+      "name": "apellidos",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Apellidos",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ixi1t1opv84",
+      "name": "activo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Activo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "jt91g36htfp",
+      "name": "fecha_ultimo_ingreso",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha Ultimo Ingreso",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "m4r7cxks6kq",
+      "name": "username",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Usuario"
+      }
+    },
+    {
+      "key": "mlpnekllvjf",
+      "name": "UsuarioUltimaActualizacion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "UsuarioUltimaActualizacion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ojty8turfyo",
+      "name": "Apellido",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Apellido",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "op7ccppfxq2",
+      "name": "TipoProfesionalSalud",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "TipoProfesionalSalud",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "opyk0i20r3h",
+      "name": "SSUSR_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "SSUSR_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qbzgigkzvm6",
+      "name": "establecimiento_principal",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Establecimiento Principal",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "r042vnz39fh",
+      "name": "id_original",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ID Original"
+      }
+    },
+    {
+      "key": "ssaq2as51oo",
+      "name": "ProfesionalSalud",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ProfesionalSalud",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "u4nbv5p00g4",
+      "name": "email",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Email"
+      }
+    },
+    {
+      "key": "wo8jzglqoqg",
+      "name": "FechaLoginDesde",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FechaLoginDesde",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "woktg8qwysg",
+      "name": "EstablecimientoPrincipal",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "EstablecimientoPrincipal",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "xuhks2htfdw",
+      "name": "nombre",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nombre"
+      }
+    },
+    {
+      "key": "yahc72ovtmz",
+      "name": "FechaUltimaActualizacion",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Usuarios",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FechaUltimaActualizacion",
+        "x-component": "DatePicker"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.253Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

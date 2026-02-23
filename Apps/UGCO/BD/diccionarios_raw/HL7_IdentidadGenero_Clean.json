@@ -1,0 +1,37 @@
+[
+  {
+    "codigo_oficial": "01",
+    "descripcion": "Masculino",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "02",
+    "descripcion": "Femenino",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "03",
+    "descripcion": "Transgénero masculino",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "04",
+    "descripcion": "Transgénero femenino",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "05",
+    "descripcion": "No binarie",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "06",
+    "descripcion": "otra",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "07",
+    "descripcion": "No revelado",
+    "activo": true
+  }
+]

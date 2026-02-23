@@ -1,0 +1,237 @@
+{
+  "collection": {
+    "name": "ALMA_Admision_Pacientes",
+    "title": "ALMA Admision_Pacientes",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "74oodrr91uj",
+      "name": "Prevision",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Prevision",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "7nzec8h73vq",
+      "name": "PLAN",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PLAN",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "8d6vlb0nez8",
+      "name": "N_Episodio",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "N_Episodio",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "c4c7bp4asr3",
+      "name": "Nro_Registro",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nro_Registro",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "dwb96lf8gt1",
+      "name": "Rut_Paciente",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Rut_Paciente",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "fbtgw6ce0xl",
+      "name": "FichaClinica",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FichaClinica",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "g6ifrfrj017",
+      "name": "Hora_Atencion",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Hora_Atencion",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "gapsyaektpu",
+      "name": "ID_Interno",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ID_Interno",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "grcomx3iot3",
+      "name": "Nombres",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nombres",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "l987w6bx0vl",
+      "name": "DV",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "DV",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "mca3iu2kgls",
+      "name": "Pasaporte",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Pasaporte",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ob2fr2v9319",
+      "name": "Hora_Egreso",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Hora_Egreso",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "pdes7vxfsrr",
+      "name": "Fecha_Egreso",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Egreso",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "pjhyckciesc",
+      "name": "TipoAdmision",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "TipoAdmision",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qefu0i8qz7i",
+      "name": "Fecha_Atencion",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Atencion",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "y4kshsd97b9",
+      "name": "Estado_Atencion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Admision_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Estado_Atencion",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.784Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

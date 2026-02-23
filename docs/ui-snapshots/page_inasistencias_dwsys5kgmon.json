@@ -1,0 +1,281 @@
+{
+  "capturedAt": "2026-02-18T20:34:06.641Z",
+  "route": {
+    "id": 349011284131843,
+    "title": "Inasistencias",
+    "type": "page",
+    "schemaUid": "dwsys5kgmon",
+    "parentId": 349011282034688
+  },
+  "schema": {
+    "type": "void",
+    "x-component": "Page",
+    "properties": {
+      "grid": {
+        "type": "void",
+        "x-component": "Grid",
+        "x-initializer": "page:addBlock",
+        "properties": {
+          "zm8v42z0wn2": {
+            "type": "void",
+            "x-component": "Grid.Row",
+            "properties": {
+              "col1": {
+                "type": "void",
+                "x-component": "Grid.Col",
+                "properties": {
+                  "block1": {
+                    "type": "void",
+                    "x-component": "CardItem",
+                    "x-decorator": "TableBlockProvider",
+                    "x-filter-targets": [],
+                    "x-component-props": {
+                      "title": "Inasistencias"
+                    },
+                    "x-decorator-props": {
+                      "action": "list",
+                      "params": {
+                        "pageSize": 20
+                      },
+                      "collection": "ag_inasistencias",
+                      "dataSource": "main"
+                    },
+                    "properties": {
+                      "actions": {
+                        "type": "void",
+                        "x-index": 1,
+                        "x-component": "ActionBar",
+                        "x-component-props": {
+                          "style": {
+                            "marginBottom": 16
+                          }
+                        },
+                        "properties": {
+                          "filter": {
+                            "type": "void",
+                            "title": "Filtrar",
+                            "x-index": 1,
+                            "x-action": "filter",
+                            "x-component": "Filter.Action",
+                            "x-component-props": {
+                              "icon": "FilterOutlined"
+                            },
+                            "x-uid": "epr3jyx9i9l",
+                            "x-async": false
+                          },
+                          "refresh": {
+                            "type": "void",
+                            "title": "Actualizar",
+                            "x-index": 2,
+                            "x-action": "refresh",
+                            "x-component": "Action",
+                            "x-component-props": {
+                              "icon": "ReloadOutlined"
+                            },
+                            "x-uid": "kg9yxnjmymt",
+                            "x-async": false
+                          },
+                          "create": {
+                            "type": "void",
+                            "title": "Nuevo",
+                            "x-index": 3,
+                            "x-action": "create",
+                            "x-component": "Action",
+                            "x-decorator": "ACLActionProvider",
+                            "x-component-props": {
+                              "icon": "PlusOutlined",
+                              "type": "primary",
+                              "openMode": "drawer"
+                            },
+                            "x-uid": "byp340plyis",
+                            "x-async": false
+                          }
+                        },
+                        "x-uid": "4tpqih1wx4u",
+                        "x-async": false
+                      },
+                      "table": {
+                        "type": "array",
+                        "x-index": 2,
+                        "x-component": "TableV2",
+                        "x-component-props": {
+                          "rowKey": "id",
+                          "rowSelection": {
+                            "type": "checkbox"
+                          }
+                        },
+                        "x-use-component-props": "useTableBlockProps",
+                        "properties": {
+                          "fecha": {
+                            "type": "void",
+                            "x-index": 1,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.Decorator",
+                            "x-component-props": {
+                              "width": 200
+                            },
+                            "properties": {
+                              "fecha": {
+                                "type": "string",
+                                "x-component": "CollectionField",
+                                "x-decorator": "FormItem",
+                                "x-read-pretty": true,
+                                "x-collection-field": "ag_inasistencias.fecha",
+                                "x-uid": "jg1xhrb1wn9",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "v4ufhunneqe",
+                            "x-async": false
+                          },
+                          "periodo": {
+                            "type": "void",
+                            "x-index": 2,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.Decorator",
+                            "x-component-props": {
+                              "width": 200
+                            },
+                            "properties": {
+                              "periodo": {
+                                "type": "string",
+                                "x-component": "CollectionField",
+                                "x-decorator": "FormItem",
+                                "x-read-pretty": true,
+                                "x-collection-field": "ag_inasistencias.periodo",
+                                "x-uid": "vnt0aqovbka",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "z4oh3t3vixy",
+                            "x-async": false
+                          },
+                          "notas": {
+                            "type": "void",
+                            "x-index": 3,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.Decorator",
+                            "x-component-props": {
+                              "width": 200
+                            },
+                            "properties": {
+                              "notas": {
+                                "type": "string",
+                                "x-component": "CollectionField",
+                                "x-decorator": "FormItem",
+                                "x-read-pretty": true,
+                                "x-collection-field": "ag_inasistencias.notas",
+                                "x-uid": "36uzzqf61fz",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "zsrglkamzj2",
+                            "x-async": false
+                          },
+                          "__actions__": {
+                            "type": "void",
+                            "title": "Acciones",
+                            "x-index": 4,
+                            "x-component": "TableV2.Column",
+                            "x-decorator": "TableV2.Column.ActionBar",
+                            "x-component-props": {
+                              "width": 150
+                            },
+                            "properties": {
+                              "actions": {
+                                "type": "void",
+                                "x-component": "Space",
+                                "x-component-props": {
+                                  "split": "|"
+                                },
+                                "properties": {
+                                  "view": {
+                                    "type": "void",
+                                    "title": "Ver",
+                                    "x-index": 1,
+                                    "x-action": "view",
+                                    "x-component": "Action.Link",
+                                    "x-decorator": "ACLActionProvider",
+                                    "x-uid": "16ftvx8vid9",
+                                    "x-async": false
+                                  },
+                                  "update": {
+                                    "type": "void",
+                                    "title": "Editar",
+                                    "x-index": 2,
+                                    "x-action": "update",
+                                    "x-component": "Action.Link",
+                                    "x-decorator": "ACLActionProvider",
+                                    "x-uid": "zgi8a6q15v4",
+                                    "x-async": false
+                                  }
+                                },
+                                "x-uid": "41iuyv3rdhn",
+                                "x-async": false,
+                                "x-index": 1
+                              }
+                            },
+                            "x-uid": "gzfrelrc25v",
+                            "x-async": false
+                          }
+                        },
+                        "x-uid": "emhs978tlcd",
+                        "x-async": false
+                      }
+                    },
+                    "x-uid": "wfhl392ys32",
+                    "x-async": false,
+                    "x-index": 1
+                  }
+                },
+                "x-uid": "gq837uckvq5",
+                "x-async": false,
+                "x-index": 1
+              }
+            },
+            "x-uid": "i9rmwtnusxr",
+            "x-async": false,
+            "x-index": 1
+          }
+        },
+        "x-uid": "6sld3qtwm36",
+        "x-async": false,
+        "x-index": 1
+      }
+    },
+    "name": "h6t57aunzvm",
+    "x-uid": "dwsys5kgmon",
+    "x-async": true
+  },
+  "blockTypes": [
+    "table"
+  ],
+  "collections": [
+    "ag_inasistencias"
+  ],
+  "componentTree": [
+    "Page (dwsys5kgmon)",
+    "  Grid (6sld3qtwm36)",
+    "    Grid.Row (i9rmwtnusxr)",
+    "      Grid.Col (gq837uckvq5)",
+    "        CardItem [TableBlockProvider] (wfhl392ys32)",
+    "          ActionBar (4tpqih1wx4u)",
+    "            Filter.Action (epr3jyx9i9l)",
+    "            Action (kg9yxnjmymt)",
+    "            Action [ACLActionProvider] (byp340plyis)",
+    "          TableV2 (emhs978tlcd)",
+    "            TableV2.Column [TableV2.Column.Decorator] (v4ufhunneqe)",
+    "              CollectionField [FormItem] (jg1xhrb1wn9)",
+    "            TableV2.Column [TableV2.Column.Decorator] (z4oh3t3vixy)",
+    "              CollectionField [FormItem] (vnt0aqovbka)",
+    "            TableV2.Column [TableV2.Column.Decorator] (zsrglkamzj2)",
+    "              CollectionField [FormItem] (36uzzqf61fz)",
+    "            TableV2.Column [TableV2.Column.ActionBar] (gzfrelrc25v)",
+    "              Space (41iuyv3rdhn)",
+    "                Action.Link [ACLActionProvider] (16ftvx8vid9)",
+    "                Action.Link [ACLActionProvider] (zgi8a6q15v4)"
+  ]
+}

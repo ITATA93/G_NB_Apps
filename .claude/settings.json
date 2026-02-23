@@ -1,0 +1,151 @@
+{
+  "version": "2.0.0",
+  "project": {
+    "name": "NB_Apps - MIRA Hospital Ovalle",
+    "description": "Plataforma NocoBase para gestión clínica (UGCO, BUHO)",
+    "type": "nocobase-platform",
+    "workspace": "c:\\Proyectos\\NB_Apps"
+  },
+
+  "ai": {
+    "primary": "claude",
+    "memory": {
+      "enabled": true,
+      "path": ".claude/memory",
+      "retention_days": 90,
+      "auto_save": true
+    },
+    "context": {
+      "max_tokens": 200000,
+      "priority": ["current_file", "related_files", "docs", "memory"],
+      "include_git_history": true
+    }
+  },
+
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "path": ".claude/logs",
+    "rotation": "daily",
+    "retention_days": 30,
+    "formats": {
+      "console": "simple",
+      "file": "json"
+    },
+    "categories": {
+      "errors": true,
+      "warnings": true,
+      "actions": true,
+      "api_calls": true,
+      "file_changes": true,
+      "conversations": false
+    }
+  },
+
+  "hooks": {
+    "enabled": true,
+    "path": ".claude/hooks",
+    "on_startup": "startup.sh",
+    "on_file_change": "file_change.sh",
+    "on_error": "error.sh",
+    "on_api_call": "api_call.sh",
+    "on_task_complete": "task_complete.sh"
+  },
+
+  "skills": {
+    "enabled": true,
+    "path": ".claude/skills",
+    "auto_load": true,
+    "available": [
+      "nocobase-db-collections",
+      "nocobase-db-fields",
+      "nocobase-db-relationships",
+      "nocobase-db-datasources",
+      "nocobase-db-views",
+      "nocobase-workflows",
+      "nocobase-charts",
+      "nocobase-permissions",
+      "nocobase-ui-blocks",
+      "nocobase-menu-organization",
+      "nocobase-page-list",
+      "nocobase-page-create",
+      "nocobase-page-delete",
+      "nocobase-page-verify",
+      "nocobase-system"
+    ]
+  },
+
+  "nocobase": {
+    "api_url_env": "NOCOBASE_BASE_URL",
+    "api_token_env": "NOCOBASE_API_KEY",
+    "execution_mode": "api",
+    "preferences": {
+      "use_api_first": true,
+      "verify_changes": true
+    }
+  },
+
+  "permissions": {
+    "auto_approve": {
+      "read_files": true,
+      "write_documentation": true,
+      "git_status": true,
+      "safe_commands": true
+    },
+    "require_approval": {
+      "delete_files": true,
+      "git_push": true,
+      "database_operations": true,
+      "api_mutations": true
+    },
+    "allow": [
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(npm install)",
+      "Bash(npx tsx:*)",
+      "Read(*)",
+      "Write(docs/*)",
+      "Write(*.md)",
+      "Glob(*)",
+      "Grep(*)"
+    ]
+  },
+
+  "workspace": {
+    "structure": {
+      "apps": "Apps",
+      "scripts_shared": "shared/scripts",
+      "scripts_python": "shared/python",
+      "docs": "docs",
+      "specs": "docs/specs"
+    },
+    "file_associations": {
+      "*.yaml": "blueprint",
+      "*.md": "documentation",
+      "*.ts": "typescript",
+      "*.js": "javascript",
+      "*.py": "python"
+    }
+  },
+
+  "quality_gates": {
+    "before_commit": {
+      "lint": false,
+      "format": false,
+      "no_secrets": true,
+      "no_todos": false
+    },
+    "before_deploy": {
+      "tests": false,
+      "build": false,
+      "security_scan": true
+    }
+  },
+
+  "experimental": {
+    "auto_documentation": true,
+    "smart_context": true,
+    "proactive_suggestions": false
+  }
+}

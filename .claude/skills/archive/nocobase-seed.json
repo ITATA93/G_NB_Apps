@@ -1,0 +1,128 @@
+{
+  "name": "nocobase-seed",
+  "version": "1.0.0",
+  "description": "Cargar datos maestros y de referencia en NocoBase",
+  "trigger": "/nocobase-seed",
+  "aliases": ["/nb-seed", "/seed-data"],
+
+  "capabilities": [
+    "seed_reference_data",
+    "seed_test_data",
+    "seed_from_dictionaries",
+    "seed_from_csv",
+    "verify_seeding"
+  ],
+
+  "workflow": {
+    "steps": [
+      {
+        "id": "identify_seed_requirements",
+        "description": "Identificar qué datos necesitan ser cargados",
+        "sources": [
+          "app-spec/app.yaml (seed section)",
+          "Apps/UGCO/BD/diccionarios_raw/*.json",
+          "User input"
+        ],
+        "output": "seed_plan"
+      },
+      {
+        "id": "prepare_data",
+        "description": "Preparar y validar datos antes de cargar",
+        "validations": [
+          "check_format",
+          "validate_references",
+          "check_duplicates"
+        ],
+        "output": "validated_data"
+      },
+      {
+        "id": "check_existing_data",
+        "description": "Verificar si datos ya existen para evitar duplicación",
+        "tools": ["Bash"],
+        "command": "npm run ugco:list",
+        "output": "existing_data"
+      },
+      {
+        "id": "confirm_seeding",
+        "description": "Mostrar plan de seeding y solicitar confirmación",
+        "tools": ["AskUserQuestion"],
+        "show": {
+          "collections_affected": true,
+          "records_to_insert": true,
+          "estimated_time": true
+        },
+        "output": "user_approved"
+      },
+      {
+        "id": "execute_seeding",
+        "description": "Ejecutar scripts de seeding",
+        "sequential": true,
+        "scripts": [
+          {
+            "priority": 1,
+            "name": "reference_data",
+            "script": "scripts/seed_data.js",
+            "collections": ["ref_*", "activity_types", "departments"]
+          },
+          {
+            "priority": 2,
+            "name": "dictionaries",
+            "script": "custom",
+            "logic": "load_from_json_files"
+          }
+        ],
+        "output": "seeding_result"
+      },
+      {
+        "id": "verify_seeding",
+        "description": "Verificar que datos se cargaron correctamente",
+        "checks": [
+          "count_records",
+          "validate_integrity",
+          "check_relationships"
+        ],
+        "output": "verification_result"
+      },
+      {
+        "id": "log_seeding",
+        "description": "Registrar operación de seeding en logs",
+        "include": ["collections_seeded", "records_inserted", "errors"],
+        "output": "log_entry"
+      }
+    ]
+  },
+
+  "safety": {
+    "prevent_duplicate_seeds": true,
+    "backup_before_seed": false,
+    "rollback_on_error": false,
+    "max_records_per_batch": 1000
+  },
+
+  "error_handling": {
+    "on_validation_error": {
+      "action": "abort",
+      "log": true,
+      "notify_user": true
+    },
+    "on_insert_error": {
+      "action": "continue",
+      "log": true,
+      "track_failed_records": true
+    }
+  },
+
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "include": ["records_inserted", "errors", "timing", "affected_collections"]
+  },
+
+  "context_requirements": {
+    "files": [
+      "app-spec/app.yaml",
+      "Apps/UGCO/BD/diccionarios_raw/*.json",
+      "scripts/seed_data.js"
+    ]
+  }
+}

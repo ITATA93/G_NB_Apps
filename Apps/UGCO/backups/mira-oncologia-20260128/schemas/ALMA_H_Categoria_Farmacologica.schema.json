@@ -1,0 +1,55 @@
+{
+  "collection": {
+    "name": "ALMA_H_Categoria_Farmacologica",
+    "title": "ALMA H_Categoria_Farmacologica",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "eghwj01ptcx",
+      "name": "ARCIC_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Categoria_Farmacologica",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ARCIC_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "mv4sly024k8",
+      "name": "Codigo_Categoria",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Categoria_Farmacologica",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Categoria",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "xv8664uvyks",
+      "name": "Descripcion_Categoria",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Categoria_Farmacologica",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Descripcion_Categoria",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.713Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

@@ -1,0 +1,36 @@
+{
+  "source_file": "Registro_Hospitalario_Cancer_formulario_registro_v1_0.xlsm",
+  "sheet_name": "base_externa",
+  "entry_count": 3,
+  "entries": [
+    {
+      "N_RUN": 51000,
+      "DIGITO_VERIFICADOR": 3,
+      "N_DOCUMENTO": "",
+      "SEXO_BIOLOGICO": "HOMBRE",
+      "IDENTIDAD_DE_GENERO": "MASCULINO",
+      "NOMBRE": "PEDRO",
+      "PRIMER_APELLIDO": "PEREZ",
+      "SEGUNDO_APELLIDO": "CARMONA"
+    },
+    {
+      "N_RUN": 51001,
+      "DIGITO_VERIFICADOR": 4,
+      "SEXO_BIOLOGICO": "HOMBRE",
+      "IDENTIDAD_DE_GENERO": "MASCULINO",
+      "NOMBRE": "JUAN",
+      "PRIMER_APELLIDO": "PEREZ",
+      "SEGUNDO_APELLIDO": "CARMONA"
+    },
+    {
+      "N_RUN": 51002,
+      "DIGITO_VERIFICADOR": 5,
+      "N_DOCUMENTO": "",
+      "SEXO_BIOLOGICO": "HOMBRE",
+      "IDENTIDAD_DE_GENERO": "MASCULINO",
+      "NOMBRE": "DIEGO",
+      "PRIMER_APELLIDO": "PEREZ",
+      "SEGUNDO_APELLIDO": "CARMONA"
+    }
+  ]
+}

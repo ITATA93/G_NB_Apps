@@ -1,0 +1,84 @@
+{
+  "source_file": "DEIS_Esquema_Registros_2025_Corregido.xlsx",
+  "sheet_name": "Anexo 11",
+  "entry_count": 20,
+  "entries": [
+    {
+      "Anexo 11": "Categoria Ocupacional"
+    },
+    {
+      "Anexo 11": "Código",
+      "__EMPTY": "Descripción"
+    },
+    {
+      "Anexo 11": 1,
+      "__EMPTY": "INACTIVOS"
+    },
+    {
+      "Anexo 11": 2,
+      "__EMPTY": "ACTIVOS"
+    },
+    {
+      "Anexo 11": 3,
+      "__EMPTY": "CESANTE O TEMPORALMENTE SIN TRABAJO"
+    },
+    {
+      "Anexo 11": 99,
+      "__EMPTY": "IGNORADO"
+    },
+    {
+      "Anexo 11": "En caso que la categoria ocupacional sea 2, las alternativas son las siguientes:"
+    },
+    {
+      "Anexo 11": "Código",
+      "__EMPTY": "Descripción"
+    },
+    {
+      "Anexo 11": 1,
+      "__EMPTY": "MIEMBRO DEL PODER EJECUTIVO DE LOS CUERPOS LEGISLATIVOS, PERSONAL DIRECTIVO DE LA ADMINISTRACIÓN PÚBLICA Y DE EMPRESA"
+    },
+    {
+      "Anexo 11": 2,
+      "__EMPTY": "PROFESIONALES CIENTÍFICOS O INTELECTUALES"
+    },
+    {
+      "Anexo 11": 3,
+      "__EMPTY": "TÉCNICOS Y PROFESIONALES DE NIVEL MEDIO"
+    },
+    {
+      "Anexo 11": 4,
+      "__EMPTY": "EMPLEADOS DE OFICINA"
+    },
+    {
+      "Anexo 11": 5,
+      "__EMPTY": "TRABAJADORES DE LOS SERVICIOS Y VENDEDORES DE COMERCIO Y MERCADO"
+    },
+    {
+      "Anexo 11": 6,
+      "__EMPTY": "AGRICULTORES Y TRABAJADORES CALIFICADOS AGROPECUARIOS Y PESQUEROS"
+    },
+    {
+      "Anexo 11": 7,
+      "__EMPTY": "OFICIALES, OPERARIOS Y ARTESANOS DE ARTES MECÁNICAS Y DE OTROS OFICIOS"
+    },
+    {
+      "Anexo 11": 8,
+      "__EMPTY": "OPERADORES DE INSTALACIONES Y MÁQUINAS Y MONTADORAS"
+    },
+    {
+      "Anexo 11": 9,
+      "__EMPTY": "TRABAJADORES NO CALIFICADOS"
+    },
+    {
+      "Anexo 11": 10,
+      "__EMPTY": "FUERZAS ARMADAS"
+    },
+    {
+      "Anexo 11": 99,
+      "__EMPTY": "DESCONOCIDO"
+    },
+    {
+      "__EMPTY_1": "< < Volver"
+    }
+  ]
+}

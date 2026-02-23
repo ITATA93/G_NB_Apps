@@ -1,0 +1,55 @@
+{
+  "collection": {
+    "name": "ALMA_H_CIE10",
+    "title": "ALMA H_CIE10",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "ioy75tia4v9",
+      "name": "ID_Cie",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_CIE10",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ID_Cie",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "n1ugmwb8qav",
+      "name": "Clase",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_CIE10",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Clase",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "xko967io880",
+      "name": "Descripcion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_CIE10",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Descripcion",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:10.636Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

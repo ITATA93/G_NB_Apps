@@ -1,0 +1,392 @@
+{
+  "timestamp": "2026-01-29T17:59:38.399Z",
+  "total": 20,
+  "collections": [
+    {
+      "key": "05gg7gflf85",
+      "name": "activity_blocks",
+      "title": "Bloques de Actividad",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "0dk4ebfzycl",
+      "name": "ALMA_Tipo_Paciente",
+      "title": "ALMA Tipo_Paciente",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "0f9bkyua2gi",
+      "name": "ALMA_H_OncologiaMensual",
+      "title": "ALMA H_OncologiaMensual",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "0hfpmlmsnr1",
+      "name": "ref_comuna",
+      "title": "REF Comunas",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "0jzmky32j90",
+      "name": "UGCO_REF_oncomorfologiaicdo",
+      "title": "UGCO REF: Morfología ICD-O",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "0phktso5wyi",
+      "name": "ALMA_PacientesData_full",
+      "title": "ALMA PacientesData_full",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "0tk4w35tcgx",
+      "name": "schedule_blocks",
+      "title": "Bloques de Agenda",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "sortable": true,
+      "template": "general",
+      "autoGenId": true,
+      "createdAt": true,
+      "createdBy": true,
+      "updatedAt": true,
+      "updatedBy": true,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "0x8sjseovh5",
+      "name": "ALMA_PacientesData",
+      "title": "ALMA PacientesData",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "11sujsld2o2",
+      "name": "UGCO_REF_oncotipodocumento",
+      "title": "UGCO REF: Tipo de Documento",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "11v4ug8dn1b",
+      "name": "UGCO_REF_oncoestadoactividad",
+      "title": "UGCO REF: Estado de Actividad",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "1fvvxzho0xf",
+      "name": "UGCO_REF_oncoestadocaso",
+      "title": "UGCO REF: Estado de Caso",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "1w8fuehnvqf",
+      "name": "ALMA_H_Farmacos",
+      "title": "ALMA H_Farmacos",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "1y19c8zrwi4",
+      "name": "ref_etapa_clinica",
+      "title": "REF Etapa Clínica (Local)",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "1yoris3lzdy",
+      "name": "ref_identidadgenero",
+      "title": "Identidad de Género (HL7)",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "2945c5acef1",
+      "name": "UGCO_REF_oncotnm_n",
+      "title": "UGCO REF: TNM - Nódulos (N)",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "2s8s97ssyso",
+      "name": "ALMA_H_Diagnostico",
+      "title": "ALMA H_Diagnostico",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "388oncufe0t",
+      "name": "users",
+      "title": "{{t(\"Users\")}}",
+      "inherit": false,
+      "hidden": false,
+      "description": "Descripción actualizada por test API - 2025-11-21T19:56:29.452Z",
+      "from": "db2cm",
+      "model": "UserModel",
+      "origin": "@nocobase/plugin-users",
+      "shared": true,
+      "logging": true,
+      "sortable": "sort",
+      "createdBy": true,
+      "dumpRules": {
+        "group": "user"
+      },
+      "updatedBy": true,
+      "underscored": true,
+      "migrationRules": [
+        "schema-only",
+        "overwrite",
+        "schema-only",
+        "overwrite",
+        "skip"
+      ],
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "3wqsg3rw4xj",
+      "name": "ref_sexobiologico",
+      "title": "Sexo Biológico (HL7)",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "465r1rs191k",
+      "name": "ALMA_Sexo",
+      "title": "ALMA Sexo",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    },
+    {
+      "key": "51dzd93gc53",
+      "name": "UGCO_ALMA_diagnostico",
+      "title": "UGCO ALMA: Diagnóstico",
+      "inherit": false,
+      "hidden": false,
+      "description": null,
+      "createdAt": false,
+      "createdBy": false,
+      "updatedAt": false,
+      "updatedBy": false,
+      "filterTargetKey": "id",
+      "unavailableActions": []
+    }
+  ],
+  "classification": {
+    "ugco": [
+      {
+        "name": "ALMA_Tipo_Paciente",
+        "title": "ALMA Tipo_Paciente"
+      },
+      {
+        "name": "ALMA_H_OncologiaMensual",
+        "title": "ALMA H_OncologiaMensual"
+      },
+      {
+        "name": "ALMA_PacientesData_full",
+        "title": "ALMA PacientesData_full"
+      },
+      {
+        "name": "ALMA_PacientesData",
+        "title": "ALMA PacientesData"
+      }
+    ],
+    "system": [
+      {
+        "name": "users",
+        "title": "{{t(\"Users\")}}"
+      }
+    ],
+    "other": [
+      {
+        "name": "activity_blocks",
+        "title": "Bloques de Actividad"
+      },
+      {
+        "name": "ref_comuna",
+        "title": "REF Comunas"
+      },
+      {
+        "name": "UGCO_REF_oncomorfologiaicdo",
+        "title": "UGCO REF: Morfología ICD-O"
+      },
+      {
+        "name": "schedule_blocks",
+        "title": "Bloques de Agenda"
+      },
+      {
+        "name": "UGCO_REF_oncotipodocumento",
+        "title": "UGCO REF: Tipo de Documento"
+      },
+      {
+        "name": "UGCO_REF_oncoestadoactividad",
+        "title": "UGCO REF: Estado de Actividad"
+      },
+      {
+        "name": "UGCO_REF_oncoestadocaso",
+        "title": "UGCO REF: Estado de Caso"
+      },
+      {
+        "name": "ALMA_H_Farmacos",
+        "title": "ALMA H_Farmacos"
+      },
+      {
+        "name": "ref_etapa_clinica",
+        "title": "REF Etapa Clínica (Local)"
+      },
+      {
+        "name": "ref_identidadgenero",
+        "title": "Identidad de Género (HL7)"
+      },
+      {
+        "name": "UGCO_REF_oncotnm_n",
+        "title": "UGCO REF: TNM - Nódulos (N)"
+      },
+      {
+        "name": "ALMA_H_Diagnostico",
+        "title": "ALMA H_Diagnostico"
+      },
+      {
+        "name": "ref_sexobiologico",
+        "title": "Sexo Biológico (HL7)"
+      },
+      {
+        "name": "ALMA_Sexo",
+        "title": "ALMA Sexo"
+      },
+      {
+        "name": "UGCO_ALMA_diagnostico",
+        "title": "UGCO ALMA: Diagnóstico"
+      }
+    ]
+  }
+}

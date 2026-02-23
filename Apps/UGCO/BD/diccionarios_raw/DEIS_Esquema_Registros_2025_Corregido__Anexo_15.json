@@ -1,0 +1,45 @@
+{
+  "source_file": "DEIS_Esquema_Registros_2025_Corregido.xlsx",
+  "sheet_name": "Anexo 15",
+  "entry_count": 10,
+  "entries": [
+    {
+      "Anexo 15": "Destino al Alta"
+    },
+    {
+      "Anexo 15": "Código",
+      "__EMPTY": "Descripción"
+    },
+    {
+      "Anexo 15": 1,
+      "__EMPTY": "Domicilio"
+    },
+    {
+      "Anexo 15": 2,
+      "__EMPTY": "Derivación a otro establecimiento de la red pública"
+    },
+    {
+      "Anexo 15": 3,
+      "__EMPTY": "Derivación a institución privada"
+    },
+    {
+      "Anexo 15": 4,
+      "__EMPTY": "Derivación a otros centros u otra institución"
+    },
+    {
+      "Anexo 15": 5,
+      "__EMPTY": "Alta voluntaria"
+    },
+    {
+      "Anexo 15": 6,
+      "__EMPTY": "Fuga del paciente"
+    },
+    {
+      "Anexo 15": 7,
+      "__EMPTY": "Hospitalización domiciliaria"
+    },
+    {
+      "__EMPTY_1": "< < Volver"
+    }
+  ]
+}

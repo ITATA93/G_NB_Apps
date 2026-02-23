@@ -1,0 +1,405 @@
+{
+  "collection": {
+    "name": "ALMA_H_Oncologia",
+    "title": "ALMA H_Oncologia",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "5lt24oov1zt",
+      "name": "cod_Prestacion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "cod_Prestacion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "6ixz8l5e9gy",
+      "name": "Estado_Atencion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Estado_Atencion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "7xi60yyo3jd",
+      "name": "Plan",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Plan",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "8546o9tg92q",
+      "name": "Diagnostico_Secundario",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Diagnostico_Secundario",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "bualn2w3hgb",
+      "name": "Rut_Recurso_Cita",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Rut_Recurso_Cita",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "crehkch6xd1",
+      "name": "N_Episodio",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "N_Episodio",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "eigj0fiuloa",
+      "name": "Rut_Paciente",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Rut_Paciente",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "f6yp08yyysu",
+      "name": "Deceso",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Deceso",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "g9x5dumuevj",
+      "name": "Prestacion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Prestacion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "gy41ohvtixg",
+      "name": "Hora_PrimeraAtencion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Hora_PrimeraAtencion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "iw6j82egmy3",
+      "name": "Cod_Estado_Cita",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Cod_Estado_Cita",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "jkfbzwqsny2",
+      "name": "Pasaporte",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Pasaporte",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "k8snvn2wcx5",
+      "name": "Estado_Cita",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Estado_Cita",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "m8klrist955",
+      "name": "Apellido_Paterno",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Apellido_Paterno",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "nig7gyi6vnk",
+      "name": "Fecha_PrimeraAtencion",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_PrimeraAtencion",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "oebwk4rh84h",
+      "name": "Sexo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Sexo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "pcoa4lgje4o",
+      "name": "Nombres_Paciente",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nombres_Paciente",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "psxszx7lj6j",
+      "name": "Fecha_Cita",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Cita",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "q99h96506bv",
+      "name": "Rut_Primera_Atencion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Rut_Primera_Atencion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qgt3f2flx7v",
+      "name": "Celular",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Celular",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "u0tlzlojcl8",
+      "name": "Profesional_Primera_Atencion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Profesional_Primera_Atencion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "uj23mizclde",
+      "name": "Hora_Cita",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Hora_Cita",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "vttbjvdw6gq",
+      "name": "TelefonoRecado",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "TelefonoRecado",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "x0f200t5jgc",
+      "name": "Comuna",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Comuna",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "x7cxh1kkj1g",
+      "name": "FichaClinica",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FichaClinica",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "xnbbqnm99kx",
+      "name": "Estado_Conyugal",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Estado_Conyugal",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "yqynmnwn0pm",
+      "name": "Nombre_Recurso_Cita",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nombre_Recurso_Cita",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "zd401ui1wsj",
+      "name": "Nacionalidad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Oncologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nacionalidad",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.335Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

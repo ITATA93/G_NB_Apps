@@ -1,0 +1,69 @@
+{
+  "collection": {
+    "name": "ALMA_Estado_Conyugal",
+    "title": "ALMA Estado_Conyugal",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "6qk235a2x5r",
+      "name": "Fecha_Reg",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Estado_Conyugal",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Reg",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "jrknzme2xq7",
+      "name": "Codigo_Conyugal",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Estado_Conyugal",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Conyugal",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "o4bk4fki1v7",
+      "name": "Estado_Conyugal",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Estado_Conyugal",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Estado_Conyugal",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "wtypwr0hopt",
+      "name": "CTMAR_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Estado_Conyugal",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CTMAR_RowId",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.297Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

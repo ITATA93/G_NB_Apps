@@ -1,0 +1,405 @@
+{
+  "collection": {
+    "name": "ALMA_Pacientes",
+    "title": "ALMA Pacientes",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "14127f9excy",
+      "name": "FkCTNAT_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FkCTNAT_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "4c7yv3bpum2",
+      "name": "FkPTYPE_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FkPTYPE_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "4g8vl53wgco",
+      "name": "Apellido_Paterno",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Apellido_Paterno",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "4syhcgox7yc",
+      "name": "FkINDST_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FkINDST_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "4vjmgj63xm6",
+      "name": "FkHOSP_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FkHOSP_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "5iqpxm3e13c",
+      "name": "Deceso",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Deceso",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "at1joga4d9r",
+      "name": "Apellido_Materno",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Apellido_Materno",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ax4is94sc10",
+      "name": "Nregistro",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nregistro",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "b6clatji3rd",
+      "name": "Telefono_Contacto",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Telefono_Contacto",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "b6rth8o1ty4",
+      "name": "FkCTCIT_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FkCTCIT_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "fhw9ebmdr8a",
+      "name": "FkINST_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FkINST_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "gii1gtx29pg",
+      "name": "Hora_Deceso",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Hora_Deceso",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "h5os6padgmt",
+      "name": "FkCTRLG_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FkCTRLG_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "lfwsavo4kp7",
+      "name": "Email",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Email",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "mk3uxbmlm6c",
+      "name": "Fecha_Nacimiento",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Nacimiento",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "n7b1xywqyz5",
+      "name": "Pasaporte",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Pasaporte",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ofm3i121649",
+      "name": "FkRTMAS_Hospital_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FkRTMAS_Hospital_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "peoczqydgo1",
+      "name": "Nombres_Paciente",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nombres_Paciente",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qufp3sym1gw",
+      "name": "FkCTMAR_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FkCTMAR_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "rig22qrl10p",
+      "name": "Telefono_Recado",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Telefono_Recado",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "rrcz09gce9u",
+      "name": "Celular",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Celular",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "sgtlmm3eopm",
+      "name": "Fecha_Deceso",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Deceso",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "u5wec409m5x",
+      "name": "Ficha_Clinica",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Ficha_Clinica",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "uk21g759knw",
+      "name": "Rut_Paciente",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Rut_Paciente",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "v83etjf79a1",
+      "name": "FkCTSEX_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FkCTSEX_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "vhn64384fdx",
+      "name": "PAPMI_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PAPMI_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "vqe9c2d0rz7",
+      "name": "FKAUXIT_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FKAUXIT_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "y8zkgfxbulq",
+      "name": "Direccion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Direccion",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.397Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

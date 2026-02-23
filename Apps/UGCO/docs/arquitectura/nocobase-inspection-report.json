@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-11-21T19:32:55.620Z",
+  "nocobaseUrl": "https://nocobase.hospitaldeovalle.cl/api",
+  "successEndpoint": "/collections:list",
+  "summary": {
+    "total": 8,
+    "alma": 0,
+    "onco": 0,
+    "system": 2,
+    "other": 6
+  },
+  "collections": {
+    "alma": [],
+    "onco": [],
+    "other": [
+      {
+        "name": "t_fcwwwzv1d9m",
+        "title": "Episodio Oncologico"
+      },
+      {
+        "name": "departments",
+        "title": "{{t(\"Unidades\")}}"
+      },
+      {
+        "name": "t_y8hbbtkjgl3",
+        "title": "Oncologia"
+      },
+      {
+        "name": "t_uralzvq4vg1",
+        "title": "Pacientes_Hospitalizados"
+      },
+      {
+        "name": "t_6xbh17pki1d",
+        "title": "Pacientes"
+      },
+      {
+        "name": "t_pkg68r6rprd",
+        "title": "Comite Oncologico"
+      }
+    ]
+  },
+  "gaps": {
+    "missingAlma": [
+      "alma_pacientes",
+      "alma_episodios",
+      "alma_diagnosticos"
+    ],
+    "missingOnco": [
+      "onco_especialidades",
+      "onco_casos",
+      "onco_caso_especialidades",
+      "onco_episodios",
+      "onco_seguimiento_eventos",
+      "onco_comite_sesiones",
+      "onco_comite_casos"
+    ]
+  }
+}

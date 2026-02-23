@@ -1,0 +1,50 @@
+{
+  "collection": {
+    "name": "ref_oncotopografia",
+    "title": "Topografía (CIE-O-3)",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "633o4wa2hnf",
+      "name": "codigo_oficial",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ref_oncotopografia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Código C"
+      }
+    },
+    {
+      "key": "82y8nxz3qb7",
+      "name": "descripcion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ref_oncotopografia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Descripción"
+      }
+    },
+    {
+      "key": "ajkzi4wn13a",
+      "name": "sistema_cod",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "ref_oncotopografia",
+      "parentKey": null,
+      "reverseKey": null,
+      "defaultValue": "http://hl7.org/fhir/sid/icd-o-3"
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.545Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

@@ -1,0 +1,4473 @@
+{
+  "source_file": "DEIS_Esquema_Registros_2025_Corregido.xlsx",
+  "sheet_name": "Anexo 9",
+  "entry_count": 1117,
+  "entries": [
+    {
+      "Anexo 9": "(Arancel FONASA para Intervenciones Quirúrgicas)"
+    },
+    {
+      "__EMPTY_2": "< < Volver"
+    },
+    {
+      "Anexo 9": "Codigo",
+      "__EMPTY_1": "Descripción"
+    },
+    {
+      "Anexo 9": "0000000",
+      "__EMPTY_1": "Sin Arancel FONASA"
+    },
+    {
+      "Anexo 9": 1103001,
+      "__EMPTY_1": "Malformaciones vasculares del cuero cabelludo incluye aneurisma cirsoideo"
+    },
+    {
+      "Anexo 9": 1103002,
+      "__EMPTY_1": "Sinus pericrani, trat. quir."
+    },
+    {
+      "Anexo 9": 1103003,
+      "__EMPTY_1": "Hundimiento simple, reparación de"
+    },
+    {
+      "Anexo 9": 1103004,
+      "__EMPTY_1": "Craneoplastía con autoinjerto"
+    },
+    {
+      "Anexo 9": 1103005,
+      "__EMPTY_1": "Craneoplastía con prótesis (no incluye valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1103006,
+      "__EMPTY_1": "Tumores de calota, extirp. de"
+    },
+    {
+      "Anexo 9": 1103007,
+      "__EMPTY_1": "Osteomielitis, limpieza quirúrgica"
+    },
+    {
+      "Anexo 9": 1103008,
+      "__EMPTY_1": "Craniectomías descompresivas"
+    },
+    {
+      "Anexo 9": 1103009,
+      "__EMPTY_1": "Reparación de fractura crecedora"
+    },
+    {
+      "Anexo 9": 1103010,
+      "__EMPTY_1": "Craneotomías lineales"
+    },
+    {
+      "Anexo 9": 1103011,
+      "__EMPTY_1": "Craniectomías c/s remodelación ósea"
+    },
+    {
+      "Anexo 9": 1103014,
+      "__EMPTY_1": "Hematoma o absceso extradural, vaciamiento de"
+    },
+    {
+      "Anexo 9": 1103015,
+      "__EMPTY_1": "Reparación de fístula de LCR"
+    },
+    {
+      "Anexo 9": 1103016,
+      "__EMPTY_1": "Hematoma, empiema o colección subdural, vaciamiento de"
+    },
+    {
+      "Anexo 9": 1103017,
+      "__EMPTY_1": "Quistes aracnoidales encefálicos, trat. quir. (suprasellares, temporales, cerebelosos, etc.)"
+    },
+    {
+      "Anexo 9": 1103018,
+      "__EMPTY_1": "Ventriculostomía o instalación de derivativa ventricular externa o instalación de captor para medición de pic o punción biopsia o reservorio para administración de medicamentos"
+    },
+    {
+      "Anexo 9": 1103019,
+      "__EMPTY_1": "Absceso cerebral, trat. quir."
+    },
+    {
+      "Anexo 9": 1103020,
+      "__EMPTY_1": "Herida por bala craneoencefálica y/o extirpación de cuerpo extraño"
+    },
+    {
+      "Anexo 9": 1103021,
+      "__EMPTY_1": "Hundimiento expuesto, repar. de"
+    },
+    {
+      "Anexo 9": 1103022,
+      "__EMPTY_1": "Lobectomías por contusión cerebral"
+    },
+    {
+      "Anexo 9": 1103023,
+      "__EMPTY_1": "Hematoma intracerebral, vaciamiento de"
+    },
+    {
+      "Anexo 9": 1103024,
+      "__EMPTY_1": "Extirpación de tumores y/o quistes y/o cavernoma de base de cráneo"
+    },
+    {
+      "Anexo 9": 1103025,
+      "__EMPTY_1": "Extirpación de tumores y/o quistes y/o cavernoma  Intraorbitarios"
+    },
+    {
+      "Anexo 9": 1103026,
+      "__EMPTY_1": "Extirpación de tumores y/o quistes y/o cavernoma encefálicos y de hipófisis"
+    },
+    {
+      "Anexo 9": 1103027,
+      "__EMPTY_1": "Aneurismas, malformaciones arteriovenosas encefálicas u orbitarias, fístulas durales"
+    },
+    {
+      "Anexo 9": 1103028,
+      "__EMPTY_1": "Fístula carótido cavernosa tratamiento endovascular"
+    },
+    {
+      "Anexo 9": 1103029,
+      "__EMPTY_1": "Fístula carótido cavernosa, trat. quir."
+    },
+    {
+      "Anexo 9": 1103030,
+      "__EMPTY_1": "Anastomosis y revascularización cerebral endodurosinangiosis"
+    },
+    {
+      "Anexo 9": 1103031,
+      "__EMPTY_1": "Anastomosis y revascularización cerebral extra-intracraneana (cirugía de carótida: ver Cirugía Vascular Periférica)"
+    },
+    {
+      "Anexo 9": 1103032,
+      "__EMPTY_1": "Instalación de derivativas de LCR (no incluye valor de la válvula)"
+    },
+    {
+      "Anexo 9": 1103132,
+      "__EMPTY_1": "Instalación de derivativas de LCR (incluye valor de la válvula)"
+    },
+    {
+      "Anexo 9": 1103033,
+      "__EMPTY_1": "Revisión o exteriorización de derivativa"
+    },
+    {
+      "Anexo 9": 1103034,
+      "__EMPTY_1": "Ventriculocisternostomía"
+    },
+    {
+      "Anexo 9": 1103035,
+      "__EMPTY_1": "Fenestración, septostomía o coagulación plexos coroídeos (trat. endoscópico)"
+    },
+    {
+      "Anexo 9": 1103036,
+      "__EMPTY_1": "Cirugía descompresiva de fosa posterior u occipito-vertebral en Arnol Chiari, siringomielia"
+    },
+    {
+      "Anexo 9": 1103037,
+      "__EMPTY_1": "Meningo y meningoencefalocele occipital, repar. de"
+    },
+    {
+      "Anexo 9": 1103038,
+      "__EMPTY_1": "Cirugía descompresiva neurovascular"
+    },
+    {
+      "Anexo 9": 1103039,
+      "__EMPTY_1": "Neurotomías"
+    },
+    {
+      "Anexo 9": 1103040,
+      "__EMPTY_1": "Neurolisis o microcompresión percutánea"
+    },
+    {
+      "Anexo 9": 1103041,
+      "__EMPTY_1": "Cirugía de la epilepsia (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 1103042,
+      "__EMPTY_1": "Biopsia estereotáxica cerebral con marco de estereotaxia o neuronavegador"
+    },
+    {
+      "Anexo 9": 1103043,
+      "__EMPTY_1": "Termocoagulación de zonas cerebrales con radiofrecuencia o ultrasonido focalizado con técnica estereotáxica para el tratamiento de enfermedad de parkinson, temblor esencial, psicocirugía y otros"
+    },
+    {
+      "Anexo 9": 1103045,
+      "__EMPTY_1": "Implantación de estimuladores intracraneanos"
+    },
+    {
+      "Anexo 9": 1103046,
+      "__EMPTY_1": "Instalación de estimuladores medulares"
+    },
+    {
+      "Anexo 9": 1103047,
+      "__EMPTY_1": "Disrafias espinales: meningocele, mielomeningocele, diastematomielia, lipoma, lipomeningocele, médula anclada, etc."
+    },
+    {
+      "Anexo 9": 1103048,
+      "__EMPTY_1": "Infiltracion facetaria columna y radicular"
+    },
+    {
+      "Anexo 9": 1103049,
+      "__EMPTY_1": "Hernia núcleo pulposo, estenorraquis, aracnoiditis, fibrosis perirradicular cervical, dorsal o lumbar, trat. quir."
+    },
+    {
+      "Anexo 9": 1103050,
+      "__EMPTY_1": "Laminectomía descompresiva"
+    },
+    {
+      "Anexo 9": 1103069,
+      "__EMPTY_1": "Fijación de columna (cervical – dorsal – lumbar) cualquier vía abordaje, c/s osteosíntesis"
+    },
+    {
+      "Anexo 9": 1103051,
+      "__EMPTY_1": "Heridas raquimedulares, trat. quir."
+    },
+    {
+      "Anexo 9": 1103052,
+      "__EMPTY_1": "Tumor vertebral, trat. quir."
+    },
+    {
+      "Anexo 9": 1103053,
+      "__EMPTY_1": "Tumor o quiste medular o intrarraquídeo, trat. quir."
+    },
+    {
+      "Anexo 9": 1103054,
+      "__EMPTY_1": "Malformación arteriovenosa o fístula dural medular, trat. quir."
+    },
+    {
+      "Anexo 9": 1103055,
+      "__EMPTY_1": "Cordotomía percutánea"
+    },
+    {
+      "Anexo 9": 1103056,
+      "__EMPTY_1": "Mielotomía, DREZtomía"
+    },
+    {
+      "Anexo 9": 1103057,
+      "__EMPTY_1": "Rizotomía (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 1103058,
+      "__EMPTY_1": "Tumor de nervio periférico, extirp. de"
+    },
+    {
+      "Anexo 9": 1103059,
+      "__EMPTY_1": "Reparación de plexos c/s neurotización con técnica microquirúrgica o injertos interfasciculares"
+    },
+    {
+      "Anexo 9": 1103060,
+      "__EMPTY_1": "Sección de nervio, reparación con injerto"
+    },
+    {
+      "Anexo 9": 1103061,
+      "__EMPTY_1": "Sección de nervio, reparación sin injerto"
+    },
+    {
+      "Anexo 9": 1103068,
+      "__EMPTY_1": "Neurectomía, cualquier localización, cada zona quirúrgica"
+    },
+    {
+      "Anexo 9": 1103062,
+      "__EMPTY_1": "Neurolisis con técnica microquirúrgica"
+    },
+    {
+      "Anexo 9": 1103063,
+      "__EMPTY_1": "Neurolisis externa"
+    },
+    {
+      "Anexo 9": 1103064,
+      "__EMPTY_1": "Síndrome del escaleno, trat. quir."
+    },
+    {
+      "Anexo 9": 1103065,
+      "__EMPTY_1": "Síndrome de costilla cervical, trat. quir."
+    },
+    {
+      "Anexo 9": 1103066,
+      "__EMPTY_1": "Síndrome del túnel del carpo o del tarso u otro, trat. quir."
+    },
+    {
+      "Anexo 9": 1103067,
+      "__EMPTY_1": "Transposición cubital, repar. de"
+    },
+    {
+      "Anexo 9": 1103070,
+      "__EMPTY_1": "Biopsia de nervio periférico"
+    },
+    {
+      "Anexo 9": 1103071,
+      "__EMPTY_1": "Retiro de material de osteosíntesis o distractores en cirugía de craneosinostosis"
+    },
+    {
+      "Anexo 9": 1103072,
+      "__EMPTY_1": "Denervación facetaria o ramo medial columna"
+    },
+    {
+      "Anexo 9": 1103073,
+      "__EMPTY_1": "Artroplastia de columna "
+    },
+    {
+      "Anexo 9": 1103074,
+      "__EMPTY_1": "Aseo quirúrgico de columna vertebral"
+    },
+    {
+      "Anexo 9": 1103075,
+      "__EMPTY_1": "Laminoplastía cervical"
+    },
+    {
+      "Anexo 9": 1103076,
+      "__EMPTY_1": "Guía estereotáxica para realización de cirugía o procedimiento neuroquirúrgico intracranéano "
+    },
+    {
+      "Anexo 9": 1103077,
+      "__EMPTY_1": "Neurotomía periférica selectiva para tratamiento de espasticidad"
+    },
+    {
+      "Anexo 9": 1103083,
+      "__EMPTY_1": "Liberación quirúrgica de nervio periférico en el Síndrome del Túnel Carpiano téc. WALANT (anestesia local sin torniquete)"
+    },
+    {
+      "Anexo 9": 1103078,
+      "__EMPTY_1": "Cementación vertebral cervical, dorsal o lumbar hasta 3 niveles"
+    },
+    {
+      "Anexo 9": 1103079,
+      "__EMPTY_1": "Cementación vertebral cervical, dorsal o lumbar mas de 3 niveles"
+    },
+    {
+      "Anexo 9": 1103080,
+      "__EMPTY_1": "Fusión intersomatica cervical"
+    },
+    {
+      "Anexo 9": 1103081,
+      "__EMPTY_1": "Fusión intersomática dorsal y lumbar corta"
+    },
+    {
+      "Anexo 9": 1103082,
+      "__EMPTY_1": "Fusión intersomática dorsal y lumbar larga"
+    },
+    {
+      "Anexo 9": 1202001,
+      "__EMPTY_1": "Intubación vía lagrimal"
+    },
+    {
+      "Anexo 9": 1202002,
+      "__EMPTY_1": "Puntos lagrimales, plastía de"
+    },
+    {
+      "Anexo 9": 1202003,
+      "__EMPTY_1": "Reconstitución de canalículos"
+    },
+    {
+      "Anexo 9": 1202004,
+      "__EMPTY_1": "Absceso, vaciamiento y/o drenaje de"
+    },
+    {
+      "Anexo 9": 1202005,
+      "__EMPTY_1": "Dacriocistorrinostomía"
+    },
+    {
+      "Anexo 9": 1202006,
+      "__EMPTY_1": "Extirpación de saco y/o glándula lagrimal"
+    },
+    {
+      "Anexo 9": 1202007,
+      "__EMPTY_1": "Reconstitución vía lagrimal en ausencia del saco"
+    },
+    {
+      "Anexo 9": 1202008,
+      "__EMPTY_1": "Tumor de glándula lagrimal, trat. quir. completo"
+    },
+    {
+      "Anexo 9": 1202009,
+      "__EMPTY_1": "Tumor maligno  del saco, trat. quir. completo"
+    },
+    {
+      "Anexo 9": 1202010,
+      "__EMPTY_1": "Absceso, trat. quir. párpado o ceja"
+    },
+    {
+      "Anexo 9": 1202011,
+      "__EMPTY_1": "Biopsia de párpado y/o anexos (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1202012,
+      "__EMPTY_1": "Blefarochalasis, plastía de"
+    },
+    {
+      "Anexo 9": 1202013,
+      "__EMPTY_1": "Blefarofimosis, plastía de"
+    },
+    {
+      "Anexo 9": 1202014,
+      "__EMPTY_1": "Blefarorrafia con blefarotomía posterior"
+    },
+    {
+      "Anexo 9": 1202015,
+      "__EMPTY_1": "Cantoplastía"
+    },
+    {
+      "Anexo 9": 1202016,
+      "__EMPTY_1": "Chalazión y otros tumores benignos (uno o más, unilateral), trat. quir. Completo"
+    },
+    {
+      "Anexo 9": 1202017,
+      "__EMPTY_1": "Plastía de Coloboma"
+    },
+    {
+      "Anexo 9": 1202018,
+      "__EMPTY_1": "Plastía de Ectropión"
+    },
+    {
+      "Anexo 9": 1202019,
+      "__EMPTY_1": "Plastía de Entropión"
+    },
+    {
+      "Anexo 9": 1202020,
+      "__EMPTY_1": "Plastía de Epicanto"
+    },
+    {
+      "Anexo 9": 1202021,
+      "__EMPTY_1": "Ptosis, trat. quir."
+    },
+    {
+      "Anexo 9": 1202022,
+      "__EMPTY_1": "Quiste dermoide de la cola de la ceja, resec. plástica"
+    },
+    {
+      "Anexo 9": 1202023,
+      "__EMPTY_1": "Tumor maligno de párpado o ceja, trat. quir. Completo"
+    },
+    {
+      "Anexo 9": 1202024,
+      "__EMPTY_1": "Xantelasma, trat. quir."
+    },
+    {
+      "Anexo 9": 1202071,
+      "__EMPTY_1": "Herida o dehiscencia de sutura de párpado, reparación"
+    },
+    {
+      "Anexo 9": 1202025,
+      "__EMPTY_1": "Herida o dehiscencia de la conjuntiva, sutura de (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1202026,
+      "__EMPTY_1": "Pterigión y/o pseudopterigión o su recidiva, extirpación"
+    },
+    {
+      "Anexo 9": 1202027,
+      "__EMPTY_1": "Simbléfaron, resección de adherencias y plastía de"
+    },
+    {
+      "Anexo 9": 1202028,
+      "__EMPTY_1": "Extirpación de tumor benigno de la conjuntiva"
+    },
+    {
+      "Anexo 9": 1202029,
+      "__EMPTY_1": "Absceso orbitario, trat. quir."
+    },
+    {
+      "Anexo 9": 1202030,
+      "__EMPTY_1": "Corrección de cavidad anoftálmica trat. completo"
+    },
+    {
+      "Anexo 9": 1202031,
+      "__EMPTY_1": "Cuerpo extraño orbitario (con orbitotomía)"
+    },
+    {
+      "Anexo 9": 1202032,
+      "__EMPTY_1": "Exanteración orbitaria o tumor orbitario, trat. quirúrgico completo"
+    },
+    {
+      "Anexo 9": 1202033,
+      "__EMPTY_1": "Orbitotomía anterior"
+    },
+    {
+      "Anexo 9": 1202034,
+      "__EMPTY_1": "Orbitotomía lateral descompresiva"
+    },
+    {
+      "Anexo 9": 1202072,
+      "__EMPTY_1": "Reconstrucción de piso orbitario"
+    },
+    {
+      "Anexo 9": 1202035,
+      "__EMPTY_1": "Biopsia de globo ocular (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1202036,
+      "__EMPTY_1": "Enucleación o implante de prótesis ocular (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1202037,
+      "__EMPTY_1": "Enucleación con implante"
+    },
+    {
+      "Anexo 9": 1202038,
+      "__EMPTY_1": "Tratamiento quirúrgico completo del estrabismo unilateral o bilateral"
+    },
+    {
+      "Anexo 9": 1202039,
+      "__EMPTY_1": "Exanteración ocular (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1202040,
+      "__EMPTY_1": "Sutura de lesión traumática de globo o musculos oculares (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1202041,
+      "__EMPTY_1": "Cirugía refractiva, queratotomía radial o similar con bisturí de diamante"
+    },
+    {
+      "Anexo 9": 1202042,
+      "__EMPTY_1": "Crioterapia y recesión conjuntival"
+    },
+    {
+      "Anexo 9": 1202044,
+      "__EMPTY_1": "Extracción quir. de cuerpo extraño en cornea y/o esclera"
+    },
+    {
+      "Anexo 9": 1202045,
+      "__EMPTY_1": "Glaucoma, trat. quir. por cualquier técnica"
+    },
+    {
+      "Anexo 9": 1202046,
+      "__EMPTY_1": "Herida corneal o corneo-escleral o dehiscencia de sutura"
+    },
+    {
+      "Anexo 9": 1202047,
+      "__EMPTY_1": "Queratectomía laminar"
+    },
+    {
+      "Anexo 9": 1202048,
+      "__EMPTY_1": "Queratoplastía. Injerto lamelar o penetrante trat. quir. Completo"
+    },
+    {
+      "Anexo 9": 1202049,
+      "__EMPTY_1": "Queratoprótesis, implantación de (no incluye el valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1202050,
+      "__EMPTY_1": "Recubrimiento conjuntival"
+    },
+    {
+      "Anexo 9": 1202051,
+      "__EMPTY_1": "Rehabilitación superficie ocular (con injerto de mucosa)"
+    },
+    {
+      "Anexo 9": 1202070,
+      "__EMPTY_1": "Sinequiotomía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1202073,
+      "__EMPTY_1": "Operación triple (injerto, facoéresis e implante de lente intraocular) (no incluye valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1202173,
+      "__EMPTY_1": "Operación triple (injerto, facoéresis e implante de lente intraocular) (incluye valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1202053,
+      "__EMPTY_1": "Iridectomía periférica y/u óptica, (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1202054,
+      "__EMPTY_1": "Tratamiento quirúrgico de lesión tumoral del iris o cuerpo ciliar"
+    },
+    {
+      "Anexo 9": 1202074,
+      "__EMPTY_1": "Hernia de iris y/o fístulas, reparación de"
+    },
+    {
+      "Anexo 9": 1202055,
+      "__EMPTY_1": "Desgarro sin desprendimiento, diatermo y/o crío y/o fotocoagulación"
+    },
+    {
+      "Anexo 9": 1202056,
+      "__EMPTY_1": "Desprendimiento retinal, cirugía convencional (exoimplantes)"
+    },
+    {
+      "Anexo 9": 1202058,
+      "__EMPTY_1": "Tumor retinal o coroidal, diatermo y/o crio y/o fotocoagulación de"
+    },
+    {
+      "Anexo 9": 1202059,
+      "__EMPTY_1": "Vasculopatía retinal (excepto retinopatía proliferativa) diatermo y/o crío y/o fotocoagulación"
+    },
+    {
+      "Anexo 9": 1202060,
+      "__EMPTY_1": "Vitrectomía c/retinotomía (c/s inyección de gas o silicona)"
+    },
+    {
+      "Anexo 9": 1202061,
+      "__EMPTY_1": "Vitrectomía con inyección de gas o silicona"
+    },
+    {
+      "Anexo 9": 1202062,
+      "__EMPTY_1": "Vitrectomía con vitreófago (proc. aut)"
+    },
+    {
+      "Anexo 9": 1202075,
+      "__EMPTY_1": "Retinopexia neumática"
+    },
+    {
+      "Anexo 9": 1202077,
+      "__EMPTY_1": "Desprendimiento coroídeo o hemorragia coroídea, trat. quir."
+    },
+    {
+      "Anexo 9": 1202063,
+      "__EMPTY_1": "Facoéresis intracapsular o catarata secundaria o discisión y aspiración de masas"
+    },
+    {
+      "Anexo 9": 1202064,
+      "__EMPTY_1": "Facoéresis extracapsular con implante de lente intraocular (no incluye el valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1202164,
+      "__EMPTY_1": "Facoéresis extracapsular con implante de lente intraocular (incluye el valor de la prótesis) "
+    },
+    {
+      "Anexo 9": 1202065,
+      "__EMPTY_1": "Implante secundario de lente intraocular"
+    },
+    {
+      "Anexo 9": 1202066,
+      "__EMPTY_1": "Aspiración esferular c/s capsulotomía"
+    },
+    {
+      "Anexo 9": 1202076,
+      "__EMPTY_1": "Extracción o corrección de desplazamiento de lente intraocular"
+    },
+    {
+      "Anexo 9": 1202057,
+      "__EMPTY_1": "Retinopatía proliferativa, (diabética, hipertensiva, Eales y otras) panfotocoagulación (trat. completo)"
+    },
+    {
+      "Anexo 9": 1202067,
+      "__EMPTY_1": "Discisión de cápsula posterior"
+    },
+    {
+      "Anexo 9": 1202068,
+      "__EMPTY_1": "Iridotomía"
+    },
+    {
+      "Anexo 9": 1202069,
+      "__EMPTY_1": "Trabeculoplastía o iridoplastía"
+    },
+    {
+      "Anexo 9": 1202078,
+      "__EMPTY_1": "Cirugía fotorrefractiva o fototerapéutica de córnea, cualquier técnica"
+    },
+    {
+      "Anexo 9": 1202079,
+      "__EMPTY_1": "Facoemulsificación"
+    },
+    {
+      "Anexo 9": 1202080,
+      "__EMPTY_1": "Tratamiento quirúrgico ptosis de la ceja"
+    },
+    {
+      "Anexo 9": 1202081,
+      "__EMPTY_1": "Evisceración del globo ocular"
+    },
+    {
+      "Anexo 9": 1202083,
+      "__EMPTY_1": "Tratamiento Trasplante de Córnea"
+    },
+    {
+      "Anexo 9": 1302001,
+      "__EMPTY_1": "Absceso y/o hematomas oído externo, trat. quir."
+    },
+    {
+      "Anexo 9": 1302002,
+      "__EMPTY_1": "Cuerpo extraño en conducto auditivo externo, extracción de, por vía retroauricular"
+    },
+    {
+      "Anexo 9": 1302003,
+      "__EMPTY_1": "Fístula preauricular complicada, trat. quir."
+    },
+    {
+      "Anexo 9": 1302004,
+      "__EMPTY_1": "Extirpación de tumor de conducto auditivo externo"
+    },
+    {
+      "Anexo 9": 1302005,
+      "__EMPTY_1": "Tumor maligno oído externo, trat. quir."
+    },
+    {
+      "Anexo 9": 1302006,
+      "__EMPTY_1": "Estapedectomía"
+    },
+    {
+      "Anexo 9": 1302007,
+      "__EMPTY_1": "Mastoidectomía c/s sección cuerda del tímpano"
+    },
+    {
+      "Anexo 9": 1302008,
+      "__EMPTY_1": "Mucositis timpánica o mixiosis uni o bilateral, trat. quir."
+    },
+    {
+      "Anexo 9": 1302009,
+      "__EMPTY_1": "Operación radical de oído"
+    },
+    {
+      "Anexo 9": 1302011,
+      "__EMPTY_1": "Reconstitución funcional de oído radicalizado"
+    },
+    {
+      "Anexo 9": 1302012,
+      "__EMPTY_1": "Timpanoplastía funcional (cualquier tipo) c/s mastoidectomía"
+    },
+    {
+      "Anexo 9": 1302013,
+      "__EMPTY_1": "Agenesia o estenosis, reconstitución plástica"
+    },
+    {
+      "Anexo 9": 1302014,
+      "__EMPTY_1": "Exostosis u osteoma oído medio o externo, resección por cualquier vía"
+    },
+    {
+      "Anexo 9": 1302015,
+      "__EMPTY_1": "Neurectomía de Jacobson"
+    },
+    {
+      "Anexo 9": 1302016,
+      "__EMPTY_1": "Reconstitución de conducto auditivo externo, c/s tímpanoplastía (incluye revisión de cadena osicular)"
+    },
+    {
+      "Anexo 9": 1302017,
+      "__EMPTY_1": "Tratamiento quirúrgico de tumor glómico timpánico"
+    },
+    {
+      "Anexo 9": 1302018,
+      "__EMPTY_1": "Laberintectomía"
+    },
+    {
+      "Anexo 9": 1302019,
+      "__EMPTY_1": "Neurinoma del acústico, trat. quir. vía translaberíntica y/o fosa media"
+    },
+    {
+      "Anexo 9": 1302020,
+      "__EMPTY_1": "Descompresión intraósea nervio facial c/s plastía"
+    },
+    {
+      "Anexo 9": 1302021,
+      "__EMPTY_1": "Lesiones a nivel del conducto auditivo interno, trat. quir."
+    },
+    {
+      "Anexo 9": 1302022,
+      "__EMPTY_1": "Biopsia buco-faríngea (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1302023,
+      "__EMPTY_1": "Sección simple y/o resección frenillo sublingual"
+    },
+    {
+      "Anexo 9": 1302024,
+      "__EMPTY_1": "Drenaje de absceso o flegmón de piso de boca"
+    },
+    {
+      "Anexo 9": 1302025,
+      "__EMPTY_1": "Drenaje de absceso o flegmón periamigdaliano"
+    },
+    {
+      "Anexo 9": 1302026,
+      "__EMPTY_1": "Drenaje de absceso o flegmón retrofaríngeo o faringolaríngeo"
+    },
+    {
+      "Anexo 9": 1302027,
+      "__EMPTY_1": "Drenaje de absceso o flegmón de vestíbulo bucal"
+    },
+    {
+      "Anexo 9": 1302028,
+      "__EMPTY_1": "Adenoidectomía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1302029,
+      "__EMPTY_1": "Amigdalectomía c/s adenoidectomía, uni o bilateral"
+    },
+    {
+      "Anexo 9": 1302030,
+      "__EMPTY_1": "Cálculos salivales, trat. quir."
+    },
+    {
+      "Anexo 9": 1302031,
+      "__EMPTY_1": "Tumor benigno de la mucosa bucal,  extirp. c/s  biopsia bucofaríngea"
+    },
+    {
+      "Anexo 9": 1302032,
+      "__EMPTY_1": "Tumor maligno de las amígdalas, trat. quir."
+    },
+    {
+      "Anexo 9": 1302033,
+      "__EMPTY_1": "Extirpacion de  tumor benigno de la base de la lengua                                                                                      "
+    },
+    {
+      "Anexo 9": 1302034,
+      "__EMPTY_1": "Extirpación tumor maligno de base de lengua"
+    },
+    {
+      "Anexo 9": 1302035,
+      "__EMPTY_1": "Faringoplastía (cualq. técn.), c/s desplazamiento de colgajos"
+    },
+    {
+      "Anexo 9": 1302036,
+      "__EMPTY_1": "Fibroangioma del rinofarinx, trat. quir."
+    },
+    {
+      "Anexo 9": 1302037,
+      "__EMPTY_1": "Glosectomía total"
+    },
+    {
+      "Anexo 9": 1302038,
+      "__EMPTY_1": "Abscesos y hematoma del tabique nasal, trat. quir."
+    },
+    {
+      "Anexo 9": 1302039,
+      "__EMPTY_1": "Arteria esfenopalatina, cauterización por vía nasal"
+    },
+    {
+      "Anexo 9": 1302040,
+      "__EMPTY_1": "Arteria maxilar interna, ligadura de (por vía transmaxilar)"
+    },
+    {
+      "Anexo 9": 1302041,
+      "__EMPTY_1": " Ligadura de arterias etmoidales anteriores"
+    },
+    {
+      "Anexo 9": 1302042,
+      "__EMPTY_1": "Turbinectomía o electrocauterización de cornetes"
+    },
+    {
+      "Anexo 9": 1302043,
+      "__EMPTY_1": "Conducto y/o seno lagrimal, obstrucción del, trat. quir. por vía nasal"
+    },
+    {
+      "Anexo 9": 1302044,
+      "__EMPTY_1": "Etmoidectomía endo o exonasal"
+    },
+    {
+      "Anexo 9": 1302045,
+      "__EMPTY_1": "Fístula buco-sinusal, trat. quir."
+    },
+    {
+      "Anexo 9": 1302046,
+      "__EMPTY_1": "Fract. Nasal reciente, cerrada o expuesta, reducc. c/s yeso"
+    },
+    {
+      "Anexo 9": 1302047,
+      "__EMPTY_1": "Nervio vidiano, sección del (por cualquier vía)"
+    },
+    {
+      "Anexo 9": 1302048,
+      "__EMPTY_1": "Perforación del tabique, trat. quir."
+    },
+    {
+      "Anexo 9": 1302049,
+      "__EMPTY_1": "Tratamiento quirúrgico pólipo nasal"
+    },
+    {
+      "Anexo 9": 1302050,
+      "__EMPTY_1": "Rinitis atrófica, trat. por inclusión submucosa, con cualquier material, uni o bilateral"
+    },
+    {
+      "Anexo 9": 1302051,
+      "__EMPTY_1": "Rinofima, trat. quir."
+    },
+    {
+      "Anexo 9": 1302052,
+      "__EMPTY_1": "Rinoplastía y/o septoplastía, cualquier técnica"
+    },
+    {
+      "Anexo 9": 1302053,
+      "__EMPTY_1": "Seno esfenoidal, abertura (vía transetmoidal o transeptal)"
+    },
+    {
+      "Anexo 9": 1302054,
+      "__EMPTY_1": "Seno frontal, trat. quir. c/s vaciamiento etmoidal"
+    },
+    {
+      "Anexo 9": 1302055,
+      "__EMPTY_1": "Seno maxilar, antrostomía c/s etmoidectomía ( operación  de Cadwell Luc y sim.)"
+    },
+    {
+      "Anexo 9": 1302056,
+      "__EMPTY_1": "Sinequia nasal, trat. quir."
+    },
+    {
+      "Anexo 9": 1302057,
+      "__EMPTY_1": "Tumor nasal, extirp. por rinotomía lateral"
+    },
+    {
+      "Anexo 9": 1302058,
+      "__EMPTY_1": "Vaciamiento etmoidal por vía nasal c/s polipectomía"
+    },
+    {
+      "Anexo 9": 1302059,
+      "__EMPTY_1": "Aritenoidectomía vía endoscópica"
+    },
+    {
+      "Anexo 9": 1302060,
+      "__EMPTY_1": "Aritenoidectomía vía externa"
+    },
+    {
+      "Anexo 9": 1302061,
+      "__EMPTY_1": "Decorticación de cuerdas vocales c/microscopio"
+    },
+    {
+      "Anexo 9": 1302062,
+      "__EMPTY_1": "Cuerdas vocales, tumores benignos, trat. quir.- Por laringotomía"
+    },
+    {
+      "Anexo 9": 1302063,
+      "__EMPTY_1": "Cuerdas vocales, tumores benignos, trat. quir.- Por vía endoscópica"
+    },
+    {
+      "Anexo 9": 1302064,
+      "__EMPTY_1": "Cordectomía, resección de sinequia y otras malformaciones, trat. quirúrgico por vía externa "
+    },
+    {
+      "Anexo 9": 1302065,
+      "__EMPTY_1": "Estenosis laringotraqueales y/o faríngeas, trat. quir."
+    },
+    {
+      "Anexo 9": 1302066,
+      "__EMPTY_1": "Laringectomía parcial o subtotal (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 1302067,
+      "__EMPTY_1": "Laringectomía total más faringectomía parcial"
+    },
+    {
+      "Anexo 9": 1302068,
+      "__EMPTY_1": "Laringectomía total más faringectomía total y/o esofagectomía cervical"
+    },
+    {
+      "Anexo 9": 1302069,
+      "__EMPTY_1": "Laringocele, trat. quir."
+    },
+    {
+      "Anexo 9": 1302070,
+      "__EMPTY_1": "Papilomas laríngeos, trat. quir. (por sesión)"
+    },
+    {
+      "Anexo 9": 1302071,
+      "__EMPTY_1": "Parálisis de cuerdas vocales, trat. quir. cualquier técnica"
+    },
+    {
+      "Anexo 9": 1302072,
+      "__EMPTY_1": "Traqueostomía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1302073,
+      "__EMPTY_1": "Estenosis laringotraqueales y faríngeas, trat. quir. por vía endoscópica (incluye laser) "
+    },
+    {
+      "Anexo 9": 1302074,
+      "__EMPTY_1": "Intervención quirúrgica implante coclear"
+    },
+    {
+      "Anexo 9": 1302075,
+      "__EMPTY_1": "Fractura laríngea, reducción abierta c/s microplacas"
+    },
+    {
+      "Anexo 9": 1302076,
+      "__EMPTY_1": "Punción timpánica para inyección de medicamentos"
+    },
+    {
+      "Anexo 9": 1302077,
+      "__EMPTY_1": "Implante activo de oído medio"
+    },
+    {
+      "Anexo 9": 1302078,
+      "__EMPTY_1": "Tumor de conducto auditivo externo, extirpación con reparación (injerto) del conducto"
+    },
+    {
+      "Anexo 9": 1302079,
+      "__EMPTY_1": "Aticotomía (excluye timpanoplastia funcional)"
+    },
+    {
+      "Anexo 9": 1302080,
+      "__EMPTY_1": "Plastía o dilatación por vía endoscópica trompa de Eustaquio"
+    },
+    {
+      "Anexo 9": 1302081,
+      "__EMPTY_1": "Meatoplastía en oído radicalizado"
+    },
+    {
+      "Anexo 9": 1302082,
+      "__EMPTY_1": "Reparación de brecha osteomeníngea por vía transtemporal"
+    },
+    {
+      "Anexo 9": 1302083,
+      "__EMPTY_1": "Resección subtotal del hueso temporal (incluye tegmen, laberinto y punta de peñasco)"
+    },
+    {
+      "Anexo 9": 1302084,
+      "__EMPTY_1": "Resección total del hueso temporal (abordaje combinado orl y neurocirujano)"
+    },
+    {
+      "Anexo 9": 1302085,
+      "__EMPTY_1": "Timpanectomía con o sin tubos de ventilación"
+    },
+    {
+      "Anexo 9": 1302086,
+      "__EMPTY_1": "Timpanoplastía funcional con reconstrucción de cadena osicular (excluye miringoplastía)"
+    },
+    {
+      "Anexo 9": 1302087,
+      "__EMPTY_1": "Timpanotomía exploradora"
+    },
+    {
+      "Anexo 9": 1302088,
+      "__EMPTY_1": "Tiroplastia 1-4"
+    },
+    {
+      "Anexo 9": 1302089,
+      "__EMPTY_1": "Toma de injerto cartilago tragal"
+    },
+    {
+      "Anexo 9": 1302090,
+      "__EMPTY_1": "Toma de injerto fascia temporal"
+    },
+    {
+      "Anexo 9": 1302091,
+      "__EMPTY_1": "Tumor glómico petro-tímpano-mástoídeo, tratamiento quirúrgico"
+    },
+    {
+      "Anexo 9": 1302092,
+      "__EMPTY_1": "Cirugía de fosa pterigo palatina"
+    },
+    {
+      "Anexo 9": 1302093,
+      "__EMPTY_1": "Reparación de válvula nasal"
+    },
+    {
+      "Anexo 9": 1302094,
+      "__EMPTY_1": "Resección de tumor de base de cráneo anterior con reparación de duramadre (colgajo pediculado de haddad o similar)"
+    },
+    {
+      "Anexo 9": 1302095,
+      "__EMPTY_1": "Resección lateral del hueso temporal (incluye mástoides y conducto auditivo externo en forma circular)"
+    },
+    {
+      "Anexo 9": 1302096,
+      "__EMPTY_1": "Tumor benigno nasosinusal y/o rinofaríngeo, resección por vía endoscópica (excluye fibroangioma nasofaríngeo)"
+    },
+    {
+      "Anexo 9": 1302097,
+      "__EMPTY_1": "Tumor de espacio parafaríngeo, extirpación"
+    },
+    {
+      "Anexo 9": 1302098,
+      "__EMPTY_1": "Tumor maligno nasosinusal y/o rinofaríngeo, tratamiento quirúrgico por vía endoscópica"
+    },
+    {
+      "Anexo 9": 1302099,
+      "__EMPTY_1": "Sinuplastía seno frontal con balón por endoscopía u otra técnica"
+    },
+    {
+      "Anexo 9": 1302100,
+      "__EMPTY_1": "Sinuplastía seno maxilar con balón por endoscopía u otra técnica"
+    },
+    {
+      "Anexo 9": 1302101,
+      "__EMPTY_1": "Sinuplastía seno esfenoidal con balón por endoscopia u otra técnica"
+    },
+    {
+      "Anexo 9": 1302102,
+      "__EMPTY_1": "Dacriocistocele reseccion vía nasal"
+    },
+    {
+      "Anexo 9": 1302103,
+      "__EMPTY_1": "Abducción de aritenoides, aritenoidopexia"
+    },
+    {
+      "Anexo 9": 1302104,
+      "__EMPTY_1": "Cordectomía, sinequia y otras malformaciones, tratatamiento quirúrgico por endoscópica (incluye laser)"
+    },
+    {
+      "Anexo 9": 1302105,
+      "__EMPTY_1": "Subluxación articulación cricotiroídea"
+    },
+    {
+      "Anexo 9": 1302106,
+      "__EMPTY_1": "Laringectomía parcial endoscópica con láser, incluye cordectomía ampliada (carcinoma supraglótico)"
+    },
+    {
+      "Anexo 9": 1302107,
+      "__EMPTY_1": "Laringoplastía por laringomalacia"
+    },
+    {
+      "Anexo 9": 1302108,
+      "__EMPTY_1": "Inyección de cuerda vocal vía endoscópica"
+    },
+    {
+      "Anexo 9": 1302109,
+      "__EMPTY_1": "Inyección de cuerda vocal vía externa"
+    },
+    {
+      "Anexo 9": 1402001,
+      "__EMPTY_1": "Tiroidectomía bilateral total"
+    },
+    {
+      "Anexo 9": 1402002,
+      "__EMPTY_1": "Tiroidectomía bilateral subtotal"
+    },
+    {
+      "Anexo 9": 1402003,
+      "__EMPTY_1": "Bocio intratorácico, trat. quir. por esternotomía"
+    },
+    {
+      "Anexo 9": 1402004,
+      "__EMPTY_1": "Extirpación de Tiroides lingual"
+    },
+    {
+      "Anexo 9": 1402005,
+      "__EMPTY_1": "Lobectomía con o sin istmectomía o resección parcial"
+    },
+    {
+      "Anexo 9": 1402006,
+      "__EMPTY_1": "Tiroidectomía total ampliada (incluye extirpación de estructuras anatómicas vecinas)"
+    },
+    {
+      "Anexo 9": 1402007,
+      "__EMPTY_1": "Adenoma y/o hiperplasia, trat. quir.- Autoinjerto de paratiroides (operación asociada a algunas de las prestaciones posteriores)"
+    },
+    {
+      "Anexo 9": 1402008,
+      "__EMPTY_1": "Adenoma y/o hiperplasia, trat. quir.- Explor. cervical mas esternotomía por hiperparatiroidismo"
+    },
+    {
+      "Anexo 9": 1402009,
+      "__EMPTY_1": "Adenoma y/o hiperplasia, trat. quir.- Exploración cervical por hiperparatiroidismo"
+    },
+    {
+      "Anexo 9": 1402010,
+      "__EMPTY_1": "Adenoma y/o hiperplasia, trat. quir.- Reintervención por hiperparatiroidismo"
+    },
+    {
+      "Anexo 9": 1402011,
+      "__EMPTY_1": "Parotidectomía suprafacial con disección y preservación del nervio facial"
+    },
+    {
+      "Anexo 9": 1402012,
+      "__EMPTY_1": "Parotidectomía total, con disección y preservación del nervio facial."
+    },
+    {
+      "Anexo 9": 1402013,
+      "__EMPTY_1": "Parotidectomía total ampliada (incluye músculos, ganglios, articulaciones y rama vertical de la mandíbula)"
+    },
+    {
+      "Anexo 9": 1402014,
+      "__EMPTY_1": "Totalización de parotidectomía previa o parotidectomía del lóbulo profundo"
+    },
+    {
+      "Anexo 9": 1402015,
+      "__EMPTY_1": "Extirpación submandibular ampliada (incluye piso de boca, arco mandibular, músculos y articulaciones)  "
+    },
+    {
+      "Anexo 9": 1402016,
+      "__EMPTY_1": "Extirpación de glándula salival submandibular"
+    },
+    {
+      "Anexo 9": 1402017,
+      "__EMPTY_1": "Extirpación glándula salival sublingual"
+    },
+    {
+      "Anexo 9": 1402018,
+      "__EMPTY_1": "Extirpación sublingual ampliada (incluye piso de boca, arco mandibular, músculos, ganglios y articulaciones)   "
+    },
+    {
+      "Anexo 9": 1402019,
+      "__EMPTY_1": "Absceso parotídeo, sub-maxilar y/o cervical profundo, trat. quir."
+    },
+    {
+      "Anexo 9": 1402020,
+      "__EMPTY_1": "Conductos salivales de excreción, reimplantación oro-faríngea"
+    },
+    {
+      "Anexo 9": 1402021,
+      "__EMPTY_1": "Cierre de fístula salival: reparación del conducto de excreción"
+    },
+    {
+      "Anexo 9": 1402022,
+      "__EMPTY_1": "Mucocele o quiste labial, trat. quir."
+    },
+    {
+      "Anexo 9": 1402023,
+      "__EMPTY_1": "Tortícolis congénita, trat. quir."
+    },
+    {
+      "Anexo 9": 1402024,
+      "__EMPTY_1": "Quistes y/o fístulas del conducto tirogloso, y/o branquial, y/o higroma, y/o fístula preauricular complicada, y/u otros quistes y/o tumores benignos, trat. quir."
+    },
+    {
+      "Anexo 9": 1402025,
+      "__EMPTY_1": "Tumores del cuerpo carotídeo, trat. quir. (incl. proc. vascular)"
+    },
+    {
+      "Anexo 9": 1402026,
+      "__EMPTY_1": "Biopsia quir., mucosa oronasofaríngea (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1402027,
+      "__EMPTY_1": "Biopsia quir., piel  y mucosa cara (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1402028,
+      "__EMPTY_1": "Resección cutánea ampliada (incluye musculatura, ganglios y huesos subyacentes; desplazamiento de colgajos)"
+    },
+    {
+      "Anexo 9": 1402029,
+      "__EMPTY_1": "Resección cutánea simple (sutura primaria)"
+    },
+    {
+      "Anexo 9": 1402030,
+      "__EMPTY_1": "Tumor maligno de labio superior o inferior, resección total del labio y cirugía reparadora"
+    },
+    {
+      "Anexo 9": 1402031,
+      "__EMPTY_1": "Tumor maligno de labio superior o inferior, resección parcial del labio y cirugía reparadora"
+    },
+    {
+      "Anexo 9": 1402032,
+      "__EMPTY_1": "Resección parcial y cirugía reparadora nariz"
+    },
+    {
+      "Anexo 9": 1402033,
+      "__EMPTY_1": "Resección total y cirugía reparadora nariz"
+    },
+    {
+      "Anexo 9": 1402034,
+      "__EMPTY_1": "Resección fronto-naso-etmoidiana"
+    },
+    {
+      "Anexo 9": 1402035,
+      "__EMPTY_1": "Exanteración orbitaria ampliada (incluye etmoides, hueso frontal, base de cráneo anterior y región máxilo-malar)"
+    },
+    {
+      "Anexo 9": 1402036,
+      "__EMPTY_1": "Extirpacion total ampliada del hueso temporal"
+    },
+    {
+      "Anexo 9": 1402037,
+      "__EMPTY_1": "Maxilectomia parcial y reparación protésica"
+    },
+    {
+      "Anexo 9": 1402038,
+      "__EMPTY_1": "Maxilectomía parcial (incluye paladar óseo; reparación con colgajo)"
+    },
+    {
+      "Anexo 9": 1402039,
+      "__EMPTY_1": "Maxilectomía radical ampliada (incluye exanteración orbitaria y de fosa craneal anterior o media)"
+    },
+    {
+      "Anexo 9": 1402040,
+      "__EMPTY_1": "Maxilectomía radical clásica (incluye exanteración orbitaria y reparación con colgajo)"
+    },
+    {
+      "Anexo 9": 1402041,
+      "__EMPTY_1": "Maxilectomía radical clásica (incluye exanteración orbitaria y reparación protésica)"
+    },
+    {
+      "Anexo 9": 1402042,
+      "__EMPTY_1": "Glosectomía parcial, reparación primaria"
+    },
+    {
+      "Anexo 9": 1402043,
+      "__EMPTY_1": "Resección amplia de tumor maligno cavidad oral y orofaringea y disección ganglionar cervical"
+    },
+    {
+      "Anexo 9": 1402044,
+      "__EMPTY_1": "Hemimandibulectomía"
+    },
+    {
+      "Anexo 9": 1402045,
+      "__EMPTY_1": "Mandibulectomía total"
+    },
+    {
+      "Anexo 9": 1402046,
+      "__EMPTY_1": "Operación \"comando\" (incluye extirp. del tumor, hemimandibulectomía y disección ganglionar radical de cuello)"
+    },
+    {
+      "Anexo 9": 1402047,
+      "__EMPTY_1": "Resección parcial de mandibula"
+    },
+    {
+      "Anexo 9": 1402048,
+      "__EMPTY_1": "Resección tridimensional intra-oral o faríngea ampliada"
+    },
+    {
+      "Anexo 9": 1402050,
+      "__EMPTY_1": "Faringectomía parcial"
+    },
+    {
+      "Anexo 9": 1402051,
+      "__EMPTY_1": "Genioplastía"
+    },
+    {
+      "Anexo 9": 1402052,
+      "__EMPTY_1": "Osteotomias segmentarias del maxilar o mandíbula"
+    },
+    {
+      "Anexo 9": 1402053,
+      "__EMPTY_1": "Osteotomias totales del maxilar o mandibula (tipo Le Fort I o sagital de rama)"
+    },
+    {
+      "Anexo 9": 1402054,
+      "__EMPTY_1": "Reducción cerrada de fracturas maxilofaciales"
+    },
+    {
+      "Anexo 9": 1402055,
+      "__EMPTY_1": "Reduccion abierta de fracturas maxilofaciales y estabilizacion con elementos de osteosintesis,"
+    },
+    {
+      "Anexo 9": 1402056,
+      "__EMPTY_1": "Reducción abierta de fracturas maxilofaciales con osteosintesis única,"
+    },
+    {
+      "Anexo 9": 1402057,
+      "__EMPTY_1": "Reconstrucciones complejas de la cara simultáneas con proc. neuroquirúrgico (craneotomías más abordajes y trat. facial), tiempo facial"
+    },
+    {
+      "Anexo 9": 1402058,
+      "__EMPTY_1": "Reconstrucciones de partes duras y blandas de la cara, mediante abordajes múltiples y hemicoronal o coronal"
+    },
+    {
+      "Anexo 9": 1402059,
+      "__EMPTY_1": "Remoción de arcos dentarios o ligaduras de alambre "
+    },
+    {
+      "Anexo 9": 1402060,
+      "__EMPTY_1": "Reducción simple fractura maxilo facial (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1502001,
+      "__EMPTY_1": "Heridas de la cara Complicadas: 1 o varias de más de 5 cms. y/o ubicadas en bordes de párpados, labios o ala nasal y/o que comprometen músculos, conductos, vasos o nervios"
+    },
+    {
+      "Anexo 9": 1502002,
+      "__EMPTY_1": "Heridas de la cara- Simples: 1 o varias de hasta 5 cms. que sólo comprometen piel"
+    },
+    {
+      "Anexo 9": 1502003,
+      "__EMPTY_1": "Implante de silicona facial (cualquier zona o zonas)"
+    },
+    {
+      "Anexo 9": 1502004,
+      "__EMPTY_1": "Resección plástica de hasta 2 cicatrices (cualquier localización o tamaño)"
+    },
+    {
+      "Anexo 9": 1502005,
+      "__EMPTY_1": "Cicatrices (cualquier localización o tamaño), resecc. plástica de (proc. aut.)- 3 y más"
+    },
+    {
+      "Anexo 9": 1502006,
+      "__EMPTY_1": "Injertos hasta 1% superficie corporal receptora"
+    },
+    {
+      "Anexo 9": 1502007,
+      "__EMPTY_1": "Injertos piel parcial y/o mucosa- Hasta 5% superficie corporal receptora"
+    },
+    {
+      "Anexo 9": 1502008,
+      "__EMPTY_1": "Injertos hasta 10% superficie corporal receptora"
+    },
+    {
+      "Anexo 9": 1502009,
+      "__EMPTY_1": "Injertos piel parcial y/o mucosa- Por cada 10% (o su fracción) adicional hasta 50%"
+    },
+    {
+      "Anexo 9": 1502010,
+      "__EMPTY_1": "Injertos piel parcial y/o mucosa- 51% y más de superficie corporal receptora"
+    },
+    {
+      "Anexo 9": 1502011,
+      "__EMPTY_1": "Piel total, cualquier tamaño (incluye tratamiento zona dadora y receptora)"
+    },
+    {
+      "Anexo 9": 1502012,
+      "__EMPTY_1": "Toma de injertos- Cartílago (auricular, costal o similares) c/u"
+    },
+    {
+      "Anexo 9": 1502013,
+      "__EMPTY_1": "Toma de injertos- Oseo (costal, ilíaco, tibial o similares) c/u"
+    },
+    {
+      "Anexo 9": 1502014,
+      "__EMPTY_1": "Plastías en Z- Hasta 3"
+    },
+    {
+      "Anexo 9": 1502015,
+      "__EMPTY_1": "Plastías en Z- 4 y más"
+    },
+    {
+      "Anexo 9": 1502016,
+      "__EMPTY_1": "Colgajos complejos (Abbe, Mustarda, Converse, Juri, Bakamjian o similar)"
+    },
+    {
+      "Anexo 9": 1502017,
+      "__EMPTY_1": "Colgajos libres con microanastomosis (incluye toma del colgajo y las suturas neurovasculares)"
+    },
+    {
+      "Anexo 9": 1502018,
+      "__EMPTY_1": "Colgajos musculares o musculocutáneos"
+    },
+    {
+      "Anexo 9": 1502019,
+      "__EMPTY_1": "Colgajos osteomusculocutáneos"
+    },
+    {
+      "Anexo 9": 1502020,
+      "__EMPTY_1": "Colgajos simples dos o más"
+    },
+    {
+      "Anexo 9": 1502021,
+      "__EMPTY_1": "Colgajo simple único"
+    },
+    {
+      "Anexo 9": 1502022,
+      "__EMPTY_1": "Parálisis facial, trasplantes musculares"
+    },
+    {
+      "Anexo 9": 1502023,
+      "__EMPTY_1": "Ridectomía- Cérvico-facial, un lado"
+    },
+    {
+      "Anexo 9": 1502024,
+      "__EMPTY_1": "Ridectomía- Frontal"
+    },
+    {
+      "Anexo 9": 1502025,
+      "__EMPTY_1": "Aladas o en asa, corrección plástica"
+    },
+    {
+      "Anexo 9": 1502026,
+      "__EMPTY_1": "Lóbulo auricular partido, corrección plástica (proc. aut)"
+    },
+    {
+      "Anexo 9": 1502027,
+      "__EMPTY_1": "Malformación congénita compleja, cada plastía o plastías en tiempos diferentes"
+    },
+    {
+      "Anexo 9": 1502028,
+      "__EMPTY_1": "Corrección nasal parcial (alares, alargamiento columela o similar)"
+    },
+    {
+      "Anexo 9": 1502029,
+      "__EMPTY_1": "Blefaroplastia párpados inferiores, uni o bilateral"
+    },
+    {
+      "Anexo 9": 1502030,
+      "__EMPTY_1": "Blefaroplastia párpados superiores, uni o bilateral"
+    },
+    {
+      "Anexo 9": 1502031,
+      "__EMPTY_1": "Corrección quirúrgica secundaria de queiloplastía"
+    },
+    {
+      "Anexo 9": 1502032,
+      "__EMPTY_1": "Queiloplastía primaria, un lado (proc. quir. completo por cualquier técnica)"
+    },
+    {
+      "Anexo 9": 1502033,
+      "__EMPTY_1": "Cierre de paladar duro y/o cierre de comunicación oro-nasal"
+    },
+    {
+      "Anexo 9": 1502034,
+      "__EMPTY_1": "Cierre mucoso vestíbulo oral"
+    },
+    {
+      "Anexo 9": 1502035,
+      "__EMPTY_1": "Plastía de velo (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 1502036,
+      "__EMPTY_1": "Cierre de macrostomía, unilateral"
+    },
+    {
+      "Anexo 9": 1502037,
+      "__EMPTY_1": "Tratamiento quirurgico de anomalías cráneo faciales"
+    },
+    {
+      "Anexo 9": 1502038,
+      "__EMPTY_1": "Reconst. Osteopl.reborde alveolar- Bilateral en un tiempo"
+    },
+    {
+      "Anexo 9": 1502039,
+      "__EMPTY_1": "Reconst. Osteopl.reborde alveolar - Unilateral"
+    },
+    {
+      "Anexo 9": 1502040,
+      "__EMPTY_1": "Distoplasias orbitarias: movilización unilateral o vertical tiempo facial"
+    },
+    {
+      "Anexo 9": 1502041,
+      "__EMPTY_1": "Expansión o reconstrucción de un micro-orbitismo"
+    },
+    {
+      "Anexo 9": 1502042,
+      "__EMPTY_1": "Síndrome de Apert Crouzon o similar: avance fronto-órbito-maxilar vía intracraneana, tiempo facial"
+    },
+    {
+      "Anexo 9": 1502043,
+      "__EMPTY_1": "Síndrome de Apert Crouzon o similar: osteotomía tipo Le Fort III o similar"
+    },
+    {
+      "Anexo 9": 1502044,
+      "__EMPTY_1": "Corrección telecanto"
+    },
+    {
+      "Anexo 9": 1502045,
+      "__EMPTY_1": "Movilización orbitaria extracraneana"
+    },
+    {
+      "Anexo 9": 1502046,
+      "__EMPTY_1": "Movilización orbitaria intracraneana, tiempo facial"
+    },
+    {
+      "Anexo 9": 1502047,
+      "__EMPTY_1": "Ginecomastía, corrección plástica"
+    },
+    {
+      "Anexo 9": 1502048,
+      "__EMPTY_1": "Mamoplastía de aumento"
+    },
+    {
+      "Anexo 9": 1502049,
+      "__EMPTY_1": "Mamoplastía de reducción"
+    },
+    {
+      "Anexo 9": 1502050,
+      "__EMPTY_1": "Mastopexia c/s implante de prótesis (no incluye valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1502051,
+      "__EMPTY_1": "Reconstrucción areola y/o pezón c/s plastía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1502052,
+      "__EMPTY_1": "Reconstrucción mamaria"
+    },
+    {
+      "Anexo 9": 1502053,
+      "__EMPTY_1": "Abdominoplastia"
+    },
+    {
+      "Anexo 9": 1502054,
+      "__EMPTY_1": "Escarectomía con resección ósea c/s colgajo de rotación"
+    },
+    {
+      "Anexo 9": 1502055,
+      "__EMPTY_1": "Tratamiento de escaras de decubito, con resección ósea y colgajos musculares o musculocutáneos"
+    },
+    {
+      "Anexo 9": 1502056,
+      "__EMPTY_1": "Sindactilia, trat. quir. cada espacio- con injerto"
+    },
+    {
+      "Anexo 9": 1502057,
+      "__EMPTY_1": "Sindactilia, trat. quir. cada espacio- Sin injerto"
+    },
+    {
+      "Anexo 9": 1502058,
+      "__EMPTY_1": "Polidactilia, extirpación y plastía unilateral"
+    },
+    {
+      "Anexo 9": 1502059,
+      "__EMPTY_1": "Lipectomía glútea, unilateral"
+    },
+    {
+      "Anexo 9": 1502060,
+      "__EMPTY_1": "Lipectomía trocantérea, unilateral"
+    },
+    {
+      "Anexo 9": 1502061,
+      "__EMPTY_1": "Escarotomía- Hasta 10 % superficie corporal"
+    },
+    {
+      "Anexo 9": 1502062,
+      "__EMPTY_1": "Escarotomía- Por cada 10 % adicional (o su fracción)"
+    },
+    {
+      "Anexo 9": 1502063,
+      "__EMPTY_1": "Escarectomía- Hasta 1 % superficie corporal"
+    },
+    {
+      "Anexo 9": 1502064,
+      "__EMPTY_1": "Escarectomía- Hasta 5 % superficie corporal"
+    },
+    {
+      "Anexo 9": 1502065,
+      "__EMPTY_1": "Escarectomía- Hasta 10% superficie corporal"
+    },
+    {
+      "Anexo 9": 1502066,
+      "__EMPTY_1": "Escarectomía- Por cada 10% adicional (o su fracción)"
+    },
+    {
+      "Anexo 9": 1502067,
+      "__EMPTY_1": "Toma de injerto de cuero cabelludo"
+    },
+    {
+      "Anexo 9": 1502068,
+      "__EMPTY_1": "Expansor de piel (dos o más) primer tiempo"
+    },
+    {
+      "Anexo 9": 1502069,
+      "__EMPTY_1": "Expansor de piel (dos o más) segundo tiempo retiro"
+    },
+    {
+      "Anexo 9": 1502070,
+      "__EMPTY_1": "Expansor de piel (único) primer tiempo"
+    },
+    {
+      "Anexo 9": 1502071,
+      "__EMPTY_1": "Expansor de piel (único) segundo tiempo o retiro"
+    },
+    {
+      "Anexo 9": 1602201,
+      "__EMPTY_1": "Biopsia de piel y/o mucosa por curetaje o sección tangencial c/s electro por 1 lesión       "
+    },
+    {
+      "Anexo 9": 1602202,
+      "__EMPTY_1": "Extirpacion de, reparacion o biopsia total o parcial, de lesiones benignas cutáneas por excision cabeza, cuello, genitales, hasta 3 lesiones                                                                  "
+    },
+    {
+      "Anexo 9": 1602203,
+      "__EMPTY_1": "Extirpacion de, reparacion o biopsia total o parcial, de lesiones benignas cutáneas por excision resto de cuerpo hasta 3 lesiones                                                                              "
+    },
+    {
+      "Anexo 9": 1602204,
+      "__EMPTY_1": "Extirpacion de, reparacion o biopsia total o parcial, de lesiones benignas cutáneas por excision cabeza, cuello, genitales, desde 4 hasta 6 lesiones                                              "
+    },
+    {
+      "Anexo 9": 1602205,
+      "__EMPTY_1": "Extirpacion de, reparacion o biopsia total o parcial, de lesiones benignas cutáneas por excision resto de cuerpo desde 4 hasta 6 lesiones                                                             "
+    },
+    {
+      "Anexo 9": 1602206,
+      "__EMPTY_1": "Extirpacion de lesiones benignas por sec tangencial ,curetaje,y/o fulguracion hasta 15 lesiones   "
+    },
+    {
+      "Anexo 9": 1602207,
+      "__EMPTY_1": "Tratamiento por electro de hemangiomas o telangectasias hasta 15 lesiones"
+    },
+    {
+      "Anexo 9": 1602211,
+      "__EMPTY_1": "Tumor maligno por excision total o parcial, con o sin sutura, por cada lesion cabeza, cuello, genitales"
+    },
+    {
+      "Anexo 9": 1602212,
+      "__EMPTY_1": "Tumor maligno por excision total o parcial, con o sin sutura, por cada lesion resto del cuerpo"
+    },
+    {
+      "Anexo 9": 1602213,
+      "__EMPTY_1": "Ampliacion de margenes quirurgicos de tumor maligno extirpado previamente cabeza, cuello, genitales o melanoma cualquier ubicación"
+    },
+    {
+      "Anexo 9": 1602214,
+      "__EMPTY_1": "Ampliacion de margenes quirurgicos de tumor maligno extirpado previamente resto del cuerpo"
+    },
+    {
+      "Anexo 9": 1602215,
+      "__EMPTY_1": "Tumores vasculares profundos cabeza, cuello, genitales"
+    },
+    {
+      "Anexo 9": 1602216,
+      "__EMPTY_1": "Tumores vasculares profundos resto del cuerpo"
+    },
+    {
+      "Anexo 9": 1602221,
+      "__EMPTY_1": "Herida cortante o contusa complicada, reparacion y sutura (una o multiples de mas de 5 cms de largo total y/o que comprometa músculos y/o conductos y/o vasos o  similares "
+    },
+    {
+      "Anexo 9": 1602222,
+      "__EMPTY_1": "Herida cortante o contusa NO complicada, reparacion y sutura (una o multiples de mas de 5 cms de largo total y/o que comprometa solo piel)                                                                             "
+    },
+    {
+      "Anexo 9": 1602223,
+      "__EMPTY_1": "Extirpacion de lesión benigna subepidemica, incluye tumor solido, quiste epidemico y lipoma por lesion cara, cuello cabelludo. Cuello, genitales."
+    },
+    {
+      "Anexo 9": 1602224,
+      "__EMPTY_1": "Extirpacion de lesión benigna subepidemica, incluye tumor solido, quiste epidemico y lipoma por lesion  resto del cuerpo                                                                                                                  "
+    },
+    {
+      "Anexo 9": 1602225,
+      "__EMPTY_1": "Vaciamiento y curetaje quirurgico de lesiones quistica o abscesos                              "
+    },
+    {
+      "Anexo 9": 1602231,
+      "__EMPTY_1": "Onisectomia total o parcial simple                                                                                      "
+    },
+    {
+      "Anexo 9": 1602232,
+      "__EMPTY_1": "Cirugia reparadora ungueal por proceso inflamatorio                                                                 "
+    },
+    {
+      "Anexo 9": 1602233,
+      "__EMPTY_1": "Correccion quirurgica de defecto congenito o por tumor ungueal"
+    },
+    {
+      "Anexo 9": 1602240,
+      "__EMPTY_1": "Curacion por medico, quemadura o similar menor al 5% superficie corporal en pabellon       "
+    },
+    {
+      "Anexo 9": 1602241,
+      "__EMPTY_1": "Curacion por medico, quemadura o similar  5 a 10% superficie corporal en pabellon        "
+    },
+    {
+      "Anexo 9": 1602242,
+      "__EMPTY_1": "Curacion por medico, quemadura o similar  mayor  al 10% superficie corporal en pabellon"
+    },
+    {
+      "Anexo 9": 1703001,
+      "__EMPTY_1": "Embolectomía y/o trombectomía, unilateral, miembro superior o inferior (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1703002,
+      "__EMPTY_1": "Fístula arteriovenosa congénita o traumática, repar. quir."
+    },
+    {
+      "Anexo 9": 1703003,
+      "__EMPTY_1": "Fístula arteriovenosa (de Brescia o similar)"
+    },
+    {
+      "Anexo 9": 1703005,
+      "__EMPTY_1": "Reparación quirúrgica de vasos arteriales y/o venosos intra-abdominales o intra-torácicos c/s injerto (biológicos o sintéticos)"
+    },
+    {
+      "Anexo 9": 1703006,
+      "__EMPTY_1": "Reparación quirúrgica de vasos arteriales y/o venosos periféricos c/s injerto (biológicos o sintéticos)"
+    },
+    {
+      "Anexo 9": 1703007,
+      "__EMPTY_1": "Aneurisma aórtico-abdominal trat. quir."
+    },
+    {
+      "Anexo 9": 1703008,
+      "__EMPTY_1": "Aneurismas periféricos, trat. quir."
+    },
+    {
+      "Anexo 9": 1703009,
+      "__EMPTY_1": "Aneurisma tóraco-abdominal trat. quir."
+    },
+    {
+      "Anexo 9": 1703010,
+      "__EMPTY_1": "Puentes aorto bifemoral puentes de troncos supra-aórticos"
+    },
+    {
+      "Anexo 9": 1703011,
+      "__EMPTY_1": "Puente aorto-unifemoral"
+    },
+    {
+      "Anexo 9": 1703012,
+      "__EMPTY_1": "Puentes aorto aorto visceral (renal, mesentérico o similar)"
+    },
+    {
+      "Anexo 9": 1703013,
+      "__EMPTY_1": "Puente aorto-ilíaco"
+    },
+    {
+      "Anexo 9": 1703014,
+      "__EMPTY_1": "Endarterectomía carotídea, subclavia, vertebral, femoral, o similar  c/s injerto (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1703015,
+      "__EMPTY_1": "Endarterectomía femoral común, superficial o profunda, poplítea u otras c/s injerto (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1703016,
+      "__EMPTY_1": "Endarterectomía renal, c/s injerto (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1703017,
+      "__EMPTY_1": "Puente fémoro-tibial o distales"
+    },
+    {
+      "Anexo 9": 1703018,
+      "__EMPTY_1": "Puente fémoro-poplíteo"
+    },
+    {
+      "Anexo 9": 1703019,
+      "__EMPTY_1": "Ligadura troncos arteriales, (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1703020,
+      "__EMPTY_1": "Otras derivaciones: fémoro–femoral, axilo-humeral, axilo-femoral, carótidosubclavio, axilo-axilar o similares; c/u"
+    },
+    {
+      "Anexo 9": 1703021,
+      "__EMPTY_1": "Anastomosis portocava u otras portosistémicas"
+    },
+    {
+      "Anexo 9": 1703022,
+      "__EMPTY_1": "Anastomosis venosas intraabdominales"
+    },
+    {
+      "Anexo 9": 1703023,
+      "__EMPTY_1": "Denudación venosa (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1703024,
+      "__EMPTY_1": "Derivaciones venosas de extremidades puentes venosos"
+    },
+    {
+      "Anexo 9": 1703025,
+      "__EMPTY_1": "Implante filtros venosos"
+    },
+    {
+      "Anexo 9": 1703026,
+      "__EMPTY_1": "Ligadura cayado safena interna, unilateral"
+    },
+    {
+      "Anexo 9": 1703027,
+      "__EMPTY_1": "Ligadura otros troncos venosos (poplíteo, femoral, ilíacas, humeral, axilar, otros); ligadura de venas comunicantes y/o perforantes, y/o resección de paquetes varicosos, cualquier técnica (una extremidad);c/u"
+    },
+    {
+      "Anexo 9": 1703028,
+      "__EMPTY_1": "Ligadura vena cava inferior"
+    },
+    {
+      "Anexo 9": 1703029,
+      "__EMPTY_1": "Resección cutáneo-aponeurótica unilateral (incluye fasciotomía interna o posterior)"
+    },
+    {
+      "Anexo 9": 1703030,
+      "__EMPTY_1": "Safenectomía interna y/o externa, unilateral o endoablación por láser"
+    },
+    {
+      "Anexo 9": 1703031,
+      "__EMPTY_1": "Trombectomía de venas profundas"
+    },
+    {
+      "Anexo 9": 1703032,
+      "__EMPTY_1": "Anastomosis linfovenosas"
+    },
+    {
+      "Anexo 9": 1703033,
+      "__EMPTY_1": "Linfedema, trat. quir. una extremidad"
+    },
+    {
+      "Anexo 9": 1703034,
+      "__EMPTY_1": "Drenaje quirúrgico adenitis"
+    },
+    {
+      "Anexo 9": 1703035,
+      "__EMPTY_1": "Biopsia quir. ganglionar (cualquier región periférica superficial o profunda) (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1703036,
+      "__EMPTY_1": "Disección y extirpación ganglionar regional: axilo-supraclavicular "
+    },
+    {
+      "Anexo 9": 1703037,
+      "__EMPTY_1": "Disección y extirpación ganglionar regional: cérvico-torácica"
+    },
+    {
+      "Anexo 9": 1703038,
+      "__EMPTY_1": "Disección y extirpación ganglionar regional: ileoinguinal"
+    },
+    {
+      "Anexo 9": 1703039,
+      "__EMPTY_1": "Disección y extirpación ganglionar regional: inguinoescrotales"
+    },
+    {
+      "Anexo 9": 1703040,
+      "__EMPTY_1": "Disección y extirpación ganglionar regional: lumbo-aórticos"
+    },
+    {
+      "Anexo 9": 1703042,
+      "__EMPTY_1": "Disección y extirpación ganglionar regional: poplíteos"
+    },
+    {
+      "Anexo 9": 1703043,
+      "__EMPTY_1": "Disección y extirpación  ganglionar regional: radical clásica o modificada de cuello"
+    },
+    {
+      "Anexo 9": 1703044,
+      "__EMPTY_1": "Disección y extirpación ganglionar regional: yugular simple"
+    },
+    {
+      "Anexo 9": 1703045,
+      "__EMPTY_1": "Simpatectomía cérvico-torácica"
+    },
+    {
+      "Anexo 9": 1703046,
+      "__EMPTY_1": "Simpatectomía lumbar"
+    },
+    {
+      "Anexo 9": 1703047,
+      "__EMPTY_1": "Anastomosis vasculares sistémicopulmonares (Blalock-Pott-Glenn o similares)"
+    },
+    {
+      "Anexo 9": 1703048,
+      "__EMPTY_1": "Cambio de generador de marcapaso, sin cambio de electrodo (no incluye el valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1703148,
+      "__EMPTY_1": "Cambio de generador de marcapaso (incluye el valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1703049,
+      "__EMPTY_1": "Coartación aórtica infantil (preductal) trat. quir."
+    },
+    {
+      "Anexo 9": 1703050,
+      "__EMPTY_1": "Coartación aórtica, trat. quir."
+    },
+    {
+      "Anexo 9": 1703051,
+      "__EMPTY_1": "Conducto arterioso persistente, trat. quir."
+    },
+    {
+      "Anexo 9": 1703052,
+      "__EMPTY_1": "Fístula coronaria, trat. quir."
+    },
+    {
+      "Anexo 9": 1703053,
+      "__EMPTY_1": "Implantación de marcapaso c/electrod. intraven. o epicárdico (no incluye el valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1703153,
+      "__EMPTY_1": "Implantación de marcapaso c/electrod. intraven. o epicárdico (incluye el valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1703054,
+      "__EMPTY_1": "Operación sobre anillos valvulares o vasculares"
+    },
+    {
+      "Anexo 9": 1703055,
+      "__EMPTY_1": "Operaciones sobre arteria pulmonar, constricción por cinta"
+    },
+    {
+      "Anexo 9": 1703056,
+      "__EMPTY_1": "Pericardiectomía y/o extirp. de quistes y/o tumores"
+    },
+    {
+      "Anexo 9": 1703057,
+      "__EMPTY_1": "Pericardiorrafia o míopericardiorrafia en heridas penetrante"
+    },
+    {
+      "Anexo 9": 1703058,
+      "__EMPTY_1": "Pericardiotomía"
+    },
+    {
+      "Anexo 9": 1703061,
+      "__EMPTY_1": "De complejidad mayor: incluye reemplazo valvular múltiple, tres o más puentes aortocoronarios y/o anastomosis con arteria mamaria, corrección de cardiopatías congénitas complejas (por ejemplo: Fallot; atresia tricuspídea; doble salida del ventrículo derecho; transposición grandes vasos; ventrículo único o similares), aneurisma aórtico torácico, trasplante cardíaco y cualquier operación cardíaca en lactantes"
+    },
+    {
+      "Anexo 9": 1703062,
+      "__EMPTY_1": "De complejidad mediana: incluye comunicación interventricular, reemplazo univalvular, uno o dos puentes aortocoronarios; aneurisma ventricular, corrección de Wolf-Parkinson White y otras arritmias"
+    },
+    {
+      "Anexo 9": 1703063,
+      "__EMPTY_1": "De complejidad menor: incluye comunicación interauricular simple, estenosis pulmonar valvular, estenosis mitral o similar"
+    },
+    {
+      "Anexo 9": 1703064,
+      "__EMPTY_1": "Implante de prótesis para hemodiálisis"
+    },
+    {
+      "Anexo 9": 1703065,
+      "__EMPTY_1": "Transposición basílica o similar"
+    },
+    {
+      "Anexo 9": 1703066,
+      "__EMPTY_1": "Instalación de catéter venoso de larga duración tunelizado (incluye cateter)"
+    },
+    {
+      "Anexo 9": 1703067,
+      "__EMPTY_1": "Simpatectomía cervico-torácica toracoscopia"
+    },
+    {
+      "Anexo 9": 1703068,
+      "__EMPTY_1": "Resección ganglios mediastínicos por toracotomía"
+    },
+    {
+      "Anexo 9": 1703069,
+      "__EMPTY_1": "Resección ganglios mediastínicos por vía videotoracoscopica"
+    },
+    {
+      "Anexo 9": 1703070,
+      "__EMPTY_1": "Vaciamiento mediastínico ántero-superior"
+    },
+    {
+      "Anexo 9": 1703071,
+      "__EMPTY_1": "Aneurisma torácico con compromiso de arco aórtico tratamiento endovascular"
+    },
+    {
+      "Anexo 9": 1703072,
+      "__EMPTY_1": "Implante de desfribilador con resincronizador VVI (incluye dispositivo)"
+    },
+    {
+      "Anexo 9": 1703073,
+      "__EMPTY_1": "Implante de desfribilador con resincronizador DDD  (incluye dispositivo)"
+    },
+    {
+      "Anexo 9": 1703074,
+      "__EMPTY_1": "Retiro de catéter venoso de larga duración tunelizado"
+    },
+    {
+      "Anexo 9": 1703075,
+      "__EMPTY_1": "Fístula Arteriovenosa Protésica  "
+    },
+    {
+      "Anexo 9": 1703076,
+      "__EMPTY_1": "Transposición de vena basílica para hemodiálisis"
+    },
+    {
+      "Anexo 9": 1703077,
+      "__EMPTY_1": "Extracción de electrodo endocavitario, con o sin extracción de generador de marcapaso o desfibrilador"
+    },
+    {
+      "Anexo 9": 1703080,
+      "__EMPTY_1": "Implante y retiro de implante venoso (filtro de vena cava) por vía endovascular"
+    },
+    {
+      "Anexo 9": 1703081,
+      "__EMPTY_1": "Ablación troncos venosos con técnica térmica (laser, radiofrecuencia u otras)"
+    },
+    {
+      "Anexo 9": 1703082,
+      "__EMPTY_1": "Ablación troncos venosos con técnica no térmica no tumescente (cianocrilato, fármaco, mecánico u otras)"
+    },
+    {
+      "Anexo 9": 1704002,
+      "__EMPTY_1": "Cirugía tórax abierto traumático y/o fijación tórax volante, osteosíntesis costales múltiples y de esternón (no incluye el valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1704003,
+      "__EMPTY_1": "Fenestración o toracoplastía"
+    },
+    {
+      "Anexo 9": 1704004,
+      "__EMPTY_1": "Reparación pectum excavatum o carinatum, (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1704005,
+      "__EMPTY_1": "Resección de costillas y/o pared costal y/o cartílago y/o esternón s/plastía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1704006,
+      "__EMPTY_1": "Resección de pared costal c/plastía (toracoplastía osteoplástica de York o similar)"
+    },
+    {
+      "Anexo 9": 1704007,
+      "__EMPTY_1": "Toracofrenolaparatomía exploradora c/s reparación vísceras torácicas y abdominales"
+    },
+    {
+      "Anexo 9": 1704008,
+      "__EMPTY_1": "Toracofrenotomía exploradora"
+    },
+    {
+      "Anexo 9": 1704009,
+      "__EMPTY_1": "Toracotomía exploradora, c/s biopsia, c/s debridación, c/s drenaje"
+    },
+    {
+      "Anexo 9": 1704010,
+      "__EMPTY_1": "Toracotomía mínima c/s resección costal, c/s biopsia, c/s drenaje"
+    },
+    {
+      "Anexo 9": 1704011,
+      "__EMPTY_1": "Mediastinotomía exploradora ant. o post. c/s biopsia proc. aut"
+    },
+    {
+      "Anexo 9": 1704012,
+      "__EMPTY_1": "Drenaje quirúrgico de mediastino, vía cervical"
+    },
+    {
+      "Anexo 9": 1704013,
+      "__EMPTY_1": "Drenaje quirúrgico de mediastino, vía torácica"
+    },
+    {
+      "Anexo 9": 1704014,
+      "__EMPTY_1": "Timectomía vía cervical"
+    },
+    {
+      "Anexo 9": 1704015,
+      "__EMPTY_1": "Timectomía vía torácica medioesternal"
+    },
+    {
+      "Anexo 9": 1704016,
+      "__EMPTY_1": "Conducto torácico, ligadura quirúrgica"
+    },
+    {
+      "Anexo 9": 1704017,
+      "__EMPTY_1": "Tumores o quistes de mediastino (anterior o posterior) trat. quir. c/s disección ganglionar"
+    },
+    {
+      "Anexo 9": 1704018,
+      "__EMPTY_1": "Cirugía del diafragma con cirugía de vísceras abdominales o torácicas"
+    },
+    {
+      "Anexo 9": 1704064,
+      "__EMPTY_1": "Frenoparálisis trat. quir."
+    },
+    {
+      "Anexo 9": 1704019,
+      "__EMPTY_1": "Heridas traumáticas del diafragma, trat. quir."
+    },
+    {
+      "Anexo 9": 1704020,
+      "__EMPTY_1": "Hernioplastía diafragmática por vía torácica c/ prótesis (no incluye valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1704021,
+      "__EMPTY_1": "Hernioplastía diafragmática por vía torácica, sin prótesis"
+    },
+    {
+      "Anexo 9": 1704022,
+      "__EMPTY_1": "Tumores, malformaciones o quistes del diafragma (no incluye valor de la prótesis) trat. quir."
+    },
+    {
+      "Anexo 9": 1704023,
+      "__EMPTY_1": "Cuerpo extraño pleural, extrac. quir."
+    },
+    {
+      "Anexo 9": 1704024,
+      "__EMPTY_1": "Decorticación pleuropulmonar (pleurectomía parcial o total)"
+    },
+    {
+      "Anexo 9": 1704025,
+      "__EMPTY_1": "Pleurodesis por pleurotomía"
+    },
+    {
+      "Anexo 9": 1704026,
+      "__EMPTY_1": "Pleurodesis por toracotomía"
+    },
+    {
+      "Anexo 9": 1704027,
+      "__EMPTY_1": "Pleurotomía única o doble "
+    },
+    {
+      "Anexo 9": 1704028,
+      "__EMPTY_1": "Tratamiento resectivo de tumores pleurales"
+    },
+    {
+      "Anexo 9": 1704029,
+      "__EMPTY_1": "Broncotomía o traqueobroncotomía exploradora o terapéutica por toracotomía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1704030,
+      "__EMPTY_1": "Cirugía ruptura traqueobronquial o tratamiento quirúrgico fístula postneumonectomía por esternotomía media"
+    },
+    {
+      "Anexo 9": 1704031,
+      "__EMPTY_1": "Plastía de tráquea y/o bronquios c/s resección, c/s prótesis (no incluye el valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1704032,
+      "__EMPTY_1": "Tratamiento quirúrgico fístula bronquial por toracotomía"
+    },
+    {
+      "Anexo 9": 1704033,
+      "__EMPTY_1": "Tumores traqueales, extirpación"
+    },
+    {
+      "Anexo 9": 1704034,
+      "__EMPTY_1": "Absceso pulmonar, drenaje por toracotomía"
+    },
+    {
+      "Anexo 9": 1704035,
+      "__EMPTY_1": "Biopsia pulmonar por toracotomía"
+    },
+    {
+      "Anexo 9": 1704036,
+      "__EMPTY_1": "Bulas, trat. quir."
+    },
+    {
+      "Anexo 9": 1704037,
+      "__EMPTY_1": "Cirugía de quiste hidatídico sin resección pulmonar"
+    },
+    {
+      "Anexo 9": 1704038,
+      "__EMPTY_1": "Cuerpo extraño intrapulmonar, extirp. quir."
+    },
+    {
+      "Anexo 9": 1704039,
+      "__EMPTY_1": "Heridas de pulmón, trat. quir. (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1704040,
+      "__EMPTY_1": "Lobectomía o bilobectomía"
+    },
+    {
+      "Anexo 9": 1704041,
+      "__EMPTY_1": "Metástasis bilateral, trat. quir. por esternotomía"
+    },
+    {
+      "Anexo 9": 1704042,
+      "__EMPTY_1": "Metástasis unilateral"
+    },
+    {
+      "Anexo 9": 1704043,
+      "__EMPTY_1": "Neumonectomía c/s resección de pared costal"
+    },
+    {
+      "Anexo 9": 1704045,
+      "__EMPTY_1": "Quistectomía simple"
+    },
+    {
+      "Anexo 9": 1704046,
+      "__EMPTY_1": "Resecciones segmentarias anatómicas de pulmón "
+    },
+    {
+      "Anexo 9": 1704047,
+      "__EMPTY_1": "Extracción cuerpo extraño esofágico por vía cervical"
+    },
+    {
+      "Anexo 9": 1704048,
+      "__EMPTY_1": "Cuerpo extraño esofágico, extracción por esofagotomía, vía torácica"
+    },
+    {
+      "Anexo 9": 1704049,
+      "__EMPTY_1": "Esofagostomía cervical (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1704050,
+      "__EMPTY_1": "Tumores benignos y/o quistes. trat. quir.- Vía cervical"
+    },
+    {
+      "Anexo 9": 1704051,
+      "__EMPTY_1": "Tratamiento quirúrgico de tumores esofagicos benignos y/o quistes vía torácica"
+    },
+    {
+      "Anexo 9": 1704052,
+      "__EMPTY_1": "Divertículos esofágicos, trat. quir., vía cervical"
+    },
+    {
+      "Anexo 9": 1704053,
+      "__EMPTY_1": "Divertículos esofágicos, trat. quir., vía torácica"
+    },
+    {
+      "Anexo 9": 1704054,
+      "__EMPTY_1": "Achalasia, trat. quir."
+    },
+    {
+      "Anexo 9": 1704055,
+      "__EMPTY_1": "Atresia esofágica, trat. quir."
+    },
+    {
+      "Anexo 9": 1704056,
+      "__EMPTY_1": "Esofagectomía con restitución del tránsito mediante estómago o intestino; parcial o total"
+    },
+    {
+      "Anexo 9": 1704057,
+      "__EMPTY_1": "Esofagectomía total con esofagostomía, gastrostomía y yeyunostomía"
+    },
+    {
+      "Anexo 9": 1704058,
+      "__EMPTY_1": "Esofagogastrectomía proximal"
+    },
+    {
+      "Anexo 9": 1704059,
+      "__EMPTY_1": "Prótesis o tubo endoesofágico, colocación de (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1704060,
+      "__EMPTY_1": "Reconstitución de tránsito en segundo tiempo (estómago o intestino) de operación "
+    },
+    {
+      "Anexo 9": 1704061,
+      "__EMPTY_1": "Sutura herida o perforación esófago cervical"
+    },
+    {
+      "Anexo 9": 1704062,
+      "__EMPTY_1": "Sutura herida o perforación esófago torácico"
+    },
+    {
+      "Anexo 9": 1704063,
+      "__EMPTY_1": "Várices esofágicos, ligadura directa"
+    },
+    {
+      "Anexo 9": 1704065,
+      "__EMPTY_1": "Mediastinoscopía y/o videomediastinoscopía c/s biopsia"
+    },
+    {
+      "Anexo 9": 1704066,
+      "__EMPTY_1": "Tumores o quistes de mediastino (anterior o posterior) tratamiento quirúrgico c/s disección ganglionar por videotoracoscopia"
+    },
+    {
+      "Anexo 9": 1704067,
+      "__EMPTY_1": "Cirugía del diafragma con cirugía de vísceras abdominales o torácicas por vía toracoscopia"
+    },
+    {
+      "Anexo 9": 1704068,
+      "__EMPTY_1": "Heridas traumáticas, trat. quir. por vía videotoracoscopia"
+    },
+    {
+      "Anexo 9": 1704069,
+      "__EMPTY_1": "Cirugía de tumores o malformaciones diafragmaticos por videotoracoscopia"
+    },
+    {
+      "Anexo 9": 1704070,
+      "__EMPTY_1": "Biopsia pleural por videotoracoscopia"
+    },
+    {
+      "Anexo 9": 1704071,
+      "__EMPTY_1": "Cuerpo extraño pleural, por videotoracoscopia"
+    },
+    {
+      "Anexo 9": 1704072,
+      "__EMPTY_1": "Decorticación pleuropulmonar (pleurectomía parcial o total) por videotoracoscopia"
+    },
+    {
+      "Anexo 9": 1704073,
+      "__EMPTY_1": "Absceso pulmonar, drenaje por videotoracoscopia"
+    },
+    {
+      "Anexo 9": 1704074,
+      "__EMPTY_1": "Cirugía de quiste hidatídico c/s resección pulmonar por vía videotoracoscopia"
+    },
+    {
+      "Anexo 9": 1704075,
+      "__EMPTY_1": "Metástasis unilateral, trat. quir. por videotoracoscopia"
+    },
+    {
+      "Anexo 9": 1704076,
+      "__EMPTY_1": "Atresia esofágica con fístula traqueoesofágica por toracoscopia"
+    },
+    {
+      "Anexo 9": 1704077,
+      "__EMPTY_1": "Atresia esofágica sin fístula traqueoesofágica por toracoscopia"
+    },
+    {
+      "Anexo 9": 1704078,
+      "__EMPTY_1": "Atresia esofágica sin fístula traqueoesofágica. Anastomosis"
+    },
+    {
+      "Anexo 9": 1704079,
+      "__EMPTY_1": "Cirugía del opérculo torácico por vía videotoracoscopica"
+    },
+    {
+      "Anexo 9": 1704080,
+      "__EMPTY_1": "Videotoracoscopía exploradora "
+    },
+    {
+      "Anexo 9": 1704081,
+      "__EMPTY_1": "Conducto torácico, ligadura por vía videotoracoscopica"
+    },
+    {
+      "Anexo 9": 1704082,
+      "__EMPTY_1": "Frenoparalisis tratatamiento quirúrgico laparoscópico"
+    },
+    {
+      "Anexo 9": 1704083,
+      "__EMPTY_1": "Frenoparalisis tratamiento quirúrgico por vía videotoracoscopica"
+    },
+    {
+      "Anexo 9": 1704084,
+      "__EMPTY_1": "Hernioplastía diafragmática por vía torácica c/s prótesis por vía videotoracoscopica "
+    },
+    {
+      "Anexo 9": 1704085,
+      "__EMPTY_1": "Pleurodesis por vía videotoracoscopica"
+    },
+    {
+      "Anexo 9": 1704086,
+      "__EMPTY_1": "Tumores pleurales, por vía videotoracoscopica"
+    },
+    {
+      "Anexo 9": 1704087,
+      "__EMPTY_1": "Cirugía del mesotelioma maligno"
+    },
+    {
+      "Anexo 9": 1704088,
+      "__EMPTY_1": "Fibrinolisis pleural por pleurotomía"
+    },
+    {
+      "Anexo 9": 1704089,
+      "__EMPTY_1": "Resección segmentaria atipica por vía videotoracoscopica"
+    },
+    {
+      "Anexo 9": 1704090,
+      "__EMPTY_1": "Heridas de pulmón, trat. quir. por vía videotoracoscopica"
+    },
+    {
+      "Anexo 9": 1704091,
+      "__EMPTY_1": "Lobectomía o bilobectomía por vía videotoracoscopica"
+    },
+    {
+      "Anexo 9": 1704092,
+      "__EMPTY_1": "Neumonectomía por vía videotoracoscopica"
+    },
+    {
+      "Anexo 9": 1704093,
+      "__EMPTY_1": "Resecciones segmentarias anatómica por vía videotoracoscopica"
+    },
+    {
+      "Anexo 9": 1704094,
+      "__EMPTY_1": "Extracción cuerpo extraño esofágico por vía videotoracoscopica"
+    },
+    {
+      "Anexo 9": 1704095,
+      "__EMPTY_1": "Resección de tumor esofagico benignos por vía videotoracoscopica"
+    },
+    {
+      "Anexo 9": 1704096,
+      "__EMPTY_1": "Resección de diverticulos esofágicos por vía videotoracoscopica"
+    },
+    {
+      "Anexo 9": 1704097,
+      "__EMPTY_1": "Sutura herida o perforación esófago torácico por vía videotoracoscopica"
+    },
+    {
+      "Anexo 9": 1802001,
+      "__EMPTY_1": "Diafragmática por vía abdominal o cualquiera otra hernia con uso de prótesis (no incluye el valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1802101,
+      "__EMPTY_1": "Diafragmática por vía abdominal o cualquiera otra hernia con uso de prótesis (incluye el valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1802002,
+      "__EMPTY_1": "Incisional o evisceración post-op. sin resección intestinal"
+    },
+    {
+      "Anexo 9": 1802004,
+      "__EMPTY_1": "Laparotomía exploradora, c/s liberación de adherencias, c/s drenaje, c/s biopsias como proc. aut. o como resultado de una herida penetrante abdominal no complicada o de un hemoperitoneo postoperatorio ..."
+    },
+    {
+      "Anexo 9": 1802005,
+      "__EMPTY_1": "Onfalocele (hasta 5 cms.); trat. quir."
+    },
+    {
+      "Anexo 9": 1802006,
+      "__EMPTY_1": "Onfalocele (mas de 5 cms.); trat. quir."
+    },
+    {
+      "Anexo 9": 1802013,
+      "__EMPTY_1": "Gastrosquisis"
+    },
+    {
+      "Anexo 9": 1802007,
+      "__EMPTY_1": "Peritonitis difusa aguda, trat. quir. (proc. aut.) "
+    },
+    {
+      "Anexo 9": 1802008,
+      "__EMPTY_1": "Tumor y/o quiste peritoneal (parietal)"
+    },
+    {
+      "Anexo 9": 1802009,
+      "__EMPTY_1": "Tumor y/o quiste retroperitoneal"
+    },
+    {
+      "Anexo 9": 1802010,
+      "__EMPTY_1": "Antrectomía y vagotomía troncular o selectiva (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802011,
+      "__EMPTY_1": "Desgastrectomía y neoanastomosis, c/s vaguectomía"
+    },
+    {
+      "Anexo 9": 1802012,
+      "__EMPTY_1": "Gastroenteroanastomosis, cualquier técnica. (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802014,
+      "__EMPTY_1": "Gastrotomía y/o gastrostomía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802015,
+      "__EMPTY_1": "Perforación gástrica aguda, trat. quir. (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802016,
+      "__EMPTY_1": "Piloroplastía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802017,
+      "__EMPTY_1": "Gastrectomía sub-total distal: Con disección ganglionar"
+    },
+    {
+      "Anexo 9": 1802018,
+      "__EMPTY_1": "Gastrectomía sub-total distal: Sin disección ganglionar"
+    },
+    {
+      "Anexo 9": 1802019,
+      "__EMPTY_1": "Dumping y/o síndrome asa aferente, trat. quir."
+    },
+    {
+      "Anexo 9": 1802021,
+      "__EMPTY_1": "Gastrectomía sub-total proximal con esófago-gastro-anastomosis u otra derivación"
+    },
+    {
+      "Anexo 9": 1802022,
+      "__EMPTY_1": "Gastrectomía total"
+    },
+    {
+      "Anexo 9": 1802023,
+      "__EMPTY_1": "Gastrectomía total o sub-total ampliada (incluye esplenectomía y pancreatectomía corporocaudal y disección ganglionar)"
+    },
+    {
+      "Anexo 9": 1802024,
+      "__EMPTY_1": "Gastropexia y/u otra cirugía antirreflujo, c/s vagotomía"
+    },
+    {
+      "Anexo 9": 1802025,
+      "__EMPTY_1": "Vagotomía selectiva y superselectiva c/s dren. gástrico, c/s piloroplastía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802079,
+      "__EMPTY_1": "Gastrectomía total con ostomías proximal y distal"
+    },
+    {
+      "Anexo 9": 1802080,
+      "__EMPTY_1": "Reconstitución  de tránsito en 2° tiempo de operación código 18-02-079"
+    },
+    {
+      "Anexo 9": 1802026,
+      "__EMPTY_1": "Drenaje de colecciones líquidas hepáticas"
+    },
+    {
+      "Anexo 9": 1802027,
+      "__EMPTY_1": "Colangioenteroanastomosis intrahepática"
+    },
+    {
+      "Anexo 9": 1802028,
+      "__EMPTY_1": "Colecistectomía c/s colangiografía operatoria"
+    },
+    {
+      "Anexo 9": 1802081,
+      "__EMPTY_1": "Colecistectomía por videolaparoscopía, proc. completo"
+    },
+    {
+      "Anexo 9": 1802029,
+      "__EMPTY_1": "Colecistectomía y coledocostomía (sonda T y colangiografía postoperatoria) c/s colangiografía operatoria"
+    },
+    {
+      "Anexo 9": 1802030,
+      "__EMPTY_1": "Colecistogastroanastomosis o colecistoenteroanastomosis"
+    },
+    {
+      "Anexo 9": 1802031,
+      "__EMPTY_1": "Colecistostomía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802032,
+      "__EMPTY_1": "Colédoco o hepatoenteroanastomosis"
+    },
+    {
+      "Anexo 9": 1802033,
+      "__EMPTY_1": "Coledocostomía supraduodenal o hepaticostomía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802034,
+      "__EMPTY_1": "Colocación de válvula peritoneoyugular derivativa de ascitis"
+    },
+    {
+      "Anexo 9": 1802035,
+      "__EMPTY_1": "Desconexión acigoportal con transección esofágica"
+    },
+    {
+      "Anexo 9": 1802036,
+      "__EMPTY_1": "Desconexión ácigoportal sin transección esofágica"
+    },
+    {
+      "Anexo 9": 1802037,
+      "__EMPTY_1": "Drenaje vía biliar transhepático"
+    },
+    {
+      "Anexo 9": 1802038,
+      "__EMPTY_1": "Esfinteroplastía transduodenal, (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802039,
+      "__EMPTY_1": "Hepatectomía segmentaria (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802040,
+      "__EMPTY_1": "Herida traumática de hígado y/o vía biliar, trat. quir."
+    },
+    {
+      "Anexo 9": 1802041,
+      "__EMPTY_1": "Lobectomía hepática (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802042,
+      "__EMPTY_1": "Quiste hidatídico, único o múltiple, y/o cistoyeyunoanastomosis, trat. quir."
+    },
+    {
+      "Anexo 9": 1802100,
+      "__EMPTY_1": "Trasplante hepático"
+    },
+    {
+      "Anexo 9": 1802043,
+      "__EMPTY_1": "Abscesos, quistes, pseudoquistes o similares, trat. quir."
+    },
+    {
+      "Anexo 9": 1802044,
+      "__EMPTY_1": "Heridas, traumatismos, trat. quir."
+    },
+    {
+      "Anexo 9": 1802045,
+      "__EMPTY_1": "Pancreatectomía parcial"
+    },
+    {
+      "Anexo 9": 1802046,
+      "__EMPTY_1": "Pancreatectomía total c/s esplenectomía"
+    },
+    {
+      "Anexo 9": 1802047,
+      "__EMPTY_1": "Pancreatoduodenectomía"
+    },
+    {
+      "Anexo 9": 1802048,
+      "__EMPTY_1": "Secuestrectomía en pancreatitis aguda"
+    },
+    {
+      "Anexo 9": 1802148,
+      "__EMPTY_1": "Yeyunopancreatostomía"
+    },
+    {
+      "Anexo 9": 1802049,
+      "__EMPTY_1": "Autoimplante de bazo (incluye esplenectomía)"
+    },
+    {
+      "Anexo 9": 1802050,
+      "__EMPTY_1": "Esplenectomía total o parcial (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802051,
+      "__EMPTY_1": "Operación de etapificación (incluye esplenectomía, biopsias hepáticas, de ganglios abdominales y de cresta ilíaca)"
+    },
+    {
+      "Anexo 9": 1802052,
+      "__EMPTY_1": "Sutura esplénica (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802053,
+      "__EMPTY_1": "Apendicectomía y/o dren. absceso apendicular (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802054,
+      "__EMPTY_1": "Cierre de colostomía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802055,
+      "__EMPTY_1": "Colostomía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802056,
+      "__EMPTY_1": "Colostomía, complicaciones tardías, trat. quir."
+    },
+    {
+      "Anexo 9": 1802057,
+      "__EMPTY_1": "Divertículo de Meckel, trat. quir."
+    },
+    {
+      "Anexo 9": 1802058,
+      "__EMPTY_1": "Entero-enteroanastomosis o enterocoloanastomosis (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802059,
+      "__EMPTY_1": "Enterotomía o enterostomía (yeyunostomía u otra) (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802060,
+      "__EMPTY_1": "Ileostomía terminal o en asa (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802061,
+      "__EMPTY_1": "Invaginación intestinal, trat. quir."
+    },
+    {
+      "Anexo 9": 1802062,
+      "__EMPTY_1": "Persistencia conducto onfalomesentérico, trat. quir."
+    },
+    {
+      "Anexo 9": 1802063,
+      "__EMPTY_1": "Quiste uraco, trat. quir."
+    },
+    {
+      "Anexo 9": 1802065,
+      "__EMPTY_1": "Oclusión intestinal, trat. quir.:- Con resección"
+    },
+    {
+      "Anexo 9": 1802066,
+      "__EMPTY_1": "Oclusión intestinal, trat. quir.:- Sin resección"
+    },
+    {
+      "Anexo 9": 1802067,
+      "__EMPTY_1": "Colectomía parcial o hemicolectomía"
+    },
+    {
+      "Anexo 9": 1802068,
+      "__EMPTY_1": "Colectomía total abdominal"
+    },
+    {
+      "Anexo 9": 1802069,
+      "__EMPTY_1": "Descenso de colon c/conservación del esfínter, incluye resección de colon"
+    },
+    {
+      "Anexo 9": 1802070,
+      "__EMPTY_1": "Hartmann, operación de (o similar)"
+    },
+    {
+      "Anexo 9": 1802071,
+      "__EMPTY_1": "Perforación y/o herida de intestino, única o múltiple, trat. quir. (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802072,
+      "__EMPTY_1": "Quiste y/o tumor del mesenterio y/o epiplones, único y/o múltiple, trat. quir."
+    },
+    {
+      "Anexo 9": 1802073,
+      "__EMPTY_1": "Reconstitución  tránsito post operación de Hartmann o sim."
+    },
+    {
+      "Anexo 9": 1802074,
+      "__EMPTY_1": "Resección de intestino y enteroanastomosis (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1802082,
+      "__EMPTY_1": "Resección intestinal con ostomías proximal y distal"
+    },
+    {
+      "Anexo 9": 1802075,
+      "__EMPTY_1": "Resección intestinal masiva por trombosis mesentérica u otra etiología"
+    },
+    {
+      "Anexo 9": 1802076,
+      "__EMPTY_1": "Duplicación intestinal, trat. quir."
+    },
+    {
+      "Anexo 9": 1802077,
+      "__EMPTY_1": "Mal rotación intestinal, trat. quir."
+    },
+    {
+      "Anexo 9": 1802083,
+      "__EMPTY_1": "Cirugía de la estenosis hipertrófica del píloro. Abierta"
+    },
+    {
+      "Anexo 9": 1802084,
+      "__EMPTY_1": "Cirugía de la estenosis hipertrófica del píloro. Laparoscopia"
+    },
+    {
+      "Anexo 9": 1802085,
+      "__EMPTY_1": "Laparotomía exploradora, instalación de VAC (por procedimiento)"
+    },
+    {
+      "Anexo 9": 1802086,
+      "__EMPTY_1": "Cirugía antirreflujo más gastrostomía"
+    },
+    {
+      "Anexo 9": 1802087,
+      "__EMPTY_1": "Cirugía antirreflujo más gastrostomia vía laparoscopia"
+    },
+    {
+      "Anexo 9": 1802158,
+      "__EMPTY_1": "Cirugía bariátrica By Pass Gástrico por laparoscopia "
+    },
+    {
+      "Anexo 9": 1802159,
+      "__EMPTY_1": "Cirugía bariátrica Manga Gástrica por laparoscopia"
+    },
+    {
+      "Anexo 9": 1802088,
+      "__EMPTY_1": "Cirugía de la atresia de vía biliar"
+    },
+    {
+      "Anexo 9": 1802089,
+      "__EMPTY_1": "Cirugía de la atresia de vía biliar por vía laparoscopia"
+    },
+    {
+      "Anexo 9": 1802090,
+      "__EMPTY_1": "Atresia o estenosis duodenal, páncreas anular, reparación quirúrgica. Abierta"
+    },
+    {
+      "Anexo 9": 1802091,
+      "__EMPTY_1": "Atresia o estenosis duodenal, páncreas anular, reparación quirúrgica laparoscopia"
+    },
+    {
+      "Anexo 9": 1802092,
+      "__EMPTY_1": "Esplenectomía por vía laparoscopia"
+    },
+    {
+      "Anexo 9": 1802093,
+      "__EMPTY_1": "Cirugía de la enterocolitis neonatal con resección intestinal"
+    },
+    {
+      "Anexo 9": 1802094,
+      "__EMPTY_1": "Cirugía de la enterocolitis neonatal con resección intestinal laparoscopia"
+    },
+    {
+      "Anexo 9": 1802095,
+      "__EMPTY_1": "Cirugía de la enterocolitis neonatal con resección múltiple"
+    },
+    {
+      "Anexo 9": 1802096,
+      "__EMPTY_1": "Cirugía de la enterocolitis neonatal con resección múltiple laparoscopia"
+    },
+    {
+      "Anexo 9": 1802097,
+      "__EMPTY_1": "Cirugía de la enterocolitis neonatal sin resección intestinal"
+    },
+    {
+      "Anexo 9": 1802098,
+      "__EMPTY_1": "Cirugía de la enterocolitis neonatal sin resección intestinal laparoscopia"
+    },
+    {
+      "Anexo 9": 1802099,
+      "__EMPTY_1": "Reconstitución de transito post enterocolitis neonatal con una entero-entero anastomosis"
+    },
+    {
+      "Anexo 9": 1802106,
+      "__EMPTY_1": "Reconstitución de transito post enterocolitis neonatal con múltiples entero-entero anastomosis"
+    },
+    {
+      "Anexo 9": 1802102,
+      "__EMPTY_1": "Atresia o estenosis yeyuno-ileal, reparación primaria abierta"
+    },
+    {
+      "Anexo 9": 1802103,
+      "__EMPTY_1": "Atresia o estenosis yeyuno-ileal, reparación primaria laparoscopia"
+    },
+    {
+      "Anexo 9": 1802104,
+      "__EMPTY_1": "Atresia o estenosis yeyuno-ileal, resección y ostomías abierta"
+    },
+    {
+      "Anexo 9": 1802105,
+      "__EMPTY_1": "Atresia o estenosis yeyuno-ileal, resección y ostomías laparoscopia"
+    },
+    {
+      "Anexo 9": 1802149,
+      "__EMPTY_1": "By pass gástrico por cirugía abierta"
+    },
+    {
+      "Anexo 9": 1802150,
+      "__EMPTY_1": "By pass gástrico por laparoscopía"
+    },
+    {
+      "Anexo 9": 1802151,
+      "__EMPTY_1": "Cirugía del quiste de colédoco"
+    },
+    {
+      "Anexo 9": 1802152,
+      "__EMPTY_1": "Cirugía del quiste de colédoco laparoscópico"
+    },
+    {
+      "Anexo 9": 1802153,
+      "__EMPTY_1": "Hernia sin malla por vía anterior, con acceso abierto."
+    },
+    {
+      "Anexo 9": 1802154,
+      "__EMPTY_1": "Hernia con malla preperitoneal, acceso mininvasivo."
+    },
+    {
+      "Anexo 9": 1802155,
+      "__EMPTY_1": "Hernia con malla retromuscular, hernia diafragmática por vía abdominal, hernia hiatal, acceso mininvasivo."
+    },
+    {
+      "Anexo 9": 1803001,
+      "__EMPTY_1": "Absceso ano rectal complejo, tratamiento quirúrgico"
+    },
+    {
+      "Anexo 9": 1803002,
+      "__EMPTY_1": "Absceso anorrectal simple, trat. quir."
+    },
+    {
+      "Anexo 9": 1803003,
+      "__EMPTY_1": "Absceso sacrocoxígeo, drenaje"
+    },
+    {
+      "Anexo 9": 1803004,
+      "__EMPTY_1": "Biopsia quirúrgica rectal (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1803006,
+      "__EMPTY_1": "Cuerpo extraño rectal, extracción por vía abdominal"
+    },
+    {
+      "Anexo 9": 1803007,
+      "__EMPTY_1": "Cuerpo extraño rectal, extracción por vía anal"
+    },
+    {
+      "Anexo 9": 1803008,
+      "__EMPTY_1": "Desgarros y heridas anorrectales, trat. quir- Con compromiso del esfínter"
+    },
+    {
+      "Anexo 9": 1803009,
+      "__EMPTY_1": "Desgarros y heridas anorrectales, trat. quir- Sin compromiso del esfínter"
+    },
+    {
+      "Anexo 9": 1803010,
+      "__EMPTY_1": "Esfinterotomía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1803011,
+      "__EMPTY_1": "Estenosis anal, plastía"
+    },
+    {
+      "Anexo 9": 1803012,
+      "__EMPTY_1": "Estenosis rectal, plastía"
+    },
+    {
+      "Anexo 9": 1803013,
+      "__EMPTY_1": "Fecaloma, trat. quir."
+    },
+    {
+      "Anexo 9": 1803014,
+      "__EMPTY_1": "Fístula trat. quir. de:- Rectovesical"
+    },
+    {
+      "Anexo 9": 1803015,
+      "__EMPTY_1": "Fístula trat. quir. de:- Rectovaginal, rectouretral o uretrovaginal"
+    },
+    {
+      "Anexo 9": 1803016,
+      "__EMPTY_1": "Fístula trat. quir. de:- Anorrectal, de cualquier tipo"
+    },
+    {
+      "Anexo 9": 1803017,
+      "__EMPTY_1": "Fisura anal, repar. quir."
+    },
+    {
+      "Anexo 9": 1803018,
+      "__EMPTY_1": "Hemorroidectomía (incluye otras operaciones complementarias en canal anal)"
+    },
+    {
+      "Anexo 9": 1803019,
+      "__EMPTY_1": "Hemorroides, trombectomía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1803020,
+      "__EMPTY_1": "Imperforación anal, reconstitución tránsito por vía abdómino-perineal"
+    },
+    {
+      "Anexo 9": 1803021,
+      "__EMPTY_1": "Imperforación anal, reconstitución tránsito por vía perineal"
+    },
+    {
+      "Anexo 9": 1803023,
+      "__EMPTY_1": "Incontinencia anal, trat.quir. con cerclaje"
+    },
+    {
+      "Anexo 9": 1803024,
+      "__EMPTY_1": "Incontinencia anal, trat.quir. con plastía muscular"
+    },
+    {
+      "Anexo 9": 1803025,
+      "__EMPTY_1": "Pólipo rectal, trat.quir. por vía abdominal"
+    },
+    {
+      "Anexo 9": 1803026,
+      "__EMPTY_1": "Pólipo rectal, trat.quir. por vía anal"
+    },
+    {
+      "Anexo 9": 1803027,
+      "__EMPTY_1": "Prolapso rectal, trat.quir. por vía abdominal"
+    },
+    {
+      "Anexo 9": 1803028,
+      "__EMPTY_1": "Prolapso rectal, trat.quir. por vía anal"
+    },
+    {
+      "Anexo 9": 1803029,
+      "__EMPTY_1": "Panproctocolectomía (2 equipos)"
+    },
+    {
+      "Anexo 9": 1803030,
+      "__EMPTY_1": "Prurito anal, trat. quir. por denervación"
+    },
+    {
+      "Anexo 9": 1803031,
+      "__EMPTY_1": "Quiste sacrocoxígeo, trat. quir."
+    },
+    {
+      "Anexo 9": 1803032,
+      "__EMPTY_1": "Resección abdómino-perineal de ano y recto (2 equipos)"
+    },
+    {
+      "Anexo 9": 1803033,
+      "__EMPTY_1": "Resección abdómino-perineal de ano y recto ampliada (2 equipos) (incluye genitales femeninos)"
+    },
+    {
+      "Anexo 9": 1803034,
+      "__EMPTY_1": "Resección anterior de recto"
+    },
+    {
+      "Anexo 9": 1803035,
+      "__EMPTY_1": "Resección perineal de ano y recto"
+    },
+    {
+      "Anexo 9": 1803038,
+      "__EMPTY_1": "Condilomas anales, trat. Quirúrgico"
+    },
+    {
+      "Anexo 9": 1803039,
+      "__EMPTY_1": "Cirugía de la cloaca, primer tiempo de derivación"
+    },
+    {
+      "Anexo 9": 1803040,
+      "__EMPTY_1": "Cirugía de la cloaca, reparación definitiva"
+    },
+    {
+      "Anexo 9": 1803041,
+      "__EMPTY_1": "Cirugía reparadora en Enfermedad de Hirschsprung vía abdomino-perineal"
+    },
+    {
+      "Anexo 9": 1803042,
+      "__EMPTY_1": "Cirugía reparadora en Enfermedad de Hirschsprung vía endoanal"
+    },
+    {
+      "Anexo 9": 1902002,
+      "__EMPTY_1": "Arterias renales, operaciones sobre (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1902003,
+      "__EMPTY_1": "Auto o heterotrasplante riñón"
+    },
+    {
+      "Anexo 9": 1902004,
+      "__EMPTY_1": "Cirugía de banco, (proc. completo) (micro-extracorpórea), autotrasplante"
+    },
+    {
+      "Anexo 9": 1902005,
+      "__EMPTY_1": "Litiasis renal, trat. quir. percutáneo c/s ultrasonido (incluye todo el procedimiento)"
+    },
+    {
+      "Anexo 9": 1902090,
+      "__EMPTY_1": "Litiasis renal trat. por onda de choque (litotripsia extracorpórea)"
+    },
+    {
+      "Anexo 9": 1902006,
+      "__EMPTY_1": "Litiasis renal, trat. quir. por nefrotomía anatrófica o bivalva"
+    },
+    {
+      "Anexo 9": 1902008,
+      "__EMPTY_1": "Lumbotomía exploradora c/s dren., c/s biopsia (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1902009,
+      "__EMPTY_1": "Nefrectomía parcial cualquier vía y técnica. Incluye disección ganglionar etapificadora o reductiva"
+    },
+    {
+      "Anexo 9": 1902010,
+      "__EMPTY_1": "Nefrectomía radical ampliada (incluye ganglios)"
+    },
+    {
+      "Anexo 9": 1902011,
+      "__EMPTY_1": "Nefrectomía total"
+    },
+    {
+      "Anexo 9": 1902012,
+      "__EMPTY_1": "Nefrostomía, nefropexia y/o nefrotomía por litiasis, biopsias u otras"
+    },
+    {
+      "Anexo 9": 1902013,
+      "__EMPTY_1": "Pielotomía exploradora y/o terapéutica (incluye la  pielostomía y/o pieloplastía)"
+    },
+    {
+      "Anexo 9": 1902015,
+      "__EMPTY_1": "Suprarrenalectomía unilateral"
+    },
+    {
+      "Anexo 9": 1902016,
+      "__EMPTY_1": "Anastomosis de los uréteres"
+    },
+    {
+      "Anexo 9": 1902017,
+      "__EMPTY_1": "Fístula urétero-vaginal, trat. quir."
+    },
+    {
+      "Anexo 9": 1902018,
+      "__EMPTY_1": "Nefroureterectomía"
+    },
+    {
+      "Anexo 9": 1902019,
+      "__EMPTY_1": "Ureterectomía"
+    },
+    {
+      "Anexo 9": 1902020,
+      "__EMPTY_1": "Urétero-litotomía abierta"
+    },
+    {
+      "Anexo 9": 1902021,
+      "__EMPTY_1": "Urétero o negro-litotomía endoscópica c/ureteroscopía rigida o flexible, con o sin fragmentación."
+    },
+    {
+      "Anexo 9": 1902022,
+      "__EMPTY_1": "Ureteroplastías, proc. completo"
+    },
+    {
+      "Anexo 9": 1902023,
+      "__EMPTY_1": "Uréterorrafia y/o uréterolisis c/u"
+    },
+    {
+      "Anexo 9": 1902024,
+      "__EMPTY_1": "Ureterostomía bilateral: vesical, cutánea o intestinal"
+    },
+    {
+      "Anexo 9": 1902025,
+      "__EMPTY_1": "Ureterostomía unilateral: vesical, cutánea o intestinal"
+    },
+    {
+      "Anexo 9": 1902093,
+      "__EMPTY_1": "Ureterostomía unilateral: vesical, cutáneo o intestinal por vía de abordaje laparoscopia"
+    },
+    {
+      "Anexo 9": 1902027,
+      "__EMPTY_1": "Cistectomía parcial y/o trat. quir. de divertículo vesical"
+    },
+    {
+      "Anexo 9": 1902028,
+      "__EMPTY_1": "Cistectomía radical, proc. completo"
+    },
+    {
+      "Anexo 9": 1902029,
+      "__EMPTY_1": "Cistoplastía, proc. completo"
+    },
+    {
+      "Anexo 9": 1902030,
+      "__EMPTY_1": "Cistorrafia, proc. completo"
+    },
+    {
+      "Anexo 9": 1902031,
+      "__EMPTY_1": "Cistostomía, extracción de litiasis o cuerpo extraño, instalación de catéter suprapúbico, por vía abierta o endoscopica, c/s láser"
+    },
+    {
+      "Anexo 9": 1902032,
+      "__EMPTY_1": "Extrofia vesical, proc. completo"
+    },
+    {
+      "Anexo 9": 1902033,
+      "__EMPTY_1": "Fístula vésico-cutánea, y/o vaginal, y/o intest., trat. quir."
+    },
+    {
+      "Anexo 9": 1902034,
+      "__EMPTY_1": "Lesiones del cuello vesical, trat. quir."
+    },
+    {
+      "Anexo 9": 1902035,
+      "__EMPTY_1": "Ligadura de arterias hipogástricas (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1902036,
+      "__EMPTY_1": "Operación de Bricker"
+    },
+    {
+      "Anexo 9": 1902037,
+      "__EMPTY_1": "Resección endoscópica de cáncer vesical"
+    },
+    {
+      "Anexo 9": 1902038,
+      "__EMPTY_1": "Reservorio continente intestinal externo o interno"
+    },
+    {
+      "Anexo 9": 1902040,
+      "__EMPTY_1": "Diverticulectomía por vía vaginal, perineal, penoescrotal o quistectomía uretral"
+    },
+    {
+      "Anexo 9": 1902041,
+      "__EMPTY_1": "Flegmón urinoso, drenaje y cistostomía"
+    },
+    {
+      "Anexo 9": 1902043,
+      "__EMPTY_1": "Hipospadia distal o plastía de uretra (cada tiempo)"
+    },
+    {
+      "Anexo 9": 1902044,
+      "__EMPTY_1": "Hipospadia proximal, trat. quir. en un tiempo"
+    },
+    {
+      "Anexo 9": 1902045,
+      "__EMPTY_1": "Incontinencia urinaria, trat. quir. por vía abdominal, suprapúbica o combinada (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1902047,
+      "__EMPTY_1": "Meatotomía quirúrgica c/s resección de pólipo o carúncula"
+    },
+    {
+      "Anexo 9": 1902049,
+      "__EMPTY_1": "Uretrectomía y/o plastía abierta de la uretra en cualquiera de sus porciones, por trauma, o estenosis o cualquier etiología"
+    },
+    {
+      "Anexo 9": 1902050,
+      "__EMPTY_1": "Plastía de uretra o trat. de fístulas residuales"
+    },
+    {
+      "Anexo 9": 1902051,
+      "__EMPTY_1": "Uretrostomía"
+    },
+    {
+      "Anexo 9": 1902052,
+      "__EMPTY_1": "Uretrotomía externa (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1902053,
+      "__EMPTY_1": "Uretrotomía interna y/o uretrolitotomía (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1902054,
+      "__EMPTY_1": "Tratamiento quirúrgico de absceso prostático y/o vesículas seminales, cualquier vía o técnica"
+    },
+    {
+      "Anexo 9": 1902055,
+      "__EMPTY_1": "Adenoma o cáncer prostático, resección endoscópica"
+    },
+    {
+      "Anexo 9": 1902056,
+      "__EMPTY_1": "Adenoma prostático, trat. quir. cualquier vía o técnica abierta"
+    },
+    {
+      "Anexo 9": 1902057,
+      "__EMPTY_1": "Prostatectomía radical por cáncer prostático, vía abierta, laparoscópica o robótica, incluye linfadenectomía si corresponde"
+    },
+    {
+      "Anexo 9": 1902059,
+      "__EMPTY_1": "Biopsia quirúrgica de testículo y/o aspiración epididimaria."
+    },
+    {
+      "Anexo 9": 1902060,
+      "__EMPTY_1": "Descenso testículo abdominal c/s hernioplastía"
+    },
+    {
+      "Anexo 9": 1902061,
+      "__EMPTY_1": "Descenso testículo inguinal c/s hernioplastía"
+    },
+    {
+      "Anexo 9": 1902062,
+      "__EMPTY_1": "Escroto, plastía de, proc. completo"
+    },
+    {
+      "Anexo 9": 1902063,
+      "__EMPTY_1": "Hidatidectomía unilat. c/s eversión de la vaginal (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1902064,
+      "__EMPTY_1": "Hidrocele y/o hematocele, trat. quir."
+    },
+    {
+      "Anexo 9": 1902065,
+      "__EMPTY_1": "Orquidectomía unilateral"
+    },
+    {
+      "Anexo 9": 1902066,
+      "__EMPTY_1": "Orquidopexia unilateral"
+    },
+    {
+      "Anexo 9": 1902067,
+      "__EMPTY_1": "Prótesis testicular, (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1902068,
+      "__EMPTY_1": "Orquidectomía ampliada por cáncer testicular"
+    },
+    {
+      "Anexo 9": 1902069,
+      "__EMPTY_1": "Tumores malignos del testículo, orquidectomía ampliada con vaciamiento lumbo-aórtico"
+    },
+    {
+      "Anexo 9": 1902070,
+      "__EMPTY_1": "Anastomosis de los deferentes"
+    },
+    {
+      "Anexo 9": 1902071,
+      "__EMPTY_1": "Epididimectomía parcial o total, un lado"
+    },
+    {
+      "Anexo 9": 1902072,
+      "__EMPTY_1": "Plastía epidídimo-deferente (operación de Martín o sim.)"
+    },
+    {
+      "Anexo 9": 1902073,
+      "__EMPTY_1": "Quistes del cordón, y/o epidídimo, extirpación; epididimotomía diagnóstica y/o terapéutica (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1902074,
+      "__EMPTY_1": "Torsión del cordón, trat. quir. (incluye la fijación del otro testículo)"
+    },
+    {
+      "Anexo 9": 1902075,
+      "__EMPTY_1": "Varicocele unilateral, trat. quir."
+    },
+    {
+      "Anexo 9": 1902076,
+      "__EMPTY_1": "Vasectomía bilateral, (proc. aut.) (la vasectomía como tiempo previo a una resección de próstata esta incluida en la prostatectomía)"
+    },
+    {
+      "Anexo 9": 1902078,
+      "__EMPTY_1": "Amputación parcial del pene (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1902079,
+      "__EMPTY_1": "Amputación total del pene, proc. completo"
+    },
+    {
+      "Anexo 9": 1902080,
+      "__EMPTY_1": "Biopsia de pene (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1902081,
+      "__EMPTY_1": "Cavernosostomía y/o caverno-espongiostomía y/o shunt safenocavernoso"
+    },
+    {
+      "Anexo 9": 1902082,
+      "__EMPTY_1": "Circuncisión (incluye sección de frenillo, y/o de sinequias bálano-prepuciales, y/o incisión dorsal c/s meatotomía)"
+    },
+    {
+      "Anexo 9": 1902083,
+      "__EMPTY_1": "Lesiones del cuerpo cavernoso, trat. quir."
+    },
+    {
+      "Anexo 9": 1902084,
+      "__EMPTY_1": "Meatotomía hombre y/o sección frenillo y/o incisión dorsal, (proc. aut.)"
+    },
+    {
+      "Anexo 9": 1902085,
+      "__EMPTY_1": "Plastía de pene, proc. completo (no incluye valor de la prótesis)"
+    },
+    {
+      "Anexo 9": 1902091,
+      "__EMPTY_1": "Reparación vesical por trauma o daño de cualquier tipo. Por vía de abordaje laparoscópica"
+    },
+    {
+      "Anexo 9": 1902092,
+      "__EMPTY_1": "Inyección ureteral o vesical de medicamentos o sustancias vía endoscópica (no incluye fármaco)"
+    },
+    {
+      "Anexo 9": 2002001,
+      "__EMPTY_1": "Absceso y/o hematoma, trat. quir."
+    },
+    {
+      "Anexo 9": 2002002,
+      "__EMPTY_1": "Mastectomía parcial (cuadrantectomía o similar) o total s/vaciamiento ganglionar"
+    },
+    {
+      "Anexo 9": 2002003,
+      "__EMPTY_1": "Mastectomía radical o tumorectomía c/vaciamiento ganglionar o mastectomía total c/vaciamiento ganglionar"
+    },
+    {
+      "Anexo 9": 2002005,
+      "__EMPTY_1": "Tumor benigno y/o quiste y/o mama supernumeraria y/o aberrante o politelia, o biopsia quirúrgica extemporánea, trat. quir. (proc. aut)"
+    },
+    {
+      "Anexo 9": 2002006,
+      "__EMPTY_1": "Biopsia linfonodo centinela"
+    },
+    {
+      "Anexo 9": 2003042,
+      "__EMPTY_1": "Linfadenectomía pélvica bilateral laparoscopia "
+    },
+    {
+      "Anexo 9": 2003043,
+      "__EMPTY_1": "Traquelectomía radical "
+    },
+    {
+      "Anexo 9": 2004013,
+      "__EMPTY_1": "Cirugía quiste o tumor benigno del ovario abierta, neonatal"
+    },
+    {
+      "Anexo 9": 2004014,
+      "__EMPTY_1": "Cirugía quiste o tumor benigno del ovario laparoscópico, neonatal"
+    },
+    {
+      "Anexo 9": 2004015,
+      "__EMPTY_1": "Tratamiento quirúrgico abierto del quiste paraovárico o del ligamento ancho, neonatal"
+    },
+    {
+      "Anexo 9": 2004016,
+      "__EMPTY_1": "Tratamiento quirúrgico laparoscópico del quiste paraovárico o del ligamento ancho, laparoscópico, neonatal"
+    },
+    {
+      "Anexo 9": 2004017,
+      "__EMPTY_1": "Tratamiento quirúrgico de himen imperforado, paciente pediátrico"
+    },
+    {
+      "Anexo 9": 2003031,
+      "__EMPTY_1": "Videolaparoscopía ginecológica exploradora (incluye toma de muestras para biopsias, punción de quistes y liberación de adherencias) (proc. aut.)"
+    },
+    {
+      "Anexo 9": 2003001,
+      "__EMPTY_1": "Ooforectomía parcial o total, uni o bilateral (proc. aut.)"
+    },
+    {
+      "Anexo 9": 2003002,
+      "__EMPTY_1": "Anexectomía y/o vac. de absceso tubo-ovárico, uni o bilateral."
+    },
+    {
+      "Anexo 9": 2003003,
+      "__EMPTY_1": "Embarazo tubario, trat. quir."
+    },
+    {
+      "Anexo 9": 2003004,
+      "__EMPTY_1": "Ligadura o sección uni o bilateral de las trompas (Madlener, Pomeroy, o similares) (proc. aut.)"
+    },
+    {
+      "Anexo 9": 2003005,
+      "__EMPTY_1": "Salpingectomía uni o bilateral"
+    },
+    {
+      "Anexo 9": 2003006,
+      "__EMPTY_1": "Esterilidad tubaria, operación plástica, uni o bilateral- Con microcirugía"
+    },
+    {
+      "Anexo 9": 2003007,
+      "__EMPTY_1": "Esterilidad tubaria, operación plástica, uni o bilateral- Sin microcirugía"
+    },
+    {
+      "Anexo 9": 2003008,
+      "__EMPTY_1": "Miomectomía"
+    },
+    {
+      "Anexo 9": 2003041,
+      "__EMPTY_1": "Extracción de DIU incrustado, por vía abdominal"
+    },
+    {
+      "Anexo 9": 2003009,
+      "__EMPTY_1": "Histerectomía subtotal por vía abdominal"
+    },
+    {
+      "Anexo 9": 2003010,
+      "__EMPTY_1": "Histerectomía total o ampliada por vía abdominal"
+    },
+    {
+      "Anexo 9": 2003011,
+      "__EMPTY_1": "Ligamento ancho: abscesos y/o hematomas y/o flegmones y/o quistomas y/o várices u otros, trat. quir. (proc. aut.)"
+    },
+    {
+      "Anexo 9": 2003012,
+      "__EMPTY_1": "Conización y/o amputación del cuello uterino, diagnóstica y/o terapéutica  c/s biopsia"
+    },
+    {
+      "Anexo 9": 2003013,
+      "__EMPTY_1": "Exanteración pelviana anterior y/o posterior"
+    },
+    {
+      "Anexo 9": 2003014,
+      "__EMPTY_1": "Histerectomía por vía vaginal"
+    },
+    {
+      "Anexo 9": 2003015,
+      "__EMPTY_1": "Histerectomía radical con disección pelviana completa de territorios ganglionares, incluye ganglios lumboaórticos (operación de Wertheim o similares)"
+    },
+    {
+      "Anexo 9": 2003016,
+      "__EMPTY_1": "Histerectomía total c/intervención incontinencia urinaria, cualquier técnica"
+    },
+    {
+      "Anexo 9": 2003017,
+      "__EMPTY_1": "Histeropexia"
+    },
+    {
+      "Anexo 9": 2003018,
+      "__EMPTY_1": "Plastía uterina (operación de Strassman o similares)"
+    },
+    {
+      "Anexo 9": 2003019,
+      "__EMPTY_1": "Polipectomía (uno o más) (proc. aut.)"
+    },
+    {
+      "Anexo 9": 2003020,
+      "__EMPTY_1": "Sinequia y/o estenosis cervical, trat. quir."
+    },
+    {
+      "Anexo 9": 2003030,
+      "__EMPTY_1": "Desgarro cervical trat. quir."
+    },
+    {
+      "Anexo 9": 2003040,
+      "__EMPTY_1": "Incompetencia cervical trat. quir."
+    },
+    {
+      "Anexo 9": 2003021,
+      "__EMPTY_1": "Colpoceliotomía"
+    },
+    {
+      "Anexo 9": 2003022,
+      "__EMPTY_1": "Incontinencia urinaria de esfuerzo, trat. quir. por vía vaginal (proc. aut.)"
+    },
+    {
+      "Anexo 9": 2003023,
+      "__EMPTY_1": "Prolapso anterior y/o posterior con repar., incontinencia urinaria por vía extravaginal o combinada"
+    },
+    {
+      "Anexo 9": 2003024,
+      "__EMPTY_1": "Prolapso anterior y/o posterior c/s trat. de incontinencia urinaria por vía vaginal, trat. quir."
+    },
+    {
+      "Anexo 9": 2003025,
+      "__EMPTY_1": "Quiste y/o desgarro y/o tabique vaginal, trat. quir."
+    },
+    {
+      "Anexo 9": 2003026,
+      "__EMPTY_1": "Bartolinitis, vaciamiento y drenaje (proc. aut.)"
+    },
+    {
+      "Anexo 9": 2003027,
+      "__EMPTY_1": "Bartolinocistoneostomía o extirp. de la glándula"
+    },
+    {
+      "Anexo 9": 2003028,
+      "__EMPTY_1": "Vulvectomía radical"
+    },
+    {
+      "Anexo 9": 2003029,
+      "__EMPTY_1": "Vulvectomía simple"
+    },
+    {
+      "Anexo 9": 2003044,
+      "__EMPTY_1": "Linfadenectomía pelvica bilateral abierta"
+    },
+    {
+      "Anexo 9": 2003045,
+      "__EMPTY_1": "Traquelectomía radical laparoscópica "
+    },
+    {
+      "Anexo 9": 2003046,
+      "__EMPTY_1": "Traquelectomía simple por vía vaginal"
+    },
+    {
+      "Anexo 9": 2104001,
+      "__EMPTY_1": "Artroscopía diagnóstica c/s biopsia, c/s sección de bridas, extracción de cuerpo extraño"
+    },
+    {
+      "Anexo 9": 2104002,
+      "__EMPTY_1": "Exostosis u osteocondroma, trat. quir."
+    },
+    {
+      "Anexo 9": 2104003,
+      "__EMPTY_1": "Quistes sinoviales de vainas flexoras, bursas"
+    },
+    {
+      "Anexo 9": 2104004,
+      "__EMPTY_1": "Tracción halocraneana o estribo-craneana (proc. aut.)"
+    },
+    {
+      "Anexo 9": 2104005,
+      "__EMPTY_1": "Tracción halocráneo-femoral"
+    },
+    {
+      "Anexo 9": 2104006,
+      "__EMPTY_1": "Tracción transesquelética o de partes blandas en adultos o en niños (proc. aut.)"
+    },
+    {
+      "Anexo 9": 2104007,
+      "__EMPTY_1": "Artrodesis codo o muñeca, c/u"
+    },
+    {
+      "Anexo 9": 2104008,
+      "__EMPTY_1": "Artrodesis hombro, cadera, rodilla, tobillo o sacroilíaca, c/u"
+    },
+    {
+      "Anexo 9": 2104009,
+      "__EMPTY_1": "Artrodesis mano o pie c/u"
+    },
+    {
+      "Anexo 9": 2104010,
+      "__EMPTY_1": "Tratamiento completo de fracturas expuestas de brazo, antebrazo, muslo y pierna, c/u"
+    },
+    {
+      "Anexo 9": 2104011,
+      "__EMPTY_1": "Tratamiento completo de fracturas expuestas de mano o pie, c/u"
+    },
+    {
+      "Anexo 9": 2104012,
+      "__EMPTY_1": "Osteítis, raspado, c/s secuestrectomía"
+    },
+    {
+      "Anexo 9": 2104013,
+      "__EMPTY_1": "Osteomielitis aguda hematógena, drenaje quirúrgico, c/s dispositivos de osteoclisis"
+    },
+    {
+      "Anexo 9": 2104014,
+      "__EMPTY_1": "Osteomielitis crónica huesos largos, legrado óseo,  c/s osteosíntesis o aparato de yeso"
+    },
+    {
+      "Anexo 9": 2104015,
+      "__EMPTY_1": "Artrotomía hombro o cadera c/u"
+    },
+    {
+      "Anexo 9": 2104016,
+      "__EMPTY_1": "Artrotomía otras articulaciones, c/u"
+    },
+    {
+      "Anexo 9": 2104017,
+      "__EMPTY_1": "Pseudoartrosis  infectada huesos largos, trat. quir. cualquier técnica, c/s dispositivo de osteoclisis, c/s osteosíntesis o aparato de yeso"
+    },
+    {
+      "Anexo 9": 2104018,
+      "__EMPTY_1": "Autotrasplante óseo microquirúrgico"
+    },
+    {
+      "Anexo 9": 2104019,
+      "__EMPTY_1": "Injerto esponjoso metafisiario"
+    },
+    {
+      "Anexo 9": 2104020,
+      "__EMPTY_1": "Injertos esponjosos o córtico-esponjosos de cresta ilíaca"
+    },
+    {
+      "Anexo 9": 2104021,
+      "__EMPTY_1": "Trasplante óseo (auto u homotrasplante)"
+    },
+    {
+      "Anexo 9": 2104022,
+      "__EMPTY_1": "Lesiones quísticas con fractura patológica: legrado óseo, c/s relleno injerto esponjoso, c/s osteosíntesis y/o aparato de inmovilización postoperatoria"
+    },
+    {
+      "Anexo 9": 2104023,
+      "__EMPTY_1": "Lesiones quísticas: legrado óseo, c/s relleno de injertos esponjosos"
+    },
+    {
+      "Anexo 9": 2104024,
+      "__EMPTY_1": "Metástasis ósea c/s fractura patológica, legrado tumoral, relleno cemento quirúrgico y osteosíntesis"
+    },
+    {
+      "Anexo 9": 2104025,
+      "__EMPTY_1": "Tumor óseo, resección en bloque, c/s osteosíntesis y/o aparato inmovilización postoperatorio"
+    },
+    {
+      "Anexo 9": 2104026,
+      "__EMPTY_1": "Tumores o quistes o lesiones pseudoquísticas o musculares y/o tendíneas, trat. quir.-TMP"
+    },
+    {
+      "Anexo 9": 2104027,
+      "__EMPTY_1": "Tumores óseos: resección en bloque, epifisiaria c/artrodesis o diafisiaria-TMP"
+    },
+    {
+      "Anexo 9": 2104028,
+      "__EMPTY_1": "Tumores primarios o metastásicos vertebrales: corporectomía, reemplazo por cemento quir. o injerto óseo, c/s osteosíntesis-TMP"
+    },
+    {
+      "Anexo 9": 2104029,
+      "__EMPTY_1": "Codo o muñeca o metacarpofalángicas, c/u"
+    },
+    {
+      "Anexo 9": 2104030,
+      "__EMPTY_1": "Rodilla o cadera u hombro, c/u-TMP"
+    },
+    {
+      "Anexo 9": 2104031,
+      "__EMPTY_1": "Epineurorrafia microquirúrgica con magnificación cualquier tronco nervioso (con excepción nervios digitales)"
+    },
+    {
+      "Anexo 9": 2104033,
+      "__EMPTY_1": "Biopsia ósea por punción"
+    },
+    {
+      "Anexo 9": 2104034,
+      "__EMPTY_1": "Biopsia ósea quirúrgica"
+    },
+    {
+      "Anexo 9": 2104035,
+      "__EMPTY_1": "Biopsia sinovial o muscular por punción"
+    },
+    {
+      "Anexo 9": 2104036,
+      "__EMPTY_1": "Biopsia sinovial o muscular quirúrgica"
+    },
+    {
+      "Anexo 9": 2104037,
+      "__EMPTY_1": "Biopsia vertebral por punción"
+    },
+    {
+      "Anexo 9": 2104038,
+      "__EMPTY_1": "Regularización de Muñón de Amputación"
+    },
+    {
+      "Anexo 9": 2104039,
+      "__EMPTY_1": "Osteocondrosis o epifisitis, trat. quir."
+    },
+    {
+      "Anexo 9": 2104040,
+      "__EMPTY_1": "Amputación interescápulo-torácica"
+    },
+    {
+      "Anexo 9": 2104041,
+      "__EMPTY_1": "Desarticulación escápulo-humeral"
+    },
+    {
+      "Anexo 9": 2104042,
+      "__EMPTY_1": "Endoprótesis total de hombro, cualquier técnica"
+    },
+    {
+      "Anexo 9": 2104044,
+      "__EMPTY_1": "Fractura cuello humeral, trat. quir."
+    },
+    {
+      "Anexo 9": 2104045,
+      "__EMPTY_1": "Fractura de clavícula, osteosíntesis"
+    },
+    {
+      "Anexo 9": 2104046,
+      "__EMPTY_1": "Fractura escápula, osteosíntesis"
+    },
+    {
+      "Anexo 9": 2104047,
+      "__EMPTY_1": "Luxación acromio-clavicular o esterno-clavicular, reducción o plastía cápsuloligamentosa y osteosíntesis"
+    },
+    {
+      "Anexo 9": 2104048,
+      "__EMPTY_1": "Luxación recidivante de hombro, trat. quir."
+    },
+    {
+      "Anexo 9": 2104049,
+      "__EMPTY_1": "Luxación traumática de hombro, reducción cruenta"
+    },
+    {
+      "Anexo 9": 2104050,
+      "__EMPTY_1": "Luxofractura, reducción y osteosíntesis hombro"
+    },
+    {
+      "Anexo 9": 2104051,
+      "__EMPTY_1": "Ruptura manguito rotadores, trat. quir. c/s acromiectomía"
+    },
+    {
+      "Anexo 9": 2104052,
+      "__EMPTY_1": "Transposiciones musculares"
+    },
+    {
+      "Anexo 9": 2104053,
+      "__EMPTY_1": "Amputación brazo"
+    },
+    {
+      "Anexo 9": 2104054,
+      "__EMPTY_1": "Fractura supracondílea niño; tracción esquelética, c/s osteosíntesis y aparato de yeso"
+    },
+    {
+      "Anexo 9": 2104055,
+      "__EMPTY_1": "Osteosíntesis diafisiaria de húmero (cualquier técnica) "
+    },
+    {
+      "Anexo 9": 2104056,
+      "__EMPTY_1": "Osteosíntesis supra o intercondílea (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104057,
+      "__EMPTY_1": "Osteotomía húmero (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104058,
+      "__EMPTY_1": "Pseudoartrosis c/s osteosíntesis c/s yeso húmero"
+    },
+    {
+      "Anexo 9": 2104059,
+      "__EMPTY_1": "Artroplastía con fascia codo"
+    },
+    {
+      "Anexo 9": 2104060,
+      "__EMPTY_1": "Cúpula radial, resección"
+    },
+    {
+      "Anexo 9": 2104061,
+      "__EMPTY_1": "Cúpula radial, resección con implante de silastic o similar"
+    },
+    {
+      "Anexo 9": 2104062,
+      "__EMPTY_1": "Endoprótesis total de codo, (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104063,
+      "__EMPTY_1": "Epicondilitis, trat. quir. (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104064,
+      "__EMPTY_1": "Luxación de codo, reducción cruenta "
+    },
+    {
+      "Anexo 9": 2104065,
+      "__EMPTY_1": "Luxofractura de codo, reducción cruenta c/s resección cúpula radial"
+    },
+    {
+      "Anexo 9": 2104066,
+      "__EMPTY_1": "Osteosíntesis epitroclea-epicóndilo (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104067,
+      "__EMPTY_1": "Osteosíntesis olécranon u osteosíntesis de cúpula radial (proc. aut.) (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104068,
+      "__EMPTY_1": "Traslocación nervio cubital (proc. aut.)"
+    },
+    {
+      "Anexo 9": 2104069,
+      "__EMPTY_1": "Operación de salvataje radio-procúbito"
+    },
+    {
+      "Anexo 9": 2104070,
+      "__EMPTY_1": "Amputación antebrazo"
+    },
+    {
+      "Anexo 9": 2104071,
+      "__EMPTY_1": "Extirpación metáfisis distal del cúbito y artrodesis radiocubital inferior"
+    },
+    {
+      "Anexo 9": 2104072,
+      "__EMPTY_1": "Luxofracturas (Monteggia-Galeazzi), reducc. y osteosíntesis"
+    },
+    {
+      "Anexo 9": 2104073,
+      "__EMPTY_1": "Osteosíntesis, fract. cerrada cubito y/o radio (cualq. técn.)"
+    },
+    {
+      "Anexo 9": 2104074,
+      "__EMPTY_1": "Osteotomía uno o ambos huesos, c/s ostesíntesis c/s yeso o trat. quir. Enf. de Kienbock"
+    },
+    {
+      "Anexo 9": 2104075,
+      "__EMPTY_1": "Pseudoartrosis  cúbito y/o radio c/s osteosíntesis c/s yeso"
+    },
+    {
+      "Anexo 9": 2104076,
+      "__EMPTY_1": "Sinostosis radio-cubital, trat. quir., c/s injerto"
+    },
+    {
+      "Anexo 9": 2104077,
+      "__EMPTY_1": "Trasplantes músculo-tendinosos antebrazo"
+    },
+    {
+      "Anexo 9": 2104078,
+      "__EMPTY_1": "Contractura isquem. de Volkmann: descenso muscular, neurolisis"
+    },
+    {
+      "Anexo 9": 2104079,
+      "__EMPTY_1": "Endoprótesis total de muñeca, (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104080,
+      "__EMPTY_1": "Estiloides cubital, radial, resección de."
+    },
+    {
+      "Anexo 9": 2104081,
+      "__EMPTY_1": "Fractura o pseudoartrosis escafoides, trat. quir. cualq. técn."
+    },
+    {
+      "Anexo 9": 2104083,
+      "__EMPTY_1": "Luxación radiocarpiana, trat. quir."
+    },
+    {
+      "Anexo 9": 2104084,
+      "__EMPTY_1": "Luxación semilunar ,escafoidea, reducción y osteosíntesis semicruenta o cruenta"
+    },
+    {
+      "Anexo 9": 2104085,
+      "__EMPTY_1": "Osteosíntesis radio, (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104086,
+      "__EMPTY_1": "Tendovaginosis de De Quervain, trat. quir."
+    },
+    {
+      "Anexo 9": 2104087,
+      "__EMPTY_1": "Amputación dedos (tres o más)"
+    },
+    {
+      "Anexo 9": 2104088,
+      "__EMPTY_1": "Amputación dedos (uno o dos)"
+    },
+    {
+      "Anexo 9": 2104089,
+      "__EMPTY_1": "Amputación mano o del pulgar"
+    },
+    {
+      "Anexo 9": 2104090,
+      "__EMPTY_1": "Amputación pulpejos (plastía Kutler o similares)"
+    },
+    {
+      "Anexo 9": 2104091,
+      "__EMPTY_1": "Contractura Dupuytren, trat. quir., cada tiempo"
+    },
+    {
+      "Anexo 9": 2104092,
+      "__EMPTY_1": "Contusión-compresión grave mano, trat. quir. incluye incisiones liberadoras y/o fasciotomía y/o escarectomía y/o injertos piel inmediatos y síntesis percutánea"
+    },
+    {
+      "Anexo 9": 2104093,
+      "__EMPTY_1": "Dedos en gatillo, trat. quir., cualquier número"
+    },
+    {
+      "Anexo 9": 2104094,
+      "__EMPTY_1": "Flegmón mano, trat. quir."
+    },
+    {
+      "Anexo 9": 2104095,
+      "__EMPTY_1": "Luxofractura metacarpofalángica o interfalángica, trat. quir."
+    },
+    {
+      "Anexo 9": 2104096,
+      "__EMPTY_1": "Mano reumática en ráfaga: traslocaciones tendinosas, plastías capsulares, tenotomías, inmovilización postoperatoria"
+    },
+    {
+      "Anexo 9": 2104097,
+      "__EMPTY_1": "Mano reumática: implant. silastic, cualq. número (proc. aut.)"
+    },
+    {
+      "Anexo 9": 2104098,
+      "__EMPTY_1": "Mutilación grave mano, aseo. quir. completo c/s osteosíntesis, c/s injertos "
+    },
+    {
+      "Anexo 9": 2104099,
+      "__EMPTY_1": "Osteosíntesis metacarpianas o de falanges, cualquier técnica"
+    },
+    {
+      "Anexo 9": 2104100,
+      "__EMPTY_1": "Panadizo, trat. quir."
+    },
+    {
+      "Anexo 9": 2104101,
+      "__EMPTY_1": "Pulgarización dedo (índice o anular)"
+    },
+    {
+      "Anexo 9": 2104102,
+      "__EMPTY_1": "Reimplante mano o dedo(s)"
+    },
+    {
+      "Anexo 9": 2104103,
+      "__EMPTY_1": "Reparación flexores: primer tiempo espaciador silastic"
+    },
+    {
+      "Anexo 9": 2104104,
+      "__EMPTY_1": "Reparación nervio digital con injerto interfascicular: cualquier número"
+    },
+    {
+      "Anexo 9": 2104105,
+      "__EMPTY_1": "Rupturas cerradas cápsulo-ligament. o tendinosas, trat. quir. mano"
+    },
+    {
+      "Anexo 9": 2104106,
+      "__EMPTY_1": "Sutura nervio(s) digital(es); microcirugía"
+    },
+    {
+      "Anexo 9": 2104107,
+      "__EMPTY_1": "Tenorrafia extensores mano"
+    },
+    {
+      "Anexo 9": 2104108,
+      "__EMPTY_1": "Tenorrafia o injertos flexores mano"
+    },
+    {
+      "Anexo 9": 2104109,
+      "__EMPTY_1": "Tenosinovitis séptica, trat. quir. mano"
+    },
+    {
+      "Anexo 9": 2104110,
+      "__EMPTY_1": "Trasplante microquirúrgico para pulgar"
+    },
+    {
+      "Anexo 9": 2104111,
+      "__EMPTY_1": "Transposiciones tendinosas flexoras o extensoras mano"
+    },
+    {
+      "Anexo 9": 2104203,
+      "__EMPTY_1": "Tratamiento quir., dedos en gatillo, cualquier número téc. WALANT (anestesia local sin torniquete)"
+    },
+    {
+      "Anexo 9": 2104112,
+      "__EMPTY_1": "Diastematomielia, resección espolón c/s instrumentación"
+    },
+    {
+      "Anexo 9": 2104113,
+      "__EMPTY_1": "Escoliosis, trat. quir., cualquier vía de abordaje, e instrumentación de Harrington,  Luque, Dwyer o similares (no inclute material de fijación de columna)"
+    },
+    {
+      "Anexo 9": 2104213,
+      "__EMPTY_1": "Escoliosis, trat. quir., cualquier vía de abordaje, con instrumentación (incluye elementos de osteosíntesis)"
+    },
+    {
+      "Anexo 9": 2104116,
+      "__EMPTY_1": "Luxaciones, luxofracturas vertebrales (cervical, dorsal, lumbar), reducción cruenta, cualquier vía de abordaje, cualquier número"
+    },
+    {
+      "Anexo 9": 2104117,
+      "__EMPTY_1": "Osteotomías vertebrales correctoras, c/s instrumentación, c/s injertos óseos, c/s artrodesis"
+    },
+    {
+      "Anexo 9": 2104118,
+      "__EMPTY_1": "Plastías costales, cualquier número"
+    },
+    {
+      "Anexo 9": 2104119,
+      "__EMPTY_1": "Reemplazo cuerpo vertebral con artrodesis c/s osteosíntesis c/s instrumentación"
+    },
+    {
+      "Anexo 9": 2104121,
+      "__EMPTY_1": "Resección del coxis"
+    },
+    {
+      "Anexo 9": 2104122,
+      "__EMPTY_1": "Diástasis pubiana, trat. quir."
+    },
+    {
+      "Anexo 9": 2104123,
+      "__EMPTY_1": "Fractura de pelvis, osteosíntesis quir."
+    },
+    {
+      "Anexo 9": 2104124,
+      "__EMPTY_1": "Osteotomía pelviana (Salter, Chiari o similares)"
+    },
+    {
+      "Anexo 9": 2104125,
+      "__EMPTY_1": "Triple osteotomía de pelvis"
+    },
+    {
+      "Anexo 9": 2104126,
+      "__EMPTY_1": "Amputación inter-ilio abdominal"
+    },
+    {
+      "Anexo 9": 2104127,
+      "__EMPTY_1": "Desarticulación cadera"
+    },
+    {
+      "Anexo 9": 2104128,
+      "__EMPTY_1": "Endoprótesis parcial de cadera c/s cementación (cualquier técnica) (no incluye prótesis)"
+    },
+    {
+      "Anexo 9": 2104228,
+      "__EMPTY_1": "Endoprótesis parcial de cadera c/s cementación (cualquier técnica) (incluye prótesis)"
+    },
+    {
+      "Anexo 9": 2104129,
+      "__EMPTY_1": "Endoprótesis total de cadera  (no incluye prótesis)"
+    },
+    {
+      "Anexo 9": 2104229,
+      "__EMPTY_1": "Endoprótesis total de cadera (incluye prótesis)"
+    },
+    {
+      "Anexo 9": 2104130,
+      "__EMPTY_1": "Epifisiolisis lenta o aguda, trat. quir."
+    },
+    {
+      "Anexo 9": 2104131,
+      "__EMPTY_1": "Fractura de cuello de fémur, osteosíntesis, cualquier técnica (no incluye elementos de osteosíntesis)"
+    },
+    {
+      "Anexo 9": 2104231,
+      "__EMPTY_1": "Fractura de cuello de fémur, osteosíntesis, cualquier técnica (incluye elementos de osteosíntesis)"
+    },
+    {
+      "Anexo 9": 2104132,
+      "__EMPTY_1": "Fractura de cuello de fémur, resección epífisis femoral"
+    },
+    {
+      "Anexo 9": 2104133,
+      "__EMPTY_1": "Luxación traumática de cadera, reducción cruenta"
+    },
+    {
+      "Anexo 9": 2104134,
+      "__EMPTY_1": "Luxofractura acetabular, trat. quir."
+    },
+    {
+      "Anexo 9": 2104135,
+      "__EMPTY_1": "Operación de salvataje cadera, columna o similares"
+    },
+    {
+      "Anexo 9": 2104136,
+      "__EMPTY_1": "Osteotomías femorales"
+    },
+    {
+      "Anexo 9": 2104137,
+      "__EMPTY_1": "Reducción cruenta en luxación congénita o traumática de cadera"
+    },
+    {
+      "Anexo 9": 2104138,
+      "__EMPTY_1": "Reducción cruenta y acetabuloplastía femoral c/s osteotomía femoral"
+    },
+    {
+      "Anexo 9": 2104139,
+      "__EMPTY_1": "Reducción cruenta y osteotomía femoral"
+    },
+    {
+      "Anexo 9": 2104140,
+      "__EMPTY_1": "Tenotomía aductores c/s botas, con yugo (proc. aut.)"
+    },
+    {
+      "Anexo 9": 2104141,
+      "__EMPTY_1": "Trocanteroplastías"
+    },
+    {
+      "Anexo 9": 2104142,
+      "__EMPTY_1": "Amputación muslo"
+    },
+    {
+      "Anexo 9": 2104143,
+      "__EMPTY_1": "Epifisiodesis (fémur y/o tibia)"
+    },
+    {
+      "Anexo 9": 2104144,
+      "__EMPTY_1": "Osteosíntesis diafisiaria o metafisiaria muslo (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104145,
+      "__EMPTY_1": "Osteotomía correctora muslo"
+    },
+    {
+      "Anexo 9": 2104146,
+      "__EMPTY_1": "Osteotomía de alargamiento o acortamiento con osteosíntesis inmediata o distracción instrumental progresiva muslo"
+    },
+    {
+      "Anexo 9": 2104147,
+      "__EMPTY_1": "Osteotomía en rosario con enclavijamiento clavo telescópico"
+    },
+    {
+      "Anexo 9": 2104148,
+      "__EMPTY_1": "Pseudoartrosis, trat. quir. (cualquier técnica) muslo"
+    },
+    {
+      "Anexo 9": 2104149,
+      "__EMPTY_1": "Ruptura y/o hernia muscular, trat. quir. muslo"
+    },
+    {
+      "Anexo 9": 2104150,
+      "__EMPTY_1": "Artrotomía por cuerpos libres, osteocondritis rodilla (proc. aut)"
+    },
+    {
+      "Anexo 9": 2104151,
+      "__EMPTY_1": "Desarticulación rodilla"
+    },
+    {
+      "Anexo 9": 2104152,
+      "__EMPTY_1": "Disfunción patelo-femoral, realineamiento (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104153,
+      "__EMPTY_1": "Endoprótesis total de rodilla, (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104154,
+      "__EMPTY_1": "Fractura rótula: osteosíntesis o patelectomía parc. o total"
+    },
+    {
+      "Anexo 9": 2104155,
+      "__EMPTY_1": "Fracturas condíleas o de platillos tibiales, reducción, osteosíntesis  (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104156,
+      "__EMPTY_1": "Inestabilidad crónica de rodilla, reconstrucción cápsuloligamentosa (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104157,
+      "__EMPTY_1": "Luxación o rotura ligamentos, trat. quir. cápsulo-ligamentoso"
+    },
+    {
+      "Anexo 9": 2104158,
+      "__EMPTY_1": "Meniscectomía quirúrgica, interna y/o externa"
+    },
+    {
+      "Anexo 9": 2104159,
+      "__EMPTY_1": "Meniscectomía u otras intervenciones por vía artroscópica (incluye artroscopía diagnóstica)"
+    },
+    {
+      "Anexo 9": 2104160,
+      "__EMPTY_1": "Quiste poplíteo, trat. quir."
+    },
+    {
+      "Anexo 9": 2104161,
+      "__EMPTY_1": "Reconstrucción aparato extensor de rodilla"
+    },
+    {
+      "Anexo 9": 2104162,
+      "__EMPTY_1": "Reparación quirúrgica ligamentos colaterales y/o cruzados de rodilla"
+    },
+    {
+      "Anexo 9": 2104163,
+      "__EMPTY_1": "Traslocaciones músculo-tendinosas en rodilla paralítica o espástica"
+    },
+    {
+      "Anexo 9": 2104164,
+      "__EMPTY_1": "Amputación pierna"
+    },
+    {
+      "Anexo 9": 2104165,
+      "__EMPTY_1": "Colgajo cruzado de pierna, trat. quir. completo"
+    },
+    {
+      "Anexo 9": 2104166,
+      "__EMPTY_1": "Fasciotomía por síndrome compartamental"
+    },
+    {
+      "Anexo 9": 2104167,
+      "__EMPTY_1": "Osteosíntesis tibio-peroné  (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104168,
+      "__EMPTY_1": "Osteotomía correctora de ejes  (cualquier técnica) pierna"
+    },
+    {
+      "Anexo 9": 2104169,
+      "__EMPTY_1": "Osteotomía de alargamiento o acortamiento con osteosíntesis inmediata o distracción instrumental progresiva pierna"
+    },
+    {
+      "Anexo 9": 2104170,
+      "__EMPTY_1": "Osteotomía del peroné"
+    },
+    {
+      "Anexo 9": 2104171,
+      "__EMPTY_1": "Peroné protibia"
+    },
+    {
+      "Anexo 9": 2104172,
+      "__EMPTY_1": "Pseudoartrosis, c/s osteosíntesis  (cualquier técnica) pierna"
+    },
+    {
+      "Anexo 9": 2104173,
+      "__EMPTY_1": "Desarticulación tobillo"
+    },
+    {
+      "Anexo 9": 2104174,
+      "__EMPTY_1": "Endoprótesis total tobillo, (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104175,
+      "__EMPTY_1": "Esguince grave de tobillo, trat. quir. cápsulo-ligamentoso "
+    },
+    {
+      "Anexo 9": 2104176,
+      "__EMPTY_1": "Fractura astrágalo y/o calcáneo, osteosíntesis (cualq. técn.)"
+    },
+    {
+      "Anexo 9": 2104177,
+      "__EMPTY_1": "Huesos supernumerarios, extirpación, uno o más, unilateral"
+    },
+    {
+      "Anexo 9": 2104178,
+      "__EMPTY_1": "Luxación tibio-astrág.-calcán., reducc. cruenta y osteosínt."
+    },
+    {
+      "Anexo 9": 2104179,
+      "__EMPTY_1": "Luxofractura tobillo, cualquier tipo, osteosíntesis y reparación cápsulo-ligamentosa"
+    },
+    {
+      "Anexo 9": 2104180,
+      "__EMPTY_1": "Osteoplastía tibio-calcánea"
+    },
+    {
+      "Anexo 9": 2104181,
+      "__EMPTY_1": "Ruptura tendón de Aquiles o tibial posterior, tenorrafia primaria y/o transposiciones tendinosas"
+    },
+    {
+      "Anexo 9": 2104182,
+      "__EMPTY_1": "Ruptura tibial anterior u otros, tenorrafia"
+    },
+    {
+      "Anexo 9": 2104183,
+      "__EMPTY_1": "Tenorrafia extensores o tenotomía de alargamiento de tendón de Aquiles"
+    },
+    {
+      "Anexo 9": 2104184,
+      "__EMPTY_1": "Traslocación tendinosa tobillo"
+    },
+    {
+      "Anexo 9": 2104185,
+      "__EMPTY_1": "Amputación transmetatarsiana"
+    },
+    {
+      "Anexo 9": 2104186,
+      "__EMPTY_1": "Astrágalo vertical, trat. quir."
+    },
+    {
+      "Anexo 9": 2104187,
+      "__EMPTY_1": "Espolón calcáneo, trat. quir."
+    },
+    {
+      "Anexo 9": 2104188,
+      "__EMPTY_1": "Exostosis 5° metatarsiano, (\"juanetillo\")  trat. quir."
+    },
+    {
+      "Anexo 9": 2104189,
+      "__EMPTY_1": "Fasciotomía plantar (proc. aut.)"
+    },
+    {
+      "Anexo 9": 2104190,
+      "__EMPTY_1": "Hallux valgus o rígidus, trat.quir. completo (cualquier téc.)"
+    },
+    {
+      "Anexo 9": 2104191,
+      "__EMPTY_1": "Luxaciones, luxofracturas, fracturas, reducción cruenta pie"
+    },
+    {
+      "Anexo 9": 2104192,
+      "__EMPTY_1": "Mal perforante plantar, trat. quir."
+    },
+    {
+      "Anexo 9": 2104193,
+      "__EMPTY_1": "Neuroma de Morton, trat. quir."
+    },
+    {
+      "Anexo 9": 2104194,
+      "__EMPTY_1": "Ortejos en garra, trat. quir., cualq. número (cualq. técnica)"
+    },
+    {
+      "Anexo 9": 2104195,
+      "__EMPTY_1": "Ortejos, amputación, uno o más, unilateral"
+    },
+    {
+      "Anexo 9": 2104196,
+      "__EMPTY_1": "Pie bot u otras malformaciones congénitas, trat. quir. (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104197,
+      "__EMPTY_1": "Pie cavo, trat. quir. (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104198,
+      "__EMPTY_1": "Pie plano, trat. quir. (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104199,
+      "__EMPTY_1": "Pie reumatoídeo, trat. quir. completo (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104200,
+      "__EMPTY_1": "Sesamoídeos, extirpación de uno o más, unilateral"
+    },
+    {
+      "Anexo 9": 2104201,
+      "__EMPTY_1": "Tenorrafia extensores pie"
+    },
+    {
+      "Anexo 9": 2104202,
+      "__EMPTY_1": "Transplantes tendinosos pie (cualquier técnica)"
+    },
+    {
+      "Anexo 9": 2104205,
+      "__EMPTY_1": "Recambio prótesis de cadera. Incluye prótesis"
+    },
+    {
+      "Anexo 9": 2104204,
+      "__EMPTY_1": "Recambio prótesis de rodilla. Incluye prótesis"
+    },
+    {
+      "Anexo 9": 2104232,
+      "__EMPTY_1": "Punción discal diagnóstica o terapéutica"
+    },
+    {
+      "Anexo 9": 2104233,
+      "__EMPTY_1": "Biopsia vertebral abierta"
+    },
+    {
+      "Anexo 9": 2104234,
+      "__EMPTY_1": "Resección parcial de sacro distal y coxis"
+    },
+    {
+      "Anexo 9": 2104235,
+      "__EMPTY_1": "Resección parcial de sacro proximal"
+    },
+    {
+      "Anexo 9": 2104236,
+      "__EMPTY_1": "Teratoma sacrococcigeo"
+    },
+    {
+      "Anexo 9": 2104237,
+      "__EMPTY_1": "Teratoma sacrococcigeo intra y extrapelviano"
+    },
+    {
+      "Anexo 9": 2106001,
+      "__EMPTY_1": "Retiro de endoprótesis u osteosíntesis internas articulares o de columna vertebral"
+    },
+    {
+      "Anexo 9": 2106002,
+      "__EMPTY_1": "Retiro de placas rectas o anguladas"
+    },
+    {
+      "Anexo 9": 2106003,
+      "__EMPTY_1": "Retiro de tornillos, clavos, agujas de osteosíntesis o similares"
+    },
+    {
+      "Anexo 9": 2705002,
+      "__EMPTY_1": "Cirugía de enfermedad periodontal (por grupo)"
+    },
+    {
+      "Anexo 9": 2705003,
+      "__EMPTY_1": "Corticotomía"
+    },
+    {
+      "Anexo 9": 2705004,
+      "__EMPTY_1": "Disyunción palatina quirúrgica"
+    },
+    {
+      "Anexo 9": 2705005,
+      "__EMPTY_1": "Extirpación de pseudoquistes, quistes y tumores"
+    },
+    {
+      "Anexo 9": 2705006,
+      "__EMPTY_1": "Glosectomías"
+    },
+    {
+      "Anexo 9": 2705007,
+      "__EMPTY_1": "Implante endodóntico intraóseo"
+    },
+    {
+      "Anexo 9": 2705008,
+      "__EMPTY_1": "Implantes subperiósticos"
+    },
+    {
+      "Anexo 9": 2705009,
+      "__EMPTY_1": "Exodoncia de dientes retenidos"
+    },
+    {
+      "Anexo 9": 2705011,
+      "__EMPTY_1": "Injertos en boca"
+    },
+    {
+      "Anexo 9": 2705012,
+      "__EMPTY_1": "Elevación de piso del seno maxilar"
+    },
+    {
+      "Anexo 9": 2705013,
+      "__EMPTY_1": "Plastía de fístula salival"
+    },
+    {
+      "Anexo 9": 2705014,
+      "__EMPTY_1": "Preparación quirúrgica de los maxilares con fines protésicos"
+    },
+    {
+      "Anexo 9": 2705015,
+      "__EMPTY_1": "Profundización de vestíbulo o reconstrucción de rebordes, con o sin injerto"
+    },
+    {
+      "Anexo 9": 2705016,
+      "__EMPTY_1": "Reimplante y trasplante dentario"
+    },
+    {
+      "Anexo 9": 2705017,
+      "__EMPTY_1": "Remoción de cuerpo extraño y secuestrectomía"
+    },
+    {
+      "Anexo 9": 2705018,
+      "__EMPTY_1": "Sutura completa de herida mayor"
+    },
+    {
+      "Anexo 9": 2705019,
+      "__EMPTY_1": "Sutura completa de herida menor"
+    },
+    {
+      "Anexo 9": 2705020,
+      "__EMPTY_1": "Sutura simple de herida"
+    },
+    {
+      "Anexo 9": 2705021,
+      "__EMPTY_1": "Tratamiento quirúrgico fracturas maxilar superior"
+    },
+    {
+      "Anexo 9": 2705022,
+      "__EMPTY_1": "Tratamiento quirúrgico de fracturas en maxilar inferior"
+    },
+    {
+      "Anexo 9": 2705023,
+      "__EMPTY_1": "Tratamiento de traumatismo dento alveolar simple"
+    },
+    {
+      "Anexo 9": 2705024,
+      "__EMPTY_1": "Tratamiento de traumatismo dento alveolar complejo"
+    },
+    {
+      "Anexo 9": 2705025,
+      "__EMPTY_1": "Implante oseointegrado"
+    },
+    {
+      "Anexo 9": 2705026,
+      "__EMPTY_1": "Pilar Protésico sobre Implantes"
+    },
+    {
+      "Anexo 9": 2004006,
+      "__EMPTY_1": "Cesárea c/s salpingoligadura o salpingectomía"
+    },
+    {
+      "Anexo 9": 2004005,
+      "__EMPTY_1": "Cesárea con histerectomía"
+    }
+  ]
+}

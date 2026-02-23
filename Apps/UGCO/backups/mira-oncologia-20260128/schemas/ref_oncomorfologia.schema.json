@@ -1,0 +1,50 @@
+{
+  "collection": {
+    "name": "ref_oncomorfologia",
+    "title": "Morfología (CIE-O-3)",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "3dzf6jczccp",
+      "name": "codigo_oficial",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ref_oncomorfologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Código M"
+      }
+    },
+    {
+      "key": "ica83pi929x",
+      "name": "descripcion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ref_oncomorfologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Descripción"
+      }
+    },
+    {
+      "key": "zd2gddr8cpo",
+      "name": "sistema_cod",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "ref_oncomorfologia",
+      "parentKey": null,
+      "reverseKey": null,
+      "defaultValue": "http://hl7.org/fhir/sid/icd-o-3"
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.936Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

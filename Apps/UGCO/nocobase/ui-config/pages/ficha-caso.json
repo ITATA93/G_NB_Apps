@@ -1,0 +1,449 @@
+{
+  "name": "ugco-ficha-caso",
+  "title": "Ficha del Caso Oncológico",
+  "description": "Vista detallada del caso con pestañas y timeline",
+  "version": "1.0.0",
+  "layout": {
+    "type": "drawer",
+    "width": 1000,
+    "properties": {
+      "cabecera": {
+        "type": "void",
+        "x-component": "Card",
+        "x-component-props": {
+          "bordered": false,
+          "style": { "marginBottom": 16 }
+        },
+        "properties": {
+          "header-grid": {
+            "type": "void",
+            "x-component": "Grid",
+            "x-component-props": {
+              "cols": "auto 1fr",
+              "gap": 24
+            },
+            "properties": {
+              "avatar": {
+                "type": "void",
+                "x-component": "Avatar",
+                "x-component-props": {
+                  "size": 80,
+                  "icon": "👤",
+                  "style": { "backgroundColor": "#e0e0e0" }
+                }
+              },
+              "info": {
+                "type": "void",
+                "x-component": "Space",
+                "x-component-props": {
+                  "direction": "vertical",
+                  "size": 4
+                },
+                "properties": {
+                  "titulo": {
+                    "type": "void",
+                    "x-component": "Title",
+                    "x-component-props": {
+                      "level": 4,
+                      "content": "{{record.UGCO_COD01}} - {{record.paciente.nombre_completo}}"
+                    }
+                  },
+                  "datos-basicos": {
+                    "type": "void",
+                    "x-component": "Text",
+                    "x-component-props": {
+                      "type": "secondary",
+                      "content": "RUT: {{record.paciente.rut}} | Edad: {{record.paciente.edad}} años | Sexo: {{record.paciente.sexo}}"
+                    }
+                  },
+                  "datos-clinicos": {
+                    "type": "void",
+                    "x-component": "Text",
+                    "x-component-props": {
+                      "content": "Previsión: {{record.paciente.prevision}} | {{record.garantia}}"
+                    }
+                  },
+                  "equipo": {
+                    "type": "void",
+                    "x-component": "Text",
+                    "x-component-props": {
+                      "type": "secondary",
+                      "content": "Médico: {{record.medico_tratante}} | Enf. Gestora: {{record.enfermera_gestora}}"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "estados": {
+            "type": "void",
+            "x-component": "Space",
+            "x-component-props": {
+              "size": 8,
+              "style": { "marginTop": 16 }
+            },
+            "properties": {
+              "estado-clinico": {
+                "type": "void",
+                "x-component": "Tag",
+                "x-component-props": {
+                  "color": "{{record.estado_clinico_color}}",
+                  "content": "{{record.estado_clinico.nombre}}"
+                }
+              },
+              "estado-adm": {
+                "type": "void",
+                "x-component": "Tag",
+                "x-component-props": {
+                  "color": "{{record.estado_adm_color}}",
+                  "content": "{{record.estado_adm.nombre}}"
+                }
+              },
+              "estado-seguimiento": {
+                "type": "void",
+                "x-component": "Tag",
+                "x-component-props": {
+                  "color": "{{record.estado_seguimiento_color}}",
+                  "content": "{{record.estado_seguimiento.nombre}}"
+                }
+              }
+            }
+          }
+        }
+      },
+      "tabs": {
+        "type": "void",
+        "x-component": "Tabs",
+        "x-component-props": {
+          "defaultActiveKey": "resumen",
+          "type": "card"
+        },
+        "properties": {
+          "tab-resumen": {
+            "type": "void",
+            "x-component": "Tabs.TabPane",
+            "x-component-props": {
+              "key": "resumen",
+              "tab": "📋 Resumen"
+            },
+            "properties": {
+              "resumen-content": {
+                "type": "void",
+                "x-component": "Grid",
+                "x-component-props": {
+                  "cols": 2,
+                  "gap": 16
+                },
+                "properties": {
+                  "diagnostico": {
+                    "type": "void",
+                    "x-component": "Card",
+                    "x-component-props": {
+                      "title": "Diagnóstico Oncológico",
+                      "size": "small"
+                    },
+                    "properties": {
+                      "descripcion": {
+                        "type": "void",
+                        "x-component": "Descriptions",
+                        "x-component-props": {
+                          "column": 1,
+                          "items": [
+                            { "label": "CIE-10", "content": "{{record.codigo_cie10}} - {{record.cie10_glosa}}" },
+                            { "label": "Topografía", "content": "{{record.topografia_icdo}} - {{record.topografia.nombre}}" },
+                            { "label": "Morfología", "content": "{{record.morfologia_icdo}} - {{record.morfologia.nombre}}" },
+                            { "label": "Lateralidad", "content": "{{record.lateralidad.nombre}}" },
+                            { "label": "Fecha Dx", "content": "{{record.fecha_diagnostico}}", "format": "date" }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "estadificacion": {
+                    "type": "void",
+                    "x-component": "Card",
+                    "x-component-props": {
+                      "title": "Estadificación TNM",
+                      "size": "small"
+                    },
+                    "properties": {
+                      "tnm": {
+                        "type": "void",
+                        "x-component": "Descriptions",
+                        "x-component-props": {
+                          "column": 2,
+                          "items": [
+                            { "label": "Tipo", "content": "{{record.tipo_etapificacion}}" },
+                            { "label": "T", "content": "{{record.tnm_t}}" },
+                            { "label": "N", "content": "{{record.tnm_n}}" },
+                            { "label": "M", "content": "{{record.tnm_m}}" },
+                            { "label": "Estadio", "content": "{{record.estadio_clinico}}", "span": 2 },
+                            { "label": "Grado", "content": "{{record.grado_diferenciacion}}" },
+                            { "label": "ECOG", "content": "{{record.ecog_inicial}}" }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "tratamiento": {
+                    "type": "void",
+                    "x-component": "Card",
+                    "x-component-props": {
+                      "title": "Tratamiento Actual",
+                      "size": "small"
+                    },
+                    "properties": {
+                      "trat-info": {
+                        "type": "void",
+                        "x-component": "Descriptions",
+                        "x-component-props": {
+                          "column": 1,
+                          "items": [
+                            { "label": "Intención", "content": "{{record.intencion_trat.nombre}}" },
+                            { "label": "Tratamiento", "content": "{{record.tratamiento_actual}}" },
+                            { "label": "Próximo", "content": "{{record.proximo_tratamiento}}" },
+                            { "label": "Fecha próx.", "content": "{{record.fecha_proximo_control}}", "format": "date" }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "contacto": {
+                    "type": "void",
+                    "x-component": "Card",
+                    "x-component-props": {
+                      "title": "Contacto",
+                      "size": "small"
+                    },
+                    "properties": {
+                      "contacto-info": {
+                        "type": "void",
+                        "x-component": "Descriptions",
+                        "x-component-props": {
+                          "column": 1,
+                          "items": [
+                            { "label": "Teléfono", "content": "{{record.paciente.telefono}}" },
+                            { "label": "Email", "content": "{{record.paciente.email}}" },
+                            { "label": "Dirección", "content": "{{record.contacto_principal.direccion}}" },
+                            { "label": "Familiar", "content": "{{record.persona_significativa.nombre}} ({{record.persona_significativa.parentesco}})" }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "tab-timeline": {
+            "type": "void",
+            "x-component": "Tabs.TabPane",
+            "x-component-props": {
+              "key": "timeline",
+              "tab": "📈 Timeline"
+            },
+            "properties": {
+              "timeline": {
+                "type": "void",
+                "x-component": "Timeline",
+                "x-component-props": {
+                  "mode": "left",
+                  "dataSource": {
+                    "collection": "ugco_eventoclinico",
+                    "filter": { "caso_id": "{{record.id}}" },
+                    "sort": [{ "field": "fecha_evento", "order": "desc" }],
+                    "include": ["tipo_evento_ref"]
+                  },
+                  "itemTemplate": {
+                    "dot": {
+                      "completed": "●",
+                      "pending": "○",
+                      "in_progress": "◐"
+                    },
+                    "color": {
+                      "completed": "green",
+                      "pending": "gray",
+                      "in_progress": "blue"
+                    },
+                    "title": "{{fecha_evento}} - {{tipo_evento_ref.nombre}}",
+                    "description": "{{descripcion}}",
+                    "extra": "{{resultado}}"
+                  }
+                }
+              }
+            }
+          },
+          "tab-eventos": {
+            "type": "void",
+            "x-component": "Tabs.TabPane",
+            "x-component-props": {
+              "key": "eventos",
+              "tab": "🏥 Eventos"
+            },
+            "properties": {
+              "eventos-table": {
+                "type": "void",
+                "x-component": "Table",
+                "x-component-props": {
+                  "collection": "ugco_eventoclinico",
+                  "filter": { "caso_id": "{{record.id}}" },
+                  "sort": [{ "field": "fecha_evento", "order": "desc" }],
+                  "pageSize": 10,
+                  "columns": [
+                    { "field": "fecha_evento", "title": "Fecha", "format": "date" },
+                    { "field": "tipo_evento", "title": "Tipo" },
+                    { "field": "descripcion", "title": "Descripción" },
+                    { "field": "estado", "title": "Estado", "component": "Tag" },
+                    { "field": "resultado", "title": "Resultado" }
+                  ],
+                  "actions": [
+                    { "type": "view", "label": "Ver" },
+                    { "type": "edit", "label": "Editar" }
+                  ],
+                  "toolbar": [
+                    { "type": "create", "label": "+ Agregar Evento" }
+                  ]
+                }
+              }
+            }
+          },
+          "tab-estudios": {
+            "type": "void",
+            "x-component": "Tabs.TabPane",
+            "x-component-props": {
+              "key": "estudios",
+              "tab": "🔬 Estudios"
+            },
+            "properties": {
+              "estudios-table": {
+                "type": "void",
+                "x-component": "Table",
+                "x-component-props": {
+                  "collection": "ugco_eventoclinico",
+                  "filter": {
+                    "caso_id": "{{record.id}}",
+                    "tipo_evento": { "$in": ["LABORATORIO", "IMAGEN", "BIOPSIA", "ENDOSCOPIA"] }
+                  },
+                  "sort": [{ "field": "fecha_solicitud", "order": "desc" }],
+                  "pageSize": 10,
+                  "columns": [
+                    { "field": "tipo_evento", "title": "Tipo" },
+                    { "field": "descripcion", "title": "Estudio" },
+                    { "field": "fecha_solicitud", "title": "Solicitado", "format": "date" },
+                    { "field": "fecha_realizacion", "title": "Realizado", "format": "date" },
+                    { "field": "estado", "title": "Estado", "component": "Tag" },
+                    { "field": "resultado_resumen", "title": "Resultado" }
+                  ],
+                  "actions": [
+                    { "type": "view", "label": "Ver" }
+                  ]
+                }
+              }
+            }
+          },
+          "tab-comites": {
+            "type": "void",
+            "x-component": "Tabs.TabPane",
+            "x-component-props": {
+              "key": "comites",
+              "tab": "👥 Comités"
+            },
+            "properties": {
+              "comites-table": {
+                "type": "void",
+                "x-component": "Table",
+                "x-component-props": {
+                  "collection": "ugco_comitecaso",
+                  "filter": { "caso_id": "{{record.id}}" },
+                  "sort": [{ "field": "comite.fecha_sesion", "order": "desc" }],
+                  "include": ["comite"],
+                  "pageSize": 10,
+                  "columns": [
+                    { "field": "comite.fecha_sesion", "title": "Fecha", "format": "date" },
+                    { "field": "comite.especialidad.nombre", "title": "Especialidad" },
+                    { "field": "motivo_presentacion", "title": "Motivo" },
+                    { "field": "decision_resumen", "title": "Decisión" },
+                    { "field": "estado_revision", "title": "Estado", "component": "Tag" }
+                  ],
+                  "actions": [
+                    { "type": "view", "label": "Ver Acta" }
+                  ]
+                }
+              }
+            }
+          },
+          "tab-tareas": {
+            "type": "void",
+            "x-component": "Tabs.TabPane",
+            "x-component-props": {
+              "key": "tareas",
+              "tab": "✅ Tareas"
+            },
+            "properties": {
+              "tareas-table": {
+                "type": "void",
+                "x-component": "Table",
+                "x-component-props": {
+                  "collection": "ugco_tarea",
+                  "filter": { "caso_id": "{{record.id}}" },
+                  "sort": [
+                    { "field": "estado", "order": "asc" },
+                    { "field": "fecha_vencimiento", "order": "asc" }
+                  ],
+                  "pageSize": 10,
+                  "columns": [
+                    { "field": "titulo", "title": "Tarea" },
+                    { "field": "tipo_tarea.nombre", "title": "Tipo" },
+                    { "field": "fecha_vencimiento", "title": "Vence", "format": "date" },
+                    { "field": "asignado_a", "title": "Asignado" },
+                    { "field": "estado", "title": "Estado", "component": "Tag" },
+                    { "field": "prioridad", "title": "Prioridad", "component": "Tag" }
+                  ],
+                  "actions": [
+                    { "type": "edit", "label": "Editar" },
+                    { "type": "custom", "label": "Completar", "action": "completar-tarea" }
+                  ],
+                  "toolbar": [
+                    { "type": "create", "label": "+ Nueva Tarea" }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "footer": {
+        "type": "void",
+        "x-component": "Space",
+        "x-component-props": {
+          "style": { "marginTop": 16, "justifyContent": "flex-end", "width": "100%" }
+        },
+        "properties": {
+          "btn-editar": {
+            "type": "void",
+            "x-component": "Button",
+            "x-component-props": {
+              "type": "primary",
+              "content": "📝 Editar Caso"
+            }
+          },
+          "btn-comite": {
+            "type": "void",
+            "x-component": "Button",
+            "x-component-props": {
+              "content": "📅 Agendar Comité"
+            }
+          },
+          "btn-cerrar": {
+            "type": "void",
+            "x-component": "Button",
+            "x-component-props": {
+              "danger": true,
+              "content": "🔒 Cerrar Caso"
+            }
+          }
+        }
+      }
+    }
+  }
+}

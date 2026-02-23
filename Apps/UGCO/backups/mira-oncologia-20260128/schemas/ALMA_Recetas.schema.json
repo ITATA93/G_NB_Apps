@@ -1,0 +1,811 @@
+{
+  "collection": {
+    "name": "ALMA_Recetas",
+    "title": "ALMA Recetas",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "0vypxx5fd7m",
+      "name": "Sexo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Sexo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "21zep539r9e",
+      "name": "Fecha_Termino_Receta",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Termino_Receta",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "26h9tksn2iv",
+      "name": "TelefonoRecado",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "TelefonoRecado",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2xs41i8ml2z",
+      "name": "Fecha_Receta",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Receta",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "31wkrwznp6e",
+      "name": "Codigo_Sexo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Sexo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "3j7iz10tahq",
+      "name": "Unidad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Unidad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "3qaasjunsy1",
+      "name": "Cantidad",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Cantidad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "4z154z0g4a8",
+      "name": "Plan",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Plan",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "65ngkc1sm2j",
+      "name": "Fecha_Programada_Despacho",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Programada_Despacho",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "6q6l4ls05st",
+      "name": "Deceso",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Deceso",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "6xly521ppbd",
+      "name": "Nro_Registro",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nro_Registro",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "70qqke6oz4r",
+      "name": "Fecha_Venc_Prescripcion",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Venc_Prescripcion",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "72mpxxb69qj",
+      "name": "Fecha_Nacimiento",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Nacimiento",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "77cppnwa8zq",
+      "name": "Ciudad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Ciudad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "83pdfg23afc",
+      "name": "Prioridad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Prioridad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "861ntxy4c5w",
+      "name": "Cod_estado_Orden",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Cod_estado_Orden",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "8enepup1s6x",
+      "name": "Cronico",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Cronico",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "8pfla9erexm",
+      "name": "Telefono_2",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Telefono_2",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "8yr722ge8vl",
+      "name": "Dias_ord",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Dias_ord",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "99n8h8sayl8",
+      "name": "Estado_Orden",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Estado_Orden",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "9ct0spugvkt",
+      "name": "Dias",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Dias",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "9ibqy6ix6ym",
+      "name": "N_Episodio",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "N_Episodio",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "b0a7sacdkme",
+      "name": "Duracion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Duracion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "bnwlbbxbcz4",
+      "name": "Apellido_Materno",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Apellido_Materno",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "dyp68r8x58w",
+      "name": "OEORI_OrdEnt_DR",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "OEORI_OrdEnt_DR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "fpes5kp1da3",
+      "name": "Rut_Paciente",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Rut_Paciente",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "fqg9npohzk8",
+      "name": "Repeticiones",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Repeticiones",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "fufwi5t29mv",
+      "name": "Medicamento",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Medicamento",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "g6czzgvcrl9",
+      "name": "Rut_Profesional",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Rut_Profesional",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "hjsywryivvp",
+      "name": "NEpisodio",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "NEpisodio",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "hv6sfqiz5ch",
+      "name": "Factor_Duracion",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Factor_Duracion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "innqqd2a080",
+      "name": "Indicacion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Indicacion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "jgqztgjmmyw",
+      "name": "Nro_Receta",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nro_Receta",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "k6459gcpidt",
+      "name": "Direccion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Direccion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "k9b0wwcy37e",
+      "name": "EstadoOrden",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "EstadoOrden",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "lcg8klrlnhv",
+      "name": "Telefono_Contacto",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Telefono_Contacto",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ml4qslnaqmf",
+      "name": "Indicador_PRAIS",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Indicador_PRAIS",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "mnhtu1x3n27",
+      "name": "QUE1_PharmStatus",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "QUE1_PharmStatus",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "n1epqvmku2r",
+      "name": "Fecha_Finalizado",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Finalizado",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "n1vl52iewnz",
+      "name": "Cod_M",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Cod_M",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "nc79v3gbbna",
+      "name": "OEORD_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "OEORD_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "o03l0rdrvov",
+      "name": "Diagnostico",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Diagnostico",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "oyns41yp90n",
+      "name": "Nombres_Paciente",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nombres_Paciente",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "p0lz95d2q8o",
+      "name": "Apellido_Paterno",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Apellido_Paterno",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ptwjlcu54h4",
+      "name": "Establecimiento",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Establecimiento",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "q9bx4598dzp",
+      "name": "estado_1",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "estado_1",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qdmln0grr9j",
+      "name": "Prevision",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Prevision",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qzlyflycfip",
+      "name": "Sec_Repeticiones",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Sec_Repeticiones",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "sy9vc25ln0u",
+      "name": "NroRepeticiones",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "NroRepeticiones",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "t6gl6hc8po5",
+      "name": "Codigo_Unidad",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Unidad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "veobtpjpl8m",
+      "name": "Estado",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Estado",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "wxpbyfi1f6z",
+      "name": "Edad",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Edad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "x89nhq32xvi",
+      "name": "Fecha_Proximo_Despacho",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Proximo_Despacho",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "ye53yy74irj",
+      "name": "Cod_Establecimiento",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Cod_Establecimiento",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "yvq2q9rpspr",
+      "name": "OEORI_RowId",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "OEORI_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "zgzufcxvlca",
+      "name": "Profesional",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Profesional",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "zhhigwqtefj",
+      "name": "OEORI_ItemStat_DR",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Recetas",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "OEORI_ItemStat_DR",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.300Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

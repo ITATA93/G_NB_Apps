@@ -1,0 +1,1500 @@
+{
+  "name": "ugco-ui-config",
+  "version": "1.0.0",
+  "description": "Configuración completa de UI para UGCO Gestión Oncológica",
+  "generatedAt": "2026-01-29T20:45:48.726Z",
+  "menu": {
+    "type": "void",
+    "x-uid": "ugco-root-menu",
+    "x-component": "Menu",
+    "x-component-props": {
+      "mode": "inline",
+      "theme": "light"
+    },
+    "properties": {
+      "ugco-dashboard": {
+        "type": "void",
+        "x-uid": "ugco-menu-dashboard",
+        "x-component": "Menu.Item",
+        "x-component-props": {
+          "icon": "BarChartOutlined"
+        },
+        "x-decorator": "ACLMenuItemProvider",
+        "title": "📊 Dashboard",
+        "x-server-hooks": [
+          {
+            "type": "onSelfCreate",
+            "method": "bindMenuToRole"
+          }
+        ],
+        "properties": {
+          "page": {
+            "type": "void",
+            "x-uid": "ugco-page-dashboard",
+            "x-component": "Page",
+            "x-async": true
+          }
+        }
+      },
+      "ugco-especialidades": {
+        "type": "void",
+        "x-uid": "ugco-menu-especialidades",
+        "x-component": "Menu.SubMenu",
+        "x-component-props": {
+          "icon": "FolderOutlined"
+        },
+        "title": "📁 Especialidades",
+        "properties": {
+          "ugco-esp-digestivo_alto": {
+            "type": "void",
+            "x-uid": "ugco-menu-esp-digestivo_alto",
+            "x-component": "Menu.Item",
+            "x-component-props": {
+              "style": {
+                "color": "#FF8B00"
+              }
+            },
+            "title": "🔶 Digestivo Alto",
+            "properties": {
+              "page": {
+                "type": "void",
+                "x-uid": "ugco-page-esp-digestivo_alto",
+                "x-component": "Page",
+                "x-async": true
+              }
+            }
+          },
+          "ugco-esp-digestivo_bajo": {
+            "type": "void",
+            "x-uid": "ugco-menu-esp-digestivo_bajo",
+            "x-component": "Menu.Item",
+            "x-component-props": {
+              "style": {
+                "color": "#8B4513"
+              }
+            },
+            "title": "🟤 Digestivo Bajo",
+            "properties": {
+              "page": {
+                "type": "void",
+                "x-uid": "ugco-page-esp-digestivo_bajo",
+                "x-component": "Page",
+                "x-async": true
+              }
+            }
+          },
+          "ugco-esp-mama": {
+            "type": "void",
+            "x-uid": "ugco-menu-esp-mama",
+            "x-component": "Menu.Item",
+            "x-component-props": {
+              "style": {
+                "color": "#E91E63"
+              }
+            },
+            "title": "🩷 Mama",
+            "properties": {
+              "page": {
+                "type": "void",
+                "x-uid": "ugco-page-esp-mama",
+                "x-component": "Page",
+                "x-async": true
+              }
+            }
+          },
+          "ugco-esp-ginecologia": {
+            "type": "void",
+            "x-uid": "ugco-menu-esp-ginecologia",
+            "x-component": "Menu.Item",
+            "x-component-props": {
+              "style": {
+                "color": "#9C27B0"
+              }
+            },
+            "title": "💜 Ginecología",
+            "properties": {
+              "page": {
+                "type": "void",
+                "x-uid": "ugco-page-esp-ginecologia",
+                "x-component": "Page",
+                "x-async": true
+              }
+            }
+          },
+          "ugco-esp-urologia": {
+            "type": "void",
+            "x-uid": "ugco-menu-esp-urologia",
+            "x-component": "Menu.Item",
+            "x-component-props": {
+              "style": {
+                "color": "#2196F3"
+              }
+            },
+            "title": "💙 Urología",
+            "properties": {
+              "page": {
+                "type": "void",
+                "x-uid": "ugco-page-esp-urologia",
+                "x-component": "Page",
+                "x-async": true
+              }
+            }
+          },
+          "ugco-esp-torax": {
+            "type": "void",
+            "x-uid": "ugco-menu-esp-torax",
+            "x-component": "Menu.Item",
+            "x-component-props": {
+              "style": {
+                "color": "#607D8B"
+              }
+            },
+            "title": "🫁 Tórax",
+            "properties": {
+              "page": {
+                "type": "void",
+                "x-uid": "ugco-page-esp-torax",
+                "x-component": "Page",
+                "x-async": true
+              }
+            }
+          },
+          "ugco-esp-piel": {
+            "type": "void",
+            "x-uid": "ugco-menu-esp-piel",
+            "x-component": "Menu.Item",
+            "x-component-props": {
+              "style": {
+                "color": "#FFC107"
+              }
+            },
+            "title": "💛 Piel y Partes Blandas",
+            "properties": {
+              "page": {
+                "type": "void",
+                "x-uid": "ugco-page-esp-piel",
+                "x-component": "Page",
+                "x-async": true
+              }
+            }
+          },
+          "ugco-esp-endocrinologia": {
+            "type": "void",
+            "x-uid": "ugco-menu-esp-endocrinologia",
+            "x-component": "Menu.Item",
+            "x-component-props": {
+              "style": {
+                "color": "#4CAF50"
+              }
+            },
+            "title": "💚 Endocrinología",
+            "properties": {
+              "page": {
+                "type": "void",
+                "x-uid": "ugco-page-esp-endocrinologia",
+                "x-component": "Page",
+                "x-async": true
+              }
+            }
+          },
+          "ugco-esp-hematologia": {
+            "type": "void",
+            "x-uid": "ugco-menu-esp-hematologia",
+            "x-component": "Menu.Item",
+            "x-component-props": {
+              "style": {
+                "color": "#F44336"
+              }
+            },
+            "title": "❤️ Hematología",
+            "properties": {
+              "page": {
+                "type": "void",
+                "x-uid": "ugco-page-esp-hematologia",
+                "x-component": "Page",
+                "x-async": true
+              }
+            }
+          }
+        }
+      },
+      "ugco-comites": {
+        "type": "void",
+        "x-uid": "ugco-menu-comites",
+        "x-component": "Menu.Item",
+        "x-component-props": {
+          "icon": "CalendarOutlined"
+        },
+        "title": "📅 Comités",
+        "properties": {
+          "page": {
+            "type": "void",
+            "x-uid": "ugco-page-comites",
+            "x-component": "Page",
+            "x-async": true
+          }
+        }
+      },
+      "ugco-tareas": {
+        "type": "void",
+        "x-uid": "ugco-menu-tareas",
+        "x-component": "Menu.Item",
+        "x-component-props": {
+          "icon": "CheckSquareOutlined"
+        },
+        "title": "✅ Tareas",
+        "properties": {
+          "page": {
+            "type": "void",
+            "x-uid": "ugco-page-tareas",
+            "x-component": "Page",
+            "x-async": true
+          }
+        }
+      },
+      "ugco-reportes": {
+        "type": "void",
+        "x-uid": "ugco-menu-reportes",
+        "x-component": "Menu.Item",
+        "x-component-props": {
+          "icon": "FileTextOutlined"
+        },
+        "title": "📄 Reportes",
+        "properties": {
+          "page": {
+            "type": "void",
+            "x-uid": "ugco-page-reportes",
+            "x-component": "Page",
+            "x-async": true
+          }
+        }
+      }
+    }
+  },
+  "pages": {
+    "dashboard": {
+      "type": "void",
+      "x-uid": "ugco-dashboard-kpis",
+      "x-component": "Grid",
+      "x-component-props": {
+        "cols": 4
+      },
+      "properties": {
+        "kpi_total": {
+          "type": "void",
+          "x-component": "CardItem",
+          "x-component-props": {
+            "title": "📊 Casos Totales",
+            "bordered": true
+          },
+          "properties": {
+            "value": {
+              "type": "void",
+              "x-component": "Statistic",
+              "x-decorator": "CollectionProvider",
+              "x-decorator-props": {
+                "collection": "ugco_casooncologico"
+              }
+            }
+          }
+        },
+        "kpi_criticos": {
+          "type": "void",
+          "x-component": "CardItem",
+          "x-component-props": {
+            "title": "🔴 Críticos",
+            "bordered": true
+          }
+        },
+        "kpi_pendientes": {
+          "type": "void",
+          "x-component": "CardItem",
+          "x-component-props": {
+            "title": "🟡 Pendientes",
+            "bordered": true
+          }
+        },
+        "kpi_aldia": {
+          "type": "void",
+          "x-component": "CardItem",
+          "x-component-props": {
+            "title": "🟢 Al día",
+            "bordered": true
+          }
+        }
+      }
+    },
+    "especialidades": [
+      {
+        "id": "digestivo_alto",
+        "schema": {
+          "type": "void",
+          "x-uid": "ugco-table-casos-digestivo_alto",
+          "x-component": "CardItem",
+          "x-component-props": {
+            "title": "Casos de Digestivo Alto"
+          },
+          "properties": {
+            "table": {
+              "type": "void",
+              "x-component": "Table",
+              "x-component-props": {
+                "useProps": "{{ useTableBlockProps }}",
+                "rowKey": "id"
+              },
+              "x-decorator": "TableBlockProvider",
+              "x-decorator-props": {
+                "collection": "ugco_casooncologico",
+                "action": "list",
+                "params": {
+                  "filter": {
+                    "especialidad_principal.codigo": "DIGESTIVO_ALTO"
+                  },
+                  "pageSize": 20,
+                  "sort": [
+                    "-updated_at"
+                  ]
+                }
+              },
+              "properties": {
+                "actions": {
+                  "type": "void",
+                  "x-component": "ActionBar",
+                  "x-component-props": {
+                    "style": {
+                      "marginBottom": 16
+                    }
+                  },
+                  "properties": {
+                    "filter": {
+                      "type": "void",
+                      "x-component": "Filter.Action",
+                      "x-component-props": {
+                        "useProps": "{{ useFilterBlockActionProps }}"
+                      }
+                    },
+                    "create": {
+                      "type": "void",
+                      "x-component": "Action",
+                      "title": "+ Nuevo Caso",
+                      "x-component-props": {
+                        "type": "primary"
+                      }
+                    }
+                  }
+                },
+                "column_codigo": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Código",
+                    "dataIndex": "UGCO_COD01",
+                    "width": 120
+                  }
+                },
+                "column_paciente": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Paciente",
+                    "dataIndex": [
+                      "paciente",
+                      "nombre_completo"
+                    ],
+                    "width": 200
+                  }
+                },
+                "column_diagnostico": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Diagnóstico",
+                    "dataIndex": "cie10_glosa",
+                    "width": 200
+                  }
+                },
+                "column_estado": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Estado",
+                    "dataIndex": "estado_adm",
+                    "width": 120
+                  }
+                },
+                "column_actions": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Acciones",
+                    "width": 150
+                  },
+                  "properties": {
+                    "view": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Ver"
+                    },
+                    "edit": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Editar"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "digestivo_bajo",
+        "schema": {
+          "type": "void",
+          "x-uid": "ugco-table-casos-digestivo_bajo",
+          "x-component": "CardItem",
+          "x-component-props": {
+            "title": "Casos de Digestivo Bajo"
+          },
+          "properties": {
+            "table": {
+              "type": "void",
+              "x-component": "Table",
+              "x-component-props": {
+                "useProps": "{{ useTableBlockProps }}",
+                "rowKey": "id"
+              },
+              "x-decorator": "TableBlockProvider",
+              "x-decorator-props": {
+                "collection": "ugco_casooncologico",
+                "action": "list",
+                "params": {
+                  "filter": {
+                    "especialidad_principal.codigo": "DIGESTIVO_BAJO"
+                  },
+                  "pageSize": 20,
+                  "sort": [
+                    "-updated_at"
+                  ]
+                }
+              },
+              "properties": {
+                "actions": {
+                  "type": "void",
+                  "x-component": "ActionBar",
+                  "x-component-props": {
+                    "style": {
+                      "marginBottom": 16
+                    }
+                  },
+                  "properties": {
+                    "filter": {
+                      "type": "void",
+                      "x-component": "Filter.Action",
+                      "x-component-props": {
+                        "useProps": "{{ useFilterBlockActionProps }}"
+                      }
+                    },
+                    "create": {
+                      "type": "void",
+                      "x-component": "Action",
+                      "title": "+ Nuevo Caso",
+                      "x-component-props": {
+                        "type": "primary"
+                      }
+                    }
+                  }
+                },
+                "column_codigo": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Código",
+                    "dataIndex": "UGCO_COD01",
+                    "width": 120
+                  }
+                },
+                "column_paciente": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Paciente",
+                    "dataIndex": [
+                      "paciente",
+                      "nombre_completo"
+                    ],
+                    "width": 200
+                  }
+                },
+                "column_diagnostico": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Diagnóstico",
+                    "dataIndex": "cie10_glosa",
+                    "width": 200
+                  }
+                },
+                "column_estado": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Estado",
+                    "dataIndex": "estado_adm",
+                    "width": 120
+                  }
+                },
+                "column_actions": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Acciones",
+                    "width": 150
+                  },
+                  "properties": {
+                    "view": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Ver"
+                    },
+                    "edit": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Editar"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "mama",
+        "schema": {
+          "type": "void",
+          "x-uid": "ugco-table-casos-mama",
+          "x-component": "CardItem",
+          "x-component-props": {
+            "title": "Casos de Mama"
+          },
+          "properties": {
+            "table": {
+              "type": "void",
+              "x-component": "Table",
+              "x-component-props": {
+                "useProps": "{{ useTableBlockProps }}",
+                "rowKey": "id"
+              },
+              "x-decorator": "TableBlockProvider",
+              "x-decorator-props": {
+                "collection": "ugco_casooncologico",
+                "action": "list",
+                "params": {
+                  "filter": {
+                    "especialidad_principal.codigo": "P._MAMARIA"
+                  },
+                  "pageSize": 20,
+                  "sort": [
+                    "-updated_at"
+                  ]
+                }
+              },
+              "properties": {
+                "actions": {
+                  "type": "void",
+                  "x-component": "ActionBar",
+                  "x-component-props": {
+                    "style": {
+                      "marginBottom": 16
+                    }
+                  },
+                  "properties": {
+                    "filter": {
+                      "type": "void",
+                      "x-component": "Filter.Action",
+                      "x-component-props": {
+                        "useProps": "{{ useFilterBlockActionProps }}"
+                      }
+                    },
+                    "create": {
+                      "type": "void",
+                      "x-component": "Action",
+                      "title": "+ Nuevo Caso",
+                      "x-component-props": {
+                        "type": "primary"
+                      }
+                    }
+                  }
+                },
+                "column_codigo": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Código",
+                    "dataIndex": "UGCO_COD01",
+                    "width": 120
+                  }
+                },
+                "column_paciente": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Paciente",
+                    "dataIndex": [
+                      "paciente",
+                      "nombre_completo"
+                    ],
+                    "width": 200
+                  }
+                },
+                "column_diagnostico": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Diagnóstico",
+                    "dataIndex": "cie10_glosa",
+                    "width": 200
+                  }
+                },
+                "column_estado": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Estado",
+                    "dataIndex": "estado_adm",
+                    "width": 120
+                  }
+                },
+                "column_actions": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Acciones",
+                    "width": 150
+                  },
+                  "properties": {
+                    "view": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Ver"
+                    },
+                    "edit": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Editar"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "ginecologia",
+        "schema": {
+          "type": "void",
+          "x-uid": "ugco-table-casos-ginecologia",
+          "x-component": "CardItem",
+          "x-component-props": {
+            "title": "Casos de Ginecología"
+          },
+          "properties": {
+            "table": {
+              "type": "void",
+              "x-component": "Table",
+              "x-component-props": {
+                "useProps": "{{ useTableBlockProps }}",
+                "rowKey": "id"
+              },
+              "x-decorator": "TableBlockProvider",
+              "x-decorator-props": {
+                "collection": "ugco_casooncologico",
+                "action": "list",
+                "params": {
+                  "filter": {
+                    "especialidad_principal.codigo": "P._CERVICAL"
+                  },
+                  "pageSize": 20,
+                  "sort": [
+                    "-updated_at"
+                  ]
+                }
+              },
+              "properties": {
+                "actions": {
+                  "type": "void",
+                  "x-component": "ActionBar",
+                  "x-component-props": {
+                    "style": {
+                      "marginBottom": 16
+                    }
+                  },
+                  "properties": {
+                    "filter": {
+                      "type": "void",
+                      "x-component": "Filter.Action",
+                      "x-component-props": {
+                        "useProps": "{{ useFilterBlockActionProps }}"
+                      }
+                    },
+                    "create": {
+                      "type": "void",
+                      "x-component": "Action",
+                      "title": "+ Nuevo Caso",
+                      "x-component-props": {
+                        "type": "primary"
+                      }
+                    }
+                  }
+                },
+                "column_codigo": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Código",
+                    "dataIndex": "UGCO_COD01",
+                    "width": 120
+                  }
+                },
+                "column_paciente": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Paciente",
+                    "dataIndex": [
+                      "paciente",
+                      "nombre_completo"
+                    ],
+                    "width": 200
+                  }
+                },
+                "column_diagnostico": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Diagnóstico",
+                    "dataIndex": "cie10_glosa",
+                    "width": 200
+                  }
+                },
+                "column_estado": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Estado",
+                    "dataIndex": "estado_adm",
+                    "width": 120
+                  }
+                },
+                "column_actions": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Acciones",
+                    "width": 150
+                  },
+                  "properties": {
+                    "view": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Ver"
+                    },
+                    "edit": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Editar"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "urologia",
+        "schema": {
+          "type": "void",
+          "x-uid": "ugco-table-casos-urologia",
+          "x-component": "CardItem",
+          "x-component-props": {
+            "title": "Casos de Urología"
+          },
+          "properties": {
+            "table": {
+              "type": "void",
+              "x-component": "Table",
+              "x-component-props": {
+                "useProps": "{{ useTableBlockProps }}",
+                "rowKey": "id"
+              },
+              "x-decorator": "TableBlockProvider",
+              "x-decorator-props": {
+                "collection": "ugco_casooncologico",
+                "action": "list",
+                "params": {
+                  "filter": {
+                    "especialidad_principal.codigo": "UROLOGIA"
+                  },
+                  "pageSize": 20,
+                  "sort": [
+                    "-updated_at"
+                  ]
+                }
+              },
+              "properties": {
+                "actions": {
+                  "type": "void",
+                  "x-component": "ActionBar",
+                  "x-component-props": {
+                    "style": {
+                      "marginBottom": 16
+                    }
+                  },
+                  "properties": {
+                    "filter": {
+                      "type": "void",
+                      "x-component": "Filter.Action",
+                      "x-component-props": {
+                        "useProps": "{{ useFilterBlockActionProps }}"
+                      }
+                    },
+                    "create": {
+                      "type": "void",
+                      "x-component": "Action",
+                      "title": "+ Nuevo Caso",
+                      "x-component-props": {
+                        "type": "primary"
+                      }
+                    }
+                  }
+                },
+                "column_codigo": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Código",
+                    "dataIndex": "UGCO_COD01",
+                    "width": 120
+                  }
+                },
+                "column_paciente": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Paciente",
+                    "dataIndex": [
+                      "paciente",
+                      "nombre_completo"
+                    ],
+                    "width": 200
+                  }
+                },
+                "column_diagnostico": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Diagnóstico",
+                    "dataIndex": "cie10_glosa",
+                    "width": 200
+                  }
+                },
+                "column_estado": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Estado",
+                    "dataIndex": "estado_adm",
+                    "width": 120
+                  }
+                },
+                "column_actions": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Acciones",
+                    "width": 150
+                  },
+                  "properties": {
+                    "view": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Ver"
+                    },
+                    "edit": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Editar"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "torax",
+        "schema": {
+          "type": "void",
+          "x-uid": "ugco-table-casos-torax",
+          "x-component": "CardItem",
+          "x-component-props": {
+            "title": "Casos de Tórax"
+          },
+          "properties": {
+            "table": {
+              "type": "void",
+              "x-component": "Table",
+              "x-component-props": {
+                "useProps": "{{ useTableBlockProps }}",
+                "rowKey": "id"
+              },
+              "x-decorator": "TableBlockProvider",
+              "x-decorator-props": {
+                "collection": "ugco_casooncologico",
+                "action": "list",
+                "params": {
+                  "filter": {
+                    "especialidad_principal.codigo": "TORAX"
+                  },
+                  "pageSize": 20,
+                  "sort": [
+                    "-updated_at"
+                  ]
+                }
+              },
+              "properties": {
+                "actions": {
+                  "type": "void",
+                  "x-component": "ActionBar",
+                  "x-component-props": {
+                    "style": {
+                      "marginBottom": 16
+                    }
+                  },
+                  "properties": {
+                    "filter": {
+                      "type": "void",
+                      "x-component": "Filter.Action",
+                      "x-component-props": {
+                        "useProps": "{{ useFilterBlockActionProps }}"
+                      }
+                    },
+                    "create": {
+                      "type": "void",
+                      "x-component": "Action",
+                      "title": "+ Nuevo Caso",
+                      "x-component-props": {
+                        "type": "primary"
+                      }
+                    }
+                  }
+                },
+                "column_codigo": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Código",
+                    "dataIndex": "UGCO_COD01",
+                    "width": 120
+                  }
+                },
+                "column_paciente": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Paciente",
+                    "dataIndex": [
+                      "paciente",
+                      "nombre_completo"
+                    ],
+                    "width": 200
+                  }
+                },
+                "column_diagnostico": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Diagnóstico",
+                    "dataIndex": "cie10_glosa",
+                    "width": 200
+                  }
+                },
+                "column_estado": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Estado",
+                    "dataIndex": "estado_adm",
+                    "width": 120
+                  }
+                },
+                "column_actions": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Acciones",
+                    "width": 150
+                  },
+                  "properties": {
+                    "view": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Ver"
+                    },
+                    "edit": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Editar"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "piel",
+        "schema": {
+          "type": "void",
+          "x-uid": "ugco-table-casos-piel",
+          "x-component": "CardItem",
+          "x-component-props": {
+            "title": "Casos de Piel y Partes Blandas"
+          },
+          "properties": {
+            "table": {
+              "type": "void",
+              "x-component": "Table",
+              "x-component-props": {
+                "useProps": "{{ useTableBlockProps }}",
+                "rowKey": "id"
+              },
+              "x-decorator": "TableBlockProvider",
+              "x-decorator-props": {
+                "collection": "ugco_casooncologico",
+                "action": "list",
+                "params": {
+                  "filter": {
+                    "especialidad_principal.codigo": "PIEL_Y_PARTES_BLANDAS"
+                  },
+                  "pageSize": 20,
+                  "sort": [
+                    "-updated_at"
+                  ]
+                }
+              },
+              "properties": {
+                "actions": {
+                  "type": "void",
+                  "x-component": "ActionBar",
+                  "x-component-props": {
+                    "style": {
+                      "marginBottom": 16
+                    }
+                  },
+                  "properties": {
+                    "filter": {
+                      "type": "void",
+                      "x-component": "Filter.Action",
+                      "x-component-props": {
+                        "useProps": "{{ useFilterBlockActionProps }}"
+                      }
+                    },
+                    "create": {
+                      "type": "void",
+                      "x-component": "Action",
+                      "title": "+ Nuevo Caso",
+                      "x-component-props": {
+                        "type": "primary"
+                      }
+                    }
+                  }
+                },
+                "column_codigo": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Código",
+                    "dataIndex": "UGCO_COD01",
+                    "width": 120
+                  }
+                },
+                "column_paciente": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Paciente",
+                    "dataIndex": [
+                      "paciente",
+                      "nombre_completo"
+                    ],
+                    "width": 200
+                  }
+                },
+                "column_diagnostico": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Diagnóstico",
+                    "dataIndex": "cie10_glosa",
+                    "width": 200
+                  }
+                },
+                "column_estado": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Estado",
+                    "dataIndex": "estado_adm",
+                    "width": 120
+                  }
+                },
+                "column_actions": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Acciones",
+                    "width": 150
+                  },
+                  "properties": {
+                    "view": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Ver"
+                    },
+                    "edit": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Editar"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "endocrinologia",
+        "schema": {
+          "type": "void",
+          "x-uid": "ugco-table-casos-endocrinologia",
+          "x-component": "CardItem",
+          "x-component-props": {
+            "title": "Casos de Endocrinología"
+          },
+          "properties": {
+            "table": {
+              "type": "void",
+              "x-component": "Table",
+              "x-component-props": {
+                "useProps": "{{ useTableBlockProps }}",
+                "rowKey": "id"
+              },
+              "x-decorator": "TableBlockProvider",
+              "x-decorator-props": {
+                "collection": "ugco_casooncologico",
+                "action": "list",
+                "params": {
+                  "filter": {
+                    "especialidad_principal.codigo": "ENDOCRINOLOGIA"
+                  },
+                  "pageSize": 20,
+                  "sort": [
+                    "-updated_at"
+                  ]
+                }
+              },
+              "properties": {
+                "actions": {
+                  "type": "void",
+                  "x-component": "ActionBar",
+                  "x-component-props": {
+                    "style": {
+                      "marginBottom": 16
+                    }
+                  },
+                  "properties": {
+                    "filter": {
+                      "type": "void",
+                      "x-component": "Filter.Action",
+                      "x-component-props": {
+                        "useProps": "{{ useFilterBlockActionProps }}"
+                      }
+                    },
+                    "create": {
+                      "type": "void",
+                      "x-component": "Action",
+                      "title": "+ Nuevo Caso",
+                      "x-component-props": {
+                        "type": "primary"
+                      }
+                    }
+                  }
+                },
+                "column_codigo": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Código",
+                    "dataIndex": "UGCO_COD01",
+                    "width": 120
+                  }
+                },
+                "column_paciente": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Paciente",
+                    "dataIndex": [
+                      "paciente",
+                      "nombre_completo"
+                    ],
+                    "width": 200
+                  }
+                },
+                "column_diagnostico": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Diagnóstico",
+                    "dataIndex": "cie10_glosa",
+                    "width": 200
+                  }
+                },
+                "column_estado": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Estado",
+                    "dataIndex": "estado_adm",
+                    "width": 120
+                  }
+                },
+                "column_actions": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Acciones",
+                    "width": 150
+                  },
+                  "properties": {
+                    "view": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Ver"
+                    },
+                    "edit": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Editar"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "hematologia",
+        "schema": {
+          "type": "void",
+          "x-uid": "ugco-table-casos-hematologia",
+          "x-component": "CardItem",
+          "x-component-props": {
+            "title": "Casos de Hematología"
+          },
+          "properties": {
+            "table": {
+              "type": "void",
+              "x-component": "Table",
+              "x-component-props": {
+                "useProps": "{{ useTableBlockProps }}",
+                "rowKey": "id"
+              },
+              "x-decorator": "TableBlockProvider",
+              "x-decorator-props": {
+                "collection": "ugco_casooncologico",
+                "action": "list",
+                "params": {
+                  "filter": {
+                    "especialidad_principal.codigo": "HEMATOLOGÍA"
+                  },
+                  "pageSize": 20,
+                  "sort": [
+                    "-updated_at"
+                  ]
+                }
+              },
+              "properties": {
+                "actions": {
+                  "type": "void",
+                  "x-component": "ActionBar",
+                  "x-component-props": {
+                    "style": {
+                      "marginBottom": 16
+                    }
+                  },
+                  "properties": {
+                    "filter": {
+                      "type": "void",
+                      "x-component": "Filter.Action",
+                      "x-component-props": {
+                        "useProps": "{{ useFilterBlockActionProps }}"
+                      }
+                    },
+                    "create": {
+                      "type": "void",
+                      "x-component": "Action",
+                      "title": "+ Nuevo Caso",
+                      "x-component-props": {
+                        "type": "primary"
+                      }
+                    }
+                  }
+                },
+                "column_codigo": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Código",
+                    "dataIndex": "UGCO_COD01",
+                    "width": 120
+                  }
+                },
+                "column_paciente": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Paciente",
+                    "dataIndex": [
+                      "paciente",
+                      "nombre_completo"
+                    ],
+                    "width": 200
+                  }
+                },
+                "column_diagnostico": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Diagnóstico",
+                    "dataIndex": "cie10_glosa",
+                    "width": 200
+                  }
+                },
+                "column_estado": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Estado",
+                    "dataIndex": "estado_adm",
+                    "width": 120
+                  }
+                },
+                "column_actions": {
+                  "type": "void",
+                  "x-component": "Table.Column",
+                  "x-component-props": {
+                    "title": "Acciones",
+                    "width": 150
+                  },
+                  "properties": {
+                    "view": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Ver"
+                    },
+                    "edit": {
+                      "type": "void",
+                      "x-component": "Action.Link",
+                      "title": "Editar"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "especialidades": [
+    {
+      "id": "digestivo_alto",
+      "nombre": "Digestivo Alto",
+      "codigo": "DIGESTIVO_ALTO",
+      "color": "#FF8B00",
+      "icono": "🔶"
+    },
+    {
+      "id": "digestivo_bajo",
+      "nombre": "Digestivo Bajo",
+      "codigo": "DIGESTIVO_BAJO",
+      "color": "#8B4513",
+      "icono": "🟤"
+    },
+    {
+      "id": "mama",
+      "nombre": "Mama",
+      "codigo": "P._MAMARIA",
+      "color": "#E91E63",
+      "icono": "🩷"
+    },
+    {
+      "id": "ginecologia",
+      "nombre": "Ginecología",
+      "codigo": "P._CERVICAL",
+      "color": "#9C27B0",
+      "icono": "💜"
+    },
+    {
+      "id": "urologia",
+      "nombre": "Urología",
+      "codigo": "UROLOGIA",
+      "color": "#2196F3",
+      "icono": "💙"
+    },
+    {
+      "id": "torax",
+      "nombre": "Tórax",
+      "codigo": "TORAX",
+      "color": "#607D8B",
+      "icono": "🫁"
+    },
+    {
+      "id": "piel",
+      "nombre": "Piel y Partes Blandas",
+      "codigo": "PIEL_Y_PARTES_BLANDAS",
+      "color": "#FFC107",
+      "icono": "💛"
+    },
+    {
+      "id": "endocrinologia",
+      "nombre": "Endocrinología",
+      "codigo": "ENDOCRINOLOGIA",
+      "color": "#4CAF50",
+      "icono": "💚"
+    },
+    {
+      "id": "hematologia",
+      "nombre": "Hematología",
+      "codigo": "HEMATOLOGÍA",
+      "color": "#F44336",
+      "icono": "❤️"
+    }
+  ],
+  "instructions": {
+    "step1": "Ir a NocoBase Admin > UI Editor",
+    "step2": "Crear nuevo menú con estructura definida en \"menu\"",
+    "step3": "Para cada especialidad, crear página con bloques Table y Kanban",
+    "step4": "Configurar filtros por especialidad_principal.codigo",
+    "step5": "Vincular acciones Ver/Editar a drawers"
+  }
+}

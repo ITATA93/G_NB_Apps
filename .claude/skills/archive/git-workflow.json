@@ -1,0 +1,125 @@
+{
+  "name": "git-workflow",
+  "version": "1.0.0",
+  "description": "Gestionar workflow de Git con mejores prácticas",
+  "trigger": "/git",
+  "aliases": ["/commit", "/push", "/pr"],
+
+  "capabilities": [
+    "smart_commit",
+    "create_pull_request",
+    "branch_management",
+    "conflict_resolution",
+    "pre_commit_checks"
+  ],
+
+  "workflow": {
+    "commit": {
+      "steps": [
+        {
+          "id": "check_status",
+          "command": "git status",
+          "output": "git_status"
+        },
+        {
+          "id": "analyze_changes",
+          "description": "Analizar archivos modificados y generar mensaje apropiado",
+          "logic": "categorize_changes",
+          "output": "change_summary"
+        },
+        {
+          "id": "pre_commit_checks",
+          "description": "Ejecutar verificaciones antes de commit",
+          "checks": [
+            {
+              "name": "no_secrets",
+              "description": "Verificar que no hay secretos en archivos",
+              "patterns": ["NOCOBASE_API_TOKEN", "password", "api_key"],
+              "action_if_found": "abort"
+            },
+            {
+              "name": "no_conflicts",
+              "description": "Verificar que no hay marcadores de conflicto",
+              "patterns": ["<<<<<<<", ">>>>>>>", "======="],
+              "action_if_found": "abort"
+            },
+            {
+              "name": "valid_files",
+              "description": "Verificar que archivos son válidos",
+              "exclude": [".env", "*.log", "node_modules/"],
+              "action_if_invalid": "warn"
+            }
+          ],
+          "output": "checks_passed"
+        },
+        {
+          "id": "generate_commit_message",
+          "description": "Generar mensaje de commit siguiendo Conventional Commits",
+          "format": "<type>(<scope>): <description>",
+          "types": ["feat", "fix", "docs", "style", "refactor", "test", "chore"],
+          "include_coauthor": true,
+          "coauthor": "Claude Sonnet 4.5 <noreply@anthropic.com>",
+          "output": "commit_message"
+        },
+        {
+          "id": "confirm_commit",
+          "description": "Mostrar mensaje propuesto y solicitar confirmación",
+          "tools": ["AskUserQuestion"],
+          "output": "user_approved"
+        },
+        {
+          "id": "execute_commit",
+          "description": "Ejecutar git commit",
+          "command": "git commit -m \"$commit_message\"",
+          "output": "commit_hash"
+        },
+        {
+          "id": "log_commit",
+          "description": "Registrar commit en logs",
+          "include": ["commit_hash", "files_changed", "timestamp"],
+          "output": "log_entry"
+        }
+      ]
+    },
+
+    "pull_request": {
+      "steps": [
+        {
+          "id": "analyze_branch_changes",
+          "description": "Analizar todos los commits desde que divergió del main",
+          "commands": [
+            "git log main..HEAD --oneline",
+            "git diff main...HEAD --stat"
+          ],
+          "output": "branch_changes"
+        },
+        {
+          "id": "generate_pr_description",
+          "description": "Generar descripción del PR",
+          "format": "markdown",
+          "sections": ["Summary", "Changes", "Test Plan", "Checklist"],
+          "output": "pr_description"
+        },
+        {
+          "id": "create_pr",
+          "description": "Crear PR usando gh CLI",
+          "command": "gh pr create --title \"$title\" --body \"$body\"",
+          "output": "pr_url"
+        }
+      ]
+    }
+  },
+
+  "safety": {
+    "never_force_push": true,
+    "never_commit_secrets": true,
+    "always_verify_before_push": true,
+    "protected_branches": ["main", "master", "production"]
+  },
+
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "include": ["commits", "pushes", "prs", "errors"]
+  }
+}

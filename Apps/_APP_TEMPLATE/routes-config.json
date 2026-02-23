@@ -1,0 +1,35 @@
+{
+  "name": "🏥 Mi Aplicación",
+  "icon": "AppstoreOutlined",
+  "routes": [
+    {
+      "title": "📊 Dashboard",
+      "type": "page",
+      "icon": "DashboardOutlined",
+      "schemaContent": "# Dashboard\\n\\nPanel principal de la aplicación.\\n\\n*Use el botón + para agregar bloques*"
+    },
+    {
+      "title": "📁 Módulos",
+      "type": "group",
+      "icon": "FolderOutlined",
+      "children": [
+        {
+          "title": "📋 Módulo 1",
+          "type": "page",
+          "schemaContent": "# Módulo 1\\n\\nContenido del módulo 1."
+        },
+        {
+          "title": "📋 Módulo 2",
+          "type": "page",
+          "schemaContent": "# Módulo 2\\n\\nContenido del módulo 2."
+        }
+      ]
+    },
+    {
+      "title": "⚙️ Configuración",
+      "type": "page",
+      "icon": "SettingOutlined",
+      "schemaContent": "# Configuración\\n\\nOpciones de configuración."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "collection": {
+    "name": "ugco_casooncologico",
+    "title": "Caso Oncológico",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "7o9npqdmmsl",
+      "name": "morfologia",
+      "type": "belongsTo",
+      "interface": null,
+      "description": null,
+      "collectionName": "ugco_casooncologico",
+      "parentKey": null,
+      "reverseKey": null,
+      "target": "ref_oncomorfologia",
+      "targetKey": "id",
+      "foreignKey": "morfologia_id"
+    },
+    {
+      "key": "7qqzrqhurbl",
+      "name": "topografia",
+      "type": "belongsTo",
+      "interface": null,
+      "description": null,
+      "collectionName": "ugco_casooncologico",
+      "parentKey": null,
+      "reverseKey": null,
+      "target": "ref_oncotopografia",
+      "targetKey": "id",
+      "foreignKey": "topografia_id"
+    },
+    {
+      "key": "e536l717lf9",
+      "name": "paciente",
+      "type": "belongsTo",
+      "interface": null,
+      "description": null,
+      "collectionName": "ugco_casooncologico",
+      "parentKey": null,
+      "reverseKey": null,
+      "target": "alma_paciente",
+      "targetKey": "id",
+      "foreignKey": "paciente_id"
+    },
+    {
+      "key": "kzk8210eho5",
+      "name": "fecha_diagnostico",
+      "type": "date",
+      "interface": null,
+      "description": null,
+      "collectionName": "ugco_casooncologico",
+      "parentKey": null,
+      "reverseKey": null
+    },
+    {
+      "key": "nm62x4cepsq",
+      "name": "verification_status",
+      "type": "string",
+      "interface": "select",
+      "description": null,
+      "collectionName": "ugco_casooncologico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "enum": [
+          {
+            "value": "confirmed"
+          },
+          {
+            "value": "provisional"
+          }
+        ]
+      }
+    },
+    {
+      "key": "prlfu0p7b8v",
+      "name": "diagnostico_cie10",
+      "type": "belongsTo",
+      "interface": null,
+      "description": null,
+      "collectionName": "ugco_casooncologico",
+      "parentKey": null,
+      "reverseKey": null,
+      "target": "ref_cie10",
+      "targetKey": "id",
+      "foreignKey": "cie10_id"
+    },
+    {
+      "key": "v90oyvq8mzk",
+      "name": "clinical_status",
+      "type": "string",
+      "interface": "select",
+      "description": null,
+      "collectionName": "ugco_casooncologico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "enum": [
+          {
+            "value": "active"
+          },
+          {
+            "value": "remission"
+          },
+          {
+            "value": "relapse"
+          }
+        ]
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.724Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

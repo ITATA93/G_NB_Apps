@@ -1,0 +1,40 @@
+{
+  "collection": {
+    "name": "ref_oncodiagnostico",
+    "title": "Diagnósticos Oncológicos",
+    "description": null,
+    "inherit": false,
+    "hidden": false,
+    "sortable": true
+  },
+  "fields": [
+    {
+      "key": "krarea744rc",
+      "name": "nombre",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ref_oncodiagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nombre"
+      }
+    },
+    {
+      "key": "tckqn8dy0nx",
+      "name": "codigo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ref_oncodiagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Código"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.002Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

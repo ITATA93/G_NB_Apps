@@ -1,0 +1,57 @@
+Contexto:
+Estoy diseñando una app de gestión y seguimiento oncológico en NocoBase para el Hospital de Ovalle (Chile). 
+El sistema maestro de registro clínico es ALMA (basado en TrakCare). ALMA ya se conecta a un SQL intermedio, y ese SQL ya está disponible como fuente de datos en NocoBase.
+
+Reglas clave:
+- ALMA y su SQL productivo NUNCA se modifican desde NocoBase.
+- Las tablas/vistas que traen datos desde ALMA se tratarán como read-only dentro de NocoBase.
+- Las tablas propias de la app oncológica se crearán en el esquema de NocoBase como colecciones nuevas, y allí sí se podrá leer/escribir.
+- Los datos demográficos y diagnósticos clínicos oficiales se sincronizan desde ALMA; la app NO debe sobrescribirlos.
+
+Objetivo general:
+Ayudarme a diseñar e implementar, paso a paso, una app de SEGUIMIENTO ONCOLÓGICO en NocoBase que:
+- Use pacientes, episodios y diagnósticos provenientes de ALMA (vía SQL ya conectado).
+- Cree y gestione sus propias entidades oncológicas: casos, episodios oncológicos, comités oncológicos, seguimiento por especialidad, etc.
+- Permita filtrar y seguir pacientes por grupos como “Digestivo alto”, “Digestivo bajo”, etc.
+
+Modelo de datos esperado (resumen):
+1) Colecciones espejo de ALMA (read-only):
+   - alma_pacientes
+   - alma_episodios
+   - alma_diagnosticos
+   Estas colecciones se basan en tablas/vistas del SQL ya conectado a NocoBase y solo se utilizan para seleccionar y visualizar datos.
+
+2) Colecciones propias de oncología (lectura/escritura):
+   - onco_especialidades
+   - onco_casos
+   - onco_caso_especialidades (relación N:N entre casos y especialidades)
+   - onco_episodios (episodios oncológicos)
+   - onco_comite_sesiones
+   - onco_comite_casos
+   - onco_seguimiento_eventos
+
+Relaciones importantes:
+- onco_casos referencia a alma_pacientes (id_paciente_alma) y opcionalmente a alma_episodios y alma_diagnosticos como episodio/diagnóstico índice.
+- onco_caso_especialidades conecta onco_casos con onco_especialidades (N:N).
+- onco_episodios, onco_comite_casos y onco_seguimiento_eventos se relacionan con onco_casos.
+- Varias de estas colecciones también se relacionan con onco_especialidades.
+
+Tu forma de trabajo:
+- Ayúdame a:
+  1) Refinar el modelo de datos: nombres de colecciones, campos, tipos de datos y relaciones.
+  2) Proponer estructuras concretas de campos (incluyendo claves foráneas y campos obligatorios).
+  3) Generar instrucciones y ejemplos de llamadas a la API de NocoBase para crear colecciones y campos.
+  4) Configurar permisos: 
+     - alma_* solo lectura para roles clínicos.
+     - onco_* con permisos para crear, ver, editar (borrar según políticas).
+  5) Diseñar vistas, formularios y filtros en NocoBase para los flujos:
+     - Crear nuevo caso oncológico.
+     - Registrar episodios oncológicos.
+     - Registrar y gestionar comités oncológicos.
+     - Gestionar eventos de seguimiento por especialidad.
+
+Requisitos:
+- Siempre distinguir claramente qué viene de ALMA (read-only) y qué pertenece a la app oncológica (CRUD).
+- Mantener una nomenclatura consistente (snake_case) en nombres de colecciones y campos, con prefijos alma_ y onco_ donde corresponda.
+- No asumir que se puede modificar el SQL de ALMA; solo trabajar con las tablas/vistas ya expuestas en NocoBase o con nuevas vistas que yo pueda solicitar a TI si es necesario.
+- Explicar los pasos en forma ordenada (fases) y, cuando sea útil, entregar ejemplos de payloads para la API de NocoBase (en JSON) para crear/actualizar colecciones y campos.

@@ -1,0 +1,251 @@
+{
+  "collection": {
+    "name": "ALMA_H_AdmisionUrgencia",
+    "title": "ALMA H_AdmisionUrgencia",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "16gw52mncrc",
+      "name": "Hora_Atencion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Hora_Atencion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2pc8b38178o",
+      "name": "TipoAdmision",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "TipoAdmision",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "3qvtzskd9lw",
+      "name": "Tiempo_Espera",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Tiempo_Espera",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "4muaxa2a2qr",
+      "name": "Categorizacion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Categorizacion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "51s3ncqqtag",
+      "name": "N_Episodio",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "N_Episodio",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ah5gdn5qpp2",
+      "name": "ProfesionalAdmision",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ProfesionalAdmision",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "hpscx8ts0tl",
+      "name": "Estado_Atencion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Estado_Atencion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "kuaz54r0c01",
+      "name": "Cod_Sala",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Cod_Sala",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "lrtq4spn9y3",
+      "name": "Descripcion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Descripcion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "lxgbirfpkn9",
+      "name": "Sala",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Sala",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qs8c1ngnjp9",
+      "name": "Pasaporte",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Pasaporte",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ro1hleapabz",
+      "name": "Profesional_Salud",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Profesional_Salud",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "s4sgvetajam",
+      "name": "Especialidad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Especialidad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "uqmufkj6puf",
+      "name": "Nombre",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nombre",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "uujsivx3m44",
+      "name": "Rut_Paciente",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Rut_Paciente",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "xd4miwmf076",
+      "name": "Fecha_Atencion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Atencion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ydac574rfc4",
+      "name": "Cod_Especialidad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_AdmisionUrgencia",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Cod_Especialidad",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.871Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

@@ -1,0 +1,5617 @@
+{
+  "collection": "ref_oncotopografia",
+  "count": 935,
+  "exportedAt": "2026-01-28T21:31:09.616Z",
+  "records": [
+    {
+      "id": 1,
+      "codigo_oficial": "C00.0",
+      "descripcion": "Malignant neoplasm of external upper lip",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 2,
+      "codigo_oficial": "C00.1",
+      "descripcion": "Malignant neoplasm of external lower lip",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 3,
+      "codigo_oficial": "C00.2",
+      "descripcion": "Malignant neoplasm of external lip, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 4,
+      "codigo_oficial": "C00.3",
+      "descripcion": "Malignant neoplasm of upper lip, inner aspect",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 5,
+      "codigo_oficial": "C00.4",
+      "descripcion": "Malignant neoplasm of lower lip, inner aspect",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 6,
+      "codigo_oficial": "C00.5",
+      "descripcion": "Malignant neoplasm of lip, unspecified, inner aspect",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 7,
+      "codigo_oficial": "C00.6",
+      "descripcion": "Malignant neoplasm of commissure of lip, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 8,
+      "codigo_oficial": "C00.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of lip",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 9,
+      "codigo_oficial": "C00.9",
+      "descripcion": "Malignant neoplasm of lip, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 10,
+      "codigo_oficial": "C01",
+      "descripcion": "MALIGNANT NEOPLASM OF BASE OF TONGUE",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 11,
+      "codigo_oficial": "C02.0",
+      "descripcion": "Malignant neoplasm of dorsal surface of tongue",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 12,
+      "codigo_oficial": "C02.1",
+      "descripcion": "Malignant neoplasm of border of tongue",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 13,
+      "codigo_oficial": "C02.2",
+      "descripcion": "Malignant neoplasm of ventral surface of tongue",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 14,
+      "codigo_oficial": "C02.3",
+      "descripcion": "Malignant neoplasm of anterior two-thirds of tongue, part unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 15,
+      "codigo_oficial": "C02.4",
+      "descripcion": "Malignant neoplasm of lingual tonsil",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 16,
+      "codigo_oficial": "C02.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of tongue",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 17,
+      "codigo_oficial": "C02.9",
+      "descripcion": "Malignant neoplasm of tongue, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 18,
+      "codigo_oficial": "C03.0",
+      "descripcion": "Malignant neoplasm of upper gum",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 19,
+      "codigo_oficial": "C03.1",
+      "descripcion": "Malignant neoplasm of lower gum",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 20,
+      "codigo_oficial": "C03.9",
+      "descripcion": "Malignant neoplasm of gum, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 21,
+      "codigo_oficial": "C04.0",
+      "descripcion": "Malignant neoplasm of anterior floor of mouth",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 22,
+      "codigo_oficial": "C04.1",
+      "descripcion": "Malignant neoplasm of lateral floor of mouth",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 23,
+      "codigo_oficial": "C04.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of floor of mouth",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 24,
+      "codigo_oficial": "C04.9",
+      "descripcion": "Malignant neoplasm of floor of mouth, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 25,
+      "codigo_oficial": "C05.0",
+      "descripcion": "Malignant neoplasm of hard palate",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 26,
+      "codigo_oficial": "C05.1",
+      "descripcion": "Malignant neoplasm of soft palate",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 27,
+      "codigo_oficial": "C05.2",
+      "descripcion": "Malignant neoplasm of uvula",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 28,
+      "codigo_oficial": "C05.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of palate",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 29,
+      "codigo_oficial": "C05.9",
+      "descripcion": "Malignant neoplasm of palate, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 30,
+      "codigo_oficial": "C06.0",
+      "descripcion": "Malignant neoplasm of cheek mucosa",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 31,
+      "codigo_oficial": "C06.1",
+      "descripcion": "Malignant neoplasm of vestibule of mouth",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 32,
+      "codigo_oficial": "C06.2",
+      "descripcion": "Malignant neoplasm of retromolar area",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 33,
+      "codigo_oficial": "C06.80",
+      "descripcion": "Malignant neoplasm of overlapping sites of unspecified parts of mouth",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 34,
+      "codigo_oficial": "C06.89",
+      "descripcion": "Malignant neoplasm of overlapping sites of other parts of mouth",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 35,
+      "codigo_oficial": "C06.9",
+      "descripcion": "Malignant neoplasm of mouth, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 36,
+      "codigo_oficial": "C07",
+      "descripcion": "MALIGNANT NEOPLASM OF PAROTID GLAND",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 37,
+      "codigo_oficial": "C08.0",
+      "descripcion": "Malignant neoplasm of submandibular gland",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 38,
+      "codigo_oficial": "C08.1",
+      "descripcion": "Malignant neoplasm of sublingual gland",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 39,
+      "codigo_oficial": "C08.9",
+      "descripcion": "Malignant neoplasm of major salivary gland, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 40,
+      "codigo_oficial": "C09.0",
+      "descripcion": "Malignant neoplasm of tonsillar fossa",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 41,
+      "codigo_oficial": "C09.1",
+      "descripcion": "Malignant neoplasm of tonsillar pillar (anterior) (posterior)",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 42,
+      "codigo_oficial": "C09.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of tonsil",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 43,
+      "codigo_oficial": "C09.9",
+      "descripcion": "Malignant neoplasm of tonsil, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 44,
+      "codigo_oficial": "C10.0",
+      "descripcion": "Malignant neoplasm of vallecula",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 45,
+      "codigo_oficial": "C10.1",
+      "descripcion": "Malignant neoplasm of anterior surface of epiglottis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 46,
+      "codigo_oficial": "C10.2",
+      "descripcion": "Malignant neoplasm of lateral wall of oropharynx",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 47,
+      "codigo_oficial": "C10.3",
+      "descripcion": "Malignant neoplasm of posterior wall of oropharynx",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 48,
+      "codigo_oficial": "C10.4",
+      "descripcion": "Malignant neoplasm of branchial cleft",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 49,
+      "codigo_oficial": "C10.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of oropharynx",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 50,
+      "codigo_oficial": "C10.9",
+      "descripcion": "Malignant neoplasm of oropharynx, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 51,
+      "codigo_oficial": "C11.0",
+      "descripcion": "Malignant neoplasm of superior wall of nasopharynx",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 52,
+      "codigo_oficial": "C11.1",
+      "descripcion": "Malignant neoplasm of posterior wall of nasopharynx",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 53,
+      "codigo_oficial": "C11.2",
+      "descripcion": "Malignant neoplasm of lateral wall of nasopharynx",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 54,
+      "codigo_oficial": "C11.3",
+      "descripcion": "Malignant neoplasm of anterior wall of nasopharynx",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 55,
+      "codigo_oficial": "C11.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of nasopharynx",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 56,
+      "codigo_oficial": "C11.9",
+      "descripcion": "Malignant neoplasm of nasopharynx, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 57,
+      "codigo_oficial": "C12",
+      "descripcion": "MALIGNANT NEOPLASM OF PYRIFORM SINUS",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 58,
+      "codigo_oficial": "C13.0",
+      "descripcion": "Malignant neoplasm of postcricoid region",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 59,
+      "codigo_oficial": "C13.1",
+      "descripcion": "Malignant neoplasm aryepiglottic fold, hypopharyngeal aspect",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 60,
+      "codigo_oficial": "C13.2",
+      "descripcion": "Malignant neoplasm of posterior wall of hypopharynx",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 61,
+      "codigo_oficial": "C13.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of hypopharynx",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 62,
+      "codigo_oficial": "C13.9",
+      "descripcion": "Malignant neoplasm of hypopharynx, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 63,
+      "codigo_oficial": "C14.0",
+      "descripcion": "Malignant neoplasm of pharynx, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 64,
+      "codigo_oficial": "C14.2",
+      "descripcion": "Malignant neoplasm of Waldeyer's ring",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 65,
+      "codigo_oficial": "C14.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of lip, oral cavity and pharynx",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 66,
+      "codigo_oficial": "C15.3",
+      "descripcion": "Malignant neoplasm of upper third of esophagus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 67,
+      "codigo_oficial": "C15.4",
+      "descripcion": "Malignant neoplasm of middle third of esophagus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 68,
+      "codigo_oficial": "C15.5",
+      "descripcion": "Malignant neoplasm of lower third of esophagus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 69,
+      "codigo_oficial": "C15.8",
+      "descripcion": "Malignant neoplasm of overlapping sites esophagus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 70,
+      "codigo_oficial": "C15.9",
+      "descripcion": "Malignant neoplasm of esophagus, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 71,
+      "codigo_oficial": "C16.0",
+      "descripcion": "Malignant neoplasm of cardia",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 72,
+      "codigo_oficial": "C16.1",
+      "descripcion": "Malignant neoplasm of fundus of stomach",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 73,
+      "codigo_oficial": "C16.2",
+      "descripcion": "Malignant neoplasm of body of stomach",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 74,
+      "codigo_oficial": "C16.3",
+      "descripcion": "Malignant neoplasm of pyloric antrum",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 75,
+      "codigo_oficial": "C16.4",
+      "descripcion": "Malignant neoplasm of pylorus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 76,
+      "codigo_oficial": "C16.5",
+      "descripcion": "Malignant neoplasm of lesser curvature of stomach, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 77,
+      "codigo_oficial": "C16.6",
+      "descripcion": "Malignant neoplasm of greater curvature of stomach, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 78,
+      "codigo_oficial": "C16.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of stomach",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 79,
+      "codigo_oficial": "C16.9",
+      "descripcion": "Malignant neoplasm of stomach, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 80,
+      "codigo_oficial": "C17.0",
+      "descripcion": "Malignant neoplasm of duodenum",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 81,
+      "codigo_oficial": "C17.1",
+      "descripcion": "Malignant neoplasm of jejunum",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 82,
+      "codigo_oficial": "C17.2",
+      "descripcion": "Malignant neoplasm of ileum",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 83,
+      "codigo_oficial": "C17.3",
+      "descripcion": "Meckel's diverticulum, malignant",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 84,
+      "codigo_oficial": "C17.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of small intestine",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 85,
+      "codigo_oficial": "C17.9",
+      "descripcion": "Malignant neoplasm of small intestine, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 86,
+      "codigo_oficial": "C18.0",
+      "descripcion": "Malignant neoplasm of cecum",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 87,
+      "codigo_oficial": "C18.1",
+      "descripcion": "Malignant neoplasm of appendix",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 88,
+      "codigo_oficial": "C18.2",
+      "descripcion": "Malignant neoplasm of ascending colon",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 89,
+      "codigo_oficial": "C18.3",
+      "descripcion": "Malignant neoplasm of hepatic flexure",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 90,
+      "codigo_oficial": "C18.4",
+      "descripcion": "Malignant neoplasm of transverse colon",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 91,
+      "codigo_oficial": "C18.5",
+      "descripcion": "Malignant neoplasm of splenic flexure",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 92,
+      "codigo_oficial": "C18.6",
+      "descripcion": "Malignant neoplasm of descending colon",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 93,
+      "codigo_oficial": "C18.7",
+      "descripcion": "Malignant neoplasm of sigmoid colon",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 94,
+      "codigo_oficial": "C18.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of colon",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 95,
+      "codigo_oficial": "C18.9",
+      "descripcion": "Malignant neoplasm of colon, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 96,
+      "codigo_oficial": "C19",
+      "descripcion": "MALIGNANT NEOPLASM OF RECTOSIGMOID JUNCTION",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 97,
+      "codigo_oficial": "C20",
+      "descripcion": "MALIGNANT NEOPLASM OF RECTUM",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 98,
+      "codigo_oficial": "C21.0",
+      "descripcion": "Malignant neoplasm of anus, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 99,
+      "codigo_oficial": "C21.1",
+      "descripcion": "Malignant neoplasm of anal canal",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 100,
+      "codigo_oficial": "C21.2",
+      "descripcion": "Malignant neoplasm of cloacogenic zone",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 101,
+      "codigo_oficial": "C21.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of rectum, anus and anal canal",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 102,
+      "codigo_oficial": "C22.0",
+      "descripcion": "Liver cell carcinoma",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 103,
+      "codigo_oficial": "C22.1",
+      "descripcion": "Intrahepatic bile duct carcinoma",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 104,
+      "codigo_oficial": "C22.2",
+      "descripcion": "Hepatoblastoma",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 105,
+      "codigo_oficial": "C22.3",
+      "descripcion": "Angiosarcoma of liver",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 106,
+      "codigo_oficial": "C22.4",
+      "descripcion": "Other sarcomas of liver",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 107,
+      "codigo_oficial": "C22.7",
+      "descripcion": "Other specified carcinomas of liver",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 108,
+      "codigo_oficial": "C22.8",
+      "descripcion": "Malignant neoplasm of liver, primary, unspecified as to type",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 109,
+      "codigo_oficial": "C22.9",
+      "descripcion": "Malignant neoplasm of liver, not specified as primary or secondary",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 110,
+      "codigo_oficial": "C23",
+      "descripcion": "MALIGNANT NEOPLASM OF GALLBLADDER",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 111,
+      "codigo_oficial": "C24.0",
+      "descripcion": "Malignant neoplasm of extrahepatic bile duct",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 112,
+      "codigo_oficial": "C24.1",
+      "descripcion": "Malignant neoplasm of Ampulla of Vater",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 113,
+      "codigo_oficial": "C24.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of biliary tract",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 114,
+      "codigo_oficial": "C24.9",
+      "descripcion": "Malignant neoplasm of biliary tract, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 115,
+      "codigo_oficial": "C25.0",
+      "descripcion": "Malignant neoplasm of head of pancreas",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 116,
+      "codigo_oficial": "C25.1",
+      "descripcion": "Malignant neoplasm of body of pancreas",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 117,
+      "codigo_oficial": "C25.2",
+      "descripcion": "Malignant neoplasm of tail of pancreas",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 118,
+      "codigo_oficial": "C25.3",
+      "descripcion": "Malignant neoplasm of pancreatic duct",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 119,
+      "codigo_oficial": "C25.4",
+      "descripcion": "Malignant neoplasm of endocrine pancreas",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 120,
+      "codigo_oficial": "C25.7",
+      "descripcion": "Malignant neoplasm of other parts of pancreas",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 121,
+      "codigo_oficial": "C25.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of pancreas",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 122,
+      "codigo_oficial": "C25.9",
+      "descripcion": "Malignant neoplasm of pancreas, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 123,
+      "codigo_oficial": "C26.0",
+      "descripcion": "Malignant neoplasm of intestinal tract, part unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 124,
+      "codigo_oficial": "C26.1",
+      "descripcion": "Malignant neoplasm of spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 125,
+      "codigo_oficial": "C26.9",
+      "descripcion": "Malignant neoplasm of ill-defined sites within the digestive system",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 126,
+      "codigo_oficial": "C30.0",
+      "descripcion": "Malignant neoplasm of nasal cavity",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 127,
+      "codigo_oficial": "C30.1",
+      "descripcion": "Malignant neoplasm of middle ear",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 128,
+      "codigo_oficial": "C31.0",
+      "descripcion": "Malignant neoplasm of maxillary sinus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 129,
+      "codigo_oficial": "C31.1",
+      "descripcion": "Malignant neoplasm of ethmoidal sinus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 130,
+      "codigo_oficial": "C31.2",
+      "descripcion": "Malignant neoplasm of frontal sinus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 131,
+      "codigo_oficial": "C31.3",
+      "descripcion": "Malignant neoplasm of sphenoid sinus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 132,
+      "codigo_oficial": "C31.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of accessory sinuses",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 133,
+      "codigo_oficial": "C31.9",
+      "descripcion": "Malignant neoplasm of accessory sinus, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 134,
+      "codigo_oficial": "C32.0",
+      "descripcion": "Malignant neoplasm of glottis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 135,
+      "codigo_oficial": "C32.1",
+      "descripcion": "Malignant neoplasm of supraglottis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 136,
+      "codigo_oficial": "C32.2",
+      "descripcion": "Malignant neoplasm of subglottis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 137,
+      "codigo_oficial": "C32.3",
+      "descripcion": "Malignant neoplasm of laryngeal cartilage",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 138,
+      "codigo_oficial": "C32.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of larynx",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 139,
+      "codigo_oficial": "C32.9",
+      "descripcion": "Malignant neoplasm of larynx, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 140,
+      "codigo_oficial": "C33",
+      "descripcion": "MALIGNANT NEOPLASM OF TRACHEA",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 141,
+      "codigo_oficial": "C34.00",
+      "descripcion": "Malignant neoplasm of unspecified main bronchus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 142,
+      "codigo_oficial": "C34.01",
+      "descripcion": "Malignant neoplasm of right main bronchus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 143,
+      "codigo_oficial": "C34.02",
+      "descripcion": "Malignant neoplasm of left main bronchus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 144,
+      "codigo_oficial": "C34.10",
+      "descripcion": "Malignant neoplasm of upper lobe, unspecified bronchus or lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 145,
+      "codigo_oficial": "C34.11",
+      "descripcion": "Malignant neoplasm of upper lobe, right bronchus or lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 146,
+      "codigo_oficial": "C34.12",
+      "descripcion": "Malignant neoplasm of upper lobe, left bronchus or lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 147,
+      "codigo_oficial": "C34.2",
+      "descripcion": "Malignant neoplasm of middle lobe, bronchus or lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 148,
+      "codigo_oficial": "C34.30",
+      "descripcion": "Malignant neoplasm of lower lobe, unspecified bronchus or lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 149,
+      "codigo_oficial": "C34.31",
+      "descripcion": "Malignant neoplasm of lower lobe, right bronchus or lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 150,
+      "codigo_oficial": "C34.32",
+      "descripcion": "Malignant neoplasm of lower lobe, left bronchus or lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 151,
+      "codigo_oficial": "C34.80",
+      "descripcion": "Malignant neoplasm of overlapping sites of unspecified bronchus and lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 152,
+      "codigo_oficial": "C34.81",
+      "descripcion": "Malignant neoplasm of overlapping sites of right bronchus and lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 153,
+      "codigo_oficial": "C34.82",
+      "descripcion": "Malignant neoplasm of overlapping sites of left bronchus and lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 154,
+      "codigo_oficial": "C34.90",
+      "descripcion": "Malignant neoplasm of unspecified part of unspecified bronchus or lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 155,
+      "codigo_oficial": "C34.91",
+      "descripcion": "Malignant neoplasm of unspecified part of right bronchus or lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 156,
+      "codigo_oficial": "C34.92",
+      "descripcion": "Malignant neoplasm of unspecified part of left bronchus or lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 157,
+      "codigo_oficial": "C37",
+      "descripcion": "MALIGNANT NEOPLASM OF THYMUS",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 158,
+      "codigo_oficial": "C38.0",
+      "descripcion": "Malignant neoplasm of heart",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 159,
+      "codigo_oficial": "C38.1",
+      "descripcion": "Malignant neoplasm of anterior mediastinum",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 160,
+      "codigo_oficial": "C38.2",
+      "descripcion": "Malignant neoplasm of posterior mediastinum",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 161,
+      "codigo_oficial": "C38.3",
+      "descripcion": "Malignant neoplasm of mediastinum, part unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 162,
+      "codigo_oficial": "C38.4",
+      "descripcion": "Malignant neoplasm of pleura",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 163,
+      "codigo_oficial": "C38.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of heart, mediastinum and pleura",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 164,
+      "codigo_oficial": "C39.0",
+      "descripcion": "Malignant neoplasm of upper respiratory tract, part unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 165,
+      "codigo_oficial": "C39.9",
+      "descripcion": "Malignant neoplasm of lower respiratory tract, part unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 166,
+      "codigo_oficial": "C40.00",
+      "descripcion": "Malignant neoplasm of scapula and long bones of unspecified upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 167,
+      "codigo_oficial": "C40.01",
+      "descripcion": "Malignant neoplasm of scapula and long bones of right upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 168,
+      "codigo_oficial": "C40.02",
+      "descripcion": "Malignant neoplasm of scapula and long bones of left upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 169,
+      "codigo_oficial": "C40.10",
+      "descripcion": "Malignant neoplasm of short bones of unspecified upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 170,
+      "codigo_oficial": "C40.11",
+      "descripcion": "Malignant neoplasm of short bones of right upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 171,
+      "codigo_oficial": "C40.12",
+      "descripcion": "Malignant neoplasm of short bones of left upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 172,
+      "codigo_oficial": "C40.20",
+      "descripcion": "Malignant neoplasm of long bones of unspecified lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 173,
+      "codigo_oficial": "C40.21",
+      "descripcion": "Malignant neoplasm of long bones of right lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 174,
+      "codigo_oficial": "C40.22",
+      "descripcion": "Malignant neoplasm of long bones of left lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 175,
+      "codigo_oficial": "C40.30",
+      "descripcion": "Malignant neoplasm of short bones of unspecified lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 176,
+      "codigo_oficial": "C40.31",
+      "descripcion": "Malignant neoplasm of short bones of right lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 177,
+      "codigo_oficial": "C40.32",
+      "descripcion": "Malignant neoplasm of short bones of left lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 178,
+      "codigo_oficial": "C40.80",
+      "descripcion": "Malignant neoplasm of overlapping sites of bone and articular cartilage of unspecified limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 179,
+      "codigo_oficial": "C40.81",
+      "descripcion": "Malignant neoplasm of overlapping sites of bone and articular cartilage of right limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 180,
+      "codigo_oficial": "C40.82",
+      "descripcion": "Malignant neoplasm of overlapping sites of bone and articular cartilage of left limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 181,
+      "codigo_oficial": "C40.90",
+      "descripcion": "Malignant neoplasm of unspecified bones and articular cartilage of unspecified limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 182,
+      "codigo_oficial": "C40.91",
+      "descripcion": "Malignant neoplasm of unspecified bones and articular cartilage of right limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 183,
+      "codigo_oficial": "C40.92",
+      "descripcion": "Malignant neoplasm of unspecified bones and articular cartilage of left limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 184,
+      "codigo_oficial": "C41.0",
+      "descripcion": "Malignant neoplasm of bones of skull and face",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 185,
+      "codigo_oficial": "C41.1",
+      "descripcion": "Malignant neoplasm of mandible",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 186,
+      "codigo_oficial": "C41.2",
+      "descripcion": "Malignant neoplasm of vertebral column",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 187,
+      "codigo_oficial": "C41.3",
+      "descripcion": "Malignant neoplasm of ribs, sternum and clavicle",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 188,
+      "codigo_oficial": "C41.4",
+      "descripcion": "Malignant neoplasm of pelvic bones, sacrum and coccyx",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 189,
+      "codigo_oficial": "C41.9",
+      "descripcion": "Malignant neoplasm of unspecified bones and articular cartilage of limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 190,
+      "codigo_oficial": "C43.0",
+      "descripcion": "Malignant melanoma of lip",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 191,
+      "codigo_oficial": "C43.10",
+      "descripcion": "Malignant melanoma of unspecified eyelid, including canthus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 192,
+      "codigo_oficial": "C43.111",
+      "descripcion": "Malignant melanoma of right upper eyelid, including canthus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 193,
+      "codigo_oficial": "C43.112",
+      "descripcion": "Malignant melanoma of right lower eyelid, including canthus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 194,
+      "codigo_oficial": "C43.121",
+      "descripcion": "Malignant melanoma of left upper eyelid, including canthus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 195,
+      "codigo_oficial": "C43.122",
+      "descripcion": "Malignant melanoma of left lower eyelid, including canthus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 196,
+      "codigo_oficial": "C43.20",
+      "descripcion": "Malignant melanoma of unspecified ear and external auricular canal",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 197,
+      "codigo_oficial": "C43.21",
+      "descripcion": "Malignant melanoma of right ear and external auricular canal",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 198,
+      "codigo_oficial": "C43.22",
+      "descripcion": "Malignant melanoma of left ear and external auricular canal",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 199,
+      "codigo_oficial": "C43.30",
+      "descripcion": "Malignant melanoma of unspecified part of face",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 200,
+      "codigo_oficial": "C43.31",
+      "descripcion": "Malignant melanoma of nose",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 201,
+      "codigo_oficial": "C43.39",
+      "descripcion": "Malignant melanoma of other parts of face",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 202,
+      "codigo_oficial": "C43.4",
+      "descripcion": "Malignant melanoma of scalp and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 203,
+      "codigo_oficial": "C43.51",
+      "descripcion": "Malignant melanoma of anal skin",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 204,
+      "codigo_oficial": "C43.52",
+      "descripcion": "Malignant melanoma of skin of breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 205,
+      "codigo_oficial": "C43.59",
+      "descripcion": "Malignant melanoma of other part of trunk",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 206,
+      "codigo_oficial": "C43.60",
+      "descripcion": "Malignant melanoma of unspecified upper limb, including shoulder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 207,
+      "codigo_oficial": "C43.61",
+      "descripcion": "Malignant melanoma of right upper limb, including shoulder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 208,
+      "codigo_oficial": "C43.62",
+      "descripcion": "Malignant melanoma of left upper limb, including shoulder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 209,
+      "codigo_oficial": "C43.70",
+      "descripcion": "Malignant melanoma of unspecified lower limb, including hip",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 210,
+      "codigo_oficial": "C43.71",
+      "descripcion": "Malignant melanoma of right lower limb, including hip",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 211,
+      "codigo_oficial": "C43.72",
+      "descripcion": "Malignant melanoma of left lower limb, including hip",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 212,
+      "codigo_oficial": "C43.8",
+      "descripcion": "Malignant melanoma of overlapping sites of skin",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 213,
+      "codigo_oficial": "C43.9",
+      "descripcion": "Malignant melanoma of skin, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 214,
+      "codigo_oficial": "C44.131",
+      "descripcion": "Sebaceous cell carcinoma of skin of unspecified eyelid, including canthus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 215,
+      "codigo_oficial": "C44.1321",
+      "descripcion": "Sebaceous cell carcinoma of skin of right upper eyelid, including canthus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 216,
+      "codigo_oficial": "C44.1322",
+      "descripcion": "Sebaceous cell carcinoma of skin of right lower eyelid, including canthus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 217,
+      "codigo_oficial": "C44.1391",
+      "descripcion": "Sebaceous cell carcinoma of skin of left upper eyelid, including canthus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 218,
+      "codigo_oficial": "C44.1392",
+      "descripcion": "Sebaceous cell carcinoma of skin of left lower eyelid, including canthus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 219,
+      "codigo_oficial": "C44.90",
+      "descripcion": "Unspecified malignant neoplasm of skin, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 220,
+      "codigo_oficial": "C44.99",
+      "descripcion": "Other specified malignant neoplasm of skin, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 221,
+      "codigo_oficial": "C45.0",
+      "descripcion": "Mesothelioma of pleura",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 222,
+      "codigo_oficial": "C45.1",
+      "descripcion": "Mesothelioma of peritoneum",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 223,
+      "codigo_oficial": "C45.2",
+      "descripcion": "Mesothelioma of pericardium",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 224,
+      "codigo_oficial": "C45.7",
+      "descripcion": "Mesothelioma of other sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 225,
+      "codigo_oficial": "C45.9",
+      "descripcion": "Mesothelioma, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 226,
+      "codigo_oficial": "C46.0",
+      "descripcion": "Kaposi's sarcoma of skin",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 227,
+      "codigo_oficial": "C46.1",
+      "descripcion": "Kaposi's sarcoma of soft tissue",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 228,
+      "codigo_oficial": "C46.2",
+      "descripcion": "Kaposi's sarcoma of palate",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 229,
+      "codigo_oficial": "C46.3",
+      "descripcion": "Kaposi's sarcoma of lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 230,
+      "codigo_oficial": "C46.4",
+      "descripcion": "Kaposi’s sarcoma of gastrointestinal sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 231,
+      "codigo_oficial": "C46.50",
+      "descripcion": "Kaposi's sarcoma of unspecified lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 232,
+      "codigo_oficial": "C46.51",
+      "descripcion": "Kaposi's sarcoma of right lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 233,
+      "codigo_oficial": "C46.52",
+      "descripcion": "Kaposi's sarcoma of left lung",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 234,
+      "codigo_oficial": "C46.7",
+      "descripcion": "Kaposi's sarcoma of other sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 235,
+      "codigo_oficial": "C46.9",
+      "descripcion": "Kaposi's sarcoma, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 236,
+      "codigo_oficial": "C47.0",
+      "descripcion": "Malignant neoplasm of peripheral nerves of head, face and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 237,
+      "codigo_oficial": "C47.1",
+      "descripcion": "Malignant neoplasm of peripheral nerves of upper limb, including shoulder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 238,
+      "codigo_oficial": "C47.10",
+      "descripcion": "Malignant neoplasm of peripheral nerves of unspecified upper limb, including shoulder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 239,
+      "codigo_oficial": "C47.11",
+      "descripcion": "Malignant neoplasm of peripheral nerves of right upper limb, including shoulder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 240,
+      "codigo_oficial": "C47.12",
+      "descripcion": "Malignant neoplasm of peripheral nerves of left upper limb, including shoulder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 241,
+      "codigo_oficial": "C47.20",
+      "descripcion": "Malignant neoplasm of peripheral nerves of unspecified lower limb, including hip",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 242,
+      "codigo_oficial": "C47.21",
+      "descripcion": "Malignant neoplasm of peripheral nerves of right lower limb, including hip",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 243,
+      "codigo_oficial": "C47.22",
+      "descripcion": "Malignant neoplasm of peripheral nerves of left lower limb, including hip",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 244,
+      "codigo_oficial": "C47.3",
+      "descripcion": "Malignant neoplasm of peripheral nerves of thorax",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 245,
+      "codigo_oficial": "C47.4",
+      "descripcion": "Malignant neoplasm of peripheral nerves of abdomen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 246,
+      "codigo_oficial": "C47.5",
+      "descripcion": "Malignant neoplasm of peripheral nerves of pelvis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 247,
+      "codigo_oficial": "C47.6",
+      "descripcion": "Malignant neoplasm of peripheral nerves of trunk, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 248,
+      "codigo_oficial": "C47.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of peripheral nerves and autonomic nervous system",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 249,
+      "codigo_oficial": "C47.9",
+      "descripcion": "Malignant neoplasm of peripheral nerves and autonomic nervous system, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 250,
+      "codigo_oficial": "C48.0",
+      "descripcion": "Malignant neoplasm of retroperitoneum",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 251,
+      "codigo_oficial": "C48.1",
+      "descripcion": "Malignant neoplasm of specified parts of peritoneum",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 252,
+      "codigo_oficial": "C48.2",
+      "descripcion": "Malignant neoplasm of peritoneum, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 253,
+      "codigo_oficial": "C48.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of retroperitoneum and peritoneum",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 254,
+      "codigo_oficial": "C49.0",
+      "descripcion": "Malignant neoplasm of connective and soft tissue of head, face and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 255,
+      "codigo_oficial": "C49.10",
+      "descripcion": "Malignant neoplasm of connective and soft tissue of unspecified upper limb, including shoulder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 256,
+      "codigo_oficial": "C49.11",
+      "descripcion": "Malignant neoplasm of connective and soft tissue of right upper limb, including shoulder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 257,
+      "codigo_oficial": "C49.12",
+      "descripcion": "Malignant neoplasm of connective and soft tissue of left upper limb, including shoulder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 258,
+      "codigo_oficial": "C49.20",
+      "descripcion": "Malignant neoplasm of connective and soft tissue of unspecified lower limb, including hip",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 259,
+      "codigo_oficial": "C49.21",
+      "descripcion": "Malignant neoplasm of connective and soft tissue of right lower limb, including hip",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 260,
+      "codigo_oficial": "C49.22",
+      "descripcion": "Malignant neoplasm of connective and soft tissue of left lower limb, including hip",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 261,
+      "codigo_oficial": "C49.3",
+      "descripcion": "Malignant neoplasm of connective and soft tissue of thorax",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 262,
+      "codigo_oficial": "C49.4",
+      "descripcion": "Malignant neoplasm of connective and soft tissue of abdomen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 263,
+      "codigo_oficial": "C49.5",
+      "descripcion": "Malignant neoplasm of connective and soft tissue of pelvis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 264,
+      "codigo_oficial": "C49.6",
+      "descripcion": "Malignant neoplasm of connective and soft tissue of trunk, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 265,
+      "codigo_oficial": "C49.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of connective and soft tissue",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 266,
+      "codigo_oficial": "C49.9",
+      "descripcion": "Malignant neoplasm of connective and soft tissue, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 267,
+      "codigo_oficial": "C50.011",
+      "descripcion": "Malignant neoplasm of nipple and areola, right female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 268,
+      "codigo_oficial": "C50.012",
+      "descripcion": "Malignant neoplasm of nipple and areola, left female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 269,
+      "codigo_oficial": "C50.019",
+      "descripcion": "Malignant neoplasm of nipple and areola, unspecified female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 270,
+      "codigo_oficial": "C50.021",
+      "descripcion": "Malignant neoplasm of nipple and areola, right male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 271,
+      "codigo_oficial": "C50.022",
+      "descripcion": "Malignant neoplasm of nipple and areola, left male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 272,
+      "codigo_oficial": "C50.029",
+      "descripcion": "Malignant neoplasm of nipple and areola, unspecified male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 273,
+      "codigo_oficial": "C50.111",
+      "descripcion": "Malignant neoplasm of central portion of right female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 274,
+      "codigo_oficial": "C50.112",
+      "descripcion": "Malignant neoplasm of central portion of left female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 275,
+      "codigo_oficial": "C50.119",
+      "descripcion": "Malignant neoplasm of central portion of unspecified female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 276,
+      "codigo_oficial": "C50.121",
+      "descripcion": "Malignant neoplasm of central portion of right male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 277,
+      "codigo_oficial": "C50.122",
+      "descripcion": "Malignant neoplasm of central portion of left male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 278,
+      "codigo_oficial": "C50.129",
+      "descripcion": "Malignant neoplasm of central portion of unspecified male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 279,
+      "codigo_oficial": "C50.211",
+      "descripcion": "Malignant neoplasm of upper-inner quadrant of right female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 280,
+      "codigo_oficial": "C50.212",
+      "descripcion": "Malignant neoplasm of upper-inner quadrant of left female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 281,
+      "codigo_oficial": "C50.219",
+      "descripcion": "Malignant neoplasm of upper-inner quadrant of unspecified female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 282,
+      "codigo_oficial": "C50.221",
+      "descripcion": "Malignant neoplasm of upper-inner quadrant of right male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 283,
+      "codigo_oficial": "C50.222",
+      "descripcion": "Malignant neoplasm of upper-inner quadrant of left male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 284,
+      "codigo_oficial": "C50.229",
+      "descripcion": "Malignant neoplasm of upper-inner quadrant of unspecified male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 285,
+      "codigo_oficial": "C50.311",
+      "descripcion": "Malignant neoplasm of lower-inner quadrant of right female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 286,
+      "codigo_oficial": "C50.312",
+      "descripcion": "Malignant neoplasm of lower-inner quadrant of left female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 287,
+      "codigo_oficial": "C50.319",
+      "descripcion": "Malignant neoplasm of lower-inner quadrant of unspecified female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 288,
+      "codigo_oficial": "C50.321",
+      "descripcion": "Malignant neoplasm of lower-inner quadrant of right male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 289,
+      "codigo_oficial": "C50.322",
+      "descripcion": "Malignant neoplasm of lower-inner quadrant of left male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 290,
+      "codigo_oficial": "C50.329",
+      "descripcion": "Malignant neoplasm of lower-inner quadrant of unspecified male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 291,
+      "codigo_oficial": "C50.411",
+      "descripcion": "Malignant neoplasm of upper-outer quadrant of right female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 292,
+      "codigo_oficial": "C50.412",
+      "descripcion": "Malignant neoplasm of upper-outer quadrant of left female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 293,
+      "codigo_oficial": "C50.419",
+      "descripcion": "Malignant neoplasm of upper-outer quadrant of unspecified female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 294,
+      "codigo_oficial": "C50.421",
+      "descripcion": "Malignant neoplasm of upper-outer quadrant of right male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 295,
+      "codigo_oficial": "C50.422",
+      "descripcion": "Malignant neoplasm of upper-outer quadrant of left male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 296,
+      "codigo_oficial": "C50.429",
+      "descripcion": "Malignant neoplasm of upper-outer quadrant of unspecified male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 297,
+      "codigo_oficial": "C50.511",
+      "descripcion": "Malignant neoplasm of lower-outer quadrant of right female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 298,
+      "codigo_oficial": "C50.512",
+      "descripcion": "Malignant neoplasm of lower-outer quadrant of left female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 299,
+      "codigo_oficial": "C50.519",
+      "descripcion": "Malignant neoplasm of lower-outer quadrant of unspecified female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 300,
+      "codigo_oficial": "C50.521",
+      "descripcion": "Malignant neoplasm of lower-outer quadrant of right male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 301,
+      "codigo_oficial": "C50.522",
+      "descripcion": "Malignant neoplasm of lower-outer quadrant of left male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 302,
+      "codigo_oficial": "C50.529",
+      "descripcion": "Malignant neoplasm of lower-outer quadrant of unspecified male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 303,
+      "codigo_oficial": "C50.611",
+      "descripcion": "Malignant neoplasm of axillary tail of right female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 304,
+      "codigo_oficial": "C50.612",
+      "descripcion": "Malignant neoplasm of axillary tail of left female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 305,
+      "codigo_oficial": "C50.619",
+      "descripcion": "Malignant neoplasm of axillary tail of unspecified female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 306,
+      "codigo_oficial": "C50.621",
+      "descripcion": "Malignant neoplasm of axillary tail of right male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 307,
+      "codigo_oficial": "C50.622",
+      "descripcion": "Malignant neoplasm of axillary tail of left male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 308,
+      "codigo_oficial": "C50.629",
+      "descripcion": "Malignant neoplasm of axillary tail of unspecified male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 309,
+      "codigo_oficial": "C50.811",
+      "descripcion": "Malignant neoplasm of overlapping sites of right female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 310,
+      "codigo_oficial": "C50.812",
+      "descripcion": "Malignant neoplasm of overlapping sites of left female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 311,
+      "codigo_oficial": "C50.819",
+      "descripcion": "Malignant neoplasm of overlapping sites of unspecified female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 312,
+      "codigo_oficial": "C50.821",
+      "descripcion": "Malignant neoplasm of overlapping sites of right male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 313,
+      "codigo_oficial": "C50.822",
+      "descripcion": "Malignant neoplasm of overlapping sites of left male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 314,
+      "codigo_oficial": "C50.829",
+      "descripcion": "Malignant neoplasm of overlapping sites of unspecified male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 315,
+      "codigo_oficial": "C50.911",
+      "descripcion": "Malignant neoplasm of unspecified site of right female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 316,
+      "codigo_oficial": "C50.912",
+      "descripcion": "Malignant neoplasm of unspecified site of left female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 317,
+      "codigo_oficial": "C50.919",
+      "descripcion": "Malignant neoplasm of unspecified site of unspecified female breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 318,
+      "codigo_oficial": "C50.921",
+      "descripcion": "Malignant neoplasm of unspecified site of right male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 319,
+      "codigo_oficial": "C50.922",
+      "descripcion": "Malignant neoplasm of unspecified site of left male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 320,
+      "codigo_oficial": "C50.929",
+      "descripcion": "Malignant neoplasm of unspecified site of unspecified male breast",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 321,
+      "codigo_oficial": "C51.0",
+      "descripcion": "Malignant neoplasm of labium majus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 322,
+      "codigo_oficial": "C51.1",
+      "descripcion": "Malignant neoplasm of labium minus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 323,
+      "codigo_oficial": "C51.2",
+      "descripcion": "Malignant neoplasm of clitoris",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 324,
+      "codigo_oficial": "C51.8",
+      "descripcion": "Malignant neoplasm of other specified female genital organs",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 325,
+      "codigo_oficial": "C51.9",
+      "descripcion": "Malignant neoplasm of vulva, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 326,
+      "codigo_oficial": "C52",
+      "descripcion": "MALIGNANT NEOPLASM OF VAGINA",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 327,
+      "codigo_oficial": "C53.0",
+      "descripcion": "Malignant neoplasm of endocervix",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 328,
+      "codigo_oficial": "C53.1",
+      "descripcion": "Malignant neoplasm of exocervix",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 329,
+      "codigo_oficial": "C53.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of cervix uteri",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 330,
+      "codigo_oficial": "C53.9",
+      "descripcion": "Malignant neoplasm of cervix uteri, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 331,
+      "codigo_oficial": "C54.0",
+      "descripcion": "Malignant neoplasm of isthmus uteri",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 332,
+      "codigo_oficial": "C54.1",
+      "descripcion": "Malignant neoplasm of endometrium",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 333,
+      "codigo_oficial": "C54.2",
+      "descripcion": "Malignant neoplasm of myometrium",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 334,
+      "codigo_oficial": "C54.3",
+      "descripcion": "Malignant neoplasm of fundus uteri",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 335,
+      "codigo_oficial": "C54.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of corpus uteri",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 336,
+      "codigo_oficial": "C54.9",
+      "descripcion": "Malignant neoplasm of corpus uteri, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 337,
+      "codigo_oficial": "C55",
+      "descripcion": "MALIGNANT NEOPLASM OF UTERUS, PART UNSPECIFIED",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 338,
+      "codigo_oficial": "C56.1",
+      "descripcion": "Malignant neoplasm of right ovary",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 339,
+      "codigo_oficial": "C56.2",
+      "descripcion": "Malignant neoplasm of left ovary",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 340,
+      "codigo_oficial": "C56.9",
+      "descripcion": "Malignant neoplasm of unspecified ovary",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 341,
+      "codigo_oficial": "C57.00",
+      "descripcion": "Malignant neoplasm of unspecified fallopian tube",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 342,
+      "codigo_oficial": "C57.01",
+      "descripcion": "Malignant neoplasm of right fallopian tube",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 343,
+      "codigo_oficial": "C57.02",
+      "descripcion": "Malignant neoplasm of left fallopian tube",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 344,
+      "codigo_oficial": "C57.10",
+      "descripcion": "Malignant neoplasm of unspecified broad ligament",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 345,
+      "codigo_oficial": "C57.11",
+      "descripcion": "Malignant neoplasm of right broad ligament",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 346,
+      "codigo_oficial": "C57.12",
+      "descripcion": "Malignant neoplasm of left broad ligament",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 347,
+      "codigo_oficial": "C57.20",
+      "descripcion": "Malignant neoplasm of unspecified round ligament",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 348,
+      "codigo_oficial": "C57.21",
+      "descripcion": "Malignant neoplasm of right round ligament",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 349,
+      "codigo_oficial": "C57.22",
+      "descripcion": "Malignant neoplasm of left round ligament",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 350,
+      "codigo_oficial": "C57.3",
+      "descripcion": "Malignant neoplasm of parametrium",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 351,
+      "codigo_oficial": "C57.4",
+      "descripcion": "Malignant neoplasm of uterine adnexa, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 352,
+      "codigo_oficial": "C57.7",
+      "descripcion": "Malignant neoplasm of overlapping sites of vulva",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 353,
+      "codigo_oficial": "C57.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of female genital organs",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 354,
+      "codigo_oficial": "C57.9",
+      "descripcion": "Malignant neoplasm of female genital organ, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 355,
+      "codigo_oficial": "C58",
+      "descripcion": "MALIGNANT NEOPLASM OF PLACENTA",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 356,
+      "codigo_oficial": "C60.0",
+      "descripcion": "Malignant neoplasm of prepuce",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 357,
+      "codigo_oficial": "C60.1",
+      "descripcion": "Malignant neoplasm of glans penis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 358,
+      "codigo_oficial": "C60.2",
+      "descripcion": "Malignant neoplasm of body of penis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 359,
+      "codigo_oficial": "C60.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of penis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 360,
+      "codigo_oficial": "C60.9",
+      "descripcion": "Malignant neoplasm of penis, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 361,
+      "codigo_oficial": "C61",
+      "descripcion": "MALIGNANT NEOPLASM OF PROSTATE",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 362,
+      "codigo_oficial": "C62.00",
+      "descripcion": "Malignant neoplasm of unspecified undescended testis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 363,
+      "codigo_oficial": "C62.01",
+      "descripcion": "Malignant neoplasm of undescended right testis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 364,
+      "codigo_oficial": "C62.02",
+      "descripcion": "Malignant neoplasm of undescended left testis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 365,
+      "codigo_oficial": "C62.10",
+      "descripcion": "Malignant neoplasm of unspecified descended testis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 366,
+      "codigo_oficial": "C62.11",
+      "descripcion": "Malignant neoplasm of descended right testis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 367,
+      "codigo_oficial": "C62.12",
+      "descripcion": "Malignant neoplasm of descended left testis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 368,
+      "codigo_oficial": "C62.90",
+      "descripcion": "Malignant neoplasm of unspecified testis, unspecified whether descended or undescended",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 369,
+      "codigo_oficial": "C62.91",
+      "descripcion": "Malignant neoplasm of right testis, unspecified whether descended or undescended",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 370,
+      "codigo_oficial": "C62.92",
+      "descripcion": "Malignant neoplasm of left testis, unspecified whether descended or undescended",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 371,
+      "codigo_oficial": "C63.00",
+      "descripcion": "Malignant neoplasm of unspecified epididymis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 372,
+      "codigo_oficial": "C63.01",
+      "descripcion": "Malignant neoplasm of right epididymis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 373,
+      "codigo_oficial": "C63.02",
+      "descripcion": "Malignant neoplasm of left epididymis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 374,
+      "codigo_oficial": "C63.10",
+      "descripcion": "Malignant neoplasm of unspecified spermatic cord",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 375,
+      "codigo_oficial": "C63.11",
+      "descripcion": "Malignant neoplasm of right spermatic cord",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 376,
+      "codigo_oficial": "C63.12",
+      "descripcion": "Malignant neoplasm of left spermatic cord",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 377,
+      "codigo_oficial": "C63.2",
+      "descripcion": "Malignant neoplasm of scrotum",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 378,
+      "codigo_oficial": "C63.7",
+      "descripcion": "Malignant neoplasm of other specified male genital organs",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 379,
+      "codigo_oficial": "C63.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of male genital organs",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 380,
+      "codigo_oficial": "C63.9",
+      "descripcion": "Malignant neoplasm of male genital organ, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 381,
+      "codigo_oficial": "C64.1",
+      "descripcion": "Malignant neoplasm of right kidney, except renal pelvis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 382,
+      "codigo_oficial": "C64.2",
+      "descripcion": "Malignant neoplasm of left kidney, except renal pelvis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 383,
+      "codigo_oficial": "C64.9",
+      "descripcion": "Malignant neoplasm of unspecified kidney, except renal pelvis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 384,
+      "codigo_oficial": "C65.1",
+      "descripcion": "Malignant neoplasm of right renal pelvis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 385,
+      "codigo_oficial": "C65.2",
+      "descripcion": "Malignant neoplasm of left renal pelvis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 386,
+      "codigo_oficial": "C65.9",
+      "descripcion": "Malignant neoplasm of unspecified renal pelvis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 387,
+      "codigo_oficial": "C66.1",
+      "descripcion": "Malignant neoplasm of right ureter",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 388,
+      "codigo_oficial": "C66.2",
+      "descripcion": "Malignant neoplasm of left ureter",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 389,
+      "codigo_oficial": "C66.9",
+      "descripcion": "Malignant neoplasm of unspecified ureter",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 390,
+      "codigo_oficial": "C67.0",
+      "descripcion": "Malignant neoplasm of trigone of bladder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 391,
+      "codigo_oficial": "C67.1",
+      "descripcion": "Malignant neoplasm of dome of bladder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 392,
+      "codigo_oficial": "C67.2",
+      "descripcion": "Malignant neoplasm of lateral wall of bladder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 393,
+      "codigo_oficial": "C67.3",
+      "descripcion": "Malignant neoplasm of anterior wall of bladder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 394,
+      "codigo_oficial": "C67.4",
+      "descripcion": "Malignant neoplasm of posterior wall of bladder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 395,
+      "codigo_oficial": "C67.5",
+      "descripcion": "Malignant neoplasm of bladder neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 396,
+      "codigo_oficial": "C67.6",
+      "descripcion": "Malignant neoplasm of ureteric orifice",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 397,
+      "codigo_oficial": "C67.7",
+      "descripcion": "Malignant neoplasm of urachus",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 398,
+      "codigo_oficial": "C67.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of bladder",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 399,
+      "codigo_oficial": "C67.9",
+      "descripcion": "Malignant neoplasm of bladder, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 400,
+      "codigo_oficial": "C68.0",
+      "descripcion": "Malignant neoplasm of urethra",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 401,
+      "codigo_oficial": "C68.1",
+      "descripcion": "Malignant neoplasm of paraurethral glands",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 402,
+      "codigo_oficial": "C68.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of urinary organs",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 403,
+      "codigo_oficial": "C68.9",
+      "descripcion": "Malignant neoplasm of urinary organ, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 404,
+      "codigo_oficial": "C69.00",
+      "descripcion": "Malignant neoplasm of unspecified conjunctiva",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 405,
+      "codigo_oficial": "C69.01",
+      "descripcion": "Malignant neoplasm of right conjunctiva",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 406,
+      "codigo_oficial": "C69.02",
+      "descripcion": "Malignant neoplasm of left conjunctiva",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 407,
+      "codigo_oficial": "C69.10",
+      "descripcion": "Malignant neoplasm of unspecified cornea",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 408,
+      "codigo_oficial": "C69.11",
+      "descripcion": "Malignant neoplasm of right cornea",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 409,
+      "codigo_oficial": "C69.12",
+      "descripcion": "Malignant neoplasm of left cornea",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 410,
+      "codigo_oficial": "C69.20",
+      "descripcion": "Malignant neoplasm of unspecified retina",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 411,
+      "codigo_oficial": "C69.21",
+      "descripcion": "Malignant neoplasm of right retina",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 412,
+      "codigo_oficial": "C69.22",
+      "descripcion": "Malignant neoplasm of left retina",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 413,
+      "codigo_oficial": "C69.30",
+      "descripcion": "Malignant neoplasm of unspecified choroid",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 414,
+      "codigo_oficial": "C69.31",
+      "descripcion": "Malignant neoplasm of right choroid",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 415,
+      "codigo_oficial": "C69.32",
+      "descripcion": "Malignant neoplasm of left choroid",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 416,
+      "codigo_oficial": "C69.40",
+      "descripcion": "Malignant neoplasm of unspecified ciliary body",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 417,
+      "codigo_oficial": "C69.41",
+      "descripcion": "Malignant neoplasm of right ciliary body",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 418,
+      "codigo_oficial": "C69.42",
+      "descripcion": "Malignant neoplasm of left ciliary body",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 419,
+      "codigo_oficial": "C69.50",
+      "descripcion": "Malignant neoplasm of unspecified lacrimal gland and duct",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 420,
+      "codigo_oficial": "C69.51",
+      "descripcion": "Malignant neoplasm of right lacrimal gland and duct",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 421,
+      "codigo_oficial": "C69.52",
+      "descripcion": "Malignant neoplasm of left lacrimal gland and duct",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 422,
+      "codigo_oficial": "C69.60",
+      "descripcion": "Malignant neoplasm of unspecified orbit",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 423,
+      "codigo_oficial": "C69.61",
+      "descripcion": "Malignant neoplasm of right orbit",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 424,
+      "codigo_oficial": "C69.62",
+      "descripcion": "Malignant neoplasm of left orbit",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 425,
+      "codigo_oficial": "C69.80",
+      "descripcion": "Malignant neoplasm of overlapping sites of unspecified eye and adnexa",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 426,
+      "codigo_oficial": "C69.81",
+      "descripcion": "Malignant neoplasm of overlapping sites of right eye and adnexa",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 427,
+      "codigo_oficial": "C69.82",
+      "descripcion": "Malignant neoplasm of overlapping sites of left eye and adnexa",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 428,
+      "codigo_oficial": "C69.90",
+      "descripcion": "Malignant neoplasm of unspecified site of unspecified eye",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 429,
+      "codigo_oficial": "C69.91",
+      "descripcion": "Malignant neoplasm of unspecified site of right eye",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 430,
+      "codigo_oficial": "C69.92",
+      "descripcion": "Malignant neoplasm of unspecified site of left eye",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 431,
+      "codigo_oficial": "C70.0",
+      "descripcion": "Malignant neoplasm of cerebral meninges",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 432,
+      "codigo_oficial": "C70.1",
+      "descripcion": "Malignant neoplasm of spinal meninges",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 433,
+      "codigo_oficial": "C70.9",
+      "descripcion": "Malignant neoplasm of meninges, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 434,
+      "codigo_oficial": "C71.0",
+      "descripcion": "Malignant neoplasm of cerebrum, except lobes and ventricles",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 435,
+      "codigo_oficial": "C71.1",
+      "descripcion": "Malignant neoplasm of frontal lobe",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 436,
+      "codigo_oficial": "C71.2",
+      "descripcion": "Malignant neoplasm of temporal lobe",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 437,
+      "codigo_oficial": "C71.3",
+      "descripcion": "Malignant neoplasm of parietal lobe",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 438,
+      "codigo_oficial": "C71.4",
+      "descripcion": "Malignant neoplasm of occipital lobe",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 439,
+      "codigo_oficial": "C71.5",
+      "descripcion": "Malignant neoplasm of cerebral ventricle",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 440,
+      "codigo_oficial": "C71.6",
+      "descripcion": "Malignant neoplasm of cerebellum",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 441,
+      "codigo_oficial": "C71.7",
+      "descripcion": "Malignant neoplasm of brain stem",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 442,
+      "codigo_oficial": "C71.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of brain",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 443,
+      "codigo_oficial": "C71.9",
+      "descripcion": "Malignant neoplasm of brain, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 444,
+      "codigo_oficial": "C72.0",
+      "descripcion": "Malignant neoplasm of spinal cord",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 445,
+      "codigo_oficial": "C72.1",
+      "descripcion": "Malignant neoplasm of cauda equina",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 446,
+      "codigo_oficial": "C72.20",
+      "descripcion": "Malignant neoplasm of unspecified olfactory nerve",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 447,
+      "codigo_oficial": "C72.21",
+      "descripcion": "Malignant neoplasm of right olfactory nerve",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 448,
+      "codigo_oficial": "C72.22",
+      "descripcion": "Malignant neoplasm of left olfactory nerve",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 449,
+      "codigo_oficial": "C72.30",
+      "descripcion": "Malignant neoplasm of unspecified optic nerve",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 450,
+      "codigo_oficial": "C72.31",
+      "descripcion": "Malignant neoplasm of right optic nerve",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 451,
+      "codigo_oficial": "C72.32",
+      "descripcion": "Malignant neoplasm of left optic nerve",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 452,
+      "codigo_oficial": "C72.40",
+      "descripcion": "Malignant neoplasm of unspecified acoustic nerve",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 453,
+      "codigo_oficial": "C72.41",
+      "descripcion": "Malignant neoplasm of right acoustic nerve",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 454,
+      "codigo_oficial": "C72.42",
+      "descripcion": "Malignant neoplasm of left acoustic nerve",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 455,
+      "codigo_oficial": "C72.50",
+      "descripcion": "Malignant neoplasm of unspecified cranial nerve",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 456,
+      "codigo_oficial": "C72.59",
+      "descripcion": "Malignant neoplasm of other cranial nerves",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 457,
+      "codigo_oficial": "C72.9",
+      "descripcion": "Malignant neoplasm of central nervous system, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 458,
+      "codigo_oficial": "C73",
+      "descripcion": "MALIGNANT NEOPLASM OF THYROID GLAND",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 459,
+      "codigo_oficial": "C74.00",
+      "descripcion": "Malignant neoplasm of cortex of unspecified adrenal gland",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 460,
+      "codigo_oficial": "C74.01",
+      "descripcion": "Malignant neoplasm of cortex of right adrenal gland",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 461,
+      "codigo_oficial": "C74.02",
+      "descripcion": "Malignant neoplasm of cortex of left adrenal gland",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 462,
+      "codigo_oficial": "C74.10",
+      "descripcion": "Malignant neoplasm of medulla of unspecified adrenal gland",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 463,
+      "codigo_oficial": "C74.11",
+      "descripcion": "Malignant neoplasm of medulla of right adrenal gland",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 464,
+      "codigo_oficial": "C74.12",
+      "descripcion": "Malignant neoplasm of medulla of left adrenal gland",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 465,
+      "codigo_oficial": "C74.90",
+      "descripcion": "Malignant neoplasm of unspecified part of unspecified adrenal gland",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 466,
+      "codigo_oficial": "C74.91",
+      "descripcion": "Malignant neoplasm of unspecified part of right adrenal gland",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 467,
+      "codigo_oficial": "C74.92",
+      "descripcion": "Malignant neoplasm of unspecified part of left adrenal gland",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 468,
+      "codigo_oficial": "C75.0",
+      "descripcion": "Malignant neoplasm of parathyroid gland",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 469,
+      "codigo_oficial": "C75.1",
+      "descripcion": "Malignant neoplasm of pituitary gland",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 470,
+      "codigo_oficial": "C75.2",
+      "descripcion": "Malignant neoplasm of craniopharyngeal duct",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 471,
+      "codigo_oficial": "C75.3",
+      "descripcion": "Malignant neoplasm of pineal gland",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 472,
+      "codigo_oficial": "C75.4",
+      "descripcion": "Malignant neoplasm of carotid body",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 473,
+      "codigo_oficial": "C75.5",
+      "descripcion": "Malignant neoplasm of aortic body and other paraganglia",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 474,
+      "codigo_oficial": "C75.8",
+      "descripcion": "Malignant neoplasm with pluriglanduar involvement, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 475,
+      "codigo_oficial": "C75.9",
+      "descripcion": "Malignant neoplasm of endocrine gland, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 476,
+      "codigo_oficial": "C76.0",
+      "descripcion": "Malignant neoplasm of head, face and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 477,
+      "codigo_oficial": "C76.1",
+      "descripcion": "Malignant neoplasm of thorax",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 478,
+      "codigo_oficial": "C76.2",
+      "descripcion": "Malignant neoplasm of abdomen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 479,
+      "codigo_oficial": "C76.3",
+      "descripcion": "Malignant neoplasm pelvis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 480,
+      "codigo_oficial": "C76.40",
+      "descripcion": "Malignant neoplasm of unspecified upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 481,
+      "codigo_oficial": "C76.41",
+      "descripcion": "Malignant neoplasm of right upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 482,
+      "codigo_oficial": "C76.42",
+      "descripcion": "Malignant neoplasm of left upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 483,
+      "codigo_oficial": "C76.50",
+      "descripcion": "Malignant neoplasm of unspecified lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 484,
+      "codigo_oficial": "C76.51",
+      "descripcion": "Malignant neoplasm of right lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 485,
+      "codigo_oficial": "C76.52",
+      "descripcion": "Malignant neoplasm of left lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 486,
+      "codigo_oficial": "C76.8",
+      "descripcion": "Malignant neoplasm of overlapping sites of other and ill-defined sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 487,
+      "codigo_oficial": "C80.0",
+      "descripcion": "Disseminated malignant neoplasm, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 488,
+      "codigo_oficial": "C80.1",
+      "descripcion": "Malignant (primary) neoplasm, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 489,
+      "codigo_oficial": "C80.2",
+      "descripcion": "Malignant neoplasm associated with transplanted organ",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 490,
+      "codigo_oficial": "C81.00",
+      "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 491,
+      "codigo_oficial": "C81.01",
+      "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 492,
+      "codigo_oficial": "C81.02",
+      "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 493,
+      "codigo_oficial": "C81.03",
+      "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 494,
+      "codigo_oficial": "C81.04",
+      "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 495,
+      "codigo_oficial": "C81.05",
+      "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 496,
+      "codigo_oficial": "C81.06",
+      "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 497,
+      "codigo_oficial": "C81.07",
+      "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 498,
+      "codigo_oficial": "C81.08",
+      "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 499,
+      "codigo_oficial": "C81.09",
+      "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 500,
+      "codigo_oficial": "C81.10",
+      "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 501,
+      "codigo_oficial": "C81.11",
+      "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 502,
+      "codigo_oficial": "C81.12",
+      "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 503,
+      "codigo_oficial": "C81.13",
+      "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 504,
+      "codigo_oficial": "C81.14",
+      "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 505,
+      "codigo_oficial": "C81.15",
+      "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 506,
+      "codigo_oficial": "C81.16",
+      "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 507,
+      "codigo_oficial": "C81.17",
+      "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 508,
+      "codigo_oficial": "C81.18",
+      "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 509,
+      "codigo_oficial": "C81.19",
+      "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 510,
+      "codigo_oficial": "C81.20",
+      "descripcion": "Mixed cellularity classical Hodgkin lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 511,
+      "codigo_oficial": "C81.21",
+      "descripcion": "Mixed cellularity classical Hodgkin lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 512,
+      "codigo_oficial": "C81.22",
+      "descripcion": "Mixed cellularity classical Hodgkin lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 513,
+      "codigo_oficial": "C81.23",
+      "descripcion": "Mixed cellularity classical Hodgkin lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 514,
+      "codigo_oficial": "C81.24",
+      "descripcion": "Mixed cellularity classical Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 515,
+      "codigo_oficial": "C81.25",
+      "descripcion": "Mixed cellularity classical Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 516,
+      "codigo_oficial": "C81.26",
+      "descripcion": "Mixed cellularity classical Hodgkin lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 517,
+      "codigo_oficial": "C81.27",
+      "descripcion": "Mixed cellularity classical Hodgkin lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 518,
+      "codigo_oficial": "C81.28",
+      "descripcion": "Mixed cellularity classical Hodgkin lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 519,
+      "codigo_oficial": "C81.29",
+      "descripcion": "Mixed cellularity classical Hodgkin lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 520,
+      "codigo_oficial": "C81.30",
+      "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 521,
+      "codigo_oficial": "C81.31",
+      "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 522,
+      "codigo_oficial": "C81.32",
+      "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 523,
+      "codigo_oficial": "C81.33",
+      "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 524,
+      "codigo_oficial": "C81.34",
+      "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 525,
+      "codigo_oficial": "C81.35",
+      "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 526,
+      "codigo_oficial": "C81.36",
+      "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 527,
+      "codigo_oficial": "C81.37",
+      "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 528,
+      "codigo_oficial": "C81.38",
+      "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 529,
+      "codigo_oficial": "C81.39",
+      "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 530,
+      "codigo_oficial": "C81.40",
+      "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 531,
+      "codigo_oficial": "C81.41",
+      "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 532,
+      "codigo_oficial": "C81.42",
+      "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 533,
+      "codigo_oficial": "C81.43",
+      "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 534,
+      "codigo_oficial": "C81.44",
+      "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 535,
+      "codigo_oficial": "C81.45",
+      "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 536,
+      "codigo_oficial": "C81.46",
+      "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 537,
+      "codigo_oficial": "C81.47",
+      "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 538,
+      "codigo_oficial": "C81.48",
+      "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 539,
+      "codigo_oficial": "C81.49",
+      "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 540,
+      "codigo_oficial": "C81.70",
+      "descripcion": "Other classical Hodgkin lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 541,
+      "codigo_oficial": "C81.71",
+      "descripcion": "Other classical Hodgkin lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 542,
+      "codigo_oficial": "C81.72",
+      "descripcion": "Other classical Hodgkin lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 543,
+      "codigo_oficial": "C81.73",
+      "descripcion": "Other classical Hodgkin lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 544,
+      "codigo_oficial": "C81.74",
+      "descripcion": "Other classical Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 545,
+      "codigo_oficial": "C81.75",
+      "descripcion": "Other classical Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 546,
+      "codigo_oficial": "C81.76",
+      "descripcion": "Other classical Hodgkin lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 547,
+      "codigo_oficial": "C81.77",
+      "descripcion": "Other classical Hodgkin lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 548,
+      "codigo_oficial": "C81.78",
+      "descripcion": "Other classical Hodgkin lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 549,
+      "codigo_oficial": "C81.79",
+      "descripcion": "Other classical Hodgkin lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 550,
+      "codigo_oficial": "C81.90",
+      "descripcion": "Hodgkin lymphoma, unspecified, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 551,
+      "codigo_oficial": "C81.91",
+      "descripcion": "Hodgkin lymphoma, unspecified, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 552,
+      "codigo_oficial": "C81.92",
+      "descripcion": "Hodgkin lymphoma, unspecified, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 553,
+      "codigo_oficial": "C81.93",
+      "descripcion": "Hodgkin lymphoma, unspecified, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 554,
+      "codigo_oficial": "C81.94",
+      "descripcion": "Hodgkin lymphoma, unspecified, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 555,
+      "codigo_oficial": "C81.95",
+      "descripcion": "Hodgkin lymphoma, unspecified, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 556,
+      "codigo_oficial": "C81.96",
+      "descripcion": "Hodgkin lymphoma, unspecified, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 557,
+      "codigo_oficial": "C81.97",
+      "descripcion": "Hodgkin lymphoma, unspecified, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 558,
+      "codigo_oficial": "C81.98",
+      "descripcion": "Hodgkin lymphoma, unspecified, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 559,
+      "codigo_oficial": "C81.99",
+      "descripcion": "Hodgkin lymphoma, unspecified, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 560,
+      "codigo_oficial": "C82.00",
+      "descripcion": "Follicular lymphoma grade I, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 561,
+      "codigo_oficial": "C82.01",
+      "descripcion": "Follicular lymphoma grade I, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 562,
+      "codigo_oficial": "C82.02",
+      "descripcion": "Follicular lymphoma grade I, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 563,
+      "codigo_oficial": "C82.03",
+      "descripcion": "Follicular lymphoma grade I, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 564,
+      "codigo_oficial": "C82.04",
+      "descripcion": "Follicular lymphoma grade I, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 565,
+      "codigo_oficial": "C82.05",
+      "descripcion": "Follicular lymphoma grade I, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 566,
+      "codigo_oficial": "C82.06",
+      "descripcion": "Follicular lymphoma grade I, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 567,
+      "codigo_oficial": "C82.07",
+      "descripcion": "Follicular lymphoma grade I, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 568,
+      "codigo_oficial": "C82.08",
+      "descripcion": "Follicular lymphoma grade I, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 569,
+      "codigo_oficial": "C82.09",
+      "descripcion": "Follicular lymphoma grade I, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 570,
+      "codigo_oficial": "C82.10",
+      "descripcion": "Follicular lymphoma grade II, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 571,
+      "codigo_oficial": "C82.11",
+      "descripcion": "Follicular lymphoma grade II, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 572,
+      "codigo_oficial": "C82.12",
+      "descripcion": "Follicular lymphoma grade II, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 573,
+      "codigo_oficial": "C82.13",
+      "descripcion": "Follicular lymphoma grade II, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 574,
+      "codigo_oficial": "C82.14",
+      "descripcion": "Follicular lymphoma grade II, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 575,
+      "codigo_oficial": "C82.15",
+      "descripcion": "Follicular lymphoma grade II, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 576,
+      "codigo_oficial": "C82.16",
+      "descripcion": "Follicular lymphoma grade II, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 577,
+      "codigo_oficial": "C82.17",
+      "descripcion": "Follicular lymphoma grade II, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 578,
+      "codigo_oficial": "C82.18",
+      "descripcion": "Follicular lymphoma grade II, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 579,
+      "codigo_oficial": "C82.19",
+      "descripcion": "Follicular lymphoma grade II, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 580,
+      "codigo_oficial": "C82.20",
+      "descripcion": "Follicular lymphoma grade III, unspecified, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 581,
+      "codigo_oficial": "C82.21",
+      "descripcion": "Follicular lymphoma grade III, unspecified, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 582,
+      "codigo_oficial": "C82.22",
+      "descripcion": "Follicular lymphoma grade III, unspecified, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 583,
+      "codigo_oficial": "C82.23",
+      "descripcion": "Follicular lymphoma grade III, unspecified, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 584,
+      "codigo_oficial": "C82.24",
+      "descripcion": "Follicular lymphoma grade III, unspecified, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 585,
+      "codigo_oficial": "C82.25",
+      "descripcion": "Follicular lymphoma grade III, unspecified, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 586,
+      "codigo_oficial": "C82.26",
+      "descripcion": "Follicular lymphoma grade III, unspecified, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 587,
+      "codigo_oficial": "C82.27",
+      "descripcion": "Follicular lymphoma grade III, unspecified, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 588,
+      "codigo_oficial": "C82.28",
+      "descripcion": "Follicular lymphoma grade III, unspecified, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 589,
+      "codigo_oficial": "C82.29",
+      "descripcion": "Follicular lymphoma grade III, unspecified, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 590,
+      "codigo_oficial": "C82.30",
+      "descripcion": "Follicular lymphoma grade IIIa, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 591,
+      "codigo_oficial": "C82.31",
+      "descripcion": "Follicular lymphoma grade IIIa, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 592,
+      "codigo_oficial": "C82.32",
+      "descripcion": "Follicular lymphoma grade IIIa, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 593,
+      "codigo_oficial": "C82.33",
+      "descripcion": "Follicular lymphoma grade IIIa, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 594,
+      "codigo_oficial": "C82.34",
+      "descripcion": "Follicular lymphoma grade IIIa, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 595,
+      "codigo_oficial": "C82.35",
+      "descripcion": "Follicular lymphoma grade IIIa, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 596,
+      "codigo_oficial": "C82.36",
+      "descripcion": "Follicular lymphoma grade IIIa, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 597,
+      "codigo_oficial": "C82.37",
+      "descripcion": "Follicular lymphoma grade IIIa, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 598,
+      "codigo_oficial": "C82.38",
+      "descripcion": "Follicular lymphoma grade IIIa, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 599,
+      "codigo_oficial": "C82.39",
+      "descripcion": "Follicular lymphoma grade IIIa, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 600,
+      "codigo_oficial": "C82.40",
+      "descripcion": "Follicular lymphoma grade IIIb, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 601,
+      "codigo_oficial": "C82.41",
+      "descripcion": "Follicular lymphoma grade IIIb, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 602,
+      "codigo_oficial": "C82.42",
+      "descripcion": "Follicular lymphoma grade IIIb, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 603,
+      "codigo_oficial": "C82.43",
+      "descripcion": "Follicular lymphoma grade IIIb, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 604,
+      "codigo_oficial": "C82.44",
+      "descripcion": "Follicular lymphoma grade IIIb, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 605,
+      "codigo_oficial": "C82.45",
+      "descripcion": "Follicular lymphoma grade IIIb, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 606,
+      "codigo_oficial": "C82.46",
+      "descripcion": "Follicular lymphoma grade IIIb, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 607,
+      "codigo_oficial": "C82.47",
+      "descripcion": "Follicular lymphoma grade IIIb, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 608,
+      "codigo_oficial": "C82.48",
+      "descripcion": "Follicular lymphoma grade IIIb, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 609,
+      "codigo_oficial": "C82.49",
+      "descripcion": "Follicular lymphoma grade IIIb, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 610,
+      "codigo_oficial": "C82.50",
+      "descripcion": "Diffuse follicle center lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 611,
+      "codigo_oficial": "C82.51",
+      "descripcion": "Diffuse follicle center lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 612,
+      "codigo_oficial": "C82.52",
+      "descripcion": "Diffuse follicle center lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 613,
+      "codigo_oficial": "C82.53",
+      "descripcion": "Diffuse follicle center lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 614,
+      "codigo_oficial": "C82.54",
+      "descripcion": "Diffuse follicle center lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 615,
+      "codigo_oficial": "C82.55",
+      "descripcion": "Diffuse follicle center lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 616,
+      "codigo_oficial": "C82.56",
+      "descripcion": "Diffuse follicle center lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 617,
+      "codigo_oficial": "C82.57",
+      "descripcion": "Diffuse follicle center lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 618,
+      "codigo_oficial": "C82.58",
+      "descripcion": "Diffuse follicle center lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 619,
+      "codigo_oficial": "C82.59",
+      "descripcion": "Diffuse follicle center lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 620,
+      "codigo_oficial": "C82.60",
+      "descripcion": "Cutaneous follicle center lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 621,
+      "codigo_oficial": "C82.61",
+      "descripcion": "Cutaneous follicle center lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 622,
+      "codigo_oficial": "C82.62",
+      "descripcion": "Cutaneous follicle center lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 623,
+      "codigo_oficial": "C82.63",
+      "descripcion": "Cutaneous follicle center lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 624,
+      "codigo_oficial": "C82.64",
+      "descripcion": "Cutaneous follicle center lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 625,
+      "codigo_oficial": "C82.65",
+      "descripcion": "Cutaneous follicle center lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 626,
+      "codigo_oficial": "C82.66",
+      "descripcion": "Cutaneous follicle center lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 627,
+      "codigo_oficial": "C82.67",
+      "descripcion": "Cutaneous follicle center lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 628,
+      "codigo_oficial": "C82.68",
+      "descripcion": "Cutaneous follicle center lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 629,
+      "codigo_oficial": "C82.69",
+      "descripcion": "Cutaneous follicle center lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 630,
+      "codigo_oficial": "C82.80",
+      "descripcion": "Other types of follicular lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 631,
+      "codigo_oficial": "C82.81",
+      "descripcion": "Other types of follicular lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 632,
+      "codigo_oficial": "C82.82",
+      "descripcion": "Other types of follicular lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 633,
+      "codigo_oficial": "C82.83",
+      "descripcion": "Other types of follicular lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 634,
+      "codigo_oficial": "C82.84",
+      "descripcion": "Other types of follicular lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 635,
+      "codigo_oficial": "C82.85",
+      "descripcion": "Other types of follicular lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 636,
+      "codigo_oficial": "C82.86",
+      "descripcion": "Other types of follicular lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 637,
+      "codigo_oficial": "C82.87",
+      "descripcion": "Other types of follicular lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 638,
+      "codigo_oficial": "C82.88",
+      "descripcion": "Other types of follicular lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 639,
+      "codigo_oficial": "C82.89",
+      "descripcion": "Other types of follicular lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 640,
+      "codigo_oficial": "C82.90",
+      "descripcion": "Follicular lymphoma, unspecified, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 641,
+      "codigo_oficial": "C82.91",
+      "descripcion": "Follicular lymphoma, unspecified, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 642,
+      "codigo_oficial": "C82.92",
+      "descripcion": "Follicular lymphoma, unspecified, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 643,
+      "codigo_oficial": "C82.93",
+      "descripcion": "Follicular lymphoma, unspecified, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 644,
+      "codigo_oficial": "C82.94",
+      "descripcion": "Follicular lymphoma, unspecified, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 645,
+      "codigo_oficial": "C82.95",
+      "descripcion": "Follicular lymphoma, unspecified, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 646,
+      "codigo_oficial": "C82.96",
+      "descripcion": "Follicular lymphoma, unspecified, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 647,
+      "codigo_oficial": "C82.97",
+      "descripcion": "Follicular lymphoma, unspecified, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 648,
+      "codigo_oficial": "C82.98",
+      "descripcion": "Follicular lymphoma, unspecified, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 649,
+      "codigo_oficial": "C82.99",
+      "descripcion": "Follicular lymphoma, unspecified, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 650,
+      "codigo_oficial": "C83.00",
+      "descripcion": "Small cell B-cell lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 651,
+      "codigo_oficial": "C83.01",
+      "descripcion": "Small cell B-cell lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 652,
+      "codigo_oficial": "C83.02",
+      "descripcion": "Small cell B-cell lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 653,
+      "codigo_oficial": "C83.03",
+      "descripcion": "Small cell B-cell lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 654,
+      "codigo_oficial": "C83.04",
+      "descripcion": "Small cell B-cell lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 655,
+      "codigo_oficial": "C83.05",
+      "descripcion": "Small cell B-cell lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 656,
+      "codigo_oficial": "C83.06",
+      "descripcion": "Small cell B-cell lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 657,
+      "codigo_oficial": "C83.07",
+      "descripcion": "Small cell B-cell lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 658,
+      "codigo_oficial": "C83.08",
+      "descripcion": "Small cell B-cell lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 659,
+      "codigo_oficial": "C83.09",
+      "descripcion": "Small cell B-cell lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 660,
+      "codigo_oficial": "C83.10",
+      "descripcion": "Mantle cell lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 661,
+      "codigo_oficial": "C83.11",
+      "descripcion": "Mantle cell lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 662,
+      "codigo_oficial": "C83.12",
+      "descripcion": "Mantle cell lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 663,
+      "codigo_oficial": "C83.13",
+      "descripcion": "Mantle cell lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 664,
+      "codigo_oficial": "C83.14",
+      "descripcion": "Mantle cell lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 665,
+      "codigo_oficial": "C83.15",
+      "descripcion": "Mantle cell lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 666,
+      "codigo_oficial": "C83.16",
+      "descripcion": "Mantle cell lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 667,
+      "codigo_oficial": "C83.17",
+      "descripcion": "Mantle cell lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 668,
+      "codigo_oficial": "C83.18",
+      "descripcion": "Mantle cell lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 669,
+      "codigo_oficial": "C83.19",
+      "descripcion": "Mantle cell lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 670,
+      "codigo_oficial": "C83.30",
+      "descripcion": "Diffuse large B-cell lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 671,
+      "codigo_oficial": "C83.31",
+      "descripcion": "Diffuse large B-cell lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 672,
+      "codigo_oficial": "C83.32",
+      "descripcion": "Diffuse large B-cell lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 673,
+      "codigo_oficial": "C83.33",
+      "descripcion": "Diffuse large B-cell lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 674,
+      "codigo_oficial": "C83.34",
+      "descripcion": "Diffuse large B-cell lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 675,
+      "codigo_oficial": "C83.35",
+      "descripcion": "Diffuse large B-cell lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 676,
+      "codigo_oficial": "C83.36",
+      "descripcion": "Diffuse large B-cell lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 677,
+      "codigo_oficial": "C83.37",
+      "descripcion": "Diffuse large B-cell lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 678,
+      "codigo_oficial": "C83.38",
+      "descripcion": "Diffuse large B-cell lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 679,
+      "codigo_oficial": "C83.39",
+      "descripcion": "Diffuse large B-cell lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 680,
+      "codigo_oficial": "C83.50",
+      "descripcion": "Lymphoblastic (diffuse) lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 681,
+      "codigo_oficial": "C83.51",
+      "descripcion": "Lymphoblastic (diffuse) lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 682,
+      "codigo_oficial": "C83.52",
+      "descripcion": "Lymphoblastic (diffuse) lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 683,
+      "codigo_oficial": "C83.53",
+      "descripcion": "Lymphoblastic (diffuse) lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 684,
+      "codigo_oficial": "C83.54",
+      "descripcion": "Lymphoblastic (diffuse) lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 685,
+      "codigo_oficial": "C83.55",
+      "descripcion": "Lymphoblastic (diffuse) lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 686,
+      "codigo_oficial": "C83.56",
+      "descripcion": "Lymphoblastic (diffuse) lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 687,
+      "codigo_oficial": "C83.57",
+      "descripcion": "Lymphoblastic (diffuse) lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 688,
+      "codigo_oficial": "C83.58",
+      "descripcion": "Lymphoblastic (diffuse) lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 689,
+      "codigo_oficial": "C83.59",
+      "descripcion": "Lymphoblastic (diffuse) lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 690,
+      "codigo_oficial": "C83.70",
+      "descripcion": "Burkitt lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 691,
+      "codigo_oficial": "C83.71",
+      "descripcion": "Burkitt lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 692,
+      "codigo_oficial": "C83.72",
+      "descripcion": "Burkitt lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 693,
+      "codigo_oficial": "C83.73",
+      "descripcion": "Burkitt lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 694,
+      "codigo_oficial": "C83.74",
+      "descripcion": "Burkitt lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 695,
+      "codigo_oficial": "C83.75",
+      "descripcion": "Burkitt lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 696,
+      "codigo_oficial": "C83.76",
+      "descripcion": "Burkitt lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 697,
+      "codigo_oficial": "C83.77",
+      "descripcion": "Burkitt lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 698,
+      "codigo_oficial": "C83.78",
+      "descripcion": "Burkitt lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 699,
+      "codigo_oficial": "C83.79",
+      "descripcion": "Burkitt lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 700,
+      "codigo_oficial": "C83.80",
+      "descripcion": "Other non-follicular lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 701,
+      "codigo_oficial": "C83.81",
+      "descripcion": "Other non-follicular lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 702,
+      "codigo_oficial": "C83.82",
+      "descripcion": "Other non-follicular lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 703,
+      "codigo_oficial": "C83.83",
+      "descripcion": "Other non-follicular lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 704,
+      "codigo_oficial": "C83.84",
+      "descripcion": "Other non-follicular lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 705,
+      "codigo_oficial": "C83.85",
+      "descripcion": "Other non-follicular lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 706,
+      "codigo_oficial": "C83.86",
+      "descripcion": "Other non-follicular lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 707,
+      "codigo_oficial": "C83.87",
+      "descripcion": "Other non-follicular lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 708,
+      "codigo_oficial": "C83.88",
+      "descripcion": "Other non-follicular lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 709,
+      "codigo_oficial": "C83.89",
+      "descripcion": "Other non-follicular lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 710,
+      "codigo_oficial": "C83.90",
+      "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 711,
+      "codigo_oficial": "C83.91",
+      "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 712,
+      "codigo_oficial": "C83.92",
+      "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 713,
+      "codigo_oficial": "C83.93",
+      "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 714,
+      "codigo_oficial": "C83.94",
+      "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 715,
+      "codigo_oficial": "C83.95",
+      "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 716,
+      "codigo_oficial": "C83.96",
+      "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 717,
+      "codigo_oficial": "C83.97",
+      "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 718,
+      "codigo_oficial": "C83.98",
+      "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 719,
+      "codigo_oficial": "C83.99",
+      "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 720,
+      "codigo_oficial": "C84.00",
+      "descripcion": "Mycosis fungoides, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 721,
+      "codigo_oficial": "C84.01",
+      "descripcion": "Mycosis fungoides, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 722,
+      "codigo_oficial": "C84.02",
+      "descripcion": "Mycosis fungoides, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 723,
+      "codigo_oficial": "C84.03",
+      "descripcion": "Mycosis fungoides, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 724,
+      "codigo_oficial": "C84.04",
+      "descripcion": "Mycosis fungoides, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 725,
+      "codigo_oficial": "C84.05",
+      "descripcion": "Mycosis fungoides, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 726,
+      "codigo_oficial": "C84.06",
+      "descripcion": "Mycosis fungoides, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 727,
+      "codigo_oficial": "C84.07",
+      "descripcion": "Mycosis fungoides, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 728,
+      "codigo_oficial": "C84.08",
+      "descripcion": "Mycosis fungoides, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 729,
+      "codigo_oficial": "C84.09",
+      "descripcion": "Mycosis fungoides, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 730,
+      "codigo_oficial": "C84.10",
+      "descripcion": "Sezary disease, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 731,
+      "codigo_oficial": "C84.11",
+      "descripcion": "Sezary disease, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 732,
+      "codigo_oficial": "C84.12",
+      "descripcion": "Sezary disease, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 733,
+      "codigo_oficial": "C84.13",
+      "descripcion": "Sezary disease, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 734,
+      "codigo_oficial": "C84.14",
+      "descripcion": "Sezary disease, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 735,
+      "codigo_oficial": "C84.15",
+      "descripcion": "Sezary disease, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 736,
+      "codigo_oficial": "C84.16",
+      "descripcion": "Sezary disease, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 737,
+      "codigo_oficial": "C84.17",
+      "descripcion": "Sezary disease, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 738,
+      "codigo_oficial": "C84.18",
+      "descripcion": "Sezary disease, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 739,
+      "codigo_oficial": "C84.19",
+      "descripcion": "Sezary disease, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 740,
+      "codigo_oficial": "C84.40",
+      "descripcion": "Peripheral T-cell lymphoma, not classified, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 741,
+      "codigo_oficial": "C84.41",
+      "descripcion": "Peripheral T-cell lymphoma, not classified, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 742,
+      "codigo_oficial": "C84.42",
+      "descripcion": "Peripheral T-cell lymphoma, not classified, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 743,
+      "codigo_oficial": "C84.43",
+      "descripcion": "Peripheral T-cell lymphoma, not classified, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 744,
+      "codigo_oficial": "C84.44",
+      "descripcion": "Peripheral T-cell lymphoma, not classified, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 745,
+      "codigo_oficial": "C84.45",
+      "descripcion": "Peripheral T-cell lymphoma, not classified, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 746,
+      "codigo_oficial": "C84.46",
+      "descripcion": "Peripheral T-cell lymphoma, not classified, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 747,
+      "codigo_oficial": "C84.47",
+      "descripcion": "Peripheral T-cell lymphoma, not classified, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 748,
+      "codigo_oficial": "C84.48",
+      "descripcion": "Peripheral T-cell lymphoma, not classified, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 749,
+      "codigo_oficial": "C84.49",
+      "descripcion": "Peripheral T-cell lymphoma, not classified, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 750,
+      "codigo_oficial": "C84.60",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-positive, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 751,
+      "codigo_oficial": "C84.61",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-positive, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 752,
+      "codigo_oficial": "C84.62",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-positive, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 753,
+      "codigo_oficial": "C84.63",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-positive, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 754,
+      "codigo_oficial": "C84.64",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-positive, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 755,
+      "codigo_oficial": "C84.65",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-positive, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 756,
+      "codigo_oficial": "C84.66",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-positive, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 757,
+      "codigo_oficial": "C84.67",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-positive, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 758,
+      "codigo_oficial": "C84.68",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-positive, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 759,
+      "codigo_oficial": "C84.69",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-positive, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 760,
+      "codigo_oficial": "C84.70",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-negative, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 761,
+      "codigo_oficial": "C84.71",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-negative, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 762,
+      "codigo_oficial": "C84.72",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-negative, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 763,
+      "codigo_oficial": "C84.73",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-negative, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 764,
+      "codigo_oficial": "C84.74",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-negative, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 765,
+      "codigo_oficial": "C84.75",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-negative, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 766,
+      "codigo_oficial": "C84.76",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-negative, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 767,
+      "codigo_oficial": "C84.77",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-negative, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 768,
+      "codigo_oficial": "C84.78",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-negative, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 769,
+      "codigo_oficial": "C84.79",
+      "descripcion": "Anaplastic large cell lymphoma, ALK-negative, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 770,
+      "codigo_oficial": "C84.90",
+      "descripcion": "Mature T/NK-cell lymphomas, unspecified, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 771,
+      "codigo_oficial": "C84.91",
+      "descripcion": "Mature T/NK-cell lymphomas, unspecified, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 772,
+      "codigo_oficial": "C84.92",
+      "descripcion": "Mature T/NK-cell lymphomas, unspecified, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 773,
+      "codigo_oficial": "C84.93",
+      "descripcion": "Mature T/NK-cell lymphomas, unspecified, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 774,
+      "codigo_oficial": "C84.94",
+      "descripcion": "Mature T/NK-cell lymphomas, unspecified, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 775,
+      "codigo_oficial": "C84.95",
+      "descripcion": "Mature T/NK-cell lymphomas, unspecified, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 776,
+      "codigo_oficial": "C84.96",
+      "descripcion": "Mature T/NK-cell lymphomas, unspecified, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 777,
+      "codigo_oficial": "C84.97",
+      "descripcion": "Mature T/NK-cell lymphomas, unspecified, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 778,
+      "codigo_oficial": "C84.98",
+      "descripcion": "Mature T/NK-cell lymphomas, unspecified, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 779,
+      "codigo_oficial": "C84.99",
+      "descripcion": "Mature T/NK-cell lymphomas, unspecified, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 780,
+      "codigo_oficial": "C85.10",
+      "descripcion": "Unspecified B-cell lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 781,
+      "codigo_oficial": "C85.11",
+      "descripcion": "Unspecified B-cell lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 782,
+      "codigo_oficial": "C85.12",
+      "descripcion": "Unspecified B-cell lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 783,
+      "codigo_oficial": "C85.13",
+      "descripcion": "Unspecified B-cell lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 784,
+      "codigo_oficial": "C85.14",
+      "descripcion": "Unspecified B-cell lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 785,
+      "codigo_oficial": "C85.15",
+      "descripcion": "Unspecified B-cell lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 786,
+      "codigo_oficial": "C85.16",
+      "descripcion": "Unspecified B-cell lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 787,
+      "codigo_oficial": "C85.17",
+      "descripcion": "Unspecified B-cell lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 788,
+      "codigo_oficial": "C85.18",
+      "descripcion": "Unspecified B-cell lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 789,
+      "codigo_oficial": "C85.19",
+      "descripcion": "Unspecified B-cell lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 790,
+      "codigo_oficial": "C85.20",
+      "descripcion": "Mediastinal (thymic) large B-cell lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 791,
+      "codigo_oficial": "C85.21",
+      "descripcion": "Mediastinal (thymic) large B-cell lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 792,
+      "codigo_oficial": "C85.22",
+      "descripcion": "Mediastinal (thymic) large B-cell lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 793,
+      "codigo_oficial": "C85.23",
+      "descripcion": "Mediastinal (thymic) large B-cell lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 794,
+      "codigo_oficial": "C85.24",
+      "descripcion": "Mediastinal (thymic) large B-cell lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 795,
+      "codigo_oficial": "C85.25",
+      "descripcion": "Mediastinal (thymic) large B-cell lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 796,
+      "codigo_oficial": "C85.26",
+      "descripcion": "Mediastinal (thymic) large B-cell lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 797,
+      "codigo_oficial": "C85.27",
+      "descripcion": "Mediastinal (thymic) large B-cell lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 798,
+      "codigo_oficial": "C85.28",
+      "descripcion": "Mediastinal (thymic) large B-cell lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 799,
+      "codigo_oficial": "C85.29",
+      "descripcion": "Mediastinal (thymic) large B-cell lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 800,
+      "codigo_oficial": "C85.80",
+      "descripcion": "Other specified types of non-Hodgkin lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 801,
+      "codigo_oficial": "C85.81",
+      "descripcion": "Other specified types of non-Hodgkin lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 802,
+      "codigo_oficial": "C85.82",
+      "descripcion": "Other specified types of non-Hodgkin lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 803,
+      "codigo_oficial": "C85.83",
+      "descripcion": "Other specified types of non-Hodgkin lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 804,
+      "codigo_oficial": "C85.84",
+      "descripcion": "Other specified types of non-Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 805,
+      "codigo_oficial": "C85.85",
+      "descripcion": "Other specified types of non-Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 806,
+      "codigo_oficial": "C85.86",
+      "descripcion": "Other specified types of non-Hodgkin lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 807,
+      "codigo_oficial": "C85.87",
+      "descripcion": "Other specified types of non-Hodgkin lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 808,
+      "codigo_oficial": "C85.88",
+      "descripcion": "Other specified types of non-Hodgkin lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 809,
+      "codigo_oficial": "C85.89",
+      "descripcion": "Other specified types of non-Hodgkin lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 810,
+      "codigo_oficial": "C85.90",
+      "descripcion": "Non-Hodgkin lymphoma, unspecified site",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 811,
+      "codigo_oficial": "C85.91",
+      "descripcion": "Non-Hodgkin lymphoma, lymph nodes of head, face, and neck",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 812,
+      "codigo_oficial": "C85.92",
+      "descripcion": "Non-Hodgkin lymphoma, intrathoracic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 813,
+      "codigo_oficial": "C85.93",
+      "descripcion": "Non-Hodgkin lymphoma, intra-abdominal lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 814,
+      "codigo_oficial": "C85.94",
+      "descripcion": "Non-Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 815,
+      "codigo_oficial": "C85.95",
+      "descripcion": "Non-Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 816,
+      "codigo_oficial": "C85.96",
+      "descripcion": "Non-Hodgkin lymphoma, intrapelvic lymph nodes",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 817,
+      "codigo_oficial": "C85.97",
+      "descripcion": "Non-Hodgkin lymphoma, spleen",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 818,
+      "codigo_oficial": "C85.98",
+      "descripcion": "Non-Hodgkin lymphoma, lymph nodes of multiple sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 819,
+      "codigo_oficial": "C85.99",
+      "descripcion": "Non-Hodgkin lymphoma, extranodal and solid organ sites",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 820,
+      "codigo_oficial": "C86.0",
+      "descripcion": "Extranodal NK/T-cell lymphoma, nasal type",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 821,
+      "codigo_oficial": "C86.1",
+      "descripcion": "Hepatosplenic T-cell lymphoma",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 822,
+      "codigo_oficial": "C86.2",
+      "descripcion": "Enteropathy-type (intestinal) T-cell lymphoma",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 823,
+      "codigo_oficial": "C86.3",
+      "descripcion": "Subcutaneous panniculitis-like T-cell lymphoma",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 824,
+      "codigo_oficial": "C86.4",
+      "descripcion": "Blastic NK-cell lymphoma",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 825,
+      "codigo_oficial": "C86.5",
+      "descripcion": "Angioimmunoblastic T-cell lymphoma",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 826,
+      "codigo_oficial": "C86.6",
+      "descripcion": "Primary cutaneous CD30-positive T-cell proliferation",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 827,
+      "codigo_oficial": "C88.0",
+      "descripcion": "Waldenstrom's macroglobulinemia",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 828,
+      "codigo_oficial": "C88.2",
+      "descripcion": "Heavy chain disease",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 829,
+      "codigo_oficial": "C88.3",
+      "descripcion": "Immunoproliferative small intestinal diseases",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 830,
+      "codigo_oficial": "C88.4",
+      "descripcion": "Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue [MALT-lymphoma]",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 831,
+      "codigo_oficial": "C88.8",
+      "descripcion": "Other malignant immunoproliferative diseases",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 832,
+      "codigo_oficial": "C88.9",
+      "descripcion": "Malignant immunoproliferative disease, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 833,
+      "codigo_oficial": "C90.00",
+      "descripcion": "Multiple myeloma not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 834,
+      "codigo_oficial": "C90.01",
+      "descripcion": "Multiple myeloma in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 835,
+      "codigo_oficial": "C90.02",
+      "descripcion": "Multiple myeloma in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 836,
+      "codigo_oficial": "C90.10",
+      "descripcion": "Plasma cell leukemia not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 837,
+      "codigo_oficial": "C90.11",
+      "descripcion": "Plasma cell leukemia in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 838,
+      "codigo_oficial": "C90.12",
+      "descripcion": "Plasma cell leukemia in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 839,
+      "codigo_oficial": "C90.20",
+      "descripcion": "Extramedullary plasmacytoma not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 840,
+      "codigo_oficial": "C90.21",
+      "descripcion": "Extramedullary plasmacytoma in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 841,
+      "codigo_oficial": "C90.22",
+      "descripcion": "Extramedullary plasmacytoma in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 842,
+      "codigo_oficial": "C90.30",
+      "descripcion": "Solitary plasmacytoma not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 843,
+      "codigo_oficial": "C90.31",
+      "descripcion": "Solitary plasmacytoma in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 844,
+      "codigo_oficial": "C90.32",
+      "descripcion": "Solitary plasmacytoma in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 845,
+      "codigo_oficial": "C91.00",
+      "descripcion": "Acute lymphoblastic leukemia not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 846,
+      "codigo_oficial": "C91.01",
+      "descripcion": "Acute lymphoblastic leukemia, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 847,
+      "codigo_oficial": "C91.02",
+      "descripcion": "Acute lymphoblastic leukemia, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 848,
+      "codigo_oficial": "C91.10",
+      "descripcion": "Chronic lymphocytic leukemia of B-cell type not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 849,
+      "codigo_oficial": "C91.11",
+      "descripcion": "Chronic lymphocytic leukemia of B-cell type in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 850,
+      "codigo_oficial": "C91.12",
+      "descripcion": "Chronic lymphocytic leukemia of B-cell type in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 851,
+      "codigo_oficial": "C91.30",
+      "descripcion": "Prolymphocytic leukemia of B-cell type not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 852,
+      "codigo_oficial": "C91.31",
+      "descripcion": "Prolymphocytic leukemia of B-cell type, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 853,
+      "codigo_oficial": "C91.32",
+      "descripcion": "Prolymphocytic leukemia of B –cell type, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 854,
+      "codigo_oficial": "C91.40",
+      "descripcion": "Hairy cell leukemia not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 855,
+      "codigo_oficial": "C91.41",
+      "descripcion": "Hairy cell leukemia, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 856,
+      "codigo_oficial": "C91.42",
+      "descripcion": "Hairy cell leukemia, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 857,
+      "codigo_oficial": "C91.50",
+      "descripcion": "Adult T-cell lymphoma/leukemia (HTLV-1-associated) not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 858,
+      "codigo_oficial": "C91.51",
+      "descripcion": "Adult T-cell lymphoma/leukemia (HTLV-1-associated) in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 859,
+      "codigo_oficial": "C91.52",
+      "descripcion": "Adult T-cell lymphoma/leukemia (HTLV-1-associated) in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 860,
+      "codigo_oficial": "C91.60",
+      "descripcion": "Prolymphocytic leukemia of T-cell type not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 861,
+      "codigo_oficial": "C91.61",
+      "descripcion": "Prolymphocytic leukemia of T-cell type, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 862,
+      "codigo_oficial": "C91.62",
+      "descripcion": "Prolymphocytic leukemia of T –cell type, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 863,
+      "codigo_oficial": "C91.90",
+      "descripcion": "Lymphoid leukemia, unspecified not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 864,
+      "codigo_oficial": "C91.91",
+      "descripcion": "Lymphoid leukemia, unspecified, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 865,
+      "codigo_oficial": "C91.92",
+      "descripcion": "Lymphoid leukemia, unspecified, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 866,
+      "codigo_oficial": "C92.00",
+      "descripcion": "Acute myeloblastic leukemia, not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 867,
+      "codigo_oficial": "C92.01",
+      "descripcion": "Acute myeloblastic leukemia, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 868,
+      "codigo_oficial": "C92.02",
+      "descripcion": "Acute myeloblastic leukemia, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 869,
+      "codigo_oficial": "C92.10",
+      "descripcion": "Chronic myeloid leukemia, BCR/ABL-positive, not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 870,
+      "codigo_oficial": "C92.11",
+      "descripcion": "Chronic myeloid leukemia, BCR/ABL-positive, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 871,
+      "codigo_oficial": "C92.12",
+      "descripcion": "Chronic myeloid leukemia, BCR/ABL-positive, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 872,
+      "codigo_oficial": "C92.20",
+      "descripcion": "Atypical chronic myeloid leukemia, BCR/ABL-negative not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 873,
+      "codigo_oficial": "C92.21",
+      "descripcion": "Atypical chronic myeloid leukemia, BCR/ABL-negative, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 874,
+      "codigo_oficial": "C92.22",
+      "descripcion": "Atypical chronic myeloid leukemia, BCR/ABL-negative, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 875,
+      "codigo_oficial": "C92.30",
+      "descripcion": "Myeloid sarcoma, not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 876,
+      "codigo_oficial": "C92.31",
+      "descripcion": "Myeloid sarcoma, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 877,
+      "codigo_oficial": "C92.32",
+      "descripcion": "Myeloid sarcoma, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 878,
+      "codigo_oficial": "C92.40",
+      "descripcion": "Acute promyelocytic leukemia, not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 879,
+      "codigo_oficial": "C92.41",
+      "descripcion": "Acute promyelocytic leukemia, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 880,
+      "codigo_oficial": "C92.42",
+      "descripcion": "Acute promyelocytic leukemia, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 881,
+      "codigo_oficial": "C92.50",
+      "descripcion": "Acute myelomonocytic leukemia, not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 882,
+      "codigo_oficial": "C92.51",
+      "descripcion": "Acute myelomonocytic in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 883,
+      "codigo_oficial": "C92.52",
+      "descripcion": "Acute myelomonocytic in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 884,
+      "codigo_oficial": "C92.60",
+      "descripcion": "Acute myeloid leukemia with 11q23 abnormality not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 885,
+      "codigo_oficial": "C92.61",
+      "descripcion": "Acute myeloid leukemia with 11q23 abnormality in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 886,
+      "codigo_oficial": "C92.62",
+      "descripcion": "Acute myeloid leukemia with 11q23 abnormality in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 887,
+      "codigo_oficial": "C92.90",
+      "descripcion": "Myeloid leukemia, unspecified, not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 888,
+      "codigo_oficial": "C92.91",
+      "descripcion": "Myeloid leukemia, unspecified in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 889,
+      "codigo_oficial": "C92.92",
+      "descripcion": "Myeloid leukemia, unspecified in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 890,
+      "codigo_oficial": "C93.00",
+      "descripcion": "Acute monoblastic/monocytic leukemia, not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 891,
+      "codigo_oficial": "C93.01",
+      "descripcion": "Acute monoblastic/monocytic leukemia, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 892,
+      "codigo_oficial": "C93.02",
+      "descripcion": "Acute monoblastic/monocytic leukemia, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 893,
+      "codigo_oficial": "C93.10",
+      "descripcion": "Chronic myelomonocytic leukemia not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 894,
+      "codigo_oficial": "C93.11",
+      "descripcion": "Chronic myelomonocytic leukemia, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 895,
+      "codigo_oficial": "C93.12",
+      "descripcion": "Chronic myelomonocytic leukemia, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 896,
+      "codigo_oficial": "C93.30",
+      "descripcion": "Juvenile myelomonocytic leukemia not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 897,
+      "codigo_oficial": "C93.31",
+      "descripcion": "Juvenile myelomonocytic leukemia, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 898,
+      "codigo_oficial": "C93.32",
+      "descripcion": "Juvenile myelomonocytic leukemia, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 899,
+      "codigo_oficial": "C93.90",
+      "descripcion": "Monocytic leukemia, unspecified, not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 900,
+      "codigo_oficial": "C93.91",
+      "descripcion": "Monocytic leukemia, unspecified in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 901,
+      "codigo_oficial": "C93.92",
+      "descripcion": "Monocytic leukemia, unspecified in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 902,
+      "codigo_oficial": "C94.00",
+      "descripcion": "Acute erythroid leukemia, not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 903,
+      "codigo_oficial": "C94.01",
+      "descripcion": "Acute erythroid leukemia, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 904,
+      "codigo_oficial": "C94.02",
+      "descripcion": "Acute erythroid leukemia, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 905,
+      "codigo_oficial": "C94.20",
+      "descripcion": "Acute megakaryoblastic leukemia not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 906,
+      "codigo_oficial": "C94.21",
+      "descripcion": "Acute megakaryoblastic leukemia, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 907,
+      "codigo_oficial": "C94.22",
+      "descripcion": "Acute megakaryoblastic leukemia, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 908,
+      "codigo_oficial": "C94.30",
+      "descripcion": "Mast cell leukemia not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 909,
+      "codigo_oficial": "C94.31",
+      "descripcion": "Mast cell leukemia, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 910,
+      "codigo_oficial": "C94.32",
+      "descripcion": "Mast cell leukemia, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 911,
+      "codigo_oficial": "C94.40",
+      "descripcion": "Acute panmyelosis with myelofibrosis not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 912,
+      "codigo_oficial": "C94.41",
+      "descripcion": "Acute panmyelosis with myelofibrosis, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 913,
+      "codigo_oficial": "C94.42",
+      "descripcion": "Acute panmyelosis with myelofibrosis, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 914,
+      "codigo_oficial": "C94.6",
+      "descripcion": "Myelodysplastic disease, not classified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 915,
+      "codigo_oficial": "C94.80",
+      "descripcion": "Other specified leukemias not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 916,
+      "codigo_oficial": "C94.81",
+      "descripcion": "Other specified leukemias, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 917,
+      "codigo_oficial": "C94.82",
+      "descripcion": "Other specified leukemias, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 918,
+      "codigo_oficial": "C95.00",
+      "descripcion": "Acute leukemia of unspecified cell type not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 919,
+      "codigo_oficial": "C95.01",
+      "descripcion": "Acute leukemia of unspecified cell type, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 920,
+      "codigo_oficial": "C95.02",
+      "descripcion": "Acute leukemia of unspecified cell type, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 921,
+      "codigo_oficial": "C95.10",
+      "descripcion": "Chronic leukemia of unspecified cell type not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 922,
+      "codigo_oficial": "C95.11",
+      "descripcion": "Chronic leukemia of unspecified cell type, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 923,
+      "codigo_oficial": "C95.12",
+      "descripcion": "Chronic leukemia of unspecified cell type, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 924,
+      "codigo_oficial": "C95.90",
+      "descripcion": "Leukemia, unspecified not having achieved remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 925,
+      "codigo_oficial": "C95.91",
+      "descripcion": "Leukemia, unspecified, in remission",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 926,
+      "codigo_oficial": "C95.92",
+      "descripcion": "Leukemia, unspecified, in relapse",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 927,
+      "codigo_oficial": "C96.0",
+      "descripcion": "Multifocal and multisystemic (disseminated)  Langerhans-cell histiocytosis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 928,
+      "codigo_oficial": "C96.20",
+      "descripcion": "Malignant mast cell neoplasm, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 929,
+      "codigo_oficial": "C96.21",
+      "descripcion": "Aggressive systemic mastocytosis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 930,
+      "codigo_oficial": "C96.22",
+      "descripcion": "Mast cell sarcoma",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 931,
+      "codigo_oficial": "C96.29",
+      "descripcion": "Other malignant cell neoplasm",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 932,
+      "codigo_oficial": "C96.4",
+      "descripcion": "Sarcoma of dendritic cells (accessory cells) Malignant neoplasm of lymphoid, hematopoietic and related tissue, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 933,
+      "codigo_oficial": "C96.5",
+      "descripcion": "Multifocal and unisystemic Langerhans-cell histiocytosis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 934,
+      "codigo_oficial": "C96.6",
+      "descripcion": "Unifocal Langerhans-cell histiocytosis",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    },
+    {
+      "id": 935,
+      "codigo_oficial": "C96.9",
+      "descripcion": "Malignant neoplasm of lymphoid, hematopoietic and related tissue, unspecified",
+      "sistema_cod": "http://hl7.org/fhir/sid/icd-o-3"
+    }
+  ]
+}

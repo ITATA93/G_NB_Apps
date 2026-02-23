@@ -1,0 +1,9 @@
+﻿
+C:\_Repositorio\AG_Proyectos\AG_NB_Apps\shared\scripts\probe-nb-internals.ts
+  63:14  warning  'e' is defined but never used. Allowed unused caught errors must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\_Repositorio\AG_Proyectos\AG_NB_Apps\shared\scripts\validate-advanced-config.ts
+  351:15  warning  'verify' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+Ô£û 2 problems (0 errors, 2 warnings)
+

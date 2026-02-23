@@ -1,0 +1,22 @@
+{
+  "capturedAt": "2026-02-18T20:34:06.586Z",
+  "route": {
+    "id": 48,
+    "title": "Buscar Paciente",
+    "type": "page",
+    "schemaUid": "esyj7702o22",
+    "parentId": 47
+  },
+  "schema": {
+    "type": "void",
+    "x-component": "Page",
+    "name": "di7mnda9one",
+    "x-uid": "esyj7702o22",
+    "x-async": false
+  },
+  "blockTypes": [],
+  "collections": [],
+  "componentTree": [
+    "Page (esyj7702o22)"
+  ]
+}

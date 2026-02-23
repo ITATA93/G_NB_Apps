@@ -1,0 +1,881 @@
+{
+  "collection": {
+    "name": "ALMA_H_gda_futuro",
+    "title": "ALMA H_gda_futuro",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "03okdkik1a8",
+      "name": "Origen",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Origen",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "1bdsqoi5dyp",
+      "name": "CodigoEstablecimientoInscripcion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoEstablecimientoInscripcion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2aiskkm24xw",
+      "name": "AtenEstTiempoProtocolo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "AtenEstTiempoProtocolo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2lj1szo10tg",
+      "name": "Profesional",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Profesional",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "3t8uxohiwmg",
+      "name": "TipoAtencionSobreescrita",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "TipoAtencionSobreescrita",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "5l464x13dh2",
+      "name": "EstablecimientoInscripcion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "EstablecimientoInscripcion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "62tp9t27wd3",
+      "name": "CodigoPrestacion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoPrestacion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "7fym8f4lmon",
+      "name": "Region",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Region",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "7pu99dj4rpw",
+      "name": "CitaConfirmada",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CitaConfirmada",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "7rxfltrayjm",
+      "name": "CodigoAgenda",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoAgenda",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "8zrbmwrkpkl",
+      "name": "Celular",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Celular",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "93h8vh6na84",
+      "name": "FechaCita",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FechaCita",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "9v56loyv8g8",
+      "name": "HoraCita",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HoraCita",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "9zd03yvavt9",
+      "name": "CodigoPrevision",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoPrevision",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "admgot99uoz",
+      "name": "CodigoOrigen",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoOrigen",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "av4ez19q9d5",
+      "name": "Prestacion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Prestacion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "b3svssf18r8",
+      "name": "Sexo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Sexo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "b5uq242ader",
+      "name": "IDInternoCita",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "IDInternoCita",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "brdha9c105g",
+      "name": "MetodoConfirmacion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "MetodoConfirmacion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "csmrp5t5wi0",
+      "name": "RutProfesional",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "RutProfesional",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ez0zpzban1g",
+      "name": "Comuna",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Comuna",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "f5unhykdw63",
+      "name": "Establecimiento",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Establecimiento",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "f8e60hf8h6q",
+      "name": "CodigoComuna",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoComuna",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "frunxsj50u3",
+      "name": "CodigoRegion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoRegion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "g4sg5vp2ar0",
+      "name": "Provincia",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Provincia",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "gkhxfqytoq8",
+      "name": "MotivoNoAtendido",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "MotivoNoAtendido",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "glrdz05f6zy",
+      "name": "MotivoSobrecupo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "MotivoSobrecupo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "gpdicz41z1y",
+      "name": "Telefono",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Telefono",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "hilsijz2zy5",
+      "name": "PacienteNombres",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PacienteNombres",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "hvhmmexv7ch",
+      "name": "Recurso",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Recurso",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ijawvxzt68h",
+      "name": "CodigoRecurso",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoRecurso",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "j554qqa8smn",
+      "name": "IDInternoPaciente",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "IDInternoPaciente",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "j5absrt7jc8",
+      "name": "CodigoPlan",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoPlan",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "jeys7zju5vo",
+      "name": "CodigoSexo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoSexo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "jztwhdafci7",
+      "name": "MotivoCancelacion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "MotivoCancelacion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "k9cocifvmw3",
+      "name": "Edad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Edad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "kfse8ub049s",
+      "name": "Agenda",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Agenda",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ktvoeu46jq4",
+      "name": "Especialidad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Especialidad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "lbf3x9tedr7",
+      "name": "UsuarioConfirmaCita",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "UsuarioConfirmaCita",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "lt6hjp7iov3",
+      "name": "TipoProfesional",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "TipoProfesional",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "o10lhwssoyq",
+      "name": "HoraAtencion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HoraAtencion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "p744snxvmwp",
+      "name": "Rut",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Rut",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "pg6vbpgc7ns",
+      "name": "CodigoEspecialidad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoEspecialidad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ps5wce85c43",
+      "name": "AgendadoPor",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "AgendadoPor",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qmhp30gb7p2",
+      "name": "TipoAtencionOriginalCode",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "TipoAtencionOriginalCode",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "rvm41whovk6",
+      "name": "PacienteApMaterno",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PacienteApMaterno",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "rwid7urcua1",
+      "name": "FechadeNac",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FechadeNac",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "s4704dyzg0z",
+      "name": "FechaConfirmacion",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FechaConfirmacion",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "u0ns0bifvmc",
+      "name": "PacienteApPaterno",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PacienteApPaterno",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ucz03pw03ee",
+      "name": "CodigoTipoAtencionSobreescrita",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoTipoAtencionSobreescrita",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "umr58k2v1cq",
+      "name": "Plan",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Plan",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "vx7ah3mu33n",
+      "name": "HoraLlego",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "HoraLlego",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "wfmuuyh4ucz",
+      "name": "Prevision",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Prevision",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "wgnnxddf74x",
+      "name": "OtroTelefono",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "OtroTelefono",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "wia4eunxpkn",
+      "name": "Direccion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Direccion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "x70l70op65x",
+      "name": "Email",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Email",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "x7p49srinry",
+      "name": "CodigoProvincia",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoProvincia",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "y5pfm7d0sta",
+      "name": "EstadoCita",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "EstadoCita",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "yna0zz4n0yy",
+      "name": "TipoAtencionOriginal",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "TipoAtencionOriginal",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "z3ukpn40yka",
+      "name": "CodigoEstadoCita",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoEstadoCita",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "z7i5z4ee89b",
+      "name": "CodigoEstablecimiento",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoEstablecimiento",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "za09avpry8u",
+      "name": "RefSegunProtocolo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_gda_futuro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "RefSegunProtocolo",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.246Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

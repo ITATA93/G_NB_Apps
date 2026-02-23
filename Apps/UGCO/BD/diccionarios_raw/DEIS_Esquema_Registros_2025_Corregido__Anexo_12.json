@@ -1,0 +1,49 @@
+{
+  "source_file": "DEIS_Esquema_Registros_2025_Corregido.xlsx",
+  "sheet_name": "Anexo 12",
+  "entry_count": 11,
+  "entries": [
+    {
+      "Anexo 12": "Nivel de Instrucción"
+    },
+    {
+      "Anexo 12": "Código",
+      "__EMPTY": "Descripción"
+    },
+    {
+      "Anexo 12": 1,
+      "__EMPTY": "PREESCOLAR"
+    },
+    {
+      "Anexo 12": 2,
+      "__EMPTY": "ESPECIAL O DIFERENCIAL        "
+    },
+    {
+      "Anexo 12": 3,
+      "__EMPTY": "BÁSICA O PRIMARIA          "
+    },
+    {
+      "Anexo 12": 4,
+      "__EMPTY": "MEDIA O SECUNDARIA"
+    },
+    {
+      "Anexo 12": 5,
+      "__EMPTY": "EDUCACIÓN SUPERIOR"
+    },
+    {
+      "Anexo 12": 6,
+      "__EMPTY": "SIN INSTRUCCIÓN"
+    },
+    {
+      "Anexo 12": 97,
+      "__EMPTY": "NO RECUERDA            "
+    },
+    {
+      "Anexo 12": 98,
+      "__EMPTY": "NO RESPONDE"
+    },
+    {
+      "__EMPTY_1": "< < Volver"
+    }
+  ]
+}

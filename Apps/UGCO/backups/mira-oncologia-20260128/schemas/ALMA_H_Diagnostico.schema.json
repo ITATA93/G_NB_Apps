@@ -1,0 +1,321 @@
+{
+  "collection": {
+    "name": "ALMA_H_Diagnostico",
+    "title": "ALMA H_Diagnostico",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "3bd1evkb5ns",
+      "name": "MRCID_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "MRCID_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "4ipbl69ydcp",
+      "name": "MRCID_MetastaticSite",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "MRCID_MetastaticSite",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "7jo11vguor9",
+      "name": "MRCID_UnacceptablePDx",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "MRCID_UnacceptablePDx",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "7qfc70o056i",
+      "name": "MRCID_BillFlag3",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "MRCID_BillFlag3",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "9iogydqcyod",
+      "name": "Valido",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Valido",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "akpddddfbr7",
+      "name": "CIE10",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CIE10",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "au6c3018r4q",
+      "name": "GES",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "GES",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "cdxo0rpa5b9",
+      "name": "Fecha_Activacion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Activacion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "d7ccw2qfgs6",
+      "name": "Fecha_Hasta",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Hasta",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "eaqj0rqcf4t",
+      "name": "Descripcion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Descripcion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "fd5ru9zqp99",
+      "name": "MRCID_SeriousDis",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "MRCID_SeriousDis",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "gcfhmb8vuq8",
+      "name": "Descripcion_Larga",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Descripcion_Larga",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "h2x32n999fd",
+      "name": "Descripcion_Alternativa",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Descripcion_Alternativa",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "jrjd1p4o48j",
+      "name": "MRCID_AreaCodeRestraintDR",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "MRCID_AreaCodeRestraintDR",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "kcq97coxctc",
+      "name": "MRCID_ExternalCause",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "MRCID_ExternalCause",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ra0fi285rij",
+      "name": "ENO",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ENO",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "sik5l7icqb6",
+      "name": "MRCID_InjuryPoisoningCode",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "MRCID_InjuryPoisoningCode",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ty31pq4xov6",
+      "name": "Descripcion_Corta",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Descripcion_Corta",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "v5g5dzoqk9k",
+      "name": "Morfologico",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Morfologico",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "vi040eo4k2w",
+      "name": "Permitir_Duplicado",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Permitir_Duplicado",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "z22o5gyjtdw",
+      "name": "Codigo_Tracker",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Tracker",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "zqzsebl0de9",
+      "name": "MRCID_InsDesc",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Diagnostico",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "MRCID_InsDesc",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.034Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

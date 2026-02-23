@@ -1,0 +1,975 @@
+{
+  "source_file": "DEIS_Esquema_Registros_2025_Corregido.xlsx",
+  "sheet_name": "Anexo 3",
+  "entry_count": 242,
+  "entries": [
+    {
+      "Anexo 3": "País de Origen",
+      "__EMPTY_1": "< < Volver"
+    },
+    {
+      "Anexo 3": "Código Pais",
+      "__EMPTY": "Nombre Pais"
+    },
+    {
+      "Anexo 3": "004",
+      "__EMPTY": "AFGANISTÁN"
+    },
+    {
+      "Anexo 3": "008",
+      "__EMPTY": "ALBANIA"
+    },
+    {
+      "Anexo 3": 276,
+      "__EMPTY": "ALEMANIA"
+    },
+    {
+      "Anexo 3": "020",
+      "__EMPTY": "ANDORRA"
+    },
+    {
+      "Anexo 3": "024",
+      "__EMPTY": "ANGOLA"
+    },
+    {
+      "Anexo 3": 660,
+      "__EMPTY": "ANGUILA"
+    },
+    {
+      "Anexo 3": "010",
+      "__EMPTY": "ANTÁRTIDA"
+    },
+    {
+      "Anexo 3": "028",
+      "__EMPTY": "ANTIGUA Y BARBUDA"
+    },
+    {
+      "Anexo 3": 530,
+      "__EMPTY": "ANTILLAS NEERLANDESAS"
+    },
+    {
+      "Anexo 3": 682,
+      "__EMPTY": "ARABIA SAUDITA"
+    },
+    {
+      "Anexo 3": "012",
+      "__EMPTY": "ARGEL"
+    },
+    {
+      "Anexo 3": "032",
+      "__EMPTY": "ARGENTINA"
+    },
+    {
+      "Anexo 3": "051",
+      "__EMPTY": "ARMENIA"
+    },
+    {
+      "Anexo 3": 533,
+      "__EMPTY": "ARUBA"
+    },
+    {
+      "Anexo 3": "036",
+      "__EMPTY": "AUSTRALIA"
+    },
+    {
+      "Anexo 3": "040",
+      "__EMPTY": "AUSTRIA"
+    },
+    {
+      "Anexo 3": "031",
+      "__EMPTY": "AZERBAIYÁN"
+    },
+    {
+      "Anexo 3": "044",
+      "__EMPTY": "BAHAMAS"
+    },
+    {
+      "Anexo 3": "048",
+      "__EMPTY": "BAHRÉIN"
+    },
+    {
+      "Anexo 3": "050",
+      "__EMPTY": "BANGLADESH"
+    },
+    {
+      "Anexo 3": "052",
+      "__EMPTY": "BARBADOS"
+    },
+    {
+      "Anexo 3": 112,
+      "__EMPTY": "BELARÚS"
+    },
+    {
+      "Anexo 3": "056",
+      "__EMPTY": "BÉLGICA"
+    },
+    {
+      "Anexo 3": "084",
+      "__EMPTY": "BELICE"
+    },
+    {
+      "Anexo 3": 204,
+      "__EMPTY": "BENIN"
+    },
+    {
+      "Anexo 3": "060",
+      "__EMPTY": "BERMUDAS"
+    },
+    {
+      "Anexo 3": "064",
+      "__EMPTY": "BHUTÁN"
+    },
+    {
+      "Anexo 3": "068",
+      "__EMPTY": "BOLIVIA"
+    },
+    {
+      "Anexo 3": "070",
+      "__EMPTY": "BOSNIA Y HERZEGOVINA"
+    },
+    {
+      "Anexo 3": "072",
+      "__EMPTY": "BOTSUANA"
+    },
+    {
+      "Anexo 3": "076",
+      "__EMPTY": "BRASIL"
+    },
+    {
+      "Anexo 3": "096",
+      "__EMPTY": "BRUNÉI"
+    },
+    {
+      "Anexo 3": 100,
+      "__EMPTY": "BULGARIA"
+    },
+    {
+      "Anexo 3": 854,
+      "__EMPTY": "BURKINA FASO"
+    },
+    {
+      "Anexo 3": 108,
+      "__EMPTY": "BURUNDI"
+    },
+    {
+      "Anexo 3": 132,
+      "__EMPTY": "CABO VERDE"
+    },
+    {
+      "Anexo 3": 116,
+      "__EMPTY": "CAMBOYA"
+    },
+    {
+      "Anexo 3": 120,
+      "__EMPTY": "CAMERÚN"
+    },
+    {
+      "Anexo 3": 124,
+      "__EMPTY": "CANADÁ"
+    },
+    {
+      "Anexo 3": 148,
+      "__EMPTY": "CHAD"
+    },
+    {
+      "Anexo 3": 152,
+      "__EMPTY": "CHILE"
+    },
+    {
+      "Anexo 3": 156,
+      "__EMPTY": "CHINA"
+    },
+    {
+      "Anexo 3": 196,
+      "__EMPTY": "CHIPRE"
+    },
+    {
+      "Anexo 3": 336,
+      "__EMPTY": "CIUDAD DEL VATICANO"
+    },
+    {
+      "Anexo 3": 170,
+      "__EMPTY": "COLOMBIA"
+    },
+    {
+      "Anexo 3": 174,
+      "__EMPTY": "COMOROS"
+    },
+    {
+      "Anexo 3": 178,
+      "__EMPTY": "CONGO"
+    },
+    {
+      "Anexo 3": 408,
+      "__EMPTY": "COREA DEL NORTE"
+    },
+    {
+      "Anexo 3": 410,
+      "__EMPTY": "COREA DEL SUR"
+    },
+    {
+      "Anexo 3": 384,
+      "__EMPTY": "COSTA DE MARFIL"
+    },
+    {
+      "Anexo 3": 188,
+      "__EMPTY": "COSTA RICA"
+    },
+    {
+      "Anexo 3": 191,
+      "__EMPTY": "CROACIA"
+    },
+    {
+      "Anexo 3": 192,
+      "__EMPTY": "CUBA"
+    },
+    {
+      "Anexo 3": 208,
+      "__EMPTY": "DINAMARCA"
+    },
+    {
+      "Anexo 3": 212,
+      "__EMPTY": "DOMÍNICA"
+    },
+    {
+      "Anexo 3": 218,
+      "__EMPTY": "ECUADOR"
+    },
+    {
+      "Anexo 3": 818,
+      "__EMPTY": "EGIPTO"
+    },
+    {
+      "Anexo 3": 222,
+      "__EMPTY": "EL SALVADOR"
+    },
+    {
+      "Anexo 3": 784,
+      "__EMPTY": "EMIRATOS ÁRABES UNIDOS"
+    },
+    {
+      "Anexo 3": 232,
+      "__EMPTY": "ERITREA"
+    },
+    {
+      "Anexo 3": 703,
+      "__EMPTY": "ESLOVAQUIA"
+    },
+    {
+      "Anexo 3": 705,
+      "__EMPTY": "ESLOVENIA"
+    },
+    {
+      "Anexo 3": 724,
+      "__EMPTY": "ESPAÑA"
+    },
+    {
+      "Anexo 3": 840,
+      "__EMPTY": "ESTADOS UNIDOS DE AMÉRICA"
+    },
+    {
+      "Anexo 3": 233,
+      "__EMPTY": "ESTONIA"
+    },
+    {
+      "Anexo 3": 231,
+      "__EMPTY": "ETIOPÍA"
+    },
+    {
+      "Anexo 3": 242,
+      "__EMPTY": "FIJI"
+    },
+    {
+      "Anexo 3": 608,
+      "__EMPTY": "FILIPINAS"
+    },
+    {
+      "Anexo 3": 246,
+      "__EMPTY": "FINLANDIA"
+    },
+    {
+      "Anexo 3": 250,
+      "__EMPTY": "FRANCIA"
+    },
+    {
+      "Anexo 3": 266,
+      "__EMPTY": "GABÓN"
+    },
+    {
+      "Anexo 3": 270,
+      "__EMPTY": "GAMBIA"
+    },
+    {
+      "Anexo 3": 268,
+      "__EMPTY": "GEORGIA"
+    },
+    {
+      "Anexo 3": 239,
+      "__EMPTY": "GEORGIA DEL SUR E ISLAS SANDWICH DEL SUR"
+    },
+    {
+      "Anexo 3": 288,
+      "__EMPTY": "GHANA"
+    },
+    {
+      "Anexo 3": 292,
+      "__EMPTY": "GIBRALTAR"
+    },
+    {
+      "Anexo 3": 308,
+      "__EMPTY": "GRANADA"
+    },
+    {
+      "Anexo 3": 300,
+      "__EMPTY": "GRECIA"
+    },
+    {
+      "Anexo 3": 304,
+      "__EMPTY": "GROENLANDIA"
+    },
+    {
+      "Anexo 3": 312,
+      "__EMPTY": "GUADALUPE"
+    },
+    {
+      "Anexo 3": 316,
+      "__EMPTY": "GUAM"
+    },
+    {
+      "Anexo 3": 320,
+      "__EMPTY": "GUATEMALA"
+    },
+    {
+      "Anexo 3": 328,
+      "__EMPTY": "GUAYANA"
+    },
+    {
+      "Anexo 3": 254,
+      "__EMPTY": "GUAYANA FRANCESA"
+    },
+    {
+      "Anexo 3": 831,
+      "__EMPTY": "GUERNSEY"
+    },
+    {
+      "Anexo 3": 324,
+      "__EMPTY": "GUINEA"
+    },
+    {
+      "Anexo 3": 226,
+      "__EMPTY": "GUINEA ECUATORIAL"
+    },
+    {
+      "Anexo 3": 624,
+      "__EMPTY": "GUINEA-BISSAU"
+    },
+    {
+      "Anexo 3": 332,
+      "__EMPTY": "HAITÍ"
+    },
+    {
+      "Anexo 3": 340,
+      "__EMPTY": "HONDURAS"
+    },
+    {
+      "Anexo 3": 344,
+      "__EMPTY": "HONG KONG"
+    },
+    {
+      "Anexo 3": 348,
+      "__EMPTY": "HUNGRÍA"
+    },
+    {
+      "Anexo 3": 356,
+      "__EMPTY": "INDIA"
+    },
+    {
+      "Anexo 3": 360,
+      "__EMPTY": "INDONESIA"
+    },
+    {
+      "Anexo 3": 368,
+      "__EMPTY": "IRAK"
+    },
+    {
+      "Anexo 3": 364,
+      "__EMPTY": "IRÁN"
+    },
+    {
+      "Anexo 3": 372,
+      "__EMPTY": "IRLANDA"
+    },
+    {
+      "Anexo 3": "074",
+      "__EMPTY": "ISLA BOUVET"
+    },
+    {
+      "Anexo 3": 833,
+      "__EMPTY": "ISLA DE MAN"
+    },
+    {
+      "Anexo 3": 352,
+      "__EMPTY": "ISLANDIA"
+    },
+    {
+      "Anexo 3": 248,
+      "__EMPTY": "ISLAS ÁLAND"
+    },
+    {
+      "Anexo 3": 136,
+      "__EMPTY": "ISLAS CAIMÁN"
+    },
+    {
+      "Anexo 3": 162,
+      "__EMPTY": "ISLAS CHRISTMAS"
+    },
+    {
+      "Anexo 3": 166,
+      "__EMPTY": "ISLAS COCOS"
+    },
+    {
+      "Anexo 3": 184,
+      "__EMPTY": "ISLAS COOK"
+    },
+    {
+      "Anexo 3": 234,
+      "__EMPTY": "ISLAS FAROE"
+    },
+    {
+      "Anexo 3": 334,
+      "__EMPTY": "ISLAS HEARD Y MCDONALD"
+    },
+    {
+      "Anexo 3": 238,
+      "__EMPTY": "ISLAS MALVINAS"
+    },
+    {
+      "Anexo 3": 584,
+      "__EMPTY": "ISLAS MARSHALL"
+    },
+    {
+      "Anexo 3": 574,
+      "__EMPTY": "ISLAS NORKFOLK"
+    },
+    {
+      "Anexo 3": 585,
+      "__EMPTY": "ISLAS PALAOS"
+    },
+    {
+      "Anexo 3": 612,
+      "__EMPTY": "ISLAS PITCAIRN"
+    },
+    {
+      "Anexo 3": "090",
+      "__EMPTY": "ISLAS SOLOMÓN"
+    },
+    {
+      "Anexo 3": 744,
+      "__EMPTY": "ISLAS SVALBARD Y JAN MAYEN"
+    },
+    {
+      "Anexo 3": 796,
+      "__EMPTY": "ISLAS TURCAS Y CAICOS"
+    },
+    {
+      "Anexo 3": "092",
+      "__EMPTY": "ISLAS VÍRGENES BRITÁNICAS"
+    },
+    {
+      "Anexo 3": 850,
+      "__EMPTY": "ISLAS VÍRGENES DE LOS ESTADOS UNIDOS DE AMÉRICA"
+    },
+    {
+      "Anexo 3": 376,
+      "__EMPTY": "ISRAEL"
+    },
+    {
+      "Anexo 3": 380,
+      "__EMPTY": "ITALIA"
+    },
+    {
+      "Anexo 3": 388,
+      "__EMPTY": "JAMAICA"
+    },
+    {
+      "Anexo 3": 392,
+      "__EMPTY": "JAPÓN"
+    },
+    {
+      "Anexo 3": 832,
+      "__EMPTY": "JERSEY"
+    },
+    {
+      "Anexo 3": 400,
+      "__EMPTY": "JORDANIA"
+    },
+    {
+      "Anexo 3": 398,
+      "__EMPTY": "KAZAJSTÁN"
+    },
+    {
+      "Anexo 3": 404,
+      "__EMPTY": "KENIA"
+    },
+    {
+      "Anexo 3": 417,
+      "__EMPTY": "KIRGUISTÁN"
+    },
+    {
+      "Anexo 3": 296,
+      "__EMPTY": "KIRIBATI"
+    },
+    {
+      "Anexo 3": 414,
+      "__EMPTY": "KUWAIT"
+    },
+    {
+      "Anexo 3": 418,
+      "__EMPTY": "LAOS"
+    },
+    {
+      "Anexo 3": 426,
+      "__EMPTY": "LESOTHO"
+    },
+    {
+      "Anexo 3": 428,
+      "__EMPTY": "LETONIA"
+    },
+    {
+      "Anexo 3": 422,
+      "__EMPTY": "LÍBANO"
+    },
+    {
+      "Anexo 3": 430,
+      "__EMPTY": "LIBERIA"
+    },
+    {
+      "Anexo 3": 434,
+      "__EMPTY": "LIBIA"
+    },
+    {
+      "Anexo 3": 438,
+      "__EMPTY": "LIECHTENSTEIN"
+    },
+    {
+      "Anexo 3": 440,
+      "__EMPTY": "LITUANIA"
+    },
+    {
+      "Anexo 3": 442,
+      "__EMPTY": "LUXEMBURGO"
+    },
+    {
+      "Anexo 3": 446,
+      "__EMPTY": "MACAO"
+    },
+    {
+      "Anexo 3": 807,
+      "__EMPTY": "MACEDONIA"
+    },
+    {
+      "Anexo 3": 450,
+      "__EMPTY": "MADAGASCAR"
+    },
+    {
+      "Anexo 3": 458,
+      "__EMPTY": "MALASIA"
+    },
+    {
+      "Anexo 3": 454,
+      "__EMPTY": "MALAWI"
+    },
+    {
+      "Anexo 3": 462,
+      "__EMPTY": "MALDIVAS"
+    },
+    {
+      "Anexo 3": 466,
+      "__EMPTY": "MALI"
+    },
+    {
+      "Anexo 3": 470,
+      "__EMPTY": "MALTA"
+    },
+    {
+      "Anexo 3": 504,
+      "__EMPTY": "MARRUECOS"
+    },
+    {
+      "Anexo 3": 474,
+      "__EMPTY": "MARTINICA"
+    },
+    {
+      "Anexo 3": 480,
+      "__EMPTY": "MAURICIO"
+    },
+    {
+      "Anexo 3": 478,
+      "__EMPTY": "MAURITANIA"
+    },
+    {
+      "Anexo 3": 175,
+      "__EMPTY": "MAYOTTE"
+    },
+    {
+      "Anexo 3": 484,
+      "__EMPTY": "MÉXICO"
+    },
+    {
+      "Anexo 3": 583,
+      "__EMPTY": "MICRONESIA"
+    },
+    {
+      "Anexo 3": 498,
+      "__EMPTY": "MOLDOVA"
+    },
+    {
+      "Anexo 3": 492,
+      "__EMPTY": "MÓNACO"
+    },
+    {
+      "Anexo 3": 496,
+      "__EMPTY": "MONGOLIA"
+    },
+    {
+      "Anexo 3": 499,
+      "__EMPTY": "MONTENEGRO"
+    },
+    {
+      "Anexo 3": 500,
+      "__EMPTY": "MONTSERRAT"
+    },
+    {
+      "Anexo 3": 508,
+      "__EMPTY": "MOZAMBIQUE"
+    },
+    {
+      "Anexo 3": 104,
+      "__EMPTY": "MYANMAR"
+    },
+    {
+      "Anexo 3": 516,
+      "__EMPTY": "NAMIBIA"
+    },
+    {
+      "Anexo 3": 520,
+      "__EMPTY": "NAURU"
+    },
+    {
+      "Anexo 3": 524,
+      "__EMPTY": "NEPAL"
+    },
+    {
+      "Anexo 3": 558,
+      "__EMPTY": "NICARAGUA"
+    },
+    {
+      "Anexo 3": 562,
+      "__EMPTY": "NÍGER"
+    },
+    {
+      "Anexo 3": 566,
+      "__EMPTY": "NIGERIA"
+    },
+    {
+      "Anexo 3": 570,
+      "__EMPTY": "NIUE"
+    },
+    {
+      "Anexo 3": 578,
+      "__EMPTY": "NORUEGA"
+    },
+    {
+      "Anexo 3": 540,
+      "__EMPTY": "NUEVA CALEDONIA"
+    },
+    {
+      "Anexo 3": 554,
+      "__EMPTY": "NUEVA ZELANDA"
+    },
+    {
+      "Anexo 3": 512,
+      "__EMPTY": "OMÁN"
+    },
+    {
+      "Anexo 3": 528,
+      "__EMPTY": "PAÍSES BAJOS"
+    },
+    {
+      "Anexo 3": 586,
+      "__EMPTY": "PAKISTÁN"
+    },
+    {
+      "Anexo 3": 275,
+      "__EMPTY": "PALESTINA"
+    },
+    {
+      "Anexo 3": 591,
+      "__EMPTY": "PANAMÁ"
+    },
+    {
+      "Anexo 3": 598,
+      "__EMPTY": "PAPÚA NUEVA GUINEA"
+    },
+    {
+      "Anexo 3": 600,
+      "__EMPTY": "PARAGUAY"
+    },
+    {
+      "Anexo 3": 604,
+      "__EMPTY": "PERÚ"
+    },
+    {
+      "Anexo 3": 258,
+      "__EMPTY": "POLINESIA FRANCESA"
+    },
+    {
+      "Anexo 3": 616,
+      "__EMPTY": "POLONIA"
+    },
+    {
+      "Anexo 3": 620,
+      "__EMPTY": "PORTUGAL"
+    },
+    {
+      "Anexo 3": 630,
+      "__EMPTY": "PUERTO RICO"
+    },
+    {
+      "Anexo 3": 634,
+      "__EMPTY": "QATAR"
+    },
+    {
+      "Anexo 3": 826,
+      "__EMPTY": "REINO UNIDO"
+    },
+    {
+      "Anexo 3": 140,
+      "__EMPTY": "REPÚBLICA CENTRO-AFRICANA"
+    },
+    {
+      "Anexo 3": 203,
+      "__EMPTY": "REPÚBLICA CHECA"
+    },
+    {
+      "Anexo 3": 214,
+      "__EMPTY": "REPÚBLICA DOMINICANA"
+    },
+    {
+      "Anexo 3": 638,
+      "__EMPTY": "REUNIÓN"
+    },
+    {
+      "Anexo 3": 646,
+      "__EMPTY": "RUANDA"
+    },
+    {
+      "Anexo 3": 642,
+      "__EMPTY": "RUMANÍA"
+    },
+    {
+      "Anexo 3": 643,
+      "__EMPTY": "RUSIA"
+    },
+    {
+      "Anexo 3": 732,
+      "__EMPTY": "SAHARA OCCIDENTAL"
+    },
+    {
+      "Anexo 3": 882,
+      "__EMPTY": "SAMOA"
+    },
+    {
+      "Anexo 3": "016",
+      "__EMPTY": "SAMOA AMERICANA"
+    },
+    {
+      "Anexo 3": 652,
+      "__EMPTY": "SAN BARTOLOMÉ"
+    },
+    {
+      "Anexo 3": 659,
+      "__EMPTY": "SAN CRISTÓBAL Y NIEVES"
+    },
+    {
+      "Anexo 3": 674,
+      "__EMPTY": "SAN MARINO"
+    },
+    {
+      "Anexo 3": 666,
+      "__EMPTY": "SAN PEDRO Y MIQUELÓN"
+    },
+    {
+      "Anexo 3": 670,
+      "__EMPTY": "SAN VICENTE Y LAS GRANADINAS"
+    },
+    {
+      "Anexo 3": 654,
+      "__EMPTY": "SANTA ELENA"
+    },
+    {
+      "Anexo 3": 662,
+      "__EMPTY": "SANTA LUCÍA"
+    },
+    {
+      "Anexo 3": 678,
+      "__EMPTY": "SANTO TOMÉ Y PRÍNCIPE"
+    },
+    {
+      "Anexo 3": 686,
+      "__EMPTY": "SENEGAL"
+    },
+    {
+      "Anexo 3": 688,
+      "__EMPTY": "SERBIA Y MONTENEGRO"
+    },
+    {
+      "Anexo 3": 690,
+      "__EMPTY": "SEYCHELLES"
+    },
+    {
+      "Anexo 3": 694,
+      "__EMPTY": "SIERRA LEONA"
+    },
+    {
+      "Anexo 3": 702,
+      "__EMPTY": "SINGAPUR"
+    },
+    {
+      "Anexo 3": 760,
+      "__EMPTY": "SIRIA"
+    },
+    {
+      "Anexo 3": 706,
+      "__EMPTY": "SOMALIA"
+    },
+    {
+      "Anexo 3": 144,
+      "__EMPTY": "SRI LANKA"
+    },
+    {
+      "Anexo 3": 748,
+      "__EMPTY": "SUAZILANDIA"
+    },
+    {
+      "Anexo 3": 710,
+      "__EMPTY": "SUDÁFRICA"
+    },
+    {
+      "Anexo 3": 736,
+      "__EMPTY": "SUDÁN"
+    },
+    {
+      "Anexo 3": 752,
+      "__EMPTY": "SUECIA"
+    },
+    {
+      "Anexo 3": 756,
+      "__EMPTY": "SUIZA"
+    },
+    {
+      "Anexo 3": 740,
+      "__EMPTY": "SURINAM"
+    },
+    {
+      "Anexo 3": 764,
+      "__EMPTY": "TAILANDIA"
+    },
+    {
+      "Anexo 3": 158,
+      "__EMPTY": "TAIWÁN"
+    },
+    {
+      "Anexo 3": 834,
+      "__EMPTY": "TANZANIA"
+    },
+    {
+      "Anexo 3": 762,
+      "__EMPTY": "TAYIKISTÁN"
+    },
+    {
+      "Anexo 3": "086",
+      "__EMPTY": "TERRITORIO BRITÁNICO DEL OCÉANO ÍNDICO"
+    },
+    {
+      "Anexo 3": 260,
+      "__EMPTY": "TERRITORIOS AUSTRALES FRANCESES"
+    },
+    {
+      "Anexo 3": 626,
+      "__EMPTY": "TIMOR-LESTE"
+    },
+    {
+      "Anexo 3": 768,
+      "__EMPTY": "TOGO"
+    },
+    {
+      "Anexo 3": 772,
+      "__EMPTY": "TOKELAU"
+    },
+    {
+      "Anexo 3": 776,
+      "__EMPTY": "TONGA"
+    },
+    {
+      "Anexo 3": 780,
+      "__EMPTY": "TRINIDAD Y TOBAGO"
+    },
+    {
+      "Anexo 3": 788,
+      "__EMPTY": "TÚNEZ"
+    },
+    {
+      "Anexo 3": 795,
+      "__EMPTY": "TURKMENISTÁN"
+    },
+    {
+      "Anexo 3": 792,
+      "__EMPTY": "TURQUÍA"
+    },
+    {
+      "Anexo 3": 798,
+      "__EMPTY": "TUVALU"
+    },
+    {
+      "Anexo 3": 804,
+      "__EMPTY": "UCRANIA"
+    },
+    {
+      "Anexo 3": 800,
+      "__EMPTY": "UGANDA"
+    },
+    {
+      "Anexo 3": 858,
+      "__EMPTY": "URUGUAY"
+    },
+    {
+      "Anexo 3": 860,
+      "__EMPTY": "UZBEKISTÁN"
+    },
+    {
+      "Anexo 3": 548,
+      "__EMPTY": "VANUATU"
+    },
+    {
+      "Anexo 3": 862,
+      "__EMPTY": "VENEZUELA"
+    },
+    {
+      "Anexo 3": 704,
+      "__EMPTY": "VIETNAM"
+    },
+    {
+      "Anexo 3": 876,
+      "__EMPTY": "WALLIS Y FUTUNA"
+    },
+    {
+      "Anexo 3": 887,
+      "__EMPTY": "YEMEN"
+    },
+    {
+      "Anexo 3": 262,
+      "__EMPTY": "YIBUTI"
+    }
+  ]
+}

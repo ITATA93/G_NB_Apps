@@ -1,0 +1,294 @@
+{
+  "name": "ugco-dashboard",
+  "title": "Dashboard UGCO - Gestión Oncológica",
+  "description": "Panel principal con KPIs y métricas por especialidad",
+  "version": "1.0.0",
+  "layout": {
+    "type": "page",
+    "title": "Dashboard UGCO",
+    "properties": {
+      "header": {
+        "type": "void",
+        "x-component": "Grid",
+        "x-component-props": {
+          "cols": 4,
+          "gap": 16
+        },
+        "properties": {
+          "kpi-total": {
+            "type": "void",
+            "x-component": "Statistic",
+            "x-component-props": {
+              "title": "Casos Totales",
+              "icon": "📊",
+              "color": "#0052CC",
+              "dataSource": {
+                "collection": "ugco_casooncologico",
+                "filter": {
+                  "estado_seguimiento": { "$ne": "CERRADO" }
+                },
+                "aggregate": "count"
+              }
+            }
+          },
+          "kpi-criticos": {
+            "type": "void",
+            "x-component": "Statistic",
+            "x-component-props": {
+              "title": "Críticos",
+              "icon": "🔴",
+              "color": "#FF5630",
+              "dataSource": {
+                "collection": "ugco_casooncologico",
+                "filter": {
+                  "$or": [
+                    { "control_vencido": true },
+                    { "tareas_criticas_pendientes": { "$gt": 0 } }
+                  ]
+                },
+                "aggregate": "count"
+              }
+            }
+          },
+          "kpi-pendientes": {
+            "type": "void",
+            "x-component": "Statistic",
+            "x-component-props": {
+              "title": "Pendientes",
+              "icon": "🟡",
+              "color": "#FFAB00",
+              "dataSource": {
+                "collection": "ugco_tarea",
+                "filter": {
+                  "estado": "PENDIENTE"
+                },
+                "aggregate": "count"
+              }
+            }
+          },
+          "kpi-aldia": {
+            "type": "void",
+            "x-component": "Statistic",
+            "x-component-props": {
+              "title": "Al día",
+              "icon": "🟢",
+              "color": "#36B37E",
+              "dataSource": {
+                "collection": "ugco_casooncologico",
+                "filter": {
+                  "estado_seguimiento": "ACTIVO",
+                  "control_vencido": false,
+                  "tareas_criticas_pendientes": 0
+                },
+                "aggregate": "count"
+              }
+            }
+          }
+        }
+      },
+      "body": {
+        "type": "void",
+        "x-component": "Grid",
+        "x-component-props": {
+          "cols": 2,
+          "gap": 16
+        },
+        "properties": {
+          "chart-especialidades": {
+            "type": "void",
+            "x-component": "Card",
+            "x-component-props": {
+              "title": "Casos por Especialidad"
+            },
+            "properties": {
+              "chart": {
+                "type": "void",
+                "x-component": "Chart",
+                "x-component-props": {
+                  "type": "bar",
+                  "horizontal": true,
+                  "dataSource": {
+                    "collection": "ugco_casooncologico",
+                    "groupBy": "especialidad_principal_id",
+                    "aggregate": "count",
+                    "include": {
+                      "especialidad_principal": {
+                        "fields": ["nombre", "color"]
+                      }
+                    }
+                  },
+                  "xField": "count",
+                  "yField": "especialidad_principal.nombre",
+                  "colorField": "especialidad_principal.color"
+                }
+              }
+            }
+          },
+          "alertas-urgentes": {
+            "type": "void",
+            "x-component": "Card",
+            "x-component-props": {
+              "title": "Alertas Urgentes"
+            },
+            "properties": {
+              "lista": {
+                "type": "void",
+                "x-component": "List",
+                "x-component-props": {
+                  "items": [
+                    {
+                      "icon": "🚨",
+                      "label": "Controles vencidos",
+                      "dataSource": {
+                        "collection": "ugco_casooncologico",
+                        "filter": { "control_vencido": true },
+                        "aggregate": "count"
+                      }
+                    },
+                    {
+                      "icon": "⏳",
+                      "label": "Biopsias pendientes >7 días",
+                      "dataSource": {
+                        "collection": "ugco_eventoclinico",
+                        "filter": {
+                          "tipo_evento": "BIOPSIA",
+                          "estado": "PENDIENTE",
+                          "fecha_solicitud": { "$lt": "{{now-7d}}" }
+                        },
+                        "aggregate": "count"
+                      }
+                    },
+                    {
+                      "icon": "📩",
+                      "label": "Interconsultas sin respuesta",
+                      "dataSource": {
+                        "collection": "ugco_eventoclinico",
+                        "filter": {
+                          "tipo_evento": "INTERCONSULTA",
+                          "estado": "PENDIENTE"
+                        },
+                        "aggregate": "count"
+                      }
+                    },
+                    {
+                      "icon": "🗓️",
+                      "label": "Comités esta semana",
+                      "dataSource": {
+                        "collection": "ugco_comiteoncologico",
+                        "filter": {
+                          "fecha_sesion": {
+                            "$gte": "{{week-start}}",
+                            "$lte": "{{week-end}}"
+                          }
+                        },
+                        "aggregate": "count"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "flujo-estados": {
+        "type": "void",
+        "x-component": "Card",
+        "x-component-props": {
+          "title": "Flujo de Casos por Estado Administrativo"
+        },
+        "properties": {
+          "pipeline": {
+            "type": "void",
+            "x-component": "Pipeline",
+            "x-component-props": {
+              "stages": [
+                {
+                  "key": "diagnostico",
+                  "label": "Diagnóstico",
+                  "color": "#FF8B00",
+                  "dataSource": {
+                    "collection": "ugco_casooncologico",
+                    "filter": { "estado_adm": "PROCESO_DIAGNOSTICO" },
+                    "aggregate": "count"
+                  }
+                },
+                {
+                  "key": "etapificacion",
+                  "label": "Etapificación",
+                  "color": "#9C27B0",
+                  "dataSource": {
+                    "collection": "ugco_casooncologico",
+                    "filter": { "estado_adm": "ETAPIFICACION" },
+                    "aggregate": "count"
+                  }
+                },
+                {
+                  "key": "tratamiento",
+                  "label": "Tratamiento",
+                  "color": "#2196F3",
+                  "dataSource": {
+                    "collection": "ugco_casooncologico",
+                    "filter": { "estado_adm": "TRATAMIENTO" },
+                    "aggregate": "count"
+                  }
+                },
+                {
+                  "key": "seguimiento",
+                  "label": "Seguimiento",
+                  "color": "#4CAF50",
+                  "dataSource": {
+                    "collection": "ugco_casooncologico",
+                    "filter": { "estado_adm": "SEGUIMIENTO" },
+                    "aggregate": "count"
+                  }
+                },
+                {
+                  "key": "cerrado",
+                  "label": "Cerrado",
+                  "color": "#607D8B",
+                  "dataSource": {
+                    "collection": "ugco_casooncologico",
+                    "filter": { "estado_seguimiento": "CERRADO" },
+                    "aggregate": "count"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "proximos-comites": {
+        "type": "void",
+        "x-component": "Card",
+        "x-component-props": {
+          "title": "Próximos Comités"
+        },
+        "properties": {
+          "table": {
+            "type": "void",
+            "x-component": "Table",
+            "x-component-props": {
+              "collection": "ugco_comiteoncologico",
+              "filter": {
+                "fecha_sesion": { "$gte": "{{now}}" },
+                "estado": { "$ne": "CANCELADO" }
+              },
+              "sort": [{ "field": "fecha_sesion", "order": "asc" }],
+              "pageSize": 5,
+              "columns": [
+                { "field": "fecha_sesion", "title": "Fecha", "format": "date" },
+                { "field": "especialidad.nombre", "title": "Especialidad" },
+                { "field": "casos_count", "title": "Casos", "aggregate": "count", "relation": "comitecasos" },
+                { "field": "estado", "title": "Estado" }
+              ],
+              "actions": [
+                { "type": "view", "label": "Ver Detalles" }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "name": "nocobase-configure",
+  "version": "1.0.0",
+  "description": "Configurar colecciones, campos y relaciones en NocoBase",
+  "trigger": "/nocobase-configure",
+  "aliases": ["/nb-config", "/configure"],
+
+  "capabilities": [
+    "create_collections",
+    "update_collections",
+    "delete_collections",
+    "configure_fields",
+    "configure_relationships",
+    "configure_ui_schemas",
+    "verify_configuration"
+  ],
+
+  "workflow": {
+    "steps": [
+      {
+        "id": "analyze_blueprint",
+        "description": "Analizar app-spec/app.yaml para entender configuración deseada",
+        "tools": ["Read"],
+        "output": "blueprint_config"
+      },
+      {
+        "id": "check_current_state",
+        "description": "Verificar estado actual de colecciones en NocoBase",
+        "tools": ["Bash"],
+        "command": "npm run ugco:list",
+        "output": "current_collections"
+      },
+      {
+        "id": "identify_changes",
+        "description": "Identificar diferencias entre blueprint y estado actual",
+        "logic": "diff",
+        "output": "changes_required"
+      },
+      {
+        "id": "confirm_changes",
+        "description": "Mostrar cambios al usuario y solicitar confirmación",
+        "tools": ["AskUserQuestion"],
+        "output": "user_approved"
+      },
+      {
+        "id": "apply_configuration",
+        "description": "Aplicar cambios usando API de NocoBase",
+        "mode": "hybrid",
+        "methods": [
+          {
+            "type": "api",
+            "script": "Apps/UGCO/scripts/configure-onco-fields.js",
+            "preferred": true
+          },
+          {
+            "type": "browser",
+            "url": "https://nocobase.hospitaldeovalle.cl/admin",
+            "fallback": true
+          }
+        ],
+        "output": "configuration_result"
+      },
+      {
+        "id": "verify_changes",
+        "description": "Verificar que cambios se aplicaron correctamente",
+        "tools": ["Bash"],
+        "command": "npm run ugco:list",
+        "output": "verification_result"
+      },
+      {
+        "id": "log_changes",
+        "description": "Registrar cambios en logs y memoria",
+        "tools": ["custom:log_action"],
+        "output": "log_entry"
+      }
+    ]
+  },
+
+  "error_handling": {
+    "on_api_failure": {
+      "retry": 3,
+      "fallback": "browser",
+      "log": true
+    },
+    "on_verification_failure": {
+      "rollback": false,
+      "alert": true,
+      "log": true
+    }
+  },
+
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "include": ["changes", "api_calls", "errors", "timing"]
+  },
+
+  "context_requirements": {
+    "files": [
+      "app-spec/app.yaml",
+      "Apps/UGCO/scripts/list-collections.ts",
+      "shared/scripts/ApiClient.ts"
+    ],
+    "env_vars": [
+      "NOCOBASE_BASE_URL",
+      "NOCOBASE_API_KEY"
+    ]
+  }
+}

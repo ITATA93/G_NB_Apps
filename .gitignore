@@ -1,0 +1,106 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Claude Code - Configuraci\u00f3n Local
+.claude/logs/
+.claude/memory/*.txt
+.claude/memory/last_*.json
+.claude/settings.local.json
+nul
+
+# Ephemeral debug outputs
+docs/debug/*.txt
+docs/e2e-failure.png
+
+# ESLint cache
+.eslintcache
+
+# --- Added by GEN_OS migration ---
+# Environment
+*.pyc
+.env.local
+.env.*.local
+.venv/
+.venv_temp/
+# Agent logs (don't version temporary logs)
+.gemini/agents/logs/
+.gemini/agents/locks/
+.gemini/brain/daily/
+# Builds
+.next/
+out/
+# Docker
+docker-compose.override.yml
+# Secrets
+*.pem
+*.key
+credentials/
+secrets/
+# Caches
+.mypy_cache/
+.ruff_cache/
+# Testing
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+.nyc_output/
+logs/
+# Knowledge Vault
+*.db
+*.sqlite
+data/knowledge_vault.db
+data/knowledge_repo/
+# Team context (temporary, generated)
+.subagents/_team_context.md
+# Agent config sync (encrypted archives — NEVER commit)
+data/secure/
+scripts/setup/agent_config_sync.py
+scripts/setup/_pack_list.txt
+scripts/setup/_unpack_temp/

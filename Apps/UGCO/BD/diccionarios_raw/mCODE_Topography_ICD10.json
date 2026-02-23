@@ -1,0 +1,4677 @@
+[
+  {
+    "codigo_oficial": "C00.0",
+    "descripcion": "Malignant neoplasm of external upper lip",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C00.1",
+    "descripcion": "Malignant neoplasm of external lower lip",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C00.2",
+    "descripcion": "Malignant neoplasm of external lip, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C00.3",
+    "descripcion": "Malignant neoplasm of upper lip, inner aspect",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C00.4",
+    "descripcion": "Malignant neoplasm of lower lip, inner aspect",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C00.5",
+    "descripcion": "Malignant neoplasm of lip, unspecified, inner aspect",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C00.6",
+    "descripcion": "Malignant neoplasm of commissure of lip, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C00.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of lip",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C00.9",
+    "descripcion": "Malignant neoplasm of lip, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C01",
+    "descripcion": "MALIGNANT NEOPLASM OF BASE OF TONGUE",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C02.0",
+    "descripcion": "Malignant neoplasm of dorsal surface of tongue",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C02.1",
+    "descripcion": "Malignant neoplasm of border of tongue",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C02.2",
+    "descripcion": "Malignant neoplasm of ventral surface of tongue",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C02.3",
+    "descripcion": "Malignant neoplasm of anterior two-thirds of tongue, part unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C02.4",
+    "descripcion": "Malignant neoplasm of lingual tonsil",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C02.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of tongue",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C02.9",
+    "descripcion": "Malignant neoplasm of tongue, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C03.0",
+    "descripcion": "Malignant neoplasm of upper gum",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C03.1",
+    "descripcion": "Malignant neoplasm of lower gum",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C03.9",
+    "descripcion": "Malignant neoplasm of gum, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C04.0",
+    "descripcion": "Malignant neoplasm of anterior floor of mouth",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C04.1",
+    "descripcion": "Malignant neoplasm of lateral floor of mouth",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C04.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of floor of mouth",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C04.9",
+    "descripcion": "Malignant neoplasm of floor of mouth, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C05.0",
+    "descripcion": "Malignant neoplasm of hard palate",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C05.1",
+    "descripcion": "Malignant neoplasm of soft palate",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C05.2",
+    "descripcion": "Malignant neoplasm of uvula",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C05.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of palate",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C05.9",
+    "descripcion": "Malignant neoplasm of palate, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C06.0",
+    "descripcion": "Malignant neoplasm of cheek mucosa",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C06.1",
+    "descripcion": "Malignant neoplasm of vestibule of mouth",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C06.2",
+    "descripcion": "Malignant neoplasm of retromolar area",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C06.80",
+    "descripcion": "Malignant neoplasm of overlapping sites of unspecified parts of mouth",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C06.89",
+    "descripcion": "Malignant neoplasm of overlapping sites of other parts of mouth",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C06.9",
+    "descripcion": "Malignant neoplasm of mouth, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C07",
+    "descripcion": "MALIGNANT NEOPLASM OF PAROTID GLAND",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C08.0",
+    "descripcion": "Malignant neoplasm of submandibular gland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C08.1",
+    "descripcion": "Malignant neoplasm of sublingual gland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C08.9",
+    "descripcion": "Malignant neoplasm of major salivary gland, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C09.0",
+    "descripcion": "Malignant neoplasm of tonsillar fossa",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C09.1",
+    "descripcion": "Malignant neoplasm of tonsillar pillar (anterior) (posterior)",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C09.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of tonsil",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C09.9",
+    "descripcion": "Malignant neoplasm of tonsil, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C10.0",
+    "descripcion": "Malignant neoplasm of vallecula",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C10.1",
+    "descripcion": "Malignant neoplasm of anterior surface of epiglottis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C10.2",
+    "descripcion": "Malignant neoplasm of lateral wall of oropharynx",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C10.3",
+    "descripcion": "Malignant neoplasm of posterior wall of oropharynx",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C10.4",
+    "descripcion": "Malignant neoplasm of branchial cleft",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C10.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of oropharynx",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C10.9",
+    "descripcion": "Malignant neoplasm of oropharynx, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C11.0",
+    "descripcion": "Malignant neoplasm of superior wall of nasopharynx",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C11.1",
+    "descripcion": "Malignant neoplasm of posterior wall of nasopharynx",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C11.2",
+    "descripcion": "Malignant neoplasm of lateral wall of nasopharynx",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C11.3",
+    "descripcion": "Malignant neoplasm of anterior wall of nasopharynx",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C11.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of nasopharynx",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C11.9",
+    "descripcion": "Malignant neoplasm of nasopharynx, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C12",
+    "descripcion": "MALIGNANT NEOPLASM OF PYRIFORM SINUS",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C13.0",
+    "descripcion": "Malignant neoplasm of postcricoid region",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C13.1",
+    "descripcion": "Malignant neoplasm aryepiglottic fold, hypopharyngeal aspect",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C13.2",
+    "descripcion": "Malignant neoplasm of posterior wall of hypopharynx",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C13.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of hypopharynx",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C13.9",
+    "descripcion": "Malignant neoplasm of hypopharynx, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C14.0",
+    "descripcion": "Malignant neoplasm of pharynx, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C14.2",
+    "descripcion": "Malignant neoplasm of Waldeyer's ring",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C14.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of lip, oral cavity and pharynx",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C15.3",
+    "descripcion": "Malignant neoplasm of upper third of esophagus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C15.4",
+    "descripcion": "Malignant neoplasm of middle third of esophagus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C15.5",
+    "descripcion": "Malignant neoplasm of lower third of esophagus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C15.8",
+    "descripcion": "Malignant neoplasm of overlapping sites esophagus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C15.9",
+    "descripcion": "Malignant neoplasm of esophagus, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C16.0",
+    "descripcion": "Malignant neoplasm of cardia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C16.1",
+    "descripcion": "Malignant neoplasm of fundus of stomach",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C16.2",
+    "descripcion": "Malignant neoplasm of body of stomach",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C16.3",
+    "descripcion": "Malignant neoplasm of pyloric antrum",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C16.4",
+    "descripcion": "Malignant neoplasm of pylorus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C16.5",
+    "descripcion": "Malignant neoplasm of lesser curvature of stomach, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C16.6",
+    "descripcion": "Malignant neoplasm of greater curvature of stomach, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C16.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of stomach",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C16.9",
+    "descripcion": "Malignant neoplasm of stomach, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C17.0",
+    "descripcion": "Malignant neoplasm of duodenum",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C17.1",
+    "descripcion": "Malignant neoplasm of jejunum",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C17.2",
+    "descripcion": "Malignant neoplasm of ileum",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C17.3",
+    "descripcion": "Meckel's diverticulum, malignant",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C17.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of small intestine",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C17.9",
+    "descripcion": "Malignant neoplasm of small intestine, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C18.0",
+    "descripcion": "Malignant neoplasm of cecum",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C18.1",
+    "descripcion": "Malignant neoplasm of appendix",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C18.2",
+    "descripcion": "Malignant neoplasm of ascending colon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C18.3",
+    "descripcion": "Malignant neoplasm of hepatic flexure",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C18.4",
+    "descripcion": "Malignant neoplasm of transverse colon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C18.5",
+    "descripcion": "Malignant neoplasm of splenic flexure",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C18.6",
+    "descripcion": "Malignant neoplasm of descending colon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C18.7",
+    "descripcion": "Malignant neoplasm of sigmoid colon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C18.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of colon",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C18.9",
+    "descripcion": "Malignant neoplasm of colon, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C19",
+    "descripcion": "MALIGNANT NEOPLASM OF RECTOSIGMOID JUNCTION",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C20",
+    "descripcion": "MALIGNANT NEOPLASM OF RECTUM",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C21.0",
+    "descripcion": "Malignant neoplasm of anus, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C21.1",
+    "descripcion": "Malignant neoplasm of anal canal",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C21.2",
+    "descripcion": "Malignant neoplasm of cloacogenic zone",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C21.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of rectum, anus and anal canal",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C22.0",
+    "descripcion": "Liver cell carcinoma",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C22.1",
+    "descripcion": "Intrahepatic bile duct carcinoma",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C22.2",
+    "descripcion": "Hepatoblastoma",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C22.3",
+    "descripcion": "Angiosarcoma of liver",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C22.4",
+    "descripcion": "Other sarcomas of liver",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C22.7",
+    "descripcion": "Other specified carcinomas of liver",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C22.8",
+    "descripcion": "Malignant neoplasm of liver, primary, unspecified as to type",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C22.9",
+    "descripcion": "Malignant neoplasm of liver, not specified as primary or secondary",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C23",
+    "descripcion": "MALIGNANT NEOPLASM OF GALLBLADDER",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C24.0",
+    "descripcion": "Malignant neoplasm of extrahepatic bile duct",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C24.1",
+    "descripcion": "Malignant neoplasm of Ampulla of Vater",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C24.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of biliary tract",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C24.9",
+    "descripcion": "Malignant neoplasm of biliary tract, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C25.0",
+    "descripcion": "Malignant neoplasm of head of pancreas",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C25.1",
+    "descripcion": "Malignant neoplasm of body of pancreas",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C25.2",
+    "descripcion": "Malignant neoplasm of tail of pancreas",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C25.3",
+    "descripcion": "Malignant neoplasm of pancreatic duct",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C25.4",
+    "descripcion": "Malignant neoplasm of endocrine pancreas",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C25.7",
+    "descripcion": "Malignant neoplasm of other parts of pancreas",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C25.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of pancreas",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C25.9",
+    "descripcion": "Malignant neoplasm of pancreas, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C26.0",
+    "descripcion": "Malignant neoplasm of intestinal tract, part unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C26.1",
+    "descripcion": "Malignant neoplasm of spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C26.9",
+    "descripcion": "Malignant neoplasm of ill-defined sites within the digestive system",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C30.0",
+    "descripcion": "Malignant neoplasm of nasal cavity",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C30.1",
+    "descripcion": "Malignant neoplasm of middle ear",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C31.0",
+    "descripcion": "Malignant neoplasm of maxillary sinus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C31.1",
+    "descripcion": "Malignant neoplasm of ethmoidal sinus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C31.2",
+    "descripcion": "Malignant neoplasm of frontal sinus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C31.3",
+    "descripcion": "Malignant neoplasm of sphenoid sinus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C31.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of accessory sinuses",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C31.9",
+    "descripcion": "Malignant neoplasm of accessory sinus, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C32.0",
+    "descripcion": "Malignant neoplasm of glottis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C32.1",
+    "descripcion": "Malignant neoplasm of supraglottis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C32.2",
+    "descripcion": "Malignant neoplasm of subglottis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C32.3",
+    "descripcion": "Malignant neoplasm of laryngeal cartilage",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C32.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of larynx",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C32.9",
+    "descripcion": "Malignant neoplasm of larynx, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C33",
+    "descripcion": "MALIGNANT NEOPLASM OF TRACHEA",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.00",
+    "descripcion": "Malignant neoplasm of unspecified main bronchus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.01",
+    "descripcion": "Malignant neoplasm of right main bronchus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.02",
+    "descripcion": "Malignant neoplasm of left main bronchus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.10",
+    "descripcion": "Malignant neoplasm of upper lobe, unspecified bronchus or lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.11",
+    "descripcion": "Malignant neoplasm of upper lobe, right bronchus or lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.12",
+    "descripcion": "Malignant neoplasm of upper lobe, left bronchus or lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.2",
+    "descripcion": "Malignant neoplasm of middle lobe, bronchus or lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.30",
+    "descripcion": "Malignant neoplasm of lower lobe, unspecified bronchus or lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.31",
+    "descripcion": "Malignant neoplasm of lower lobe, right bronchus or lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.32",
+    "descripcion": "Malignant neoplasm of lower lobe, left bronchus or lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.80",
+    "descripcion": "Malignant neoplasm of overlapping sites of unspecified bronchus and lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.81",
+    "descripcion": "Malignant neoplasm of overlapping sites of right bronchus and lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.82",
+    "descripcion": "Malignant neoplasm of overlapping sites of left bronchus and lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.90",
+    "descripcion": "Malignant neoplasm of unspecified part of unspecified bronchus or lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.91",
+    "descripcion": "Malignant neoplasm of unspecified part of right bronchus or lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C34.92",
+    "descripcion": "Malignant neoplasm of unspecified part of left bronchus or lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C37",
+    "descripcion": "MALIGNANT NEOPLASM OF THYMUS",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C38.0",
+    "descripcion": "Malignant neoplasm of heart",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C38.1",
+    "descripcion": "Malignant neoplasm of anterior mediastinum",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C38.2",
+    "descripcion": "Malignant neoplasm of posterior mediastinum",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C38.3",
+    "descripcion": "Malignant neoplasm of mediastinum, part unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C38.4",
+    "descripcion": "Malignant neoplasm of pleura",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C38.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of heart, mediastinum and pleura",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C39.0",
+    "descripcion": "Malignant neoplasm of upper respiratory tract, part unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C39.9",
+    "descripcion": "Malignant neoplasm of lower respiratory tract, part unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.00",
+    "descripcion": "Malignant neoplasm of scapula and long bones of unspecified upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.01",
+    "descripcion": "Malignant neoplasm of scapula and long bones of right upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.02",
+    "descripcion": "Malignant neoplasm of scapula and long bones of left upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.10",
+    "descripcion": "Malignant neoplasm of short bones of unspecified upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.11",
+    "descripcion": "Malignant neoplasm of short bones of right upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.12",
+    "descripcion": "Malignant neoplasm of short bones of left upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.20",
+    "descripcion": "Malignant neoplasm of long bones of unspecified lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.21",
+    "descripcion": "Malignant neoplasm of long bones of right lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.22",
+    "descripcion": "Malignant neoplasm of long bones of left lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.30",
+    "descripcion": "Malignant neoplasm of short bones of unspecified lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.31",
+    "descripcion": "Malignant neoplasm of short bones of right lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.32",
+    "descripcion": "Malignant neoplasm of short bones of left lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.80",
+    "descripcion": "Malignant neoplasm of overlapping sites of bone and articular cartilage of unspecified limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.81",
+    "descripcion": "Malignant neoplasm of overlapping sites of bone and articular cartilage of right limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.82",
+    "descripcion": "Malignant neoplasm of overlapping sites of bone and articular cartilage of left limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.90",
+    "descripcion": "Malignant neoplasm of unspecified bones and articular cartilage of unspecified limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.91",
+    "descripcion": "Malignant neoplasm of unspecified bones and articular cartilage of right limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C40.92",
+    "descripcion": "Malignant neoplasm of unspecified bones and articular cartilage of left limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C41.0",
+    "descripcion": "Malignant neoplasm of bones of skull and face",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C41.1",
+    "descripcion": "Malignant neoplasm of mandible",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C41.2",
+    "descripcion": "Malignant neoplasm of vertebral column",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C41.3",
+    "descripcion": "Malignant neoplasm of ribs, sternum and clavicle",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C41.4",
+    "descripcion": "Malignant neoplasm of pelvic bones, sacrum and coccyx",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C41.9",
+    "descripcion": "Malignant neoplasm of unspecified bones and articular cartilage of limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.0",
+    "descripcion": "Malignant melanoma of lip",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.10",
+    "descripcion": "Malignant melanoma of unspecified eyelid, including canthus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.111",
+    "descripcion": "Malignant melanoma of right upper eyelid, including canthus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.112",
+    "descripcion": "Malignant melanoma of right lower eyelid, including canthus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.121",
+    "descripcion": "Malignant melanoma of left upper eyelid, including canthus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.122",
+    "descripcion": "Malignant melanoma of left lower eyelid, including canthus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.20",
+    "descripcion": "Malignant melanoma of unspecified ear and external auricular canal",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.21",
+    "descripcion": "Malignant melanoma of right ear and external auricular canal",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.22",
+    "descripcion": "Malignant melanoma of left ear and external auricular canal",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.30",
+    "descripcion": "Malignant melanoma of unspecified part of face",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.31",
+    "descripcion": "Malignant melanoma of nose",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.39",
+    "descripcion": "Malignant melanoma of other parts of face",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.4",
+    "descripcion": "Malignant melanoma of scalp and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.51",
+    "descripcion": "Malignant melanoma of anal skin",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.52",
+    "descripcion": "Malignant melanoma of skin of breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.59",
+    "descripcion": "Malignant melanoma of other part of trunk",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.60",
+    "descripcion": "Malignant melanoma of unspecified upper limb, including shoulder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.61",
+    "descripcion": "Malignant melanoma of right upper limb, including shoulder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.62",
+    "descripcion": "Malignant melanoma of left upper limb, including shoulder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.70",
+    "descripcion": "Malignant melanoma of unspecified lower limb, including hip",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.71",
+    "descripcion": "Malignant melanoma of right lower limb, including hip",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.72",
+    "descripcion": "Malignant melanoma of left lower limb, including hip",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.8",
+    "descripcion": "Malignant melanoma of overlapping sites of skin",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C43.9",
+    "descripcion": "Malignant melanoma of skin, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C44.131",
+    "descripcion": "Sebaceous cell carcinoma of skin of unspecified eyelid, including canthus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C44.1321",
+    "descripcion": "Sebaceous cell carcinoma of skin of right upper eyelid, including canthus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C44.1322",
+    "descripcion": "Sebaceous cell carcinoma of skin of right lower eyelid, including canthus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C44.1391",
+    "descripcion": "Sebaceous cell carcinoma of skin of left upper eyelid, including canthus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C44.1392",
+    "descripcion": "Sebaceous cell carcinoma of skin of left lower eyelid, including canthus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C44.90",
+    "descripcion": "Unspecified malignant neoplasm of skin, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C44.99",
+    "descripcion": "Other specified malignant neoplasm of skin, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C45.0",
+    "descripcion": "Mesothelioma of pleura",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C45.1",
+    "descripcion": "Mesothelioma of peritoneum",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C45.2",
+    "descripcion": "Mesothelioma of pericardium",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C45.7",
+    "descripcion": "Mesothelioma of other sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C45.9",
+    "descripcion": "Mesothelioma, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C46.0",
+    "descripcion": "Kaposi's sarcoma of skin",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C46.1",
+    "descripcion": "Kaposi's sarcoma of soft tissue",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C46.2",
+    "descripcion": "Kaposi's sarcoma of palate",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C46.3",
+    "descripcion": "Kaposi's sarcoma of lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C46.4",
+    "descripcion": "Kaposi’s sarcoma of gastrointestinal sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C46.50",
+    "descripcion": "Kaposi's sarcoma of unspecified lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C46.51",
+    "descripcion": "Kaposi's sarcoma of right lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C46.52",
+    "descripcion": "Kaposi's sarcoma of left lung",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C46.7",
+    "descripcion": "Kaposi's sarcoma of other sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C46.9",
+    "descripcion": "Kaposi's sarcoma, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C47.0",
+    "descripcion": "Malignant neoplasm of peripheral nerves of head, face and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C47.1",
+    "descripcion": "Malignant neoplasm of peripheral nerves of upper limb, including shoulder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C47.10",
+    "descripcion": "Malignant neoplasm of peripheral nerves of unspecified upper limb, including shoulder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C47.11",
+    "descripcion": "Malignant neoplasm of peripheral nerves of right upper limb, including shoulder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C47.12",
+    "descripcion": "Malignant neoplasm of peripheral nerves of left upper limb, including shoulder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C47.20",
+    "descripcion": "Malignant neoplasm of peripheral nerves of unspecified lower limb, including hip",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C47.21",
+    "descripcion": "Malignant neoplasm of peripheral nerves of right lower limb, including hip",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C47.22",
+    "descripcion": "Malignant neoplasm of peripheral nerves of left lower limb, including hip",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C47.3",
+    "descripcion": "Malignant neoplasm of peripheral nerves of thorax",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C47.4",
+    "descripcion": "Malignant neoplasm of peripheral nerves of abdomen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C47.5",
+    "descripcion": "Malignant neoplasm of peripheral nerves of pelvis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C47.6",
+    "descripcion": "Malignant neoplasm of peripheral nerves of trunk, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C47.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of peripheral nerves and autonomic nervous system",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C47.9",
+    "descripcion": "Malignant neoplasm of peripheral nerves and autonomic nervous system, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C48.0",
+    "descripcion": "Malignant neoplasm of retroperitoneum",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C48.1",
+    "descripcion": "Malignant neoplasm of specified parts of peritoneum",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C48.2",
+    "descripcion": "Malignant neoplasm of peritoneum, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C48.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of retroperitoneum and peritoneum",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C49.0",
+    "descripcion": "Malignant neoplasm of connective and soft tissue of head, face and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C49.10",
+    "descripcion": "Malignant neoplasm of connective and soft tissue of unspecified upper limb, including shoulder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C49.11",
+    "descripcion": "Malignant neoplasm of connective and soft tissue of right upper limb, including shoulder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C49.12",
+    "descripcion": "Malignant neoplasm of connective and soft tissue of left upper limb, including shoulder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C49.20",
+    "descripcion": "Malignant neoplasm of connective and soft tissue of unspecified lower limb, including hip",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C49.21",
+    "descripcion": "Malignant neoplasm of connective and soft tissue of right lower limb, including hip",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C49.22",
+    "descripcion": "Malignant neoplasm of connective and soft tissue of left lower limb, including hip",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C49.3",
+    "descripcion": "Malignant neoplasm of connective and soft tissue of thorax",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C49.4",
+    "descripcion": "Malignant neoplasm of connective and soft tissue of abdomen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C49.5",
+    "descripcion": "Malignant neoplasm of connective and soft tissue of pelvis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C49.6",
+    "descripcion": "Malignant neoplasm of connective and soft tissue of trunk, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C49.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of connective and soft tissue",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C49.9",
+    "descripcion": "Malignant neoplasm of connective and soft tissue, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.011",
+    "descripcion": "Malignant neoplasm of nipple and areola, right female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.012",
+    "descripcion": "Malignant neoplasm of nipple and areola, left female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.019",
+    "descripcion": "Malignant neoplasm of nipple and areola, unspecified female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.021",
+    "descripcion": "Malignant neoplasm of nipple and areola, right male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.022",
+    "descripcion": "Malignant neoplasm of nipple and areola, left male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.029",
+    "descripcion": "Malignant neoplasm of nipple and areola, unspecified male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.111",
+    "descripcion": "Malignant neoplasm of central portion of right female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.112",
+    "descripcion": "Malignant neoplasm of central portion of left female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.119",
+    "descripcion": "Malignant neoplasm of central portion of unspecified female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.121",
+    "descripcion": "Malignant neoplasm of central portion of right male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.122",
+    "descripcion": "Malignant neoplasm of central portion of left male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.129",
+    "descripcion": "Malignant neoplasm of central portion of unspecified male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.211",
+    "descripcion": "Malignant neoplasm of upper-inner quadrant of right female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.212",
+    "descripcion": "Malignant neoplasm of upper-inner quadrant of left female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.219",
+    "descripcion": "Malignant neoplasm of upper-inner quadrant of unspecified female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.221",
+    "descripcion": "Malignant neoplasm of upper-inner quadrant of right male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.222",
+    "descripcion": "Malignant neoplasm of upper-inner quadrant of left male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.229",
+    "descripcion": "Malignant neoplasm of upper-inner quadrant of unspecified male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.311",
+    "descripcion": "Malignant neoplasm of lower-inner quadrant of right female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.312",
+    "descripcion": "Malignant neoplasm of lower-inner quadrant of left female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.319",
+    "descripcion": "Malignant neoplasm of lower-inner quadrant of unspecified female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.321",
+    "descripcion": "Malignant neoplasm of lower-inner quadrant of right male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.322",
+    "descripcion": "Malignant neoplasm of lower-inner quadrant of left male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.329",
+    "descripcion": "Malignant neoplasm of lower-inner quadrant of unspecified male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.411",
+    "descripcion": "Malignant neoplasm of upper-outer quadrant of right female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.412",
+    "descripcion": "Malignant neoplasm of upper-outer quadrant of left female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.419",
+    "descripcion": "Malignant neoplasm of upper-outer quadrant of unspecified female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.421",
+    "descripcion": "Malignant neoplasm of upper-outer quadrant of right male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.422",
+    "descripcion": "Malignant neoplasm of upper-outer quadrant of left male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.429",
+    "descripcion": "Malignant neoplasm of upper-outer quadrant of unspecified male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.511",
+    "descripcion": "Malignant neoplasm of lower-outer quadrant of right female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.512",
+    "descripcion": "Malignant neoplasm of lower-outer quadrant of left female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.519",
+    "descripcion": "Malignant neoplasm of lower-outer quadrant of unspecified female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.521",
+    "descripcion": "Malignant neoplasm of lower-outer quadrant of right male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.522",
+    "descripcion": "Malignant neoplasm of lower-outer quadrant of left male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.529",
+    "descripcion": "Malignant neoplasm of lower-outer quadrant of unspecified male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.611",
+    "descripcion": "Malignant neoplasm of axillary tail of right female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.612",
+    "descripcion": "Malignant neoplasm of axillary tail of left female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.619",
+    "descripcion": "Malignant neoplasm of axillary tail of unspecified female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.621",
+    "descripcion": "Malignant neoplasm of axillary tail of right male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.622",
+    "descripcion": "Malignant neoplasm of axillary tail of left male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.629",
+    "descripcion": "Malignant neoplasm of axillary tail of unspecified male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.811",
+    "descripcion": "Malignant neoplasm of overlapping sites of right female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.812",
+    "descripcion": "Malignant neoplasm of overlapping sites of left female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.819",
+    "descripcion": "Malignant neoplasm of overlapping sites of unspecified female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.821",
+    "descripcion": "Malignant neoplasm of overlapping sites of right male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.822",
+    "descripcion": "Malignant neoplasm of overlapping sites of left male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.829",
+    "descripcion": "Malignant neoplasm of overlapping sites of unspecified male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.911",
+    "descripcion": "Malignant neoplasm of unspecified site of right female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.912",
+    "descripcion": "Malignant neoplasm of unspecified site of left female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.919",
+    "descripcion": "Malignant neoplasm of unspecified site of unspecified female breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.921",
+    "descripcion": "Malignant neoplasm of unspecified site of right male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.922",
+    "descripcion": "Malignant neoplasm of unspecified site of left male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C50.929",
+    "descripcion": "Malignant neoplasm of unspecified site of unspecified male breast",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C51.0",
+    "descripcion": "Malignant neoplasm of labium majus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C51.1",
+    "descripcion": "Malignant neoplasm of labium minus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C51.2",
+    "descripcion": "Malignant neoplasm of clitoris",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C51.8",
+    "descripcion": "Malignant neoplasm of other specified female genital organs",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C51.9",
+    "descripcion": "Malignant neoplasm of vulva, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C52",
+    "descripcion": "MALIGNANT NEOPLASM OF VAGINA",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C53.0",
+    "descripcion": "Malignant neoplasm of endocervix",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C53.1",
+    "descripcion": "Malignant neoplasm of exocervix",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C53.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of cervix uteri",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C53.9",
+    "descripcion": "Malignant neoplasm of cervix uteri, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C54.0",
+    "descripcion": "Malignant neoplasm of isthmus uteri",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C54.1",
+    "descripcion": "Malignant neoplasm of endometrium",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C54.2",
+    "descripcion": "Malignant neoplasm of myometrium",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C54.3",
+    "descripcion": "Malignant neoplasm of fundus uteri",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C54.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of corpus uteri",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C54.9",
+    "descripcion": "Malignant neoplasm of corpus uteri, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C55",
+    "descripcion": "MALIGNANT NEOPLASM OF UTERUS, PART UNSPECIFIED",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C56.1",
+    "descripcion": "Malignant neoplasm of right ovary",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C56.2",
+    "descripcion": "Malignant neoplasm of left ovary",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C56.9",
+    "descripcion": "Malignant neoplasm of unspecified ovary",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C57.00",
+    "descripcion": "Malignant neoplasm of unspecified fallopian tube",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C57.01",
+    "descripcion": "Malignant neoplasm of right fallopian tube",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C57.02",
+    "descripcion": "Malignant neoplasm of left fallopian tube",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C57.10",
+    "descripcion": "Malignant neoplasm of unspecified broad ligament",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C57.11",
+    "descripcion": "Malignant neoplasm of right broad ligament",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C57.12",
+    "descripcion": "Malignant neoplasm of left broad ligament",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C57.20",
+    "descripcion": "Malignant neoplasm of unspecified round ligament",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C57.21",
+    "descripcion": "Malignant neoplasm of right round ligament",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C57.22",
+    "descripcion": "Malignant neoplasm of left round ligament",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C57.3",
+    "descripcion": "Malignant neoplasm of parametrium",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C57.4",
+    "descripcion": "Malignant neoplasm of uterine adnexa, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C57.7",
+    "descripcion": "Malignant neoplasm of overlapping sites of vulva",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C57.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of female genital organs",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C57.9",
+    "descripcion": "Malignant neoplasm of female genital organ, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C58",
+    "descripcion": "MALIGNANT NEOPLASM OF PLACENTA",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C60.0",
+    "descripcion": "Malignant neoplasm of prepuce",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C60.1",
+    "descripcion": "Malignant neoplasm of glans penis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C60.2",
+    "descripcion": "Malignant neoplasm of body of penis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C60.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of penis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C60.9",
+    "descripcion": "Malignant neoplasm of penis, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C61",
+    "descripcion": "MALIGNANT NEOPLASM OF PROSTATE",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C62.00",
+    "descripcion": "Malignant neoplasm of unspecified undescended testis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C62.01",
+    "descripcion": "Malignant neoplasm of undescended right testis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C62.02",
+    "descripcion": "Malignant neoplasm of undescended left testis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C62.10",
+    "descripcion": "Malignant neoplasm of unspecified descended testis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C62.11",
+    "descripcion": "Malignant neoplasm of descended right testis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C62.12",
+    "descripcion": "Malignant neoplasm of descended left testis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C62.90",
+    "descripcion": "Malignant neoplasm of unspecified testis, unspecified whether descended or undescended",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C62.91",
+    "descripcion": "Malignant neoplasm of right testis, unspecified whether descended or undescended",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C62.92",
+    "descripcion": "Malignant neoplasm of left testis, unspecified whether descended or undescended",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C63.00",
+    "descripcion": "Malignant neoplasm of unspecified epididymis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C63.01",
+    "descripcion": "Malignant neoplasm of right epididymis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C63.02",
+    "descripcion": "Malignant neoplasm of left epididymis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C63.10",
+    "descripcion": "Malignant neoplasm of unspecified spermatic cord",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C63.11",
+    "descripcion": "Malignant neoplasm of right spermatic cord",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C63.12",
+    "descripcion": "Malignant neoplasm of left spermatic cord",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C63.2",
+    "descripcion": "Malignant neoplasm of scrotum",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C63.7",
+    "descripcion": "Malignant neoplasm of other specified male genital organs",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C63.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of male genital organs",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C63.9",
+    "descripcion": "Malignant neoplasm of male genital organ, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C64.1",
+    "descripcion": "Malignant neoplasm of right kidney, except renal pelvis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C64.2",
+    "descripcion": "Malignant neoplasm of left kidney, except renal pelvis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C64.9",
+    "descripcion": "Malignant neoplasm of unspecified kidney, except renal pelvis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C65.1",
+    "descripcion": "Malignant neoplasm of right renal pelvis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C65.2",
+    "descripcion": "Malignant neoplasm of left renal pelvis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C65.9",
+    "descripcion": "Malignant neoplasm of unspecified renal pelvis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C66.1",
+    "descripcion": "Malignant neoplasm of right ureter",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C66.2",
+    "descripcion": "Malignant neoplasm of left ureter",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C66.9",
+    "descripcion": "Malignant neoplasm of unspecified ureter",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C67.0",
+    "descripcion": "Malignant neoplasm of trigone of bladder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C67.1",
+    "descripcion": "Malignant neoplasm of dome of bladder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C67.2",
+    "descripcion": "Malignant neoplasm of lateral wall of bladder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C67.3",
+    "descripcion": "Malignant neoplasm of anterior wall of bladder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C67.4",
+    "descripcion": "Malignant neoplasm of posterior wall of bladder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C67.5",
+    "descripcion": "Malignant neoplasm of bladder neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C67.6",
+    "descripcion": "Malignant neoplasm of ureteric orifice",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C67.7",
+    "descripcion": "Malignant neoplasm of urachus",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C67.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of bladder",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C67.9",
+    "descripcion": "Malignant neoplasm of bladder, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C68.0",
+    "descripcion": "Malignant neoplasm of urethra",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C68.1",
+    "descripcion": "Malignant neoplasm of paraurethral glands",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C68.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of urinary organs",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C68.9",
+    "descripcion": "Malignant neoplasm of urinary organ, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.00",
+    "descripcion": "Malignant neoplasm of unspecified conjunctiva",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.01",
+    "descripcion": "Malignant neoplasm of right conjunctiva",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.02",
+    "descripcion": "Malignant neoplasm of left conjunctiva",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.10",
+    "descripcion": "Malignant neoplasm of unspecified cornea",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.11",
+    "descripcion": "Malignant neoplasm of right cornea",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.12",
+    "descripcion": "Malignant neoplasm of left cornea",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.20",
+    "descripcion": "Malignant neoplasm of unspecified retina",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.21",
+    "descripcion": "Malignant neoplasm of right retina",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.22",
+    "descripcion": "Malignant neoplasm of left retina",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.30",
+    "descripcion": "Malignant neoplasm of unspecified choroid",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.31",
+    "descripcion": "Malignant neoplasm of right choroid",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.32",
+    "descripcion": "Malignant neoplasm of left choroid",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.40",
+    "descripcion": "Malignant neoplasm of unspecified ciliary body",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.41",
+    "descripcion": "Malignant neoplasm of right ciliary body",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.42",
+    "descripcion": "Malignant neoplasm of left ciliary body",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.50",
+    "descripcion": "Malignant neoplasm of unspecified lacrimal gland and duct",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.51",
+    "descripcion": "Malignant neoplasm of right lacrimal gland and duct",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.52",
+    "descripcion": "Malignant neoplasm of left lacrimal gland and duct",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.60",
+    "descripcion": "Malignant neoplasm of unspecified orbit",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.61",
+    "descripcion": "Malignant neoplasm of right orbit",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.62",
+    "descripcion": "Malignant neoplasm of left orbit",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.80",
+    "descripcion": "Malignant neoplasm of overlapping sites of unspecified eye and adnexa",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.81",
+    "descripcion": "Malignant neoplasm of overlapping sites of right eye and adnexa",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.82",
+    "descripcion": "Malignant neoplasm of overlapping sites of left eye and adnexa",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.90",
+    "descripcion": "Malignant neoplasm of unspecified site of unspecified eye",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.91",
+    "descripcion": "Malignant neoplasm of unspecified site of right eye",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C69.92",
+    "descripcion": "Malignant neoplasm of unspecified site of left eye",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C70.0",
+    "descripcion": "Malignant neoplasm of cerebral meninges",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C70.1",
+    "descripcion": "Malignant neoplasm of spinal meninges",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C70.9",
+    "descripcion": "Malignant neoplasm of meninges, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C71.0",
+    "descripcion": "Malignant neoplasm of cerebrum, except lobes and ventricles",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C71.1",
+    "descripcion": "Malignant neoplasm of frontal lobe",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C71.2",
+    "descripcion": "Malignant neoplasm of temporal lobe",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C71.3",
+    "descripcion": "Malignant neoplasm of parietal lobe",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C71.4",
+    "descripcion": "Malignant neoplasm of occipital lobe",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C71.5",
+    "descripcion": "Malignant neoplasm of cerebral ventricle",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C71.6",
+    "descripcion": "Malignant neoplasm of cerebellum",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C71.7",
+    "descripcion": "Malignant neoplasm of brain stem",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C71.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of brain",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C71.9",
+    "descripcion": "Malignant neoplasm of brain, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C72.0",
+    "descripcion": "Malignant neoplasm of spinal cord",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C72.1",
+    "descripcion": "Malignant neoplasm of cauda equina",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C72.20",
+    "descripcion": "Malignant neoplasm of unspecified olfactory nerve",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C72.21",
+    "descripcion": "Malignant neoplasm of right olfactory nerve",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C72.22",
+    "descripcion": "Malignant neoplasm of left olfactory nerve",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C72.30",
+    "descripcion": "Malignant neoplasm of unspecified optic nerve",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C72.31",
+    "descripcion": "Malignant neoplasm of right optic nerve",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C72.32",
+    "descripcion": "Malignant neoplasm of left optic nerve",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C72.40",
+    "descripcion": "Malignant neoplasm of unspecified acoustic nerve",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C72.41",
+    "descripcion": "Malignant neoplasm of right acoustic nerve",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C72.42",
+    "descripcion": "Malignant neoplasm of left acoustic nerve",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C72.50",
+    "descripcion": "Malignant neoplasm of unspecified cranial nerve",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C72.59",
+    "descripcion": "Malignant neoplasm of other cranial nerves",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C72.9",
+    "descripcion": "Malignant neoplasm of central nervous system, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C73",
+    "descripcion": "MALIGNANT NEOPLASM OF THYROID GLAND",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C74.00",
+    "descripcion": "Malignant neoplasm of cortex of unspecified adrenal gland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C74.01",
+    "descripcion": "Malignant neoplasm of cortex of right adrenal gland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C74.02",
+    "descripcion": "Malignant neoplasm of cortex of left adrenal gland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C74.10",
+    "descripcion": "Malignant neoplasm of medulla of unspecified adrenal gland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C74.11",
+    "descripcion": "Malignant neoplasm of medulla of right adrenal gland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C74.12",
+    "descripcion": "Malignant neoplasm of medulla of left adrenal gland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C74.90",
+    "descripcion": "Malignant neoplasm of unspecified part of unspecified adrenal gland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C74.91",
+    "descripcion": "Malignant neoplasm of unspecified part of right adrenal gland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C74.92",
+    "descripcion": "Malignant neoplasm of unspecified part of left adrenal gland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C75.0",
+    "descripcion": "Malignant neoplasm of parathyroid gland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C75.1",
+    "descripcion": "Malignant neoplasm of pituitary gland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C75.2",
+    "descripcion": "Malignant neoplasm of craniopharyngeal duct",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C75.3",
+    "descripcion": "Malignant neoplasm of pineal gland",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C75.4",
+    "descripcion": "Malignant neoplasm of carotid body",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C75.5",
+    "descripcion": "Malignant neoplasm of aortic body and other paraganglia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C75.8",
+    "descripcion": "Malignant neoplasm with pluriglanduar involvement, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C75.9",
+    "descripcion": "Malignant neoplasm of endocrine gland, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C76.0",
+    "descripcion": "Malignant neoplasm of head, face and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C76.1",
+    "descripcion": "Malignant neoplasm of thorax",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C76.2",
+    "descripcion": "Malignant neoplasm of abdomen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C76.3",
+    "descripcion": "Malignant neoplasm pelvis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C76.40",
+    "descripcion": "Malignant neoplasm of unspecified upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C76.41",
+    "descripcion": "Malignant neoplasm of right upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C76.42",
+    "descripcion": "Malignant neoplasm of left upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C76.50",
+    "descripcion": "Malignant neoplasm of unspecified lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C76.51",
+    "descripcion": "Malignant neoplasm of right lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C76.52",
+    "descripcion": "Malignant neoplasm of left lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C76.8",
+    "descripcion": "Malignant neoplasm of overlapping sites of other and ill-defined sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C80.0",
+    "descripcion": "Disseminated malignant neoplasm, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C80.1",
+    "descripcion": "Malignant (primary) neoplasm, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C80.2",
+    "descripcion": "Malignant neoplasm associated with transplanted organ",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.00",
+    "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.01",
+    "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.02",
+    "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.03",
+    "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.04",
+    "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.05",
+    "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.06",
+    "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.07",
+    "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.08",
+    "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.09",
+    "descripcion": "Nodular lymphocyte predominant Hodgkin lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.10",
+    "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.11",
+    "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.12",
+    "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.13",
+    "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.14",
+    "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.15",
+    "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.16",
+    "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.17",
+    "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.18",
+    "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.19",
+    "descripcion": "Nodular sclerosis classical Hodgkin lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.20",
+    "descripcion": "Mixed cellularity classical Hodgkin lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.21",
+    "descripcion": "Mixed cellularity classical Hodgkin lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.22",
+    "descripcion": "Mixed cellularity classical Hodgkin lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.23",
+    "descripcion": "Mixed cellularity classical Hodgkin lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.24",
+    "descripcion": "Mixed cellularity classical Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.25",
+    "descripcion": "Mixed cellularity classical Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.26",
+    "descripcion": "Mixed cellularity classical Hodgkin lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.27",
+    "descripcion": "Mixed cellularity classical Hodgkin lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.28",
+    "descripcion": "Mixed cellularity classical Hodgkin lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.29",
+    "descripcion": "Mixed cellularity classical Hodgkin lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.30",
+    "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.31",
+    "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.32",
+    "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.33",
+    "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.34",
+    "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.35",
+    "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.36",
+    "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.37",
+    "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.38",
+    "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.39",
+    "descripcion": "Lymphocyte depleted classical Hodgkin lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.40",
+    "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.41",
+    "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.42",
+    "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.43",
+    "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.44",
+    "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.45",
+    "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.46",
+    "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.47",
+    "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.48",
+    "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.49",
+    "descripcion": "Lymphocyte-rich classical Hodgkin lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.70",
+    "descripcion": "Other classical Hodgkin lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.71",
+    "descripcion": "Other classical Hodgkin lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.72",
+    "descripcion": "Other classical Hodgkin lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.73",
+    "descripcion": "Other classical Hodgkin lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.74",
+    "descripcion": "Other classical Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.75",
+    "descripcion": "Other classical Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.76",
+    "descripcion": "Other classical Hodgkin lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.77",
+    "descripcion": "Other classical Hodgkin lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.78",
+    "descripcion": "Other classical Hodgkin lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.79",
+    "descripcion": "Other classical Hodgkin lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.90",
+    "descripcion": "Hodgkin lymphoma, unspecified, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.91",
+    "descripcion": "Hodgkin lymphoma, unspecified, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.92",
+    "descripcion": "Hodgkin lymphoma, unspecified, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.93",
+    "descripcion": "Hodgkin lymphoma, unspecified, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.94",
+    "descripcion": "Hodgkin lymphoma, unspecified, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.95",
+    "descripcion": "Hodgkin lymphoma, unspecified, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.96",
+    "descripcion": "Hodgkin lymphoma, unspecified, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.97",
+    "descripcion": "Hodgkin lymphoma, unspecified, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.98",
+    "descripcion": "Hodgkin lymphoma, unspecified, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C81.99",
+    "descripcion": "Hodgkin lymphoma, unspecified, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.00",
+    "descripcion": "Follicular lymphoma grade I, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.01",
+    "descripcion": "Follicular lymphoma grade I, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.02",
+    "descripcion": "Follicular lymphoma grade I, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.03",
+    "descripcion": "Follicular lymphoma grade I, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.04",
+    "descripcion": "Follicular lymphoma grade I, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.05",
+    "descripcion": "Follicular lymphoma grade I, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.06",
+    "descripcion": "Follicular lymphoma grade I, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.07",
+    "descripcion": "Follicular lymphoma grade I, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.08",
+    "descripcion": "Follicular lymphoma grade I, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.09",
+    "descripcion": "Follicular lymphoma grade I, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.10",
+    "descripcion": "Follicular lymphoma grade II, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.11",
+    "descripcion": "Follicular lymphoma grade II, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.12",
+    "descripcion": "Follicular lymphoma grade II, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.13",
+    "descripcion": "Follicular lymphoma grade II, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.14",
+    "descripcion": "Follicular lymphoma grade II, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.15",
+    "descripcion": "Follicular lymphoma grade II, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.16",
+    "descripcion": "Follicular lymphoma grade II, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.17",
+    "descripcion": "Follicular lymphoma grade II, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.18",
+    "descripcion": "Follicular lymphoma grade II, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.19",
+    "descripcion": "Follicular lymphoma grade II, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.20",
+    "descripcion": "Follicular lymphoma grade III, unspecified, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.21",
+    "descripcion": "Follicular lymphoma grade III, unspecified, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.22",
+    "descripcion": "Follicular lymphoma grade III, unspecified, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.23",
+    "descripcion": "Follicular lymphoma grade III, unspecified, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.24",
+    "descripcion": "Follicular lymphoma grade III, unspecified, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.25",
+    "descripcion": "Follicular lymphoma grade III, unspecified, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.26",
+    "descripcion": "Follicular lymphoma grade III, unspecified, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.27",
+    "descripcion": "Follicular lymphoma grade III, unspecified, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.28",
+    "descripcion": "Follicular lymphoma grade III, unspecified, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.29",
+    "descripcion": "Follicular lymphoma grade III, unspecified, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.30",
+    "descripcion": "Follicular lymphoma grade IIIa, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.31",
+    "descripcion": "Follicular lymphoma grade IIIa, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.32",
+    "descripcion": "Follicular lymphoma grade IIIa, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.33",
+    "descripcion": "Follicular lymphoma grade IIIa, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.34",
+    "descripcion": "Follicular lymphoma grade IIIa, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.35",
+    "descripcion": "Follicular lymphoma grade IIIa, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.36",
+    "descripcion": "Follicular lymphoma grade IIIa, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.37",
+    "descripcion": "Follicular lymphoma grade IIIa, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.38",
+    "descripcion": "Follicular lymphoma grade IIIa, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.39",
+    "descripcion": "Follicular lymphoma grade IIIa, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.40",
+    "descripcion": "Follicular lymphoma grade IIIb, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.41",
+    "descripcion": "Follicular lymphoma grade IIIb, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.42",
+    "descripcion": "Follicular lymphoma grade IIIb, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.43",
+    "descripcion": "Follicular lymphoma grade IIIb, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.44",
+    "descripcion": "Follicular lymphoma grade IIIb, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.45",
+    "descripcion": "Follicular lymphoma grade IIIb, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.46",
+    "descripcion": "Follicular lymphoma grade IIIb, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.47",
+    "descripcion": "Follicular lymphoma grade IIIb, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.48",
+    "descripcion": "Follicular lymphoma grade IIIb, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.49",
+    "descripcion": "Follicular lymphoma grade IIIb, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.50",
+    "descripcion": "Diffuse follicle center lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.51",
+    "descripcion": "Diffuse follicle center lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.52",
+    "descripcion": "Diffuse follicle center lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.53",
+    "descripcion": "Diffuse follicle center lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.54",
+    "descripcion": "Diffuse follicle center lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.55",
+    "descripcion": "Diffuse follicle center lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.56",
+    "descripcion": "Diffuse follicle center lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.57",
+    "descripcion": "Diffuse follicle center lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.58",
+    "descripcion": "Diffuse follicle center lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.59",
+    "descripcion": "Diffuse follicle center lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.60",
+    "descripcion": "Cutaneous follicle center lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.61",
+    "descripcion": "Cutaneous follicle center lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.62",
+    "descripcion": "Cutaneous follicle center lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.63",
+    "descripcion": "Cutaneous follicle center lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.64",
+    "descripcion": "Cutaneous follicle center lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.65",
+    "descripcion": "Cutaneous follicle center lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.66",
+    "descripcion": "Cutaneous follicle center lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.67",
+    "descripcion": "Cutaneous follicle center lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.68",
+    "descripcion": "Cutaneous follicle center lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.69",
+    "descripcion": "Cutaneous follicle center lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.80",
+    "descripcion": "Other types of follicular lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.81",
+    "descripcion": "Other types of follicular lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.82",
+    "descripcion": "Other types of follicular lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.83",
+    "descripcion": "Other types of follicular lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.84",
+    "descripcion": "Other types of follicular lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.85",
+    "descripcion": "Other types of follicular lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.86",
+    "descripcion": "Other types of follicular lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.87",
+    "descripcion": "Other types of follicular lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.88",
+    "descripcion": "Other types of follicular lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.89",
+    "descripcion": "Other types of follicular lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.90",
+    "descripcion": "Follicular lymphoma, unspecified, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.91",
+    "descripcion": "Follicular lymphoma, unspecified, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.92",
+    "descripcion": "Follicular lymphoma, unspecified, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.93",
+    "descripcion": "Follicular lymphoma, unspecified, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.94",
+    "descripcion": "Follicular lymphoma, unspecified, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.95",
+    "descripcion": "Follicular lymphoma, unspecified, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.96",
+    "descripcion": "Follicular lymphoma, unspecified, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.97",
+    "descripcion": "Follicular lymphoma, unspecified, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.98",
+    "descripcion": "Follicular lymphoma, unspecified, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C82.99",
+    "descripcion": "Follicular lymphoma, unspecified, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.00",
+    "descripcion": "Small cell B-cell lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.01",
+    "descripcion": "Small cell B-cell lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.02",
+    "descripcion": "Small cell B-cell lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.03",
+    "descripcion": "Small cell B-cell lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.04",
+    "descripcion": "Small cell B-cell lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.05",
+    "descripcion": "Small cell B-cell lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.06",
+    "descripcion": "Small cell B-cell lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.07",
+    "descripcion": "Small cell B-cell lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.08",
+    "descripcion": "Small cell B-cell lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.09",
+    "descripcion": "Small cell B-cell lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.10",
+    "descripcion": "Mantle cell lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.11",
+    "descripcion": "Mantle cell lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.12",
+    "descripcion": "Mantle cell lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.13",
+    "descripcion": "Mantle cell lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.14",
+    "descripcion": "Mantle cell lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.15",
+    "descripcion": "Mantle cell lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.16",
+    "descripcion": "Mantle cell lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.17",
+    "descripcion": "Mantle cell lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.18",
+    "descripcion": "Mantle cell lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.19",
+    "descripcion": "Mantle cell lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.30",
+    "descripcion": "Diffuse large B-cell lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.31",
+    "descripcion": "Diffuse large B-cell lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.32",
+    "descripcion": "Diffuse large B-cell lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.33",
+    "descripcion": "Diffuse large B-cell lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.34",
+    "descripcion": "Diffuse large B-cell lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.35",
+    "descripcion": "Diffuse large B-cell lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.36",
+    "descripcion": "Diffuse large B-cell lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.37",
+    "descripcion": "Diffuse large B-cell lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.38",
+    "descripcion": "Diffuse large B-cell lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.39",
+    "descripcion": "Diffuse large B-cell lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.50",
+    "descripcion": "Lymphoblastic (diffuse) lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.51",
+    "descripcion": "Lymphoblastic (diffuse) lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.52",
+    "descripcion": "Lymphoblastic (diffuse) lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.53",
+    "descripcion": "Lymphoblastic (diffuse) lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.54",
+    "descripcion": "Lymphoblastic (diffuse) lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.55",
+    "descripcion": "Lymphoblastic (diffuse) lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.56",
+    "descripcion": "Lymphoblastic (diffuse) lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.57",
+    "descripcion": "Lymphoblastic (diffuse) lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.58",
+    "descripcion": "Lymphoblastic (diffuse) lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.59",
+    "descripcion": "Lymphoblastic (diffuse) lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.70",
+    "descripcion": "Burkitt lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.71",
+    "descripcion": "Burkitt lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.72",
+    "descripcion": "Burkitt lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.73",
+    "descripcion": "Burkitt lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.74",
+    "descripcion": "Burkitt lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.75",
+    "descripcion": "Burkitt lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.76",
+    "descripcion": "Burkitt lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.77",
+    "descripcion": "Burkitt lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.78",
+    "descripcion": "Burkitt lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.79",
+    "descripcion": "Burkitt lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.80",
+    "descripcion": "Other non-follicular lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.81",
+    "descripcion": "Other non-follicular lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.82",
+    "descripcion": "Other non-follicular lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.83",
+    "descripcion": "Other non-follicular lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.84",
+    "descripcion": "Other non-follicular lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.85",
+    "descripcion": "Other non-follicular lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.86",
+    "descripcion": "Other non-follicular lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.87",
+    "descripcion": "Other non-follicular lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.88",
+    "descripcion": "Other non-follicular lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.89",
+    "descripcion": "Other non-follicular lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.90",
+    "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.91",
+    "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.92",
+    "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.93",
+    "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.94",
+    "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.95",
+    "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.96",
+    "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.97",
+    "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.98",
+    "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C83.99",
+    "descripcion": "Non-follicular (diffuse) lymphoma, unspecified, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.00",
+    "descripcion": "Mycosis fungoides, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.01",
+    "descripcion": "Mycosis fungoides, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.02",
+    "descripcion": "Mycosis fungoides, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.03",
+    "descripcion": "Mycosis fungoides, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.04",
+    "descripcion": "Mycosis fungoides, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.05",
+    "descripcion": "Mycosis fungoides, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.06",
+    "descripcion": "Mycosis fungoides, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.07",
+    "descripcion": "Mycosis fungoides, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.08",
+    "descripcion": "Mycosis fungoides, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.09",
+    "descripcion": "Mycosis fungoides, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.10",
+    "descripcion": "Sezary disease, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.11",
+    "descripcion": "Sezary disease, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.12",
+    "descripcion": "Sezary disease, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.13",
+    "descripcion": "Sezary disease, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.14",
+    "descripcion": "Sezary disease, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.15",
+    "descripcion": "Sezary disease, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.16",
+    "descripcion": "Sezary disease, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.17",
+    "descripcion": "Sezary disease, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.18",
+    "descripcion": "Sezary disease, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.19",
+    "descripcion": "Sezary disease, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.40",
+    "descripcion": "Peripheral T-cell lymphoma, not classified, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.41",
+    "descripcion": "Peripheral T-cell lymphoma, not classified, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.42",
+    "descripcion": "Peripheral T-cell lymphoma, not classified, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.43",
+    "descripcion": "Peripheral T-cell lymphoma, not classified, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.44",
+    "descripcion": "Peripheral T-cell lymphoma, not classified, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.45",
+    "descripcion": "Peripheral T-cell lymphoma, not classified, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.46",
+    "descripcion": "Peripheral T-cell lymphoma, not classified, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.47",
+    "descripcion": "Peripheral T-cell lymphoma, not classified, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.48",
+    "descripcion": "Peripheral T-cell lymphoma, not classified, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.49",
+    "descripcion": "Peripheral T-cell lymphoma, not classified, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.60",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-positive, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.61",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-positive, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.62",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-positive, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.63",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-positive, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.64",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-positive, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.65",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-positive, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.66",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-positive, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.67",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-positive, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.68",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-positive, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.69",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-positive, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.70",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-negative, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.71",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-negative, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.72",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-negative, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.73",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-negative, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.74",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-negative, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.75",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-negative, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.76",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-negative, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.77",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-negative, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.78",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-negative, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.79",
+    "descripcion": "Anaplastic large cell lymphoma, ALK-negative, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.90",
+    "descripcion": "Mature T/NK-cell lymphomas, unspecified, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.91",
+    "descripcion": "Mature T/NK-cell lymphomas, unspecified, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.92",
+    "descripcion": "Mature T/NK-cell lymphomas, unspecified, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.93",
+    "descripcion": "Mature T/NK-cell lymphomas, unspecified, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.94",
+    "descripcion": "Mature T/NK-cell lymphomas, unspecified, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.95",
+    "descripcion": "Mature T/NK-cell lymphomas, unspecified, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.96",
+    "descripcion": "Mature T/NK-cell lymphomas, unspecified, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.97",
+    "descripcion": "Mature T/NK-cell lymphomas, unspecified, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.98",
+    "descripcion": "Mature T/NK-cell lymphomas, unspecified, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C84.99",
+    "descripcion": "Mature T/NK-cell lymphomas, unspecified, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.10",
+    "descripcion": "Unspecified B-cell lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.11",
+    "descripcion": "Unspecified B-cell lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.12",
+    "descripcion": "Unspecified B-cell lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.13",
+    "descripcion": "Unspecified B-cell lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.14",
+    "descripcion": "Unspecified B-cell lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.15",
+    "descripcion": "Unspecified B-cell lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.16",
+    "descripcion": "Unspecified B-cell lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.17",
+    "descripcion": "Unspecified B-cell lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.18",
+    "descripcion": "Unspecified B-cell lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.19",
+    "descripcion": "Unspecified B-cell lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.20",
+    "descripcion": "Mediastinal (thymic) large B-cell lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.21",
+    "descripcion": "Mediastinal (thymic) large B-cell lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.22",
+    "descripcion": "Mediastinal (thymic) large B-cell lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.23",
+    "descripcion": "Mediastinal (thymic) large B-cell lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.24",
+    "descripcion": "Mediastinal (thymic) large B-cell lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.25",
+    "descripcion": "Mediastinal (thymic) large B-cell lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.26",
+    "descripcion": "Mediastinal (thymic) large B-cell lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.27",
+    "descripcion": "Mediastinal (thymic) large B-cell lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.28",
+    "descripcion": "Mediastinal (thymic) large B-cell lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.29",
+    "descripcion": "Mediastinal (thymic) large B-cell lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.80",
+    "descripcion": "Other specified types of non-Hodgkin lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.81",
+    "descripcion": "Other specified types of non-Hodgkin lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.82",
+    "descripcion": "Other specified types of non-Hodgkin lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.83",
+    "descripcion": "Other specified types of non-Hodgkin lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.84",
+    "descripcion": "Other specified types of non-Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.85",
+    "descripcion": "Other specified types of non-Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.86",
+    "descripcion": "Other specified types of non-Hodgkin lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.87",
+    "descripcion": "Other specified types of non-Hodgkin lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.88",
+    "descripcion": "Other specified types of non-Hodgkin lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.89",
+    "descripcion": "Other specified types of non-Hodgkin lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.90",
+    "descripcion": "Non-Hodgkin lymphoma, unspecified site",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.91",
+    "descripcion": "Non-Hodgkin lymphoma, lymph nodes of head, face, and neck",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.92",
+    "descripcion": "Non-Hodgkin lymphoma, intrathoracic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.93",
+    "descripcion": "Non-Hodgkin lymphoma, intra-abdominal lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.94",
+    "descripcion": "Non-Hodgkin lymphoma, lymph nodes of axilla and upper limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.95",
+    "descripcion": "Non-Hodgkin lymphoma, lymph nodes of inguinal region and lower limb",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.96",
+    "descripcion": "Non-Hodgkin lymphoma, intrapelvic lymph nodes",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.97",
+    "descripcion": "Non-Hodgkin lymphoma, spleen",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.98",
+    "descripcion": "Non-Hodgkin lymphoma, lymph nodes of multiple sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C85.99",
+    "descripcion": "Non-Hodgkin lymphoma, extranodal and solid organ sites",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C86.0",
+    "descripcion": "Extranodal NK/T-cell lymphoma, nasal type",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C86.1",
+    "descripcion": "Hepatosplenic T-cell lymphoma",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C86.2",
+    "descripcion": "Enteropathy-type (intestinal) T-cell lymphoma",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C86.3",
+    "descripcion": "Subcutaneous panniculitis-like T-cell lymphoma",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C86.4",
+    "descripcion": "Blastic NK-cell lymphoma",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C86.5",
+    "descripcion": "Angioimmunoblastic T-cell lymphoma",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C86.6",
+    "descripcion": "Primary cutaneous CD30-positive T-cell proliferation",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C88.0",
+    "descripcion": "Waldenstrom's macroglobulinemia",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C88.2",
+    "descripcion": "Heavy chain disease",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C88.3",
+    "descripcion": "Immunoproliferative small intestinal diseases",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C88.4",
+    "descripcion": "Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue [MALT-lymphoma]",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C88.8",
+    "descripcion": "Other malignant immunoproliferative diseases",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C88.9",
+    "descripcion": "Malignant immunoproliferative disease, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C90.00",
+    "descripcion": "Multiple myeloma not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C90.01",
+    "descripcion": "Multiple myeloma in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C90.02",
+    "descripcion": "Multiple myeloma in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C90.10",
+    "descripcion": "Plasma cell leukemia not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C90.11",
+    "descripcion": "Plasma cell leukemia in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C90.12",
+    "descripcion": "Plasma cell leukemia in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C90.20",
+    "descripcion": "Extramedullary plasmacytoma not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C90.21",
+    "descripcion": "Extramedullary plasmacytoma in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C90.22",
+    "descripcion": "Extramedullary plasmacytoma in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C90.30",
+    "descripcion": "Solitary plasmacytoma not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C90.31",
+    "descripcion": "Solitary plasmacytoma in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C90.32",
+    "descripcion": "Solitary plasmacytoma in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.00",
+    "descripcion": "Acute lymphoblastic leukemia not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.01",
+    "descripcion": "Acute lymphoblastic leukemia, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.02",
+    "descripcion": "Acute lymphoblastic leukemia, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.10",
+    "descripcion": "Chronic lymphocytic leukemia of B-cell type not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.11",
+    "descripcion": "Chronic lymphocytic leukemia of B-cell type in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.12",
+    "descripcion": "Chronic lymphocytic leukemia of B-cell type in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.30",
+    "descripcion": "Prolymphocytic leukemia of B-cell type not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.31",
+    "descripcion": "Prolymphocytic leukemia of B-cell type, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.32",
+    "descripcion": "Prolymphocytic leukemia of B –cell type, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.40",
+    "descripcion": "Hairy cell leukemia not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.41",
+    "descripcion": "Hairy cell leukemia, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.42",
+    "descripcion": "Hairy cell leukemia, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.50",
+    "descripcion": "Adult T-cell lymphoma/leukemia (HTLV-1-associated) not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.51",
+    "descripcion": "Adult T-cell lymphoma/leukemia (HTLV-1-associated) in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.52",
+    "descripcion": "Adult T-cell lymphoma/leukemia (HTLV-1-associated) in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.60",
+    "descripcion": "Prolymphocytic leukemia of T-cell type not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.61",
+    "descripcion": "Prolymphocytic leukemia of T-cell type, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.62",
+    "descripcion": "Prolymphocytic leukemia of T –cell type, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.90",
+    "descripcion": "Lymphoid leukemia, unspecified not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.91",
+    "descripcion": "Lymphoid leukemia, unspecified, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C91.92",
+    "descripcion": "Lymphoid leukemia, unspecified, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.00",
+    "descripcion": "Acute myeloblastic leukemia, not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.01",
+    "descripcion": "Acute myeloblastic leukemia, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.02",
+    "descripcion": "Acute myeloblastic leukemia, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.10",
+    "descripcion": "Chronic myeloid leukemia, BCR/ABL-positive, not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.11",
+    "descripcion": "Chronic myeloid leukemia, BCR/ABL-positive, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.12",
+    "descripcion": "Chronic myeloid leukemia, BCR/ABL-positive, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.20",
+    "descripcion": "Atypical chronic myeloid leukemia, BCR/ABL-negative not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.21",
+    "descripcion": "Atypical chronic myeloid leukemia, BCR/ABL-negative, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.22",
+    "descripcion": "Atypical chronic myeloid leukemia, BCR/ABL-negative, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.30",
+    "descripcion": "Myeloid sarcoma, not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.31",
+    "descripcion": "Myeloid sarcoma, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.32",
+    "descripcion": "Myeloid sarcoma, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.40",
+    "descripcion": "Acute promyelocytic leukemia, not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.41",
+    "descripcion": "Acute promyelocytic leukemia, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.42",
+    "descripcion": "Acute promyelocytic leukemia, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.50",
+    "descripcion": "Acute myelomonocytic leukemia, not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.51",
+    "descripcion": "Acute myelomonocytic in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.52",
+    "descripcion": "Acute myelomonocytic in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.60",
+    "descripcion": "Acute myeloid leukemia with 11q23 abnormality not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.61",
+    "descripcion": "Acute myeloid leukemia with 11q23 abnormality in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.62",
+    "descripcion": "Acute myeloid leukemia with 11q23 abnormality in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.90",
+    "descripcion": "Myeloid leukemia, unspecified, not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.91",
+    "descripcion": "Myeloid leukemia, unspecified in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C92.92",
+    "descripcion": "Myeloid leukemia, unspecified in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C93.00",
+    "descripcion": "Acute monoblastic/monocytic leukemia, not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C93.01",
+    "descripcion": "Acute monoblastic/monocytic leukemia, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C93.02",
+    "descripcion": "Acute monoblastic/monocytic leukemia, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C93.10",
+    "descripcion": "Chronic myelomonocytic leukemia not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C93.11",
+    "descripcion": "Chronic myelomonocytic leukemia, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C93.12",
+    "descripcion": "Chronic myelomonocytic leukemia, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C93.30",
+    "descripcion": "Juvenile myelomonocytic leukemia not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C93.31",
+    "descripcion": "Juvenile myelomonocytic leukemia, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C93.32",
+    "descripcion": "Juvenile myelomonocytic leukemia, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C93.90",
+    "descripcion": "Monocytic leukemia, unspecified, not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C93.91",
+    "descripcion": "Monocytic leukemia, unspecified in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C93.92",
+    "descripcion": "Monocytic leukemia, unspecified in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.00",
+    "descripcion": "Acute erythroid leukemia, not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.01",
+    "descripcion": "Acute erythroid leukemia, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.02",
+    "descripcion": "Acute erythroid leukemia, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.20",
+    "descripcion": "Acute megakaryoblastic leukemia not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.21",
+    "descripcion": "Acute megakaryoblastic leukemia, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.22",
+    "descripcion": "Acute megakaryoblastic leukemia, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.30",
+    "descripcion": "Mast cell leukemia not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.31",
+    "descripcion": "Mast cell leukemia, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.32",
+    "descripcion": "Mast cell leukemia, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.40",
+    "descripcion": "Acute panmyelosis with myelofibrosis not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.41",
+    "descripcion": "Acute panmyelosis with myelofibrosis, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.42",
+    "descripcion": "Acute panmyelosis with myelofibrosis, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.6",
+    "descripcion": "Myelodysplastic disease, not classified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.80",
+    "descripcion": "Other specified leukemias not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.81",
+    "descripcion": "Other specified leukemias, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C94.82",
+    "descripcion": "Other specified leukemias, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C95.00",
+    "descripcion": "Acute leukemia of unspecified cell type not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C95.01",
+    "descripcion": "Acute leukemia of unspecified cell type, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C95.02",
+    "descripcion": "Acute leukemia of unspecified cell type, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C95.10",
+    "descripcion": "Chronic leukemia of unspecified cell type not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C95.11",
+    "descripcion": "Chronic leukemia of unspecified cell type, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C95.12",
+    "descripcion": "Chronic leukemia of unspecified cell type, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C95.90",
+    "descripcion": "Leukemia, unspecified not having achieved remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C95.91",
+    "descripcion": "Leukemia, unspecified, in remission",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C95.92",
+    "descripcion": "Leukemia, unspecified, in relapse",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C96.0",
+    "descripcion": "Multifocal and multisystemic (disseminated)  Langerhans-cell histiocytosis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C96.20",
+    "descripcion": "Malignant mast cell neoplasm, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C96.21",
+    "descripcion": "Aggressive systemic mastocytosis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C96.22",
+    "descripcion": "Mast cell sarcoma",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C96.29",
+    "descripcion": "Other malignant cell neoplasm",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C96.4",
+    "descripcion": "Sarcoma of dendritic cells (accessory cells) Malignant neoplasm of lymphoid, hematopoietic and related tissue, unspecified",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C96.5",
+    "descripcion": "Multifocal and unisystemic Langerhans-cell histiocytosis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C96.6",
+    "descripcion": "Unifocal Langerhans-cell histiocytosis",
+    "activo": true
+  },
+  {
+    "codigo_oficial": "C96.9",
+    "descripcion": "Malignant neoplasm of lymphoid, hematopoietic and related tissue, unspecified",
+    "activo": true
+  }
+]

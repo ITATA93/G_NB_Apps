@@ -1,0 +1,306 @@
+/**
+ * Cliente base para conectarse a la API de NocoBase
+ *
+ * ⚠️ DEPRECADO: Este cliente está en proceso de deprecación.
+ * Para nuevos scripts, usar ApiClient.ts en su lugar.
+ *
+ * Este cliente se mantiene temporalmente para compatibilidad con 6 scripts existentes:
+ * - configure-onco-fields.js
+ * - probe-collection.js
+ * - sync-mira-collections.js
+ * - inspect-datasources.js
+ * - delete-empty-collections.js
+ * - check-sql-sync-simple.js
+ *
+ * ⚠️ IMPORTANTE: Todos los scripts NUEVOS deben usar ApiClient.ts
+ * para garantizar type safety y mejor mantenibilidad.
+ *
+ * Uso (para scripts existentes):
+ *
+ * const { createClient, log } = require('./_base-api-client');
+ * const client = createClient();
+ *
+ * const response = await client.get('/collections:list');
+ * console.log(response.data);
+ *
+ * Para nuevos scripts, usar:
+ * import { createClient, log } from './ApiClient';
+ */
+
+const https = require('https');
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
+
+// Colores para consola
+const colors = {
+  reset: '\x1b[0m',
+  bright: '\x1b[1m',
+  green: '\x1b[32m',
+  yellow: '\x1b[33m',
+  red: '\x1b[31m',
+  cyan: '\x1b[36m',
+  blue: '\x1b[34m',
+  magenta: '\x1b[35m'
+};
+
+/**
+ * Logger con colores
+ */
+function log(message, color = 'reset') {
+  console.log(`${colors[color]}${message}${colors.reset}`);
+}
+
+/**
+ * Leer configuración del .env
+ */
+function loadConfig() {
+  const envPath = path.join(__dirname, '../../.env');
+
+  if (!fs.existsSync(envPath)) {
+    throw new Error(`Archivo .env no encontrado en: ${envPath}`);
+  }
+
+  const envContent = fs.readFileSync(envPath, 'utf8');
+
+  const apiUrl = envContent.match(/NOCOBASE_API_URL=(.+)/)?.[1]?.trim();
+  const apiToken = envContent.match(/NOCOBASE_API_TOKEN=(.+)/)?.[1]?.trim();
+
+  if (!apiUrl) {
+    throw new Error('NOCOBASE_API_URL no está configurada en .env');
+  }
+
+  if (!apiToken) {
+    throw new Error('NOCOBASE_API_TOKEN no está configurada en .env');
+  }
+
+  return { apiUrl, apiToken };
+}
+
+/**
+ * Hacer petición HTTP/HTTPS
+ *
+ * ✅ ESTA ES LA IMPLEMENTACIÓN CORRECTA
+ * ✅ Incluye url.search para query params
+ * ✅ Maneja timeouts
+ * ✅ Parsea JSON correctamente
+ */
+function makeRequest(url, token, options = {}) {
+  return new Promise((resolve, reject) => {
+    const urlObj = new URL(url);
+    const isHttps = urlObj.protocol === 'https:';
+    const client = isHttps ? https : http;
+
+    const method = options.method || 'GET';
+    const body = options.body ? JSON.stringify(options.body) : null;
+
+    const requestOptions = {
+      hostname: urlObj.hostname,
+      port: urlObj.port || (isHttps ? 443 : 80),
+      path: urlObj.pathname + urlObj.search,  // ✅ IMPORTANTE: Incluir query params
+      method: method,
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'X-Role': 'root',
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+        ...(options.headers || {})
+      },
+      timeout: options.timeout || 15000  // Default: 15 segundos
+    };
+
+    if (body) {
+      requestOptions.headers['Content-Length'] = Buffer.byteLength(body);
+    }
+
+    const req = client.request(requestOptions, (res) => {
+      let responseBody = '';
+
+      res.on('data', (chunk) => {
+        responseBody += chunk;
+      });
+
+      res.on('end', () => {
+        try {
+          const json = JSON.parse(responseBody);
+          resolve({
+            status: res.statusCode,
+            headers: res.headers,
+            data: json
+          });
+        } catch (e) {
+          // Si no es JSON válido, devolver el body crudo
+          resolve({
+            status: res.statusCode,
+            headers: res.headers,
+            data: null,
+            rawBody: responseBody
+          });
+        }
+      });
+    });
+
+    req.on('error', (err) => {
+      reject(new Error(`Network error: ${err.message}`));
+    });
+
+    req.on('timeout', () => {
+      req.destroy();
+      reject(new Error(`Request timeout after ${requestOptions.timeout}ms`));
+    });
+
+    if (body) {
+      req.write(body);
+    }
+
+    req.end();
+  });
+}
+
+/**
+ * Cliente API de NocoBase
+ */
+class NocoBaseClient {
+  constructor(config) {
+    if (config) {
+      this.apiUrl = config.apiUrl;
+      this.apiToken = config.apiToken;
+    } else {
+      const loadedConfig = loadConfig();
+      this.apiUrl = loadedConfig.apiUrl;
+      this.apiToken = loadedConfig.apiToken;
+    }
+  }
+
+  /**
+   * GET request
+   */
+  async get(endpoint) {
+    const url = `${this.apiUrl}${endpoint}`;
+    return makeRequest(url, this.apiToken, { method: 'GET' });
+  }
+
+  /**
+   * POST request
+   */
+  async post(endpoint, data = null) {
+    const url = `${this.apiUrl}${endpoint}`;
+    return makeRequest(url, this.apiToken, {
+      method: 'POST',
+      body: data
+    });
+  }
+
+  /**
+   * PUT request
+   */
+  async put(endpoint, data = null) {
+    const url = `${this.apiUrl}${endpoint}`;
+    return makeRequest(url, this.apiToken, {
+      method: 'PUT',
+      body: data
+    });
+  }
+
+  /**
+   * DELETE request
+   */
+  async delete(endpoint) {
+    const url = `${this.apiUrl}${endpoint}`;
+    return makeRequest(url, this.apiToken, { method: 'DELETE' });
+  }
+
+  /**
+   * Test de conexión
+   */
+  async testConnection() {
+    try {
+      const response = await this.get('/auth:check');
+      return response.status === 200;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  /**
+   * Obtener información del usuario actual
+   */
+  async getCurrentUser() {
+    const response = await this.get('/auth:check');
+    if (response.status === 200) {
+      return response.data.data;
+    }
+    throw new Error(`Auth check failed: ${response.status}`);
+  }
+
+  /**
+   * Obtener todas las colecciones
+   */
+  async getCollections() {
+    const response = await this.get('/collections:list');
+    if (response.status === 200) {
+      return response.data.data || [];
+    }
+    throw new Error(`Failed to get collections: ${response.status}`);
+  }
+
+  /**
+   * Obtener esquema de una colección
+   */
+  async getCollectionSchema(collectionName) {
+    const response = await this.get(`/collections:get?filterByTk=${collectionName}`);
+    if (response.status === 200) {
+      return response.data.data;
+    }
+    throw new Error(`Failed to get collection schema: ${response.status}`);
+  }
+
+  /**
+   * Crear una colección
+   */
+  async createCollection(collectionData) {
+    const response = await this.post('/collections:create', collectionData);
+    if (response.status === 200) {
+      return response.data.data;
+    }
+    throw new Error(`Failed to create collection: ${response.status}`);
+  }
+
+  /**
+   * Actualizar una colección
+   */
+  async updateCollection(collectionName, collectionData) {
+    const response = await this.post(`/collections:update?filterByTk=${collectionName}`, collectionData);
+    if (response.status === 200) {
+      return response.data.data;
+    }
+    throw new Error(`Failed to update collection: ${response.status}`);
+  }
+
+  /**
+   * Eliminar una colección
+   */
+  async deleteCollection(collectionName) {
+    const response = await this.post(`/collections:destroy?filterByTk=${collectionName}`);
+    if (response.status === 200) {
+      return true;
+    }
+    throw new Error(`Failed to delete collection: ${response.status}`);
+  }
+}
+
+/**
+ * Factory para crear cliente
+ */
+function createClient(config) {
+  return new NocoBaseClient(config);
+}
+
+// Exportar
+module.exports = {
+  createClient,
+  log,
+  colors,
+  loadConfig,
+  NocoBaseClient
+};

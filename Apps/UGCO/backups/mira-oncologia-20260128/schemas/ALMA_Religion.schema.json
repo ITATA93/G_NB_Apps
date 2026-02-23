@@ -1,0 +1,69 @@
+{
+  "collection": {
+    "name": "ALMA_Religion",
+    "title": "ALMA Religion",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "14t9cfh4cd4",
+      "name": "Codigo_Religion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Religion",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Religion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "g1vblwb15x3",
+      "name": "CTRLG_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Religion",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CTRLG_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "luuoymf8sqj",
+      "name": "Fecha_Reg",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Religion",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Reg",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "paaa7g2i4gh",
+      "name": "Religion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Religion",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Religion",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.395Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

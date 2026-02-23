@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-11-21T19:33:46.143Z",
+  "collections": [
+    {
+      "name": "t_6xbh17pki1d",
+      "title": "Pacientes",
+      "fieldsCount": 0,
+      "fields": []
+    },
+    {
+      "name": "t_uralzvq4vg1",
+      "title": "Pacientes_Hospitalizados",
+      "fieldsCount": 0,
+      "fields": []
+    },
+    {
+      "name": "t_y8hbbtkjgl3",
+      "title": "Oncologia",
+      "fieldsCount": 0,
+      "fields": []
+    },
+    {
+      "name": "t_fcwwwzv1d9m",
+      "title": "Episodio Oncologico",
+      "fieldsCount": 0,
+      "fields": []
+    },
+    {
+      "name": "t_pkg68r6rprd",
+      "title": "Comite Oncologico",
+      "fieldsCount": 0,
+      "fields": []
+    }
+  ]
+}

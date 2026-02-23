@@ -1,0 +1,189 @@
+{
+  "collection": {
+    "name": "BUHO_Pacientes",
+    "title": "Pacientes BUHO",
+    "description": "Tabla de pacientes sincronizada para proyección BUHO",
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "192zu8xghj5",
+      "name": "nombre",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "Nombre"
+    },
+    {
+      "key": "1fttdipbrj2",
+      "name": "categorizacion",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "Categorización"
+    },
+    {
+      "key": "2xpoxf7b4d6",
+      "name": "cama",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "Cama"
+    },
+    {
+      "key": "7g01tynt0iz",
+      "name": "proxima_accion",
+      "type": "text",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "Próxima Acción"
+    },
+    {
+      "key": "84hlwsqhqa9",
+      "name": "fecha_probable_alta",
+      "type": "date",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "Fecha Alta Probable"
+    },
+    {
+      "key": "8o53itkdupg",
+      "name": "servicio",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "Servicio"
+    },
+    {
+      "key": "fel6nqfce00",
+      "name": "rut",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "RUT"
+    },
+    {
+      "key": "giaya987404",
+      "name": "fecha_ingreso",
+      "type": "date",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "Fecha Ingreso"
+    },
+    {
+      "key": "hvjug9bzdei",
+      "name": "especialidad_medico",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "Especialidad"
+    },
+    {
+      "key": "kvballw2ahh",
+      "name": "estudios_pendientes",
+      "type": "text",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "Estudios Pendientes"
+    },
+    {
+      "key": "oo4qj0jzyut",
+      "name": "episodio",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "Episodio"
+    },
+    {
+      "key": "qo2r22c4rji",
+      "name": "tipo_cama",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "Tipo Cama"
+    },
+    {
+      "key": "sxkg0ea2k6l",
+      "name": "diagnostico_principal",
+      "type": "text",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "Diagnóstico"
+    },
+    {
+      "key": "tec68atkp20",
+      "name": "riesgo_detectado",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "Riesgo"
+    },
+    {
+      "key": "wuaee5gceev",
+      "name": "sala",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "Sala"
+    },
+    {
+      "key": "zlbvy4ghrgl",
+      "name": "estado_plan",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "BUHO_Pacientes",
+      "parentKey": null,
+      "reverseKey": null,
+      "title": "Estado Plan"
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.181Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

@@ -1,0 +1,293 @@
+{
+  "collection": {
+    "name": "ALMA_crohn",
+    "title": "ALMA crohn",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "0q39lhup2c1",
+      "name": "TipoAdmision",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "TipoAdmision",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "2urig0ift9d",
+      "name": "Establecimiento",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Establecimiento",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "3g4p9e1dqbm",
+      "name": "Nro_Registro",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nro_Registro",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "4ij92bbz029",
+      "name": "Nombre",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Nombre",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "4zixv85vxsh",
+      "name": "Especialidad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Especialidad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "90xh6q1by75",
+      "name": "PLAN",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PLAN",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "cr3h0q18561",
+      "name": "Estado_Atencion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Estado_Atencion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "dqyeys9ps8k",
+      "name": "ID_Interno",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "ID_Interno",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "e541thfpers",
+      "name": "Cod_Servicio",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Cod_Servicio",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "e6tpn3yn5bf",
+      "name": "Fecha_Atencion",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Atencion",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "o3n2xlbxn95",
+      "name": "Cod_Especialidad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Cod_Especialidad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ppqpeylmzco",
+      "name": "Rut_Paciente",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Rut_Paciente",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "q1d9i51dlk2",
+      "name": "Diagnostico",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Diagnostico",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ry2mpxtsxkg",
+      "name": "Pasaporte",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Pasaporte",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "s96bpi72rww",
+      "name": "Fecha_Egreso_Adm",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Egreso_Adm",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "vnqhl2kc8ye",
+      "name": "Servicio",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Servicio",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "w6na5s3lseh",
+      "name": "Cod_Diagnostico_1",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Cod_Diagnostico_1",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "xcxu929a4wg",
+      "name": "Cod_Diagnostico",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Cod_Diagnostico",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "xr9y52hv0on",
+      "name": "N_Episodio",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "N_Episodio",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "z96kex11dob",
+      "name": "Deceso",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_crohn",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Deceso",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:10.601Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

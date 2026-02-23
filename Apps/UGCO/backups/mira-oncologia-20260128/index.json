@@ -1,0 +1,320 @@
+{
+  "source": "mira.hospitaldeovalle.cl",
+  "exportedAt": "2026-01-28T21:31:10.654Z",
+  "totalCollections": 52,
+  "includesData": true,
+  "collections": [
+    {
+      "name": "ALMA_Tipo_Paciente",
+      "schemaFile": "schemas/ALMA_Tipo_Paciente.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_H_OncologiaMensual",
+      "schemaFile": "schemas/ALMA_H_OncologiaMensual.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_PacientesData_full",
+      "schemaFile": "schemas/ALMA_PacientesData_full.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_PacientesData",
+      "schemaFile": "schemas/ALMA_PacientesData.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_H_Farmacos",
+      "schemaFile": "schemas/ALMA_H_Farmacos.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_H_Diagnostico",
+      "schemaFile": "schemas/ALMA_H_Diagnostico.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Sexo",
+      "schemaFile": "schemas/ALMA_Sexo.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Pueblos_Originarios",
+      "schemaFile": "schemas/ALMA_Pueblos_Originarios.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Establecimiento",
+      "schemaFile": "schemas/ALMA_Establecimiento.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Usuarios",
+      "schemaFile": "schemas/ALMA_Usuarios.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Recetas",
+      "schemaFile": "schemas/ALMA_Recetas.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_H_CodigoMAI",
+      "schemaFile": "schemas/ALMA_H_CodigoMAI.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "alma_paciente",
+      "schemaFile": "schemas/alma_paciente.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Religion",
+      "schemaFile": "schemas/ALMA_Religion.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_H_GDA",
+      "schemaFile": "schemas/ALMA_H_GDA.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "onco_comite_casos",
+      "schemaFile": "schemas/onco_comite_casos.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_PacientesData_",
+      "schemaFile": "schemas/ALMA_PacientesData_.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_H_Forma_Droga",
+      "schemaFile": "schemas/ALMA_H_Forma_Droga.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Region",
+      "schemaFile": "schemas/ALMA_Region.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ugco_casooncologico",
+      "schemaFile": "schemas/ugco_casooncologico.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Pacientes_HDATL",
+      "schemaFile": "schemas/ALMA_Pacientes_HDATL.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_H_Recetas_Despacho",
+      "schemaFile": "schemas/ALMA_H_Recetas_Despacho.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "onco_casos",
+      "schemaFile": "schemas/onco_casos.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_H_AdmisionUrgencia",
+      "schemaFile": "schemas/ALMA_H_AdmisionUrgencia.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Provincia",
+      "schemaFile": "schemas/ALMA_Provincia.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ugco_comiteoncologico",
+      "schemaFile": "schemas/ugco_comiteoncologico.schema.json",
+      "dataFile": "data/ugco_comiteoncologico.data.json",
+      "recordCount": 2
+    },
+    {
+      "name": "ref_oncodiagnostico",
+      "schemaFile": "schemas/ref_oncodiagnostico.schema.json",
+      "dataFile": "data/ref_oncodiagnostico.data.json",
+      "recordCount": 3
+    },
+    {
+      "name": "ALMA_Nacionalidad",
+      "schemaFile": "schemas/ALMA_Nacionalidad.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Prevision",
+      "schemaFile": "schemas/ALMA_Prevision.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ref_oncoespecialidad",
+      "schemaFile": "schemas/ref_oncoespecialidad.schema.json",
+      "dataFile": "data/ref_oncoespecialidad.data.json",
+      "recordCount": 9
+    },
+    {
+      "name": "BUHO_Pacientes",
+      "schemaFile": "schemas/BUHO_Pacientes.schema.json",
+      "dataFile": "data/BUHO_Pacientes.data.json",
+      "recordCount": 3
+    },
+    {
+      "name": "ALMA_H_gda_futuro",
+      "schemaFile": "schemas/ALMA_H_gda_futuro.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Estado_Conyugal",
+      "schemaFile": "schemas/ALMA_Estado_Conyugal.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_H_Oncologia",
+      "schemaFile": "schemas/ALMA_H_Oncologia.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Pacientes",
+      "schemaFile": "schemas/ALMA_Pacientes.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_H_Oncologia2",
+      "schemaFile": "schemas/ALMA_H_Oncologia2.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_H_gda_prospectivo",
+      "schemaFile": "schemas/ALMA_H_gda_prospectivo.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ref_oncotopografia",
+      "schemaFile": "schemas/ref_oncotopografia.schema.json",
+      "dataFile": "data/ref_oncotopografia.data.json",
+      "recordCount": 935
+    },
+    {
+      "name": "onco_comite_sesiones",
+      "schemaFile": "schemas/onco_comite_sesiones.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Ciudad",
+      "schemaFile": "schemas/ALMA_Ciudad.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_H_Categoria_Farmacologica",
+      "schemaFile": "schemas/ALMA_H_Categoria_Farmacologica.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "onco_episodios",
+      "schemaFile": "schemas/onco_episodios.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Admision_Pacientes",
+      "schemaFile": "schemas/ALMA_Admision_Pacientes.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_H_Copago_CEro",
+      "schemaFile": "schemas/ALMA_H_Copago_CEro.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Admision_Ubicacion",
+      "schemaFile": "schemas/ALMA_Admision_Ubicacion.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_H_GDA_ALMA",
+      "schemaFile": "schemas/ALMA_H_GDA_ALMA.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ref_oncomorfologia",
+      "schemaFile": "schemas/ref_oncomorfologia.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ref_cie10",
+      "schemaFile": "schemas/ref_cie10.schema.json",
+      "dataFile": "data/ref_cie10.data.json",
+      "recordCount": 12492
+    },
+    {
+      "name": "ugco_evento",
+      "schemaFile": "schemas/ugco_evento.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_Plan",
+      "schemaFile": "schemas/ALMA_Plan.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_crohn",
+      "schemaFile": "schemas/ALMA_crohn.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    },
+    {
+      "name": "ALMA_H_CIE10",
+      "schemaFile": "schemas/ALMA_H_CIE10.schema.json",
+      "dataFile": null,
+      "recordCount": 0
+    }
+  ]
+}

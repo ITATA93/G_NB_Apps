@@ -1,0 +1,608 @@
+{
+  "id": 334762235461633,
+  "createdAt": "2025-12-02T04:51:13.000Z",
+  "updatedAt": "2025-12-02T04:51:16.000Z",
+  "key": "oc9f3679ozp",
+  "title": "Alma_Usuarios",
+  "enabled": true,
+  "description": null,
+  "type": "schedule",
+  "triggerTitle": "Alma_Usuarios",
+  "config": {
+    "cron": "0 */3 * * * *",
+    "mode": 0,
+    "repeat": 300000,
+    "startsOn": "2025-12-01T03:00:00.000Z"
+  },
+  "executed": 0,
+  "allExecuted": 0,
+  "current": true,
+  "sync": false,
+  "options": {},
+  "nodes": [
+    {
+      "id": 334762235461634,
+      "createdAt": "2025-12-02T04:51:13.000Z",
+      "updatedAt": "2025-12-02T04:51:13.000Z",
+      "key": "2jqc9m229us",
+      "title": "Query SIDRA",
+      "upstreamId": null,
+      "branchIndex": null,
+      "downstreamId": 334762235461635,
+      "type": "query",
+      "config": {
+        "params": {
+          "appends": [],
+          "pageSize": 20
+        },
+        "collection": "d_llw3u3ya2ej:H_user"
+      },
+      "workflowId": 334762235461633
+    },
+    {
+      "id": 334762235461635,
+      "createdAt": "2025-12-02T04:51:13.000Z",
+      "updatedAt": "2025-12-02T20:16:04.000Z",
+      "key": "vr0kddu7j3i",
+      "title": "Loop Users",
+      "upstreamId": 334762235461634,
+      "branchIndex": null,
+      "downstreamId": null,
+      "type": "loop",
+      "config": {
+        "target": "{{ $jobsMapByNodeId['334762235461634'] }}"
+      },
+      "workflowId": 334762235461633
+    },
+    {
+      "id": 334762235461636,
+      "createdAt": "2025-12-02T04:51:13.000Z",
+      "updatedAt": "2025-12-02T04:51:13.000Z",
+      "key": "hfkv7jqdza1",
+      "title": "Actualizar registro",
+      "upstreamId": 334762235461635,
+      "branchIndex": 0,
+      "downstreamId": null,
+      "type": "update",
+      "config": {
+        "params": {
+          "filter": {
+            "$and": [
+              {
+                "rut": {
+                  "$eq": "{{$jobsMapByNodeKey.2jqc9m229us.Rut}}"
+                }
+              }
+            ]
+          },
+          "values": {
+            "rut": "{{$jobsMapByNodeKey.2jqc9m229us.Rut}}",
+            "activo": "{{$jobsMapByNodeKey.2jqc9m229us.Activo}}",
+            "nombre": "{{$jobsMapByNodeKey.2jqc9m229us.Nombre}}",
+            "Apellido": "{{$jobsMapByNodeKey.2jqc9m229us.Apellidos}}",
+            "apellidos": "{{$jobsMapByNodeKey.2jqc9m229us.Apellidos}}",
+            "SSUSR_RowId": "{{$jobsMapByNodeKey.2jqc9m229us.SSUSR_Group}}",
+            "hora_creacion": "{{$jobsMapByNodeKey.2jqc9m229us.Hora_Creacion}}",
+            "GrupoSeguridad": "{{$jobsMapByNodeKey.2jqc9m229us.GrupoSeguridad}}",
+            "fecha_creacion": "{{$jobsMapByNodeKey.2jqc9m229us.Fecha_Creacion}}",
+            "grupo_seguridad": "{{$jobsMapByNodeKey.2jqc9m229us.GrupoSeguridad}}",
+            "ProfesionalSalud": "{{$jobsMapByNodeKey.2jqc9m229us.Nombre_Profesional}}",
+            "cod_establecimiento": "{{$jobsMapByNodeKey.2jqc9m229us.Cod_Establecimiento}}",
+            "LocalAccesoPrincipal": "{{$jobsMapByNodeKey.2jqc9m229us.LocalAccesoPrincipal}}",
+            "TipoProfesionalSalud": null,
+            "fecha_ultimo_ingreso": "{{$jobsMapByNodeKey.2jqc9m229us.Hora_Creacion}}",
+            "EstablecimientoPrincipal": "{{$jobsMapByNodeKey.2jqc9m229us.EstablecimientoPrincipal}}",
+            "establecimiento_principal": "{{$jobsMapByNodeKey.2jqc9m229us.EstablecimientoPrincipal}}"
+          },
+          "individualHooks": false
+        },
+        "collection": "ALMA_Usuarios",
+        "assignFormSchema": {
+          "name": "pvpqyg2dtwm",
+          "type": "void",
+          "version": "2.0",
+          "properties": {
+            "68rg9ou1ezq": {
+              "name": "68rg9ou1ezq",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "ij066xbwglg": {
+                  "name": "ij066xbwglg",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "grupo_seguridad": {
+                      "name": "grupo_seguridad",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.grupo_seguridad",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "74rg2mews1e": {
+              "name": "74rg2mews1e",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "1gx565z5e55": {
+                  "name": "1gx565z5e55",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "ProfesionalSalud": {
+                      "name": "ProfesionalSalud",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.ProfesionalSalud",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "7mjyxiro75a": {
+              "name": "7mjyxiro75a",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "ok4jbk4zejs": {
+                  "name": "ok4jbk4zejs",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "TipoProfesionalSalud": {
+                      "name": "TipoProfesionalSalud",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.TipoProfesionalSalud",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "9xh3ycuc0j3": {
+              "name": "9xh3ycuc0j3",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "ataecm1at50": {
+                  "name": "ataecm1at50",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "SSUSR_RowId": {
+                      "name": "SSUSR_RowId",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.SSUSR_RowId",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "g3bgzwi2lj3": {
+              "name": "g3bgzwi2lj3",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "m1msa1zkllr": {
+                  "name": "m1msa1zkllr",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "fecha_ultimo_ingreso": {
+                      "name": "fecha_ultimo_ingreso",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.fecha_ultimo_ingreso",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "gfh4cu2crys": {
+              "name": "gfh4cu2crys",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "5y2okmhks0g": {
+                  "name": "5y2okmhks0g",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "establecimiento_principal": {
+                      "name": "establecimiento_principal",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.establecimiento_principal",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "gz9ll6e34s9": {
+              "name": "gz9ll6e34s9",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "turhwwykt7w": {
+                  "name": "turhwwykt7w",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "cod_establecimiento": {
+                      "name": "cod_establecimiento",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.cod_establecimiento",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "kzppkoie5ot": {
+              "name": "kzppkoie5ot",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "yq7ygvod472": {
+                  "name": "yq7ygvod472",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "fecha_creacion": {
+                      "name": "fecha_creacion",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.fecha_creacion",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "m5eyfz61df2": {
+              "name": "m5eyfz61df2",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "snotxw6qj5s": {
+                  "name": "snotxw6qj5s",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "EstablecimientoPrincipal": {
+                      "name": "EstablecimientoPrincipal",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.EstablecimientoPrincipal",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "pewmagilgh2": {
+              "name": "pewmagilgh2",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "twd3xpo726m": {
+                  "name": "twd3xpo726m",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "activo": {
+                      "name": "activo",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.activo",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "r9s4zfnnqog": {
+              "name": "r9s4zfnnqog",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "rnxejd9mawo": {
+                  "name": "rnxejd9mawo",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "GrupoSeguridad": {
+                      "name": "GrupoSeguridad",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.GrupoSeguridad",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "rd5yetyxwzi": {
+              "name": "rd5yetyxwzi",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "r9mytbenwyc": {
+                  "name": "r9mytbenwyc",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "hora_creacion": {
+                      "name": "hora_creacion",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.hora_creacion",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "sd5z93lkb69": {
+              "name": "sd5z93lkb69",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "g99qsm766wx": {
+                  "name": "g99qsm766wx",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "apellidos": {
+                      "name": "apellidos",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.apellidos",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "t5sf1nvpe56": {
+              "name": "t5sf1nvpe56",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "t4lhli9cpjh": {
+                  "name": "t4lhli9cpjh",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "nombre": {
+                      "name": "nombre",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.nombre",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "tomtlka71qi": {
+              "name": "tomtlka71qi",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "qnoasww3vpb": {
+                  "name": "qnoasww3vpb",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "LocalAccesoPrincipal": {
+                      "name": "LocalAccesoPrincipal",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.LocalAccesoPrincipal",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "tts8ab9nzx1": {
+              "name": "tts8ab9nzx1",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "u1sprs41sjc": {
+                  "name": "u1sprs41sjc",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "Apellido": {
+                      "name": "Apellido",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.Apellido",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            },
+            "vtd41tkuhpf": {
+              "name": "vtd41tkuhpf",
+              "type": "void",
+              "version": "2.0",
+              "properties": {
+                "rrfo876219a": {
+                  "name": "rrfo876219a",
+                  "type": "void",
+                  "version": "2.0",
+                  "properties": {
+                    "rut": {
+                      "name": "rut",
+                      "type": "string",
+                      "version": "2.0",
+                      "x-toolbar": "FormItemSchemaToolbar",
+                      "x-settings": "fieldSettings:FormItem",
+                      "x-component": "AssignedField",
+                      "x-decorator": "FormItem",
+                      "x-collection-field": "ALMA_Usuarios.rut",
+                      "_isJSONSchemaObject": true
+                    }
+                  },
+                  "x-component": "Grid.Col",
+                  "_isJSONSchemaObject": true
+                }
+              },
+              "x-component": "Grid.Row",
+              "_isJSONSchemaObject": true
+            }
+          },
+          "x-component": "Grid",
+          "x-initializer": "assignFieldValuesForm:configureFields",
+          "_isJSONSchemaObject": true
+        },
+        "usingAssignFormSchema": true
+      },
+      "workflowId": 334762235461633
+    }
+  ]
+}

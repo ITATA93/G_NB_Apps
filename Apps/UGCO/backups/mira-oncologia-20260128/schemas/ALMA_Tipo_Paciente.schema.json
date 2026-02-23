@@ -1,0 +1,69 @@
+{
+  "collection": {
+    "name": "ALMA_Tipo_Paciente",
+    "title": "ALMA Tipo_Paciente",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "asw4qcg01lo",
+      "name": "Fecha_Registro",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Tipo_Paciente",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Registro",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "mom8kz17lwl",
+      "name": "Tipo_Paciente",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Tipo_Paciente",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Tipo_Paciente",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qybcocbnpbw",
+      "name": "Codigo_TP",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Tipo_Paciente",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_TP",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "rjpf28qjdhm",
+      "name": "PTYPE_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Tipo_Paciente",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "PTYPE_RowId",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:07.747Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

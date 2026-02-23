@@ -1,0 +1,2729 @@
+{
+  "source_file": "DEIS_Esquema_Registros_2025_Corregido.xlsx",
+  "sheet_name": "Anexo 14",
+  "entry_count": 681,
+  "entries": [
+    {
+      "Anexo 14": "Arancel FONASA para Procedimientos"
+    },
+    {
+      "__EMPTY_2": "< < Volver"
+    },
+    {
+      "Anexo 14": "Código",
+      "__EMPTY_1": "Descripción"
+    },
+    {
+      "Anexo 14": "0000000",
+      "__EMPTY_1": "Sin Arancel FONASA"
+    },
+    {
+      "Anexo 14": "0401010",
+      "__EMPTY_1": "Mamografía bilateral"
+    },
+    {
+      "Anexo 14": "0401110",
+      "__EMPTY_1": "Mamografía unilateral"
+    },
+    {
+      "Anexo 14": "0401130",
+      "__EMPTY_1": "Mamografía proyección complementaria  (axilar u otras)"
+    },
+    {
+      "Anexo 14": "0401011",
+      "__EMPTY_1": "Marcación preoperatoria de lesiones de la mama"
+    },
+    {
+      "Anexo 14": "0401012",
+      "__EMPTY_1": "Radiografía de mama, pieza operatoria"
+    },
+    {
+      "Anexo 14": "0401013",
+      "__EMPTY_1": "Radiografía de Abdomen Simple"
+    },
+    {
+      "Anexo 14": "0401014",
+      "__EMPTY_1": "Radiografía de abdomen simple, proyección complementaria (lateral y/o oblicua)"
+    },
+    {
+      "Anexo 14": "0401015",
+      "__EMPTY_1": "Colangiografía intra o postoperatoria (por sonda T, o similar)"
+    },
+    {
+      "Anexo 14": "0401018",
+      "__EMPTY_1": "Enema baritado del colon (incluye llene y control post-vaciamiento)"
+    },
+    {
+      "Anexo 14": "0401019",
+      "__EMPTY_1": "Enema baritado del colon o intestino delgado, doble contraste"
+    },
+    {
+      "Anexo 14": "0401020",
+      "__EMPTY_1": "Esofagograma  (incluye pesquisa de cuerpo extraño) (proc.aut.)"
+    },
+    {
+      "Anexo 14": "0401021",
+      "__EMPTY_1": "Radiografía de esófago, estómago y duodeno, relleno y/o doble contraste "
+    },
+    {
+      "Anexo 14": "0401022",
+      "__EMPTY_1": "Estudio radiológico de deglución faríngea"
+    },
+    {
+      "Anexo 14": "0401023",
+      "__EMPTY_1": "Estudio radiológico del intestino delgado"
+    },
+    {
+      "Anexo 14": "0401024",
+      "__EMPTY_1": "Radiografía de esófago, estómago y duodeno, simple en niños "
+    },
+    {
+      "Anexo 14": "0401027",
+      "__EMPTY_1": "Pielografía de eliminación o descendente: incluye renal y vesical simples previas, 3 placas post inyección de medio de contraste, controles de pie y cistografía pre y post miccional. "
+    },
+    {
+      "Anexo 14": "0401060",
+      "__EMPTY_1": "Radiografía de hombro, fémur, rodilla, pierna, costilla o esternón Frontal y Lateral"
+    },
+    {
+      "Anexo 14": "0401062",
+      "__EMPTY_1": "Radiografía de Proyecciones especiales oblicuas u otras en hombro, brazo, codo, rodilla, rótulas, sesamoideos, axial de ambas rótulas o similares"
+    },
+    {
+      "Anexo 14": "0401063",
+      "__EMPTY_1": "Radiografía de túnel intercondíleo o radio-carpiano"
+    },
+    {
+      "Anexo 14": "0401064",
+      "__EMPTY_1": "Apoyo fluoroscópico a procedimientos intraoperatorios y/o biopsia (no incluye el proc.)"
+    },
+    {
+      "Anexo 14": "0401071",
+      "__EMPTY_1": "Mamografía bilateral digital 3D con tomosíntesis"
+    },
+    {
+      "Anexo 14": "0401072",
+      "__EMPTY_1": "Mamografía unilateral digital 3D con tomosíntesis"
+    },
+    {
+      "Anexo 14": "0401073",
+      "__EMPTY_1": "Videofluoroscopia para estudio de deglución"
+    },
+    {
+      "Anexo 14": "0401074",
+      "__EMPTY_1": "Tránsito colónico con marcadores"
+    },
+    {
+      "Anexo 14": "0401075",
+      "__EMPTY_1": "Radiografía de tórax frontal y lateral con equipo móvil fuera del departamento de rayos"
+    },
+    {
+      "Anexo 14": "0402001",
+      "__EMPTY_1": "Vía lagrimal unilateral"
+    },
+    {
+      "Anexo 14": "0402005",
+      "__EMPTY_1": "Galactografía, unilateral"
+    },
+    {
+      "Anexo 14": "0402008",
+      "__EMPTY_1": "Colangiopancreatografía endoscópica (5-7 exp)"
+    },
+    {
+      "Anexo 14": "0402009",
+      "__EMPTY_1": "Fistulografía  (3 exp.)"
+    },
+    {
+      "Anexo 14": "0402011",
+      "__EMPTY_1": "Histerosalpingografía (a.c. 20-01-013) (4 exp.; incluye prueba de Cotte tardía)"
+    },
+    {
+      "Anexo 14": "0402012",
+      "__EMPTY_1": "Pielografía ascendente (3 exp.)"
+    },
+    {
+      "Anexo 14": "0402014",
+      "__EMPTY_1": "Uretro y/o cistouretrografía miccional retrógrada  (5 exp.)"
+    },
+    {
+      "Anexo 14": "0402015",
+      "__EMPTY_1": "Artrografía facetaria"
+    },
+    {
+      "Anexo 14": "0402019",
+      "__EMPTY_1": "Angiografía selectiva de carótida externa o interna"
+    },
+    {
+      "Anexo 14": "0402020",
+      "__EMPTY_1": "Angiografía selectiva medular"
+    },
+    {
+      "Anexo 14": "0402024",
+      "__EMPTY_1": "Aortografía con AOT o cineangiografía"
+    },
+    {
+      "Anexo 14": "0402025",
+      "__EMPTY_1": "Arteriografía de miembros superiores o inferiores unilateral "
+    },
+    {
+      "Anexo 14": "0402027",
+      "__EMPTY_1": "Arteriografía selectiva con AOT o cineangiografía (pulmonar, renal, tronco celíaco o similar) c/u"
+    },
+    {
+      "Anexo 14": "0402029",
+      "__EMPTY_1": "Arteriografía de vasos del cuello (carótidas y vertebrales) "
+    },
+    {
+      "Anexo 14": "0402031",
+      "__EMPTY_1": "Embolización o balonización (a.c. de la angiografía correspondiente) (incluye control radiológico inmediato)"
+    },
+    {
+      "Anexo 14": "0402032",
+      "__EMPTY_1": "Instalación de catéter o sonda intracardíaca, control por radiólogo"
+    },
+    {
+      "Anexo 14": "0402035",
+      "__EMPTY_1": "Cavografía"
+    },
+    {
+      "Anexo 14": "0402038",
+      "__EMPTY_1": "Flebografía extremidad inferior o superior, unilateral cada extremidad."
+    },
+    {
+      "Anexo 14": "0402040",
+      "__EMPTY_1": "Flebografía orbitaria o yugular"
+    },
+    {
+      "Anexo 14": "0402041",
+      "__EMPTY_1": "Flebografía selectiva de venas hepáticas, renales, gonadales, pélvicas. "
+    },
+    {
+      "Anexo 14": "0402050",
+      "__EMPTY_1": "Mielografía por punción lumbar con contraste hidrosoluble"
+    },
+    {
+      "Anexo 14": "0403001",
+      "__EMPTY_1": "Tomografía Computarizada de cráneo encefálica"
+    },
+    {
+      "Anexo 14": "0403002",
+      "__EMPTY_1": "Tomografía Computarizada de hipotálamo-hipófisis"
+    },
+    {
+      "Anexo 14": "0403003",
+      "__EMPTY_1": "Tomografía Computarizada de fosa posterior"
+    },
+    {
+      "Anexo 14": "0403006",
+      "__EMPTY_1": "Tomografía Computarizada de temporal-oído "
+    },
+    {
+      "Anexo 14": "0403007",
+      "__EMPTY_1": "Tomografía Computarizada de órbitas maxilofacial "
+    },
+    {
+      "Anexo 14": "0403008",
+      "__EMPTY_1": "Tomografía Computarizada de columna cervical "
+    },
+    {
+      "Anexo 14": "0403018",
+      "__EMPTY_1": "Tomografía Computarizada de Columna Dorsal. Incluye mínimo 6 espacios"
+    },
+    {
+      "Anexo 14": "0403019",
+      "__EMPTY_1": "Tomografía Computarizada de Columna Lumbar "
+    },
+    {
+      "Anexo 14": "0403012",
+      "__EMPTY_1": "Tomografía Computarizada de cuello, partes blandas "
+    },
+    {
+      "Anexo 14": "0403013",
+      "__EMPTY_1": "Tomografía Computarizada de Tórax. Incluye además: Esternón, Clavículas,Articulación Acromioclavicular, Escápula, Costillas, Articulación Esternoclavicular. Incluye todo el Tórax o cada segmento o articulación.Incluye bilateralidad"
+    },
+    {
+      "Anexo 14": "0403014",
+      "__EMPTY_1": "Tomografía Computarizada de abdomen (hígado, vías y vesícula biliar, páncreas, bazo, suprarrenales y riñones)"
+    },
+    {
+      "Anexo 14": "0403020",
+      "__EMPTY_1": "Tomografía Computarizada de Abdomen y Pelvis"
+    },
+    {
+      "Anexo 14": "0403021",
+      "__EMPTY_1": "Tomografía Computarizada Pielografía"
+    },
+    {
+      "Anexo 14": "0403022",
+      "__EMPTY_1": "Tomografía Computarizada Urografía"
+    },
+    {
+      "Anexo 14": "0403023",
+      "__EMPTY_1": "Tomografía Computarizada de Colonoscopía Virtual. No incluye instalación de sonda"
+    },
+    {
+      "Anexo 14": "0403024",
+      "__EMPTY_1": "Tomografía Computarizada Planificación Radioterapia"
+    },
+    {
+      "Anexo 14": "0403025",
+      "__EMPTY_1": "Tomografía Computarizada de Calcio Coronario"
+    },
+    {
+      "Anexo 14": "0403104",
+      "__EMPTY_1": "Tomografia Computarizada Angio de Cuello"
+    },
+    {
+      "Anexo 14": "0403105",
+      "__EMPTY_1": "Tomografía Computarizada Angio de Pelvis"
+    },
+    {
+      "Anexo 14": "0403106",
+      "__EMPTY_1": "Tomografía Computarizada de Angio Cardíaco. Mínimo 64 cortes"
+    },
+    {
+      "Anexo 14": "0403016",
+      "__EMPTY_1": "Tomografía Computarizada de Pelvis (Además incluye Sacro, Coxis, Caderas, Huesos Pélvicos, Articulaciones Sacro Ilíacas). Bilateral"
+    },
+    {
+      "Anexo 14": "0403017",
+      "__EMPTY_1": "Tomografía Computarizada Musculoesquelética por zona anatómica. Por cada segmento o articulación: muslo, pierna, rodillas, antebrazo, codo, muñeca, mano, hombro, pie, tobillo u otros. Bilateral sólo para rodillas"
+    },
+    {
+      "Anexo 14": "0403101",
+      "__EMPTY_1": "Tomografía Computarizada angio  de encéfalo"
+    },
+    {
+      "Anexo 14": "0403102",
+      "__EMPTY_1": "Tomografía Computarizada angio de tórax"
+    },
+    {
+      "Anexo 14": "0403103",
+      "__EMPTY_1": "Tomografía Computarizada angio de abdomen"
+    },
+    {
+      "Anexo 14": "0403107",
+      "__EMPTY_1": "Tomografía computarizada angio de extremidades inferiores (bilateral)"
+    },
+    {
+      "Anexo 14": "0403108",
+      "__EMPTY_1": "Tomografía computarizada angio de extremidad superior (unilateral)"
+    },
+    {
+      "Anexo 14": "0403026",
+      "__EMPTY_1": "Tomografía computarizada de enterografía "
+    },
+    {
+      "Anexo 14": "0404002",
+      "__EMPTY_1": "Ecografía obstétrica"
+    },
+    {
+      "Anexo 14": "0404003",
+      "__EMPTY_1": "Ecografía abdominal (incluye hígado, vía biliar, vesícula, páncreas, riñones, bazo, retroperitoneo y grandes vasos)"
+    },
+    {
+      "Anexo 14": "0404004",
+      "__EMPTY_1": "Ecografía como apoyo a cirugía, o a procedimiento (de tórax, muscular, partes blandas, etc.)"
+    },
+    {
+      "Anexo 14": "0404005",
+      "__EMPTY_1": "Ecografía transvaginal o transrectal"
+    },
+    {
+      "Anexo 14": "0404006",
+      "__EMPTY_1": "Ecografía ginecológica, pelviana femenina u obstétrica con estudio fetal"
+    },
+    {
+      "Anexo 14": "0404007",
+      "__EMPTY_1": "Ecografía transvaginal para seguimiento de ovulación, procedimiento completo (6-8 sesiones )"
+    },
+    {
+      "Anexo 14": "0404008",
+      "__EMPTY_1": "Ecografía para seguimiento de ovulación, procedimiento completo (6 a 8 sesiones)"
+    },
+    {
+      "Anexo 14": "0404009",
+      "__EMPTY_1": "Ecografía pélvica masculina (incluye vejiga y próstata)"
+    },
+    {
+      "Anexo 14": "0404010",
+      "__EMPTY_1": "Ecografía renal (bilateral), o de bazo"
+    },
+    {
+      "Anexo 14": "0404011",
+      "__EMPTY_1": "Ecografía encefálica (RN o lactante)"
+    },
+    {
+      "Anexo 14": "0404012",
+      "__EMPTY_1": "Ecografía mamaria bilateral (incluye Doppler)"
+    },
+    {
+      "Anexo 14": "0404013",
+      "__EMPTY_1": "Ecografía ocular, unilateral o bilateral."
+    },
+    {
+      "Anexo 14": "0404014",
+      "__EMPTY_1": "Ecografía testicular (unilateral o bilateral) (Incluye Doppler)"
+    },
+    {
+      "Anexo 14": "0404015",
+      "__EMPTY_1": "Ecografía tiroidea (Incluye Doppler)"
+    },
+    {
+      "Anexo 14": "0404016",
+      "__EMPTY_1": "Ecografía Partes Blandas o Musculoesquelética (cada zona anatómica)"
+    },
+    {
+      "Anexo 14": "0404017",
+      "__EMPTY_1": "Ecografía axilar"
+    },
+    {
+      "Anexo 14": "0404018",
+      "__EMPTY_1": "Elastografía hepática"
+    },
+    {
+      "Anexo 14": "0404019",
+      "__EMPTY_1": "Ecografía espinal"
+    },
+    {
+      "Anexo 14": "0404118",
+      "__EMPTY_1": "Ecografía vascular (arterial y venosa) periférica (bilateral)"
+    },
+    {
+      "Anexo 14": "0404119",
+      "__EMPTY_1": "Ecografía doppler de vasos del cuello"
+    },
+    {
+      "Anexo 14": "0404120",
+      "__EMPTY_1": "Ecografía transcraneana"
+    },
+    {
+      "Anexo 14": "0404121",
+      "__EMPTY_1": "Ecografía abdominal o de vasos testiculares"
+    },
+    {
+      "Anexo 14": "0404122",
+      "__EMPTY_1": "Ecografía doppler de vasos placentarios"
+    },
+    {
+      "Anexo 14": "0405001",
+      "__EMPTY_1": "Resonancia Magnética Cráneo Encefálica u Oídos, bilateral"
+    },
+    {
+      "Anexo 14": "0405002",
+      "__EMPTY_1": "Resonancia Magnética de hipotálamo - hipófisis"
+    },
+    {
+      "Anexo 14": "0405003",
+      "__EMPTY_1": "Resonancia Magnética  de órbitas"
+    },
+    {
+      "Anexo 14": "0405004",
+      "__EMPTY_1": "Resonancia Magnética de articulaciones temporomandibulares"
+    },
+    {
+      "Anexo 14": "0405005",
+      "__EMPTY_1": "Resonancia Magnética  de columna cervical"
+    },
+    {
+      "Anexo 14": "0405006",
+      "__EMPTY_1": "Resonancia Magnética de columna dorsal"
+    },
+    {
+      "Anexo 14": "0405007",
+      "__EMPTY_1": "Resonancia Magnética de columna lumbar"
+    },
+    {
+      "Anexo 14": "0405017",
+      "__EMPTY_1": "Resonancia Magnética Angiografía de Encéfalo "
+    },
+    {
+      "Anexo 14": "0405018",
+      "__EMPTY_1": "Resonancia Magnética Angiografía de Cuello"
+    },
+    {
+      "Anexo 14": "0405019",
+      "__EMPTY_1": "Resonancia Magnética Angiografía de Tórax "
+    },
+    {
+      "Anexo 14": "0405020",
+      "__EMPTY_1": "Resonancia Magnética Angiografía de Abdomen "
+    },
+    {
+      "Anexo 14": "0405021",
+      "__EMPTY_1": "Resonancia Magnética Angiografía de Pelvis "
+    },
+    {
+      "Anexo 14": "0405022",
+      "__EMPTY_1": "Resonancia Magnética  Angiografía de Extremidad Superior Unilateral "
+    },
+    {
+      "Anexo 14": "0405023",
+      "__EMPTY_1": "Resonancia Magnética  Angiografia de Extremidad Inferior Unilateral "
+    },
+    {
+      "Anexo 14": "0405009",
+      "__EMPTY_1": "Resonancia Magnética de Tórax.( corazón, esternón, clavículas, articulación acromioclavicular, escápula, costillas o articulación esternoclavicular). Toda la pared torácicao cada segmento o articulación.Bilateral"
+    },
+    {
+      "Anexo 14": "0405010",
+      "__EMPTY_1": "Resonancia Magnética de abdomen "
+    },
+    {
+      "Anexo 14": "0405011",
+      "__EMPTY_1": "Resonancia Magnética de Pelvis. Incluye: osteoarticular de sacroiliacas u osteoarticular de sacrocoxis u osteoarticular de huesos pélvicos u órganos pelvianos (incluye genitales internos y gastrointestinal)"
+    },
+    {
+      "Anexo 14": "0405012",
+      "__EMPTY_1": "Resonancia Magnética de abdomen y pelvis"
+    },
+    {
+      "Anexo 14": "0405013",
+      "__EMPTY_1": "Resonancia Magnética de rodilla"
+    },
+    {
+      "Anexo 14": "0405024",
+      "__EMPTY_1": "Resonancia Magnética de Mano o Muñeca "
+    },
+    {
+      "Anexo 14": "0405025",
+      "__EMPTY_1": "Resonancia Magnética de Antebrazo o Brazo "
+    },
+    {
+      "Anexo 14": "0405026",
+      "__EMPTY_1": "Resonancia Magnética de Codo "
+    },
+    {
+      "Anexo 14": "0405027",
+      "__EMPTY_1": "Resonancia Magnética de Hombro "
+    },
+    {
+      "Anexo 14": "0405028",
+      "__EMPTY_1": "Resonancia Magnética de Pie, Antepie o Tobillo "
+    },
+    {
+      "Anexo 14": "0405029",
+      "__EMPTY_1": "Resonancia Magnética de Pierna"
+    },
+    {
+      "Anexo 14": "0405030",
+      "__EMPTY_1": "Resonancia Magnética de Muslo o Cadera. Unilateral"
+    },
+    {
+      "Anexo 14": "0405031",
+      "__EMPTY_1": "Resonancia Magnética de Mama (bilateral)"
+    },
+    {
+      "Anexo 14": "0405032",
+      "__EMPTY_1": "Resonancia Magnética Fetal"
+    },
+    {
+      "Anexo 14": "0405033",
+      "__EMPTY_1": "Resonancia magnética para planificación de tratamiento con radioterapia"
+    },
+    {
+      "Anexo 14": "0405034",
+      "__EMPTY_1": "Resonancia magnética estudio funcional de encéfalo"
+    },
+    {
+      "Anexo 14": "0405035",
+      "__EMPTY_1": "Resonancia magnética tractografía"
+    },
+    {
+      "Anexo 14": "0405036",
+      "__EMPTY_1": "Resonancia magnética espectroscopía encefálica"
+    },
+    {
+      "Anexo 14": "0405037",
+      "__EMPTY_1": "Resonancia magnética de cara, macizo facial y/o cavidades paranasales"
+    },
+    {
+      "Anexo 14": "0405038",
+      "__EMPTY_1": "Resonancia magnética perfusión cerebral"
+    },
+    {
+      "Anexo 14": "0405039",
+      "__EMPTY_1": "Resonancia magnética estudio de líquido cerebroespinal"
+    },
+    {
+      "Anexo 14": "0405040",
+      "__EMPTY_1": "Resonancia magnética estudio de piso pélvico por defecografía "
+    },
+    {
+      "Anexo 14": "0405041",
+      "__EMPTY_1": "Resonancia Magnética Screening óseo o muscular"
+    },
+    {
+      "Anexo 14": "0405016",
+      "__EMPTY_1": "Resonancia Columna Total (cervical, dorsal, lumbar)"
+    },
+    {
+      "Anexo 14": "0405098",
+      "__EMPTY_1": "Colangioresonancia"
+    },
+    {
+      "Anexo 14": "0501117",
+      "__EMPTY_1": "Cintigrafía renal con D.M.S.A."
+    },
+    {
+      "Anexo 14": "0501118",
+      "__EMPTY_1": "Estudio dinámico renal con Tc 99 - DTPA"
+    },
+    {
+      "Anexo 14": "0501119",
+      "__EMPTY_1": "Estudio dinámico renal con Tc 99 - MAG 3 o EC"
+    },
+    {
+      "Anexo 14": "0501120",
+      "__EMPTY_1": "Cistografía isotópica indirecta"
+    },
+    {
+      "Anexo 14": "0501121",
+      "__EMPTY_1": "Cistografía isotópica directa (no incluye procedimiento)"
+    },
+    {
+      "Anexo 14": "0501100",
+      "__EMPTY_1": "Captación I-131 a las 2 y/o 24 horas"
+    },
+    {
+      "Anexo 14": "0501101",
+      "__EMPTY_1": "Cintigrafía tiroidea, cualquier radioisótopo"
+    },
+    {
+      "Anexo 14": "0501102",
+      "__EMPTY_1": "Cintigrafía  glándulas paratiroides (no incluye MIBI)"
+    },
+    {
+      "Anexo 14": "0501103",
+      "__EMPTY_1": "Cintigrafía ósea completa planar o médula ósea (a.c. 0501133, cuando corresponda)"
+    },
+    {
+      "Anexo 14": "0501104",
+      "__EMPTY_1": "Cintigrafía ósea trifásica (incluye mediciones fase precoz y tardía)"
+    },
+    {
+      "Anexo 14": "0501105",
+      "__EMPTY_1": "Spect de perfusión miocárdica estrés y reposo "
+    },
+    {
+      "Anexo 14": "0501106",
+      "__EMPTY_1": "Ventriculografía cardiaca isotópica de equilibrio con glóbulos rojos"
+    },
+    {
+      "Anexo 14": "0501107",
+      "__EMPTY_1": "Pool sanguíneo, arteriografia isotópica c/u"
+    },
+    {
+      "Anexo 14": "0501108",
+      "__EMPTY_1": "Linfocintigrafía isotópica (no incluye procedimiento)"
+    },
+    {
+      "Anexo 14": "0501109",
+      "__EMPTY_1": "Pool sanguíneo spect"
+    },
+    {
+      "Anexo 14": "0501110",
+      "__EMPTY_1": "Cintigrafía glándulas salivales o dacriocintigrafía"
+    },
+    {
+      "Anexo 14": "0501111",
+      "__EMPTY_1": "Estudio motilidad esofágica y/o reflujo gastroesofágico"
+    },
+    {
+      "Anexo 14": "0501112",
+      "__EMPTY_1": "Vaciamiento gástrico líquido o sólido"
+    },
+    {
+      "Anexo 14": "0501113",
+      "__EMPTY_1": "Cintigrafía vesícula y vía biliar"
+    },
+    {
+      "Anexo 14": "0501114",
+      "__EMPTY_1": "Detección de sitio de sangramiento digestivo con glóbulos rojos marcados"
+    },
+    {
+      "Anexo 14": "0501115",
+      "__EMPTY_1": "Detección divertículo Meckel"
+    },
+    {
+      "Anexo 14": "0501116",
+      "__EMPTY_1": "Spect hepatoesplénico, evaluación hemangioma o hiperplasia (incluye mediciones fase precoz y tardía)"
+    },
+    {
+      "Anexo 14": "0501122",
+      "__EMPTY_1": "Cintigrafía pulmonar perfusión o ventilación o difusión, c/u"
+    },
+    {
+      "Anexo 14": "0501123",
+      "__EMPTY_1": "Cintigrafía y estudio aspiración pulmonar"
+    },
+    {
+      "Anexo 14": "0501124",
+      "__EMPTY_1": "Spect cerebral de perfusión (no incluye radiofármaco)"
+    },
+    {
+      "Anexo 14": "0501125",
+      "__EMPTY_1": "Estudio dinámico sistema nervioso (radiocisternografia, fístula L.C.R, radioventriculografía, control válvula derivatíva, sub-durografía isotópica), c/u (no incluye procedimiento)."
+    },
+    {
+      "Anexo 14": "0501126",
+      "__EMPTY_1": "Cintigrafía evaluación infecciones (leucocitos, infecton, granulocitos u otros) (no incluye radiofármaco ni procedimiento)."
+    },
+    {
+      "Anexo 14": "0501127",
+      "__EMPTY_1": "Cintigrafía con galio-67 planar infección (no incluye radioisótopo) (a.c. 0501133, cuando corresponda)"
+    },
+    {
+      "Anexo 14": "0501128",
+      "__EMPTY_1": "Detección y/o marcación de ganglio centinela, no incluye, punción ni detección con gammaprobe"
+    },
+    {
+      "Anexo 14": "0501129",
+      "__EMPTY_1": "Cintigrafía con galio-67 planar y Spect, para estudio de tumores (no incluye radioisótopo)"
+    },
+    {
+      "Anexo 14": "0501130",
+      "__EMPTY_1": "Exploración sistémica con I-131 (incluye mediciones fase precoz y tardía)"
+    },
+    {
+      "Anexo 14": "0501131",
+      "__EMPTY_1": "Estudio glándulas mamarias (mamocintigrafia) (no incluye MIBI)"
+    },
+    {
+      "Anexo 14": "0501132",
+      "__EMPTY_1": "Estudio de tumores (anticuerpos monoclonales, octreoscan, DMSA pentavalente, prostacint u otros) (no incluye radioisótopo)"
+    },
+    {
+      "Anexo 14": "0501133",
+      "__EMPTY_1": "Spect - Tomografía por emisión foton único, cualquier órgano (no incluye radioisótopo)"
+    },
+    {
+      "Anexo 14": "0501134",
+      "__EMPTY_1": "Densitometría ósea a fotón doble, columna y cadera (unilateral o bilateral) o cuerpo entero"
+    },
+    {
+      "Anexo 14": "0501140",
+      "__EMPTY_1": "Cintigrafía Spect glándulas paratiroides con sestamibi "
+    },
+    {
+      "Anexo 14": "0501141",
+      "__EMPTY_1": "Cintigrafía Spect-ct glándulas paratiroides con sestamibi "
+    },
+    {
+      "Anexo 14": "0501142",
+      "__EMPTY_1": "Cintigrama óseo de cuerpo entero con Spect"
+    },
+    {
+      "Anexo 14": "0501143",
+      "__EMPTY_1": "Cintigrama óseo de cuerpo entero con Spect-CT"
+    },
+    {
+      "Anexo 14": "0501144",
+      "__EMPTY_1": "Cintigrama óseo Spect ATM"
+    },
+    {
+      "Anexo 14": "0501145",
+      "__EMPTY_1": "Ventriculografía cardíaca isotópica de primer paso"
+    },
+    {
+      "Anexo 14": "0501146",
+      "__EMPTY_1": "Ventriculografía cardíaca isotópica spect"
+    },
+    {
+      "Anexo 14": "0502001",
+      "__EMPTY_1": "Dosis terapéuticas con I-131 hasta 30 mCi."
+    },
+    {
+      "Anexo 14": "0502002",
+      "__EMPTY_1": "Dosis terapéuticas con I-131 entre 31 a 100 mCi."
+    },
+    {
+      "Anexo 14": "0502003",
+      "__EMPTY_1": "Dosis terapéuticas con I-131 entre 101 a 200 mCi."
+    },
+    {
+      "Anexo 14": "0502004",
+      "__EMPTY_1": "Dosis terapéuticas con I-131 entre 201 a 300 mCi."
+    },
+    {
+      "Anexo 14": "0502005",
+      "__EMPTY_1": "Terapia paliativa del dolor con radioisótopos (no incluye radiofármaco)"
+    },
+    {
+      "Anexo 14": "0901002",
+      "__EMPTY_1": "Desintoxicación o deshabituación en pacientes hospitalizados (incluye tratamiento de la intoxicación, del síndrome de privación y de las complicaciones médicas); por día ( máximo 15 )"
+    },
+    {
+      "Anexo 14": "0901003",
+      "__EMPTY_1": "Electroshocks e insulino-terapia (efectuada y controlada por el médico psiquiatra, incluye trat. de las complicaciones médicas, c/s miorrelajantes); cada sesión (máx.6)"
+    },
+    {
+      "Anexo 14": "0901005",
+      "__EMPTY_1": "Atención psiquiátrica o psicoterapia de familia, individual, de relajación o de manejo (con familia u otros);(cada sesión mínimo 45')"
+    },
+    {
+      "Anexo 14": "0901006",
+      "__EMPTY_1": "Terapia aversiva con fármacos, c/sesión (máx. 15)"
+    },
+    {
+      "Anexo 14": "0901010",
+      "__EMPTY_1": "Psicoterapia de pareja (por cada miembro de la pareja)"
+    },
+    {
+      "Anexo 14": "0902001",
+      "__EMPTY_1": "Consulta Psicólogo clínico (sesiones 45')"
+    },
+    {
+      "Anexo 14": "0902002",
+      "__EMPTY_1": "Sesión de Psicoterapia individual"
+    },
+    {
+      "Anexo 14": "0902003",
+      "__EMPTY_1": "Sesión de psicoterapia de pareja (con ambos miembros)"
+    },
+    {
+      "Anexo 14": "0902010",
+      "__EMPTY_1": "Test de Rorschach"
+    },
+    {
+      "Anexo 14": "0902011",
+      "__EMPTY_1": "Test de relaciones objetales"
+    },
+    {
+      "Anexo 14": "0902012",
+      "__EMPTY_1": "Test de Apercepción Temática, T.A.T., C.A.T.-H o C.A.T.-A."
+    },
+    {
+      "Anexo 14": "0902013",
+      "__EMPTY_1": "Test de Edwards"
+    },
+    {
+      "Anexo 14": "0902014",
+      "__EMPTY_1": "Test de M.M.P.I."
+    },
+    {
+      "Anexo 14": "0902015",
+      "__EMPTY_1": "Test de Weschler, WAIS, WISC ó WPPSI"
+    },
+    {
+      "Anexo 14": "0902016",
+      "__EMPTY_1": "Test de Dominó o Test de Raven"
+    },
+    {
+      "Anexo 14": "0902017",
+      "__EMPTY_1": "Test de Bender"
+    },
+    {
+      "Anexo 14": "0902018",
+      "__EMPTY_1": "Bender Bip"
+    },
+    {
+      "Anexo 14": "0902019",
+      "__EMPTY_1": "Test de Goldstein"
+    },
+    {
+      "Anexo 14": "0902020",
+      "__EMPTY_1": "Test de Luria-Nebraska"
+    },
+    {
+      "Anexo 14": 1101004,
+      "__EMPTY_1": "E.E.G. de 16 o más canales (incluye el cód. 11-01-006)"
+    },
+    {
+      "Anexo 14": 1101006,
+      "__EMPTY_1": "Electroencefalograma (E.E.G.) standard y/o activado \"sin privación de sueño\" (incluye mono y bipolares, hiperventilación, c/s reactividad auditiva, visual, lumínica, por drogas u otras). Equipo de 8 canales"
+    },
+    {
+      "Anexo 14": 1101113,
+      "__EMPTY_1": "Angiografía cerebral digital por cateterización (incluye proc. radiológico,  medio de contraste e insumos)"
+    },
+    {
+      "Anexo 14": 1101140,
+      "__EMPTY_1": "Esclerosis Múltiple Remitente Recurrente,  Tratamiento médico farmacológico  Anual (incluye inmunomoduladores)"
+    },
+    {
+      "Anexo 14": 1101141,
+      "__EMPTY_1": "Esclerosis Múltiple Remitente Recurrente, Tratamiento rehabilitación"
+    },
+    {
+      "Anexo 14": 1101142,
+      "__EMPTY_1": "Esclerosis Múltiple Remitente Recurrente,  Tratamiento Brote"
+    },
+    {
+      "Anexo 14": 1101001,
+      "__EMPTY_1": "Intraventricular por fontanela, cisternal o latero-cervical alta o de hematoma intracraneal"
+    },
+    {
+      "Anexo 14": 1101002,
+      "__EMPTY_1": "Intraventricular por fontanela, cisternal o latero-cervical alta o de hematoma subdural"
+    },
+    {
+      "Anexo 14": 1101003,
+      "__EMPTY_1": "Punción Lumbar c/s manometría c/s Queckensted"
+    },
+    {
+      "Anexo 14": 1101005,
+      "__EMPTY_1": "Electrocorticografia"
+    },
+    {
+      "Anexo 14": 1101007,
+      "__EMPTY_1": "Estereo-electroencefalografia (incluye uno o mas electrodos"
+    },
+    {
+      "Anexo 14": 1101008,
+      "__EMPTY_1": "Monitoreo e.e.g. (electrodos implantados) por sesion."
+    },
+    {
+      "Anexo 14": 1101040,
+      "__EMPTY_1": "E.E.G. Post-privacion de sueno (incluye codigo 11-01-006). Equipo de 8 canales"
+    },
+    {
+      "Anexo 14": 1101041,
+      "__EMPTY_1": "E.E.G. Post-privacion de sueno (incluye codigo 11-01-004) equipo de 16 o mas canales"
+    },
+    {
+      "Anexo 14": 1101042,
+      "__EMPTY_1": "E.E.G. Digital (con activaciones) 20 canales"
+    },
+    {
+      "Anexo 14": 1101043,
+      "__EMPTY_1": "E.E.G. Digital (con activaciones) 32 canales"
+    },
+    {
+      "Anexo 14": 1101046,
+      "__EMPTY_1": "Electroencefalograma digital de 32 canales con \"mapeo\""
+    },
+    {
+      "Anexo 14": 1101044,
+      "__EMPTY_1": "Monitoreo e.e.g. Continuo de 24 hrs."
+    },
+    {
+      "Anexo 14": 1101047,
+      "__EMPTY_1": "Cateterismo selectivo de senos petrosos"
+    },
+    {
+      "Anexo 14": 1101048,
+      "__EMPTY_1": "Neuromonitoreo intraoperatorio"
+    },
+    {
+      "Anexo 14": 1101009,
+      "__EMPTY_1": "Electromiografia de fibra unica"
+    },
+    {
+      "Anexo 14": 1101010,
+      "__EMPTY_1": "Electromiografias cualquier region, por ej.: musculos faciales, faringe, paravertebrales, vejiga y perone, test de miastenia (incluye el estudio clinico y muestreo suficiente para diagnosticar naturaleza del trastorno y estado evolutivo), c/u"
+    },
+    {
+      "Anexo 14": 1101011,
+      "__EMPTY_1": "Potenciales evocados en corteza ( por ej.: auditivo, ocular"
+    },
+    {
+      "Anexo 14": 1101012,
+      "__EMPTY_1": "Velocidad de conduccion (incluye reflejo h, onda f y otros)"
+    },
+    {
+      "Anexo 14": 1101013,
+      "__EMPTY_1": "Carotida-vertebral por cateterizacion de la subclavia, axilar, humeral o femoral (a.c 04-02-029)"
+    },
+    {
+      "Anexo 14": 1101025,
+      "__EMPTY_1": "Por puncion lumbar, con medio de contraste gaseoso o hidrosoluble (A.C. 04-02-049 O 04-02-050 S/corresp.)"
+    },
+    {
+      "Anexo 14": 1101026,
+      "__EMPTY_1": "Infiltraciones de nervios perifericos intramuscular (de punto motor)"
+    },
+    {
+      "Anexo 14": 1101027,
+      "__EMPTY_1": "Infiltraciones de nervios perifericos troncular"
+    },
+    {
+      "Anexo 14": 1101028,
+      "__EMPTY_1": "Infiltración o bloqueo de ramas del trigémino o del facial"
+    },
+    {
+      "Anexo 14": 1101029,
+      "__EMPTY_1": "Infiltración o bloqueo del ganglio estrellado"
+    },
+    {
+      "Anexo 14": 1101030,
+      "__EMPTY_1": "Infiltración o bloqueo epidural, cervical, lumbar o similares, cada sesión"
+    },
+    {
+      "Anexo 14": 1101031,
+      "__EMPTY_1": "Infiltración o bloqueo intercostales (cualquier número)"
+    },
+    {
+      "Anexo 14": 1101032,
+      "__EMPTY_1": "Rizotomia quimica por medio de inyeccion intratecal."
+    },
+    {
+      "Anexo 14": 1101033,
+      "__EMPTY_1": "Infiltración o bloqueo suboccipital u otros nervios cervicales"
+    },
+    {
+      "Anexo 14": 1101034,
+      "__EMPTY_1": "Alcoholización o fenolización de nervios periféricos intramuscular"
+    },
+    {
+      "Anexo 14": 1101035,
+      "__EMPTY_1": "Alcoholización o fenolización de nervios periféricos intratecal"
+    },
+    {
+      "Anexo 14": 1101036,
+      "__EMPTY_1": "Alcoholización o fenolización de nervios periféricos troncular"
+    },
+    {
+      "Anexo 14": 1201001,
+      "__EMPTY_1": "Campimetría de proyección, unilateral (proc.aut.)"
+    },
+    {
+      "Anexo 14": 1201042,
+      "__EMPTY_1": "Campimetría computarizada, unilateral "
+    },
+    {
+      "Anexo 14": 1201002,
+      "__EMPTY_1": "Coordimetría, test de Hess u otro, unilateral"
+    },
+    {
+      "Anexo 14": 1201003,
+      "__EMPTY_1": "Cuantificación de lagrimación (test de Schirmer), uni o bilateral            "
+    },
+    {
+      "Anexo 14": 1201004,
+      "__EMPTY_1": "Curva de tensión aplanática (por cada día), unilateral                                "
+    },
+    {
+      "Anexo 14": 1201005,
+      "__EMPTY_1": "Diploscopia cuantitativa, bilateral                                                     "
+    },
+    {
+      "Anexo 14": 1201006,
+      "__EMPTY_1": "Electromiografía músculos oculares adultos, unilateral"
+    },
+    {
+      "Anexo 14": 1201007,
+      "__EMPTY_1": "Electromiografía músculos oculares niños, unilateral"
+    },
+    {
+      "Anexo 14": 1201008,
+      "__EMPTY_1": "Electrooculografía, bilateral"
+    },
+    {
+      "Anexo 14": 1201009,
+      "__EMPTY_1": "Exploración sensoriomotora: estrabismo, estudio completo, bilateral              "
+    },
+    {
+      "Anexo 14": 1201010,
+      "__EMPTY_1": "Perimetría de Goldman o perimetría cinética, unilateral"
+    },
+    {
+      "Anexo 14": 1201011,
+      "__EMPTY_1": "Pruebas de provocación para glaucoma (prueba de oscuridad u otras), uni o bilateral"
+    },
+    {
+      "Anexo 14": 1201012,
+      "__EMPTY_1": "Retinografía, bilateral                                                                        "
+    },
+    {
+      "Anexo 14": 1201014,
+      "__EMPTY_1": "Tonometría aplanática unilateral                                           "
+    },
+    {
+      "Anexo 14": 1201015,
+      "__EMPTY_1": "Tratamiento ortóptico y/o pleóptico (por sesión), bilateral                               "
+    },
+    {
+      "Anexo 14": 1201016,
+      "__EMPTY_1": "Angiografía de retina o de iris, (con fluoresceína o sim.), unilateral"
+    },
+    {
+      "Anexo 14": 1201017,
+      "__EMPTY_1": "Angioscopia retinal y/o iris (con fluoresceína o similar), unilateral (proc.aut.)"
+    },
+    {
+      "Anexo 14": 1201018,
+      "__EMPTY_1": "Electrorretinografía, unilateral"
+    },
+    {
+      "Anexo 14": 1201019,
+      "__EMPTY_1": "Exploracion vitreorretinal, ambos ojos                                                       "
+    },
+    {
+      "Anexo 14": 1201020,
+      "__EMPTY_1": "Ecobiometría con cálculo de lente intraocular, bilateral"
+    },
+    {
+      "Anexo 14": 1201023,
+      "__EMPTY_1": "Potencial visual evocado en adultos, bilateral"
+    },
+    {
+      "Anexo 14": 1201024,
+      "__EMPTY_1": "Potencial visual evocado en niños, bilateral"
+    },
+    {
+      "Anexo 14": 1201027,
+      "__EMPTY_1": "Examen Optométrico c/s Prescripción de Lentes   "
+    },
+    {
+      "Anexo 14": 1201043,
+      "__EMPTY_1": "Topografía corneal computarizada, unilateral"
+    },
+    {
+      "Anexo 14": 1201029,
+      "__EMPTY_1": "Cuerpo extrano conjuntival y/o corneal en adultos                                 "
+    },
+    {
+      "Anexo 14": 1201030,
+      "__EMPTY_1": "Cuerpo extrano conjuntival y/o corneal en ninos"
+    },
+    {
+      "Anexo 14": 1201031,
+      "__EMPTY_1": "Via lagrimal,cateterismo o sondaje en adultos"
+    },
+    {
+      "Anexo 14": 1201032,
+      "__EMPTY_1": "Via lagrimal, cateterismo o sondaje en lactantes"
+    },
+    {
+      "Anexo 14": 1201033,
+      "__EMPTY_1": "Via lagrimal, cateterismo o sondaje en ninos"
+    },
+    {
+      "Anexo 14": 1201034,
+      "__EMPTY_1": "Tocacion corneal c/yodo y/o eter u otros, en ninos o adultos"
+    },
+    {
+      "Anexo 14": 1201035,
+      "__EMPTY_1": "Criocoagulacion conjuntival, corneal o palpebral en adultos"
+    },
+    {
+      "Anexo 14": 1201036,
+      "__EMPTY_1": "Criocoagulacion conjuntival, corneal o palpebral en ninos"
+    },
+    {
+      "Anexo 14": 1201037,
+      "__EMPTY_1": "Glaucoma, ciclodiatermia y/o ciclocrioterapia"
+    },
+    {
+      "Anexo 14": 1201038,
+      "__EMPTY_1": "Inyeccion retrobulbar"
+    },
+    {
+      "Anexo 14": 1201039,
+      "__EMPTY_1": "Pestanas, extirp. Por electrocoagulacion (cualquier numero)"
+    },
+    {
+      "Anexo 14": 1201040,
+      "__EMPTY_1": "Puntos lagrimales; electrotermocoagulacion"
+    },
+    {
+      "Anexo 14": 1201041,
+      "__EMPTY_1": "Sondaje vía lagrimal en niños (bajo anestesia general)"
+    },
+    {
+      "Anexo 14": "1201045",
+      "__EMPTY_1": "Paquimetría"
+    },
+    {
+      "Anexo 14": 1201044,
+      "__EMPTY_1": "Tomografía coherencia óptica, c/ ojo "
+    },
+    {
+      "Anexo 14": 1301001,
+      "__EMPTY_1": "Electrogustometria"
+    },
+    {
+      "Anexo 14": 1301002,
+      "__EMPTY_1": "Rinomanometria c/s vasocontrictor"
+    },
+    {
+      "Anexo 14": 1301003,
+      "__EMPTY_1": "Nasofaringolaringofibroscopia"
+    },
+    {
+      "Anexo 14": 1301005,
+      "__EMPTY_1": "Sinusoscopia de cada seno maxilar por puncion, c/s biopsia,"
+    },
+    {
+      "Anexo 14": 1301006,
+      "__EMPTY_1": "Laringoscopia y/o traqueoscopia directa c/s toma de muestra, c/s biopsia con microscopio"
+    },
+    {
+      "Anexo 14": 1301007,
+      "__EMPTY_1": "Laringoscopia y/o traqueoscopia directa c/s toma de muestra, c/s biopsia sin microscopio"
+    },
+    {
+      "Anexo 14": 1301021,
+      "__EMPTY_1": "Audiometría adultos"
+    },
+    {
+      "Anexo 14": 1301008,
+      "__EMPTY_1": "Audiometría niños"
+    },
+    {
+      "Anexo 14": 1301009,
+      "__EMPTY_1": "Impedanciometría"
+    },
+    {
+      "Anexo 14": 1301010,
+      "__EMPTY_1": "Calibración de audífonos o implantes"
+    },
+    {
+      "Anexo 14": 1301011,
+      "__EMPTY_1": "Potenciales evocados auditivos"
+    },
+    {
+      "Anexo 14": 1301012,
+      "__EMPTY_1": "Cócleovestibular con electronistagmografía"
+    },
+    {
+      "Anexo 14": 1301015,
+      "__EMPTY_1": "Electronistagmografía o Videoelectronistagmografía c/s nistag.de posición"
+    },
+    {
+      "Anexo 14": 1301016,
+      "__EMPTY_1": "Función tubaria"
+    },
+    {
+      "Anexo 14": 1301017,
+      "__EMPTY_1": "Prueba calórica o prueba calórica mínima (proc.aut.)"
+    },
+    {
+      "Anexo 14": 1301019,
+      "__EMPTY_1": "Test de glicerol (con 3 audiometrías)"
+    },
+    {
+      "Anexo 14": 1301020,
+      "__EMPTY_1": "Examen funcional de VIII par"
+    },
+    {
+      "Anexo 14": 1301024,
+      "__EMPTY_1": "Senos perinasales, puncion evacuadora c/s toma de muestras,"
+    },
+    {
+      "Anexo 14": 1301025,
+      "__EMPTY_1": "Taponamiento nasal anterior (proc. aut.)"
+    },
+    {
+      "Anexo 14": 1301026,
+      "__EMPTY_1": "Taponamiento nasal posterior"
+    },
+    {
+      "Anexo 14": 1301027,
+      "__EMPTY_1": "Vaciamiento cavid. Perinasales (proetz y sim.) (10 sesiones)"
+    },
+    {
+      "Anexo 14": 1301028,
+      "__EMPTY_1": "Cauterización uni o bilateral de vasos en fosa nasal anterior"
+    },
+    {
+      "Anexo 14": 1301029,
+      "__EMPTY_1": "Cuerpo extraño en fosas nasales, extraccion en adultos        "
+    },
+    {
+      "Anexo 14": 1301030,
+      "__EMPTY_1": "Cuerpo extraño en fosas nasales, extraccion en niños        "
+    },
+    {
+      "Anexo 14": 1301035,
+      "__EMPTY_1": "Cuerpo extraño en laringe y/o traquea, extraccion de (incluyela endoscopia con tubo rigido): En adultos"
+    },
+    {
+      "Anexo 14": 1301036,
+      "__EMPTY_1": "Cuerpo extraño en laringe y/o traquea, extraccion de (incluyela endoscopia con tubo rigido): En ninos"
+    },
+    {
+      "Anexo 14": 1301037,
+      "__EMPTY_1": "Dilatacion esofagica por sesion"
+    },
+    {
+      "Anexo 14": 1301038,
+      "__EMPTY_1": "Dilatacion esofagica por sesion en ninos"
+    },
+    {
+      "Anexo 14": 1301039,
+      "__EMPTY_1": "Dilatacion esofagica por sesion en adultos"
+    },
+    {
+      "Anexo 14": 1301040,
+      "__EMPTY_1": "Lesiones del oido externo y/o medio, curacion bajo micros"
+    },
+    {
+      "Anexo 14": 1301041,
+      "__EMPTY_1": "Trompa de eustaquio, insuflacion instrumental (proc. Aut.)"
+    },
+    {
+      "Anexo 14": 1301042,
+      "__EMPTY_1": "Cuerpo extraño en oído, extracción de (incluye tapón de cerumen) (proc. aut.) - En adultos"
+    },
+    {
+      "Anexo 14": 1301043,
+      "__EMPTY_1": "Cuerpo extraño en oído, extracción de (incluye tapón de cerumen) (proc. aut.) - En niños"
+    },
+    {
+      "Anexo 14": 1301044,
+      "__EMPTY_1": "Biopsia oido (proc. Aut.)"
+    },
+    {
+      "Anexo 14": 1301045,
+      "__EMPTY_1": "Emisiones Otoacústicas "
+    },
+    {
+      "Anexo 14": 1301046,
+      "__EMPTY_1": "Potenciales evocados auditivos de tronco cerebral acortados"
+    },
+    {
+      "Anexo 14": 1301047,
+      "__EMPTY_1": "Nasofibroscopía de la deglución"
+    },
+    {
+      "Anexo 14": 1301048,
+      "__EMPTY_1": "Prueba de impulso cefálico con videooculografía o similar (VHIT) "
+    },
+    {
+      "Anexo 14": 1301049,
+      "__EMPTY_1": "Pruebas rotatorias"
+    },
+    {
+      "Anexo 14": 1301050,
+      "__EMPTY_1": "Audiometría campo libre. Niños y adultos"
+    },
+    {
+      "Anexo 14": 1301051,
+      "__EMPTY_1": "Retiro de tubos de ventilación timpánica, uni o bilateral"
+    },
+    {
+      "Anexo 14": 1301052,
+      "__EMPTY_1": "Potenciales electromiogénicos vestibulares cervicales u oculares"
+    },
+    {
+      "Anexo 14": 1303001,
+      "__EMPTY_1": "Evaluacion de la voz (incluye respiracion, tonicidad     "
+    },
+    {
+      "Anexo 14": 1303002,
+      "__EMPTY_1": "Evaluacion del habla (incluye articulacion, prosodia,     "
+    },
+    {
+      "Anexo 14": 1303003,
+      "__EMPTY_1": "Evaluacion del lenguaje (incluye voz, habla y aspecto   "
+    },
+    {
+      "Anexo 14": 1303004,
+      "__EMPTY_1": "Rehabilitacion de la voz (maximo 15 sesiones anuales)  (cada sesion minimo 30'') (Fonoaudiológo)"
+    },
+    {
+      "Anexo 14": 1303005,
+      "__EMPTY_1": "Rehabilitacion del habla y/o del lenguaje (maximo 30 sesiones anuales) (cada sesion minimo 30'') (Fonoaudiológo)"
+    },
+    {
+      "Anexo 14": 1303006,
+      "__EMPTY_1": "Rehabilitación de la deglución"
+    },
+    {
+      "Anexo 14": "1303007",
+      "__EMPTY_1": "Evaluación clínica de la deglución "
+    },
+    {
+      "Anexo 14": 1308301,
+      "__EMPTY_1": "Telerehabilitación: Evaluación de voz"
+    },
+    {
+      "Anexo 14": "1308302",
+      "__EMPTY_1": "Telerehabilitación: Evaluación de habla"
+    },
+    {
+      "Anexo 14": "1308303",
+      "__EMPTY_1": "Telerehabilitación: Evaluación del lenguaje (incluye voz, habla y aspecto semántico, sintáctico y fonológico, etc. e informe) (incluye 3 sesiones de mínimo 30')"
+    },
+    {
+      "Anexo 14": "1308304",
+      "__EMPTY_1": "Telerehabilitación: Rehabilitación de la voz "
+    },
+    {
+      "Anexo 14": "1308305",
+      "__EMPTY_1": "Telerehabilitación: Rehabilitación del habla y/o del lenguaje (máximo 30 sesiones anuales)(cada sesión mínimo 30')      "
+    },
+    {
+      "Anexo 14": 1401001,
+      "__EMPTY_1": "Punción aspirativa con aguja fina de nódulo tiroideo"
+    },
+    {
+      "Anexo 14": 1601110,
+      "__EMPTY_1": "Curetaje de lesiones virales o similares hasta 10 lesiones                          "
+    },
+    {
+      "Anexo 14": 1601111,
+      "__EMPTY_1": "Aplicación de inmunomodulares, quimicos y similares hasta 10 lesiones"
+    },
+    {
+      "Anexo 14": 1601112,
+      "__EMPTY_1": "Fototerapia UVB, UVA localizada, por sesion "
+    },
+    {
+      "Anexo 14": 1601113,
+      "__EMPTY_1": "Fototerapia UVB, banda angosta y UVA por sesion  en cabina"
+    },
+    {
+      "Anexo 14": 1601115,
+      "__EMPTY_1": "Implantes Subcutáneos, instalación o retiro"
+    },
+    {
+      "Anexo 14": 1601116,
+      "__EMPTY_1": "Crioterapia hasta 5 lesiones"
+    },
+    {
+      "Anexo 14": 1601117,
+      "__EMPTY_1": "Crioterapia 6 a 10 lesiones"
+    },
+    {
+      "Anexo 14": 1601118,
+      "__EMPTY_1": "Tumor maligno por criocirugía (por cada lesión) por sesión"
+    },
+    {
+      "Anexo 14": 1601119,
+      "__EMPTY_1": "Inyeccion intracutanea en areas hasta 9 cms2"
+    },
+    {
+      "Anexo 14": 1601120,
+      "__EMPTY_1": "Tratamiento abrasivo cutaneo mecanico"
+    },
+    {
+      "Anexo 14": 1601121,
+      "__EMPTY_1": "Tratamiento abrasivo cutaneo  quimico"
+    },
+    {
+      "Anexo 14": 1601122,
+      "__EMPTY_1": "Tricograma"
+    },
+    {
+      "Anexo 14": 1601124,
+      "__EMPTY_1": "Tratamiento por laser, IPL o similar por area hasta 16 cm2"
+    },
+    {
+      "Anexo 14": 1601125,
+      "__EMPTY_1": "Terapia fotodinamica ( no incluye medicamento)"
+    },
+    {
+      "Anexo 14": 1601126,
+      "__EMPTY_1": "Dermatoscopia digital con registro graficos hasta 5 lesiones "
+    },
+    {
+      "Anexo 14": 1701004,
+      "__EMPTY_1": "Electrocardiograma de esfuerzo en adultos o ninos"
+    },
+    {
+      "Anexo 14": 1701055,
+      "__EMPTY_1": "Ecocardiagrama doppler color transesofagico"
+    },
+    {
+      "Anexo 14": 1701009,
+      "__EMPTY_1": "Monitoreo continuo de presion arterial                                                                         "
+    },
+    {
+      "Anexo 14": 1701013,
+      "__EMPTY_1": "Cateterismo en recien nacido por arteria umbilical"
+    },
+    {
+      "Anexo 14": 1701014,
+      "__EMPTY_1": "Instalacion de cateter swan-ganz o similar, en adultos o ninos"
+    },
+    {
+      "Anexo 14": 1701015,
+      "__EMPTY_1": "Doppler con ergometria (por sesion)"
+    },
+    {
+      "Anexo 14": 1701016,
+      "__EMPTY_1": "Doppler simple de vasos perifericos (por sesion)"
+    },
+    {
+      "Anexo 14": 1701017,
+      "__EMPTY_1": "Pletismografia en reposo, esfuerzo c/u (por sesion)"
+    },
+    {
+      "Anexo 14": 1701018,
+      "__EMPTY_1": "Registro ecoarterial o ecovenoso periferico c/u (por sesion)"
+    },
+    {
+      "Anexo 14": 1701025,
+      "__EMPTY_1": "Cavografia (a.c. 04-02-035)"
+    },
+    {
+      "Anexo 14": 1701026,
+      "__EMPTY_1": "Flebografia de cada extremidad (a.c.04-02-038)"
+    },
+    {
+      "Anexo 14": 1701027,
+      "__EMPTY_1": "Flebografia yugular, suprarrenal, portografia transhepaticas, lumbar, espermatica o similar c/u (a.c. 04-02-041)"
+    },
+    {
+      "Anexo 14": 1701030,
+      "__EMPTY_1": "Punción evacuadora de pericardio, c/s toma de muestra c/s inyección de medicamento"
+    },
+    {
+      "Anexo 14": 1701031,
+      "__EMPTY_1": "Angioplastia intraluminal coronaria proc.cardiológico (a.c.04-02-022)"
+    },
+    {
+      "Anexo 14": 1701032,
+      "__EMPTY_1": "Angioplastia intraluminal periférica proc.cardiológico (a.c.04-02-023)"
+    },
+    {
+      "Anexo 14": 1701034,
+      "__EMPTY_1": "Cardioversion"
+    },
+    {
+      "Anexo 14": 1701037,
+      "__EMPTY_1": "Puncion subclavia o yugular con colocacion de cateter"
+    },
+    {
+      "Anexo 14": 1701039,
+      "__EMPTY_1": "Trombolisis arterial periferica"
+    },
+    {
+      "Anexo 14": 1701040,
+      "__EMPTY_1": "Trombolisis intracoronaria"
+    },
+    {
+      "Anexo 14": 1701041,
+      "__EMPTY_1": "Valvuloplastia mitral (a.c. 04-02-033)"
+    },
+    {
+      "Anexo 14": 1701042,
+      "__EMPTY_1": "Valvuloplastia aortica y/o pulmonar,c/u (a.c. 04-02-033)"
+    },
+    {
+      "Anexo 14": 1701046,
+      "__EMPTY_1": "Estudio electrofisiologico endocardiaco de las arritmias"
+    },
+    {
+      "Anexo 14": 1701050,
+      "__EMPTY_1": "Ablacion con corriente continua o radiofrecuencia de nodulo"
+    },
+    {
+      "Anexo 14": 1701051,
+      "__EMPTY_1": "Ablacion con corriente continua o con radiofrecuencia de vias accesorias y otros"
+    },
+    {
+      "Anexo 14": 1701056,
+      "__EMPTY_1": "Ecocardiograma Fetal "
+    },
+    {
+      "Anexo 14": 1701057,
+      "__EMPTY_1": "Ecocardiograma de estrés (incluye medicamento)"
+    },
+    {
+      "Anexo 14": 1701058,
+      "__EMPTY_1": "Test de esfuerzo con consumo de oxígeno (adultos y niños)"
+    },
+    {
+      "Anexo 14": 1701059,
+      "__EMPTY_1": "Tilt test o prueba de inclinación"
+    },
+    {
+      "Anexo 14": 1701060,
+      "__EMPTY_1": "Revisión (re-implante) electrodo desfibrilador automático transvenoso"
+    },
+    {
+      "Anexo 14": 1701061,
+      "__EMPTY_1": "Arteriografía selectiva o superselectiva pulmonar en adultos o niños (incl. proc. rad.)"
+    },
+    {
+      "Anexo 14": "1701062",
+      "__EMPTY_1": "Arteriografía selectiva o superselectiva renal en adultos o niños (incl. proc. rad.)"
+    },
+    {
+      "Anexo 14": "1701063",
+      "__EMPTY_1": "Arteriografía selectiva o superselectiva tronco celíaco en adultos o niños (incl. proc. rad.)"
+    },
+    {
+      "Anexo 14": "1701064",
+      "__EMPTY_1": "Arteriografía selectiva o superselectiva arteria glútea en adultos o niños (incl. proc. rad.)"
+    },
+    {
+      "Anexo 14": "1701065",
+      "__EMPTY_1": "Arteriografía selectiva o superselectiva hipogástrica en adultos o niños (incl. proc. rad.)"
+    },
+    {
+      "Anexo 14": "1701066",
+      "__EMPTY_1": "Arteriografía selectiva o superselectiva hepática en adultos o niños (incl. proc. rad.)"
+    },
+    {
+      "Anexo 14": "1701067",
+      "__EMPTY_1": "Arteriografía selectiva o superselectiva mesentérica en adultos o niños (incl. proc. rad.)"
+    },
+    {
+      "Anexo 14": "1701068",
+      "__EMPTY_1": "Arteriografía selectiva o superselectiva arteria lumbar en adultos o niños (incl. proc. rad.)"
+    },
+    {
+      "Anexo 14": "1701069",
+      "__EMPTY_1": "Arteriografía selectiva o superselectiva arteria vesical en adultos o niños (incl. proc. rad.)"
+    },
+    {
+      "Anexo 14": 1701078,
+      "__EMPTY_1": "Instalación de reservorio subcutáneo (catéter de quimioterapia) "
+    },
+    {
+      "Anexo 14": 1701079,
+      "__EMPTY_1": "Retiro de reservorio subcutáneo (catéter de quimioterapia) "
+    },
+    {
+      "Anexo 14": 1707001,
+      "__EMPTY_1": "Espirometría Basal                                                                                       "
+    },
+    {
+      "Anexo 14": 1707002,
+      "__EMPTY_1": "Espirometria basal y con broncodilatador                                                         "
+    },
+    {
+      "Anexo 14": 1707003,
+      "__EMPTY_1": "Provocacion con antigeno (incluye el antigeno)"
+    },
+    {
+      "Anexo 14": 1707004,
+      "__EMPTY_1": "Test de provocacion con ejercicio                                                                      "
+    },
+    {
+      "Anexo 14": 1707005,
+      "__EMPTY_1": "Provocacion con histamina (pd 20),test de, (incluye la espirometría basal y el tratamiento de los efectos advesos de la histamina)"
+    },
+    {
+      "Anexo 14": 1707051,
+      "__EMPTY_1": "Curva dosis respuesta a broncodilatadores."
+    },
+    {
+      "Anexo 14": 1707007,
+      "__EMPTY_1": "Analisis de gas espirado"
+    },
+    {
+      "Anexo 14": 1707008,
+      "__EMPTY_1": "Capacidad de difusion, estudio de"
+    },
+    {
+      "Anexo 14": 1707009,
+      "__EMPTY_1": "Capacidad fisica del trabajo"
+    },
+    {
+      "Anexo 14": 1707010,
+      "__EMPTY_1": "Curva de lavado de nitrogeno (n)"
+    },
+    {
+      "Anexo 14": 1707011,
+      "__EMPTY_1": "Curva de relajacion flujovolumen basal "
+    },
+    {
+      "Anexo 14": 1707012,
+      "__EMPTY_1": "Distensibilidad pulmonar, (\"compliance\"), estudio de"
+    },
+    {
+      "Anexo 14": 1707013,
+      "__EMPTY_1": "Medicion de presion de oclusion"
+    },
+    {
+      "Anexo 14": 1707014,
+      "__EMPTY_1": "Medicion de presion inspiratoria maxima (proc. Aut.)"
+    },
+    {
+      "Anexo 14": 1707015,
+      "__EMPTY_1": "Medicion de presion trans-diafragmatica"
+    },
+    {
+      "Anexo 14": 1707016,
+      "__EMPTY_1": "Registro flujometrico, por semana"
+    },
+    {
+      "Anexo 14": 1707017,
+      "__EMPTY_1": "Respuesta respiratoria al co2"
+    },
+    {
+      "Anexo 14": 1707018,
+      "__EMPTY_1": "Tiempo de tolerancia a la fatiga respiratoria"
+    },
+    {
+      "Anexo 14": 1707019,
+      "__EMPTY_1": "Ventilacion alveolar, estudio de (incluye ventilacion minuto"
+    },
+    {
+      "Anexo 14": 1707020,
+      "__EMPTY_1": "Volúmenes pulmonares por lavado de nitrógeno"
+    },
+    {
+      "Anexo 14": 1707021,
+      "__EMPTY_1": "Laringotraqueobroncoscopia con fibroscopio"
+    },
+    {
+      "Anexo 14": 1707022,
+      "__EMPTY_1": "Larigotraqueoscopia con tubo rigido"
+    },
+    {
+      "Anexo 14": 1707024,
+      "__EMPTY_1": "Pleuroscopia (toracoscopia) c/s biopsia"
+    },
+    {
+      "Anexo 14": 1707025,
+      "__EMPTY_1": "Procedimiento para determinar gasometria arterial en  reposo"
+    },
+    {
+      "Anexo 14": 1707026,
+      "__EMPTY_1": "Procedimiento para determinar gasometria arterial respirando"
+    },
+    {
+      "Anexo 14": 1707054,
+      "__EMPTY_1": "Saturacion de O2 en reposo y/o ejercicio (con oximetro)"
+    },
+    {
+      "Anexo 14": 1707055,
+      "__EMPTY_1": "Saturacion de O2 en reposo y/o ejercicio y/o O2 100% (con  oximetro)"
+    },
+    {
+      "Anexo 14": 1707027,
+      "__EMPTY_1": "Broncoaspiración, c/s lavado y/o colocación de medicamentos por sonda traqueobronquial (proc. aut.)"
+    },
+    {
+      "Anexo 14": 1707029,
+      "__EMPTY_1": "Toracocentesis evacuadora,c/s toma de muestras"
+    },
+    {
+      "Anexo 14": 1707030,
+      "__EMPTY_1": "Aerosolterapia con aire comprimido y oxigeno (en atencion cerrada, incluida en valor dia cama)    "
+    },
+    {
+      "Anexo 14": 1707032,
+      "__EMPTY_1": "Biopsia pleural (con aguja)"
+    },
+    {
+      "Anexo 14": 1707033,
+      "__EMPTY_1": "Biopsia pulmonar (con aguja) no incluye la radiologia"
+    },
+    {
+      "Anexo 14": 1707034,
+      "__EMPTY_1": "Cuerpo extrano de bronquio, extraccion por via"
+    },
+    {
+      "Anexo 14": 1707035,
+      "__EMPTY_1": "Inmunoterapia por bcg"
+    },
+    {
+      "Anexo 14": 1707036,
+      "__EMPTY_1": "Inmunoterapia por sesion (incluye el tratamiento de"
+    },
+    {
+      "Anexo 14": 1707037,
+      "__EMPTY_1": "Intubacion traqueal (proc. Aut.)"
+    },
+    {
+      "Anexo 14": 1707038,
+      "__EMPTY_1": "Monitoreo o estudio de apnea durante el sueño"
+    },
+    {
+      "Anexo 14": 1707052,
+      "__EMPTY_1": "Monitorizacion saturacion de O2 durante el sueño"
+    },
+    {
+      "Anexo 14": 1707053,
+      "__EMPTY_1": "Monitorizacion saturacion de O2 durante el sueño con presion positiva continua nasal"
+    },
+    {
+      "Anexo 14": 1707057,
+      "__EMPTY_1": "Determinación de umbral tusígeno"
+    },
+    {
+      "Anexo 14": 1707058,
+      "__EMPTY_1": "Volúmenes pulmonares por pletismografía corporal. Estudio basal"
+    },
+    {
+      "Anexo 14": 1707059,
+      "__EMPTY_1": "Volúmenes pulmonares por pletismografía corporal. Estudio basal y post broncodilatador"
+    },
+    {
+      "Anexo 14": 1707060,
+      "__EMPTY_1": "Colocación de stent endobronquial por broncoscopía"
+    },
+    {
+      "Anexo 14": 1707061,
+      "__EMPTY_1": "Fibrobroncoscopía con biopsia transbronquial"
+    },
+    {
+      "Anexo 14": 1707062,
+      "__EMPTY_1": "Selle endoscópico de fístula bronco-pleural"
+    },
+    {
+      "Anexo 14": 1701001,
+      "__EMPTY_1": "E.C.G. de reposo (incluye mínimo 12 derivaciones y 4 complejos por derivación)             "
+    },
+    {
+      "Anexo 14": 1701003,
+      "__EMPTY_1": "Ergometría (incluye E.C.G. antes, durante y después del ejercicio con monitoreo continuo y medición de la intensidad del esfuerzo)"
+    },
+    {
+      "Anexo 14": 1701006,
+      "__EMPTY_1": "E.C.G. continuo (test Holter o similares, por ej. variabilidad de la frecuencia cardíaca y/o alta resolución del ST y/o depolarización tardía); 20 a 24 horas de registro                                                             "
+    },
+    {
+      "Anexo 14": 1701007,
+      "__EMPTY_1": "Ecocardiograma Doppler, con registro (incluye cód. 17.01.008)"
+    },
+    {
+      "Anexo 14": 1701045,
+      "__EMPTY_1": "Ecocardiograma Doppler color"
+    },
+    {
+      "Anexo 14": 1701008,
+      "__EMPTY_1": "Ecocardiograma bidimensional (incluye registro modo M, papel fotosensible y fotografía), en adultos o niños (proc. aut.)"
+    },
+    {
+      "Anexo 14": 1701010,
+      "__EMPTY_1": "Sondeo cardíaco derecho c/s termodilución, en adultos o niños"
+    },
+    {
+      "Anexo 14": 1701011,
+      "__EMPTY_1": "Sondeo cardíaco izquierdo y derecho, en adultos o niños"
+    },
+    {
+      "Anexo 14": 1701012,
+      "__EMPTY_1": "Sondeo cardíaco izquierdo, en adultos o niños"
+    },
+    {
+      "Anexo 14": 1701019,
+      "__EMPTY_1": "Cinecoronariografía derecha y/o izquierda (incluye sondeo cardíaco izquierdo  y ventriculografía izquierda)"
+    },
+    {
+      "Anexo 14": 1701020,
+      "__EMPTY_1": "Ventriculografía derecha, en adultos o niños (incl. proc. rad., y sondeo cardíaco derecho)"
+    },
+    {
+      "Anexo 14": 1701021,
+      "__EMPTY_1": "Ventriculografía izquierda, en adultos o niños (incl. proc. rad., y sondeo cardíaco izquierdo)"
+    },
+    {
+      "Anexo 14": 1701022,
+      "__EMPTY_1": "Aortografía, en adultos o niños (Incluye proc. rad.)"
+    },
+    {
+      "Anexo 14": 1701023,
+      "__EMPTY_1": "Arteriografía de extremidades, en adultos o niños (incluye proc. rad.)"
+    },
+    {
+      "Anexo 14": 1701131,
+      "__EMPTY_1": "Angioplastía Intraluminal coronaria uno o multiples vasos (incl. proc. rad; balón, rotablator, Stent o similar)"
+    },
+    {
+      "Anexo 14": 1701132,
+      "__EMPTY_1": "Angioplastía Intraluminal periférica (incluye proc. rad., balón, Stent o similar)"
+    },
+    {
+      "Anexo 14": 1701043,
+      "__EMPTY_1": "Angioplastía de coartación aórtica (incl. proc. rad.) (proc. completo)"
+    },
+    {
+      "Anexo 14": 1701144,
+      "__EMPTY_1": "Angioplastía de arteria pulmonar o vena cava en niños (incluye proc. rad., balón, Stent o similar)"
+    },
+    {
+      "Anexo 14": 1701033,
+      "__EMPTY_1": "Biopsia endomiocárdica (proc. completo)"
+    },
+    {
+      "Anexo 14": 1701038,
+      "__EMPTY_1": "Septostomía de Rashkind"
+    },
+    {
+      "Anexo 14": 1701035,
+      "__EMPTY_1": "Colocación de sonda marcapaso transitorio (proc. completo)"
+    },
+    {
+      "Anexo 14": 1701141,
+      "__EMPTY_1": "Valvuloplastía mitral o tricúspide (incl. proc. radiológico,  incluye balón)"
+    },
+    {
+      "Anexo 14": 1701142,
+      "__EMPTY_1": "Valvuloplastía aórtica y/o pulmonar c/u (incl. proc. radiológico,  incluye balón)"
+    },
+    {
+      "Anexo 14": 1707056,
+      "__EMPTY_1": "Endosonografía bronquial (EBUS)"
+    },
+    {
+      "Anexo 14": 1801037,
+      "__EMPTY_1": "Ureasa, test de (para helicobacter pylori) o similar"
+    },
+    {
+      "Anexo 14": 1801002,
+      "__EMPTY_1": "Esofagoscopia"
+    },
+    {
+      "Anexo 14": 1801004,
+      "__EMPTY_1": "Ano-recto-sigmoidoscopia en adultos"
+    },
+    {
+      "Anexo 14": 1801005,
+      "__EMPTY_1": "Ano-recto-sigmoidescopia en niños (además anestesia cód. 22-01-001 si corresponde)"
+    },
+    {
+      "Anexo 14": 1801007,
+      "__EMPTY_1": "Sigmoidoscopia y colonoscopia izquierda con tubo flexible"
+    },
+    {
+      "Anexo 14": 1801008,
+      "__EMPTY_1": "Coledocoscopia intraoperatoria c/s extraccion de calculos"
+    },
+    {
+      "Anexo 14": 1801009,
+      "__EMPTY_1": "Peritoneoscopia transparietal (incluye el neumoperitoneo)"
+    },
+    {
+      "Anexo 14": 1801011,
+      "__EMPTY_1": "Manometria esofagica"
+    },
+    {
+      "Anexo 14": 1801012,
+      "__EMPTY_1": "Reflujo acido, test de (grossman o similar) o reflujo"
+    },
+    {
+      "Anexo 14": 1801015,
+      "__EMPTY_1": "Biopsia de intestino delgado, por capsula (de rubin,crosby o sim)"
+    },
+    {
+      "Anexo 14": 1801016,
+      "__EMPTY_1": "Puncion biopsia transparietal de organos abdominales c/u"
+    },
+    {
+      "Anexo 14": 1801018,
+      "__EMPTY_1": "Colangiopancreatografia retrograda, por intubacion endoscopica con la ampolla de vater (incluye endoscopia) (a.c 04-02-009)"
+    },
+    {
+      "Anexo 14": 1801019,
+      "__EMPTY_1": "Drenaje de la via biliar transhepatica y/o percutaneo (a.c."
+    },
+    {
+      "Anexo 14": 1801021,
+      "__EMPTY_1": "Neumoperitoneo por puncion transparietal"
+    },
+    {
+      "Anexo 14": 1801022,
+      "__EMPTY_1": "Intubacion sonda de sengstaken"
+    },
+    {
+      "Anexo 14": 1801023,
+      "__EMPTY_1": "Intubacion con sonda gastrica                                                                "
+    },
+    {
+      "Anexo 14": 1801024,
+      "__EMPTY_1": "Intubacion con sonda de miller-abbot o de alimentacion"
+    },
+    {
+      "Anexo 14": 1801025,
+      "__EMPTY_1": "Dilatacion essofagica por balon neumatico (de mosher o similar)"
+    },
+    {
+      "Anexo 14": 1801026,
+      "__EMPTY_1": "Dilatacion esofagica por bujia de hg (hurst o similar)"
+    },
+    {
+      "Anexo 14": 1801027,
+      "__EMPTY_1": "Colocacion endoscopica de tubo  transtumoral en via biliar"
+    },
+    {
+      "Anexo 14": 1801028,
+      "__EMPTY_1": "Cuerpo extrano de esofago y/o estomago, extraccion"
+    },
+    {
+      "Anexo 14": 1801029,
+      "__EMPTY_1": "Devolvulacion del sigmoides por endoscopia (incluye ano-recto-sigmoidoscopia) (proc. Aut)"
+    },
+    {
+      "Anexo 14": 1801030,
+      "__EMPTY_1": "Dilatacion ano-rectal, por sesion"
+    },
+    {
+      "Anexo 14": 1801031,
+      "__EMPTY_1": "Polipos de esofago y/o estomago o intestino delgado,"
+    },
+    {
+      "Anexo 14": 1801045,
+      "__EMPTY_1": "Polipos rectales, rectosigmoideos o de colon trat. Completo"
+    },
+    {
+      "Anexo 14": 1801032,
+      "__EMPTY_1": "Escleroterapia de hemorroides, cualquier numero (incluye cod. 18-01-004 al 18-01-007 según corresp)"
+    },
+    {
+      "Anexo 14": 1801033,
+      "__EMPTY_1": "Escleroterapia o hemostasia de varices esofagicas y/o ulcera"
+    },
+    {
+      "Anexo 14": 1801035,
+      "__EMPTY_1": "Ligadura hemorroides"
+    },
+    {
+      "Anexo 14": 1801036,
+      "__EMPTY_1": "Papilotomia endoscopica c/s extraccion de calculos, c/s"
+    },
+    {
+      "Anexo 14": 1801038,
+      "__EMPTY_1": "Puncion evacuadora de absceso intraabdominales (hepatico u otros), c/s toma de muestra, c/s inyeccion de medicamentos"
+    },
+    {
+      "Anexo 14": 1801041,
+      "__EMPTY_1": "Puncion evacuadora de liquido ascitico, con colocacion de expansores de plasma, c/s tomada de muestra, c/s inyeccion de medicamentos (no incluye el valor de los expansores ni otros medicamentos)"
+    },
+    {
+      "Anexo 14": 1801042,
+      "__EMPTY_1": "Vaciamiento manual de fecaloma                                                                   "
+    },
+    {
+      "Anexo 14": 1801043,
+      "__EMPTY_1": "Manometria anorrectal convencional"
+    },
+    {
+      "Anexo 14": 1801044,
+      "__EMPTY_1": "Test respiratorios de lactosa "
+    },
+    {
+      "Anexo 14": 1801046,
+      "__EMPTY_1": "Hemorroidopexia grapada"
+    },
+    {
+      "Anexo 14": 1801047,
+      "__EMPTY_1": "Ligadura hemorroidaria con doppler"
+    },
+    {
+      "Anexo 14": 1801048,
+      "__EMPTY_1": "Punción evacuadora de líquido ascítico"
+    },
+    {
+      "Anexo 14": 1801049,
+      "__EMPTY_1": "Manometría anorrectal alta resolución"
+    },
+    {
+      "Anexo 14": 1801050,
+      "__EMPTY_1": "Endosonografía digestiva alta"
+    },
+    {
+      "Anexo 14": 1801051,
+      "__EMPTY_1": "Endosonografía digestiva baja"
+    },
+    {
+      "Anexo 14": 1801052,
+      "__EMPTY_1": "Punción guiada con endosonografía digestiva "
+    },
+    {
+      "Anexo 14": 1801053,
+      "__EMPTY_1": "Drenaje guiado con endosonografía digestiva"
+    },
+    {
+      "Anexo 14": 1801054,
+      "__EMPTY_1": "Endosonografía ano-rectal"
+    },
+    {
+      "Anexo 14": 1801055,
+      "__EMPTY_1": "Septotomía endoscópica (divertículo de zenker y otros)"
+    },
+    {
+      "Anexo 14": 1801056,
+      "__EMPTY_1": "Dilatación de acalasia"
+    },
+    {
+      "Anexo 14": 1801057,
+      "__EMPTY_1": "Instalación de prótesis autoexpandibles en tracto digestivo"
+    },
+    {
+      "Anexo 14": 1801058,
+      "__EMPTY_1": "Instalación de prótesis en vía biliar"
+    },
+    {
+      "Anexo 14": "1801059",
+      "__EMPTY_1": "Test de hidrógeno en aire espirado "
+    },
+    {
+      "Anexo 14": "1801060",
+      "__EMPTY_1": "Test de carbono en aire espirado"
+    },
+    {
+      "Anexo 14": 1801001,
+      "__EMPTY_1": "Gastroduodenoscopía (incluye esofagoscopía)                                                      "
+    },
+    {
+      "Anexo 14": 1801003,
+      "__EMPTY_1": "Enteroscopía"
+    },
+    {
+      "Anexo 14": 1801006,
+      "__EMPTY_1": "Colonoscopía larga (incluye sigmoidoscopía y colonoscopía izquierda)"
+    },
+    {
+      "Anexo 14": 1901001,
+      "__EMPTY_1": "Exploracion de uretra antero-posterior con bujia y/o explo -"
+    },
+    {
+      "Anexo 14": 1901002,
+      "__EMPTY_1": "Cistoscopia con sondeo de uno o ambos ureteres"
+    },
+    {
+      "Anexo 14": 1901003,
+      "__EMPTY_1": "Cistoscopia y/o uretrocistoscopia y/o uretroscopia"
+    },
+    {
+      "Anexo 14": 1901004,
+      "__EMPTY_1": "Ureteronefroscopia"
+    },
+    {
+      "Anexo 14": 1901005,
+      "__EMPTY_1": "Prostatica transparietal o transrectal (ademas anestesia"
+    },
+    {
+      "Anexo 14": 1901006,
+      "__EMPTY_1": "Biopsia renal transparietal"
+    },
+    {
+      "Anexo 14": 1901007,
+      "__EMPTY_1": "Cistometria (proc.aut.)"
+    },
+    {
+      "Anexo 14": 1901009,
+      "__EMPTY_1": "Electromiografia perineal y del esfinter uretral en ninos"
+    },
+    {
+      "Anexo 14": 1901010,
+      "__EMPTY_1": "Perfil uretral (proc.aut.)"
+    },
+    {
+      "Anexo 14": 1901011,
+      "__EMPTY_1": "Uroflujometria (proc.aut.)"
+    },
+    {
+      "Anexo 14": 1901030,
+      "__EMPTY_1": "Estudio urodinamico (incluye cistometria, emg perineal y del"
+    },
+    {
+      "Anexo 14": 1901012,
+      "__EMPTY_1": "Cistografia por sonda (de relleno) o por puncion  hipo-"
+    },
+    {
+      "Anexo 14": 1901013,
+      "__EMPTY_1": "Inyeccion de medio de contraste en cuerpo cavernoso"
+    },
+    {
+      "Anexo 14": 1901015,
+      "__EMPTY_1": "Ureteropielografia ascendente (directa) por cateterismo"
+    },
+    {
+      "Anexo 14": 1901016,
+      "__EMPTY_1": "Uretrografia retrograda o cistouretrografia (miccional)"
+    },
+    {
+      "Anexo 14": 1901018,
+      "__EMPTY_1": "Dilatacion uretra c/s masaje, c/s instilacion o inyeccion de"
+    },
+    {
+      "Anexo 14": 1901019,
+      "__EMPTY_1": "Instilacion vesical (incluye colocacion de sonda) proc. Aut.                                      "
+    },
+    {
+      "Anexo 14": 1901036,
+      "__EMPTY_1": "Instilación vesical (incluye colocación de sonda y Micobacterium Bovis para instilación intravesical proc. aut.)"
+    },
+    {
+      "Anexo 14": 1901020,
+      "__EMPTY_1": "Inyeccion de medicamentos en el pene"
+    },
+    {
+      "Anexo 14": 1901022,
+      "__EMPTY_1": "Vac. Vesical por sonda uretral, (proc. Aut.)                                                    "
+    },
+    {
+      "Anexo 14": 1901025,
+      "__EMPTY_1": "Peritoneodiálisis  (incluye insumos)"
+    },
+    {
+      "Anexo 14": 1901026,
+      "__EMPTY_1": "Peritoneodiálisis continua en paciente crónico (adulto o niños) (tratamiento mensual)"
+    },
+    {
+      "Anexo 14": 1901126,
+      "__EMPTY_1": "Instalación de cateter para peritoneodiális"
+    },
+    {
+      "Anexo 14": 1901028,
+      "__EMPTY_1": "Hemodiálisis con bicarbonato con insumos (por sesión, incluye traslado paciente)"
+    },
+    {
+      "Anexo 14": "1901128",
+      "__EMPTY_1": "Hemodiálisis con bicarbonato con insumos (por sesión, sin traslado paciente)"
+    },
+    {
+      "Anexo 14": 1901029,
+      "__EMPTY_1": "Hemodiálisis con bicarbonato con insumos (tratamiento mensual)"
+    },
+    {
+      "Anexo 14": 1901031,
+      "__EMPTY_1": "Instalación de catéter de peritoneodiálisis laparoscopia"
+    },
+    {
+      "Anexo 14": 1901032,
+      "__EMPTY_1": "Retiro de catéter de peritoneodiálisis"
+    },
+    {
+      "Anexo 14": 1901033,
+      "__EMPTY_1": "Revisión de catéter de peritoneodiálisis laparoscopia"
+    },
+    {
+      "Anexo 14": 1901035,
+      "__EMPTY_1": "Biopsia estereotáxica digital de próstata"
+    },
+    {
+      "Anexo 14": 2001002,
+      "__EMPTY_1": "Colposcopía"
+    },
+    {
+      "Anexo 14": 2001005,
+      "__EMPTY_1": "Histeroscopía diagnostica o terapéutica (proc. aut.)"
+    },
+    {
+      "Anexo 14": 2001006,
+      "__EMPTY_1": "Amniocentesis"
+    },
+    {
+      "Anexo 14": 2001007,
+      "__EMPTY_1": "Culdocentesis (punción del Douglas)"
+    },
+    {
+      "Anexo 14": 2001009,
+      "__EMPTY_1": "Monitoreo basal con informe"
+    },
+    {
+      "Anexo 14": 2001010,
+      "__EMPTY_1": "Monitoreo fetal estresante, con control permanente del especialista y tratamiento de las posibles complicaciones"
+    },
+    {
+      "Anexo 14": 2001021,
+      "__EMPTY_1": "Cordocentesis"
+    },
+    {
+      "Anexo 14": 2001012,
+      "__EMPTY_1": "Galactografía (a.c.  04-02-005)"
+    },
+    {
+      "Anexo 14": 2001013,
+      "__EMPTY_1": "Histerosalpingografía (a.c. 04-02-011)"
+    },
+    {
+      "Anexo 14": 2001014,
+      "__EMPTY_1": "Biopsia endometrio, vulva, vagina, cuello, c/u (proc. aut.)"
+    },
+    {
+      "Anexo 14": 2001015,
+      "__EMPTY_1": "Colocación o extracción de dispositivo intrauterino (no incluye el valor del dispositivo)                    "
+    },
+    {
+      "Anexo 14": 2001016,
+      "__EMPTY_1": "Electrodiatermo o criocoagulación de lesiones del cuello"
+    },
+    {
+      "Anexo 14": 2001020,
+      "__EMPTY_1": "Test postcoital"
+    },
+    {
+      "Anexo 14": 2001022,
+      "__EMPTY_1": "Punción evacuadora de quistes mamarios, c/s toma de muestras, c/s inyección de medicamentos"
+    },
+    {
+      "Anexo 14": 2001023,
+      "__EMPTY_1": "Biopsia estereotaxíca digital de mama"
+    },
+    {
+      "Anexo 14": 2001024,
+      "__EMPTY_1": "Biopsia corial"
+    },
+    {
+      "Anexo 14": 2001025,
+      "__EMPTY_1": "Toma de biopsia con aguja bajo visión ecográfica de la Mama (Biopsia Core)"
+    },
+    {
+      "Anexo 14": "2003047",
+      "__EMPTY_1": "Prueba de neuromodulación sacra básica: Evaluación periférica de raíces sacras"
+    },
+    {
+      "Anexo 14": "2003048",
+      "__EMPTY_1": "Implante conjunto de neuroelectrodo sacro cuadripolar y generador de pulso implantable de neuromodulación sacra "
+    },
+    {
+      "Anexo 14": "2003049",
+      "__EMPTY_1": "Prueba avanzada de neuromodulación sacra: Implante o revisión de neuroelectrodo sacro cuadripolar"
+    },
+    {
+      "Anexo 14": "2003050",
+      "__EMPTY_1": "Implante de generador de pulso implantable de neuromodulación sacra "
+    },
+    {
+      "Anexo 14": "2003051",
+      "__EMPTY_1": "Explante de neuroelectrodo sacro cuadripolar espiculado o revisión de bolsillo glúteo"
+    },
+    {
+      "Anexo 14": 2004001,
+      "__EMPTY_1": "Aborto retenido, vaciamiento de (incluye la inducción en los casos que corresponda)"
+    },
+    {
+      "Anexo 14": 2004002,
+      "__EMPTY_1": "Raspado uterino diagnóstico o terapéutico por metrorragia o por restos de aborto"
+    },
+    {
+      "Anexo 14": 2004003,
+      "__EMPTY_1": "Parto presentación cefálica o podálica, c/s episiotomía, c/s sutura, c/s fórceps, c/s inducción, c/s versión interna, c/s revisión, c/s extracción manual de placenta, c/s monitorización. (Unico o Múltiple)"
+    },
+    {
+      "Anexo 14": 2004103,
+      "__EMPTY_1": "Parto normal"
+    },
+    {
+      "Anexo 14": 2004113,
+      "__EMPTY_1": "Parto distósico vaginal"
+    },
+    {
+      "Anexo 14": 2004007,
+      "__EMPTY_1": "Aspiración manual endouterina (AMEU)"
+    },
+    {
+      "Anexo 14": 2004008,
+      "__EMPTY_1": "Tratamiento Farmacológico Ley IVE (incluye consulta especialidad en obstetricia y ginecología y fármacos)"
+    },
+    {
+      "Anexo 14": 2004009,
+      "__EMPTY_1": "Fototerapia a recién nacidos"
+    },
+    {
+      "Anexo 14": 2101001,
+      "__EMPTY_1": "Infiltracion local medicamentos (bursas, tendones, yuxtaarticulares y/o intraarticulares"
+    },
+    {
+      "Anexo 14": 2101002,
+      "__EMPTY_1": "Procedimiento para exploraciones radiologicas (incluye maniobra e inyeccion del medio de contraste)  BM18A  Revisar en BM Colocación valva"
+    },
+    {
+      "Anexo 14": 2101003,
+      "__EMPTY_1": "Movilizacion articular bajo anestesia general."
+    },
+    {
+      "Anexo 14": 2105001,
+      "__EMPTY_1": "Calzon corto de yeso"
+    },
+    {
+      "Anexo 14": 2105004,
+      "__EMPTY_1": "Rodillera, bota larga o corta de yeso"
+    },
+    {
+      "Anexo 14": 2105005,
+      "__EMPTY_1": "Velpeau"
+    },
+    {
+      "Anexo 14": 2105006,
+      "__EMPTY_1": "Yeso antebraquial c/s ferula digital"
+    },
+    {
+      "Anexo 14": 2105007,
+      "__EMPTY_1": "Yeso braquicarpiano"
+    },
+    {
+      "Anexo 14": 2105008,
+      "__EMPTY_1": "Yeso pelvipedio bilateral"
+    },
+    {
+      "Anexo 14": 2105009,
+      "__EMPTY_1": "Yeso pelvipedio unilateral"
+    },
+    {
+      "Anexo 14": 2105010,
+      "__EMPTY_1": "Yeso toracobraquial"
+    },
+    {
+      "Anexo 14": 2105011,
+      "__EMPTY_1": "Corsets de milwaukee o similares (incluye la toma de molde )"
+    },
+    {
+      "Anexo 14": 2107001,
+      "__EMPTY_1": "Luxaciones de articulaciones medianas (hombro, codo, rodilla, tobillo, muñeca, tarso y esternoclavicular)"
+    },
+    {
+      "Anexo 14": 2107002,
+      "__EMPTY_1": "Luxaciones de articulaciones  mayores (columna, cadera, pelvis)"
+    },
+    {
+      "Anexo 14": 2107003,
+      "__EMPTY_1": "Luxaciones de articulaciones menores (el resto)      "
+    },
+    {
+      "Anexo 14": 2107004,
+      "__EMPTY_1": "Fracturas mayores (columna, pelvis, supracondílea, codo, epífisis femorales)"
+    },
+    {
+      "Anexo 14": 2107005,
+      "__EMPTY_1": "Fracturas medianas (diáfisis humeral, radial, cubital, diáfisis femoral, tibial, peroneal, clavicular, platillos tibiales)"
+    },
+    {
+      "Anexo 14": 2107006,
+      "__EMPTY_1": "Fracturas menores (el resto)"
+    },
+    {
+      "Anexo 14": 2107010,
+      "__EMPTY_1": "Pie bot, unilateral, hasta 10 cambios de yeso"
+    },
+    {
+      "Anexo 14": 2301002,
+      "__EMPTY_1": "Ortesis cervicales (collares blandos y duros)"
+    },
+    {
+      "Anexo 14": 2301008,
+      "__EMPTY_1": "Braguero (Hernia Umbilical o Inguinal)"
+    },
+    {
+      "Anexo 14": 2301011,
+      "__EMPTY_1": "Faja Ortopédica (Contensión de Abdomen o Columna Dorsolumbar)"
+    },
+    {
+      "Anexo 14": 2301020,
+      "__EMPTY_1": "Ortesis Muslo-Pie o Isquiopedio"
+    },
+    {
+      "Anexo 14": 2301021,
+      "__EMPTY_1": "Arnés de Prótesis (Extremidad Superior)"
+    },
+    {
+      "Anexo 14": 2301022,
+      "__EMPTY_1": "Bastón canadiense o trípode, c/u"
+    },
+    {
+      "Anexo 14": 2301024,
+      "__EMPTY_1": "Rodillera"
+    },
+    {
+      "Anexo 14": 2301029,
+      "__EMPTY_1": "Cojín de abducción o Paulik"
+    },
+    {
+      "Anexo 14": 2301030,
+      "__EMPTY_1": "Correa de ortesis"
+    },
+    {
+      "Anexo 14": 2301031,
+      "__EMPTY_1": "Correa de Muley (Prótesis bajo rodilla)"
+    },
+    {
+      "Anexo 14": 2301032,
+      "__EMPTY_1": "Ortesis de columna (Milwaukee, Taylor o similares)"
+    },
+    {
+      "Anexo 14": 2301033,
+      "__EMPTY_1": "Ortesis lumbosacra (Corset de Knight)"
+    },
+    {
+      "Anexo 14": 2301034,
+      "__EMPTY_1": "Ortesis palmar activa (UCLA)"
+    },
+    {
+      "Anexo 14": 2301035,
+      "__EMPTY_1": "Ortesis radial de posición"
+    },
+    {
+      "Anexo 14": 2301036,
+      "__EMPTY_1": "Ortesis corta de posición (digitales) c/u"
+    },
+    {
+      "Anexo 14": 2301037,
+      "__EMPTY_1": "Ortesis de uso nocturno de miembro inferior"
+    },
+    {
+      "Anexo 14": 2301038,
+      "__EMPTY_1": "Ortesis Larga de Posición (Extremidad Superior)"
+    },
+    {
+      "Anexo 14": 2301040,
+      "__EMPTY_1": "Muletas (par)"
+    },
+    {
+      "Anexo 14": 2301041,
+      "__EMPTY_1": "Ortesis Larga bilateral con cinturón pélvico (Extremidades Inferiores)"
+    },
+    {
+      "Anexo 14": 2301042,
+      "__EMPTY_1": "Ortesis Larga unilateral (Extremidad Inferior)"
+    },
+    {
+      "Anexo 14": 2301043,
+      "__EMPTY_1": "Ortesis mano-muñeca pasiva"
+    },
+    {
+      "Anexo 14": 2301044,
+      "__EMPTY_1": "Ortesis para rodilla"
+    },
+    {
+      "Anexo 14": 2301045,
+      "__EMPTY_1": "Ortesis tobillo-pie"
+    },
+    {
+      "Anexo 14": 2301067,
+      "__EMPTY_1": "Talonera goma (par)"
+    },
+    {
+      "Anexo 14": 2201102,
+      "__EMPTY_1": "Anestesia peridural o epidural  continua para partos"
+    },
+    {
+      "Anexo 14": 2201001,
+      "__EMPTY_1": "Anestesia general o regional otorgada por médico diferente al primer cirujano (en intervenciones o procedimientos diagnósticos o terapéuticos)"
+    },
+    {
+      "Anexo 14": 2201002,
+      "__EMPTY_1": "Anestesia peridural continua, proc. aut."
+    },
+    {
+      "Anexo 14": 2703101,
+      "__EMPTY_1": "Aplicación de sellantes"
+    },
+    {
+      "Anexo 14": 2703102,
+      "__EMPTY_1": "Desgastes selectivos"
+    },
+    {
+      "Anexo 14": 2703103,
+      "__EMPTY_1": "Destartraje y pulido coronario"
+    },
+    {
+      "Anexo 14": 2703104,
+      "__EMPTY_1": "Mantenedores de espacio"
+    },
+    {
+      "Anexo 14": 2703105,
+      "__EMPTY_1": "Pulpotomía"
+    },
+    {
+      "Anexo 14": 2703107,
+      "__EMPTY_1": "Exodoncia simple diente permanente"
+    },
+    {
+      "Anexo 14": 2703108,
+      "__EMPTY_1": "Exodoncia diente primario"
+    },
+    {
+      "Anexo 14": 2703109,
+      "__EMPTY_1": "Obturación amalgama "
+    },
+    {
+      "Anexo 14": 2703110,
+      "__EMPTY_1": "Obturación composite"
+    },
+    {
+      "Anexo 14": 2703111,
+      "__EMPTY_1": "Obturación Vidrio Ionómero"
+    },
+    {
+      "Anexo 14": 2703106,
+      "__EMPTY_1": "Aplicación tópica de fluoruros"
+    },
+    {
+      "Anexo 14": 2705001,
+      "__EMPTY_1": "Cirugía bucal"
+    },
+    {
+      "Anexo 14": 2704001,
+      "__EMPTY_1": "Obturación Inlay metal (incluye materiales no preciosos, no incluye oro)"
+    },
+    {
+      "Anexo 14": 2704002,
+      "__EMPTY_1": "Plano alivio oclusal"
+    },
+    {
+      "Anexo 14": 2704003,
+      "__EMPTY_1": "Prótesis de restitución (fase clínica)"
+    },
+    {
+      "Anexo 14": 2704004,
+      "__EMPTY_1": "Prótesis metálica"
+    },
+    {
+      "Anexo 14": 2702105,
+      "__EMPTY_1": "Radiografía extraoral (por placa)"
+    },
+    {
+      "Anexo 14": 2702106,
+      "__EMPTY_1": "Radiografía oclusal (por placa)"
+    },
+    {
+      "Anexo 14": 2704005,
+      "__EMPTY_1": "Prótesis de restitución (fase laboratorio)"
+    },
+    {
+      "Anexo 14": 2704006,
+      "__EMPTY_1": "Reparación compuesta de prótesis"
+    },
+    {
+      "Anexo 14": 2704007,
+      "__EMPTY_1": "Reparación corona"
+    },
+    {
+      "Anexo 14": 2704008,
+      "__EMPTY_1": "Reparación o reajuste prótesis"
+    },
+    {
+      "Anexo 14": 2704009,
+      "__EMPTY_1": "Restitución por corona (combinada)"
+    },
+    {
+      "Anexo 14": 2704010,
+      "__EMPTY_1": "Restitución por corona provisoria"
+    },
+    {
+      "Anexo 14": 2702107,
+      "__EMPTY_1": "Sialografía (cada lado) (incluye el proc.)"
+    },
+    {
+      "Anexo 14": 2704011,
+      "__EMPTY_1": "Tratamiento ortodoncia con aparatología removible  (incluye aparato)(año 1)"
+    },
+    {
+      "Anexo 14": 2704012,
+      "__EMPTY_1": "Tratamiento ortodoncia con aparatologia fija (incluye aparato) (año 1)"
+    },
+    {
+      "Anexo 14": 2704013,
+      "__EMPTY_1": "Tratamiento ortodoncia con aparatologia fija (incluye aparato) (año 2)"
+    },
+    {
+      "Anexo 14": 2704014,
+      "__EMPTY_1": "Endodoncia Multirradicular"
+    },
+    {
+      "Anexo 14": 2704015,
+      "__EMPTY_1": "Endodoncia birradicular"
+    },
+    {
+      "Anexo 14": 2704016,
+      "__EMPTY_1": "Endodoncia unirradicular"
+    },
+    {
+      "Anexo 14": 2702108,
+      "__EMPTY_1": "Telerradiografia"
+    },
+    {
+      "Anexo 14": 2702109,
+      "__EMPTY_1": "Radiografía Panoramica (por placa)"
+    },
+    {
+      "Anexo 14": 2901001,
+      "__EMPTY_1": "Tratamiento integral de braquiterapia endocavitaria o intersticial (por sesión)"
+    },
+    {
+      "Anexo 14": 2901002,
+      "__EMPTY_1": "Tratamiento integral de braquiterapia de implante permanente, no incluye implante (por sesión)"
+    },
+    {
+      "Anexo 14": 2901003,
+      "__EMPTY_1": "Tratamiento Integral braquiterapia alta o mediana dosis, HDR (por sesión)"
+    },
+    {
+      "Anexo 14": 2902001,
+      "__EMPTY_1": "Tratamiento integral de radioterapia altamente compleja con Linac "
+    },
+    {
+      "Anexo 14": 2902002,
+      "__EMPTY_1": "Tratamiento integral de radioterapia compleja con Linac "
+    },
+    {
+      "Anexo 14": 2902003,
+      "__EMPTY_1": "Tratamiento integral de radioterapia estándar con Linac "
+    },
+    {
+      "Anexo 14": 2902004,
+      "__EMPTY_1": "Tratamiento integral de radioterapia convencional con Linac "
+    },
+    {
+      "Anexo 14": 2902009,
+      "__EMPTY_1": "Tratamiento integral de radioterapia altamente compleja con cobalto"
+    },
+    {
+      "Anexo 14": 2902010,
+      "__EMPTY_1": "Tratamiento integral de radioterapia compleja con cobalto"
+    },
+    {
+      "Anexo 14": 2902011,
+      "__EMPTY_1": "Tratamiento integral de radioterapia estándar con cobalto"
+    },
+    {
+      "Anexo 14": 2902012,
+      "__EMPTY_1": "Tratamiento integral de radioterapia convencional con cobalto (paliativa)"
+    },
+    {
+      "Anexo 14": 2903001,
+      "__EMPTY_1": "Radiocirugía"
+    },
+    {
+      "Anexo 14": 2904001,
+      "__EMPTY_1": "Quimioterapia alto riesgo 1 (por ciclo)"
+    },
+    {
+      "Anexo 14": 2904002,
+      "__EMPTY_1": "Quimioterapia alto riesgo 2 (por ciclo)"
+    },
+    {
+      "Anexo 14": 2904019,
+      "__EMPTY_1": "Quimioterapia alto riesgo 3 (por ciclo)"
+    },
+    {
+      "Anexo 14": 2904003,
+      "__EMPTY_1": "Quimioterapia bajo riesgo 1 (por ciclo)"
+    },
+    {
+      "Anexo 14": 2904004,
+      "__EMPTY_1": "Quimioterapia bajo riesgo 2 (por ciclo)"
+    },
+    {
+      "Anexo 14": 2904005,
+      "__EMPTY_1": "Quimioterapia bajo riesgo 3 (por ciclo)"
+    },
+    {
+      "Anexo 14": 2904006,
+      "__EMPTY_1": "Quimioterapia bajo riesgo 4 (por ciclo)"
+    },
+    {
+      "Anexo 14": 2904007,
+      "__EMPTY_1": "Quimioterapia riesgo intermedio 1 (por ciclo)"
+    },
+    {
+      "Anexo 14": 2904008,
+      "__EMPTY_1": "Quimioterapia riesgo intermedio 2 (por ciclo)"
+    },
+    {
+      "Anexo 14": 2904009,
+      "__EMPTY_1": "Quimioterapia riesgo intermedio 3 (por ciclo)"
+    },
+    {
+      "Anexo 14": 2904010,
+      "__EMPTY_1": "Quimioterapia riesgo intermedio 4 (por ciclo)"
+    },
+    {
+      "Anexo 14": 2904011,
+      "__EMPTY_1": "Quimioterapia radioterapia 1 (por ciclo)"
+    },
+    {
+      "Anexo 14": 2904013,
+      "__EMPTY_1": "Tratamiento terapia endocrina 1 (por ciclo)"
+    },
+    {
+      "Anexo 14": 2904014,
+      "__EMPTY_1": "Tratamiento terapia endocrina 2 (por ciclo)"
+    },
+    {
+      "Anexo 14": 2904015,
+      "__EMPTY_1": "Tratamiento inhibidores tirosin kinasa 1 (valor trimestral)"
+    },
+    {
+      "Anexo 14": 2904016,
+      "__EMPTY_1": "Tratamiento inhibidores tirosin kinasa 2 (valor trimestral)"
+    },
+    {
+      "Anexo 14": 2904017,
+      "__EMPTY_1": "Tratamiento inhibidores tirosin kinasa 3 (valor trimestral)"
+    }
+  ]
+}

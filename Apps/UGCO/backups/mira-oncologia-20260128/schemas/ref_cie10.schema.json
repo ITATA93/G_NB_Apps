@@ -1,0 +1,76 @@
+{
+  "collection": {
+    "name": "ref_cie10",
+    "title": "Catálogo CIE-10",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "26pdmmtw9pg",
+      "name": "activo",
+      "type": "boolean",
+      "interface": null,
+      "description": null,
+      "collectionName": "ref_cie10",
+      "parentKey": null,
+      "reverseKey": null,
+      "defaultValue": true
+    },
+    {
+      "key": "2dcruc4ignw",
+      "name": "descripcion",
+      "type": "string",
+      "interface": "textarea",
+      "description": null,
+      "collectionName": "ref_cie10",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Descripción"
+      }
+    },
+    {
+      "key": "i20yr766k1h",
+      "name": "codigo_oficial",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ref_cie10",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Código CIE-10"
+      }
+    },
+    {
+      "key": "locbp0ie6xy",
+      "name": "codigo_map_deis",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ref_cie10",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Código DEIS"
+      }
+    },
+    {
+      "key": "zx9dz710bfy",
+      "name": "codigo_map_legacy",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ref_cie10",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Código Legacy"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.969Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

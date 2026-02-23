@@ -1,0 +1,181 @@
+{
+  "collection": {
+    "name": "ALMA_H_Copago_CEro",
+    "title": "ALMA H_Copago_CEro",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "0d5n5356jil",
+      "name": "CodigoEstablecimiento",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Copago_CEro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoEstablecimiento",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "3n9encu0b5x",
+      "name": "Profesional",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Copago_CEro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Profesional",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "7ojx1w8zope",
+      "name": "Agenda",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Copago_CEro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Agenda",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "8wwull7kaii",
+      "name": "Tipo_Profesional",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Copago_CEro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Tipo_Profesional",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "cukrqsa3yq3",
+      "name": "Prestacion",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Copago_CEro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Prestacion",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "d28icjjqrmk",
+      "name": "CodigoPlan",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Copago_CEro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CodigoPlan",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "qjz208sk3al",
+      "name": "Recurso",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Copago_CEro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Recurso",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "v352l3abyap",
+      "name": "Rut",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Copago_CEro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Rut",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "vewjkfaxeod",
+      "name": "Especialidad",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Copago_CEro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Especialidad",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "vng46bd44wd",
+      "name": "EstadoCita",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Copago_CEro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "EstadoCita",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ysrd3dm50os",
+      "name": "FechaCita",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Copago_CEro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "FechaCita",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "zlugdmnp42z",
+      "name": "Cod_Recurso",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Copago_CEro",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Cod_Recurso",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.819Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

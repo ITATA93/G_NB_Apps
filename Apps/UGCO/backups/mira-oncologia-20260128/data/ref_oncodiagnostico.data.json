@@ -1,0 +1,28 @@
+{
+  "collection": "ref_oncodiagnostico",
+  "count": 3,
+  "exportedAt": "2026-01-28T21:31:09.023Z",
+  "records": [
+    {
+      "id": 1,
+      "createdById": 4,
+      "updatedById": 4,
+      "nombre": "Neoplasia maligna de la mama",
+      "codigo": "C50"
+    },
+    {
+      "id": 2,
+      "createdById": 4,
+      "updatedById": 4,
+      "nombre": "Neoplasia maligna del colon",
+      "codigo": "C18"
+    },
+    {
+      "id": 3,
+      "createdById": 4,
+      "updatedById": 4,
+      "nombre": "Neoplasia maligna de los bronquios y del pulmón",
+      "codigo": "C34"
+    }
+  ]
+}

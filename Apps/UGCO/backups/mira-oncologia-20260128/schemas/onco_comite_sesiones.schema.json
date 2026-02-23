@@ -1,0 +1,53 @@
+{
+  "collection": {
+    "name": "onco_comite_sesiones",
+    "title": "Sesiones de Comité",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "4tpx6ijekji",
+      "name": "numero_sesion",
+      "type": "string",
+      "interface": null,
+      "description": null,
+      "collectionName": "onco_comite_sesiones",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Número de Sesión"
+      }
+    },
+    {
+      "key": "g2m8aw5vdsg",
+      "name": "fecha",
+      "type": "date",
+      "interface": "date",
+      "description": null,
+      "collectionName": "onco_comite_sesiones",
+      "parentKey": null,
+      "reverseKey": null,
+      "required": true,
+      "uiSchema": {
+        "title": "Fecha de Sesión"
+      }
+    },
+    {
+      "key": "peftkpd0txg",
+      "name": "acta",
+      "type": "text",
+      "interface": "textarea",
+      "description": null,
+      "collectionName": "onco_comite_sesiones",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Acta"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.633Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

@@ -1,0 +1,97 @@
+{
+  "collection": {
+    "name": "ALMA_H_Recetas_Despacho",
+    "title": "ALMA H_Recetas_Despacho",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "j3y6vsh0y4s",
+      "name": "Cant_Despacho",
+      "type": "float",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Recetas_Despacho",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Cant_Despacho",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "ozi8akzh2ek",
+      "name": "Fecha_Despacho",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Recetas_Despacho",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Despacho",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "pko8yrfge5x",
+      "name": "DSP_Status",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Recetas_Despacho",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "DSP_Status",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "q61ys01j4ly",
+      "name": "Fecha_Envasado",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Recetas_Despacho",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Envasado",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "soy1bt9k0ya",
+      "name": "DSP_OEORE_ParRef",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Recetas_Despacho",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "DSP_OEORE_ParRef",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "uqfuc2x5vju",
+      "name": "OEORE_OEORI_ParRef",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_H_Recetas_Despacho",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "OEORE_OEORI_ParRef",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.808Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

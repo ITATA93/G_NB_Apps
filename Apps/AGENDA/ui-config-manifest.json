@@ -1,0 +1,212 @@
+[
+  {
+    "type": "route",
+    "id": 349018768867328,
+    "title": "Agenda group"
+  },
+  {
+    "type": "schema",
+    "id": "ch0gy7uiuli",
+    "title": "Agenda group schema"
+  },
+  {
+    "type": "schema",
+    "id": "x1d15y1z4r5",
+    "title": "Funcionarios page schema"
+  },
+  {
+    "type": "schema",
+    "id": "saeunox5w3t",
+    "title": "Funcionarios grid schema"
+  },
+  {
+    "type": "schema",
+    "id": "2u64oqgh57g",
+    "title": "Funcionarios menu schema"
+  },
+  {
+    "type": "route",
+    "id": 349018768867329,
+    "title": "Funcionarios page route"
+  },
+  {
+    "type": "route",
+    "id": 349018768867330,
+    "title": "Funcionarios tabs route"
+  },
+  {
+    "type": "schema",
+    "id": "hsk5bijcowf",
+    "title": "Bloques de Agenda page schema"
+  },
+  {
+    "type": "schema",
+    "id": "2jnhyjd8l1y",
+    "title": "Bloques de Agenda grid schema"
+  },
+  {
+    "type": "schema",
+    "id": "9vd0h4w2f2q",
+    "title": "Bloques de Agenda menu schema"
+  },
+  {
+    "type": "route",
+    "id": 349018770964480,
+    "title": "Bloques de Agenda page route"
+  },
+  {
+    "type": "route",
+    "id": 349018770964481,
+    "title": "Bloques de Agenda tabs route"
+  },
+  {
+    "type": "schema",
+    "id": "65x1tcyj2i8",
+    "title": "Inasistencias page schema"
+  },
+  {
+    "type": "schema",
+    "id": "04nnaudl1dn",
+    "title": "Inasistencias grid schema"
+  },
+  {
+    "type": "schema",
+    "id": "xjankx4fkfl",
+    "title": "Inasistencias menu schema"
+  },
+  {
+    "type": "route",
+    "id": 349018770964482,
+    "title": "Inasistencias page route"
+  },
+  {
+    "type": "route",
+    "id": 349018770964483,
+    "title": "Inasistencias tabs route"
+  },
+  {
+    "type": "schema",
+    "id": "76m8gtb78zz",
+    "title": "Resumen Diario page schema"
+  },
+  {
+    "type": "schema",
+    "id": "7hh0xmkxhj8",
+    "title": "Resumen Diario grid schema"
+  },
+  {
+    "type": "schema",
+    "id": "sjcf3qdwkf8",
+    "title": "Resumen Diario menu schema"
+  },
+  {
+    "type": "route",
+    "id": 349018770964484,
+    "title": "Resumen Diario page route"
+  },
+  {
+    "type": "route",
+    "id": 349018773061632,
+    "title": "Resumen Diario tabs route"
+  },
+  {
+    "type": "schema",
+    "id": "bbjbu15a6yb",
+    "title": "Resumen Semanal page schema"
+  },
+  {
+    "type": "schema",
+    "id": "txfqqxqvx6u",
+    "title": "Resumen Semanal grid schema"
+  },
+  {
+    "type": "schema",
+    "id": "wmdooyciqs3",
+    "title": "Resumen Semanal menu schema"
+  },
+  {
+    "type": "route",
+    "id": 349018773061633,
+    "title": "Resumen Semanal page route"
+  },
+  {
+    "type": "route",
+    "id": 349018773061634,
+    "title": "Resumen Semanal tabs route"
+  },
+  {
+    "type": "schema",
+    "id": "b2cvor2jkl1",
+    "title": "Categorías de Actividad page schema"
+  },
+  {
+    "type": "schema",
+    "id": "j71y93cimpl",
+    "title": "Categorías de Actividad grid schema"
+  },
+  {
+    "type": "schema",
+    "id": "jx0zzpewr23",
+    "title": "Categorías de Actividad menu schema"
+  },
+  {
+    "type": "route",
+    "id": 349018773061635,
+    "title": "Categorías de Actividad page route"
+  },
+  {
+    "type": "route",
+    "id": 349018773061636,
+    "title": "Categorías de Actividad tabs route"
+  },
+  {
+    "type": "schema",
+    "id": "52q6fwyv03s",
+    "title": "Tipos de Inasistencia page schema"
+  },
+  {
+    "type": "schema",
+    "id": "qufogehe596",
+    "title": "Tipos de Inasistencia grid schema"
+  },
+  {
+    "type": "schema",
+    "id": "94bzzrkn12o",
+    "title": "Tipos de Inasistencia menu schema"
+  },
+  {
+    "type": "route",
+    "id": 349018773061637,
+    "title": "Tipos de Inasistencia page route"
+  },
+  {
+    "type": "route",
+    "id": 349018773061638,
+    "title": "Tipos de Inasistencia tabs route"
+  },
+  {
+    "type": "schema",
+    "id": "dbj38m7wsnr",
+    "title": "Servicios page schema"
+  },
+  {
+    "type": "schema",
+    "id": "uwoaaqskxml",
+    "title": "Servicios grid schema"
+  },
+  {
+    "type": "schema",
+    "id": "pwkvrn690qc",
+    "title": "Servicios menu schema"
+  },
+  {
+    "type": "route",
+    "id": 349018775158784,
+    "title": "Servicios page route"
+  },
+  {
+    "type": "route",
+    "id": 349018775158785,
+    "title": "Servicios tabs route"
+  }
+]

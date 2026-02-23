@@ -1,0 +1,172 @@
+{
+  "issues": [
+    {
+      "id": "api_connection_failed",
+      "title": "Cannot connect to NocoBase API",
+      "symptoms": [
+        "ECONNREFUSED error",
+        "Timeout en peticiones",
+        "Usuarios no pueden acceder"
+      ],
+      "causes": [
+        "URL incorrecta en .env",
+        "API key inválido o expirado",
+        "API de NocoBase caída",
+        "Firewall bloqueando conexión"
+      ],
+      "solutions": [
+        {
+          "step": 1,
+          "action": "Verificar URL y token",
+          "command": "echo $NOCOBASE_BASE_URL && echo $NOCOBASE_API_KEY"
+        },
+        {
+          "step": 2,
+          "action": "Test conexión con curl",
+          "command": "curl -I $NOCOBASE_BASE_URL"
+        },
+        {
+          "step": 3,
+          "action": "Ejecutar script de diagnóstico",
+          "command": "node Apps/UGCO/scripts/test-connection.ts"
+        }
+      ],
+      "frequency": "medium",
+      "last_seen": null
+    },
+    {
+      "id": "zero_collections_returned",
+      "title": "Scripts devuelven 0 colecciones",
+      "symptoms": [
+        "list_collections devuelve array vacío",
+        "inspect-databases muestra 0 colecciones"
+      ],
+      "causes": [
+        "Script legacy sin url.search en peticiones HTTP"
+      ],
+      "solutions": [
+        {
+          "step": 1,
+          "action": "Usar script actualizado",
+          "command": "npm run ugco:list"
+        },
+        {
+          "step": 2,
+          "action": "O usar ApiClient.ts moderno",
+          "reference": "shared/scripts/README.md"
+        }
+      ],
+      "frequency": "high",
+      "last_seen": "2026-01-25",
+      "status": "resolved",
+      "resolution": "Scripts legacy eliminados en auditoría"
+    },
+    {
+      "id": "alma_sync_failure",
+      "title": "Sincronización ALMA falla",
+      "symptoms": [
+        "Datos de pacientes desactualizados",
+        "Errores en check-sql-sync.js",
+        "Campos vacíos en colecciones ALMA"
+      ],
+      "causes": [
+        "Conexión a SIDRA perdida",
+        "Credenciales SQL Server inválidas",
+        "Problema en datasource SQL plugin"
+      ],
+      "solutions": [
+        {
+          "step": 1,
+          "action": "Verificar conectividad a SIDRA",
+          "command": "ping sidra.hospitaldeovalle.cl"
+        },
+        {
+          "step": 2,
+          "action": "Ejecutar diagnóstico de sync",
+          "command": "node Apps/UGCO/scripts/check-sql-sync-simple.js"
+        },
+        {
+          "step": 3,
+          "action": "Revisar datasource en NocoBase admin",
+          "url": "https://nocobase.hospitaldeovalle.cl/admin"
+        }
+      ],
+      "frequency": "low",
+      "last_seen": null
+    },
+    {
+      "id": "slow_api_response",
+      "title": "API response time > 2s",
+      "symptoms": [
+        "Lentitud en UI de NocoBase",
+        "Timeouts ocasionales",
+        "Usuarios reportan lentitud"
+      ],
+      "causes": [
+        "Queries SQL sin índices",
+        "Sobrecarga del servidor",
+        "Consultas muy complejas"
+      ],
+      "solutions": [
+        {
+          "step": 1,
+          "action": "Identificar query lento en logs PostgreSQL",
+          "command": "tail -f /var/log/postgresql/*.log | grep duration"
+        },
+        {
+          "step": 2,
+          "action": "Revisar índices de base de datos",
+          "reference": "docs/OPERATIONS.md#optimizaciones-comunes"
+        },
+        {
+          "step": 3,
+          "action": "Implementar caching si no existe"
+        }
+      ],
+      "frequency": "low",
+      "last_seen": null
+    },
+    {
+      "id": "git_secrets_detected",
+      "title": "Secretos detectados en archivos",
+      "symptoms": [
+        "Pre-commit hook falla",
+        "Warnings sobre archivos sensibles"
+      ],
+      "causes": [
+        ".env commiteado accidentalmente",
+        "API keys en código",
+        "Passwords en scripts"
+      ],
+      "solutions": [
+        {
+          "step": 1,
+          "action": "Remover archivo del staging",
+          "command": "git reset HEAD <file>"
+        },
+        {
+          "step": 2,
+          "action": "Agregar a .gitignore",
+          "command": "echo '<pattern>' >> .gitignore"
+        },
+        {
+          "step": 3,
+          "action": "Si ya fue pusheado, rotar secretos inmediatamente"
+        }
+      ],
+      "frequency": "medium",
+      "severity": "critical",
+      "last_seen": null
+    }
+  ],
+
+  "preventive_tips": [
+    "Siempre ejecutar test-connection antes de operaciones API",
+    "Usar ApiClient.ts para nuevos scripts",
+    "Verificar .gitignore antes de commit",
+    "Ejecutar backups antes de cambios importantes",
+    "Documentar errores nuevos en TROUBLESHOOTING.md"
+  ],
+
+  "last_updated": "2026-01-25"
+}

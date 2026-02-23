@@ -1,0 +1,153 @@
+{
+  "collection": {
+    "name": "ALMA_Prevision",
+    "title": "ALMA Prevision",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "2f84i4kv73p",
+      "name": "Prevision_categoria",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Prevision",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Prevision_categoria",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "58mnua5sy6j",
+      "name": "Prevision",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Prevision",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Prevision",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "7cydeectcx0",
+      "name": "INST_Code1",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Prevision",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "INST_Code1",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "9530mcuu8um",
+      "name": "INST_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Prevision",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "INST_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "f34yfamv17o",
+      "name": "Codigo_Prevision",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Prevision",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Prevision",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "iqjprhlrqzj",
+      "name": "INST_AccountClass",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Prevision",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "INST_AccountClass",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "k500aivf65j",
+      "name": "INST_UnqualifiedAdm",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Prevision",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "INST_UnqualifiedAdm",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "rv6k0sy4m1l",
+      "name": "Fecha_Prevision",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Prevision",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Prevision",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "u2x2klbxroc",
+      "name": "INST_Code2",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Prevision",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "INST_Code2",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "zzrwgg8rd6w",
+      "name": "INST_DoNotDefaultCopy",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Prevision",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "INST_DoNotDefaultCopy",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:09.107Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

@@ -1,0 +1,6 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSPrevision",
+  "status": "placeholder",
+  "message": "Could not auto-fetch JSON definition. Manual download required."
+}

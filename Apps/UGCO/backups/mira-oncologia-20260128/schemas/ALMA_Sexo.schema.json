@@ -1,0 +1,111 @@
+{
+  "collection": {
+    "name": "ALMA_Sexo",
+    "title": "ALMA Sexo",
+    "description": null,
+    "inherit": false,
+    "hidden": false
+  },
+  "fields": [
+    {
+      "key": "1f4ctxm7vkc",
+      "name": "CTSEX_RowId",
+      "type": "integer",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Sexo",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CTSEX_RowId",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "axxtlw16mvv",
+      "name": "Fecha_Act",
+      "type": "date",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Sexo",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Fecha_Act",
+        "x-component": "DatePicker"
+      }
+    },
+    {
+      "key": "c25txgwks0s",
+      "name": "Sexo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Sexo",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Sexo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "e5vhcoou8a6",
+      "name": "Codigo_HL7",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Sexo",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_HL7",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "f5fvwpn2bwl",
+      "name": "Agrupacion_Codigo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Sexo",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Agrupacion_Codigo",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "j0atbc1ftpb",
+      "name": "CTSEX_Gender",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Sexo",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "CTSEX_Gender",
+        "x-component": "Input"
+      }
+    },
+    {
+      "key": "p3c2qyubw29",
+      "name": "Codigo_Sexo",
+      "type": "string",
+      "interface": "input",
+      "description": null,
+      "collectionName": "ALMA_Sexo",
+      "parentKey": null,
+      "reverseKey": null,
+      "uiSchema": {
+        "title": "Codigo_Sexo",
+        "x-component": "Input"
+      }
+    }
+  ],
+  "exportedAt": "2026-01-28T21:31:08.071Z",
+  "source": "mira.hospitaldeovalle.cl"
+}

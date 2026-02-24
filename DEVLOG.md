@@ -186,3 +186,10 @@ impacts: [CHANGELOG.md]
 ### Metrics
 
 - API endpoints tested: 36 scripts × multiple commands | Bug fixed: 1 critical (filterByTk) | New agent: visual-verifier | New script: verify-page-visual.ts
+
+## 2026-02-24 — Governance Audit + Documentation Enhancement
+
+- Auditoria de gobernanza completada: README.md, CHANGELOG.md, GEMINI.md verificados
+- README.md expandido con secciones de arquitectura, scripts NocoBase, configuracion
+- AGENTS.md validado (61 lineas, 7 agentes especializados)
+- GEMINI.md verificado (103 lineas con clasificador de complejidad)

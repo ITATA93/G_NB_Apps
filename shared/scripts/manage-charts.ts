@@ -39,24 +39,21 @@ async function queryChart(flags: Record<string, string>) {
 
     log('📊 Ejecutando consulta de datos...\n', 'cyan');
 
-    const query: Record<string, unknown> = {
-        collection: flags.collection,
-        measures: [],
-        dimensions: [],
-    };
+    const measures: Record<string, unknown>[] = [];
+    const dimensions: Record<string, unknown>[] = [];
 
     if (flags.measures) {
-        const measures = flags.measures.split(',');
-        for (const m of measures) {
+        const measureList = flags.measures.split(',');
+        for (const m of measureList) {
             const [field, aggregation] = m.split(':');
-            query.measures.push({
+            measures.push({
                 field: [field],
                 aggregation: aggregation || 'count',
                 alias: `${aggregation || 'count'}_${field}`,
             });
         }
     } else {
-        query.measures.push({
+        measures.push({
             field: ['id'],
             aggregation: 'count',
             alias: 'count',
@@ -66,9 +63,15 @@ async function queryChart(flags: Record<string, string>) {
     if (flags.dimensions) {
         const dims = flags.dimensions.split(',');
         for (const d of dims) {
-            query.dimensions.push({ field: [d] });
+            dimensions.push({ field: [d] });
         }
     }
+
+    const query: Record<string, unknown> = {
+        collection: flags.collection,
+        measures,
+        dimensions,
+    };
 
     if (flags.filter) {
         try {
@@ -114,8 +117,9 @@ async function queryChart(flags: Record<string, string>) {
         }
     } catch (error: unknown) {
         log(`❌ Error: ${(error instanceof Error ? error.message : String(error))}`, 'red');
-        if (error.response?.data) {
-            log(`  Detalle: ${JSON.stringify(error.response.data)}`, 'gray');
+        const axiosErr = error as { response?: { data?: unknown } };
+        if (axiosErr.response?.data) {
+            log(`  Detalle: ${JSON.stringify(axiosErr.response.data)}`, 'gray');
         }
     }
 }

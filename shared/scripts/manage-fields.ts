@@ -88,8 +88,8 @@ async function listFields(collection: string) {
 
     log(`Total: ${fields.length} campo(s)\n`, 'green');
 
-    const maxName = Math.max(...fields.map((f: Record<string, unknown>) => (f.name || '').length), 4);
-    const maxType = Math.max(...fields.map((f: Record<string, unknown>) => (f.type || '').length), 4);
+    const maxName = Math.max(...fields.map((f: Record<string, unknown>) => String(f.name || '').length), 4);
+    const maxType = Math.max(...fields.map((f: Record<string, unknown>) => String(f.type || '').length), 4);
 
     log(`  ${'NOMBRE'.padEnd(maxName)}  ${'TIPO'.padEnd(maxType)}  INTERFAZ          TITULO`, 'gray');
     log(`  ${'─'.repeat(maxName)}  ${'─'.repeat(maxType)}  ${'─'.repeat(16)}  ${'─'.repeat(20)}`, 'gray');
@@ -123,6 +123,7 @@ async function createField(collection: string, flags: Record<string, string>) {
 
     log(`➕ Creando campo "${name}" en "${collection}"...\n`, 'cyan');
 
+    const uiSchema: Record<string, unknown> = {};
     const data: Record<string, unknown> = {
         name,
         type,
@@ -130,10 +131,8 @@ async function createField(collection: string, flags: Record<string, string>) {
 
     if (iface) data.interface = iface;
     if (title) {
-        data.uiSchema = {
-            title,
-            'x-component': getComponentForInterface(iface || type),
-        };
+        uiSchema.title = title;
+        uiSchema['x-component'] = getComponentForInterface(iface || type);
     }
 
     // Opciones adicionales
@@ -141,15 +140,13 @@ async function createField(collection: string, flags: Record<string, string>) {
     if (flags.unique === 'true') data.unique = true;
     if (flags.defaultValue) data.defaultValue = flags.defaultValue;
     if (flags.description) {
-        data.uiSchema = data.uiSchema || {};
-        data.uiSchema.description = flags.description;
+        uiSchema.description = flags.description;
     }
 
     // Para campos select/enum
     if (flags.options) {
         try {
-            data.uiSchema = data.uiSchema || {};
-            data.uiSchema.enum = JSON.parse(flags.options);
+            uiSchema.enum = JSON.parse(flags.options);
         } catch {
             log('❌ --options debe ser JSON valido, ej: [{"value":"a","label":"A"}]', 'red');
             process.exit(1);
@@ -170,17 +167,21 @@ async function createField(collection: string, flags: Record<string, string>) {
         if (flags.otherKey) data.otherKey = flags.otherKey;
 
         // UI Schema para relaciones
-        data.uiSchema = data.uiSchema || {};
-        data.uiSchema['x-component'] = 'AssociationField';
-        data.uiSchema['x-component-props'] = {
+        uiSchema['x-component'] = 'AssociationField';
+        const componentProps: Record<string, unknown> = {
             multiple: ['hasMany', 'belongsToMany'].includes(type)
         };
         if (flags.labelField) {
-            data.uiSchema['x-component-props'].fieldNames = {
+            componentProps.fieldNames = {
                 label: flags.labelField,
                 value: 'id'
             };
         }
+        uiSchema['x-component-props'] = componentProps;
+    }
+
+    if (Object.keys(uiSchema).length > 0) {
+        data.uiSchema = uiSchema;
     }
 
     await client.post(`/collections/${collection}/fields:create`, data);
@@ -219,16 +220,19 @@ async function updateField(collection: string, fieldName: string, flags: Record<
     log(`✏️  Actualizando campo "${fieldName}" en "${collection}"...\n`, 'cyan');
     const data: Record<string, unknown> = {};
 
+    const updateUiSchema: Record<string, unknown> = {};
     if (flags.title) {
-        data.uiSchema = { title: flags.title };
+        updateUiSchema.title = flags.title;
     }
     if (flags['interface']) data.interface = flags['interface'];
     if (flags.required !== undefined) data.required = flags.required === 'true';
     if (flags.unique !== undefined) data.unique = flags.unique === 'true';
     if (flags.defaultValue) data.defaultValue = flags.defaultValue;
     if (flags.description) {
-        data.uiSchema = data.uiSchema || {};
-        data.uiSchema.description = flags.description;
+        updateUiSchema.description = flags.description;
+    }
+    if (Object.keys(updateUiSchema).length > 0) {
+        data.uiSchema = updateUiSchema;
     }
 
     if (Object.keys(data).length === 0) {

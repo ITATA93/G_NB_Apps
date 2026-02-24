@@ -12,7 +12,7 @@
 
 ### ✅ Recently Completed
 - 🔒 Ecosystem security remediation: 12/13 findings fixed across 5 AG projects
-- 🔒 AG_Plantilla: dev-secret-key → change-me + validator, CORS restricted, MCP scoped, dispatch delimiters
-- 🔒 AG_SV_Agent: 3 critical credential exposures fixed
-- 🔒 AG_NB_Apps: SIDRA password redacted from JSON files
-- 🔒 AG_Notebook + AG_Hospital_Organizador + AG_DeepResearch: config + CORS fixes
+- 🔒 G_Plantilla: dev-secret-key → change-me + validator, CORS restricted, MCP scoped, dispatch delimiters
+- 🔒 G_SV_Agent: 3 critical credential exposures fixed
+- 🔒 G_NB_Apps: SIDRA password redacted from JSON files
+- 🔒 G_Notebook + G_Hospital_Organizador + G_DeepResearch: config + CORS fixes

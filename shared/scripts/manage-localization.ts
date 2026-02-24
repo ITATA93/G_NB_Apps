@@ -48,7 +48,7 @@ async function listTranslations(flags: Record<string, string>) {
         params.filter = { module: flags.module };
     }
     if (flags.lang) {
-        params.filter = { ...params.filter, locale: flags.lang };
+        params.filter = { ...(params.filter as Record<string, unknown> || {}), locale: flags.lang };
     }
 
     try {
@@ -276,8 +276,8 @@ async function translationStats() {
         const meta = response.meta || {};
 
         const total = meta.count || texts.length;
-        const withTranslation = texts.filter((t: Record<string, unknown>) => t.translations?.length > 0).length;
-        const withoutTranslation = texts.filter((t: Record<string, unknown>) => !t.translations || t.translations.length === 0).length;
+        const withTranslation = texts.filter((t: Record<string, unknown>) => (t.translations as unknown[] | undefined)?.length && (t.translations as unknown[]).length > 0).length;
+        const withoutTranslation = texts.filter((t: Record<string, unknown>) => !t.translations || (t.translations as unknown[]).length === 0).length;
         const coverage = total > 0 ? ((withTranslation / total) * 100).toFixed(1) : '0';
 
         log(`  Total textos:      ${total}`, 'white');

@@ -110,7 +110,7 @@ get_agent_config() {
         exit 1
     fi
 
-    jq -r ".agents[] | select((.id // .name) == \"$agent_name\" or .name == \"$agent_name\")" "$MANIFEST_PATH"
+    jq -r --arg name "$agent_name" '.agents[] | select((.id // .name) == $name or .name == $name)' "$MANIFEST_PATH"
 }
 
 get_codex_effort() {

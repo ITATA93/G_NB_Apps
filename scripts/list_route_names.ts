@@ -9,7 +9,7 @@ async function listNames() {
     const res = await api.get('desktopRoutes:list', { pageSize: 50, sort: '-createdAt' });
     const routes = res?.data || [];
     console.log(`Dumping ${routes.length} route names/paths:`);
-    routes.forEach(r => {
+    routes.forEach((r: Record<string, unknown>) => {
         console.log(`ID: ${r.id} | Name: "${r.name}" | Path: "${r.path}"`);
     });
 }

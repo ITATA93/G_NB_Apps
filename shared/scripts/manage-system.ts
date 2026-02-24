@@ -184,7 +184,8 @@ async function getSystemStatus() {
         log(`  ✅ API respondiendo (${elapsed}ms)`, 'green');
     } catch (error: unknown) {
         const elapsed = Date.now() - startTime;
-        if (error.response?.status === 401) {
+        const axiosErr = error as { response?: { status?: number } };
+        if (axiosErr.response?.status === 401) {
             log(`  ⚠️  API respondiendo pero token inválido (${elapsed}ms)`, 'yellow');
         } else {
             log(`  ❌ API no responde (${elapsed}ms): ${(error instanceof Error ? error.message : String(error))}`, 'red');

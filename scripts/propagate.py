@@ -19,11 +19,17 @@ import subprocess
 import sys
 from pathlib import Path
 
-# -- Configuration -------------------------------------------------------------
+# -- Configuration (env-aware) ------------------------------------------------
 
-REPO_ROOT = Path(r"C:\_Repositorio")
+try:
+    from env_resolver import get_repo_root, get_plantilla_dir
+    REPO_ROOT = get_repo_root()
+    PLANTILLA_DIR = get_plantilla_dir()
+except ImportError:
+    REPO_ROOT = Path(r"C:\_Repositorio")
+    PLANTILLA_DIR = REPO_ROOT / "G_Plantilla"
+
 PROJECTS_DIR = REPO_ROOT / "AG_Proyectos"
-PLANTILLA_DIR = REPO_ROOT / "AG_Plantilla"
 TEMPLATE_DIR = PLANTILLA_DIR / "_template" / "workspace"
 
 # Files tracked for propagation (relative to project root)

@@ -39,8 +39,8 @@ async function exportCollection(collection: string, flags: Record<string, string
             paginate: false,
         });
         const fields = (fieldsResp.data || []).filter((f: Record<string, unknown>) =>
-            !['password', 'sort'].includes(f.type) &&
-            !['createdBy', 'updatedBy'].includes(f.interface)
+            !['password', 'sort'].includes(String(f.type)) &&
+            !['createdBy', 'updatedBy'].includes(String(f.interface))
         );
 
         const columns = fields.map((f: Record<string, unknown>) => ({
@@ -49,7 +49,7 @@ async function exportCollection(collection: string, flags: Record<string, string
         }));
 
         log(`  Campos a exportar: ${columns.length}`, 'gray');
-        log(`  Campos: ${columns.map((c: Record<string, unknown>) => c.dataIndex[0]).join(', ')}`, 'gray');
+        log(`  Campos: ${columns.map((c: { dataIndex: unknown[] }) => c.dataIndex[0]).join(', ')}`, 'gray');
 
         // Use the export API
         const axiosClient = client.getClient();
@@ -73,7 +73,8 @@ async function exportCollection(collection: string, flags: Record<string, string
         log(`   Tamaño: ${(response.data.byteLength / 1024).toFixed(1)} KB`, 'gray');
     } catch (error: unknown) {
         log(`❌ Error exportando: ${(error instanceof Error ? error.message : String(error))}`, 'red');
-        if (error.response?.status === 404) {
+        const axiosErr = error as { response?: { status?: number } };
+        if (axiosErr.response?.status === 404) {
             log('  Nota: El plugin action-export debe estar habilitado.', 'yellow');
         }
     }
@@ -117,8 +118,9 @@ async function importCollection(collection: string, flags: Record<string, string
         }
     } catch (error: unknown) {
         log(`❌ Error importando: ${(error instanceof Error ? error.message : String(error))}`, 'red');
-        if (error.response?.data) {
-            log(`  Detalle: ${JSON.stringify(error.response.data)}`, 'gray');
+        const axiosErr = error as { response?: { data?: unknown } };
+        if (axiosErr.response?.data) {
+            log(`  Detalle: ${JSON.stringify(axiosErr.response.data)}`, 'gray');
         }
     }
 }
@@ -131,8 +133,8 @@ async function downloadTemplate(collection: string, flags: Record<string, string
             paginate: false,
         });
         const fields = (fieldsResp.data || []).filter((f: Record<string, unknown>) =>
-            !['password', 'sort', 'context'].includes(f.type) &&
-            !['createdBy', 'updatedBy', 'createdAt', 'updatedAt', 'id'].includes(f.interface) &&
+            !['password', 'sort', 'context'].includes(String(f.type)) &&
+            !['createdBy', 'updatedBy', 'createdAt', 'updatedAt', 'id'].includes(String(f.interface)) &&
             f.name !== 'id' && f.name !== 'createdAt' && f.name !== 'updatedAt'
         );
 

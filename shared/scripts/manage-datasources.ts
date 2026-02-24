@@ -133,7 +133,7 @@ async function listCollections(key: string) {
                 log(`\n  📁 ${category}:`, 'white');
             }
             for (const c of cols) {
-                const fieldCount = c.fields?.length || 0;
+                const fieldCount = (c.fields as unknown[] | undefined)?.length || 0;
                 log(`    [${c.name}] ${c.title || c.name}  (${fieldCount} campos)`, 'white');
             }
         }
@@ -180,24 +180,26 @@ async function createDataSource(flags: Record<string, string>) {
 
     log(`➕ Creando datasource "${key}" (${type})...\n`, 'cyan');
 
+    const options: Record<string, unknown> = {};
+
+    if (host) options.host = host;
+    if (port) options.port = parseInt(port);
+    if (database) options.database = database;
+    if (username) options.username = username;
+    if (password) options.password = password;
+
+    // Additional options
+    if (flags.encrypt) options.encrypt = flags.encrypt === 'true';
+    if (flags.ssl) options.ssl = flags.ssl === 'true';
+    if (flags.schema) options.schema = flags.schema;
+
     const data: Record<string, unknown> = {
         key,
         type,
         displayName,
         enabled: true,
-        options: {}
+        options
     };
-
-    if (host) data.options.host = host;
-    if (port) data.options.port = parseInt(port);
-    if (database) data.options.database = database;
-    if (username) data.options.username = username;
-    if (password) data.options.password = password;
-
-    // Additional options
-    if (flags.encrypt) data.options.encrypt = flags.encrypt === 'true';
-    if (flags.ssl) data.options.ssl = flags.ssl === 'true';
-    if (flags.schema) data.options.schema = flags.schema;
 
     try {
         const response = await client.post('/dataSources:create', data);

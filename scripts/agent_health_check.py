@@ -1,5 +1,5 @@
 """
-Agent Health Check — AG_Plantilla
+Agent Health Check — G_Plantilla
 Validates that all agent definitions are correctly configured:
 - All agents in manifest exist as definition files
 - All definitions reference output_governance.md
@@ -58,7 +58,7 @@ def check(condition: bool, msg: str, warn_only: bool = False) -> bool:
 
 
 def main():
-    print("🩺 Agent Health Check — AG_Plantilla")
+    print("🩺 Agent Health Check — G_Plantilla")
     print("=" * 50)
 
     # 1. Manifest exists and is valid JSON
@@ -75,15 +75,16 @@ def main():
         sys.exit(1)
 
     check("agents" in manifest, "Manifest has 'agents' section")
-    check("agent_teams" in manifest, "Manifest has 'agent_teams' section")
+    has_teams = "agent_teams" in manifest or "teams" in manifest
+    check(has_teams, "Manifest has teams section")
     agents = manifest.get("agents", [])
     check(len(agents) > 0, f"Found {len(agents)} agents in manifest")
 
     # 2. Agent definitions exist
     print("\n📂 2. Agent Definition Files")
     for agent in agents:
-        name = agent["name"]
-        vendor = agent["vendor"]
+        name = agent.get("name", agent.get("id", "unknown"))
+        vendor = agent.get("vendor_preference", agent.get("vendor", "unknown"))
 
         # Check vendor-specific definition
         agent_dir = AGENT_DIRS.get(vendor)
@@ -148,7 +149,7 @@ def main():
 
     # 5. Agent Teams validation
     print("\n👥 5. Agent Teams")
-    teams = manifest.get("agent_teams", {}).get("teams", {})
+    teams = manifest.get("teams", manifest.get("agent_teams", {}).get("teams", {}))
     for team_name, team_config in teams.items():
         team_agents = team_config.get("agents", [])
         agent_names = [a["name"] for a in agents]

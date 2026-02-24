@@ -38,7 +38,7 @@ try:
 except ImportError:
     # Fallback for standalone execution without env_resolver in sys.path
     REPO_ROOT = Path(r"C:\_Repositorio")
-    PLANTILLA_DIR = REPO_ROOT / "AG_Plantilla"
+    PLANTILLA_DIR = REPO_ROOT / "G_Plantilla"
     TEMPLATE_DIR = PLANTILLA_DIR / "_template" / "workspace"
 
     def get_projects_dirs():
@@ -693,7 +693,7 @@ def main() -> None:
 
     if args.project:
         project_dir = None
-        if args.project == "AG_Plantilla":
+        if args.project == "G_Plantilla":
             project_dir = PLANTILLA_DIR
         else:
             for p_dir in get_projects_dirs():

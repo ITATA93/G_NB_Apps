@@ -149,20 +149,23 @@ async function sendNotification(flags: Record<string, string>) {
 
     log('📨 Enviando notificación...\n', 'cyan');
 
-    const data: Record<string, unknown> = {
-        channelName: flags.channel,
-        receivers: {},
-        message: {},
-    };
+    const receivers: Record<string, unknown> = {};
+    const message: Record<string, unknown> = {};
 
     if (flags.to) {
-        data.receivers.to = flags.to.split(',');
-        if (flags.cc) data.receivers.cc = flags.cc.split(',');
+        receivers.to = flags.to.split(',');
+        if (flags.cc) receivers.cc = flags.cc.split(',');
     }
 
-    if (flags.subject) data.message.subject = flags.subject;
-    if (flags.body) data.message.html = flags.body;
-    if (flags.content) data.message.content = flags.content;
+    if (flags.subject) message.subject = flags.subject;
+    if (flags.body) message.html = flags.body;
+    if (flags.content) message.content = flags.content;
+
+    const data: Record<string, unknown> = {
+        channelName: flags.channel,
+        receivers,
+        message,
+    };
 
     try {
         const response = await client.post('/notifications:send', data);

@@ -258,7 +258,8 @@ async function checkSession() {
             log('  ❌ Sesión no válida', 'red');
         }
     } catch (error: unknown) {
-        if (error.response?.status === 401) {
+        const axiosErr = error as { response?: { status?: number } };
+        if (axiosErr.response?.status === 401) {
             log('  ❌ Token inválido o expirado', 'red');
             log('  Verifica NOCOBASE_API_KEY en tu .env', 'yellow');
         } else {

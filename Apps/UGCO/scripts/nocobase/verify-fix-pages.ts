@@ -103,7 +103,7 @@ async function verifyPage(pageId: number): Promise<PageStatus> {
             } else {
                 issues.push('No tiene Grid dentro del Page');
             }
-        } catch (e) {
+        } catch (_e: unknown) {
             issues.push('Error al leer schema');
         }
     } else {

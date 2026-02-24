@@ -9,7 +9,7 @@ Antes de sobrescribir cualquier configuración crítica, el agente debe:
 3.  **Validación**: Si la actualización implica cambios en scripts de build o deploy, estos no se activan automáticamente.
 
 ## 2. Registro de Cambios (Feedback Loop)
-Cada actualización debe registrarse en `AG_Plantilla/config/project_registry.json` con:
+Cada actualización debe registrarse en `G_Plantilla/config/project_registry.json` con:
 - Fecha y tipo de acción (creación, normalización, update).
 - Agentes y Skills utilizados.
 - Resultado de la operación.

@@ -82,13 +82,13 @@ async function insertRecords(collection: string, records: any[]): Promise<{ succ
             // Intentar inserción masiva
             await apiRequest(`${collection}:create`, 'POST', batch);
             success += batch.length;
-        } catch (err) {
+        } catch (_err: unknown) {
             // Si falla, intentar uno por uno
             for (const record of batch) {
                 try {
                     await apiRequest(`${collection}:create`, 'POST', record);
                     success++;
-                } catch (e) {
+                } catch (_e: unknown) {
                     errors++;
                 }
             }
@@ -365,8 +365,8 @@ async function main() {
     try {
         await apiRequest('collections:list?pageSize=1');
         console.log(colors.green('  [OK] Conexión establecida\n'));
-    } catch (err) {
-        console.log(colors.red(`  [ERROR] No se pudo conectar: ${err}`));
+    } catch (err: unknown) {
+        console.log(colors.red(`  [ERROR] No se pudo conectar: ${err instanceof Error ? err.message : String(err)}`));
         process.exit(1);
     }
 

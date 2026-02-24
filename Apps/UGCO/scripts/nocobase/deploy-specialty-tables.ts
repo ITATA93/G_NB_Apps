@@ -350,7 +350,7 @@ async function main() {
     try {
         await client.get('/app:getLang');
         log('  ✅ Conexion verificada\n', 'green');
-    } catch (error) {
+    } catch (_error: unknown) {
         log('  ❌ No se puede conectar al servidor\n', 'red');
         process.exit(1);
     }
@@ -387,7 +387,7 @@ async function main() {
             try {
                 await client.post(`/uiSchemas:remove/${specialty.schemaUid}`);
                 log(`     🗑️  Schema anterior eliminado`, 'gray');
-            } catch (e) {
+            } catch (_e: unknown) {
                 // Ignorar si no existe
             }
 

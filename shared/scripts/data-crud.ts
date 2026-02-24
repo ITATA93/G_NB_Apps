@@ -34,7 +34,7 @@ function parseArgs(args: string[]): { flags: Record<string, string>, positional:
     return { flags, positional };
 }
 
-function parseJsonFlag(value: string | undefined, label: string): Record<string, unknown> {
+function parseJsonFlag(value: string | undefined, label: string): Record<string, unknown> | undefined {
     if (!value) return undefined;
     try {
         return JSON.parse(value);
@@ -253,15 +253,16 @@ async function exportData(collection: string, flags: Record<string, string>) {
         if (allRecords.length === 0) {
             content = '';
         } else {
-            const headers = Object.keys(allRecords[0]);
-            const rows = allRecords.map(r =>
-                headers.map(h => {
-                    const v = r[h];
+            const headers = Object.keys(allRecords[0] as Record<string, unknown>);
+            const rows = allRecords.map((r) => {
+                const record = r as Record<string, unknown>;
+                return headers.map(h => {
+                    const v = record[h];
                     if (v === null || v === undefined) return '';
                     const str = typeof v === 'object' ? JSON.stringify(v) : String(v);
                     return str.includes(',') || str.includes('"') ? `"${str.replace(/"/g, '""')}"` : str;
-                }).join(',')
-            );
+                }).join(',');
+            });
             content = [headers.join(','), ...rows].join('\n');
         }
     } else {

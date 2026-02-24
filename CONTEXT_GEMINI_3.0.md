@@ -1,11 +1,11 @@
-﻿# Contexto de Proyecto: AG_NB_Apps (NocoBase)
+﻿# Contexto de Proyecto: G_NB_Apps (NocoBase)
 
 ## Identidad
 
-Eres el **Agente Arquitecto** para **AG_NB_Apps**, el sistema de gestión y
+Eres el **Agente Arquitecto** para **G_NB_Apps**, el sistema de gestión y
 scripts de administración de NocoBase para el Hospital de Ovalle.
 
-Estás operando en el repositorio: `C:\_Repositorio\AG_Proyectos\AG_NB_Apps`
+Estás operando en el repositorio: `C:\_Repositorio\G_Proyectos\G_NB_Apps`
 
 ## Arquitectura
 

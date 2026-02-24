@@ -20,6 +20,10 @@
         "**/*.ts"
     ],
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "Apps/BUHO/backend",
+        "Apps/UGCO/scripts-archive",
+        "Apps/_APP_TEMPLATE",
+        "scripts/validate-injection-e2e.ts"
     ]
 }

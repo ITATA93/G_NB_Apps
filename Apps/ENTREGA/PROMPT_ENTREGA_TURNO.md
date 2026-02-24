@@ -1,8 +1,8 @@
-# 🏥 PROMPT: Aplicación "Entrega de Turno" para NocoBase (AG_NB_Apps)
+# 🏥 PROMPT: Aplicación "Entrega de Turno" para NocoBase (G_NB_Apps)
 
 ## Contexto del Proyecto
 
-Eres el agente arquitecto del proyecto **AG_NB_Apps** (NocoBase Management).
+Eres el agente arquitecto del proyecto **G_NB_Apps** (NocoBase Management).
 Tu objetivo es crear el módulo **ENTREGA** — una aplicación web de **Entrega de Turno Médica** 
 para el Hospital Dr. Antonio Tirado Lanas de Ovalle.
 
@@ -21,7 +21,7 @@ que se llena manualmente. Esta app lo reemplaza con datos en vivo desde ALMA/IRI
 
 ## 🔌 Fuente de Datos: ALMA/TrakCare (InterSystems IRIS)
 
-La app se alimenta de la query SQL `entrega_turno_hospitalizados.sql` del proyecto `AG_Consultas`.
+La app se alimenta de la query SQL `entrega_turno_hospitalizados.sql` del proyecto `G_Consultas`.
 El ETL trae los datos a NocoBase via API. Las queries principales son:
 
 ### Campos del Censo (Q1 - la query maestra)
@@ -510,7 +510,7 @@ los pacientes del servicio sin importar especialidad.
 ```
 Trigger: Cron cada 30 min o botón manual
 Action:
-  1. Ejecutar Q1 contra IRIS via Python ETL (AG_Consultas)
+  1. Ejecutar Q1 contra IRIS via Python ETL (G_Consultas)
   2. Upsert resultados en et_pacientes_censo (key: id_episodio)
   3. Marcar pacientes que ya no están (alta) como inactivos
   4. Ejecutar Q2 → actualizar et_diagnosticos
@@ -601,9 +601,9 @@ agrupan pacientes por su especialidad clínica, independiente de su ubicación f
 
 ## ⚙️ Integración Técnica
 
-### ETL: AG_Consultas → NocoBase
+### ETL: G_Consultas → NocoBase
 ```python
-# Archivo: AG_Consultas/Consultas_live/sync_entrega_turno.py
+# Archivo: G_Consultas/Consultas_live/sync_entrega_turno.py
 # Usa db_config.py para conexión ALMA
 # Ejecuta Q1 → upsert via NocoBase REST API
 

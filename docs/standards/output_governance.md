@@ -6,7 +6,7 @@
 
 ## File Creation Rules
 
-1. **NEVER** create files in project root (except standard: GEMINI.md, CLAUDE.md, AGENTS.md, CHANGELOG.md, README.md)
+1. **NEVER** create files in project root (except standard: GEMINI.md, CLAUDE.md, AGENTS.md, CHANGELOG.md, README.md, CONTRIBUTING.md, DEVLOG.md, VALIDATION_SUMMARY.md)
 2. **NEVER** create ad-hoc log files — use `docs/DEVLOG.md` (append mode only)
 3. **NEVER** create TODO/task files outside `docs/TASKS.md`
 4. **NEVER** create temporary analysis files — use Knowledge Items or the appropriate `docs/` subdirectory
@@ -104,7 +104,7 @@ Every audit report MUST include YAML frontmatter with:
 
 ### Canonical Template
 
-- **Source of truth:** `AG_Plantilla/_template/workspace/docs/audit/_templates/audit-report.md`
+- **Source of truth:** `G_Plantilla/_template/workspace/docs/audit/_templates/audit-report.md`
 - **Local copy:** Each project's `docs/audit/_templates/audit-report.md`
 
 ### Audit Directory Structure

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://antigravity.dev/schemas/subagents-manifest.json",
-  "title": "Subagents Manifest Schema v3.0",
+  "title": "Subagents Manifest Schema v3.1",
   "description": "Schema for .subagents/manifest.json — includes Opus 4.6 Agent Teams, Effort Controls, and Adaptive Thinking",
   "type": "object",
   "required": ["version", "project", "agents"],
@@ -108,9 +108,27 @@
         }
       }
     },
+    "teams": {
+      "type": "object",
+      "description": "Predefined team configurations (v3.1 top-level)",
+      "additionalProperties": {
+        "$ref": "#/definitions/team"
+      }
+    },
+    "trigger_resolution": {
+      "type": "object",
+      "description": "Strategy for resolving conflicts when multiple agents match",
+      "properties": {
+        "strategy": {
+          "type": "string",
+          "enum": ["priority", "first-match"],
+          "default": "priority"
+        }
+      }
+    },
     "agent_teams": {
       "type": "object",
-      "description": "Agent Teams configuration (Opus 4.6+)",
+      "description": "Agent Teams configuration (Opus 4.6+, v2.0 compat)",
       "properties": {
         "enabled": {
           "type": "boolean",
@@ -209,17 +227,28 @@
     },
     "agent": {
       "type": "object",
-      "required": ["name", "vendor", "scope", "triggers", "instructions"],
+      "required": ["name", "scope", "triggers", "instructions"],
       "properties": {
-        "name": {
+        "id": {
           "type": "string",
-          "description": "Unique agent identifier",
+          "description": "Unique agent identifier (v3.1)",
           "pattern": "^[a-z][a-z0-9-]*$",
           "examples": ["code-analyst", "doc-writer"]
         },
+        "name": {
+          "type": "string",
+          "description": "Agent name",
+          "pattern": "^[a-z][a-z0-9-]*$",
+          "examples": ["code-analyst", "doc-writer"]
+        },
+        "vendor_preference": {
+          "type": "string",
+          "description": "Preferred vendor for this agent (v3.1)",
+          "enum": ["gemini", "claude", "codex"]
+        },
         "vendor": {
           "type": "string",
-          "description": "Primary vendor for this agent",
+          "description": "Primary vendor for this agent (v2.0 compat)",
           "enum": ["gemini", "claude", "codex"]
         },
         "supported_vendors": {

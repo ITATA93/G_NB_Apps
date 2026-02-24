@@ -4,7 +4,7 @@
 
 | Prefijo | Significado | ¿Quién escribe? | Ejemplo |
 |---------|------------|-----------------|---------|
-| `ALMA_` | Mirror read-only de ALMA/TrakCare IRIS | ETL sync (AG_Consultas) | `ALMA_Pacientes`, `ALMA_H_CIE10` |
+| `ALMA_` | Mirror read-only de ALMA/TrakCare IRIS | ETL sync (G_Consultas) | `ALMA_Pacientes`, `ALMA_H_CIE10` |
 | `ref_` | Catálogos de referencia normalizados | Seed scripts | `ref_cie10`, `ref_prevision` |
 | `onco_` | Datos módulo Oncología (UGCO) | Aplicación | `onco_casos`, `onco_episodios` |
 | `et_` | Datos módulo Entrega de Turno | App + ETL | `et_pacientes_censo`, `et_turnos` |

@@ -134,7 +134,8 @@ async function createPageSchema(client: AxiosInstance, title: string, content?: 
         const response = await client.post('/uiSchemas:insert', schema);
         return response.data?.data?.['x-uid'] || response.data?.['x-uid'] || null;
     } catch (error: unknown) {
-        log(`  ⚠️ Error creando schema: ${error.response?.data?.errors?.[0]?.message || (error instanceof Error ? error.message : String(error))}`, 'yellow');
+        const axiosErr = error as { response?: { data?: { errors?: { message?: string }[] } } };
+        log(`  ⚠️ Error creando schema: ${axiosErr.response?.data?.errors?.[0]?.message || (error instanceof Error ? error.message : String(error))}`, 'yellow');
         return null;
     }
 }
@@ -199,7 +200,8 @@ async function createRoute(
         return { id: routeId, title: route.title, type: route.type, schemaUid };
 
     } catch (error: unknown) {
-        log(`${indent}   ❌ Error: ${error.response?.data?.errors?.[0]?.message || (error instanceof Error ? error.message : String(error))}`, 'red');
+        const axiosErr = error as { response?: { data?: { errors?: { message?: string }[] } } };
+        log(`${indent}   ❌ Error: ${axiosErr.response?.data?.errors?.[0]?.message || (error instanceof Error ? error.message : String(error))}`, 'red');
         return null;
     }
 }

@@ -77,7 +77,7 @@ if [ ! -x "$DISPATCH_SCRIPT" ]; then
 fi
 
 # Get team configuration
-TEAM_CONFIG=$(jq -c "(.teams // .agent_teams.teams // {})[\"$TEAM_NAME\"]" "$MANIFEST_PATH" 2>/dev/null)
+TEAM_CONFIG=$(jq -c --arg team "$TEAM_NAME" '(.teams // .agent_teams.teams // {})[$team]' "$MANIFEST_PATH" 2>/dev/null)
 
 if [ -z "$TEAM_CONFIG" ] || [ "$TEAM_CONFIG" = "null" ]; then
     log_error "Team '$TEAM_NAME' not found in manifest"

@@ -76,8 +76,8 @@ async function extractDictionaries() {
                     console.log(`Saved: ${outputFilename} (${jsonData.length} entries)`);
                 }
             });
-        } catch (error) {
-            console.error(`Error processing ${file}:`, error);
+        } catch (error: unknown) {
+            console.error(`Error processing ${file}:`, error instanceof Error ? error.message : String(error));
         }
     }
 }

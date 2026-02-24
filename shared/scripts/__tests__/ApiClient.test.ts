@@ -51,12 +51,18 @@ vi.mock('fs', async () => {
 });
 
 describe('ApiClient', () => {
-  let ApiClient: unknown;
-  let createClient: unknown;
-  let log: unknown;
-  let logAction: unknown;
-  let getLogFilePath: unknown;
-  let _mockAxios: unknown;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let ApiClient: any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let createClient: any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let log: any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let logAction: any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let getLogFilePath: any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let _mockAxios: any;
 
   beforeEach(async () => {
     vi.clearAllMocks();
@@ -71,7 +77,7 @@ describe('ApiClient', () => {
 
     // Get reference to mocked axios
     const axios = await import('axios');
-    _mockAxios = (axios.default.create as unknown).mock.results[0]?.value;
+    _mockAxios = (axios.default.create as any).mock.results[0]?.value;
   });
 
   afterEach(() => {

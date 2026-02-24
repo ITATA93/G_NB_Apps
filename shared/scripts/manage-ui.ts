@@ -84,17 +84,17 @@ async function listMenus() {
             const component = menuItem['x-component'] || '';
             const isSubmenu = component === 'Menu.SubMenu';
             const icon = isSubmenu ? '📁' : '📄';
-            const title = menuItem.title || menuItem['x-component-props']?.title || key;
+            const title = menuItem.title || (menuItem['x-component-props'] as Record<string, unknown>)?.title || key;
 
             log(`  ${icon} ${title}`, 'white');
             log(`      UID: ${menuItem['x-uid'] || key}  |  Componente: ${component}`, 'gray');
 
             // List sub-items if submenu
             if (isSubmenu && menuItem.properties) {
-                const subItems = Object.entries(menuItem.properties);
+                const subItems = Object.entries(menuItem.properties as Record<string, unknown>);
                 for (const [subKey, subItem] of subItems) {
                     const sub = subItem as Record<string, unknown>;
-                    const subTitle = sub.title || sub['x-component-props']?.title || subKey;
+                    const subTitle = sub.title || (sub['x-component-props'] as Record<string, unknown>)?.title || subKey;
                     log(`      📄 ${subTitle}`, 'gray');
                     log(`          UID: ${sub['x-uid'] || subKey}`, 'gray');
                 }
@@ -124,9 +124,9 @@ async function listPages() {
         function extractPages(props: Record<string, unknown>, parentPath: string = '') {
             for (const [key, value] of Object.entries(props)) {
                 const item = value as Record<string, unknown>;
-                const title = item.title || item['x-component-props']?.title || key;
-                const uid = item['x-uid'] || key;
-                const component = item['x-component'] || '';
+                const title = String(item.title || (item['x-component-props'] as Record<string, unknown>)?.title || key);
+                const uid = String(item['x-uid'] || key);
+                const component = String(item['x-component'] || '');
                 const currentPath = parentPath ? `${parentPath} > ${title}` : title;
 
                 if (component === 'Menu.Item' || component === 'Menu.URL') {
@@ -134,7 +134,7 @@ async function listPages() {
                 }
 
                 if (item.properties) {
-                    extractPages(item.properties, currentPath);
+                    extractPages(item.properties as Record<string, unknown>, currentPath);
                 }
             }
         }
@@ -219,20 +219,20 @@ async function schemaTree(uid: string, depth: number = 0, maxDepth: number = 5) 
                 const child = value as Record<string, unknown>;
                 const childUid = child['x-uid'] || key;
                 const childComponent = child['x-component'] || '';
-                const childTitle = child.title || child['x-component-props']?.title || '';
-                const childIcon = COMPONENT_ICONS[childComponent] || '📌';
+                const childTitle = child.title || (child['x-component-props'] as Record<string, unknown>)?.title || '';
+                const childIcon = COMPONENT_ICONS[String(childComponent)] || '📌';
                 const childLabel = childTitle ? `${childTitle} ` : '';
 
                 log(`${'  '.repeat(depth + 2)}${childIcon} ${childLabel}[${childComponent || child.type || ''}] (${childUid})`, 'gray');
 
                 // Recurse into children if they have properties
                 if (child.properties && depth + 1 < maxDepth) {
-                    for (const [subKey, subValue] of Object.entries(child.properties)) {
+                    for (const [subKey, subValue] of Object.entries(child.properties as Record<string, unknown>)) {
                         const sub = subValue as Record<string, unknown>;
                         const subUid = sub['x-uid'] || subKey;
                         const subComponent = sub['x-component'] || '';
-                        const subTitle = sub.title || sub['x-component-props']?.title || '';
-                        const subIcon = COMPONENT_ICONS[subComponent] || '📌';
+                        const subTitle = sub.title || (sub['x-component-props'] as Record<string, unknown>)?.title || '';
+                        const subIcon = COMPONENT_ICONS[String(subComponent)] || '📌';
                         const subLabel = subTitle ? `${subTitle} ` : '';
 
                         log(`${'  '.repeat(depth + 3)}${subIcon} ${subLabel}[${subComponent || sub.type || ''}] (${subUid})`, 'gray');
@@ -311,7 +311,7 @@ async function deleteSchema(uid: string) {
     log('  ⚠️  Esto eliminará el bloque/página y todos sus hijos.', 'yellow');
 
     try {
-        await client.post(`/uiSchemas:remove/${uid}`);
+        await client.post(`/uiSchemas:remove/${uid}`, {});
         log(`✅ Schema "${uid}" eliminado.`, 'green');
     } catch (error: unknown) {
         log(`❌ Error: ${(error instanceof Error ? error.message : String(error))}`, 'red');

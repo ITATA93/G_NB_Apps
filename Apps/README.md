@@ -1,3 +1,8 @@
+---
+depends_on: [CLAUDE.md]
+impacts: []
+---
+
 # Apps - Aplicaciones NocoBase
 
 Esta carpeta contiene todas las aplicaciones NocoBase del proyecto MIRA (Medical Information Resource Application) para el Hospital de Ovalle.
@@ -455,4 +460,4 @@ Ver [MIRA/docs/DEPLOYMENT.md](../MIRA/docs/DEPLOYMENT.md) para detalles completo
 ---
 
 **Última Actualización**: 2026-02-17
-**Mantenido por**: Equipo AG_NB_Apps - Hospital de Ovalle
+**Mantenido por**: Equipo G_NB_Apps - Hospital de Ovalle

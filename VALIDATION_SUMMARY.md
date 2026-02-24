@@ -1,9 +1,14 @@
-# ✅ VALIDACIÓN DE SKILLS NOCOBASE - REPORTE EJECUTIVO
+---
+depends_on: [shared/scripts/ApiClient.ts]
+impacts: []
+---
+
+# VALIDACION DE SKILLS NOCOBASE - REPORTE EJECUTIVO
 
 **Fecha**: 2026-02-18T14:40:00-03:00 (actualizado)  
-**Proyecto**: AG_NB_Apps (MIRA - Hospital de Ovalle)  
+**Proyecto**: G_NB_Apps (MIRA - Hospital de Ovalle)  
 **Ejecutado por**: Antigravity Agent  
-**Ubicación**: C:\_Repositorio\AG_Proyectos\AG_NB_Apps
+**Ubicación**: C:\_Repositorio\G_Proyectos\G_NB_Apps
 
 ---
 
@@ -234,7 +239,7 @@ npm run nb:plugins -- list
 
 ### ✅ **VEREDICTO FINAL: SISTEMA 100% OPERACIONAL**
 
-**El proyecto AG_NB_Apps está completamente funcional y listo para:**
+**El proyecto G_NB_Apps está completamente funcional y listo para:**
 
 1. ✅ **Configurar aplicaciones** desde blueprints YAML
 2. ✅ **Gestionar colecciones** y campos de datos

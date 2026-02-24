@@ -27,7 +27,7 @@ try:
     PLANTILLA_DIR = get_plantilla_dir()
 except ImportError:
     REPO_ROOT = Path(r"C:\_Repositorio")
-    PLANTILLA_DIR = REPO_ROOT / "AG_Plantilla"
+    PLANTILLA_DIR = REPO_ROOT / "G_Plantilla"
 
 REGISTRY_PATH = PLANTILLA_DIR / "config" / "project_registry.json"
 
@@ -36,10 +36,10 @@ REGISTRY_PATH = PLANTILLA_DIR / "config" / "project_registry.json"
 
 
 def load_registry() -> dict:
-    """Load the project registry."""
+    """Load the project registry. Returns empty dict if not found (standalone mode)."""
     if not REGISTRY_PATH.exists():
-        print(f"[ERROR] Registry not found: {REGISTRY_PATH}", file=sys.stderr)
-        sys.exit(1)
+        print(f"[WARN] Registry not found: {REGISTRY_PATH} — running in standalone mode", file=sys.stderr)
+        return {}
     return json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
 
 

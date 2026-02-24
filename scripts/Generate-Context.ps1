@@ -1,7 +1,7 @@
 # Generate-Context.ps1
-# Genera un Prompt de Contexto para Gemini 3.0 basado en el estado actual del proyecto AG_NB_Apps
+# Genera un Prompt de Contexto para Gemini 3.0 basado en el estado actual del proyecto G_NB_Apps
 
-$ProjectRoot = "C:\_Repositorio\AG_Proyectos\AG_NB_Apps"
+$ProjectRoot = "C:\_Repositorio\G_Proyectos\G_NB_Apps"
 $AppsDir = "$ProjectRoot\Apps"
 $ScriptsDir = "$ProjectRoot\shared\scripts"
 $OutputFile = "$ProjectRoot\CONTEXT_GEMINI_3.0.md"
@@ -17,7 +17,7 @@ $ScriptsList = ($ScriptsPreview -join "`n- ") + "`n- ... (y más)"
 
 # 3. Construir el Prompt
 $Content = @"
-# Contexto de Proyecto: AG_NB_Apps (NocoBase)
+# Contexto de Proyecto: G_NB_Apps (NocoBase)
 
 ## Identidad
 Eres el **Administrador de Sistemas NocoBase** para el Hospital de Ovalle.

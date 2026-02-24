@@ -49,7 +49,7 @@ async function listCollections(flags: Record<string, string>) {
 
     log(`Total: ${collections.length} coleccion(es)\n`, 'green');
 
-    const maxName = Math.max(...collections.map((c: Record<string, unknown>) => (c.name || '').length), 6);
+    const maxName = Math.max(...collections.map((c: Record<string, unknown>) => String(c.name || '').length), 6);
     log(`  ${'NOMBRE'.padEnd(maxName)}  CAMPOS  TITULO`, 'gray');
     log(`  ${'─'.repeat(maxName)}  ${'─'.repeat(6)}  ${'─'.repeat(30)}`, 'gray');
 
@@ -147,7 +147,7 @@ async function exportSchema(name: string) {
             name: f.name,
             type: f.type,
             interface: f.interface,
-            title: f.uiSchema?.title || f.title,
+            title: (f.uiSchema as Record<string, unknown>)?.title || f.title,
             required: f.required || false,
             unique: f.unique || false,
             defaultValue: f.defaultValue,
@@ -195,7 +195,7 @@ async function cloneCollection(source: string, flags: Record<string, string>) {
     // Copy fields (excluding system fields)
     const systemFields = ['id', 'createdAt', 'updatedAt', 'createdById', 'updatedById', 'sort'];
     const fieldsToClone = (sourceCol.fields || []).filter(
-        (f: Record<string, unknown>) => !systemFields.includes(f.name) && !f.primaryKey
+        (f: Record<string, unknown>) => !systemFields.includes(String(f.name)) && !f.primaryKey
     );
 
     let copied = 0;

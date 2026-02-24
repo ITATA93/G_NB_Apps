@@ -154,8 +154,9 @@ async function sendRequest(id: string) {
         log(JSON.stringify(result, null, 2), 'white');
     } catch (error: unknown) {
         log(`❌ Error: ${(error instanceof Error ? error.message : String(error))}`, 'red');
-        if (error.response?.data) {
-            log(`  Detalle: ${JSON.stringify(error.response.data)}`, 'gray');
+        const axiosErr = error as { response?: { data?: unknown } };
+        if (axiosErr.response?.data) {
+            log(`  Detalle: ${JSON.stringify(axiosErr.response.data)}`, 'gray');
         }
     }
 }

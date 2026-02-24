@@ -47,7 +47,7 @@ async function listVars() {
 
         log(`  Total: ${vars.length} variable(s)\n`, 'green');
 
-        const maxName = Math.max(...vars.map((v: Record<string, unknown>) => (v.name || '').length), 10);
+        const maxName = Math.max(...vars.map((v: Record<string, unknown>) => String(v.name || '').length), 10);
 
         log(`  ${'NOMBRE'.padEnd(maxName)}  TIPO      VALOR`, 'white');
         log(`  ${'─'.repeat(maxName)}  ────────  ─────────────────────────────`, 'gray');

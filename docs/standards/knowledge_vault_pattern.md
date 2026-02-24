@@ -1,7 +1,7 @@
 ---
 id: IDX-ROOT-001
 titulo: Knowledge Vault Index
-proyecto: AG_Plantilla
+proyecto: G_Plantilla
 ultima_actualizacion: 2026-02-03
 ---
 

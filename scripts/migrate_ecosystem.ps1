@@ -2,12 +2,12 @@
 .SYNOPSIS
     Antigravity Ecosystem Migrator
 .DESCRIPTION
-    Migrates the flat workspace (W:\AG_Plantilla, W:\AG_Proyectos) into the
+    Migrates the flat workspace (W:\G_Plantilla, W:\AG_Proyectos) into the
     Star Topology domain architecture (W:\Antigravity_OS).
 #>
 
 $SourceRoot = "W:\AG_Proyectos" # Where most projects currently live
-$SourcePlantilla = "W:\AG_Plantilla"
+$SourcePlantilla = "W:\G_Plantilla"
 $TargetRoot = "W:\Antigravity_OS"
 
 Write-Host "Initializing Antigravity Domain Migration..." -ForegroundColor Cyan
@@ -20,7 +20,7 @@ $MigrationMap = @{
     )
     "01_HOSPITAL_PRIVADO" = @(
         "AG_Analizador_RCE",
-        "AG_Consultas",
+        "G_Consultas",
         "AG_DeepResearch_Salud_Chile",
         "AG_Hospital",
         "AG_Hospital_Organizador",
@@ -29,7 +29,7 @@ $MigrationMap = @{
         "AG_TrakCare_Explorer"
     )
     "02_HOSPITAL_PUBLICO" = @(
-        "AG_NB_Apps",
+        "G_NB_Apps",
         "AG_SD_Plantilla"
     )
 }
@@ -65,17 +65,17 @@ foreach ($Domain in $MigrationMap.Keys) {
     }
 }
 
-# 3. Handle AG_Plantilla globally
+# 3. Handle G_Plantilla globally
 $CorePath = Join-Path $TargetRoot "00_CORE"
 if (!(Test-Path $CorePath)) { New-Item -ItemType Directory -Path $CorePath | Out-Null }
 
 if (Test-Path $SourcePlantilla) {
-    $TargetPlantilla = Join-Path $CorePath "AG_Plantilla"
-    Write-Host "Moving AG_Plantilla --> 00_CORE" -ForegroundColor Yellow
+    $TargetPlantilla = Join-Path $CorePath "G_Plantilla"
+    Write-Host "Moving G_Plantilla --> 00_CORE" -ForegroundColor Yellow
     try {
         Move-Item -Path $SourcePlantilla -Destination $TargetPlantilla -Force
     } catch {
-        Write-Host "Failed to move AG_Plantilla. Error: $_" -ForegroundColor Red
+        Write-Host "Failed to move G_Plantilla. Error: $_" -ForegroundColor Red
     }
 }
 

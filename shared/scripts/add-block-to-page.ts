@@ -243,7 +243,8 @@ async function addBlockToPage(pageId: number, collectionName: string, blockType:
         });
 
     } catch (error: unknown) {
-        log(`\n❌ Error: ${error.response?.data?.errors?.[0]?.message || (error instanceof Error ? error.message : String(error))}`, 'red');
+        const axiosErr = error as { response?: { data?: { errors?: { message?: string }[] } } };
+        log(`\n❌ Error: ${axiosErr.response?.data?.errors?.[0]?.message || (error instanceof Error ? error.message : String(error))}`, 'red');
         logAction('BLOCK_ADD_ERROR', { pageId, collectionName, error: (error instanceof Error ? error.message : String(error)) });
     }
 }

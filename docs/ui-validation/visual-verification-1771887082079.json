@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-02-23T22:51:22.079Z",
+  "summary": {
+    "passed": 0,
+    "empty": 1,
+    "failed": 0,
+    "totalErrors": 1
+  },
+  "results": [
+    {
+      "routeId": 349130662412288,
+      "title": "Entrega de Turno",
+      "url": "https://mira.hospitaldeovalle.cl/admin/et_menu_e6x6mzcyg5wb4k",
+      "loaded": true,
+      "hasContent": false,
+      "consoleErrors": [
+        "Menu.SubMenu must be wrapped by GetMenuItemsContext.Provider"
+      ],
+      "networkErrors": [],
+      "screenshot": "docs\\ui-validation\\screenshots\\verify-349130662412288-Entrega_de_Turno.png",
+      "blockCount": 0,
+      "timestamp": "2026-02-23T22:51:17.861Z"
+    }
+  ]
+}

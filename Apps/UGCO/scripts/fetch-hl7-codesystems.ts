@@ -50,8 +50,8 @@ async function fetchCodeSystems() {
             fs.writeFileSync(outputPath, JSON.stringify(data, null, 2));
             console.log(`Saved: ${cs.name}.json`);
 
-        } catch (error) {
-            console.error(`Error fetching ${cs.name}:`, error.message);
+        } catch (error: unknown) {
+            console.error(`Error fetching ${cs.name}:`, error instanceof Error ? error.message : String(error));
         }
     }
 }

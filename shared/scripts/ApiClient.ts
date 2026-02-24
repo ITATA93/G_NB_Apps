@@ -5,7 +5,7 @@ import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
-import type { LogEntry, ChalkColor } from './types';
+import type { LogEntry, ChalkColor, NbApiResult } from './types';
 
 // ESM equivalent of __dirname
 const __filename = fileURLToPath(import.meta.url);
@@ -70,20 +70,21 @@ export class ApiClient {
         // Response interceptor for error handling
         this.client.interceptors.response.use(
             response => response,
-            error => {
-                if (error.response) {
-                    console.error(chalk.red(`❌ API Error: ${error.response.status} - ${JSON.stringify(error.response.data)}`));
-                } else if (error.request) {
+            (error: unknown) => {
+                const axiosErr = error as { response?: { status?: number; data?: unknown }; request?: unknown; message?: string };
+                if (axiosErr.response) {
+                    console.error(chalk.red(`❌ API Error: ${axiosErr.response.status} - ${JSON.stringify(axiosErr.response.data)}`));
+                } else if (axiosErr.request) {
                     console.error(chalk.red('❌ Network Error: No response received'));
                 } else {
-                    console.error(chalk.red(`❌ Request Error: ${error.message}`));
+                    console.error(chalk.red(`❌ Request Error: ${error instanceof Error ? error.message : String(error)}`));
                 }
                 return Promise.reject(error);
             }
         );
     }
 
-    public async get(endpoint: string, params: Record<string, unknown> = {}): Promise<unknown> {
+    public async get(endpoint: string, params: Record<string, unknown> = {}): Promise<NbApiResult> {
         const timestamp = new Date().toISOString();
         try {
             const response = await this.client.get(endpoint, { params });
@@ -110,16 +111,29 @@ export class ApiClient {
         }
     }
 
-    public async post(endpoint: string, data: Record<string, unknown>): Promise<unknown> {
+    public async post(endpoint: string, data: Record<string, unknown>): Promise<NbApiResult> {
         const timestamp = new Date().toISOString();
+        // NocoBase requires filterByTk as URL query param for :update/:destroy
+        let resolvedEndpoint = endpoint;
+        let resolvedData = data;
+        if (
+            data?.filterByTk !== undefined &&
+            !endpoint.includes('filterByTk=') &&
+            (endpoint.includes(':update') || endpoint.includes(':destroy'))
+        ) {
+            const separator = endpoint.includes('?') ? '&' : '?';
+            resolvedEndpoint = `${endpoint}${separator}filterByTk=${encodeURIComponent(String(data.filterByTk))}`;
+            const { filterByTk: _, ...rest } = data;
+            resolvedData = rest;
+        }
         try {
-            const response = await this.client.post(endpoint, data);
+            const response = await this.client.post(resolvedEndpoint, resolvedData);
             logToFile({
                 timestamp,
                 action: 'POST',
-                endpoint,
+                endpoint: resolvedEndpoint,
                 method: 'POST',
-                data: this.sanitizeData(data),
+                data: this.sanitizeData(resolvedData),
                 result: 'success'
             });
             return response.data;
@@ -128,9 +142,9 @@ export class ApiClient {
             logToFile({
                 timestamp,
                 action: 'POST',
-                endpoint,
+                endpoint: resolvedEndpoint,
                 method: 'POST',
-                data: this.sanitizeData(data),
+                data: this.sanitizeData(resolvedData),
                 error: errMsg
             });
             throw error;
@@ -147,29 +161,29 @@ export class ApiClient {
         return sanitized;
     }
 
-    public async put(endpoint: string, data: Record<string, unknown>): Promise<unknown> {
+    public async put(endpoint: string, data: Record<string, unknown>): Promise<NbApiResult> {
         try {
             const response = await this.client.put(endpoint, data);
             return response.data;
-        } catch (error) {
+        } catch (error: unknown) {
             throw error;
         }
     }
 
-    public async patch(endpoint: string, data: Record<string, unknown>): Promise<unknown> {
+    public async patch(endpoint: string, data: Record<string, unknown>): Promise<NbApiResult> {
         try {
             const response = await this.client.patch(endpoint, data);
             return response.data;
-        } catch (error) {
+        } catch (error: unknown) {
             throw error;
         }
     }
 
-    public async delete(endpoint: string, params: Record<string, unknown> = {}): Promise<unknown> {
+    public async delete(endpoint: string, params: Record<string, unknown> = {}): Promise<NbApiResult> {
         try {
             const response = await this.client.delete(endpoint, { params });
             return response.data;
-        } catch (error) {
+        } catch (error: unknown) {
             throw error;
         }
     }
@@ -182,11 +196,11 @@ export class ApiClient {
         let hasMore = true;
 
         while (hasMore) {
-            const response = (await this.get(endpoint, {
+            const response = await this.get(endpoint, {
                 ...params,
                 page,
                 pageSize
-            })) as { data?: unknown[] };
+            });
             const items = response.data || [];
             allData = allData.concat(items);
             hasMore = items.length === pageSize;

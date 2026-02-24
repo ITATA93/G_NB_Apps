@@ -34,11 +34,11 @@ function parseArgs(args: string[]): { flags: Record<string, string>, positional:
     return { flags, positional };
 }
 
-function printTree(departments: unknown[], parentId: number | null = null, indent = '') {
-    const children = departments.filter((d: Record<string, unknown>) => (d.parentId || null) === parentId);
+function printTree(departments: Record<string, unknown>[], parentId: number | null = null, indent = '') {
+    const children = departments.filter((d) => (d.parentId || null) === parentId);
     for (const dept of children) {
         log(`${indent}  [${dept.id}] ${dept.title || dept.name || 'Sin nombre'}`, 'white');
-        printTree(departments, dept.id, indent + '    ');
+        printTree(departments, dept.id as number, indent + '    ');
     }
 }
 

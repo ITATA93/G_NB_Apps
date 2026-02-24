@@ -9,7 +9,7 @@ Memory enables continuity between sessions and cross-agent knowledge sharing.
 ## Memory Entries
 
 ### 2026-02-17 — Session: Security Audit & Ecosystem Remediation
-- **Session**: Full security audit + remediation of AG_Plantilla + 5 AG projects
+- **Session**: Full security audit + remediation of G_Plantilla + 5 AG projects
 - **Key learnings**:
   - Identified 13 security findings across ecosystem (5C, 4H, 4M)
   - `dev-secret-key` pattern inherited by all template-derived projects
@@ -18,7 +18,7 @@ Memory enables continuity between sessions and cross-agent knowledge sharing.
 - **Decisions made**:
   - Production validator pattern: `model_validator` rejects placeholder API keys
   - Prompt injection mitigation via `<user_task>` delimiters in dispatch scripts
-  - AG_Consultas migration scripts accepted (purpose-built cleanup tools)
+  - G_Consultas migration scripts accepted (purpose-built cleanup tools)
   - MCP filesystem server scoped to project root only
 - **Files touched**: 15 files across 6 projects
 

@@ -58,7 +58,7 @@ if (!$team) {
     Write-Err "Team '$TeamName' not found in manifest"
     Write-Host ""
     Write-Host "Available teams:"
-    if ($teams) { $teams.PSObject.Properties | ForEach-Object { Write-Host "  - $($_.Name) ($($_.Value.mode // $_.Value.execution) execution)" } }
+    if ($teams) { $teams.PSObject.Properties | ForEach-Object { $m = if ($_.Value.mode) { $_.Value.mode } else { $_.Value.execution }; Write-Host "  - $($_.Name) ($m execution)" } }
     exit 1
 }
 

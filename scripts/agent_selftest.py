@@ -16,11 +16,25 @@ import json
 import sys
 from pathlib import Path
 
-# -- Configuration -------------------------------------------------------------
+# Fix Windows console encoding for emoji output
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
 
-REPO_ROOT = Path(r"C:\_Repositorio")
+# -- Configuration (env-aware) ------------------------------------------------
+
+try:
+    from env_resolver import get_repo_root, get_plantilla_dir
+    REPO_ROOT = get_repo_root()
+    PLANTILLA_DIR = get_plantilla_dir()
+except ImportError:
+    REPO_ROOT = Path(r"C:\_Repositorio")
+    PLANTILLA_DIR = REPO_ROOT / "G_Plantilla"
+
 PROJECTS_DIR = REPO_ROOT / "AG_Proyectos"
-PLANTILLA_DIR = REPO_ROOT / "AG_Plantilla"
 REGISTRY_PATH = PLANTILLA_DIR / "config" / "project_registry.json"
 
 
@@ -30,9 +44,9 @@ REGISTRY_PATH = PLANTILLA_DIR / "config" / "project_registry.json"
 def get_projects(filter_name: str | None = None) -> list[tuple[str, Path]]:
     """Return AG projects, optionally filtered."""
     projects = []
-    if not filter_name or filter_name == "AG_Plantilla":
+    if not filter_name or filter_name == "G_Plantilla":
         if PLANTILLA_DIR.is_dir():
-            projects.append(("AG_Plantilla", PLANTILLA_DIR))
+            projects.append(("G_Plantilla", PLANTILLA_DIR))
     if PROJECTS_DIR.is_dir():
         for d in sorted(PROJECTS_DIR.iterdir()):
             if not d.is_dir() or not d.name.startswith("AG_"):

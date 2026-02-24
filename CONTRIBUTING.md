@@ -1,6 +1,11 @@
-# Guía de Contribución - AG_NB_Apps
+---
+depends_on: [CLAUDE.md, docs/standards/output_governance.md]
+impacts: []
+---
 
-Gracias por contribuir al proyecto AG_NB_Apps (MIRA - Hospital de Ovalle). Esta guía te ayudará a mantener la calidad y consistencia del código.
+# Guía de Contribución - G_NB_Apps
+
+Gracias por contribuir al proyecto G_NB_Apps (MIRA - Hospital de Ovalle). Esta guía te ayudará a mantener la calidad y consistencia del código.
 
 ## Tabla de Contenidos
 
@@ -30,7 +35,7 @@ Gracias por contribuir al proyecto AG_NB_Apps (MIRA - Hospital de Ovalle). Esta 
 ```bash
 # Clonar el repositorio
 git clone <url-del-repositorio>
-cd AG_NB_Apps
+cd G_NB_Apps
 
 # Configurar variables de entorno
 cp .env.example .env
@@ -267,7 +272,7 @@ Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>"
 ### Organización de Carpetas
 
 ```
-AG_NB_Apps/
+G_NB_Apps/
 ├── .agent/                # Configuración de agentes (rules, skills, workflows)
 ├── .claude/               # Configuración Claude Code (skills, hooks)
 ├── app-spec/              # Blueprint (source of truth)

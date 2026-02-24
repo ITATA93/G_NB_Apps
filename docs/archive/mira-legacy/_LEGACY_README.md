@@ -4,7 +4,7 @@
 
 ## ¿Qué es esto?
 
-Este directorio contiene la estructura original del proyecto antes de la migración a `AG_NB_Apps`.
+Este directorio contiene la estructura original del proyecto antes de la migración a `G_NB_Apps`.
 Fue mantenido como referencia pero **no debe usarse para desarrollo activo**.
 
 ## Contenido

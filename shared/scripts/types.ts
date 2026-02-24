@@ -29,6 +29,15 @@ export interface ApiListResponse<T = Record<string, unknown>> {
   };
 }
 
+/**
+ * Flexible NocoBase API result type returned by ApiClient methods.
+ * Uses Record<string, unknown> with index signature to allow property access
+ * on the response envelope (data, meta) and nested objects.
+ * Callers should cast `result.data` to the expected type when needed.
+ */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export type NbApiResult = Record<string, any>;
+
 // ─── NocoBase Entity Types ─────────────────────────────────────────
 
 /** NocoBase Collection definition */

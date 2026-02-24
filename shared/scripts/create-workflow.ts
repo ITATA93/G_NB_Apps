@@ -58,6 +58,7 @@ interface NodeConfig {
 
 // Generar assignFormSchema para que las variables funcionen
 function generateAssignFormSchema(collection: string, fields: string[]): Record<string, unknown> {
+    const schemaProperties: Record<string, unknown> = {};
     const schema: Record<string, unknown> = {
         name: uid(),
         type: 'void',
@@ -65,13 +66,13 @@ function generateAssignFormSchema(collection: string, fields: string[]): Record<
         'x-component': 'Grid',
         'x-initializer': 'assignFieldValuesForm:configureFields',
         '_isJSONSchemaObject': true,
-        properties: {}
+        properties: schemaProperties
     };
 
     for (const field of fields) {
         const rowId = uid();
         const colId = uid();
-        schema.properties[rowId] = {
+        schemaProperties[rowId] = {
             name: rowId,
             type: 'void',
             version: '2.0',
@@ -158,27 +159,29 @@ async function createWorkflow(config: WorkflowConfig): Promise<number> {
         if (nodeConfig.type === 'create' || nodeConfig.type === 'update') {
             const fields = Object.keys(nodeConfig.values || {});
 
-            nodeData.config = {
-                collection: nodeConfig.collection,
-                params: {
-                    values: nodeConfig.values || {},
-                    individualHooks: false
-                },
-                assignFormSchema: generateAssignFormSchema(nodeConfig.collection!, fields),
-                usingAssignFormSchema: true
+            const nodeParams: Record<string, unknown> = {
+                values: nodeConfig.values || {},
+                individualHooks: false
             };
 
             if (nodeConfig.type === 'update' && nodeConfig.filter) {
                 // Convertir filtro simple a formato NocoBase con $and
                 const filterEntries = Object.entries(nodeConfig.filter);
                 if (filterEntries.length > 0) {
-                    nodeData.config.params.filter = {
+                    nodeParams.filter = {
                         $and: filterEntries.map(([key, value]) => ({
                             [key]: { $eq: value }
                         }))
                     };
                 }
             }
+
+            nodeData.config = {
+                collection: nodeConfig.collection,
+                params: nodeParams,
+                assignFormSchema: generateAssignFormSchema(nodeConfig.collection!, fields),
+                usingAssignFormSchema: true
+            };
         } else if (nodeConfig.type === 'query') {
             nodeData.config = {
                 collection: nodeConfig.collection,

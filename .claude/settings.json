@@ -1,10 +1,11 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "project": {
-    "name": "NB_Apps - MIRA Hospital Ovalle",
-    "description": "Plataforma NocoBase para gestión clínica (UGCO, BUHO)",
+    "name": "G_NB_Apps",
+    "description": "Aplicaciones NocoBase para gestion clinica — MIRA, Agenda, Oncologia",
+    "domain": "02_HOSPITAL_PUBLICO",
     "type": "nocobase-platform",
-    "workspace": "c:\\Proyectos\\NB_Apps"
+    "workspace": "c:\\_Gen_OS\\G_NB_Apps"
   },
 
   "ai": {
@@ -42,16 +43,6 @@
     }
   },
 
-  "hooks": {
-    "enabled": true,
-    "path": ".claude/hooks",
-    "on_startup": "startup.sh",
-    "on_file_change": "file_change.sh",
-    "on_error": "error.sh",
-    "on_api_call": "api_call.sh",
-    "on_task_complete": "task_complete.sh"
-  },
-
   "skills": {
     "enabled": true,
     "path": ".claude/skills",
@@ -71,7 +62,8 @@
       "nocobase-page-create",
       "nocobase-page-delete",
       "nocobase-page-verify",
-      "nocobase-system"
+      "nocobase-system",
+      "nocobase-api-management"
     ]
   },
 
@@ -103,7 +95,10 @@
       "Bash(git diff:*)",
       "Bash(git log:*)",
       "Bash(npm install)",
+      "Bash(npm run lint)",
+      "Bash(npm test)",
       "Bash(npx tsx:*)",
+      "Bash(npx vitest:*)",
       "Read(*)",
       "Write(docs/*)",
       "Write(*.md)",
@@ -118,14 +113,9 @@
       "scripts_shared": "shared/scripts",
       "scripts_python": "shared/python",
       "docs": "docs",
-      "specs": "docs/specs"
-    },
-    "file_associations": {
-      "*.yaml": "blueprint",
-      "*.md": "documentation",
-      "*.ts": "typescript",
-      "*.js": "javascript",
-      "*.py": "python"
+      "specs": "docs/specs",
+      "audit": "docs/audit",
+      "standards": "docs/standards"
     }
   },
 
@@ -141,11 +131,5 @@
       "build": false,
       "security_scan": true
     }
-  },
-
-  "experimental": {
-    "auto_documentation": true,
-    "smart_context": true,
-    "proactive_suggestions": false
   }
 }

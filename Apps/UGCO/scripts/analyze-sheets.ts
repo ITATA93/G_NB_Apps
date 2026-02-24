@@ -31,8 +31,8 @@ async function analyzeSheets() {
                 const rowCount = worksheet.rowCount;
                 console.log(`  - ${worksheet.name} (~${rowCount} rows)`);
             });
-        } catch (error) {
-            console.error(`Error reading ${file}:`, error);
+        } catch (error: unknown) {
+            console.error(`Error reading ${file}:`, error instanceof Error ? error.message : String(error));
         }
     }
 }

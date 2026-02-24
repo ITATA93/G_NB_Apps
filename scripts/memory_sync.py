@@ -19,11 +19,17 @@ import re
 from datetime import datetime
 from pathlib import Path
 
-# -- Configuration -------------------------------------------------------------
+# -- Configuration (env-aware) ------------------------------------------------
 
-REPO_ROOT = Path(r"C:\_Repositorio")
+try:
+    from env_resolver import get_repo_root, get_plantilla_dir
+    REPO_ROOT = get_repo_root()
+    PLANTILLA_DIR = get_plantilla_dir()
+except ImportError:
+    REPO_ROOT = Path(r"C:\_Repositorio")
+    PLANTILLA_DIR = REPO_ROOT / "G_Plantilla"
+
 PROJECTS_DIR = REPO_ROOT / "AG_Proyectos"
-PLANTILLA_DIR = REPO_ROOT / "AG_Plantilla"
 
 BRAIN_PATH = PLANTILLA_DIR / ".gemini" / "brain"
 EPISODES_PATH = BRAIN_PATH / "episodes"
@@ -35,7 +41,7 @@ DASHBOARD_PATH = PLANTILLA_DIR / "docs" / "ecosystem-status.md"
 
 def get_all_projects() -> list[tuple[str, Path]]:
     """Return all AG projects as (name, path) tuples."""
-    projects = [("AG_Plantilla", PLANTILLA_DIR)]
+    projects = [("G_Plantilla", PLANTILLA_DIR)]
     if PROJECTS_DIR.is_dir():
         for d in sorted(PROJECTS_DIR.iterdir()):
             if d.is_dir() and d.name.startswith("AG_"):

@@ -193,7 +193,7 @@ async function backupStatus() {
         });
         const plugins = pluginResponse.data || [];
         const backupPlugin = plugins.find((p: Record<string, unknown>) =>
-            p.name?.includes('backup') || p.packageName?.includes('backup')
+            String(p.name || '').includes('backup') || String(p.packageName || '').includes('backup')
         );
 
         if (backupPlugin) {

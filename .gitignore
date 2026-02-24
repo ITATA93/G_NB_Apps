@@ -58,6 +58,9 @@ nul
 docs/debug/*.txt
 docs/e2e-failure.png
 
+# App backups (large, not for version control)
+Apps/UGCO/backups/
+
 # ESLint cache
 .eslintcache
 

@@ -38,7 +38,7 @@ async function main() {
     try {
         await client.get('/auth:check');
         log('✓ Conexión exitosa\n', 'green');
-    } catch (e) {
+    } catch (_e: unknown) {
         log('✗ No se pudo conectar a NocoBase', 'red');
         return;
     }

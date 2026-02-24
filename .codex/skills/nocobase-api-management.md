@@ -4,7 +4,7 @@
 
 ## Context
 
-This project (AG_NB_Apps) manages NocoBase applications for Hospital de Ovalle.
+This project (G_NB_Apps) manages NocoBase applications for Hospital de Ovalle.
 The primary interface is the NocoBase REST API authenticated via Bearer token.
 
 ## Before Starting

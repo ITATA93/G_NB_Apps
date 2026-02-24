@@ -126,7 +126,7 @@ def get_projects_dirs() -> list[Path]:
 
 
 def get_plantilla_dir() -> Path:
-    """Return the AG_Plantilla directory for the current environment."""
+    """Return the G_Plantilla directory for the current environment."""
     _, env_cfg = detect_environment()
     return Path(env_cfg["base_path"]) / env_cfg["plantilla_dir"]
 
@@ -175,7 +175,7 @@ def register_environment(env_id: str, base_path: str, description: str = "") -> 
     envs[env_id] = {
         "base_path": base_path,
         "projects_dir": "AG_Proyectos",
-        "plantilla_dir": "AG_Plantilla",
+        "plantilla_dir": "G_Plantilla",
         "capabilities": ["git", "python"],
         "description": description or f"Environment on {base_path}",
     }

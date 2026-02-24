@@ -2,11 +2,11 @@
 .SYNOPSIS
     Antigravity Ecosystem Migrator
 .DESCRIPTION
-    Migrates the flat workspace (W:\G_Plantilla, W:\AG_Proyectos) into the
+    Migrates the flat workspace (W:\G_Plantilla, W:\G_Proyectos) into the
     Star Topology domain architecture (W:\Antigravity_OS).
 #>
 
-$SourceRoot = "W:\AG_Proyectos" # Where most projects currently live
+$SourceRoot = "W:\G_Proyectos" # Where most projects currently live
 $SourcePlantilla = "W:\G_Plantilla"
 $TargetRoot = "W:\Antigravity_OS"
 
@@ -15,22 +15,22 @@ Write-Host "Initializing Antigravity Domain Migration..." -ForegroundColor Cyan
 # Define the dictionary of movement
 $MigrationMap = @{
     "00_CORE" = @(
-        "AG_Notebook",
-        "AG_SV_Agent"
+        "G_Notebook",
+        "G_SV_Agent"
     )
     "01_HOSPITAL_PRIVADO" = @(
-        "AG_Analizador_RCE",
+        "G_Analizador_RCE",
         "G_Consultas",
-        "AG_DeepResearch_Salud_Chile",
-        "AG_Hospital",
-        "AG_Hospital_Organizador",
-        "AG_Informatica_Medica",
-        "AG_Lists_Agent",
-        "AG_TrakCare_Explorer"
+        "G_DeepResearch_Salud_Chile",
+        "G_Hospital",
+        "G_Hospital_Organizador",
+        "G_Informatica_Medica",
+        "G_Lists_Agent",
+        "G_TrakCare_Explorer"
     )
     "02_HOSPITAL_PUBLICO" = @(
         "G_NB_Apps",
-        "AG_SD_Plantilla"
+        "G_SD_Plantilla"
     )
 }
 

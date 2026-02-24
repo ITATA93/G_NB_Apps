@@ -29,7 +29,7 @@ except ImportError:
     REPO_ROOT = Path(r"C:\_Repositorio")
     PLANTILLA_DIR = REPO_ROOT / "G_Plantilla"
 
-PROJECTS_DIR = REPO_ROOT / "AG_Proyectos"
+PROJECTS_DIR = REPO_ROOT / "G_Proyectos"
 
 BRAIN_PATH = PLANTILLA_DIR / ".gemini" / "brain"
 EPISODES_PATH = BRAIN_PATH / "episodes"
@@ -44,7 +44,7 @@ def get_all_projects() -> list[tuple[str, Path]]:
     projects = [("G_Plantilla", PLANTILLA_DIR)]
     if PROJECTS_DIR.is_dir():
         for d in sorted(PROJECTS_DIR.iterdir()):
-            if d.is_dir() and d.name.startswith("AG_"):
+            if d.is_dir() and d.name.startswith("G_"):
                 projects.append((d.name, d))
     return projects
 

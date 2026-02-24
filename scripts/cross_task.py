@@ -38,12 +38,12 @@ except ImportError:
     PLANTILLA_DIR = REPO_ROOT / "G_Plantilla"
 
     def get_projects_dirs():
-        return [REPO_ROOT / "AG_Proyectos"]
+        return [REPO_ROOT / "G_Proyectos"]
 
     def list_ag_projects():
         d = get_projects_dirs()[0]
         return (
-            sorted([p for p in d.iterdir() if p.is_dir() and p.name.startswith("AG_")])
+            sorted([p for p in d.iterdir() if p.is_dir() and p.name.startswith("G_")])
             if d.exists()
             else []
         )
@@ -719,7 +719,7 @@ Examples:
   %(prog)s create --from G_NB_Apps --to G_Consultas --title "Create census query" --description "..."
   %(prog)s list --project G_Consultas --status pending
   %(prog)s update TASK-2026-0001 --status done --notes "Query delivered"
-  %(prog)s check AG_Hospital
+  %(prog)s check G_Hospital
   %(prog)s stale
   %(prog)s dashboard
 """,
@@ -764,13 +764,13 @@ Examples:
     p_normalize = sub.add_parser(
         "normalize", help="Generate normalization checklist as tasks for a project"
     )
-    p_normalize.add_argument("project", help="Target project name (e.g., AG_MyProject)")
+    p_normalize.add_argument("project", help="Target project name (e.g., G_MyProject)")
 
     # check (NEW)
     p_check = sub.add_parser(
         "check", help="Show pending tasks for a project (local + incoming)"
     )
-    p_check.add_argument("project", help="Project name (e.g., AG_Hospital)")
+    p_check.add_argument("project", help="Project name (e.g., G_Hospital)")
 
     # stale (NEW)
     p_stale = sub.add_parser("stale", help="Detect PENDING tasks older than N days")

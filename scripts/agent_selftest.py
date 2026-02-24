@@ -8,7 +8,7 @@ Checks dispatch scripts, sub-agent manifests, workflows, memory, and session pro
 
 Usage:
     python scripts/agent_selftest.py                    # Full ecosystem test
-    python scripts/agent_selftest.py --project AG_Hospital  # Single project
+    python scripts/agent_selftest.py --project G_Hospital  # Single project
 """
 
 import argparse
@@ -34,7 +34,7 @@ except ImportError:
     REPO_ROOT = Path(r"C:\_Repositorio")
     PLANTILLA_DIR = REPO_ROOT / "G_Plantilla"
 
-PROJECTS_DIR = REPO_ROOT / "AG_Proyectos"
+PROJECTS_DIR = REPO_ROOT / "G_Proyectos"
 REGISTRY_PATH = PLANTILLA_DIR / "config" / "project_registry.json"
 
 
@@ -49,7 +49,7 @@ def get_projects(filter_name: str | None = None) -> list[tuple[str, Path]]:
             projects.append(("G_Plantilla", PLANTILLA_DIR))
     if PROJECTS_DIR.is_dir():
         for d in sorted(PROJECTS_DIR.iterdir()):
-            if not d.is_dir() or not d.name.startswith("AG_"):
+            if not d.is_dir() or not d.name.startswith("G_"):
                 continue
             if filter_name and d.name != filter_name:
                 continue

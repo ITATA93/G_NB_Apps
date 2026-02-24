@@ -139,7 +139,7 @@ if (Test-Path $envFile) {
         if (-not $DryRun) {
             $newEnv = @{
                 base_path     = $BasePath
-                projects_dir  = "AG_Proyectos"
+                projects_dir  = "G_Proyectos"
                 plantilla_dir = "G_Plantilla"
                 capabilities  = @("git", "python")
                 description   = "Registered $(Get-Date -Format 'yyyy-MM-dd')"
@@ -293,9 +293,9 @@ if ((Test-Path $dashboard) -and -not $DryRun) {
     if ($ghOk)  { Write-Host "    gh:     OK" -ForegroundColor Green } else { Write-Host "    gh:     FALTA" -ForegroundColor Red }
 
     $projCount = 0
-    $projDir = "$BasePath\AG_Proyectos"
+    $projDir = "$BasePath\G_Proyectos"
     if (Test-Path $projDir) {
-        $projCount = @(Get-ChildItem $projDir -Directory | Where-Object { $_.Name -match "^AG_" }).Count
+        $projCount = @(Get-ChildItem $projDir -Directory | Where-Object { $_.Name -match "^G_" }).Count
     }
     Write-Host "    Proyectos: $projCount" -ForegroundColor Green
 }

@@ -152,7 +152,7 @@ def main():
         if env_id not in envs:
             envs[env_id] = {
                 "base_path": str(base),
-                "projects_dir": "AG_Proyectos",
+                "projects_dir": "G_Proyectos",
                 "plantilla_dir": "G_Plantilla",
                 "capabilities": ["git", "python"],
             }
@@ -271,9 +271,9 @@ def main():
             else:
                 err(name)
 
-        proj_dir = base / "AG_Proyectos"
+        proj_dir = base / "G_Proyectos"
         if proj_dir.exists():
-            count = len([d for d in proj_dir.iterdir() if d.is_dir() and d.name.startswith("AG_")])
+            count = len([d for d in proj_dir.iterdir() if d.is_dir() and d.name.startswith("G_")])
             ok(f"Proyectos: {count}")
 
     # Done

@@ -15,19 +15,12 @@
  *   tsx Apps/UGCO/scripts/nocobase/deploy-ugco-schema-mira.ts --phase 1   # solo REF
  */
 
-import axios, { AxiosInstance } from 'axios';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
+import { createClient, type ApiClient } from '../../../../shared/scripts/ApiClient';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-// ─── Configuración MIRA ─────────────────────────────────────────────────────
-
-const MIRA_CONFIG = {
-    baseURL: 'https://mira.hospitaldeovalle.cl/api',
-    apiKey: process.env.NOCOBASE_API_KEY || '',
-};
 
 // ─── Helpers para definir campos ────────────────────────────────────────────
 
@@ -662,19 +655,8 @@ const PHASE_4_UGCO_SEC: any[] = [
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════
-// Cliente y ejecución
+// Cliente y ejecución (usa ApiClient compartido con auth verificada)
 // ═══════════════════════════════════════════════════════════════════════════
-
-function createMiraClient(): AxiosInstance {
-    return axios.create({
-        baseURL: MIRA_CONFIG.baseURL,
-        headers: {
-            'Authorization': `Bearer ${MIRA_CONFIG.apiKey}`,
-            'Content-Type': 'application/json',
-        },
-        timeout: 30000,
-    });
-}
 
 function log(msg: string, color: string = 'white') {
     const colors: Record<string, string> = {
@@ -700,7 +682,7 @@ const PHASES: Record<string, PhaseConfig> = {
     '4': { label: 'UGCO Secundarias', collections: PHASE_4_UGCO_SEC },
 };
 
-async function createCollection(client: AxiosInstance, col: any, dryRun: boolean): Promise<boolean> {
+async function deployCollection(apiClient: ApiClient, col: any, dryRun: boolean): Promise<boolean> {
     const transformed = transformCollection(col);
     const fieldCount = transformed.fields.length;
     const relCount = transformed.fields.filter((f: any) => f.type === 'belongsTo').length;
@@ -711,7 +693,7 @@ async function createCollection(client: AxiosInstance, col: any, dryRun: boolean
     }
 
     try {
-        await client.post('/collections:create', {
+        await apiClient.post('/collections:create', {
             name: transformed.name,
             title: transformed.title,
             fields: transformed.fields,
@@ -729,14 +711,14 @@ async function createCollection(client: AxiosInstance, col: any, dryRun: boolean
     }
 }
 
-async function createPhase(client: AxiosInstance, phaseKey: string, dryRun: boolean): Promise<{ ok: number; fail: number }> {
+async function deployPhase(apiClient: ApiClient, phaseKey: string, dryRun: boolean): Promise<{ ok: number; fail: number }> {
     const phase = PHASES[phaseKey];
     log(`\n══ Fase ${phaseKey}: ${phase.label} (${phase.collections.length} colecciones) ══\n`, 'cyan');
 
     let ok = 0;
     let fail = 0;
     for (const col of phase.collections) {
-        const success = await createCollection(client, col, dryRun);
+        const success = await deployCollection(apiClient, col, dryRun);
         if (success) ok++;
         else fail++;
     }
@@ -757,19 +739,18 @@ async function main() {
     log('║  Hospital Dr. Antonio Tirado Lanas de Ovalle                      ║', 'cyan');
     log('╚════════════════════════════════════════════════════════════════════╝', 'cyan');
 
-    log(`\n  Servidor: ${MIRA_CONFIG.baseURL}`, 'gray');
+    const apiClient = createClient();
+    log(`\n  Servidor: ${apiClient.getBaseUrl()}`, 'gray');
     log(`  Colecciones: ${totalCollections} (con prefijo UGCO_)`, 'gray');
 
     if (dryRun) {
         log('\n  [!] Modo DRY-RUN: no se crearán colecciones\n', 'yellow');
     }
 
-    const client = createMiraClient();
-
     // Verificar conexión
     log('\n  Verificando conexión...', 'gray');
     try {
-        await client.get('/app:getLang');
+        await apiClient.get('/collections:list', { pageSize: 1 });
         log('  [OK] Conexión establecida\n', 'green');
     } catch (error: any) {
         log(`\n  [ERROR] No se puede conectar a MIRA: ${error.message}`, 'red');
@@ -785,7 +766,7 @@ async function main() {
             log(`[ERROR] Fase desconocida: ${pk}. Usa 1, 2, 3 o 4.`, 'red');
             process.exit(1);
         }
-        const { ok, fail } = await createPhase(client, pk, dryRun);
+        const { ok, fail } = await deployPhase(apiClient, pk, dryRun);
         totalOk += ok;
         totalFail += fail;
     }

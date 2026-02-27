@@ -99,6 +99,16 @@
       "agents": ["deployer", "visual-verifier"],
       "mode": "sequential",
       "use_case": "Deploy pages/routes via API then verify they render correctly in the browser"
+    },
+    "clinical-consensus": {
+      "agents": ["researcher", "code-analyst", "db-analyst", "ui-designer", "code-reviewer"],
+      "mode": "sequential",
+      "use_case": "Clinical expert consensus panel: needs analysis → clinical validation → health informatics → clinical UX → technical synthesis"
+    },
+    "clinical-app-pipeline": {
+      "agents": ["researcher", "code-analyst", "db-analyst", "ui-designer", "code-reviewer", "deployer", "visual-verifier"],
+      "mode": "sequential",
+      "use_case": "Full clinical app generation: consensus panel → HITL → NocoBase spec → deploy → verify"
     }
   },
   "agents": [

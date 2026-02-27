@@ -6,7 +6,7 @@ const client = createClient();
 
 async function main() {
   log('\n══════════════════════════════════════════════', 'cyan');
-  log('        AG_NB_Apps — FULL PROJECT AUDIT', 'cyan');
+  log('        G_NB_Apps — FULL PROJECT AUDIT', 'cyan');
   log('══════════════════════════════════════════════\n', 'cyan');
 
   // 1. CONNECTIVITY

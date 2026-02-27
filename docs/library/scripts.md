@@ -7,7 +7,7 @@ impacts: [CLAUDE.md]
 
 All automation scripts must be registered here per governance rule #2.
 
-**Total: 261 entries** across 16 directories (excluding test files, types.ts, node_modules, and README.md).
+**Total: 271 entries** across 16 directories (excluding test files, types.ts, node_modules, and README.md).
 Some scripts are cross-listed (cross-platform pairs and duplicate Python files across directories).
 
 ---
@@ -139,6 +139,7 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | manage-users.ts | TypeScript | CRUD of NocoBase users (list, get, create, update, delete, role assignments) |
 | manage-verification.ts | TypeScript | Management of NocoBase verification providers via verification plugin |
 | manage-workflows.ts | TypeScript | Management of NocoBase workflows (list, get, nodes, enable, disable, trigger, create, delete) |
+| nocobase-ui-helpers.ts | TypeScript | Shared helpers for NocoBase UI schema generation (uid, buildTableBlock, wrapInRow, createPage, findGridUid) |
 | probe-nb-internals.ts | TypeScript | Maps NocoBase internal database tables and relations (routes, schemas, blocks, menus, roles) |
 | probe-ui-api.ts | TypeScript | Systematically explores and documents all NocoBase UI API endpoints |
 | seed-agenda-data.ts | TypeScript | Seeds AGENDA catalog data (categories, activity types) from hardcoded definitions |
@@ -238,6 +239,15 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | unify-duplicate-tables.ts | TypeScript | Identifies and unifies duplicate UGCO tables (ALMA\_Sexo + ref\_sexobiologico, etc.) |
 | update-relationships.ts | TypeScript | Updates belongsTo relations to point to new UGCO\_ prefixed tables |
 | verify-fix-pages.ts | TypeScript | Verifies and optionally repairs NocoBase pages under UGCO |
+| configure-ugco-permissions.ts | TypeScript | Creates UGCO roles (medico, enfermera, coordinador) and grants menu access via ACL API |
+| create-ugco-workflows.ts | TypeScript | Creates 4 UGCO workflows: auto-code, log status, committee task, daily overdue check |
+| deploy-ugco-dashboard.ts | TypeScript | Deploys Dashboard blocks (5 rows: header, cases+tasks, committees+events, charts, contacts) using shared helpers |
+| deploy-ugco-improve.ts | TypeScript | Adds missing fields & expands enums across 5 collections (idempotent, supports --dry-run) |
+| deploy-ugco-remaining.ts | TypeScript | Deploys remaining UGCO collections not covered by schema-mira (secondary tables) |
+| deploy-ugco-reportes.ts | TypeScript | Deploys Reportes page blocks (3 rows: cases, events+tasks, committees) with export buttons |
+| deploy-ugco-ui-full.ts | TypeScript | Full UI deployment for UGCO — all pages, menus, and blocks in a single run |
+| rebuild-ugco-pages.ts | TypeScript | Rebuilds all 19 UGCO pages + 2 groups using correct desktopRoutes+uiSchemas pattern |
+| seed-ugco-refs-v2.ts | TypeScript | Seeds 95 reference records across 12 UGCO catalogs (ECOG, TNM, estados, FIGO, tipos) |
 | verify-page.ts | TypeScript | Verifies a single NocoBase page structure (route, schema, menu) |
 | verify-pages.ts | TypeScript | Verifies multiple NocoBase pages structure and accessibility |
 
@@ -381,13 +391,13 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | scripts/ | 40 | Ecosystem automation (13 TS + 16 PY + 8 PS1 + 3 SH) |
 | scripts/setup/ | 6 | Bootstrap and health checks |
 | scripts/temp/ | 6 | Temporary ecosystem utilities (PY) |
-| shared/scripts/ | 53 | NocoBase API client and management (TS) |
+| shared/scripts/ | 54 | NocoBase API client and management (TS) |
 | shared/scripts/temp/ | 13 | Temporary deployment and debug scripts (TS) |
 | shared/python/ | 4 | NocoBase Python API tools |
 | Apps/AGENDA/scripts/ | 1 | AGENDA module scripts |
 | Apps/ENTREGA/scripts/ | 3 | ENTREGA module scripts |
 | Apps/BUHO/backend/scripts/ | 3 | BUHO module scripts |
-| Apps/UGCO/scripts/ | 31 | UGCO module scripts (9 top-level + 22 nocobase/) |
+| Apps/UGCO/scripts/ | 40 | UGCO module scripts (9 top-level + 31 nocobase/) |
 | Apps/UGCO/scripts-archive/ | 82 | UGCO archived iterations (read-only) |
 | Apps/\_APP\_TEMPLATE/scripts/ | 5 | App template starters |
 | .claude/hooks/ | 5 | Claude Code agent hooks |
@@ -396,4 +406,4 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 > **Note:** Some scripts are cross-listed in multiple sections (cross-platform pairs like `safe-write.sh`/`safe-write.ps1`,
 > and `scripts/nocobase_*.py` duplicates of `shared/python/nocobase_*.py`).
 >
-> Last updated: 2026-02-23
+> Last updated: 2026-02-26

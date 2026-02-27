@@ -1,5 +1,5 @@
 {
-  "name": "ag-nb-apps",
+  "name": "g-nb-apps",
   "version": "2.4.0",
   "description": "MIRA es una **instancia personalizada de NocoBase** para el Hospital de Ovalle, diseñada para alojar múltiples aplicaciones de gestión hospitalaria.",
   "main": "index.js",
@@ -9,6 +9,9 @@
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:report": "playwright show-report",
     "lint": "eslint shared/scripts/ Apps/*/scripts/",
     "lint:fix": "eslint shared/scripts/ Apps/*/scripts/ --fix",
     "format": "prettier --write \"shared/scripts/**/*.ts\" \"scripts/**/*.ts\"",
@@ -54,16 +57,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ITATA93/MIRA.git"
+    "url": "git+https://github.com/ITATA93/G_NB_Apps.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/ITATA93/MIRA/issues"
+    "url": "https://github.com/ITATA93/G_NB_Apps/issues"
   },
-  "homepage": "https://github.com/ITATA93/MIRA#readme",
+  "homepage": "https://github.com/ITATA93/G_NB_Apps#readme",
   "dependencies": {
     "@faker-js/faker": "^10.2.0",
     "axios": "^1.13.5",
@@ -79,6 +82,7 @@
     "@typescript-eslint/parser": "^8.56.0",
     "eslint": "^10.0.0",
     "eslint-config-prettier": "^10.1.8",
+    "@playwright/test": "^1.49.0",
     "playwright": "^1.58.0",
     "prettier": "^3.8.1",
     "ts-node": "^10.9.2",

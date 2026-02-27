@@ -5,6 +5,135 @@ impacts: [CHANGELOG.md]
 
 # Development Log — G_NB_Apps
 
+## 2026-02-26 (Session: UGCO Code Quality — Shared Module & Data Model Improvements)
+
+### Accomplished
+
+- **Code analysis**: Two Explore subagents analyzed all 34 UGCO scripts for quality issues
+  - Found: 8 critical bugs, 15 hardcoded values, 25+ duplicated code blocks, 6 idempotency gaps
+- **Created `shared/scripts/nocobase-ui-helpers.ts`** — eliminates code duplication across UGCO deploy scripts
+  - Exports: `uid()`, `insertIntoGrid()`, `wrapInRow()`, `buildTableBlock()`, `buildMarkdownBlock()`, `buildChartBlock()`, `createPage()`, `createGroup()`, `findGridUid()`, `findRouteByTitle()`, 7 field helpers
+  - Used by: deploy-ugco-dashboard.ts, deploy-ugco-reportes.ts, rebuild-ugco-pages.ts
+- **Created `deploy-ugco-improve.ts`** — adds 18 missing fields across 5 collections
+  - `UGCO_casooncologico`: estado_seguimiento, control_vencido, tareas_criticas_pendientes, fecha_proximo_control, especialidad_principal (belongsTo)
+  - `UGCO_comiteoncologico`: fecha_sesion, estado (select)
+  - `UGCO_comitecaso`: orden_presentacion, motivo_presentacion, decision_comite, observaciones
+  - `UGCO_tarea`: estado (select), prioridad (select)
+  - `UGCO_eventoclinico`: estado (select)
+  - `UGCO_contactopaciente`: tipo_contacto, valor_contacto, es_principal, activo
+  - Expands tipo_evento enum: +5 values (BIOPSIA, INTERCONSULTA, IMAGENOLOGIA, LABORATORIO, COMITE)
+  - Idempotent, supports --dry-run
+- **Refactored deploy-ugco-dashboard.ts** — uses shared helpers, added --discover flag for dynamic UID
+- **Refactored deploy-ugco-reportes.ts** — uses shared helpers, added --discover flag, export buttons
+- **Registered 10 scripts** in docs/library/scripts.md (total 271)
+- TypeScript compilation verified: 0 errors in new/modified files
+
+### Decisions
+
+- Shared helpers go in `shared/scripts/` (not per-app) since pattern applies to all NocoBase apps
+- `Math.random().toString(36)` for UID generation (simple, no crypto import needed)
+- Dynamic UID discovery via `--discover` flag preferred over hardcoded grid UIDs
+- Field improvements are idempotent (skip if already exists) — safe for repeated runs
+
+### Pending
+
+- Run `deploy-ugco-improve.ts` on production when server access returns
+- Re-deploy dashboard/reportes after fields are added
+- Additional issues from analysis: duplicate lateralidad code, 10+ scripts with hardcoded MIRA URL
+
+### Metrics
+
+- Files created: 2 | Files refactored: 2 | Scripts registered: 10 | Fields defined: 18 | Shared exports: 16
+
+---
+
+## 2026-02-26 (Session: UGCO Full Implementation — 8 Phases to Production)
+
+### Accomplished
+
+- **UGCO Application 100% deployed** to production (mira.hospitaldeovalle.cl)
+- **Fase 1**: Verified existing state — found 13 REF collections + 5 legacy onco_* collections pre-existing
+- **Fase 2**: Deployed 45+ collections via `deploy-ugco-schema-mira.ts` (refactored to use shared ApiClient) + `deploy-ugco-remaining.ts`
+  - 27 REF catalogs, 3 ALMA mirror, 11 UGCO core, 4 secondary tables
+  - Fixed critical auth bug: deploy script used own axios instead of shared ApiClient
+- **Fase 3**: FK relationships configured between all collections
+- **Fase 4**: Seeded 95 reference records across 12 catalogs via `seed-ugco-refs-v2.ts`
+  - ECOG 0-5, estados administrativos/clinicos, TNM T/N/M, FIGO stages, tipos actividad/documento
+- **Fase 5**: Rebuilt all 19 pages + 2 groups via `rebuild-ugco-pages.ts`
+  - Fixed wrong schema pattern: `insertAdjacent/nocobase-admin-menu` creates Menu.Item (broken), correct pattern uses `desktopRoutes:create` with children + `uiSchemas:insert` with Page+Grid
+  - 9 specialty pages with case tables, Dashboard, Tareas, Reportes, 3 Config pages
+- **Fase 6**: Created 4 workflows via `create-ugco-workflows.ts` — all enabled in production
+  - Auto-assign UGCO code, log status changes, post-committee task, daily overdue check (8AM cron)
+- **Fase 7**: Created 3 roles (medico_oncologo, enfermera_ugco, coordinador_ugco), granted menu access
+  - Collection-level ACL API returned 404 — needs manual config in NocoBase UI
+- **Fase 8**: Deployed Dashboard (5 rows: header, cases+tasks, committees+events, charts Bar+Pie, contacts+teams)
+  - Deployed Reportes page (3 rows: full cases table, events+tasks, committees+committee-cases)
+  - data-visualization plugin confirmed active (charts endpoint working)
+
+### Decisions
+
+- All scripts use shared `ApiClient` from `shared/scripts/ApiClient.ts` (centralized auth)
+- Page creation pattern: `desktopRoutes:create` with children array + `uiSchemas:insert` with Page+Grid (x-async:true)
+- UGCO_ROOT_ID: `349160760737793` (active root for Oncologia UGCO group)
+- Collection-level permissions deferred to manual UI config (API limitation in this NocoBase version)
+
+### Key Technical Findings
+
+- NocoBase Page schema requires: `Page` component → `Grid` with `x-async: true` via `uiSchemas:insert`
+- `insertAdjacent/nocobase-admin-menu` creates `Menu.Item` schemas (NOT editable pages) — avoid
+- `desktopRoutes:create` must include `children: [{ type: 'tabs', schemaUid, tabSchemaName, hidden: true }]`
+- Charts plugin `data-visualization` available and functional via `/charts:query` endpoint
+- `/roles:setResources` returns 404 — permissions API varies by NocoBase version
+
+### Metrics
+
+- Collections deployed: 45+ | Records seeded: 95 | Pages created: 19+2 groups | Workflows: 4 | Roles: 3
+- Scripts created: 8 deploy scripts | Bugs fixed: 2 (auth, schema pattern)
+
+---
+
+## 2026-02-26 (Session: Project Audit & Legacy Cleanup)
+
+### Accomplished
+
+- Full project audit: structure, governance, agents, apps, cross-references, config
+- Fixed `package.json`: name `ag-nb-apps` → `g-nb-apps`, repository/bugs/homepage URLs → `G_NB_Apps`
+- Fixed `AGENTS.md`: added missing `visual-verifier` agent and `deploy-and-verify` team (now 9 agents, 13 teams aligned with manifest.json)
+- Fixed `shared/scripts/temp/TEMP_05.ts`: legacy `AG_NB_Apps` → `G_NB_Apps`
+- Fixed `docs/TODO.md`: legacy `AG_Consultas` → `G_Consultas`
+- Fixed `CHANGELOG.md`: markdown linting (blank lines around headings, duplicate heading renamed)
+- Updated CHANGELOG.md with all fixes under [Unreleased] > Fixed
+
+### Findings
+
+- Project structure 100% aligned with CLAUDE.md (all dirs present)
+- 16/16 NocoBase skills present (18 total with extras)
+- 4 apps present (UGCO, AGENDA, BUHO, ENTREGA) + _APP_TEMPLATE
+- ~30 AG_ references found — most are historical (audit reports, devlog); 3 active ones fixed
+- 6 untracked files pending commit (clinical-consensus workflows, playwright config, e2e tests)
+- Test coverage low: only e2e/injection-validation + AGENDA tests
+
+### Metrics
+
+- Files modified: 5 | Legacy refs fixed: 4 | Lint warnings resolved: 9
+
+---
+
+## 2026-02-25 (Session: Clinical Consensus Panel & App Pipeline)
+
+### Accomplished
+- Created `clinical-consensus-panel.md` — MoE panel with 5 clinical expert roles for hospital app development
+- Created `20_clinical_app_pipeline.md` — End-to-end pipeline: consensus → HITL → NocoBase intake → spec → configure → audit
+- Added teams `clinical-consensus` and `clinical-app-pipeline` to manifest.json and AGENTS.md
+- Clinical roles: Analista de Necesidades Clinicas, Medico Experto, Informatica Medica, Usabilidad Clinica, Integrador Tecnico
+
+### Decisions
+- Reuse existing agents with clinical prompt overlays instead of creating new agents
+- Two HITL gates: after consensus approval and before app.yaml application
+- Clinical panel feeds into existing NocoBase pipeline (10→11→12→14)
+
+---
+
 ## 2026-02-23 (Session: Initial Workspace Configuration)
 
 ### Accomplished

@@ -21,7 +21,7 @@
 - [ ] Implementar workflow: sync_censo_alma (cron 30min)
 - [ ] Implementar workflow: crear_entrega_turno (user_action)
 - [ ] Implementar workflow: firmar_cerrar_entrega (both_signatures)
-- [ ] Crear script ETL sync_entrega_turno.py en AG_Consultas
+- [ ] Crear script ETL sync_entrega_turno.py en G_Consultas
 
 ### SGQ/UGCO (Mantenimiento)
 - [ ] Reconciliar FK naming convention (snake_case vs camelCase en schedule_blocks)

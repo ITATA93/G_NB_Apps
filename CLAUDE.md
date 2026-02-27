@@ -54,6 +54,7 @@ G_NB_Apps/
 | `/create-tests`    | Generate unit tests                        |
 | `/update-docs`     | Sync documentation                         |
 | `/insights-review` | Run usage insights analysis                |
+| `/clinical-consensus` | Clinical expert MoE panel (5 turns)     |
 
 ## Sub-Agents
 
@@ -70,7 +71,7 @@ Available agents: `researcher`, `code-reviewer`, `code-analyst`, `doc-writer`,
 
 Available teams: `full-review`, `feature-pipeline`, `deep-audit`, `rapid-fix`,
 `full-audit`, `code-and-review`, `research-and-document`, `adversarial-review`,
-`design-and-deploy`, `full-app-pipeline`
+`design-and-deploy`, `full-app-pipeline`, `clinical-consensus`, `clinical-app-pipeline`
 
 ## NocoBase Skills
 

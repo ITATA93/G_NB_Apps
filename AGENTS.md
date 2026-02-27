@@ -24,6 +24,7 @@ Dispatch via `.subagents/dispatch.sh` (single) or `.subagents/dispatch-team.sh` 
 | db-analyst | claude | 6 | project | database, SQL, schema, collection |
 | deployer | gemini | 7 | project | deploy, docker, CI/CD |
 | ui-designer | gemini | 8 | project | design, UI, UX, layout, dashboard, frontend |
+| visual-verifier | claude | 9 | project | verify page, visual check, screenshot, playwright |
 
 ## Teams
 
@@ -39,6 +40,9 @@ Dispatch via `.subagents/dispatch.sh` (single) or `.subagents/dispatch-team.sh` 
 | adversarial-review | code-analyst, code-reviewer | sequential | Isolated critique |
 | design-and-deploy | ui-designer, code-reviewer, deployer | sequential | Design UI → review → deploy |
 | full-app-pipeline | db-analyst, ui-designer, test-writer, code-reviewer | sequential | Schema → UI → tests → review |
+| clinical-consensus | researcher, code-analyst, db-analyst, ui-designer, code-reviewer | sequential | Clinical expert MoE: needs → clinical validation → informatics → UX → synthesis |
+| clinical-app-pipeline | researcher, code-analyst, db-analyst, ui-designer, code-reviewer, deployer, visual-verifier | sequential | Full clinical app: consensus → HITL → spec → deploy → verify |
+| deploy-and-verify | deployer, visual-verifier | sequential | Deploy pages/routes then verify they render correctly |
 
 ## Dispatch
 

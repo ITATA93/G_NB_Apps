@@ -5,6 +5,51 @@ impacts: [CHANGELOG.md]
 
 # Development Log — G_NB_Apps
 
+## 2026-03-02 (Autopilot: UGCO Full Deployment Pipeline)
+
+### Status: PARTIAL (infrastructure complete, API unreachable)
+
+### Accomplished
+
+- **deploy-ugco-full.ts**: Complete 8-phase deployment pipeline for UGCO app
+  - Phase 1: API connection verification
+  - Phase 2: Deploy 4 collections (onco_casos, onco_episodios, onco_comite_sesiones, onco_comite_casos)
+  - Phase 3: Deploy 25 fields across all collections (with select enums, dates, text)
+  - Phase 4: Deploy 7 relationships (3 belongsTo + 4 hasMany)
+  - Phase 5: Deploy 3 roles (medico_oncologo, enfermera_gestora_onco, admin_ugco) + 12 ACL grants
+  - Phase 6: Deploy UI menu group + 4 pages with TableV2 blocks (filter, create, export actions)
+  - Phase 7: Inject 21 simulated records (5 cases, 8 episodes, 3 sessions, 5 comité)
+  - Phase 8: Read-back validation with visual data preview
+- **package.json**: Added `ugco:deploy`, `ugco:deploy:dry-run`, `ugco:deploy:validate` scripts
+- **scripts.md**: Registered new script
+
+### Decisions
+
+- Idempotent design: all phases skip existing resources (safe to re-run)
+- Clinical data: simulated but realistic Chilean oncology data (RUTs, CIE-10 codes, TNM staging)
+- Roles follow UGCO README spec (Médico, Enfermera Gestora, Admin)
+- UI uses desktopRoutes + uiSchemas pattern (validated in ENTREGA/AGENDA deploys)
+
+### Blockers
+
+- `imedicine.cl` DNS does not resolve (domain non-existent)
+- No `.env` with NocoBase credentials available
+- `nocobase.hospitaldeovalle.cl` also unreachable from this machine
+- No local NocoBase instance running (localhost:13000 refused)
+
+### Metrics
+
+- Files created: 1 | Files modified: 2 | Dry-run validated: 67 operations, 0 errors
+- Branch: `autopilot/deploy-ugco-full`
+
+### Next Steps
+
+1. Create `.env` with valid NocoBase URL and API key
+2. Run: `npm run ugco:deploy` (full deploy) or `npm run ugco:deploy:dry-run` (preview)
+3. Validate: `npm run ugco:deploy:validate`
+
+---
+
 ## 2026-03-01 (Session: Resolve All 16 Pending Items — Workflows, Pages, Scripts, Cleanup)
 
 ### Accomplished

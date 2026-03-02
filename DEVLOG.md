@@ -5,48 +5,54 @@ impacts: [CHANGELOG.md]
 
 # Development Log — G_NB_Apps
 
-## 2026-03-02 (Autopilot: UGCO Full Deployment Pipeline)
+## 2026-03-02 (Autopilot: UGCO Full Deployment — COMPLETED)
 
-### Status: PARTIAL (infrastructure complete, API unreachable)
+### Status: COMPLETED (deployed + verified on mira.hospitaldeovalle.cl)
 
 ### Accomplished
 
-- **deploy-ugco-full.ts**: Complete 8-phase deployment pipeline for UGCO app
-  - Phase 1: API connection verification
-  - Phase 2: Deploy 4 collections (onco_casos, onco_episodios, onco_comite_sesiones, onco_comite_casos)
-  - Phase 3: Deploy 25 fields across all collections (with select enums, dates, text)
-  - Phase 4: Deploy 7 relationships (3 belongsTo + 4 hasMany)
-  - Phase 5: Deploy 3 roles (medico_oncologo, enfermera_gestora_onco, admin_ugco) + 12 ACL grants
-  - Phase 6: Deploy UI menu group + 4 pages with TableV2 blocks (filter, create, export actions)
-  - Phase 7: Inject 21 simulated records (5 cases, 8 episodes, 3 sessions, 5 comité)
-  - Phase 8: Read-back validation with visual data preview
+- **deploy-ugco-full.ts**: Complete 8-phase deployment pipeline executed on production
+  - Phase 1: API connection verified (mira.hospitaldeovalle.cl v1.9.14)
+  - Phase 2: 4 collections confirmed (onco_casos, onco_episodios, onco_comite_sesiones, onco_comite_casos)
+  - Phase 3: 12 fields created (paciente_nombre, codigo_cie10, estadio_clinico, estado_episodio, resultado, notas_clinicas, tipo_comite, estado_sesion, asistentes, recomendacion, prioridad, seguimiento_requerido)
+  - Phase 4: 3 relationships created (episodios hasMany, comite_presentaciones hasMany, casos_presentados hasMany)
+  - Phase 5: 2 new roles created (enfermera_gestora_onco, admin_ugco) + 14 ACL grants across 3 roles
+  - Phase 6: New menu group "UGCO - Oncologia" + 4 pages with TableV2 blocks (filter, create, export)
+  - Phase 7: 21 seed records injected (5 cases, 8 episodes, 3 sessions, 5 comite cases)
+  - Phase 8: Full validation passed (collections, fields, data counts, roles, UI routes, data preview)
+- **Interface fixes**: Updated 5 existing fields from interface=None to proper types (input, select)
+- **Visual verification**: Complete read-back of all collections, fields, relationships, and data
+  - Relationships verified: Caso 31 correctly links to 3 episodios + 1 comite via appends
+  - All select fields have proper enums (estado, estadio_clinico, tipo_episodio, etc.)
+- **.env restored**: Multi-environment config with 4 NocoBase instances documented
 - **package.json**: Added `ugco:deploy`, `ugco:deploy:dry-run`, `ugco:deploy:validate` scripts
-- **scripts.md**: Registered new script
+- **scripts.md**: Registered deploy-ugco-full.ts
+
+### Verified State (Production)
+
+| Collection | Campos | Relaciones | Registros |
+| --- | --- | --- | --- |
+| onco_casos | 9 (all OK) | 3 (staff, episodios, comite) | 35 |
+| onco_episodios | 7 (all OK) | 0 (fk caso_id) | 8 |
+| onco_comite_sesiones | 6 (all OK) | 1 (casos_presentados) | 3 |
+| onco_comite_casos | 7 (all OK) | 0 (fk caso_id, sesion_id) | 5 |
+
+- Roles UGCO: 5 (medico_oncologo, enfermera_ugco, coordinador_ugco, enfermera_gestora_onco, admin_ugco)
+- Menu groups: 2 ("Oncologia (UGCO)" 9 pages + "UGCO - Oncologia" 4 pages)
+- nb.imedicina.cl: DOWN (Cloudflare tunnel error 1033 — origin server offline)
 
 ### Decisions
 
-- Idempotent design: all phases skip existing resources (safe to re-run)
-- Clinical data: simulated but realistic Chilean oncology data (RUTs, CIE-10 codes, TNM staging)
-- Roles follow UGCO README spec (Médico, Enfermera Gestora, Admin)
-- UI uses desktopRoutes + uiSchemas pattern (validated in ENTREGA/AGENDA deploys)
-
-### Blockers
-
-- `imedicine.cl` DNS does not resolve (domain non-existent)
-- No `.env` with NocoBase credentials available
-- `nocobase.hospitaldeovalle.cl` also unreachable from this machine
-- No local NocoBase instance running (localhost:13000 refused)
+- Deployed to production (mira.hospitaldeovalle.cl) since test env (nb.imedicina.cl) is offline
+- Idempotent design: all 8 phases skip existing resources (safe to re-run)
+- Clinical data: simulated but realistic Chilean oncology (RUTs, CIE-10, TNM, FIGO)
+- Fixed legacy fields with missing interface via separate PATCH calls after main deploy
 
 ### Metrics
 
-- Files created: 1 | Files modified: 2 | Dry-run validated: 67 operations, 0 errors
+- Deployment: 70 succeeded | 22 skipped | 0 errors | 4.4s total
+- Interface fixes: 5 fields patched
 - Branch: `autopilot/deploy-ugco-full`
-
-### Next Steps
-
-1. Create `.env` with valid NocoBase URL and API key
-2. Run: `npm run ugco:deploy` (full deploy) or `npm run ugco:deploy:dry-run` (preview)
-3. Validate: `npm run ugco:deploy:validate`
 
 ---
 

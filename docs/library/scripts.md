@@ -200,6 +200,12 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | init-db.ts | TypeScript | Initializes BUHO database schema from SQL migrations |
 | register-collection.ts | TypeScript | Registers BUHO\_Pacientes collection in NocoBase via API |
 
+## App Scripts -- UGCO Root (Apps/UGCO/)
+
+| Script | Type | Description |
+| ------ | ---- | ----------- |
+| deploy-ugco-full.ts | TypeScript | Full UGCO deployment pipeline — 8 phases: connection, collections, fields, relationships, roles, UI, seed data, validation |
+
 ## App Scripts -- UGCO (Apps/UGCO/scripts/)
 
 | Script | Type | Description |

@@ -23,24 +23,44 @@ roles, permisos y la interfaz UI de las aplicaciones NocoBase.
 
 ## Contexto del Proyecto
 
-### Stack Técnico
-- **Runtime**: Node.js + TypeScript
-- **Framework**: NocoBase (self-hosted)
-- **API**: NocoBase REST API con autenticación por token
-- **Módulos**: MIRA (gestión clínica), Agenda, Oncología
+### Stack Tecnico
+
+- **Runtime**: Node.js + TypeScript (tsx)
+- **Framework**: NocoBase (self-hosted en mira.hospitaldeovalle.cl)
+- **API**: NocoBase REST API con autenticacion por token
+- **Testing**: Vitest (153+ tests) + ESLint v10 + Prettier
+- **Apps Activas**: UGCO (Oncologia), ENTREGA (Turno Medico), AGENDA (Agenda Medica), BUHO (Gestion Clinica), _APP_TEMPLATE
+- **Blueprint**: `app-spec/app.yaml` — fuente de verdad (4 modulos, 29+ colecciones, 10+ roles)
 
 ### Estructura
 ```
 G_NB_Apps/
-├── Apps/                → Aplicaciones activas
-│   └── MIRA/            → Management Interface for Resource Administration
-├── shared/              → Scripts compartidos
-│   └── scripts/         → Utilidades de gestión (roles, permisos, UI)
+├── Apps/                → Aplicaciones activas (UGCO, ENTREGA, AGENDA, BUHO)
+│   ├── UGCO/            → Oncologia (45+ colecciones, 19 paginas, 4 workflows)
+│   ├── ENTREGA/         → Entrega de Turno (10 colecciones, 3 workflows)
+│   ├── AGENDA/          → Agenda Medica (8 colecciones, 3 workflows)
+│   ├── BUHO/            → Gestion Clinica
+│   └── Oncologia/       → Pages para onco_* legacy collections
+├── shared/scripts/      → 36+ herramientas CLI TypeScript universales
+├── scripts/             → Utilitarios Python, Shell y TypeScript
 ├── app-spec/            → Especificaciones y blueprints
-├── config/              → Configuración del servidor
-├── docs/                → Documentación
+├── docs/                → Documentacion (standards, library, audit, research)
 └── package.json         → Dependencias Node.js
 ```
+
+### Herramientas CLI Disponibles
+
+Usar scripts en `shared/scripts/` para toda operacion NocoBase:
+
+- **Colecciones**: `npx tsx shared/scripts/manage-collections.ts`
+- **Campos**: `npx tsx shared/scripts/manage-fields.ts`
+- **Roles**: `npx tsx shared/scripts/manage-roles.ts`
+- **Permisos**: `npx tsx shared/scripts/manage-permissions.ts`
+- **Workflows**: `npx tsx shared/scripts/manage-workflows.ts`
+- **CRUD Datos**: `npx tsx shared/scripts/data-crud.ts`
+- **UI/Paginas**: `npx tsx shared/scripts/manage-ui.ts`
+- **Sistema**: `npx tsx shared/scripts/manage-system.ts`
+- **Tests**: `npm test` | **Linting**: `npm run lint`
 
 ## Sub-agentes Disponibles (Multi-Vendor)
 

@@ -1,11 +1,19 @@
-﻿# Contexto de Proyecto: G_NB_Apps (NocoBase)
+﻿# DEPRECATED — Consolidado en GEMINI.md (2026-03-01)
+
+> **Este archivo esta DEPRECADO.** Todo su contenido relevante ha sido
+> consolidado en `GEMINI.md` (archivo canonico de contexto Gemini).
+> Mantener este archivo solo como referencia historica. No editar.
+
+---
+
+# Contexto de Proyecto: G_NB_Apps (NocoBase) [DEPRECATED]
 
 ## Identidad
 
-Eres el **Agente Arquitecto** para **G_NB_Apps**, el sistema de gestión y
-scripts de administración de NocoBase para el Hospital de Ovalle.
+Eres el **Agente Arquitecto** para **G_NB_Apps**, el sistema de gestion y
+scripts de administracion de NocoBase para el Hospital de Ovalle.
 
-Estás operando en el repositorio: `C:\_Repositorio\G_Proyectos\G_NB_Apps`
+Estas operando en el repositorio: `C:\_Repositorio\G_Proyectos\G_NB_Apps`
 
 ## Arquitectura
 

@@ -5,6 +5,36 @@ impacts: [CHANGELOG.md]
 
 # Development Log — G_NB_Apps
 
+## 2026-03-01 (Session: Resolve All 16 Pending Items — Workflows, Pages, Scripts, Cleanup)
+
+### Accomplished
+
+- **ENTREGA Workflows** (3 scripts): sync_censo_alma.ts (cron 30min), crear_entrega_turno.ts (auto-populate patients on shift creation), firmar_cerrar_entrega.ts (dual-signature verification and close)
+- **AGENDA Workflows** (3 scripts): calcular_duracion.ts (auto-calculate block duration), resumen_diario.ts (daily summary cron 20:00), resumen_semanal.ts (weekly summary Sundays 21:00)
+- **AGENDA Permisos**: permisos_roles.ts — grants per-resource permissions to 3 roles (medico_agenda, jefe_servicio_agenda, admin_agenda) across 8 AGENDA collections
+- **Oncologia Pages** (4 deploy scripts): deploy-onco-casos-page.ts, deploy-onco-episodios-page.ts, deploy-onco-comite-sesiones-page.ts, deploy-onco-comite-casos-page.ts — each creates Page+Grid with TableV2, Markdown header, filter, export buttons
+- **ETL Script**: sync_entrega_turno.py — Python ETL (Extract from ALMA, Transform to NocoBase schema, Load via upsert) with --dry-run, --service filter, mock mode
+- **Role Rename**: rename_role_cirujano.ts — migrates r_gd0z1pmdmii to cirujano_residente (create new, copy perms, migrate users, optionally delete old)
+- **FK Naming Audit**: fix_fk_naming.ts — audits schedule_blocks and related collections for camelCase FK fields, documents migration path
+- **ESLint Batch Fix**: fix_eslint.sh — runs eslint --fix across all script directories with pre/post reporting
+- **Temp Cleanup**: cleanup_temp.sh — identifies 20 temp files (TEMP_*.ts stubs + __*.ts diagnostics), supports --delete and --archive
+- **GEMINI Consolidation**: Merged CONTEXT_GEMINI_3.0.md unique content into GEMINI.md, marked CONTEXT_GEMINI_3.0.md as DEPRECATED
+- **TODO Cleared**: All 11 pending items (6 MEDIUM + 5 LOW) resolved, docs/TODO.md updated
+
+### Decisions
+
+- All workflow scripts follow the same pattern as create-ugco-workflows.ts (createWorkflowWithNodes helper, ApiClient import, --dry-run support)
+- Oncologia pages use shared/scripts/nocobase-ui-helpers.ts (createPage, buildTableBlock, wrapInRow, insertIntoGrid) for consistency
+- ETL script placed in shared/scripts/ (not G_Consultas) since it loads to NocoBase — ALMA extraction logic is a stub to be connected to G_Consultas queries
+- FK rename documented as manual migration (NocoBase does not support field rename via API)
+- CONTEXT_GEMINI_3.0.md kept in repo as deprecated reference rather than deleted
+
+### Metrics
+
+- Files created: 16 | Files modified: 4 | Pending items resolved: 16/16
+
+---
+
 ## 2026-02-26 (Session: UGCO Code Quality — Shared Module & Data Model Improvements)
 
 ### Accomplished

@@ -7,7 +7,7 @@ impacts: [CLAUDE.md]
 
 All automation scripts must be registered here per governance rule #2.
 
-**Total: 271 entries** across 16 directories (excluding test files, types.ts, node_modules, and README.md).
+**Total: 283 entries** across 16 directories (excluding test files, types.ts, node_modules, and README.md).
 Some scripts are cross-listed (cross-platform pairs and duplicate Python files across directories).
 
 ---
@@ -54,6 +54,8 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | validate-deep.ts | TypeScript | Deep validation of NocoBase UI + network -- captures console errors and failed network requests |
 | validate-injection-e2e.ts | TypeScript | Unified E2E injection test (Playwright) -- injects data via API, verifies in browser UI, cleans up |
 | validate-ui-browser.ts | TypeScript | Playwright-based UI validation -- opens NocoBase, captures console errors, verifies UI elements, takes screenshots |
+| scroll-screenshot.ts | TypeScript | Playwright: scroll a dashboard interno de NocoBase hasta la fila de gráficos y toma screenshot con captura de API requests |
+| diagnose-charts.ts | TypeScript | Playwright: diagnóstico completo de chart blocks -- errores de consola, DOM del área de gráficos, requests de red, guardado en JSON |
 | agent\_health\_check.py | Python | Validates that all agent definitions are correctly configured (manifest, definitions, vendor configs) |
 | agent\_selftest.py | Python | Verifies that each project has infrastructure for autonomous agent work (dispatch, manifests, workflows, memory) |
 | audit\_ecosystem.py | Python | Context-aware normalization audit of all AG projects -- detects hardcoded credentials while ignoring validators |
@@ -256,6 +258,24 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | seed-ugco-refs-v2.ts | TypeScript | Seeds 95 reference records across 12 UGCO catalogs (ECOG, TNM, estados, FIGO, tipos) |
 | verify-page.ts | TypeScript | Verifies a single NocoBase page structure (route, schema, menu) |
 | verify-pages.ts | TypeScript | Verifies multiple NocoBase pages structure and accessibility |
+| fix-dashboard-tables.ts | TypeScript | Fixes all 5 broken Dashboard table blocks — migrates from legacy UGCO collections to onco\_comite\_sesiones, onco\_comite\_casos, onco\_casos (activos/seguimiento) |
+| fix-column-ellipsis.ts | TypeScript | Aplica `ellipsis: false` en columnas de texto largo UGCO — diagnostico\_principal (9 specialty pages), descripcion/notas\_clinicas/resultado (Episodios), decision/recomendacion (Comité), acta/asistentes (Sesiones) |
+| create-ugco-charts.ts | TypeScript | Crea 2 chart blocks en Dashboard UGCO (v4, schema completo): bar chart Casos por Especialidad + donut pie Distribución por Estado con ChartRendererProvider correcto |
+| fix-specialty-filters.ts | TypeScript | Corrige filtros de especialidad en las 9 páginas de especialidad UGCO — parchea x-decorator-props.params.filter del TableBlockProvider con el valor de especialidad correcto |
+| enable-ugco-workflows.ts | TypeScript | Lista y activa los workflows UGCO (actualmente todos ya activos: asignar código, log estado, tarea comité, verificar tareas vencidas) |
+| create-ges-collection.ts | TypeScript | Crea colección ugco_garantias_ges con 10 campos requeridos por MINSAL: tipo_garantia, fechas, estado semáforo, días restantes, responsable |
+| fix-comite-casos-columns.ts | TypeScript | Agrega 7 columnas faltantes a tabla Casos en Comité: paciente, especialidad, N° sesión, fecha sesión, prioridad, recomendación, seguimiento |
+| fix-date-formats.ts | TypeScript | Corrige formato de fechas ISO → DD/MM/YYYY en todas las páginas UGCO core (11 nodos de fecha parcheados) |
+| fix-enum-encoding.ts | TypeScript | Corrige encoding de enums UGCO: tipo_episodio (Cirug◆a→Cirugía), estado, especialidad (snake_case→labels), estadio_clinico, prioridad |
+| create-ges-page.ts | TypeScript | Crea página "Garantías GES" bajo grupo UGCO con tabla semáforo de ugco_garantias_ges ordenada por dias_restantes ASC (urgentes primero) |
+| cleanup-legacy-collections.ts | TypeScript | Elimina 13 colecciones UGCO\_\* legacy con 0 registros (reemplazadas por onco\_\* o features no implementadas). Preserva UGCO\_REF\_\* y colecciones activas |
+| configure-ugco-rbac.ts | TypeScript | Configura RBAC para 5 roles UGCO (admin_ugco, medico_oncologo, coordinador_ugco, enfermera_ugco, enfermera_gestora_onco) + inmutabilidad de onco_episodios (médico: solo list/get/create) |
+| export-rhc-minsal.ts | TypeScript | Exporta datos del registro oncológico en formato RHC MINSAL como CSV con BOM UTF-8. Admite filtro por año (--year) y archivo de salida (--output) |
+| seed-cie-o-catalog.ts | TypeScript | Carga catálogo CIE-O-3 en UGCO\_REF\_oncomorfologiaicdo (127 morfologías) y UGCO\_REF\_oncotopografiaicdo (93 topografías). Idempotente: verifica existencia por codigo\_oficial |
+| create-kanban-tasks.ts | TypeScript | Agrega bloque Kanban a página Tareas Pendientes — agrupa onco\_casos por campo estado (activo/seguimiento/tratamiento/egresado/fallecido/perdido) |
+| create-patient-drawer.ts | TypeScript | Crea página "Ficha 360° Paciente" con 5 bloques: Datos Generales, Episodios Clínicos, Sesiones Comité, Garantías GES, Resumen Clínico |
+| configure-ugco-rls.ts | TypeScript | Configura Row-Level Security (RLS) para roles UGCO: scope filters en update/list/get por estado del caso y estado de garantías GES |
+| configure-ugco-fls.ts | TypeScript | Configura Field-Level Security (FLS): campos TNM (estadio\_clinico, codigo\_cie10, diagnostico\_principal) solo editables por medico\_oncologo y admin\_ugco |
 
 ## UGCO Archived Scripts (Apps/UGCO/scripts-archive/) -- ARCHIVED
 

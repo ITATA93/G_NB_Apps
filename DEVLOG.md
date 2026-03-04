@@ -5,6 +5,202 @@ impacts: [CHANGELOG.md]
 
 # Development Log — G_NB_Apps
 
+## 2026-03-04 (UGCO — Autopilot: Plan v1 Completado — CIE-O, Kanban, Ficha 360°, RLS, FLS)
+
+**Status:** COMPLETED — branch `autopilot/ugco-plan-v1-complete`
+
+**Scripts ejecutados:**
+
+- **P1-04 CIE-O-3** (`seed-cie-o-catalog.ts`): 126 morfologías + 93 topografías en UGCO\_REF\_*. Idempotente.
+- **P2-04 Kanban** (`create-kanban-tasks.ts`): KanbanBlockProvider en Tareas Pendientes, onco\_casos agrupado por estado.
+- **P2-05 Ficha 360°** (`create-patient-drawer.ts`): Página routeId 351445842722816 con 5 secciones (DetailsBlockProvider + TableBlockProvider).
+- **P2-02 RLS** (`configure-ugco-rls.ts`): 6 recursos con scope filters; enfermeras solo ven casos activos/seguimiento/tratamiento.
+- **P2-03 FLS** (`configure-ugco-fls.ts`): Campos TNM protegidos (estadio\_clinico, codigo\_cie10, diagnostico\_principal) solo editables por medico + admin.
+
+---
+
+## 2026-03-04 (UGCO — Plan de Mejora P1/P2: GES Page, Cleanup Legacy, RBAC, Inmutabilidad)
+
+### Status: COMPLETED
+
+### Accomplished
+
+- **Página Garantías GES creada** (`create-ges-page.ts`):
+  - Ruta `desktopRoutes` id: 351440432070656 bajo grupo UGCO (349160760737793)
+  - Tabla `ugco_garantias_ges` con 8 columnas (paciente, tipo, N° problema, fechas, días, estado, responsable)
+  - Ordenada por `dias_restantes ASC` (urgentes primero)
+
+- **Cleanup legacy colecciones** (`cleanup-legacy-collections.ts`):
+  - 13 colecciones UGCO_* legacy eliminadas (0 registros c/u): `UGCO_casooncologico`, `UGCO_eventoclinico`, `UGCO_comitecaso`, `UGCO_tarea`, `UGCO_contactopaciente`, `UGCO_casoespecialidad`, `UGCO_equiposeguimiento`, `UGCO_equipomiembro`, `UGCO_documentocaso`, `UGCO_personasignificativa`, `UGCO_ALMA_episodio`, `UGCO_ALMA_paciente`, `UGCO_ALMA_diagnostico`
+  - Preservadas: UGCO_REF_* (18 catálogos), ugco_garantias_ges, ugco_comiteoncologico
+
+- **RBAC + Inmutabilidad aplicado** (`configure-ugco-rbac.ts`):
+  - 321 grants aplicados, 0 errores
+  - 5 roles configurados: admin_ugco (119 grants), medico_oncologo (51), coordinador_ugco (55), enfermera_ugco (48), enfermera_gestora_onco (48)
+  - **Inmutabilidad clínica**: `medico_oncologo` en `onco_episodios` → solo list/get/create (SIN update/destroy)
+  - `admin_ugco` mantiene acceso total incluyendo destroy
+
+- **Script RHC MINSAL creado** (`export-rhc-minsal.ts`, P2-06):
+  - Exporta registro oncológico en CSV formato MINSAL con BOM UTF-8
+  - Pendiente de ejecución cuando RHC esté validado clínicamente
+
+### Plan de Mejora v1 — Estado Final P0/P1/P2
+
+| Fase | Item | Estado |
+| ---- | ---- | ------ |
+| P0 | CRUD Core, Filtros, Workflows, GES Collection | ✅ Done |
+| P1 | Comité Columns, Date Format, GES Page, Encoding | ✅ Done |
+| P1 | RBAC + Inmutabilidad (P1-03 + P2-01) | ✅ Done |
+| P2 | Cleanup Legacy (P2-07) | ✅ Done |
+| P1 | CIE-O Catalog (P1-04) | Pendiente (requiere XLSX MINSAL) |
+| P2 | Kanban Tasks (P2-04) | Pendiente |
+| P2 | Ficha 360° Paciente (P2-05) | Pendiente |
+| P2 | RHC Export (P2-06) | Script listo, pendiente validación |
+| P3 | ETL ALMA (P3-01) | Pendiente (requiere acceso TI) |
+
+---
+
+## 2026-03-04 (UGCO — Plan de Mejora P0/P1: GES, Comité, Fechas, Enums, Filtros)
+
+### Status: COMPLETED
+
+### Accomplished
+
+- **Estado actual verificado**: Los 4 workflows UGCO ya estaban activos. Las 4 páginas core ya tenían CRUD completo. Los filtros de especialidad ya existían con valores correctos (snake_case).
+
+- **Colección GES creada** (`create-ges-collection.ts`):
+  - `ugco_garantias_ges` con 10 campos: `caso` (belongsTo), `tipo_garantia`, `numero_problema_ges`, `fecha_inicio`, `fecha_limite`, `estado_garantia`, `dias_restantes`, `responsable`, `observaciones`
+  - Semáforo: EN_PLAZO (verde) / PROXIMA_VENCER (naranja) / VENCIDA (rojo) / CUMPLIDA
+
+- **Comité columnas completadas** (`fix-comite-casos-columns.ts`):
+  - Agregadas 7 columnas a Casos en Comité (`uzuw452137g`): paciente, especialidad, N° sesión, fecha sesión, prioridad, recomendación, seguimiento_requerido
+
+- **Fechas formateadas** (`fix-date-formats.ts`):
+  - 11 nodos de fecha parcheados a `DD/MM/YYYY`: 3x Casos, 2x Episodios, 3x Sesiones, 3x Comité Casos
+
+- **Enums corregidos** (`fix-enum-encoding.ts`):
+  - `tipo_episodio`: 11 opciones con labels correctos (Cirugía, Imagenología, etc.)
+  - `estado` (onco_casos): 6 estados con colores
+  - `especialidad`: snake_case (`digestivo_alto`) → labels legibles ("Digestivo Alto") para 10 especialidades
+  - `estadio_clinico`: I/II/III/IV con colores
+  - `prioridad` (comité): urgente/alta/media/baja
+
+### Hallazgo: Filtros de Especialidad
+
+Los filtros de las 9 páginas de especialidad YA estaban correctos con valores `snake_case` (`digestivo_alto`, `mama`, etc.) que coinciden con los datos reales en BD. El script `fix-specialty-filters.ts` fue creado pero NO ejecutado porque habría cambiado los filtros a `"Digestivo Alto"` (con espacios) rompiendo el filtrado.
+
+**Lección**: Siempre verificar valores reales de BD antes de asumir el formato del enum.
+
+### Plan de Mejora v1
+
+- Plan completo en `docs/plans/ugco-improvement-plan-v1.md` (P0→P3, 17 scripts)
+- Scripts creados (7): `fix-specialty-filters.ts`, `enable-ugco-workflows.ts`, `create-ges-collection.ts`, `fix-comite-casos-columns.ts`, `fix-date-formats.ts`, `fix-enum-encoding.ts`
+- Pendiente: P1-05 `create-ges-page.ts`, P2 (RBAC, RLS), P3 (ETL ALMA)
+
+---
+
+## 2026-03-04 (UGCO Dashboard — Charts, Ellipsis Fix, Ghost Block)
+
+### Status: COMPLETED
+
+### Accomplished
+
+- **Text column ellipsis fixed** (`fix-column-ellipsis.ts`):
+  - Set `ellipsis: false` on all text-heavy columns across UGCO pages
+  - Affected: `diagnostico_principal` (9 specialty pages), `descripcion`/`notas_clinicas`/`resultado` (Episodios), `decision`/`recomendacion` (Casos en Comité), `acta`/`asistentes` (Sesiones de Comité)
+  - Technique: `uiSchemas:patch` → `x-component-props: { ellipsis: false }` on column wrapper UIDs
+  - Efecto: las columnas de texto largo ahora se expanden en vez de truncar con `...`
+
+- **Dashboard charts created** (`create-ugco-charts.ts` v4 — schema completo):
+  - 2 gráficos funcionales en Row 4 del Dashboard (`z02a3z3zwj8` y `dupzzgff6sw`)
+  - **Gráfico 1**: Casos por Especialidad — horizontal bar chart (`ant-design-charts.bar`)
+  - **Gráfico 2**: Distribución por Estado — donut pie chart (`ant-design-charts.pie`, `innerRadius: 0.5`)
+  - Ambos llaman `POST charts:query` correctamente y renderizan datos reales
+
+- **Ghost block eliminado**: `lfv8zbbiuhy` (GridCard.Decorator apuntando a `UGCO_eventoclinico`)
+  - Eliminación: row completo `w71qhx85m97` (Row 6 del Dashboard grid)
+  - Efecto: `GET UGCO_eventoclinico:list` ya no aparece en el Dashboard
+
+### Descubrimiento Crítico: Arquitectura de Charts en NocoBase v1.9.14
+
+**Documentado en**: `docs/standards/nocobase-chart-blocks.md`
+
+Los bloques de gráficos requieren **3 capas anidadas**:
+
+```text
+ChartBlockProvider (externo, solo contexto de refresh)
+  └── Grid (x-decorator: ChartV2Block)  ← registra ChartRenderer localmente
+        └── Grid.Row > Grid.Col
+              └── ChartRendererProvider (x-decorator)  ← ÚNICO que llama charts:query
+                    └── CardItem > ChartRenderer  ← renderiza el visual
+```
+
+**Error costoso**: poner `query`/`config` en `ChartBlockProvider` en vez de `ChartRendererProvider`
+produce charts en blanco sin ningún API call. Las 3 primeras versiones del script fallaron por esto.
+
+**Otros hallazgos**:
+
+- `orders: [...]` con alias de aggregate (ej: `"count"`) produce `"No data"` → usar `orders: []`
+- `advanced` es un objeto `{}`, NO un string JSON
+- Para labels largos en español: usar `ant-design-charts.bar` (horizontal), no `column` (vertical rotado)
+- `ChartRendererProvider` y `ChartRenderer` son locales al scope de `ChartV2Block` (via SchemaComponentOptions)
+
+### Scripts registrados esta sesión
+
+| Script | Descripción |
+| --- | --- |
+| `Apps/UGCO/scripts/fix-column-ellipsis.ts` | Aplica `ellipsis: false` en columnas de texto largo (9 páginas specialty + 3 tablas) |
+| `Apps/UGCO/scripts/create-ugco-charts.ts` (v4) | Crea 2 chart blocks completos en Dashboard UGCO con ChartRendererProvider |
+| `scripts/scroll-screenshot.ts` | Playwright: scroll + screenshot del área de gráficos del Dashboard |
+| `scripts/diagnose-charts.ts` | Playwright: captura errores de consola, DOM y requests de red para debugging de charts |
+
+### Decisiones de la Sesión 2026-03-04
+
+- **Charts del Dashboard**: bar chart horizontal para especialidades (mejor legibilidad de labels), donut para estados
+- **Schema approach**: incluir todo el árbol de nodos en un solo `insertAdjacent` call (no insertar hijos separadamente)
+- **`advanced` field**: siempre objeto `{}` — nunca string JSON
+- **Ghost blocks**: borrar la row completa (`Grid.Row`) cuando un bloque no sirve, no solo el bloque interno
+- **Estándar**: crear `docs/standards/nocobase-chart-blocks.md` como referencia permanente para futuros proyectos
+
+### Métricas
+
+- Scripts ejecutados: 4 | Bloques creados: 2 charts | Bloques eliminados: 1 ghost row | Columnas patcheadas: ~22 | Attempts de chart schema: 4 (v1–v3 fallaron, v4 correcto)
+
+---
+
+## 2026-03-03 (UGCO UI Improvements — Dashboard, Specialty Pages, Permissions)
+
+### Status: COMPLETED
+
+### Accomplished
+
+- **Dashboard tables fixed** (5 blocks migrated from legacy UGCO_* collections):
+  - `252gccm8p8i` Comités Oncológicos → `onco_comite_sesiones` (numero_sesion, tipo_comite, fecha, estado_sesion)
+  - `qfnwl0tr3qu` Últimos Episodios Clínicos → `onco_episodios` correct columns (tipo_episodio, fecha, descripcion, estado_episodio)
+  - `z88y0z4h15q` Tareas Pendientes → repurposed to "Casos en Comité" (`onco_comite_casos`, fecha_presentacion, prioridad, decision, seguimiento_requerido)
+  - `kupdp4nyxuh` Contactos Pacientes → repurposed to "Casos Activos" (`onco_casos`, filter=activo, paciente_nombre/especialidad/estadio/estado)
+  - `o4udvyhr9gd` Equipos Seguimiento → repurposed to "Casos en Seguimiento" (`onco_casos`, filter=seguimiento, paciente_nombre/especialidad/fecha_ingreso/estadio)
+- **Episodios table trimmed**: Removed 12 excessive `caso.*` relation columns + 2 ghost columns; kept 7 focused columns (fecha, descripcion, tipo_episodio, estado_episodio, notas_clinicas, resultado, caso.paciente_nombre)
+- **Casos en Comité**: Added `caso.paciente_nombre` as first data column
+- **Sesiones de Comité**: Deleted 3 ghost duplicate columns (inner key was `field` instead of actual field name)
+- **Specialty pages** (from prior session): All 9 pages now filter by `especialidad` field with correct `onco_casos` columns
+- **Permissions configured** (from prior session): 5 UGCO roles with correct ACL on all 4 `onco_*` collections
+
+### Visual Verification Results
+
+| Page | Blocks | Errors |
+| --- | --- | --- |
+| Dashboard | 16 | 0 |
+| Episodios | 221 | 0 |
+| Sesiones de Comité | 242 | 0 |
+| Casos en Comité | 263 | 0 |
+
+### Scripts Registered
+
+- `Apps/UGCO/scripts/fix-dashboard-tables.ts` — fixes all 5 Dashboard table blocks
+
+---
+
 ## 2026-03-02 (Autopilot: UGCO Full Deployment — COMPLETED)
 
 ### Status: COMPLETED (deployed + verified on mira.hospitaldeovalle.cl)

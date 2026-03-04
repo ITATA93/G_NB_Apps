@@ -10,10 +10,30 @@
 
 ## Backlog
 
-(ninguno actualmente — todos los items pendientes fueron resueltos 2026-03-01)
+> Plan completo: `docs/plans/ugco-improvement-plan-v1.md`
+
+### Backlog P2 Restante
+
+- [ ] **P2-06 RHC** Exportación RHC MINSAL — script listo (`export-rhc-minsal.ts`), pendiente validación clínica con MINSAL
+- [ ] **P3-01 ETL ALMA** `etl-alma-ugco.ts` — ETL desde InterSystems IRIS (requiere acceso TI al sistema ALMA)
 
 ## Done
 
+- [x] **P0-01 CRUD CORE** — Ya implementado en sesiones previas (Casos, Episodios, Sesiones, Comité tienen formularios) (2026-03-04)
+- [x] **P0-02 FILTROS ESPECIALIDAD** — Filtros por especialidad ya existían con valores correctos (`digestivo_alto`, etc.) (2026-03-04)
+- [x] **P0-03 WORKFLOWS** — Los 4 workflows UGCO ya estaban activos: asignar código, log estado, tarea comité, verificar vencidas (2026-03-04)
+- [x] **P0-04 GES COLLECTION** — Creada `ugco_garantias_ges` con 10 campos + relación a onco_casos (2026-03-04)
+- [x] **P1-01 COMITE COLUMNS** — Agregadas 7 columnas a Casos en Comité (paciente, especialidad, sesión, prioridad, recomendación, seguimiento) (2026-03-04)
+- [x] **P1-02 DATE FORMAT** — 11 nodos de fecha parcheados a DD/MM/YYYY en 4 páginas core (2026-03-04)
+- [x] **P1-06 ENCODING FIX** — 5 campos corregidos: tipo_episodio (Cirugía), especialidad (labels legibles), estado, estadio_clinico, prioridad (2026-03-04)
+- [x] **P1-05 GES PAGE** — Página "Garantías GES" creada (routeId: 351440432070656), tabla semáforo con 8 columnas ordenada por dias_restantes ASC (2026-03-04)
+- [x] **P2-07 CLEANUP** — 13 colecciones UGCO\_\* legacy eliminadas (0 registros c/u), UGCO\_REF\_\* preservadas (2026-03-04)
+- [x] **P1-03 IMMUTABILITY + P2-01 RBAC** — 321 grants aplicados en 5 roles UGCO; medico_oncologo: list/get/create en onco_episodios (sin update/destroy) (2026-03-04)
+- [x] **P1-04 CIE-O CATALOG** — 219 códigos cargados: 126 morfologías + 93 topografías CIE-O-3 en UGCO_REF_* (2026-03-04)
+- [x] **P2-02 RLS** — Row-Level Security aplicado: 6 recursos configurados con scope filters por rol (enfermeras ven solo casos activos) (2026-03-04)
+- [x] **P2-03 FLS** — Field-Level Security aplicado: TNM protegido en 3 roles; enfermeras solo editan estado/fecha/observaciones (2026-03-04)
+- [x] **P2-04 KANBAN** — Vista Kanban en Tareas Pendientes; onco_casos agrupado por estado (uid: c5afc300f7) (2026-03-04)
+- [x] **P2-05 DRAWER** — Página "Ficha 360° Paciente" creada (routeId: 351445842722816) con 5 bloques de datos (2026-03-04)
 - [x] **ENTREGA WORKFLOWS** 3 workflows creados: sync_censo_alma (cron 30min), crear_entrega_turno (collection), firmar_cerrar_entrega (collection) (2026-03-01)
 - [x] **AGENDA WORKFLOWS** 3 workflows creados: calcular_duracion (collection), resumen_diario (cron 20:00), resumen_semanal (domingos 21:00) (2026-03-01)
 - [x] **AGENDA PERMISOS** Permisos por recurso para 3 roles: medico_agenda, jefe_servicio_agenda, admin_agenda (2026-03-01)

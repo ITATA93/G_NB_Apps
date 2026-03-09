@@ -78,7 +78,7 @@ async function seedOncoCases() {
         try {
             await api.post('onco_casos', data);
             process.stdout.write('.');
-        } catch (e: any) {
+        } catch (_e: any) {
             process.stdout.write('x');
         }
     }

@@ -1,0 +1,33 @@
+{
+  "name": "BUHO",
+  "icon": "HospitalOutlined",
+  "routes": [
+    {
+      "title": "🏥 Dashboard Hospitalización",
+      "type": "page",
+      "icon": "DashboardOutlined"
+    },
+    {
+      "title": "🛏️ Pacientes",
+      "type": "group",
+      "children": [
+        { "title": "Lista Pacientes", "type": "page", "icon": "UnorderedListOutlined" },
+        { "title": "Estado Clínico", "type": "page", "icon": "MedicineBoxOutlined" },
+        { "title": "Planes de Trabajo", "type": "page", "icon": "FileTextOutlined" }
+      ]
+    },
+    {
+      "title": "⚠️ Alertas",
+      "type": "page",
+      "icon": "WarningOutlined"
+    },
+    {
+      "title": "⚙️ Administración",
+      "type": "group",
+      "children": [
+        { "title": "Catálogo de Camas", "type": "page", "icon": "AppstoreOutlined" },
+        { "title": "Parámetros de Riesgo", "type": "page", "icon": "SettingOutlined" }
+      ]
+    }
+  ]
+}

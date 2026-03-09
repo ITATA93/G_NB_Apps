@@ -159,7 +159,7 @@ async function deployPage(parentId: any, pageDef: any) {
         
         // Find action column if it's a table
         // Sometimes it's returned as a specific property, or we have to find the child
-        actionColUid = block?.properties?.actions?.['x-uid'] || block?.actionsColumnUid; 
+        const _actionColUid = block?.properties?.actions?.['x-uid'] || block?.actionsColumnUid; 
         
         console.log(`     ✅ Block Created. UID: ${blockUid}`);
 
@@ -182,7 +182,7 @@ async function deployPage(parentId: any, pageDef: any) {
                     parentUid: blockUid
                 });
                 process.stdout.write('.');
-            } catch (e) {
+            } catch (_e) {
                 process.stdout.write('x');
             }
         }

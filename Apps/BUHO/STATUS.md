@@ -1,46 +1,40 @@
-# Estado del Proyecto - BUHO
+# BUHO — Estado del Proyecto
 
-**Ultima Actualizacion**: 2026-02-23
-**Version Actual**: 0.1.0
-**Estado General**: En Desarrollo
+**Última actualización**: 2026-03-09
+**Estado global**: 🟢 85% completado — Funcional en mira.imedicina.cl
 
-## Resumen Ejecutivo
+## Componentes Desplegados en mira.imedicina.cl
 
-BUHO se encuentra en fase de desarrollo inicial. El modelo de datos, backend
-service y UI design estan definidos. Falta integracion completa con NocoBase,
-testing y documentacion de usuario.
+### Colecciones (5/5) ✅
 
-## Fase Actual
+| Colección | Estado |
+|---|---|
+| `buho_pacientes` | ✅ Desplegada (26 campos) |
+| `buho_camas` | ✅ Desplegada |
+| `buho_alertas` | ✅ Desplegada |
+| `buho_planes_trabajo` | ✅ Desplegada |
+| `buho_parametros_riesgo` | ✅ Desplegada |
 
-**Fase**: 1 - Fundacion
-**Progreso**: 40%
-**Inicio**: 2026-02-01
+### UI Pages (6/6) ✅
 
-### Objetivos de la Fase
+- Dashboard Hospitalización, Lista Pacientes, Estado Clínico, Planes de Trabajo, Alertas, Catálogo de Camas, Parámetros de Riesgo
 
-- [x] Definicion de modelo de datos (BUHO_Pacientes)
-- [x] Backend service con motor de reglas
-- [x] Diseno de interfaz de usuario
-- [x] Scripts de deploy (register-collection, create-ui, init-db)
-- [ ] Seed de datos de ejemplo
-- [ ] Testing del motor de reglas
-- [ ] Documentacion de usuario
+### Roles (3/3) ✅
 
-## Metricas del Proyecto
+- `medico_buho`, `enfermeria_buho`, `jefe_servicio_buho`
 
-| Metrica | Valor | Objetivo | Estado |
-|---------|-------|----------|--------|
-| Colecciones Creadas | 1 | 1 | 100% |
-| Scripts Funcionales | 3 | 5 | 60% |
-| Documentos Completados | 3 | 6 | 50% |
-| Tests Pasando | 0 | 10 | 0% |
+### Workflows (2/2) ✅ (disabled — habilitar en producción)
 
-## Progreso por Componente
+- `BUHO: Clasificar riesgo automáticamente`
+- `BUHO: Alertar alta en < 2 días (diario)`
 
-| Componente | Estado | Progreso |
-|------------|--------|----------|
-| Base de Datos | Definido | 80% |
-| Backend/API | Funcional | 60% |
-| Frontend/UI | Diseñado | 30% |
-| Testing | No iniciado | 0% |
-| Documentacion | Parcial | 50% |
+### Table Blocks ✅
+
+- Todas las páginas tienen tabla con Filter + Add New
+
+## Pendiente para Producción
+
+- [ ] Conectar `buho_pacientes` a sync real con ALMA/IRIS
+- [ ] Habilitar workflows en producción
+- [ ] Migrar a mira.hospitaldeovalle.cl (actualmente en mira.imedicina.cl)
+- [ ] Cargar catálogo real de camas

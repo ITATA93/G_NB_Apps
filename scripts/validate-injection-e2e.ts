@@ -97,7 +97,7 @@ async function runTest() {
           await page.screenshot({ path: 'docs/e2e-success.png' });
           console.log('   Screenshot saved: docs/e2e-success.png');
 
-      } catch (timeout) {
+      } catch (_timeout) {
           console.error(`❌ FAILURE: Text "${TEST_TITLE}" NOT found in UI.`);
           await page.screenshot({ path: 'docs/e2e-failure.png' });
           console.log('   Screenshot saved: docs/e2e-failure.png');

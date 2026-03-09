@@ -42,7 +42,7 @@ async function main() {
         });
         oldRole = (result as { data?: Record<string, unknown> }).data || {};
         log(`   [OK] Rol "${OLD_ROLE}" encontrado: title="${oldRole.title}"`, 'green');
-    } catch (err: unknown) {
+    } catch (_err: unknown) {
         log(`   [ERROR] Rol "${OLD_ROLE}" no encontrado. Puede que ya se haya renombrado.`, 'red');
         log(`   Verificando si "${NEW_ROLE}" ya existe...`, 'gray');
         try {

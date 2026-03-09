@@ -1,0 +1,35 @@
+{
+  "name": "Entrega de Turno",
+  "icon": "SwapOutlined",
+  "routes": [
+    {
+      "title": "🏥 Entrega Médica",
+      "type": "group",
+      "children": [
+        { "title": "Dashboard", "type": "page", "icon": "DashboardOutlined" },
+        { "title": "Vista Global", "type": "page", "icon": "EyeOutlined" },
+        { "title": "Medicina Interna", "type": "page", "icon": "HeartOutlined" },
+        { "title": "Cirugía General", "type": "page", "icon": "ScissorOutlined" },
+        { "title": "Pediatría", "type": "page", "icon": "SmileOutlined" },
+        { "title": "Obst/Ginecología", "type": "page", "icon": "UserOutlined" },
+        { "title": "Neonatología", "type": "page", "icon": "StarOutlined" },
+        { "title": "Traumatología", "type": "page", "icon": "AlertOutlined" },
+        { "title": "UCI / UTI", "type": "page", "icon": "ExclamationCircleOutlined" },
+        { "title": "Historial", "type": "page", "icon": "HistoryOutlined" }
+      ]
+    },
+    {
+      "title": "💉 Enfermería",
+      "type": "group",
+      "children": [
+        { "title": "Enf. MQ1", "type": "page", "icon": "MedicineBoxOutlined" },
+        { "title": "Enf. MQ2", "type": "page", "icon": "MedicineBoxOutlined" },
+        { "title": "Enf. MQ3", "type": "page", "icon": "MedicineBoxOutlined" },
+        { "title": "Enf. UCI", "type": "page", "icon": "MedicineBoxOutlined" },
+        { "title": "Enf. UTI", "type": "page", "icon": "MedicineBoxOutlined" },
+        { "title": "Enf. PED", "type": "page", "icon": "MedicineBoxOutlined" },
+        { "title": "Enf. OBST", "type": "page", "icon": "MedicineBoxOutlined" }
+      ]
+    }
+  ]
+}

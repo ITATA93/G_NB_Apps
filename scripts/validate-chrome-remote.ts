@@ -121,7 +121,7 @@ async function validateNocoBaseCDP(): Promise<ValidationReport> {
         console.log('═'.repeat(70));
         
         // Obtener logs existentes
-        const logsResult: any = await sendCommand('Log.entryAdded');
+        const _logsResult: any = await sendCommand('Log.entryAdded');
         
         // Esperar 3 segundos para capturar eventos
         setTimeout(async () => {

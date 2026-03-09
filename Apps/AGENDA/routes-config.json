@@ -1,0 +1,23 @@
+{
+  "name": "Agenda Médica",
+  "icon": "CalendarOutlined",
+  "routes": [
+    { "title": "📊 Dashboard", "type": "page", "icon": "DashboardOutlined" },
+    { "title": "Agenda Semanal", "type": "page", "icon": "CalendarOutlined" },
+    { "title": "Actividades (Bloques)", "type": "page", "icon": "OrderedListOutlined" },
+    { "title": "Inasistencias", "type": "page", "icon": "StopOutlined" },
+    { "title": "Resumen Diario", "type": "page", "icon": "BarChartOutlined" },
+    { "title": "Resumen Semanal", "type": "page", "icon": "LineChartOutlined" },
+    { "title": "Funcionarios", "type": "page", "icon": "TeamOutlined" },
+    { "title": "Categorías de Actividad", "type": "page", "icon": "TagsOutlined" },
+    {
+      "title": "⚙️ Admin Agenda",
+      "type": "group",
+      "children": [
+        { "title": "Tipos de Inasistencia", "type": "page", "icon": "ExceptionOutlined" },
+        { "title": "Servicios", "type": "page", "icon": "BankOutlined" },
+        { "title": "Reportes", "type": "page", "icon": "FileSearchOutlined" }
+      ]
+    }
+  ]
+}

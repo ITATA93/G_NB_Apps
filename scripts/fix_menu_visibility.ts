@@ -8,7 +8,7 @@ const api = new ApiClient();
 // Parent UID for "UGCO" menu group (found via previous inspection)
 const PARENT_MENU_UID = '3mvmkcig2o'; 
 
-async function addMenuItem(title: string, path: string) {
+async function _addMenuItem(title: string, _path: string) {
     console.log(`Adding Menu Item "${title}" to Parent ${PARENT_MENU_UID}...`);
     
     try {
@@ -37,10 +37,10 @@ async function addMenuItem(title: string, path: string) {
     }
 }
 
-async function linkRouteToMenu(path: string, menuUid: string) {
+async function _linkRouteToMenu(_path: string, _menuUid: string) {
     // We need to find the route by path and update its 'menuSchemaUid'?
     // desktopRoutes table has 'menuSchemaUid'.
-    console.log(`Link route "${path}" to Menu UID "${menuUid}"...`);
+    // console.log(`Link route "${_path}" to Menu UID "${_menuUid}"...`);
     // This part is speculative but likely necessary.
 }
 

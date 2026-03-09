@@ -1,34 +1,36 @@
-# Estado del Proyecto - ENTREGA
+# ENTREGA — Estado del Proyecto
 
-**Ultima Actualizacion**: 2026-02-23
-**Version Actual**: 1.0.0
-**Estado General**: Desplegado
+**Última actualización**: 2026-03-09
+**Estado global**: 🟢 90% completado — Funcional en mira.imedicina.cl
 
-## Resumen Ejecutivo
+## Componentes Desplegados en mira.imedicina.cl
 
-ENTREGA esta desplegado en produccion con 10 colecciones (130+ campos),
-11 roles con permisos granulares y campos ZEN sincronizados desde ALMA.
-Pendiente: implementacion de workflows automaticos.
+### Colecciones (10/10) ✅
 
-## Fase Actual
+Todas previamente desplegadas (et_turnos, et_pacientes_censo, et_entrega_paciente, et_entrega_enfermeria, et_servicios, et_especialidades, et_usuarios_turno, et_novedades, et_indicadores, et_log_sync)
 
-**Fase**: 3 - Workflows e Integracion
-**Progreso**: 70%
+### UI Pages (17/17) ✅
 
-### Objetivos de la Fase
+**Entrega Médica**: Dashboard, Vista Global, Medicina Interna, Cirugía General, Pediatría, Obst/Ginecología, Neonatología, Traumatología, UCI/UTI, Historial
+**Enfermería**: Enf. MQ1, MQ2, MQ3, UCI, UTI, PED, OBST
 
-- [x] 10 colecciones desplegadas con 130+ campos
-- [x] 11 roles con permisos granulares
-- [x] Campos ZEN sincronizados desde ALMA
-- [ ] Workflow sync_censo_alma
-- [ ] Workflow crear_entrega_turno
-- [ ] Workflow firmar_cerrar_entrega
+### Roles (11/11) ✅
 
-## Metricas del Proyecto
+Previamente desplegados
 
-| Metrica | Valor | Objetivo | Estado |
-|---------|-------|----------|--------|
-| Colecciones | 10 | 10 | 100% |
-| Campos | 130+ | 130+ | 100% |
-| Roles | 11 | 11 | 100% |
-| Workflows | 0 | 3 | 0% |
+### Workflows (3/3) ✅ (disabled — habilitar en producción)
+
+- `ENTREGA: Sync censo ALMA → et_pacientes_censo` (cron 30min placeholder)
+- `ENTREGA: Registrar nueva entrega de turno`
+- `ENTREGA: Cerrar turno con ambas firmas`
+
+### Table Blocks ✅
+
+- Todas las páginas con tabla + Filter + Add New
+
+## Pendiente para Producción
+
+- [ ] Configurar URL real del ETL ALMA en workflow sync_censo_alma
+- [ ] Habilitar workflows en producción
+- [ ] Migrar a mira.hospitaldeovalle.cl
+- [ ] Cargar seed: especialidades, servicios

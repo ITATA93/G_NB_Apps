@@ -1,35 +1,35 @@
-# Estado del Proyecto - AGENDA
+# AGENDA — Estado del Proyecto
 
-**Ultima Actualizacion**: 2026-02-23
-**Version Actual**: 0.1.0
-**Estado General**: Blueprint Definido
+**Última actualización**: 2026-03-09
+**Estado global**: 🟢 90% completado — Funcional en mira.imedicina.cl
 
-## Resumen Ejecutivo
+## Componentes Desplegados en mira.imedicina.cl
 
-AGENDA tiene su blueprint completo definido con 8 colecciones, 3 roles y
-11 paginas UI. Script de deploy funcional. Pendiente: workflows de calculo
-de duracion y resumenes automaticos, y permisos por rol.
+### Colecciones (8/8) ✅
 
-## Fase Actual
+`ag_categorias_actividad`, `ag_tipos_inasistencia`, `ag_servicios`, `ag_funcionarios`, `ag_bloques_agenda`, `ag_inasistencias`, `ag_resumen_diario`, `ag_resumen_semanal`
 
-**Fase**: 2 - Desarrollo Core
-**Progreso**: 50%
+### UI Pages (9/9) ✅
 
-### Objetivos de la Fase
+Dashboard, Agenda Semanal, Actividades (Bloques), Inasistencias, Resumen Diario, Resumen Semanal, Funcionarios, Categorías de Actividad, + Admin Agenda (Tipos Inasistencia, Servicios, Reportes)
 
-- [x] Blueprint definido (8 colecciones, 3 roles, 11 paginas)
-- [x] Script deploy-agenda-collections.ts funcional
-- [x] Diccionario de datos documentado
-- [ ] Workflow calcular_duracion
-- [ ] Workflow resumen_diario
-- [ ] Workflow resumen_semanal
-- [ ] Permisos para admin_agenda, jefe_servicio_agenda, medico_agenda
+### Roles (3/3) ✅
 
-## Metricas del Proyecto
+`admin_agenda`, `jefe_servicio_agenda`, `medico_agenda`
 
-| Metrica | Valor | Objetivo | Estado |
-|---------|-------|----------|--------|
-| Colecciones | 8 | 8 | 100% |
-| Workflows | 0 | 3 | 0% |
-| Roles configurados | 0 | 3 | 0% |
-| Paginas UI | 0 | 11 | 0% |
+### Workflows (3/3) ✅ (disabled — habilitar en producción)
+
+- `AGENDA: Calcular duración_min y período`
+- `AGENDA: Generar resumen diario` (cron 23:00)
+- `AGENDA: Generar resumen semanal` (cron lunes 06:00)
+
+### Table Blocks ✅
+
+- Todas las páginas con tabla + Filter + Add New
+
+## Pendiente para Producción
+
+- [ ] Cargar seed data: 16 categorías, 6 tipos inasistencia, 10 servicios, funcionarios
+- [ ] Habilitar workflows en producción
+- [ ] Migrar a mira.hospitaldeovalle.cl
+- [ ] Configurar RLS por servicio para `jefe_servicio_agenda`

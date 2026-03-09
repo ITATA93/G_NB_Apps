@@ -48,6 +48,7 @@ function buildTableBlock(
   title: string,
   columns: Array<{ field: string; width: number }>,
   xIndex: number,
+  sortField: string = "-id",
 ): object {
   const blockUid    = uid();
   const actionUid   = uid();
@@ -92,7 +93,7 @@ function buildTableBlock(
       collection,
       dataSource: "main",
       action: "list",
-      params: { pageSize: 20, sort: ["-createdAt"] },
+      params: { pageSize: 20, sort: [sortField] },
       showIndex: true,
       dragSort: false,
     },
@@ -291,18 +292,20 @@ async function main(): Promise<void> {
       title: "2. Episodios Clínicos",
       type: "table" as const,
       collection: "onco_episodios",
+      sortField: "-fecha",
       columns: [
         { field: "tipo_episodio", width: 150 },
-        { field: "fecha_episodio", width: 120 },
+        { field: "fecha", width: 120 },
         { field: "descripcion", width: 250 },
         { field: "resultado", width: 200 },
-        { field: "profesional_responsable", width: 150 },
+        { field: "estado_episodio", width: 150 },
       ],
     },
     {
       title: "3. Sesiones de Comité",
       type: "table" as const,
       collection: "onco_comite_casos",
+      sortField: "-fecha_presentacion",
       columns: [
         { field: "prioridad", width: 100 },
         { field: "recomendacion", width: 250 },
@@ -314,6 +317,7 @@ async function main(): Promise<void> {
       title: "4. Garantías GES",
       type: "table" as const,
       collection: "ugco_garantias_ges",
+      sortField: "-fecha_inicio",
       columns: [
         { field: "tipo_garantia", width: 150 },
         { field: "fecha_inicio", width: 120 },
@@ -369,7 +373,7 @@ async function main(): Promise<void> {
       if (section.type === "details") {
         blockSchema = buildDetailsBlock(section.collection!, section.title, section.fields!, i + 1);
       } else {
-        blockSchema = buildTableBlock(section.collection!, section.title, section.columns!, i + 1);
+        blockSchema = buildTableBlock(section.collection!, section.title, section.columns!, i + 1, (section as any).sortField);
       }
 
       await api("POST", `uiSchemas:insertAdjacent/${colUid}?position=afterBegin`, {

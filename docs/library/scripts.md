@@ -7,7 +7,7 @@ impacts: [CLAUDE.md]
 
 All automation scripts must be registered here per governance rule #2.
 
-**Total: 296 entries** across 17 directories (excluding test files, types.ts, node_modules, and README.md).
+**Total: 305 entries** across 18 directories (excluding test files, types.ts, node_modules, and README.md).
 Some scripts are cross-listed (cross-platform pairs and duplicate Python files across directories).
 
 ---
@@ -180,27 +180,41 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | TEMP\_12.ts | TypeScript | Insert table blocks into \_tabs schemas for ENTREGA pages |
 | deploy-oncologia.ts | TypeScript | Create Oncologia menu group + 4 pages with table blocks (Triple Binding pattern) |
 
-## App Scripts -- AGENDA (Apps/AGENDA/scripts/)
+## App Scripts -- AGENDA (Apps/AGENDA/scripts/) -- 4 scripts
 
 | Script | Type | Description |
 | ------ | ---- | ----------- |
+| create-agenda-workflows.ts | TypeScript | Creates 3 AGENDA workflows (resumen diario, resumen semanal, cálculo duración) in NocoBase |
 | deploy-agenda-collections.ts | TypeScript | Creates the 8 AGENDA collections + all fields + seed data in NocoBase following app.yaml blueprint |
+| deploy-agenda-roles.ts | TypeScript | Creates 3 AGENDA roles (admin\_agenda, jefe\_servicio\_agenda, medico\_agenda) with 24 ACL grants |
+| seed-agenda-references.ts | TypeScript | Seeds 16 categorías de actividad, 6 tipos de inasistencia, 10 servicios hospitalarios |
 
-## App Scripts -- ENTREGA (Apps/ENTREGA/scripts/)
+## App Scripts -- ENTREGA (Apps/ENTREGA/scripts/) -- 5 scripts
 
 | Script | Type | Description |
 | ------ | ---- | ----------- |
 | audit-collections.ts | TypeScript | Audits ENTREGA collection state in NocoBase (identifies UGCO duplicates and suspect collections) |
 | cleanup-duplicate-collections.ts | TypeScript | Removes duplicate/empty collections in NocoBase (only deletes collections with 0 records) |
+| create-entrega-workflows.ts | TypeScript | Creates 3 ENTREGA workflows (crear entrega, firmar/cerrar, sync censo ALMA) in NocoBase |
 | deploy-entrega-collections.ts | TypeScript | Creates the 10 ENTREGA collections + all fields + seed data in NocoBase following app.yaml blueprint |
+| seed-entrega-references.ts | TypeScript | Seeds 9 especialidades médicas + 12 servicios hospitalarios para Entrega de Turno |
 
-## App Scripts -- BUHO (Apps/BUHO/backend/scripts/)
+## App Scripts -- BUHO Legacy (Apps/BUHO/backend/scripts/)
 
 | Script | Type | Description |
 | ------ | ---- | ----------- |
 | create-ui.ts | TypeScript | Generates NocoBase UI pages and menus for BUHO Proyeccion module |
 | init-db.ts | TypeScript | Initializes BUHO database schema from SQL migrations |
 | register-collection.ts | TypeScript | Registers BUHO\_Pacientes collection in NocoBase via API |
+
+## App Scripts -- BUHO (Apps/BUHO/scripts/) -- 4 scripts
+
+| Script | Type | Description |
+| ------ | ---- | ----------- |
+| deploy-buho-collections.ts | TypeScript | Creates BUHO collections + fields in NocoBase following app.yaml blueprint |
+| deploy-buho-roles.ts | TypeScript | Creates 3 BUHO roles (admin\_buho, medico\_buho, enfermera\_buho) with ACL grants |
+| create-buho-workflows.ts | TypeScript | Creates 2 BUHO workflows (ingreso, alta) in NocoBase |
+| seed-buho-patients.ts | TypeScript | Seeds 5 fictional patients with realistic Chilean data (RUT, diagnoses, services) |
 
 ## App Scripts -- UGCO Root (Apps/UGCO/)
 
@@ -424,11 +438,11 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 
 | Type | Count |
 | ---- | ----- |
-| TypeScript (.ts) | 203 |
+| TypeScript (.ts) | 212 |
 | Python (.py) | 27 |
 | PowerShell (.ps1) | 16 |
 | Shell (.sh) | 15 |
-| **Total entries** | **261** |
+| **Total entries** | **270** |
 
 ## Summary by Directory
 
@@ -441,9 +455,10 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | shared/scripts/ | 54 | NocoBase API client and management (TS) |
 | shared/scripts/temp/ | 13 | Temporary deployment and debug scripts (TS) |
 | shared/python/ | 4 | NocoBase Python API tools |
-| Apps/AGENDA/scripts/ | 1 | AGENDA module scripts |
-| Apps/ENTREGA/scripts/ | 3 | ENTREGA module scripts |
-| Apps/BUHO/backend/scripts/ | 3 | BUHO module scripts |
+| Apps/AGENDA/scripts/ | 4 | AGENDA module scripts |
+| Apps/ENTREGA/scripts/ | 5 | ENTREGA module scripts |
+| Apps/BUHO/backend/scripts/ | 3 | BUHO legacy module scripts |
+| Apps/BUHO/scripts/ | 4 | BUHO module scripts |
 | Apps/UGCO/scripts/ | 40 | UGCO module scripts (9 top-level + 31 nocobase/) |
 | Apps/UGCO/scripts-archive/ | 82 | UGCO archived iterations (read-only) |
 | Apps/\_APP\_TEMPLATE/scripts/ | 5 | App template starters |
@@ -453,4 +468,4 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 > **Note:** Some scripts are cross-listed in multiple sections (cross-platform pairs like `safe-write.sh`/`safe-write.ps1`,
 > and `scripts/nocobase_*.py` duplicates of `shared/python/nocobase_*.py`).
 >
-> Last updated: 2026-02-26
+> Last updated: 2026-03-09

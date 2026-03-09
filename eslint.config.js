@@ -3,7 +3,7 @@ import tsparser from '@typescript-eslint/parser';
 
 export default [
   {
-    files: ['shared/scripts/**/*.ts', 'scripts/**/*.ts', 'Apps/**/scripts/**/*.ts'],
+    files: ['**/*.ts'],
     languageOptions: {
       parser: tsparser,
       parserOptions: {
@@ -36,6 +36,8 @@ export default [
       'dist/**',
       'MIRA/**',
       'Apps/UGCO/scripts-archive/**',
+      'docs/archive/**',
+      'tmp/**',
       '**/*.js',
     ],
   },

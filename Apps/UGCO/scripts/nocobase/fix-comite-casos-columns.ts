@@ -121,7 +121,7 @@ async function main(): Promise<void> {
 
   // 3. Insertar columnas
   console.log(`\n▶ Insertando ${COLUMNS_TO_ADD.length} columnas...`);
-  let ok = 0, skip = 0, fail = 0;
+  let ok = 0, fail = 0; const skip = 0;
 
   for (const col of COLUMNS_TO_ADD) {
     const colSchema = buildColumn(col);

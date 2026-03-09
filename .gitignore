@@ -107,3 +107,16 @@ data/secure/
 scripts/setup/agent_config_sync.py
 scripts/setup/_pack_list.txt
 scripts/setup/_unpack_temp/
+
+# Root-level working artifacts (audit 2026-03-09)
+digestivo_bajo_table.json
+onco_casos_fields.json
+roles.json
+specialty_columns_data.json
+tmp/
+memory/
+
+# Generated UI validation artifacts (screenshots, JSON, MD)
+docs/ui-validation/screenshots/
+docs/ui-validation/visual-verification-*.json
+docs/ui-validation/visual-verification-*.md

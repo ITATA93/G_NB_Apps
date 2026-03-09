@@ -7,7 +7,7 @@ impacts: [CLAUDE.md]
 
 All automation scripts must be registered here per governance rule #2.
 
-**Total: 283 entries** across 16 directories (excluding test files, types.ts, node_modules, and README.md).
+**Total: 296 entries** across 17 directories (excluding test files, types.ts, node_modules, and README.md).
 Some scripts are cross-listed (cross-platform pairs and duplicate Python files across directories).
 
 ---
@@ -276,6 +276,27 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | create-patient-drawer.ts | TypeScript | Crea página "Ficha 360° Paciente" con 5 bloques: Datos Generales, Episodios Clínicos, Sesiones Comité, Garantías GES, Resumen Clínico |
 | configure-ugco-rls.ts | TypeScript | Configura Row-Level Security (RLS) para roles UGCO: scope filters en update/list/get por estado del caso y estado de garantías GES |
 | configure-ugco-fls.ts | TypeScript | Configura Field-Level Security (FLS): campos TNM (estadio\_clinico, codigo\_cie10, diagnostico\_principal) solo editables por medico\_oncologo y admin\_ugco |
+
+## UGCO Diagnostic Scripts (Apps/UGCO/scripts/diagnostics/) -- 13 scripts
+
+> Utilities created during UGCO debugging sessions (2026-03). One-off fixes and diagnostic tools
+> for chart blocks, association columns, and table rendering issues.
+
+| Script | Type | Description |
+| ------ | ---- | ----------- |
+| compare-columns.ts | TypeScript | Compara schemas de columnas working vs broken para identificar diferencias |
+| diagnose-column-schema.ts | TypeScript | Diagnóstico de esquema de columnas en tablas UGCO |
+| diagnose-remaining.ts | TypeScript | Identifica bloques y campos pendientes de corrección |
+| diagnose-tables.ts | TypeScript | Diagnóstico general de tablas UGCO (appends, titleField, fields) |
+| fix-association-columns.ts | TypeScript | Corrige columnas de asociación (property key, appends, titleField) |
+| fix-chart-aggregation.ts | TypeScript | Corrige charts usando aggregate→aggregation en measures |
+| fix-charts-v2.ts | TypeScript | Segunda iteración de corrección de chart blocks |
+| fix-charts-v3.ts | TypeScript | Tercera iteración de corrección de chart blocks (schema 3 capas) |
+| fix-collection-field-props.ts | TypeScript | Corrige propiedades de CollectionField en schemas UI |
+| fix-column-keys.ts | TypeScript | Corrige property keys de columnas (paciente_id→paciente) |
+| fix-column-titles.ts | TypeScript | Corrige títulos de columnas en tablas de especialidad |
+| fix-table-appends.ts | TypeScript | Agrega appends faltantes a TableBlockProvider |
+| fix-titlefield.ts | TypeScript | Establece titleField en colecciones target de asociaciones |
 
 ## UGCO Archived Scripts (Apps/UGCO/scripts-archive/) -- ARCHIVED
 

@@ -96,20 +96,39 @@ async function createRole(role: RoleConfig): Promise<boolean> {
   }
 }
 
-async function grantPermissions(roleName: string, collection: string, actions: Action[]) {
-  try {
-    await api.post('/roles:setResources', {
-      filterByTk: roleName,
-      values: [
-        {
-          name: collection,
-          usingActionsConfig: true,
-          actions: actions.map((a) => ({ name: a, fields: [], scope: null })),
-        },
-      ],
-    } as any);
-  } catch {
-    /* Silent */
+async function grantPermissions(roleName: string, permissions: Record<string, Action[]>) {
+  // Step 1: Create resource entries for each collection
+  for (const collection of Object.keys(permissions)) {
+    try {
+      await api.post(`/roles/${roleName}/resources:create`, {
+        name: collection,
+        usingActionsConfig: true,
+      } as any);
+    } catch {
+      // Skip if already exists
+    }
+  }
+
+  // Step 2: Get numeric IDs for the resources
+  const res = await api.get(`/roles/${roleName}/resources:list`, {
+    pageSize: 200,
+    appends: ['actions'],
+  } as any);
+  const resources = (res.data || []) as any[];
+
+  // Step 3: Update each resource with its actions using numeric ID
+  for (const [collection, actions] of Object.entries(permissions)) {
+    const resource = resources.find((r: any) => r.name === collection);
+    if (!resource) continue;
+
+    try {
+      await api.post(`/roles/${roleName}/resources:update?filterByTk=${resource.id}`, {
+        usingActionsConfig: true,
+        actions: actions.map((a) => ({ name: a })),
+      } as any);
+    } catch (err: any) {
+      log(`    ⚠️  ${collection}: ${err.message}`, 'yellow');
+    }
   }
 }
 
@@ -124,9 +143,7 @@ async function main() {
   log('\n── Step 2: Asignar permisos ──\n', 'cyan');
   for (const role of ROLES) {
     log(`  Configurando ${role.roleName}...`, 'gray');
-    for (const [col, actions] of Object.entries(role.permissions)) {
-      await grantPermissions(role.roleName, col, actions);
-    }
+    await grantPermissions(role.roleName, role.permissions);
     log(`    [OK] ${Object.keys(role.permissions).length} colecciones`, 'green');
   }
 

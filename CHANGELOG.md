@@ -8,6 +8,45 @@ impacts: []
 All notable changes to this project will be documented in this file.
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.2.0] — 2026-03-09
+
+### Added
+
+- **BUHO App (v1.0)** — Sistema de hospitalización desplegado en staging (imedicina.cl)
+  - 5 colecciones: buho_pacientes (26 campos), buho_camas, buho_alertas, buho_planes_trabajo, buho_parametros_riesgo
+  - 3 roles: medico_buho, enfermeria_buho, jefe_servicio_buho
+  - 6 páginas con table blocks + 2 sub-grupos (Pacientes, Administración)
+  - 2 workflows: clasificar riesgo automáticamente, alertar alta < 2 días
+  - 5 pacientes de prueba cargados
+
+- **AGENDA App (v1.0)** — Agenda Médica Hospitalaria desplegada en staging
+  - 8 colecciones + 54 campos desplegados
+  - 3 roles con permisos: admin_agenda, jefe_servicio_agenda, medico_agenda (24 grants)
+  - 9 páginas + 1 sub-grupo (Admin Agenda)
+  - 3 workflows: calcular duración, resumen diario, resumen semanal
+  - 32 registros seed (16 categorías actividad + 6 tipos inasistencia + 10 servicios)
+
+- **ENTREGA App (v1.0)** — Entrega de Turno desplegada en staging
+  - 10 colecciones + 138 campos desplegados
+  - 11 roles preexistentes
+  - 17 páginas en 2 sub-grupos (Entrega Médica + Enfermería)
+  - 3 workflows: sync censo ALMA, registrar entrega, cerrar turno
+  - 21 registros seed (9 especialidades + 12 servicios)
+
+- **Seed scripts**: seed-agenda-references.ts, seed-entrega-references.ts, seed-buho-patients.ts
+- **Documentación**: troubleshooting.md, release-checklist.md
+
+### Fixed
+
+- **Permisos AGENDA**: Reescrito `grantPermissions()` usando API correcta (`roles/{role}/resources:create` + `resources:update?filterByTk={numericId}`) — el endpoint `/roles:setResources` no existe en NocoBase v1.9.14
+- **ESLint**: 5 errores `prefer-const` corregidos, 0 errores restantes
+
+### Changed
+
+- Movidos 13 scripts diagnósticos UGCO a `Apps/UGCO/scripts/diagnostics/`
+- Actualizado `.gitignore`: excluye screenshots UI, root JSONs, tmp/, memory/
+- Script registry actualizado: 283 → 296 entries
+
 ## [Unreleased]
 
 ### Added

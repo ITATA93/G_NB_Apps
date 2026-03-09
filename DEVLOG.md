@@ -5,6 +5,28 @@ impacts: [CHANGELOG.md]
 
 # Development Log — G_NB_Apps
 
+## 2026-03-09 (BUHO + AGENDA + ENTREGA — Deploy Completo a Staging)
+
+**Status:** COMPLETED — branch `autopilot/buho-agenda-entrega-full`
+
+**Target:** https://mira.imedicina.cl (staging)
+
+**Acciones ejecutadas:**
+
+- **T1 — Verificación de menús:** 87 rutas verificadas via API (`desktopRoutes:list`) — 4 grupos de apps (UGCO, BUHO, AGENDA, ENTREGA) con todas sus páginas y tabs
+- **T2 — Workflows habilitados:** 8/8 workflows activados (UGCO: 3, BUHO: 2, AGENDA: 2, ENTREGA: 1)
+- **T3 — Seed AGENDA:** Colecciones desplegadas via `deploy-agenda-collections.ts` + `deploy-agenda-roles.ts`. 16 categorías de actividad, 6 tipos de inasistencia, 10 servicios hospitalarios
+- **T4 — Seed ENTREGA:** Colecciones desplegadas via `deploy-entrega-collections.ts`. 9 especialidades médicas, 12 servicios hospitalarios
+- **T5 — Seed BUHO:** 5 pacientes ficticios insertados via `seed-buho-patients.ts` (datos chilenos realistas: RUT, nombres, diagnósticos, servicios)
+- **T6 — Permisos AGENDA:** Reescrita función `grantPermissions()` en `deploy-agenda-roles.ts` para usar patrón correcto: `resources:create` → `resources:list` (IDs numéricos) → `resources:update?filterByTk={numericId}`. 3 roles × 8 colecciones = 24 grants
+- **T7 — Documentación:** CHANGELOG.md actualizado con v1.2.0, DEVLOG.md actualizado
+
+**Bugs corregidos en la sesión:**
+- `deploy-agenda-roles.ts`: `/roles:setResources` retorna 404 en NocoBase v1.9.14 — reescrito a patrón de 3 pasos
+- Seed scripts AGENDA/ENTREGA retornaban 404 — colecciones no existían, se desplegaron primero
+
+---
+
 ## 2026-03-09 (Auditoría Completa + Mejoras Post-Auditoría)
 
 **Status:** COMPLETED — branch `autopilot/ugco-plan-v1-complete`

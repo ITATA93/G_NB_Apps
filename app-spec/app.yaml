@@ -896,6 +896,375 @@ entrega:
       trigger: 'both_signatures'
       description: 'Bloquear edición y generar snapshot de auditoría'
 
+  # ========================================
+  # ESPECIFICACIÓN FUNCIONAL — ENTREGA
+  # ========================================
+  # Esta sección define CÓMO los usuarios interactúan con la app,
+  # no solo QUÉ tablas existen. Es el puente entre el modelo de datos
+  # y la experiencia de usuario real.
+
+  functional_spec:
+
+    # --- USER JOURNEYS ---
+    # Flujos paso a paso que cada actor ejecuta en la aplicación.
+    # El agente de deploy DEBE verificar que cada journey sea completable end-to-end.
+
+    user_journeys:
+      - id: UJ-ET-01
+        name: 'Iniciar Entrega de Turno Médica'
+        actor: 'Médico de Especialidad'
+        frequency: '3 veces/día (cambio de turno)'
+        preconditions:
+          - 'Censo sincronizado desde ALMA (último sync < 30 min)'
+          - 'Usuario autenticado con rol de especialidad correspondiente'
+        steps:
+          - step: 1
+            action: 'Abrir página de su especialidad desde menú lateral'
+            page_key: 'et_medicina'
+            expects: 'Tabla filtrada con pacientes propios + pacientes en cotratancia (badge 🔄)'
+          - step: 2
+            action: 'Revisar lista de pacientes y verificar que el censo está actualizado'
+            interaction: 'visual_scan'
+            expects: 'Columnas: Cama, Nombre, Dx, Plan, Pendientes, Estado, Tipo (🏠/🔄)'
+          - step: 3
+            action: 'Click en paciente para ver/editar detalle'
+            interaction: 'click_row → drawer_panel'
+            expects: 'Panel lateral con sección read-only (ALMA) y sección editable (entrega)'
+          - step: 4
+            action: 'Editar campos de la entrega para cada paciente'
+            editable_fields: ['resumen_historia', 'plan_tratamiento', 'pendientes', 'estado_paciente']
+            note: 'Los campos se pre-llenan con datos del turno anterior (herencia)'
+          - step: 5
+            action: 'Click botón "Iniciar Entrega" para formalizar el turno'
+            triggers: 'workflow: crear_entrega_turno'
+            expects: 'Se crea registro en et_turnos, snapshot de pacientes, estado = en_curso'
+          - step: 6
+            action: 'Firmar la entrega (saliente firma primero, luego entrante)'
+            requires: ['firma_saliente = true', 'firma_entrante = true']
+            triggers: 'workflow: firmar_cerrar_entrega'
+            postcondition: 'Entrega inmutable, estado = firmada, edición bloqueada'
+
+      - id: UJ-ET-02
+        name: 'Asignar Cotratancia / Seguimiento'
+        actor: 'Médico o Jefe de Servicio'
+        frequency: 'Bajo demanda (1-5 veces/día)'
+        preconditions:
+          - 'Paciente existe en censo activo'
+        steps:
+          - step: 1
+            action: 'Abrir Vista Global desde menú'
+            page_key: 'et_vista_global'
+            expects: 'Tabla con TODOS los pacientes hospitalizados'
+          - step: 2
+            action: 'Identificar paciente que requiere evaluación por otra especialidad'
+            interaction: 'visual_scan + filtros'
+          - step: 3
+            action: 'Click botón "Asignar Cotratancia" en la fila del paciente'
+            interaction: 'click_action → modal_form'
+            expects: 'Modal con campos: especialidad destino, tipo (cotratancia/seguimiento), motivo'
+          - step: 4
+            action: 'Completar formulario y guardar'
+            creates: 'registro en et_cotratancia'
+            postcondition: 'Paciente ahora aparece en la página de la especialidad destino con badge 🔄'
+
+      - id: UJ-ET-03
+        name: 'Marcar Caso Social'
+        actor: 'Médico o Jefe de Servicio'
+        frequency: 'Ocasional'
+        steps:
+          - step: 1
+            action: 'Desde Vista Global o página de especialidad, click en paciente'
+            interaction: 'click_row → drawer_panel'
+          - step: 2
+            action: 'Activar toggle "Caso Social" y escribir motivo'
+            editable_fields: ['caso_social', 'motivo_caso_social']
+            postcondition: 'Paciente aparece marcado con 🚩 en todas las vistas'
+
+      - id: UJ-ET-04
+        name: 'Entrega de Enfermería por Servicio'
+        actor: 'Enfermera de Servicio'
+        frequency: '3 veces/día por servicio'
+        preconditions:
+          - 'Datos ZEN sincronizados desde ALMA'
+        steps:
+          - step: 1
+            action: 'Abrir página de su servicio (ej: Enf. MQ1)'
+            page_key: 'et_enf_mq1'
+            expects: 'Tabla con TODOS pacientes del servicio físico (sin importar especialidad)'
+          - step: 2
+            action: 'Revisar datos clínicos pre-llenados desde ZEN'
+            interaction: 'visual_scan'
+            expects: 'Signos vitales, dispositivos, lab, medicamentos pre-poblados'
+          - step: 3
+            action: 'Completar campos manuales: enfermera a cargo, observaciones, cuidados especiales'
+            editable_fields: ['enfermera_cargo_id', 'observaciones', 'cuidados_especiales', 'incidentes']
+          - step: 4
+            action: 'Firmar entrega de enfermería'
+            requires: ['firma_saliente', 'firma_entrante']
+
+      - id: UJ-ET-05
+        name: 'Consultar Historial de Entregas'
+        actor: 'Cualquier rol (read-only)'
+        frequency: 'Bajo demanda'
+        steps:
+          - step: 1
+            action: 'Abrir página Historial'
+            page_key: 'et_historial'
+          - step: 2
+            action: 'Filtrar por fecha, servicio, especialidad o paciente'
+            interaction: 'filter_bar'
+          - step: 3
+            action: 'Click en entrega pasada para ver detalle'
+            interaction: 'click_row → read_only_drawer'
+            expects: 'Detalle completo de la entrega firmada (inmutable)'
+
+    # --- PAGE SPECS ---
+    # Composición detallada de cada página: qué bloques contiene,
+    # qué filtros, qué acciones, y cómo se presenta al usuario.
+    # El agente de deploy configura NocoBase según estas specs.
+
+    page_specs:
+      - key: 'et_dashboard'
+        title: 'Dashboard Entrega de Turno'
+        layout: 'full_width'
+        description: 'Vista ejecutiva con métricas y alertas'
+        blocks:
+          - type: 'stat_cards'
+            cards:
+              - { label: 'Total Hospitalizados', source: 'et_pacientes_censo', aggregate: 'count' }
+              - { label: 'Ingresos Hoy', source: 'et_eventos_turno', filter: { tipo_evento: 'ingreso', fecha_hora: 'today' } }
+              - { label: 'Altas Hoy', source: 'et_eventos_turno', filter: { tipo_evento: 'alta', fecha_hora: 'today' } }
+              - { label: 'Casos Sociales', source: 'et_pacientes_censo', filter: { caso_social: true } }
+          - type: 'chart_bar'
+            title: 'Pacientes por Especialidad'
+            source: 'et_pacientes_censo'
+            group_by: 'especialidad_clinica'
+          - type: 'chart_pie'
+            title: 'Ocupación por Servicio'
+            source: 'et_pacientes_censo'
+            group_by: 'servicio_id'
+          - type: 'table'
+            title: 'Ranking Mayor Estadía (Top 20)'
+            collection: 'et_pacientes_censo'
+            columns: ['nombre', 'servicio_id', 'dias_hospitalizacion', 'dx_principal']
+            default_sort: { field: 'dias_hospitalizacion', order: 'desc' }
+            limit: 20
+          - type: 'table'
+            title: 'Alertas'
+            collection: 'et_pacientes_censo'
+            filter: { dias_hospitalizacion: { '>': 30 } }
+            columns: ['nombre', 'servicio_id', 'dias_hospitalizacion', 'caso_social']
+
+      - key: 'et_vista_global'
+        title: 'Vista Global de Hospitalizados'
+        layout: 'full_width'
+        description: 'Todos los pacientes, gestión de cotratancias y casos sociales'
+        blocks:
+          - type: 'table'
+            collection: 'et_pacientes_censo'
+            columns: ['cama', 'nombre', 'especialidad_clinica', 'dx_principal', 'medico_tratante_alma', 'dias_hospitalizacion', 'caso_social']
+            default_sort: { field: 'cama', order: 'asc' }
+            filters_bar:
+              - { field: 'servicio_id', label: 'Servicio' }
+              - { field: 'especialidad_clinica', label: 'Especialidad' }
+              - { field: 'medico_tratante_alma', label: 'Médico' }
+              - { field: 'caso_social', label: 'Solo Casos Sociales', type: 'toggle' }
+            row_actions:
+              - { label: 'Ver Detalle', type: 'drawer', target: 'patient_censo_detail' }
+              - { label: 'Asignar Cotratancia', type: 'modal', target: 'cotratancia_form', requires_role: ['jefe_servicio', 'admin_clinico'] }
+              - { label: 'Marcar Caso Social', type: 'inline_toggle', field: 'caso_social' }
+            actions: ['view', 'update']
+
+      - key: 'et_medicina'
+        title: 'Medicina Interna — Entrega Médica'
+        layout: 'full_width'
+        description: 'Pacientes propios de MI + cotratancias. Página principal para médicos internistas.'
+        blocks:
+          - type: 'table'
+            id: 'tabla_pacientes_mi'
+            collection: 'et_entrega_paciente'
+            data_scope:
+              base_filter: { especialidad_clinica: 'Medicina Interna' }
+              include_cotratancias: true
+              cotratancia_join: 'et_cotratancia WHERE especialidad_destino = "Medicina Interna" AND activa = true'
+            columns:
+              - { field: 'cama', width: 60 }
+              - { field: 'nombre', width: 200 }
+              - { field: 'dx_principal', width: 250 }
+              - { field: 'plan_tratamiento', width: 250, truncate: 80 }
+              - { field: 'pendientes', width: 200, truncate: 60 }
+              - { field: 'estado_paciente', width: 100, tag_colors: { estable: 'green', inestable: 'orange', grave: 'red', critico: 'red', alta_programada: 'blue' } }
+              - { field: 'tipo_inclusion', width: 80, badge: true }
+            default_sort: { field: 'cama', order: 'asc' }
+            grouping: { field: 'servicio_id', label: 'Ubicación Física' }
+            row_actions:
+              - label: 'Editar Entrega'
+                type: 'drawer'
+                target: 'patient_entrega_form'
+                sections:
+                  - title: 'Datos ALMA (read-only)'
+                    style: 'gray_background'
+                    fields: ['nombre', 'rut', 'edad', 'f_ingreso', 'dias_hospitalizacion', 'dx_principal', 'alergias']
+                  - title: 'Entrega Médica (editable)'
+                    style: 'white_background'
+                    fields:
+                      - { field: 'resumen_historia', widget: 'rich_text' }
+                      - { field: 'plan_tratamiento', widget: 'rich_text' }
+                      - { field: 'pendientes', widget: 'textarea' }
+                      - { field: 'medico_tratante_id', widget: 'dropdown', source: 'et_usuarios' }
+                      - { field: 'estado_paciente', widget: 'dropdown' }
+                  - title: 'Eventos del Turno'
+                    style: 'info_box'
+                    fields: ['eventos_turno', 'fue_operado', 'procedimiento', 'interconsulta']
+            bulk_actions:
+              - { label: 'Iniciar Entrega', icon: 'Play', requires_role: 'medico_medicina', triggers: 'crear_entrega_turno' }
+          - type: 'form'
+            id: 'firma_section'
+            display: 'inline_bottom'
+            collection: 'et_turnos'
+            visibility: 'only_when_turno_en_curso'
+            fields: ['responsable_saliente_id', 'firma_saliente', 'responsable_entrante_id', 'firma_entrante']
+            submit_label: 'Firmar y Cerrar Entrega'
+            triggers: 'firmar_cerrar_entrega'
+
+      # Nota: Las demás páginas de especialidad (et_cirugia, et_pediatria, etc.)
+      # siguen la misma estructura que et_medicina, cambiando solo:
+      # - data_scope.base_filter → la especialidad correspondiente
+      # - requires_role → el rol de la especialidad
+      # Se pueden generar programáticamente con el patrón definido arriba.
+
+      - key: 'et_enf_mq1'
+        title: 'Enfermería MQ1'
+        layout: 'full_width'
+        description: 'Entrega de enfermería para Medicina Quirúrgica 1. Todos los pacientes del servicio.'
+        blocks:
+          - type: 'table'
+            collection: 'et_entrega_enfermeria'
+            data_scope:
+              base_filter: { servicio_id: 'MQ1' }
+            columns:
+              - { field: 'cama', width: 60 }
+              - { field: 'nombre', width: 180 }
+              - { field: 'dx_confirmados', width: 200, truncate: 60 }
+              - { field: 'enfermera_cargo_id', width: 150 }
+              - { field: 'dispositivo_invasivo', width: 150 }
+              - { field: 'medicamentos', width: 150, truncate: 40 }
+              - { field: 'sat_o2', width: 60 }
+              - { field: 'temperatura', width: 60 }
+            row_actions:
+              - label: 'Detalle Paciente'
+                type: 'drawer'
+                sections:
+                  - title: 'Signos Vitales'
+                    fields: ['fc', 'pa_sistolica', 'pa_diastolica', 'fr', 'sat_o2', 'temperatura', 'hgt', 'eva_dolor']
+                  - title: 'Dispositivos Invasivos'
+                    fields: ['dispositivo_invasivo', 'fecha_instalacion', 'ubicacion_lateralidad', 'dias_instalado']
+                  - title: 'Cirugía'
+                    fields: ['cirugia_procedimiento', 'fecha_agendada', 'hora_agendada', 'quirofano', 'estado_cirugia']
+                  - title: 'Laboratorio e Imágenes'
+                    fields: ['lab_pendientes', 'img_pendientes']
+                  - title: 'Enfermería (editable)'
+                    style: 'white_background'
+                    fields:
+                      - { field: 'enfermera_cargo_id', widget: 'dropdown', source: 'et_usuarios' }
+                      - { field: 'observaciones', widget: 'textarea' }
+                      - { field: 'cuidados_especiales', widget: 'rich_text' }
+                      - { field: 'incidentes', widget: 'textarea' }
+          - type: 'form'
+            id: 'firma_enfermeria'
+            display: 'inline_bottom'
+            fields: ['enfermera_saliente_id', 'firma_saliente', 'enfermera_entrante_id', 'firma_entrante']
+
+      - key: 'et_historial'
+        title: 'Historial de Entregas'
+        layout: 'full_width'
+        description: 'Consulta de entregas pasadas (read-only)'
+        blocks:
+          - type: 'tabs'
+            tabs:
+              - title: 'Entregas Médicas'
+                block:
+                  type: 'table'
+                  collection: 'et_turnos'
+                  columns: ['fecha', 'turno', 'especialidad', 'responsable_saliente_id', 'responsable_entrante_id', 'estado']
+                  filters_bar:
+                    - { field: 'fecha', label: 'Fecha', type: 'date_range' }
+                    - { field: 'especialidad', label: 'Especialidad' }
+                  row_actions:
+                    - { label: 'Ver Detalle', type: 'drawer', read_only: true }
+                  actions: ['view']
+              - title: 'Entregas Enfermería'
+                block:
+                  type: 'table'
+                  collection: 'et_entrega_enfermeria'
+                  columns: ['fecha', 'turno', 'servicio_id', 'enfermera_saliente_id', 'enfermera_entrante_id']
+                  actions: ['view']
+
+    # --- STATE MACHINES ---
+    # Transiciones de estado válidas para entidades con ciclo de vida.
+    # El agente usa esto para configurar workflows y validaciones.
+
+    state_machines:
+      - entity: 'et_turnos'
+        field: 'estado'
+        initial: 'borrador'
+        transitions:
+          - { from: 'borrador', to: 'en_curso', trigger: 'user_click_iniciar', label: 'Iniciar Entrega', side_effects: ['crear_snapshot_pacientes', 'copiar_plan_turno_anterior'] }
+          - { from: 'en_curso', to: 'completada', trigger: 'all_patients_have_estado', label: 'Marcar Completa' }
+          - { from: 'completada', to: 'firmada', trigger: 'both_signatures_true', label: 'Firmar', side_effects: ['lock_editing', 'generate_audit_snapshot'] }
+        terminal_states: ['firmada']
+        constraints:
+          - 'No se puede retroceder de firmada a ningún estado anterior'
+          - 'Solo jefe_servicio puede volver de completada a en_curso'
+
+    # --- BUSINESS RULES ---
+    # Reglas de validación y lógica de negocio que el agente debe
+    # implementar como workflows o validaciones en NocoBase.
+
+    business_rules:
+      - id: BR-ET-01
+        description: 'Herencia de plan al crear nueva entrega'
+        trigger: 'crear_entrega_turno'
+        logic: |
+          Para cada paciente en el censo de la especialidad:
+          1. Buscar et_entrega_paciente del turno anterior para este paciente
+          2. Si existe, copiar: resumen_historia, plan_tratamiento, pendientes, medico_tratante_id
+          3. Si no existe (paciente nuevo), crear registro vacío
+        fields_inherited: ['resumen_historia', 'plan_tratamiento', 'pendientes', 'medico_tratante_id']
+
+      - id: BR-ET-02
+        description: 'No se puede firmar sin que todos los pacientes tengan estado asignado'
+        applies_to: 'et_turnos.firma_saliente'
+        validation: 'ALL(et_entrega_paciente WHERE turno_id = this).estado_paciente IS NOT NULL'
+        error_message: 'Debe asignar estado a todos los pacientes antes de firmar'
+
+      - id: BR-ET-03
+        description: 'Caso social solo editable por Jefe de Servicio o Admin'
+        applies_to: 'et_pacientes_censo.caso_social'
+        requires_role: ['jefe_servicio', 'admin_clinico']
+
+      - id: BR-ET-04
+        description: 'Cotratancias activas hacen visible al paciente en la especialidad destino'
+        logic: |
+          En las páginas por especialidad, el data scope debe incluir:
+          - Pacientes propios: especialidad_clinica = especialidad_de_la_pagina
+          - Pacientes en cotratancia: et_cotratancia WHERE especialidad_destino = especialidad_de_la_pagina AND activa = true
+        affects_pages: ['et_medicina', 'et_cirugia', 'et_pediatria', 'et_obst_gin', 'et_neonatologia', 'et_traumatologia', 'et_uci_uti']
+
+      - id: BR-ET-05
+        description: 'Entrega firmada es inmutable'
+        applies_to: 'et_entrega_paciente'
+        condition: 'et_turnos.estado = "firmada"'
+        effect: 'Todos los campos de et_entrega_paciente se vuelven read-only'
+
+      - id: BR-ET-06
+        description: 'Enfermería ve por servicio físico, médicos ven por especialidad clínica'
+        logic: |
+          - Páginas et_enf_* filtran por servicio_id (ubicación física: MQ1, UCI, PED)
+          - Páginas et_medicina/et_cirugia/etc filtran por especialidad_clinica
+          - Un paciente de Medicina en UCI aparece en "Medicina", NO en "UCI" (para médicos)
+          - Pero SÍ aparece en "Enf. UCI" (para enfermería)
+
 # =============================================
 # MÓDULO: AGENDA MÉDICA
 # =============================================

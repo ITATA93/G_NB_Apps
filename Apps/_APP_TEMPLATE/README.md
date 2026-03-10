@@ -97,7 +97,40 @@ Ver [BD/README_Modelo.md](BD/README_Modelo.md) para detalles completos.
 - **ALMA/SIDRA**: [Descripción de integración read-only]
 - **[Otro Sistema]**: [Descripción]
 
----
+### Especificación Funcional
+
+> ⚠️ **OBLIGATORIO**: Toda app debe documentar su especificación funcional.
+> Un blueprint sin esta sección produce solo maquetación básica (tablas planas).
+
+#### User Journeys
+
+| ID | Actor | Flujo | Frecuencia |
+|----|-------|-------|------------|
+| UJ-XX-01 | [Rol principal] | [Nombre del flujo] | [Frecuencia] |
+| UJ-XX-02 | [Otro rol] | [Nombre del flujo] | [Frecuencia] |
+
+Ver sección `functional_spec.user_journeys` en app-spec/app.yaml.
+
+#### Composición de Páginas
+
+| Página | Bloques | Filtros | Acciones |
+|--------|---------|---------|----------|
+| [page_key] | [table + drawer] | [campo1, campo2] | [crear, editar, ver] |
+
+Ver sección `functional_spec.page_specs` en app-spec/app.yaml.
+
+#### Máquinas de Estado
+
+| Entidad | Campo | Estados | Transiciones |
+|---------|-------|---------|--------------|
+| [colección] | [campo_estado] | [estado1 → estado2 → estado3] | [trigger: acción] |
+
+#### Reglas de Negocio
+
+| ID | Regla | Aplica a | Efecto |
+|----|-------|----------|--------|
+| BR-XX-01 | [Descripción] | [entidad.campo] | [Validación/Bloqueo] |
+
 
 ## Fases de Implementación
 

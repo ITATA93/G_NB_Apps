@@ -34,18 +34,37 @@ impacts: [CHANGELOG.md]
 
 - Configurar variables de contexto en nodos WF-4/WF-5 (patient_censo_id, turno_id desde resultado del nodo anterior)
 - Agregar columnas a tablas de Pabellón y Notas (via UI NocoBase)
-- Fase 5: PDF (WeasyPrint/Puppeteer microservice)
-- Fase 6-7: ALMA ETL + n8n/Google Sheets integration
+- Fase 6: PDF formateado (WeasyPrint/Puppeteer microservice — blueprint sección 4.2)
+- Fase 7: ALMA ETL + n8n/Google Sheets integration
 
-### Metrics
+---
 
-- Scripts creados: 7 (4 fases + 3 fix)
-- Campos creados: 38 (4 en et_pacientes_censo, 11 en et_turnos, más campos de 4 colecciones nuevas)
-- Roles creados: 2 (tens, administrativo)
-- Roles actualizados: 11
-- Páginas creadas: 3
-- Workflows creados: 4
-- Commits: 2 en rama autopilot/entrega-blueprint-completion
+## 2026-03-11 Autopilot — ENTREGA Fase 5: Gaps + Impresión (hospitaldeovalle.cl)
+
+**Status:** COMPLETED ✅ | **Branch:** autopilot/entrega-blueprint-completion
+
+**Misión:** Cerrar gaps de datos del blueprint + agregar capacidad de impresión usando plugin gratuito.
+
+**Acciones ejecutadas:**
+
+- **Campos faltantes** (`deploy-entrega-phase5-gaps.ts`): estado_clinico + pendientes en et_pacientes_censo, incidentes en et_turnos, tipo en et_servicios
+- **Seed unidades** (`deploy-entrega-phase5-gaps.ts`): 9 unidades faltantes (PENS, MAT, REC, PSQ, OBST, NEO, PCER, URG, CIBU)
+- **Tipo servicios** (`_update-servicios-tipo.ts`): 20 registros actualizados con tipo correcto
+- **Impresión** (`deploy-entrega-phase5-print.ts`):
+  - Plugin `action-print` (FREE, ya habilitado) — usa print CSS del browser
+  - Botón Print en ActionBar de Historial (uid: ActionBar `cut88kb1sat`)
+  - Nueva página "🖨️ Imprimir Entrega" (routeId: 352812856573953, grid: 71n2b4dcqhq)
+  - Asignada a 9 roles
+- **scripts.md**: +6 scripts registrados, total 332
+
+### Metrics (Fase 5)
+
+- Campos creados: 4 (estado_clinico, pendientes, incidentes, tipo)
+- Unidades seed: 9
+- Registros actualizados: 20 (tipo en et_servicios)
+- Páginas creadas: 1 (Imprimir Entrega)
+- Cobertura blueprint: ~80% → ~88%
+- Pendiente: PDF formateado completo (blueprint 4.2) = requiere microservicio o plugin Enterprise
 
 ---
 

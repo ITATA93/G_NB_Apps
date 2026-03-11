@@ -7,7 +7,7 @@ impacts: [CLAUDE.md]
 
 All automation scripts must be registered here per governance rule #2.
 
-**Total: 326 entries** across 18 directories (excluding test files, types.ts, node_modules, and README.md).
+**Total: 332 entries** across 18 directories (excluding test files, types.ts, node_modules, and README.md).
 Some scripts are cross-listed (cross-platform pairs and duplicate Python files across directories).
 
 ---
@@ -68,6 +68,10 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | fix-null-interfaces.ts | TypeScript | Fixes 224 fields with interface=null in ENTREGA/AGENDA/BUHO collections. Maps DB types to NocoBase interfaces. Supports --dry-run |
 | seed-empty-catalogs.ts | TypeScript | Seeds 7 empty catalog collections (et\_especialidades, et\_servicios, ag\_categorias, ag\_inasistencia, ag\_servicios, buho\_camas, buho\_parametros\_riesgo) with reference data. Idempotent |
 | add-ugco-dashboard-charts.ts | TypeScript | Inserts 3 chart blocks (Statistic, Bar, Pie) into UGCO Dashboard (tab schema q1v659ban1n) for ugco\_casooncologico |
+| \_add-entrega-table-blocks.ts | TypeScript | Adds table blocks to 3 ENTREGA pages (Pabellón, Notas Clínicas, Configuración) using hardcoded gridUids — one-time fix script |
+| \_fix-entrega-failed-fields.ts | TypeScript | Fixes 2 fields with unsupported API types: et_turnos.pdf_generado (attachment→text) + et_notas_clinicas.contenido (richText→text) |
+| \_fix-entrega-pages.ts | TypeScript | Deletes 3 broken ENTREGA pages (missing schemaUid) and recreates them using shared createPage helper with proper tab children and role assignments |
+| \_update-servicios-tipo.ts | TypeScript | Updates campo tipo en et_servicios existentes usando TIPO_MAP — mapea 20 códigos de servicio a Hospitalización/Crítico/Transitoria/Especialidad |
 | \_audit-collect-data.ts | TypeScript | Collects production data (routes, roles, workflows, datasources, collections, schemas) and saves JSON to docs/audit/\_audit-data/ |
 | \_audit-counts.ts | TypeScript | Counts records in all key collections via list endpoint (pageSize=1, meta.count) |
 | \_audit-analyze-schemas.ts | TypeScript | Analyzes UI schemas to detect block types, CRUD capabilities, columns and form structures per page |
@@ -228,6 +232,8 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | deploy-entrega-phase2-roles.ts | TypeScript | FASE 2: Crea roles "tens" y "administrativo" + actualiza permisos de 11 roles existentes para incluir las 4 nuevas colecciones |
 | deploy-entrega-phase3-pages.ts | TypeScript | FASE 3: Crea páginas Pabellón, Notas Clínicas y Admin/Configuración; asigna rutas a roles y agrega bloques de tabla básicos |
 | deploy-entrega-phase4-workflows.ts | TypeScript | FASE 4: Crea 4 workflows nuevos (Ingreso paciente, Alta paciente, Alerta crítico, Alerta larga hospitalización) con triggers configurados + guía de nodos manuales |
+| deploy-entrega-phase5-gaps.ts | TypeScript | FASE 5: Cierra gaps del blueprint — agrega estado_clinico+pendientes a et_pacientes_censo, incidentes a et_turnos, campo tipo a et_servicios + seed 9 unidades faltantes (PENS,MAT,REC,PSQ,OBST,NEO,PCER,URG,CIBU). Idempotente, soporta --dry-run |
+| deploy-entrega-phase5-print.ts | TypeScript | FASE 5: Agrega botón Print (plugin action-print FREE) al ActionBar de Historial + crea página "Imprimir Entrega" con tablas de turnos y pacientes activos, asignada a 9 roles |
 | seed-entrega-references.ts | TypeScript | Seeds 9 especialidades médicas + 12 servicios hospitalarios para Entrega de Turno |
 
 ## App Scripts -- BUHO Legacy (Apps/BUHO/backend/scripts/)

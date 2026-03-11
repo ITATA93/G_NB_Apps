@@ -29,6 +29,19 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
     - 4 workflows creados: Ingreso paciente (WF-4), Alta paciente (WF-5), Alerta crítico (WF-6), Alerta larga estancia (WF-7)
     - Nodos de WF-4 y WF-5 configurados con tipo_nota_id correcto (Ingreso=9, Alta=5)
   - ENTREGA cobertura blueprint: 45% → ~80%
+- **ENTREGA Fase 5 — Gaps + Impresión** (2026-03-11, producción hospitaldeovalle.cl)
+  - **Gaps de datos** (`deploy-entrega-phase5-gaps.ts`):
+    - `et_pacientes_censo.estado_clinico` (enum: Estable/Observación/Crítico/Alta pendiente, default Estable)
+    - `et_pacientes_censo.pendientes` (text — acciones pendientes del turno)
+    - `et_turnos.incidentes` (text — eventos adversos)
+    - `et_servicios.tipo` (enum: Hospitalización/Crítico/Transitoria/Especialidad)
+    - Seed 9 unidades faltantes: PENS, MAT, REC, PSQ, OBST, NEO, PCER, URG, CIBU
+    - Tipo actualizado en 20 registros de et_servicios (`_update-servicios-tipo.ts`)
+  - **Impresión** (`deploy-entrega-phase5-print.ts`):
+    - Botón Print (plugin `action-print` FREE) en ActionBar de Historial
+    - Nueva página "🖨️ Imprimir Entrega" con instrucciones + tabla turnos + tabla pacientes activos
+    - Asignada a 9 roles (6 médicos + jefatura + administrativo)
+  - ENTREGA cobertura blueprint: ~80% → ~88%
 
 ### Fixed
 

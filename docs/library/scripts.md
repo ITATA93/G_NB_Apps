@@ -7,7 +7,7 @@ impacts: [CLAUDE.md]
 
 All automation scripts must be registered here per governance rule #2.
 
-**Total: 305 entries** across 18 directories (excluding test files, types.ts, node_modules, and README.md).
+**Total: 326 entries** across 18 directories (excluding test files, types.ts, node_modules, and README.md).
 Some scripts are cross-listed (cross-platform pairs and duplicate Python files across directories).
 
 ---
@@ -35,6 +35,12 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | complete\_config.sh | Shell | Batch runner that adds table blocks to UGCO, SGQ, and Admin pages via add-block-to-page.ts (Bash version) |
 | deep\_route\_inspection.ts | TypeScript | Inspects all NocoBase desktop routes with full detail (paginate: false) |
 | deep\_route\_inspection\_simple.ts | TypeScript | Simplified inspection of NocoBase desktop routes |
+| deploy-all-markdown-intros.ts | TypeScript | Deploys introductory Markdown blocks to all pages of BUHO, AGENDA, ENTREGA, UGCO + creates "Guía de Uso" wiki page per app. Idempotent. Supports --app and --dry-run flags |
+| fix-create-action-drawers.ts | TypeScript | Fixes table "Add New" buttons (empty drawer → FormBlockProvider+FormV2) and empty row action columns (adds View+Edit links). Supports --dry-run and --app flags |
+| fix-form-fields.ts | TypeScript | Populates empty create/edit form Grids with CollectionField nodes from the collection's field definitions. Supports --dry-run and --app flags |
+| fix-markdown-component.ts | TypeScript | Patches Markdown blocks from x-component "Markdown" (editor) to "Markdown.Void" (display). Supports --dry-run |
+| fix-wiki-visibility.ts | TypeScript | Assigns wiki "Guía de Uso" page routes to all non-root roles via desktopRoutes:add |
+| verify-create-drawer.ts | TypeScript | CDP-based visual verification of "Add New" drawer behavior — navigates to BUHO table pages, clicks Add New, inspects drawer DOM for FormV2/inputs, takes screenshots to c:/tmp/ |
 | deploy-ui-guide.ts | TypeScript | Deploys UI pages via API following the official NocoBase guide protocol (route, grid, block, columns, actions) |
 | fix\_menu\_visibility.ts | TypeScript | Adds menu items to the UGCO parent group in NocoBase UI schemas |
 | get\_page\_ids.py | Python | Retrieves route IDs for target pages (Casos, Comite, Agenda, etc.) from NocoBase desktop routes |
@@ -50,6 +56,7 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | safe-write.sh | Shell | Output governance file creator -- ensures files are created in allowed target directories |
 | seed-mock-data.ts | TypeScript | Seeds mock data (50+ records) into onco\_casos and schedule\_blocks for visual complexity testing |
 | validate-all-scripts.ps1 | PowerShell | Quick validation of all NocoBase npm/tsx scripts -- verifies operational status |
+| validate\_blueprint.py | Python | Validates app-spec/app.yaml blueprint completeness -- checks functional\_spec coverage (user\_journeys, page\_specs, state\_machines, business\_rules) per module |
 | validate-chrome-remote.ts | TypeScript | Validates NocoBase UI by connecting to Chrome remote debugging via CDP (port 9222) |
 | validate-deep.ts | TypeScript | Deep validation of NocoBase UI + network -- captures console errors and failed network requests |
 | validate-injection-e2e.ts | TypeScript | Unified E2E injection test (Playwright) -- injects data via API, verifies in browser UI, cleans up |
@@ -58,6 +65,15 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | diagnose-charts.ts | TypeScript | Playwright: diagnóstico completo de chart blocks -- errores de consola, DOM del área de gráficos, requests de red, guardado en JSON |
 | agent\_health\_check.py | Python | Validates that all agent definitions are correctly configured (manifest, definitions, vendor configs) |
 | agent\_selftest.py | Python | Verifies that each project has infrastructure for autonomous agent work (dispatch, manifests, workflows, memory) |
+| fix-null-interfaces.ts | TypeScript | Fixes 224 fields with interface=null in ENTREGA/AGENDA/BUHO collections. Maps DB types to NocoBase interfaces. Supports --dry-run |
+| seed-empty-catalogs.ts | TypeScript | Seeds 7 empty catalog collections (et\_especialidades, et\_servicios, ag\_categorias, ag\_inasistencia, ag\_servicios, buho\_camas, buho\_parametros\_riesgo) with reference data. Idempotent |
+| add-ugco-dashboard-charts.ts | TypeScript | Inserts 3 chart blocks (Statistic, Bar, Pie) into UGCO Dashboard (tab schema q1v659ban1n) for ugco\_casooncologico |
+| \_audit-collect-data.ts | TypeScript | Collects production data (routes, roles, workflows, datasources, collections, schemas) and saves JSON to docs/audit/\_audit-data/ |
+| \_audit-counts.ts | TypeScript | Counts records in all key collections via list endpoint (pageSize=1, meta.count) |
+| \_audit-analyze-schemas.ts | TypeScript | Analyzes UI schemas to detect block types, CRUD capabilities, columns and form structures per page |
+| \_audit-fields-check.ts | TypeScript | Checks field interfaces, associations, ACL details and workflow states across all collections |
+| \_audit-verify-fixes.ts | TypeScript | Post-fix verification: validates 0 null interfaces remain, catalogs populated, updated record counts. 9 checks |
+| \_verify-dashboard-charts.ts | TypeScript | Verifies chart blocks in UGCO Dashboard by inspecting schema rows and block types |
 | audit\_ecosystem.py | Python | Context-aware normalization audit of all AG projects -- detects hardcoded credentials while ignoring validators |
 | cross\_task.py | Python | Cross-workspace task delegation system -- creates, lists, updates, and tracks tasks spanning multiple AG projects |
 | ecosystem\_dashboard.py | Python | Category-aware dashboard for the full AG ecosystem -- groups projects by category with health indicators |
@@ -71,6 +87,15 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | sync-skills.ps1 | PowerShell | Consolidates and synchronizes Antigravity skills across all vendor directories (.gemini, .claude, .codex) |
 | migrate\_ecosystem.ps1 | PowerShell | Migrates flat workspace into Star Topology domain architecture |
 | Generate-Context.ps1 | PowerShell | Generates a context prompt for Gemini 3.0 based on current G\_NB\_Apps project state |
+| sync-sidra.ts | TypeScript | Syncs data from SIDRA-TEST SQL Server views into NocoBase collections (BUHO, ENTREGA, AGENDA). UPSERT by unique key. Supports --dry-run, --app flags |
+| fix-ugco-create-form.ts | TypeScript | Simplifies UGCO create forms from 50 fields to 5 essential (paciente, especialidades, fecha\_caso, diagnostico\_principal, codigo\_cie10) |
+| add-entrega-dashboard-charts.ts | TypeScript | Inserts 3 chart blocks (Statistic, Bar, Pie) into ENTREGA Dashboard (tab schema fd9e8d1ywso) for et\_pacientes\_censo |
+| deploy-ugco-reportes-prod.ts | TypeScript | Inserts 5 exportable tables (Casos, Eventos, Tareas, Comites, Comite-Casos) into UGCO Reportes page (grid mawu9ngyedg) |
+| deploy-buho-kanban.ts | TypeScript | Converts estado\_plan/riesgo\_detectado/categorizacion to select fields, creates Kanban Pacientes page grouped by estado\_plan, assigns to 3 BUHO roles |
+| \_audit-buho-state.ts | TypeScript | Audits BUHO app state: collections, routes, fields, roles, Kanban plugin status |
+| \_audit-ugco-reportes.ts | TypeScript | Discovers UGCO Reportes page route/tab structure and schema contents |
+| \_verify-entrega-dashboard.ts | TypeScript | Verifies ENTREGA Dashboard schema rows and block types |
+| \_verify-ugco-reportes.ts | TypeScript | Verifies UGCO Reportes schema rows, columns and table collections |
 
 ## Setup Scripts (scripts/setup/)
 
@@ -142,6 +167,7 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | manage-verification.ts | TypeScript | Management of NocoBase verification providers via verification plugin |
 | manage-workflows.ts | TypeScript | Management of NocoBase workflows (list, get, nodes, enable, disable, trigger, create, delete) |
 | nocobase-ui-helpers.ts | TypeScript | Shared helpers for NocoBase UI schema generation (uid, buildTableBlock, wrapInRow, createPage, findGridUid) |
+| verify-deploy.ts | TypeScript | Post-deploy verification: 10 automated checks (fields, catalogs, routes, workflows, schemas, charts, ghost blocks). Maps to failure-catalog.yaml. Exit code 1 on critical/high FAIL |
 | probe-nb-internals.ts | TypeScript | Maps NocoBase internal database tables and relations (routes, schemas, blocks, menus, roles) |
 | probe-ui-api.ts | TypeScript | Systematically explores and documents all NocoBase UI API endpoints |
 | seed-agenda-data.ts | TypeScript | Seeds AGENDA catalog data (categories, activity types) from hardcoded definitions |
@@ -180,12 +206,13 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | TEMP\_12.ts | TypeScript | Insert table blocks into \_tabs schemas for ENTREGA pages |
 | deploy-oncologia.ts | TypeScript | Create Oncologia menu group + 4 pages with table blocks (Triple Binding pattern) |
 
-## App Scripts -- AGENDA (Apps/AGENDA/scripts/) -- 4 scripts
+## App Scripts -- AGENDA (Apps/AGENDA/scripts/) -- 5 scripts
 
 | Script | Type | Description |
 | ------ | ---- | ----------- |
 | create-agenda-workflows.ts | TypeScript | Creates 3 AGENDA workflows (resumen diario, resumen semanal, cálculo duración) in NocoBase |
 | deploy-agenda-collections.ts | TypeScript | Creates the 8 AGENDA collections + all fields + seed data in NocoBase following app.yaml blueprint |
+| deploy-agenda-pages.ts | TypeScript | Creates Agenda menu group + 8 table pages in NocoBase UI via desktopRoutes |
 | deploy-agenda-roles.ts | TypeScript | Creates 3 AGENDA roles (admin\_agenda, jefe\_servicio\_agenda, medico\_agenda) with 24 ACL grants |
 | seed-agenda-references.ts | TypeScript | Seeds 16 categorías de actividad, 6 tipos de inasistencia, 10 servicios hospitalarios |
 
@@ -197,6 +224,10 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | cleanup-duplicate-collections.ts | TypeScript | Removes duplicate/empty collections in NocoBase (only deletes collections with 0 records) |
 | create-entrega-workflows.ts | TypeScript | Creates 3 ENTREGA workflows (crear entrega, firmar/cerrar, sync censo ALMA) in NocoBase |
 | deploy-entrega-collections.ts | TypeScript | Creates the 10 ENTREGA collections + all fields + seed data in NocoBase following app.yaml blueprint |
+| deploy-entrega-phase2-collections.ts | TypeScript | FASE 2: Agrega 4 campos a et_pacientes_censo (estado_turno, es_aislamiento, requiere_interconsulta, tipo_ingreso), 11 campos a et_turnos (contadores, snapshot, PDF, cierre) y crea 4 tablas nuevas: et_tipos_nota, et_notas_clinicas, et_operaciones_turno, et_config_sistema + seed de 9 tipos de nota y 10 parámetros de config |
+| deploy-entrega-phase2-roles.ts | TypeScript | FASE 2: Crea roles "tens" y "administrativo" + actualiza permisos de 11 roles existentes para incluir las 4 nuevas colecciones |
+| deploy-entrega-phase3-pages.ts | TypeScript | FASE 3: Crea páginas Pabellón, Notas Clínicas y Admin/Configuración; asigna rutas a roles y agrega bloques de tabla básicos |
+| deploy-entrega-phase4-workflows.ts | TypeScript | FASE 4: Crea 4 workflows nuevos (Ingreso paciente, Alta paciente, Alerta crítico, Alerta larga hospitalización) con triggers configurados + guía de nodos manuales |
 | seed-entrega-references.ts | TypeScript | Seeds 9 especialidades médicas + 12 servicios hospitalarios para Entrega de Turno |
 
 ## App Scripts -- BUHO Legacy (Apps/BUHO/backend/scripts/)
@@ -207,11 +238,12 @@ Some scripts are cross-listed (cross-platform pairs and duplicate Python files a
 | init-db.ts | TypeScript | Initializes BUHO database schema from SQL migrations |
 | register-collection.ts | TypeScript | Registers BUHO\_Pacientes collection in NocoBase via API |
 
-## App Scripts -- BUHO (Apps/BUHO/scripts/) -- 4 scripts
+## App Scripts -- BUHO (Apps/BUHO/scripts/) -- 5 scripts
 
 | Script | Type | Description |
 | ------ | ---- | ----------- |
 | deploy-buho-collections.ts | TypeScript | Creates BUHO collections + fields in NocoBase following app.yaml blueprint |
+| deploy-buho-pages.ts | TypeScript | Creates BUHO menu group + 6 pages (5 tables + 1 kanban) in NocoBase UI via desktopRoutes |
 | deploy-buho-roles.ts | TypeScript | Creates 3 BUHO roles (admin\_buho, medico\_buho, enfermera\_buho) with ACL grants |
 | create-buho-workflows.ts | TypeScript | Creates 2 BUHO workflows (ingreso, alta) in NocoBase |
 | seed-buho-patients.ts | TypeScript | Seeds 5 fictional patients with realistic Chilean data (RUT, diagnoses, services) |

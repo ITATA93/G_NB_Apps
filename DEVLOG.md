@@ -5,6 +5,192 @@ impacts: [CHANGELOG.md]
 
 # Development Log — G_NB_Apps
 
+## 2026-03-11 Autopilot — ENTREGA Blueprint Fases 1-4 (mira.imedicina.cl)
+
+**Status:** COMPLETED ✅ | **Branch:** autopilot/entrega-blueprint-completion
+
+**Misión:** Completar implementación del "Sistema de Gestión de Entrega de Turno Hospitalario" en staging (mira.imedicina.cl). Cobertura 45% → 80%.
+
+**Acciones ejecutadas:**
+
+- **Fase 1 — Modelo de datos**: 38 campos procesados (36 OK + 2 con tipos incorrectos → fix)
+  - Tipos no soportados: `attachment` → `text`, `richText` → `text`
+  - 4 colecciones creadas: et_tipos_nota, et_notas_clinicas, et_operaciones_turno, et_config_sistema
+  - Seed: 9 tipos de nota + 10 parámetros de configuración
+- **Fase 2 — Roles**: 2 roles nuevos (tens, administrativo) + 11 roles actualizados
+- **Fase 3 — Páginas**: 3 páginas creadas con schema completo (fix required: phase3 script usó createPage simplificado sin schemaUid)
+  - Corrección: delete+recreate con createPage helper correcto del shared module
+  - 6 bloques de tabla insertados via uiSchemas:insertAdjacent/${gridUid}?position=beforeEnd
+- **Fase 4 — Workflows**: 4 workflows creados con nodos; nodos WF-4 y WF-5 configurados con tipo_nota_id=9 (Ingreso) y tipo_nota_id=5 (Alta)
+- **Dashboard**: Ya tenía 3 charts del deploy anterior (statistic + bar + pie)
+
+**Errores encontrados y resueltos:**
+
+1. `attachment`/`richText` no soportados → cambiados a `text`
+2. `createPage` en phase3 script no creaba `schemaUid` → fix con shared helper
+3. `uiSchemas:insertAdjacent` con uid en body en vez de URL → corregido formato
+
+**Pendientes manuales (API no lo permite automáticamente):**
+
+- Configurar variables de contexto en nodos WF-4/WF-5 (patient_censo_id, turno_id desde resultado del nodo anterior)
+- Agregar columnas a tablas de Pabellón y Notas (via UI NocoBase)
+- Fase 5: PDF (WeasyPrint/Puppeteer microservice)
+- Fase 6-7: ALMA ETL + n8n/Google Sheets integration
+
+### Metrics
+
+- Scripts creados: 7 (4 fases + 3 fix)
+- Campos creados: 38 (4 en et_pacientes_censo, 11 en et_turnos, más campos de 4 colecciones nuevas)
+- Roles creados: 2 (tens, administrativo)
+- Roles actualizados: 11
+- Páginas creadas: 3
+- Workflows creados: 4
+- Commits: 2 en rama autopilot/entrega-blueprint-completion
+
+---
+
+## 2026-03-10 Session 3 (Sistema de Auto-Mejora y Prevencion de Fallos)
+
+**Status:** COMPLETED
+
+**Acciones ejecutadas:**
+
+- **Failure Catalog**: Creado `docs/standards/failure-catalog.yaml` con 21 entradas cubriendo 4 categorias (silent_failure, schema_structure, post_deploy, config_drift). Cada entrada tiene ID, severidad, causa raiz, constraint de prevencion y checker asociado
+- **Verify-Deploy Script**: Creado `shared/scripts/verify-deploy.ts` con 5 checker groups (10 checks totales). Verificado contra staging (imedicina.cl): UGCO 7/7 PASS, ENTREGA 5+1 FAIL, AGENDA 4+2 FAIL, BUHO 4+2 FAIL (los FAIL son issues conocidos no corregidos en staging, validando que el script detecta correctamente)
+- **Agent Rule 80**: Creado `.agent/rules/80_failure_prevention.md` con 14 constraints obligatorias
+- **Integracion**: Gate 15 en regla 70, paso 9 en workflow 12, nivel L0 en SKILL.md
+
+### Metrics
+
+- Archivos creados: 3 (failure-catalog.yaml, verify-deploy.ts, 80_failure_prevention.md)
+- Archivos modificados: 5 (regla 70, workflow 12, SKILL.md, CHANGELOG, DEVLOG)
+- Checks implementados: 10 (NB-FAIL-001 a NB-FAIL-016)
+- Fallos catalogados: 21
+
+---
+
+## 2026-03-10 Session 2 (P1 roadmap: ENTREGA Dashboard, UGCO Reportes, BUHO Kanban)
+
+**Status:** COMPLETED
+
+**Acciones ejecutadas:**
+
+- **P1-7: Dashboard ENTREGA charts**: 3 bloques chart insertados (Statistic total pacientes, Bar por servicio, Pie por especialidad) via `scripts/add-entrega-dashboard-charts.ts`
+- **P1-9: UGCO Reportes funcional**: 5 tablas exportables insertadas en pagina Reportes (Casos, Eventos, Tareas, Comites, Casos-Comite) via `scripts/deploy-ugco-reportes-prod.ts`
+- **P1-5: BUHO Kanban**: Pagina Kanban Pacientes desplegada y asignada a 3 roles. 3 campos convertidos a select (estado_plan, riesgo_detectado, categorizacion) via `scripts/deploy-buho-kanban.ts`
+- **P1-8: ACL ENTREGA**: 11 roles verificados con permisos correctos (session anterior)
+- **P1-6: ALMA sync**: SIDRA datasource diagnosticado (loading-failed, necesita encrypt:false)
+
+### Metrics
+
+- Scripts creados: 4 (add-entrega-dashboard-charts, deploy-ugco-reportes-prod, deploy-buho-kanban, _audit-buho-state)
+- Charts insertados: 3 (ENTREGA Dashboard)
+- Tablas insertadas: 5 (UGCO Reportes)
+- Campos convertidos: 3 (BUHO select fields)
+- Paginas creadas: 1 (BUHO Kanban Pacientes)
+
+---
+
+## 2026-03-10 Session 1 (Analisis integral produccion + P0 fixes + Documentacion UGCO)
+
+**Status:** COMPLETED
+
+**Diagnostico:** Auditoria exhaustiva de las 4 apps en produccion (hospitaldeovalle.cl) usando framework de 12 ejes + 4 transversales. Hallazgo critico: 224 campos con `interface: null` en 3 apps, 7 catalogos vacios, Dashboard UGCO sin graficos, documentacion UGCO faltante.
+
+**Acciones ejecutadas:**
+
+- **Auditoria integral**: Recoleccion de datos via API (rutas, roles, workflows, datasources, colecciones, schemas, conteos), analisis de UI schemas, verificacion de CRUD, ACL y campos
+- **P0-1: Fix interfaces**: 224 campos corregidos via `scripts/fix-null-interfaces.ts` — mapeo automatico de tipos DB a interfaces NocoBase
+- **P0-2: Seed catalogos**: 7 colecciones pobladas (125 registros) via `scripts/seed-empty-catalogs.ts`
+- **P0-4: Dashboard charts**: 3 bloques chart insertados en Dashboard UGCO (Statistic, Bar, Pie) via `scripts/add-ugco-dashboard-charts.ts`
+- **Documentacion UGCO**: 3 documentos creados en paralelo:
+  - `MANUAL_USUARIO.md` — 8 secciones, 9 roles, 8 workflows, 20 terminos
+  - `FLUJOS_DE_USO.md` — 7 flujos, modelo ER, validaciones, permisos 9x12
+  - `ESTANDARES_CALIDAD.md` — 928 lineas, 124 checklist items
+- **Verificacion**: 9 PASS, 0 FAIL (via `scripts/_audit-verify-fixes.ts`)
+- **Reporte**: `docs/audit/analisis-integral-produccion-2026-03-10.md` actualizado con resultados post-fix
+
+### Metrics
+
+- Scripts creados: 9
+- Scripts registrados en scripts.md: 9 (total 314)
+- Campos corregidos: 224
+- Catalogos poblados: 7 (125 registros)
+- Charts insertados: 3
+- Documentos UGCO creados: 3
+
+---
+
+## 2026-03-09 (Cross-agent review + SKILL.md + Plan status update)
+
+**Status:** COMPLETED
+
+**Acciones ejecutadas:**
+
+- Revisada branch `autopilot/blueprint-functional-spec` (Gemini): 10 commits, +22K lineas. Veredicto: todo ya en master o superado por nuestros workflows. No se mergea.
+- **SKILL.md (nocobase-app-builder)**: Agregada referencia a `validate_blueprint.py` en paso 1 del protocolo, link a guia de traduccion workflow 12, nueva seccion "Referencias clave" con 7 links a workflows/reglas/standards
+- **ugco-improvement-plan-v1.md**: Tabla de estado actualizada (P0-P2 completados al 95%+), criterios de exito marcados como DONE, status cambiado a `mostly-complete`
+
+### Metrics
+
+- Files changed: 3 (SKILL.md, ugco-improvement-plan-v1.md, CHANGELOG.md)
+
+---
+
+## 2026-03-09 (Blueprint v2 — AGENDA + UGCO functional_spec + Validation)
+
+**Status:** COMPLETED
+
+**Diagnostico:** Los modulos AGENDA y UGCO en app.yaml solo tenian definiciones minimas de paginas (type + collection + columns) sin functional_spec. Los agentes no tenian informacion suficiente para desplegar UIs completas. Los workflows 11 y 12 no exigian ni usaban page_specs.
+
+**Acciones ejecutadas:**
+
+- **app.yaml AGENDA**: Agregado `functional_spec` completo (~300 lineas):
+  - 5 user journeys (registrar bloque, inasistencia, revisar produccion, calendario, reportes)
+  - 12 page specs con chart_specs, column widths, filters_bar, drawer sections, widgets
+  - 6 business rules (auto-calculo, scopes por rol, superposicion, read-only resumenes)
+  - State machine implicita de editabilidad por fecha/rol
+- **app.yaml UGCO**: Agregado `functional_spec` completo (~350 lineas):
+  - 5 user journeys (caso, episodio, preparar comite, ejecutar comite, seguimiento 360)
+  - 9 page specs (casos list, ficha 360 con tabs, comite list/detail, dashboard con stats)
+  - 2 state machines (onco_casos: 10 transiciones, comite_sesiones: Borrador->En Curso->Cerrada)
+  - 5 business rules (ALMA read-only, codigo auto, especialidad obligatoria, inmutabilidad)
+- **Workflow 11**: Reescrito completo con protocolo 7 pasos + templates YAML + checklist
+- **Workflow 12**: Reescrito con tabla mapeo page_spec -> NocoBase + guia de traduccion bloques
+- **Workflow 10**: Agregadas secciones chart_spec, form_spec, paginas repetitivas
+- **Regla 50**: functional_spec declarado OBLIGATORIO
+- **Regla 70**: Agregado gate validate_blueprint.py
+- **validate_blueprint.py**: Nuevo script de validacion (62 checks, 3 modulos, PASS)
+- **scripts.md**: Script registrado en living dictionary
+
+### Metrics
+- Files changed: 10 | Lines: +1100/-30
+
+---
+
+## 2026-03-09 (Blueprint Enhancement — Functional Specification Layer)
+
+**Status:** COMPLETED — branch `autopilot/blueprint-functional-spec`
+
+**Diagnóstico:** El `app.yaml` definía infraestructura (colecciones, campos, roles) pero perdía toda la riqueza funcional de los PROMPT docs al desplegar, causando que los agentes solo crearan maquetación básica (tablas planas).
+
+**Acciones ejecutadas:**
+
+- **app.yaml**: Agregada sección `functional_spec` al módulo ENTREGA (+375 líneas) con:
+  - 5 user journeys (entrega médica, cotratancia, caso social, enfermería, historial)
+  - 6 page specs con composición de bloques, drawers, filtros y acciones
+  - 1 state machine para `et_turnos` (borrador→en_curso→completada→firmada)
+  - 6 business rules (herencia de plan, validación firma, permisos por rol)
+- **SKILL.md**: Reescrita (46→108 líneas) con pirámide de verificación 5 niveles (L1 Estructural→L5 Reglas de Negocio)
+- **10_nocobase_intake.md**: Expandido (23→67 líneas) para exigir documentación funcional
+- **11_nocobase_generate_spec.md**: Expandido (14→77 líneas) con criterios de calidad (❌ insuficiente vs ✅ completo)
+- **12_nocobase_configure_ui.md**: Expandido (24→83 líneas) con verificación funcional en 5 tiers
+- **_APP_TEMPLATE/README.md**: Agregada sección de especificación funcional
+
+**Verificación:** YAML parse PASS | Commit `e5df0ec` (6 archivos, +684/-47)
+
+---
+
 ## 2026-03-09 (BUHO + AGENDA + ENTREGA — Deploy Completo a Staging)
 
 **Status:** COMPLETED — branch `autopilot/buho-agenda-entrega-full`

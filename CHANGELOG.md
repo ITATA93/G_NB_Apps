@@ -8,6 +8,99 @@ impacts: []
 All notable changes to this project will be documented in this file.
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.7.0] — 2026-03-11
+
+### Added
+
+- **ENTREGA Blueprint Fases 1-4 — Deploy completo en staging** (mira.imedicina.cl)
+  - **Fase 1 — Modelo de datos** (`deploy-entrega-phase2-collections.ts`):
+    - 4 campos editables en `et_pacientes_censo`: estado_turno, es_aislamiento, requiere_interconsulta, tipo_ingreso
+    - 11 campos en `et_turnos`: total_pacientes, total_altas, total_ingresos, total_fallecidos, total_operados, total_evaluaciones, total_interconsultas, distribucion_por_unidad, texto_distribucion, pdf_generado, closed_at
+    - 4 nuevas colecciones: `et_tipos_nota`, `et_notas_clinicas`, `et_operaciones_turno`, `et_config_sistema`
+    - 9 registros seed en et_tipos_nota + 10 parámetros seed en et_config_sistema
+  - **Fase 2 — Roles** (`deploy-entrega-phase2-roles.ts`):
+    - 2 roles nuevos: `tens` (read-only censo), `administrativo` (full catalog + config)
+    - 11 roles existentes actualizados con permisos en las 4 nuevas colecciones
+  - **Fase 3 — Páginas** (`_fix-entrega-pages.ts`):
+    - 3 páginas nuevas con schema completo: `🔪 Pabellón`, `📝 Notas Clínicas`, `⚙️ Configuración`
+    - Asignadas a roles correctos (8, 11, 3 roles respectivamente)
+    - 6 bloques de tabla insertados (`_add-entrega-table-blocks.ts`)
+  - **Fase 4 — Workflows** (`deploy-entrega-phase4-workflows.ts`):
+    - 4 workflows creados: Ingreso paciente (WF-4), Alta paciente (WF-5), Alerta crítico (WF-6), Alerta larga estancia (WF-7)
+    - Nodos de WF-4 y WF-5 configurados con tipo_nota_id correcto (Ingreso=9, Alta=5)
+  - ENTREGA cobertura blueprint: 45% → ~80%
+
+### Fixed
+
+- `scripts/_fix-entrega-failed-fields.ts` — 2 campos con tipos no soportados: attachment→text, richText→text
+
+## [1.6.0] — 2026-03-11
+
+### Added
+
+- **ENTREGA Blueprint Reconciliación (Fase 0)** — Reconciliación completa del blueprint v1.0 con infraestructura MIRA existente
+  - `Apps/ENTREGA/docs/reconciliacion_blueprint_v2.md` — Mapeo detallado: 10 colecciones et_* existentes vs blueprint propuesto, con 5 decisiones de diseño y plan de brechas
+  - `Apps/ENTREGA/docs/strategy_data_sources.md` — Strategy doc: clasificación canónica de campos ALMA (read-only) vs NocoBase (add-on), pipeline ETL Q1→Q13, 6 campos nuevos propuestos
+  - **Sección ENTREGA en app.yaml** — ~480 líneas: 10 colecciones con 130+ campos, 11 roles con ACL, 17 UI pages, 3 workflows, state machine et_turnos, 5 business rules
+  - 6 campos nuevos propuestos (status: 'proposed'): es_aislamiento, pdf_generado, snapshot_distribucion, texto_distribucion
+
+### Changed
+
+- `app-spec/app.yaml` — Expandido de 2625 a ~3100 líneas con módulo ENTREGA completo (reconciliado con deploy existente)
+
+## [1.5.0] — 2026-03-10
+
+### Added
+
+- **Sistema de Auto-Mejora y Prevencion de Fallos** — Framework de 4 componentes para prevenir recurrencia de los 30+ fallos descubiertos en auditorias
+  - `docs/standards/failure-catalog.yaml` — Catalogo machine-readable de 21 fallos con ID, severidad, causa raiz, prevencion y checker asociado
+  - `shared/scripts/verify-deploy.ts` — Script de verificacion post-deploy con 10 checkers automatizados (fields, catalogs, routes, workflows, schemas, charts, ghost blocks)
+  - `.agent/rules/80_failure_prevention.md` — Regla agentica con 14 constraints obligatorias pre/post-deploy
+  - Nivel L0 Automatizado en piramide de verificacion del SKILL.md
+  - Gate 15 automatizado en quality gates (regla 70)
+  - Paso 9 obligatorio en workflow 12 (configure-ui)
+
+## [1.4.0] — 2026-03-10
+
+### Added
+
+- **Analisis integral produccion** — Auditoria de 12 ejes + 4 transversales para las 4 apps en hospitaldeovalle.cl (`docs/audit/analisis-integral-produccion-2026-03-10.md`)
+- **UGCO MANUAL_USUARIO.md** — Manual completo: 8 secciones, 9 roles, 8 flujos paso a paso, 4 automatizaciones, 8 FAQs, 20 terminos glosario
+- **UGCO FLUJOS_DE_USO.md** — 7 flujos detallados, modelo ER, validaciones, matriz permisos 9x12
+- **UGCO ESTANDARES_CALIDAD.md** — 928 lineas, 124 checklist items, 7 secciones (generales, pagina, datos, seguridad, automatizacion, UX, verificacion)
+- **Dashboard UGCO charts** — 3 bloques insertados: Statistic (total casos), Bar (por estado), Pie (por especialidad) via `scripts/add-ugco-dashboard-charts.ts`
+- **9 scripts de auditoria** — fix-null-interfaces, seed-empty-catalogs, add-ugco-dashboard-charts, 5 scripts \_audit-\*, \_verify-dashboard-charts
+- **Dashboard ENTREGA charts** — 3 bloques insertados: Statistic (total pacientes), Bar (por servicio), Pie (por especialidad) via `scripts/add-entrega-dashboard-charts.ts`
+- **UGCO Reportes funcional** — 5 tablas exportables insertadas en pagina Reportes: Casos, Eventos, Tareas, Comites, Casos-Comite via `scripts/deploy-ugco-reportes-prod.ts`
+- **BUHO Kanban** — Pagina Kanban Pacientes desplegada, agrupada por estado_plan (Pendiente/En Curso/Listo para Alta). 3 campos convertidos a select: estado_plan, riesgo_detectado, categorizacion
+
+### Fixed
+
+- **224 campos interface=null** — Corregidos en ENTREGA (164), AGENDA (60), BUHO (56) via `scripts/fix-null-interfaces.ts`. Formularios CRUD ahora funcionales en 3 apps
+- **7 catalogos vacios** — Poblados con datos de referencia: et_especialidades(8), et_servicios(11), ag_categorias(16), ag_inasistencia(6), ag_servicios(10), buho_camas(69), buho_riesgo(5)
+
+## [1.3.0] — 2026-03-09
+
+### Added
+
+- **AGENDA functional_spec** — 5 user journeys, 12 page specs (con chart_specs, form_specs, drawer sections), 6 business rules, state machine de editabilidad
+- **UGCO functional_spec** — 5 user journeys (registro caso, episodios, comite, seguimiento), 9 page specs (casos list, ficha 360 con tabs, comite, dashboard), 2 state machines (onco_casos, comite_sesiones), 5 business rules
+- **validate_blueprint.py** — Script de validacion automatica de completitud del blueprint (62 checks, 3 modulos)
+
+### Changed
+
+- **Workflow 10 (intake)** — Agregadas secciones chart_spec, form_spec y patron de paginas repetitivas
+- **Workflow 11 (generate-spec)** — Reescrito completo con protocolo de 7 pasos, templates YAML y checklist pre-entrega
+- **Workflow 12 (configure-ui)** — Reescrito con tabla de mapeo page_spec -> NocoBase x-component, guia de traduccion bloques, y tabla de errores comunes
+- **Regla 50** — functional_spec declarado OBLIGATORIO por modulo; modulo sin fspec no debe desplegarse
+- **Regla 70** — Agregado gate de blueprint: validate_blueprint.py debe pasar antes de DoD
+- **SKILL.md (nocobase-app-builder)** — Agregada referencia a validate_blueprint.py en paso 1, guia de traduccion workflow 12, seccion "Referencias clave" con links a workflows/reglas/standards
+- **ugco-improvement-plan-v1.md** — Estado actualizado de 2026-03-04 a 2026-03-09: P0-P2 completados (95%), criterios de exito marcados, status `mostly-complete`
+
+### Fixed
+
+- Page specs faltantes para admin_staff, admin_departments, sgq_agenda, sgq_activities (ahora todos los page_keys tienen page_spec)
+
 ## [1.2.0] — 2026-03-09
 
 ### Added

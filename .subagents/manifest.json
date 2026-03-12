@@ -186,6 +186,11 @@
       "priority": 6,
       "triggers": ["database", "SQL", "query", "schema", "migration", "optimize", "collection", "nocobase schema"],
       "instructions": "Database and NocoBase collection analysis. NEVER execute DELETE/DROP/UPDATE without confirmation. Use maximum reasoning for schema design. Familiar with ALMA data model for oncology/clinical records.",
+      "ai_employee_directives": {
+        "noco_mode": "strict",
+        "auto_mapping": true,
+        "capabilities": ["schema_synthesis", "relation_inference"]
+      },
       "codex_config": { "effort": "xhigh", "sequential_warning": true },
       "claude_config": { "model": "opus-4.6", "effort": "max", "adaptive_thinking": true, "allow_parallel": false },
       "gemini_config": { "model": "pro", "thinking_mode": true }
@@ -212,6 +217,11 @@
       "priority": 8,
       "triggers": ["design", "UI", "UX", "layout", "page design", "dashboard", "frontend", "beautiful", "visual", "kanban", "calendar view"],
       "instructions": "Design functional and beautiful NocoBase interfaces for hospital apps. Clinical-first: large touch targets, high contrast, WCAG 2.1 AA. Produce deployable specs using deploy-routes.ts, deploy-blocks.ts, deploy-ui-pages.ts. Read docs/standards/nocobase-page-block-deployment.md BEFORE designing. Output designs to docs/plans/.",
+      "ai_employee_directives": {
+        "noco_mode": "creative",
+        "auto_layout": true,
+        "capabilities": ["block_composition", "theme_application", "accessibility_audit"]
+      },
       "codex_config": { "effort": "high" },
       "claude_config": { "model": "opus-4.6", "effort": "high", "adaptive_thinking": true, "allow_parallel": true },
       "gemini_config": { "model": "pro", "thinking_mode": true }

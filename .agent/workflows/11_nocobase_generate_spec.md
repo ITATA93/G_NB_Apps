@@ -27,6 +27,10 @@ incluyendo la sección `functional_spec` obligatoria.
    - `business_rules`: Validaciones y lógica de negocio
 7. **Seed**: Datos iniciales
 8. **Workflows**: Automaciones y triggers
+9. **AI Configuration** (NocoBase 2.0+):
+   - Configuración para agentes y shortcuts ("AI Employees")
+   - Acceso a base de conocimiento (documentos subidos, embeddings)
+   - Permisos y variables de contexto en prompts
 
 ## Criterio de Calidad
 
